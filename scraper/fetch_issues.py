@@ -30,6 +30,8 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 
+import summarize
+
 WIB = timezone(timedelta(hours=7))
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "docs" / "data"
@@ -101,6 +103,9 @@ class Article:
     image: str | None = None
     brands: list[str] = field(default_factory=list)
     categories: list[str] = field(default_factory=list)
+    text: str = ""  # isi lengkap artikel, hanya dipakai untuk meringkas (tidak disimpan)
+    points: list[str] = field(default_factory=list)
+    summary_by: str = ""  # "ai" | "auto"
 
     @property
     def id(self) -> str:
@@ -114,6 +119,8 @@ class Article:
             "source": self.source,
             "published": self.published.astimezone(WIB).isoformat(),
             "summary": self.summary,
+            "points": self.points,
+            "summary_by": self.summary_by,
             "image": self.image,
             "brands": self.brands,
             "categories": self.categories,
@@ -133,6 +140,7 @@ def get(url: str, retries: int = 3, timeout: int = 25) -> requests.Response | No
             r = session.get(url, timeout=timeout)
             if r.status_code == 200:
                 return r
+            print(f"  ! {url}: HTTP {r.status_code}", file=sys.stderr)
             if r.status_code in (404, 410):
                 return None
         except requests.RequestException as e:
@@ -215,8 +223,9 @@ def collect_from_feed(src: dict, period: Period) -> list[Article]:
                     img = BeautifulSoup(body_html, "lxml").find("img")
                     if img and img.get("src"):
                         image = img["src"]
+                text = clean_text(body_html)
                 out.append(Article(title=title, url=link, source=src["name"], published=pub,
-                                   summary=shorten(clean_text(body_html)), image=image))
+                                   summary=shorten(text), image=image, text=text))
             if oldest and oldest < start_dt:
                 break
         if out:
@@ -310,17 +319,19 @@ def fetch_article(url: str, source: str) -> Article | None:
     paras = [p for p in paras if len(p) > 60]
     summary = shorten(" ".join(paras[:4])) or (meta("og:description", "description") or "")
     return Article(title=clean_text(title), url=url, source=source, published=pub,
-                   summary=summary, image=meta("og:image"))
+                   summary=summary, image=meta("og:image"), text=" ".join(paras))
 
 
 def enrich(article: Article) -> None:
     """Lengkapi gambar / ringkasan dari halaman artikel bila feed terlalu tipis."""
-    if article.image and len(article.summary) > 200:
+    if article.image and len(article.text) > 1200:
         return
     full = fetch_article(article.url, article.source)
     if not full:
         return
     article.image = article.image or full.image
+    if len(full.text) > len(article.text):
+        article.text = full.text
     if len(full.summary) > len(article.summary):
         article.summary = full.summary
 
@@ -396,17 +407,25 @@ def run(period: Period, article_fetch: bool = True) -> dict:
         old = json.loads(out_path.read_text(encoding="utf-8"))
         existing = {x["url"]: x for x in old.get("articles", [])}
 
+    # Ringkas: artikel yang sudah punya ringkasan AI (atau dikunci) tidak diringkas ulang.
+    todo = [a for a in articles
+            if not (existing.get(a.url, {}).get("locked")
+                    or (existing.get(a.url, {}).get("summary_by") == "ai" and existing[a.url].get("points")))]
+    summarize.summarize_all(todo)
+
     merged = []
     for a in articles:
         d = a.to_dict()
         prev = existing.pop(a.url, None)
         if prev:
+            if not d["points"] and prev.get("points"):
+                d["points"], d["summary_by"] = prev["points"], prev.get("summary_by", "")
             # pertahankan suntingan manual (highlight, summary, tags yang dikunci)
             for k in ("highlight", "note"):
                 if k in prev:
                     d[k] = prev[k]
             if prev.get("locked"):
-                d.update({k: prev[k] for k in ("summary", "brands", "categories", "title") if k in prev})
+                d.update({k: prev[k] for k in ("summary", "points", "summary_by", "brands", "categories", "title") if k in prev})
                 d["locked"] = True
         merged.append(d)
     merged.extend(existing.values())  # artikel lama yang tak muncul lagi tetap disimpan
@@ -446,12 +465,15 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--period", help="YYYY-MM-H1 atau YYYY-MM-H2 (default: periode hari ini, WIB)")
     ap.add_argument("--no-article-fetch", action="store_true", help="jangan buka halaman artikel satu per satu")
+    ap.add_argument("--no-ai", action="store_true", help="jangan pakai ringkasan AI walau ANTHROPIC_API_KEY tersedia")
     ap.add_argument("--reindex", action="store_true", help="hanya bangun ulang docs/data/index.json")
     args = ap.parse_args()
     if args.reindex:
         rebuild_index()
         return
     period = Period.parse(args.period) if args.period else Period.for_day(datetime.now(WIB).date())
+    if args.no_ai:
+        summarize.USE_AI = False
     print(f"Periode {period.key} ({period.label})")
     run(period, article_fetch=not args.no_article_fetch)
 

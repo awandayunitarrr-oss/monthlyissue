@@ -58,6 +58,9 @@ jobs:
 
       - name: Ambil artikel
         if: steps.gate.outputs.run == 'true'
+        env:
+          # opsional: bila secret ini diisi, ringkasan ditulis oleh AI
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           if [ -n "${{ inputs.period }}" ]; then
             python scraper/fetch_issues.py --period "${{ inputs.period }}"

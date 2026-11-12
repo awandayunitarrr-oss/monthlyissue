@@ -104,6 +104,10 @@ select:focus,input:focus,button:focus-visible{outline:2px solid var(--accent);ou
 .issue h3 a:hover{text-decoration:underline}
 .issue p{margin:0;color:var(--muted);font-size:13px;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}
 .issue.open p{-webkit-line-clamp:unset}
+.sum-h{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);display:flex;justify-content:space-between;gap:8px}
+.sum-h .by{font-weight:400;text-transform:none;letter-spacing:0}
+.points{margin:0;padding-left:18px;font-size:13px;display:flex;flex-direction:column;gap:5px}
+.points li::marker{color:var(--accent)}
 .tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:auto}
 .tag{font-size:11px;padding:2px 8px;border-radius:999px;background:var(--surface-2);border:1px solid var(--border);cursor:pointer}
 .tag.b{font-weight:600}
@@ -249,7 +253,7 @@ function filtered(ignore){
     (ignore === "brand" || !brand || (brand === "(Umum)" ? !x.brands.length : x.brands.includes(brand))) &&
     (ignore === "cat" || !cat || x.categories.includes(cat)) &&
     (!hl || x.highlight) &&
-    (!q || (x.title + " " + x.summary + " " + x.brands.join(" ")).toLowerCase().includes(q)));
+    (!q || (x.title + " " + x.summary + " " + (x.points || []).join(" ") + " " + x.brands.join(" ")).toLowerCase().includes(q)));
   const s = state.sort;
   a.sort((x,y) => s === "old" ? x.published.localeCompare(y.published)
               : s === "src" ? x.source.localeCompare(y.source) || y.published.localeCompare(x.published)
@@ -315,12 +319,14 @@ function card(x){
     <div class="body">
       <div class="meta"><span class="src"><span class="dot" style="background:${SRC_COLORS[x.source] || "var(--muted)"}"></span>${esc(x.source)}</span><span>${fmtDate(x.published)}</span>${x.highlight ? `<span class="star">★ Highlight</span>` : ""}</div>
       <h3><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></h3>
-      <p>${esc(x.summary)}</p>
+      ${x.points && x.points.length
+        ? `<div class="sum-h">Poin penting <span class="by">${x.summary_by === "ai" ? "ringkasan AI" : x.locked ? "kurasi manual" : "ringkasan otomatis"}</span></div><ul class="points">${x.points.map(p => `<li>${esc(p)}</li>`).join("")}</ul>`
+        : `<p>${esc(x.summary)}</p>`}
       <div class="tags">
         ${x.brands.map(b => `<span class="tag b" data-brand="${esc(b)}">${esc(b)}</span>`).join("")}
         ${x.categories.map(c => `<span class="tag" data-cat="${esc(c)}">${esc(c)}</span>`).join("")}
       </div>
-      <div class="foot"><button data-more>Selengkapnya</button><a href="${esc(x.url)}" target="_blank" rel="noopener">Baca sumber ↗</a></div>
+      <div class="foot">${x.points && x.points.length ? "<span></span>" : "<button data-more>Selengkapnya</button>"}<a href="${esc(x.url)}" target="_blank" rel="noopener">Baca sumber ↗</a></div>
     </div></article>`;
 }
 $("#list").addEventListener("click", e => {
@@ -385,9 +391,9 @@ function bindTips(el){
 
 function exportCSV(){
   const rows = filtered();
-  const head = ["Tanggal","Sumber","Judul","Merek","Kategori","Highlight","Ringkasan","URL"];
+  const head = ["Tanggal","Sumber","Judul","Merek","Kategori","Highlight","Poin penting","URL"];
   const q = v => `"${String(v ?? "").replace(/"/g,'""')}"`;
-  const csv = [head, ...rows.map(x => [fmtDate(x.published), x.source, x.title, x.brands.join("; "), x.categories.join("; "), x.highlight ? "Ya" : "", x.summary, x.url])]
+  const csv = [head, ...rows.map(x => [fmtDate(x.published), x.source, x.title, x.brands.join("; "), x.categories.join("; "), x.highlight ? "Ya" : "", (x.points && x.points.length ? x.points.map(p => "• " + p).join("\n") : x.summary), x.url])]
     .map(r => r.map(q).join(",")).join("\r\n");
   const a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob(["﻿" + csv], { type:"text/csv;charset=utf-8" }));

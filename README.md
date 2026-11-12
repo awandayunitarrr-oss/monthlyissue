@@ -38,3 +38,13 @@ Di file periode, tiap artikel boleh diberi:
 - `"note": "..."` — catatan bebas
 
 Tambah merek/kategori baru cukup lewat `scraper/config.json`.
+
+## Ringkasan artikel ("Poin penting")
+
+Setiap artikel diringkas menjadi 3–5 poin (`scraper/summarize.py`):
+
+- **Tanpa pengaturan apa pun**: ringkasan otomatis — memilih kalimat terpenting dari artikel
+  (kalimat asli, bukan ditulis ulang).
+- **Dengan AI (opsional)**: tambahkan secret `ANTHROPIC_API_KEY` di
+  **Settings → Secrets and variables → Actions → New repository secret**. Ringkasan lalu ditulis
+  ulang oleh Claude dalam bahasa baku, dan artikel yang sudah diringkas AI tidak diringkas ulang.
