@@ -213,7 +213,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "639c7bfc51a1",
@@ -349,7 +351,9 @@
       "categories": [
         "Peluncuran Produk",
         "Aftersales & Servis"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "2790ada7fe2f",
@@ -372,7 +376,9 @@
       "categories": [
         "Spy / Rumor",
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "5163790c3a62",
@@ -948,7 +954,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "0def0d485663",
@@ -990,7 +998,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "2e34fef1f34b",
@@ -1253,7 +1263,9 @@
         "Peluncuran Produk",
         "Penjualan & Pasar",
         "Recall & Kualitas"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "a202e42e17df",

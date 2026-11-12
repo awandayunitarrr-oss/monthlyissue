@@ -354,7 +354,9 @@
         "Peluncuran Produk",
         "Spy / Rumor",
         "Racing & Motorsport"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "0419c80fc1cf",
@@ -509,7 +511,9 @@
       "categories": [
         "Peluncuran Produk",
         "Spy / Rumor"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "3a5eb8100ad6",
@@ -557,7 +561,9 @@
       "categories": [
         "Peluncuran Produk",
         "Regulasi & Kebijakan"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "63d777e9e7b3",
@@ -899,7 +905,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "1abc1047f9d1",
@@ -971,7 +979,9 @@
         "Teknologi & Fitur",
         "Peluncuran Produk",
         "Event & Komunitas"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "834626ff10d6",
@@ -1040,7 +1050,9 @@
       ],
       "categories": [
         "Spy / Rumor"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "d04cc8ce000e",

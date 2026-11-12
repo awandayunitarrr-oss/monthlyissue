@@ -257,7 +257,9 @@
         "Spy / Rumor",
         "Racing & Motorsport",
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "7909c7c49fa4",
@@ -346,7 +348,9 @@
       ],
       "categories": [
         "Spy / Rumor"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "25ee1aa18e5a",
@@ -368,7 +372,9 @@
       ],
       "categories": [
         "Event & Komunitas"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "62760778ca76",
@@ -748,7 +754,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "11a289504a08",
@@ -1159,7 +1167,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "7cdcb0f22c9a",

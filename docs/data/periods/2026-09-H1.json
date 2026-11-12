@@ -105,7 +105,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "ddfcc0936de2",
@@ -402,7 +404,9 @@
       ],
       "categories": [
         "Spy / Rumor"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "ddf571e11f2a",
@@ -667,7 +671,9 @@
       "categories": [
         "Peluncuran Produk",
         "Event & Komunitas"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "e6e29165b6af",
@@ -757,7 +763,9 @@
       "categories": [
         "Event & Komunitas",
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "853c035d9683",
@@ -894,7 +902,9 @@
         "Peluncuran Produk",
         "Penjualan & Pasar",
         "Event & Komunitas"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "e334aeb014f1",
@@ -939,7 +949,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "f15816c80ed9",

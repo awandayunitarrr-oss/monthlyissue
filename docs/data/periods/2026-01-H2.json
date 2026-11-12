@@ -281,7 +281,9 @@
         "Peluncuran Produk",
         "Motor Listrik",
         "Teknologi & Fitur"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "310db28bd7c4",
@@ -882,7 +884,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "4956101d8e45",
@@ -905,7 +909,9 @@
       "categories": [
         "Peluncuran Produk",
         "Teknologi & Fitur"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "8e4ab4d7bda1",
@@ -973,7 +979,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "5b27f19ee083",
@@ -1287,7 +1295,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "2699df3a77d6",
@@ -1469,7 +1479,9 @@
       "categories": [
         "Spy / Rumor",
         "Teknologi & Fitur"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "a5777c0e930d",

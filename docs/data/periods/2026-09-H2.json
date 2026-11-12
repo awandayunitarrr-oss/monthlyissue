@@ -108,7 +108,9 @@
       ],
       "categories": [
         "Teknologi & Fitur"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "3030dd071dae",
@@ -155,7 +157,9 @@
         "Harga & Promo",
         "Peluncuran Produk",
         "Event & Komunitas"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "94f791288677",
@@ -620,7 +624,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "62710d75b6d2",
@@ -642,7 +648,9 @@
       ],
       "categories": [
         "Lainnya"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "85018dfd8ab3",
@@ -843,7 +851,9 @@
       "categories": [
         "Peluncuran Produk",
         "Teknologi & Fitur"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "4a6c09a7081c",
@@ -1477,7 +1487,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "5d4c42f3d2db",

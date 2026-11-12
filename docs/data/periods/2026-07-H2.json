@@ -293,7 +293,9 @@
         "Peluncuran Produk",
         "Teknologi & Fitur",
         "Event & Komunitas"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "0eb6eae91f83",
@@ -449,7 +451,9 @@
       "categories": [
         "Peluncuran Produk",
         "Spy / Rumor"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "145a8eb0b89b",
@@ -606,7 +610,9 @@
       "categories": [
         "Regulasi & Kebijakan",
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "42e89328134d",
@@ -628,7 +634,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "46883c389b79",
@@ -882,7 +890,9 @@
       "categories": [
         "Penjualan & Pasar",
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "e7d1fe981787",

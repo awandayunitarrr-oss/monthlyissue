@@ -85,7 +85,9 @@
         "Teknologi & Fitur",
         "Peluncuran Produk",
         "Aftersales & Servis"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "566c77add70b",
@@ -595,7 +597,9 @@
       "categories": [
         "Peluncuran Produk",
         "Spy / Rumor"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "b2913ca7b41a",
@@ -955,7 +959,9 @@
         "Teknologi & Fitur",
         "Peluncuran Produk",
         "Regulasi & Kebijakan"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "4ea3887562a6",
@@ -998,7 +1004,9 @@
       ],
       "categories": [
         "Teknologi & Fitur"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "7e2c966bff23",
@@ -1043,7 +1051,9 @@
       "categories": [
         "Peluncuran Produk",
         "Teknologi & Fitur"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "d1b266f63508",
@@ -1065,7 +1075,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "ea7f1489f3e4",

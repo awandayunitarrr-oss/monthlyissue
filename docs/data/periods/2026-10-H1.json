@@ -742,7 +742,9 @@
       "categories": [
         "Peluncuran Produk",
         "Teknologi & Fitur"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "f1c29e9504a7",
@@ -806,7 +808,9 @@
       "brands": [],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "d3d5be6415e6",
@@ -1217,7 +1221,9 @@
       "categories": [
         "Recall & Kualitas",
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "a047a652a522",
@@ -1393,7 +1399,9 @@
       "categories": [
         "Peluncuran Produk",
         "Racing & Motorsport"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "50294fc9cb95",
@@ -1484,7 +1492,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "6275c050a762",

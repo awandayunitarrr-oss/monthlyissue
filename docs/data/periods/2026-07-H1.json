@@ -246,7 +246,9 @@
       "categories": [
         "Teknologi & Fitur",
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "fd708df1be09",
@@ -354,7 +356,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "0e414fabbbe8",
@@ -482,7 +486,9 @@
       ],
       "categories": [
         "Teknologi & Fitur"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "28d34428bd79",
@@ -691,7 +697,9 @@
       "categories": [
         "Harga & Promo",
         "Spy / Rumor"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "f82f8aeb3764",
@@ -1063,7 +1071,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "b4230cb40219",
@@ -1175,7 +1185,9 @@
         "Peluncuran Produk",
         "Harga & Promo",
         "Teknologi & Fitur"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "64b557a02f24",

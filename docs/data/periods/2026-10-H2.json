@@ -496,7 +496,9 @@
         "Peluncuran Produk",
         "Harga & Promo",
         "Event & Komunitas"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "d533d2512391",
@@ -890,7 +892,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "67e9ad6b474b",
@@ -1043,7 +1047,9 @@
       "categories": [
         "Peluncuran Produk",
         "Event & Komunitas"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "246d5252a6a2",
@@ -1149,7 +1155,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "580054ed147b",
@@ -1768,7 +1776,9 @@
       "categories": [
         "Peluncuran Produk",
         "Spy / Rumor"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "e6aa52cb48bd",
@@ -1812,7 +1822,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "3c6997929844",

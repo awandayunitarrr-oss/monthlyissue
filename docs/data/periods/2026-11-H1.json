@@ -1188,7 +1188,9 @@
       "categories": [
         "Peluncuran Produk",
         "Motor Listrik"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "f2d31ba9f651",
@@ -1277,7 +1279,9 @@
       "categories": [
         "Peluncuran Produk",
         "Teknologi & Fitur"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "41be76b369c0",
@@ -1299,7 +1303,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "096f5face9e1",
@@ -1346,7 +1352,9 @@
         "Peluncuran Produk",
         "Motor Listrik",
         "Event & Komunitas"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "c19f416ac751",
@@ -1370,7 +1378,9 @@
         "Peluncuran Produk",
         "Motor Listrik",
         "Teknologi & Fitur"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "809cc5b86ce1",
@@ -1504,7 +1514,9 @@
         "Regulasi & Kebijakan",
         "Harga & Promo",
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "9177344ea0fc",

@@ -175,7 +175,9 @@
       ],
       "categories": [
         "Teknologi & Fitur"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "3cf39e3c2b06",
@@ -547,7 +549,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "f99bc530e5e1",
@@ -953,7 +957,9 @@
         "Teknologi & Fitur",
         "Spy / Rumor",
         "Racing & Motorsport"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "92df8c1dc3e8",
@@ -1061,7 +1067,9 @@
       "categories": [
         "Peluncuran Produk",
         "Motor Listrik"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "986861eaaf8c",
@@ -1209,7 +1217,9 @@
       "categories": [
         "Peluncuran Produk",
         "Harga & Promo"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "10da16b40fa5",
@@ -1453,7 +1463,9 @@
         "Peluncuran Produk",
         "Harga & Promo",
         "Penjualan & Pasar"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "0a0ae1fb9ec7",

@@ -240,7 +240,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "c6264883586d",
@@ -390,7 +392,9 @@
       "categories": [
         "Event & Komunitas",
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "c6618d382909",
@@ -769,7 +773,9 @@
         "Peluncuran Produk",
         "Event & Komunitas",
         "Motor Listrik"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "18e1f3debb2d",
@@ -902,7 +908,9 @@
         "Event & Komunitas",
         "Teknologi & Fitur",
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "68004781f40c",
@@ -1060,7 +1068,9 @@
         "Spy / Rumor",
         "Racing & Motorsport",
         "Event & Komunitas"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "0bb1e5c5bd99",
@@ -1195,7 +1205,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "56a409370746",

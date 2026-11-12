@@ -478,7 +478,9 @@
       "categories": [
         "Peluncuran Produk",
         "Penjualan & Pasar"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "0bf1ef36c701",
@@ -731,7 +733,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "b4dbaed346a9",
@@ -755,7 +759,9 @@
         "Spy / Rumor",
         "Peluncuran Produk",
         "Event & Komunitas"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "ffa9b989fbdc",
@@ -1071,7 +1077,9 @@
         "Peluncuran Produk",
         "Teknologi & Fitur",
         "Event & Komunitas"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "7d13d4fff771",
@@ -1495,7 +1503,9 @@
       "categories": [
         "Peluncuran Produk",
         "Teknologi & Fitur"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "1252a670adf2",
@@ -1563,7 +1573,9 @@
         "Peluncuran Produk",
         "Motor Listrik",
         "Harga & Promo"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "becd9c851ef3",

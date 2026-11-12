@@ -1154,7 +1154,9 @@
       "brands": [],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "9806ce46d423",

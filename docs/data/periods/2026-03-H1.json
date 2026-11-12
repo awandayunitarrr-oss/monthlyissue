@@ -150,7 +150,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "b6521078c164",
@@ -290,7 +292,9 @@
       "categories": [
         "Spy / Rumor",
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "50d63a1f37cc",
@@ -382,7 +386,9 @@
       "categories": [
         "Peluncuran Produk",
         "Harga & Promo"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "173bdd5180f8",
@@ -606,7 +612,9 @@
       "categories": [
         "Spy / Rumor",
         "Motor Listrik"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "e03021ed92a0",
@@ -762,7 +770,9 @@
         "Motor Listrik",
         "Spy / Rumor",
         "Harga & Promo"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "2cb5c288f18c",
@@ -914,7 +924,9 @@
       "categories": [
         "Peluncuran Produk",
         "Teknologi & Fitur"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "6f6e512d9f2c",

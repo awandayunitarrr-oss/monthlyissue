@@ -104,7 +104,9 @@
       "categories": [
         "Peluncuran Produk",
         "Racing & Motorsport"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "f551456fa89e",
@@ -779,7 +781,9 @@
       ],
       "categories": [
         "Regulasi & Kebijakan"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "8f80df84aca9",
@@ -844,7 +848,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "21ad621a47fa",
