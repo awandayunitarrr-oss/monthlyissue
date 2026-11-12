@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T11:36:05+07:00",
+  "updated_at": "2026-11-12T11:46:14+07:00",
   "periods": [
     {
       "period": "2026-11-H1",
@@ -7,7 +7,7 @@
       "start": "2026-11-01",
       "end": "2026-11-15",
       "count": 80,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "generated_at": "2026-11-12T11:46:12+07:00",
       "file": "data/periods/2026-11-H1.json"
     },
     {
@@ -16,7 +16,7 @@
       "start": "2026-10-16",
       "end": "2026-10-31",
       "count": 114,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "generated_at": "2026-11-12T11:46:12+07:00",
       "file": "data/periods/2026-10-H2.json"
     },
     {
@@ -25,7 +25,7 @@
       "start": "2026-10-01",
       "end": "2026-10-15",
       "count": 100,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "generated_at": "2026-11-12T11:46:12+07:00",
       "file": "data/periods/2026-10-H1.json"
     },
     {
@@ -34,7 +34,7 @@
       "start": "2026-09-16",
       "end": "2026-09-30",
       "count": 98,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "generated_at": "2026-11-12T11:46:13+07:00",
       "file": "data/periods/2026-09-H2.json"
     },
     {
@@ -42,8 +42,8 @@
       "label": "1 – 15 September 2026",
       "start": "2026-09-01",
       "end": "2026-09-15",
-      "count": 81,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "count": 115,
+      "generated_at": "2026-11-12T11:46:13+07:00",
       "file": "data/periods/2026-09-H1.json"
     },
     {
@@ -51,8 +51,8 @@
       "label": "16 – 31 Agustus 2026",
       "start": "2026-08-16",
       "end": "2026-08-31",
-      "count": 63,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "count": 106,
+      "generated_at": "2026-11-12T11:46:13+07:00",
       "file": "data/periods/2026-08-H2.json"
     },
     {
@@ -60,8 +60,8 @@
       "label": "1 – 15 Agustus 2026",
       "start": "2026-08-01",
       "end": "2026-08-15",
-      "count": 58,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "count": 92,
+      "generated_at": "2026-11-12T11:46:13+07:00",
       "file": "data/periods/2026-08-H1.json"
     },
     {
@@ -69,8 +69,8 @@
       "label": "16 – 31 Juli 2026",
       "start": "2026-07-16",
       "end": "2026-07-31",
-      "count": 47,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "count": 89,
+      "generated_at": "2026-11-12T11:46:14+07:00",
       "file": "data/periods/2026-07-H2.json"
     },
     {
@@ -78,8 +78,8 @@
       "label": "1 – 15 Juli 2026",
       "start": "2026-07-01",
       "end": "2026-07-15",
-      "count": 59,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "count": 92,
+      "generated_at": "2026-11-12T11:46:14+07:00",
       "file": "data/periods/2026-07-H1.json"
     },
     {
@@ -87,8 +87,8 @@
       "label": "16 – 30 Juni 2026",
       "start": "2026-06-16",
       "end": "2026-06-30",
-      "count": 70,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "count": 99,
+      "generated_at": "2026-11-12T11:46:14+07:00",
       "file": "data/periods/2026-06-H2.json"
     },
     {
@@ -96,8 +96,8 @@
       "label": "1 – 15 Juni 2026",
       "start": "2026-06-01",
       "end": "2026-06-15",
-      "count": 50,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "count": 78,
+      "generated_at": "2026-11-12T11:46:14+07:00",
       "file": "data/periods/2026-06-H1.json"
     },
     {
@@ -105,8 +105,8 @@
       "label": "16 – 31 Mei 2026",
       "start": "2026-05-16",
       "end": "2026-05-31",
-      "count": 64,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "count": 75,
+      "generated_at": "2026-11-12T11:46:14+07:00",
       "file": "data/periods/2026-05-H2.json"
     },
     {
@@ -115,7 +115,7 @@
       "start": "2026-05-01",
       "end": "2026-05-15",
       "count": 67,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "generated_at": "2026-11-12T11:46:14+07:00",
       "file": "data/periods/2026-05-H1.json"
     },
     {
@@ -124,7 +124,7 @@
       "start": "2026-04-16",
       "end": "2026-04-30",
       "count": 62,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "generated_at": "2026-11-12T11:46:14+07:00",
       "file": "data/periods/2026-04-H2.json"
     },
     {
@@ -133,7 +133,7 @@
       "start": "2026-04-01",
       "end": "2026-04-15",
       "count": 53,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "generated_at": "2026-11-12T11:46:14+07:00",
       "file": "data/periods/2026-04-H1.json"
     },
     {
@@ -142,7 +142,7 @@
       "start": "2026-03-16",
       "end": "2026-03-31",
       "count": 68,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "generated_at": "2026-11-12T11:46:14+07:00",
       "file": "data/periods/2026-03-H2.json"
     },
     {
@@ -151,7 +151,7 @@
       "start": "2026-03-01",
       "end": "2026-03-15",
       "count": 53,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "generated_at": "2026-11-12T11:46:14+07:00",
       "file": "data/periods/2026-03-H1.json"
     },
     {
@@ -160,7 +160,7 @@
       "start": "2026-02-16",
       "end": "2026-02-28",
       "count": 65,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "generated_at": "2026-11-12T11:46:14+07:00",
       "file": "data/periods/2026-02-H2.json"
     },
     {
@@ -169,7 +169,7 @@
       "start": "2026-02-01",
       "end": "2026-02-15",
       "count": 70,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "generated_at": "2026-11-12T11:46:14+07:00",
       "file": "data/periods/2026-02-H1.json"
     },
     {
@@ -178,7 +178,7 @@
       "start": "2026-01-16",
       "end": "2026-01-31",
       "count": 83,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "generated_at": "2026-11-12T11:46:14+07:00",
       "file": "data/periods/2026-01-H2.json"
     },
     {
@@ -187,7 +187,7 @@
       "start": "2026-01-01",
       "end": "2026-01-15",
       "count": 69,
-      "generated_at": "2026-11-12T11:36:05+07:00",
+      "generated_at": "2026-11-12T11:46:14+07:00",
       "file": "data/periods/2026-01-H1.json"
     }
   ]

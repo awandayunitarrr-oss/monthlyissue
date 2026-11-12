@@ -3,11 +3,11 @@
   "label": "1 – 15 Agustus 2026",
   "start": "2026-08-01",
   "end": "2026-08-15",
-  "generated_at": "2026-11-12T11:36:05+07:00",
+  "generated_at": "2026-11-12T11:46:13+07:00",
   "sources": {
     "Iwan Banaran": {
-      "count": 0,
-      "method": null
+      "count": 34,
+      "method": "feed+listing+sitemap"
     },
     "Pertamax7": {
       "count": 0,
@@ -19,6 +19,28 @@
     }
   },
   "articles": [
+    {
+      "id": "e424fc22df93",
+      "title": "Breaking ! Bajaj Rilis New Pulsar N160 S dan N160 SS…Lahhh Muka Nyontek MT-15 !?",
+      "url": "https://iwanbanaran.com/news/breaking-bajaj-rilis-new-pulsar-n160-s-dan-n160-ss-lahhh-muka-nyontek-mt-15",
+      "source": "Iwan Banaran",
+      "published": "2026-08-15T13:56:28+07:00",
+      "summary": "Iwanbanaran.com – Caaakkkk….kali ini IWB punya kabar hot yang datang dari negeri kawasan Asia Selatan, India. Menyambut perayaan 25 tahun berkiprahnya nama besar Pulsar, Bajaj Auto baru saja bikin geger pasar roda dua dengan merilis dua amunisi terbaru mereka di jajaran Pulsar N-series, yakni Bajaj Pulsar N160 S dan sang flagship Pulsar N160 SS . Dan ini bukan sekadar facelift tempel stiker cak, tapi mesin dan fiturnya bener-bener dirombak abis-abisan! Termasuk muka…lah nyontek Yamaha MT15 ?? Lupakan mesin Pulsar N160 versi lawas yang masih berpendingin udara biasa dengan 2-valve.",
+      "points": [
+        "Menyambut perayaan 25 tahun berkiprahnya nama besar Pulsar, Bajaj Auto baru saja bikin geger pasar roda dua dengan merilis dua amunisi terbaru mereka di jajaran Pulsar N-series, yakni Bajaj Pulsar N160 S dan sang flagship Pulsar N160 SS.",
+        "Pulsar N160 SS (Flagship): Udah pakai layar TFT 5 inci penuh warna yang didukung Bluetooth + Wi-Fi.",
+        "Suspensi Upside Down (USD) yang tadinya berukuran 33 mm kini membengkak jadi USD 37 mm, otomatis tampilan depan kelihatan lebih gagah lan makin anteng saat digeber. pengereman cakram depan juga membengkak dari 280 mm menjadi 300 mm dengan opsi Dual-Channel ABS atau Single-Channel ABS.",
+        "Namun apapun itu…langkah Bajaj menghadirkan N160 S dan N160 SS jelas bikin persaingan motor naked sport 150-160 cc India makin panas cak."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/breaking-bajaj-rilis-new-pulsar-n160-s-dan-n160-ss-lahhh-muka-nyontek-mt-15",
+      "brands": [
+        "Yamaha"
+      ],
+      "categories": [
+        "Peluncuran Produk"
+      ]
+    },
     {
       "id": "010765d3920f",
       "title": "Blak Blakan Quartararo : Putuskan Hengkang dari Yamaha sejak Tes Valencia 2025",
@@ -66,6 +88,31 @@
       ]
     },
     {
+      "id": "f08c4c8df27d",
+      "title": "Hot ! Yamaha Mulai Buka Inden YZF-R2….power gede gilaaa",
+      "url": "https://iwanbanaran.com/news/hot-yamaha-mulai-buka-inden-yzf-r2-power-gede-gilaaa",
+      "source": "Iwan Banaran",
+      "published": "2026-08-15T06:00:56+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…kejutan datang dari India yang dipastikan akan merilis New YZF-R2 . Jadi kini bukan sekedar isu namun fix udah pasti. Yamaha India secara resmi mulai membuka keran pemesanan ( pre-booking ) untuk sepeda motor sport fairing terbaru dari klan R-Series. Konsumen yang berminat dapat melakukan pemesanan awal melalui situs resmi Yamaha India dengan biaya tanda jadi sebesar 10.000 Rupee (sekitar Rp1,8 jutaan).",
+      "points": [
+        "Kejutan datang dari India yang dipastikan akan merilis New YZF-R2.",
+        "Yamaha India secara resmi mulai membuka keran pemesanan ( pre-booking ) untuk sepeda motor sport fairing terbaru dari klan R-Series.",
+        "Konsumen yang berminat dapat melakukan pemesanan awal melalui situs resmi Yamaha India dengan biaya tanda jadi sebesar 10.000 Rupee (sekitar Rp1,8 jutaan).",
+        "Secara teknis, R2 diperkirakan akan mengusung sasis Deltabox dan suspensi upside-down (USD) yang diturunkan dari R15 V4, namun dibekali dapur pacu berkapasitas lebih besar: Estimasi Performa: Tenaga maksimum sekitar 25 PS dan torsi 20 Nm."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/hot-yamaha-mulai-buka-inden-yzf-r2-power-gede-gilaaa",
+      "brands": [
+        "Yamaha"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Spy / Rumor"
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
+    },
+    {
       "id": "919120a0e310",
       "title": "Tragedi Marco Simoncelli – Sepang 2011 jadi Titik Evolusi Penanganan Medis MotoGP",
       "url": "https://tmcblog.com/2026/08/15/tragedi-marco-simoncelli-sepang-2011-jadi-titik-evolusi-penanganan-medis-motogp/?utm_source=rss&utm_medium=rss&utm_campaign=tragedi-marco-simoncelli-sepang-2011-jadi-titik-evolusi-penanganan-medis-motogp",
@@ -83,6 +130,72 @@
       "brands": [],
       "categories": [
         "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "f3bb5fc647a4",
+      "title": "Presiden Wanti-Wanti Pakai “Motor Bensin”….Ngeri kalau beneran",
+      "url": "https://iwanbanaran.com/news/presiden-wanti-wanti-pakai-motor-bensin-ngeri-kalau-beneran",
+      "source": "Iwan Banaran",
+      "published": "2026-08-14T20:00:40+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…. Pernyataan tegas bernada kelakar meluncur dari Presiden Prabowo Subianto saat meresmikan ekosistem Motor Listrik Nasional (Molinas) di Cikarang, Bekasi. Di hadapan para pelaku industri, Presiden secara terbuka memberi peringatan ( warning ) bagi masyarakat yang masih enggan beranjak dari kendaraan berbahan bakar minyak. “Jadi nanti kalau ada yang masih pakai motor bensin, ya rasain sendiri,” seloroh Presiden.",
+      "points": [
+        "Pernyataan tegas bernada kelakar meluncur dari Presiden Prabowo Subianto saat meresmikan ekosistem Motor Listrik Nasional (Molinas) di Cikarang, Bekasi.",
+        "“Jadi nanti kalau ada yang masih pakai motor bensin, ya rasain sendiri,” seloroh Presiden.",
+        "Satu unit mobil atau sepeda motor bensin terdiri dari 2.000 hingga 3.000 lebih komponen bergerak —mulai dari piston, katup ( valve ), kruk as, sistem injeksi, hingga knalpot dan transmisi multi-percepatan.",
+        "Last…dengan kalkulasi kasar ada sekitar 1 juta hingga 1,7 juta tenaga kerja di Indonesia yang kehidupannya bergantung langsung pada keberlangsungan rantai pasok dan perawatan komponen mesin pembakaran internal (ICE)."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/presiden-wanti-wanti-pakai-motor-bensin-ngeri-kalau-beneran",
+      "brands": [],
+      "categories": [
+        "Peluncuran Produk",
+        "Motor Listrik"
+      ]
+    },
+    {
+      "id": "ebc3ea6bb2ce",
+      "title": "Ducati akui mereka kalah dari Aprilia…” Kami Gagal” seru Gigi",
+      "url": "https://iwanbanaran.com/news/ducati-akui-mereka-kalah-dari-aprilia-kami-gagal-seru-gigi",
+      "source": "Iwan Banaran",
+      "published": "2026-08-14T15:36:59+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…. Dominasi Ducati di panggung MotoGP mendapat tamparan keras pada seri Grand Prix Inggris di Sirkuit Silverstone. General Manager Ducati Corse, Luigi “Gigi” Dall’Igna, secara terbuka mengakui bahwa timnya diseret kembali ke realita keras persaingan musim ini setelah digilas oleh ketangguhan armada Aprilia sepanjang akhir pekan. Di sirkuit legendaris sepanjang 5,9 kilometer tersebut, sang juara bertahan sama sekali tidak berkutik.",
+      "points": [
+        "Dominasi Ducati di panggung MotoGP mendapat tamparan keras pada seri Grand Prix Inggris di Sirkuit Silverstone.",
+        "General Manager Ducati Corse, Luigi “Gigi” Dall’Igna, secara terbuka mengakui bahwa timnya diseret kembali ke realita keras persaingan musim ini setelah digilas oleh ketangguhan armada Aprilia sepanjang akhir pekan.",
+        "Last…Kekecewaan Ducati menjadi panggung pesta bagi Aprilia.",
+        "Lewat kemenangan mengejutkan Raul Fernandez dari tim satelit Trackhouse Aprilia, pabrikan asal Noale tersebut kini mencatatkan rekor impresif: keempat pembalapnya berhasil memenangi balapan utama di musim ini."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/ducati-akui-mereka-kalah-dari-aprilia-kami-gagal-seru-gigi",
+      "brands": [
+        "Vespa / Piaggio",
+        "Ducati"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "ec22d7d22f78",
+      "title": "Setelah Filipina, New Suzuki Brugman 15 Siap Gempur Thailand…Indonesia Kapan ???",
+      "url": "https://iwanbanaran.com/news/setelah-filipina-new-suzuki-brugman-15-siap-gempur-thailand-indonesia-kapan",
+      "source": "Iwan Banaran",
+      "published": "2026-08-14T12:00:37+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…. Pasar skutik bongsor ( maxi-scooter ) kelas 150–160 cc di kawasan Asia Tenggara dipastikan semakin panas. Menyusul peluncuran perdananya di Filipina sebagai negara pertama di ASEAN, Suzuki Burgman 15 kini menjadi sorotan utama di Thailand dan diprediksi kuat akan diperkenalkan secara resmi pada ajang Motor Expo mendatang. Kehadiran Burgman 15 dirancang untuk mengisi celah strategis di antara Burgman Street 125 EX dan Burgman 400.",
+      "points": [
+        "Pasar skutik bongsor ( maxi-scooter ) kelas 150–160 cc di kawasan Asia Tenggara dipastikan semakin panas.",
+        "Menyusul peluncuran perdananya di Filipina sebagai negara pertama di ASEAN, Suzuki Burgman 15 kini menjadi sorotan utama di Thailand dan diprediksi kuat akan diperkenalkan secara resmi pada ajang Motor Expo mendatang.",
+        "Mesin ini sanggup menyemburkan tenaga maksimal hingga 14,4 PS (10,6 kW) pada 8.500 rpm dan torsi puncak 14,2 Nm pada 6.500 rpm.",
+        "Last…Di pasar Filipina, Suzuki Burgman 15 dibanderol seharga 165.000 Peso (sekitar Rp45 jutaan)."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/setelah-filipina-new-suzuki-brugman-15-siap-gempur-thailand-indonesia-kapan",
+      "brands": [
+        "Suzuki"
+      ],
+      "categories": [
+        "Peluncuran Produk"
       ]
     },
     {
@@ -107,6 +220,29 @@
       ]
     },
     {
+      "id": "da3f529a933d",
+      "title": "Breaking ! Honda rilis New CB300F Twister 2027….Cucu sang Macan Lahir",
+      "url": "https://iwanbanaran.com/news/breaking-honda-rilis-new-cb300f-twister-2027-cucu-sang-macan-lahir",
+      "source": "Iwan Banaran",
+      "published": "2026-08-14T06:56:44+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…. menunjuk Diego Moreira sebagai bintang launching, Honda kembali mempertegas dominasinya di segmen naked bike kelas menengah. Lewat kemunculan Honda CB300F Twister 2027 , pabrikan berlogo kepak sayap ini resmi membawa lini Twister naik kelas. Motor yang menjadi tulang punggung segmen street di Amerika Latin tersebut kini dibekali performa lebih bertenaga, teknologi keselamatan canggih, serta bahasa desain agresif yang diadaptasi dari jajaran motor berkapasitas besar ( moge ).",
+      "points": [
+        "Lewat kemunculan Honda CB300F Twister 2027, pabrikan berlogo kepak sayap ini resmi membawa lini Twister naik kelas.",
+        "Dapur pacu Honda CB300F Twister mengandalkan mesin monosilinder 293,5 cc OHC 4-langkah berpendingin udara.",
+        "Honda tidak main-main dalam menyematkan teknologi pada CB300F Twister.",
+        "Dengan kombinasi desain streetfighter, performa responsif 300 cc, serta deretan fitur keselamatan kelas atas, Honda CB300F Twister siap menjadi standar baru motor naked serbaguna bagi para pecinta roda dua."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/breaking-honda-rilis-new-cb300f-twister-2027-cucu-sang-macan-lahir",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Teknologi & Fitur"
+      ]
+    },
+    {
       "id": "32654c4a08c6",
       "title": "Resmi Ditolak! MotoGP Batal Pangkas Jumlah Motor per Pembalap untuk Era 2027",
       "url": "https://tmcblog.com/2026/08/14/resmi-ditolak-motogp-batal-pangkas-jumlah-motor-per-pembalap-untuk-era-2027/?utm_source=rss&utm_medium=rss&utm_campaign=resmi-ditolak-motogp-batal-pangkas-jumlah-motor-per-pembalap-untuk-era-2027",
@@ -128,6 +264,29 @@
         "Racing & Motorsport",
         "Peluncuran Produk",
         "Regulasi & Kebijakan"
+      ]
+    },
+    {
+      "id": "1f75a3bd5a08",
+      "title": "Gegerr ! MoLinas CAKRA Resmi Dirilis Presiden Prabowo….Lho kok tampang Kayak Alva ??",
+      "url": "https://iwanbanaran.com/news/gegerr-molinas-cakra-resmi-dirilis-presiden-prabowo-lho-kok-tampang-kayak-alva",
+      "source": "Iwan Banaran",
+      "published": "2026-08-13T18:13:44+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…. Presiden Republik Indonesia Prabowo Subianto secara resmi meluncurkan Program Motor Listrik Nasional (Molinas) beserta ekosistem pendukungnya di Cikarang, Kabupaten Bekasi, Jawa Barat, Rabu (13/8/2026). Jadi masih angettt poll cakkk. Namun yang bikin IWB kaget….Molinas berlabel Cakra ini ternyata memiliki desain yang sangat identik denganMolis Alva N3.",
+      "points": [
+        "Presiden Republik Indonesia Prabowo Subianto secara resmi meluncurkan Program Motor Listrik Nasional (Molinas) beserta ekosistem pendukungnya di Cikarang, Kabupaten Bekasi, Jawa Barat, Rabu (13/8/2026).",
+        "Secara khusus, Presiden mengapresiasi kontribusi Indika Group—melalui PT Ilectra Motor Group (IMG) sebagai produsen ALVA—yang telah memproduksi sekitar 20.000 unit motor listrik mendahului peluncuran resmi program nasional ini.",
+        "Sebagai Pembanding (ALVA N3): Karena Cakra NX1 menggunakan basis penuh dari ALVA N3, sebagai gambaran, ALVA N3 standar dipasarkan di kisaran Rp11,5 juta hingga Rp18,5 jutaan (tergantung varian baterai tunggal/ganda serta skema sewa/pembelian baterai).",
+        "Skema Pembelian Tanpa DP & Bunga Kering: Presiden Prabowo Subianto menegaskan bahwa untuk program Molinas Cakra ini, pemerintah mengupayakan skema pembiayaan khusus rakyat berupa DP 0% (Tanpa DP), suku bunga cicilan yang sangat rendah, serta fasilitas program tukar tambah ( trade-in ) dari motor bensin lama."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/gegerr-molinas-cakra-resmi-dirilis-presiden-prabowo-lho-kok-tampang-kayak-alva",
+      "brands": [
+        "Alva"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Motor Listrik"
       ]
     },
     {
@@ -223,6 +382,30 @@
       ]
     },
     {
+      "id": "97285c2de475",
+      "title": "Kalibrasi Skill “Tekuk Stang” ….Inilah Instruktur Safety Riding Terbaik se-Indonesia 2026",
+      "url": "https://iwanbanaran.com/news/kalibrasi-skill-tekuk-stang-inilah-instruktur-safety-riding-terbaik-se-indonesia-2026",
+      "source": "Iwan Banaran",
+      "published": "2026-08-12T11:00:05+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….bicarain soal komitmen keselamatan berkendara di jalan raya, PT Astra Honda Motor (AHM) memang rajanya. Udah bukan rahasia lagi kalau AHM paling konsisten menggembleng para rider dan instruktur Honda agar makin mumpuni. Nah, memasuki tahun ke-17 penyelenggaraannya, puncak acara The 17th Astra Honda Safety Riding Instructors Competition (AHSRIC) 2026 resmi sukses digelar pada 4–7 Agustus 2026 kemarin! Kalibrasi Skill “Tekuk Stang” ….Inilah Instruktur Safety Riding Terbaik se-Indonesia 2026 !! IWB mencatat, pertempuran para jawara safety riding ini dihelat di markas…",
+      "points": [
+        "Memasuki tahun ke-17 penyelenggaraannya, puncak acara The 17th Astra Honda Safety Riding Instructors Competition (AHSRIC) 2026 resmi sukses digelar pada 4–7 Agustus 2026 kemarin.",
+        "IWB mencatat, pertempuran para jawara safety riding ini dihelat di markas besarnya langsung, yakni Astra Honda Motor Safety Riding Park, Deltamas, Cikarang.",
+        "Di tingkat regional, ajang ini diserbu oleh: Setelah disaring super ketat, terpilihlah 209 peserta terbaik yang berhak mencicipi aspal AHM Safety Riding Park di level nasional.",
+        "Fasilitas mewah AHM Safety Riding Park di Cikarang pun terbuka luas untuk masyarakat umum yang ingin mengasah skill berkendara."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/kalibrasi-skill-tekuk-stang-inilah-instruktur-safety-riding-terbaik-se-indonesia-2026",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Peluncuran Produk"
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
+    },
+    {
       "id": "bdd1cd457c05",
       "title": "Hot News: MotoGP Pertimbangkan Opsi Pemindahan Seri Qatar Akibat Konflik Teluk, Ini Penjelasan Carlos Ezpeleta!",
       "url": "https://tmcblog.com/2026/08/12/hot-news-motogp-pertimbangkan-opsi-pemindahan-seri-qatar-akibat-konflik-teluk-ini-penjelasan-carlos-ezpeleta/?utm_source=rss&utm_medium=rss&utm_campaign=hot-news-motogp-pertimbangkan-opsi-pemindahan-seri-qatar-akibat-konflik-teluk-ini-penjelasan-carlos-ezpeleta",
@@ -240,6 +423,30 @@
       "brands": [],
       "categories": [
         "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "202de93b1d40",
+      "title": "Ketika Yamaha Grand Filano bersolek…lhooo, jadi Cuakeppp poll",
+      "url": "https://iwanbanaran.com/news/ketika-yamaha-grand-filano-bersolek-lhooo-jadi-cuakeppp-poll",
+      "source": "Iwan Banaran",
+      "published": "2026-08-12T07:46:23+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…Bicara soal kreativitas anak muda Indonesia, asli nggak ada obatnya. Kreativitas mereka memang selalu berhasil bikin mata terbelalak lewat karya-karya modifikasi yang memukau. Nah, salah satu ajang yang paling ditunggu-tunggu, yakni Classy Modifest , resmi purna usai menggelar partai puncaknya di Kota Istimewa, Yogyakarta, pada akhir Juni lalu! Ketika Yamaha Grand Filano bersolek…Classy Modifest 2026 !! IWB mencatat, dari total ribuan peserta yang membanjiri ajang Classy Modifest di 5 kota besar Tanah Air, terpilihlah 5 unit Yamaha Grand Filano Hybrid terbaik yang…",
+      "points": [
+        "Ketika Yamaha Grand Filano bersolek…Classy Modifest 2026.",
+        "IWB mencatat, dari total ribuan peserta yang membanjiri ajang Classy Modifest di 5 kota besar Tanah Air, terpilihlah 5 unit Yamaha Grand Filano Hybrid terbaik yang sukses memikat hati para juri dan menyabet mahkota tertinggi: Best of The Best Modification.",
+        "Desain bawaan Grand Filano Hybrid yang timeless dan punya proporsi bodi pas memang ibarat kanvas putih, Cak.",
+        "Last.Yamaha Grand Filano Hybrid memang menjadi salah satu skutik yang diklaim paling fashionable sekaligus paling irit di kelasnya, dengan konsumsi BBM menembus 60,1 km/liter."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/ketika-yamaha-grand-filano-bersolek-lhooo-jadi-cuakeppp-poll",
+      "brands": [
+        "Yamaha"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Event & Komunitas",
+        "Teknologi & Fitur"
       ]
     },
     {
@@ -286,6 +493,30 @@
       ]
     },
     {
+      "id": "976b9f85741a",
+      "title": "Breaking ! New MX King 155 Terbaru 2027 Gempur Malaysia…Gilaa Pakai Shockbraker Ohlins",
+      "url": "https://iwanbanaran.com/news/breaking-new-mx-king-155-terbaru-2027-gempur-malaysia-gilaa-pakai-shockbraker-ohlins",
+      "source": "Iwan Banaran",
+      "published": "2026-08-11T06:06:58+07:00",
+      "summary": "Iwanbanaran.com – Cakkkk….. Ternyata ogah menunggu lama, Hong Leong Yamaha Motor (HLYM) di Malaysia baru saja secara resmi meluncurkan Yamaha Y16ZR-R 2026 (saudara kandung MX King kalau di Indonesia). Bebek super performance ini bukan cuma sekadar ganti baju alias ganti striping , tapi benar-benar mendapatkan upgrade besar dari segi mesin, fitur elektronik, hingga desain aerodinamika! Nggak tanggung-tanggung, Yamaha juga merilis versi super eksklusif Pramac Racing Replica yang cuma diproduksi 3.000 unit saja di seluruh dunia ! Asli, makin ganteng cak! Dapur pacu Yamaha Y16ZR-R 2026 masih…",
+      "points": [
+        "Ternyata ogah menunggu lama, Hong Leong Yamaha Motor (HLYM) di Malaysia baru saja secara resmi meluncurkan Yamaha Y16ZR-R 2026 (saudara kandung MX King kalau di Indonesia).",
+        "Nggak tanggung-tanggung, Yamaha juga merilis versi super eksklusif Pramac Racing Replica yang cuma diproduksi 3.000 unit saja di seluruh dunia.",
+        "Tapi tenang cak, racikan dapur pacunya kini disempurnakan! • Tenaga Maksimum : 18.2 HP @ 9.500 rpm (Naik dari versi sebelumnya 17.7 HP) Racikan sproket belakang yang kini membesar jadi 48T bikin akselerasi dari posisi diam jauh lebih joss lan ngejambak.",
+        "New MX King 155 Malaysia?? bikin ngilerrr euy.(iwb) Aktifkan JavaScript untuk membaca komentar, atau buka langsung di halaman artikel ini."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/breaking-new-mx-king-155-terbaru-2027-gempur-malaysia-gilaa-pakai-shockbraker-ohlins",
+      "brands": [
+        "Yamaha"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Racing & Motorsport",
+        "Teknologi & Fitur"
+      ]
+    },
+    {
       "id": "e5147b39b270",
       "title": "Update Pemulihan Johann Zarco: Kembali Naik Motor Supermoto Honda Buat Latihan Fisik!",
       "url": "https://tmcblog.com/2026/08/11/pdate-pemulihan-johann-zarco-kembali-naik-motor-supermoto-honda-buat-latihan-fisik/?utm_source=rss&utm_medium=rss&utm_campaign=pdate-pemulihan-johann-zarco-kembali-naik-motor-supermoto-honda-buat-latihan-fisik",
@@ -300,6 +531,110 @@
       ],
       "summary_by": "auto",
       "image": "https://cdn.tmcblog.com/2026/08/zarco-1.webp",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "6974d126ccc2",
+      "title": "Pecco Frustrasi di Silverstone….”Jujur Aku Bingung, Grip Nol!” keluhnya",
+      "url": "https://iwanbanaran.com/news/pecco-frustrasi-di-silverstone-jujur-aku-bingung-grip-nol-keluhnya",
+      "source": "Iwan Banaran",
+      "published": "2026-08-10T20:03:31+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Pecco Bagnaia di MotoGP Silverstone 2026 ini  dibuat hopeless alias frustrasi berat. Setelah Sabtu kemarin kepayahan setengah mati di balapan Sprint, puncaknya di race hari Minggu (9/8) doi malah crash misterius alias DNF! Pecco sampai blak-blakan ngaku timnya udah “lost” alias bingung mau ngapain lagi buat nyari grip Desmosedici miliknya. “Jujur Aku Bingung, Grip Nol!” keluhnya.. Akhir pekan di Silverstone ini bener-bener jadi mimpi buruk terkelam Bagnaia musim ini cak : Kualifikasi: Start dari posisi ke-16 (posisi kualifikasi terburuknya musim ini).",
+      "points": [
+        "Pecco Bagnaia di MotoGP Silverstone 2026 ini dibuat hopeless alias frustrasi berat.",
+        "Pecco sampai blak-blakan ngaku timnya udah “lost” alias bingung mau ngapain lagi buat nyari grip Desmosedici miliknya.",
+        "Sejak balapan pertama musim ini, saya bener-bener gak punya grip sama sekali, NOL.",
+        "Dan kita bingung mau bikin apa lagi (we don’t know what to do), karena pebalap Ducati lainnya malah punya grip yang melimpah."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/pecco-frustrasi-di-silverstone-jujur-aku-bingung-grip-nol-keluhnya",
+      "brands": [],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "fa7437c4decc",
+      "title": "Alex Marquez Kesal Bikin Kesalahan — ” Podium 2 Terbuka ” ! serunya",
+      "url": "https://iwanbanaran.com/news/alex-marquez-kesal-bikin-kesalahan-podium-2-terbuka-serunya",
+      "source": "Iwan Banaran",
+      "published": "2026-08-10T18:00:34+07:00",
+      "summary": "Iwanbanaran.com – Cakkkk….nyesek banget cak! Alex Marquez blak-blakan ngaku kesel setengah mati sama dirinya sendiri usai gagal ngamanin podium di balapan MotoGP Silverstone, Inggris 2026. Doi nyebut kesalahannya di T1 (Tikungan 1) sebagai blunder yang konyol alias “unacceptable” (nggak bisa ditoleransi), hingga bikin posisi podium 2 yang udah di depan mata ambyar seketika. Alex Marquez Kesal Bikin Kesalahan..” Podium 2 Terbuka ” !! serunya Start dari P7, Alex Marquez (Gresini Racing) sebenarnya tampil perkasa dan pelan-pelan merangsek naik ke barisan depan.",
+      "points": [
+        "Alex Marquez blak-blakan ngaku kesel setengah mati sama dirinya sendiri usai gagal ngamanin podium di balapan MotoGP Silverstone, Inggris 2026.",
+        "Doi nyebut kesalahannya di T1 (Tikungan 1) sebagai blunder yang konyol alias “unacceptable” (nggak bisa ditoleransi), hingga bikin posisi podium 2 yang udah di depan mata ambyar seketika.",
+        "Alex Marquez Kesal Bikin Kesalahan.” Podium 2 Terbuka ”. serunya Start dari P7, Alex Marquez (Gresini Racing) sebenarnya tampil perkasa dan pelan-pelan merangsek naik ke barisan depan.",
+        "Akhirnya Alex Marquez harus puas membawa pulang poin P4 sembari menahan rasa penyesalan mendalam."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/alex-marquez-kesal-bikin-kesalahan-podium-2-terbuka-serunya",
+      "brands": [],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "a6977d01411b",
+      "title": "Marquez menyerah saat Race Silverstone ” Aku Tidak Bisa Menyerang !”",
+      "url": "https://iwanbanaran.com/news/marquez-menyerah-saat-race-silverstone-aku-tidak-bisa-menyerang",
+      "source": "Iwan Banaran",
+      "published": "2026-08-10T15:00:05+07:00",
+      "summary": "Iwanbanaran.com – Cakkkk… drama Silverstone Inggris benar-benar menjadi ujian berat bagi sang Juara Dunia 8 kali, Marc Marquez! Datang dengan modal apik usai double victory di Sachsenring dan hanya tertinggal 18 poin dari puncak klasemen, Marc justru kudu gigit jari usai terseok-seok dan cuma mampu finish di posisi ke-7. Imbasnya, jarak poin di klasemen kini membengkak jadi 40 poin dari Jorge Martin, cakkk! Marc sendiri blak-blakan usai balapan dan nggak mau cari-cari alasan.",
+      "points": [
+        "Drama Silverstone Inggris benar-benar menjadi ujian berat bagi sang Juara Dunia 8 kali, Marc Marquez.",
+        "Doi mengakui kalau di Silverstone kemarin, paket motor maupun ban sebenarnya bekerja dengan cukup baik, tapi masalah utamanya justru datang dari performa dirinya sendiri.",
+        "Yang menarik adalah ketegasan Marc saat ditanya apa masalah utamanya hingga bisa disalip sang adik, Alex Marquez, bahkan calon rekan satu timnya di Ducati, Pedro Acosta.",
+        "Marc juga mengakui kalau sang adik, Alex Marquez, memang tampil jauh lebih jempolan di trek Silverstone."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/marquez-menyerah-saat-race-silverstone-aku-tidak-bisa-menyerang",
+      "brands": [],
+      "categories": [
+        "Lainnya"
+      ]
+    },
+    {
+      "id": "d8e5131a230e",
+      "title": "Cetak Sejarah Baru! Yamaha Racing Indonesia Raih Kemenangan Race Perdana SS600 ARRC",
+      "url": "https://iwanbanaran.com/news/cetak-sejarah-baru-yamaha-racing-indonesia-raih-kemenangan-race-perdana-ss600-arrc",
+      "source": "Iwan Banaran",
+      "published": "2026-08-10T13:00:59+07:00",
+      "summary": "Iwanbanaran.com – Cakk…Pembalap Yamaha Racing Indonesia, Wahyu Nugroho, sukses mencatatkan kemenangan perdana di kelas SuperSport 600cc (SS600) Asia Road Racing Championship (ARRC) setelah menjadi juara pertama pada Race 1 Round 4 di Pertamina Mandalika International Circuit, Lombok, Nusa Tenggara Barat, Sabtu (8/8). Bermula dari grid ke-3, Wahyu tampil konsisten dan mampu mengatasi persaingan ketat para pembalap Asia, termasuk Malaysia dan Thailand, hingga akhirnya lagu Indonesia Raya dikumandangkan di podium tertinggi.",
+      "points": [
+        "Pembalap Yamaha Racing Indonesia, Wahyu Nugroho, sukses mencatatkan kemenangan perdana di kelas SuperSport 600cc (SS600) Asia Road Racing Championship (ARRC) setelah menjadi juara pertama pada Race 1 Round 4 di Pertamina Mandalika International Circuit, Lombok, Nusa Tenggara Barat, Sabtu (8/8).",
+        "Kemenangan ini menjadi pencapaian spesial bagi Wahyu karena telah melalui proses yang panjang dan evaluasi bersama Yamaha Racing Indonesia (YRI) dari beberapa round sebelumnya untuk bisa menjadi juara dan memperbesar peluang Wahyu Nugroho untuk menembus posisi Top 5 klasemen sementara ARRC 2026.",
+        "Selain membuktikan kemampuan pembalap, penampilan apik selama 12 laps yang membawa kemenangan, ini juga membuktikan perkembangan dan improvement nyata tim Yamaha Racing Indonesia dari tahun ke tahun karena di ARRC Mandalika tahun 2025, Yamaha Racing Indonesia mendapatkan podium 2 oleh Wahyu Nugroho dan podium 3 oleh M.",
+        "Dengan Indonesia Raya yang berkumandang di podium tertinggi ARRC Mandalika, Wahyu membawa modal kepercayaan diri positif untuk kembali menghadapi Race 2 dan melanjutkan perjuangan di pentas balap Asia.(YIMM PR iwb) Aktifkan JavaScript untuk membaca komentar, atau buka langsung di halaman artikel ini."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/cetak-sejarah-baru-yamaha-racing-indonesia-raih-kemenangan-race-perdana-ss600-arrc",
+      "brands": [
+        "Yamaha"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "d66171f443ee",
+      "title": "ARRC Mandalika 2026: AHRT Ngamuk — Irfan Ardiansyah Juara AP250, Herjun Podium SS600",
+      "url": "https://iwanbanaran.com/news/arrc-mandalika-2026-ahrt-ngamuk-irfan-ardiansyah-juara-ap250-herjun-podium-ss600",
+      "source": "Iwan Banaran",
+      "published": "2026-08-10T09:21:38+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…. Skuad merah-putih Astra Honda Racing Team (AHRT) benar-benar tampil luar biasa di Seri 4 FIM Asia Road Racing Championship (ARRC) 2026 yang berlangsung di Pertamina Mandalika International Circuit, Minggu (9/8). Tampil di kandang sendiri, pasukan AHRT berhasil mengacak-acak barisan depan hingga sukses merebut podium tertinggi di kelas Asia Production 250 (AP250) dan amankan podium kelas Supersport 600 (SS600)…!! Pertarungan di kelas AP250 Race 2 bener-bener gila ! Irfan Ardiansyah (#16) yang mengawali balapan dari posisi ke-7 (P7) tampil sangat cerdik dan tenang.",
+      "points": [
+        "Skuad merah-putih Astra Honda Racing Team (AHRT) benar-benar tampil luar biasa di Seri 4 FIM Asia Road Racing Championship (ARRC) 2026 yang berlangsung di Pertamina Mandalika International Circuit, Minggu (9/8).",
+        "Tampil di kandang sendiri, pasukan AHRT berhasil mengacak-acak barisan depan hingga sukses merebut podium tertinggi di kelas Asia Production 250 (AP250) dan amankan podium kelas Supersport 600 (SS600).",
+        "Saya fokus mengatur tempo agar bisa membawa motor finis dengan selamat.” Herjun Atna Firdaus (SS600 – P3): “Alhamdulillah, hari ini kami bisa bertarung di barisan depan dan mengamankan podium.",
+        "Terima kasih banyak untuk AHRT, mekanik, dan keluarga yang mendukung!” Rheza Danica Ahrens (AP250 – DNF): “Di balapan kedua ini, sayangnya saya tidak bisa menyentuh garis finis setelah mengalami insiden di lap terakhir dan terjatuh saat bertarung berebut podium."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/arrc-mandalika-2026-ahrt-ngamuk-irfan-ardiansyah-juara-ap250-herjun-podium-ss600",
       "brands": [
         "Honda"
       ],
@@ -399,6 +734,29 @@
       ]
     },
     {
+      "id": "caa6e7e46e44",
+      "title": "Motogp Silverstone 2026 : Marquez ambyarr….Ducati mawut, Aprilia Tak Tersentuh",
+      "url": "https://iwanbanaran.com/news/motogp-silverstone-2026-marquez-ambyarr-ducati-mawut-aprilia-tak-tersentuh",
+      "source": "Iwan Banaran",
+      "published": "2026-08-09T20:25:09+07:00",
+      "summary": "Iwanbanaran.com – Cakkk… Pembalap Trackhouse Racing Aprilia, Raul Fernandez , tampil luar biasa mendominasi balapan utama MotoGP Inggris 2026 di Sirkuit Silverstone. Fernandez memimpin sejak lap pertama hingga finis untuk mengamankan kemenangan manis sekaligus menebus kesalahannya pada sesi Sprint Race sehari sebelumnya. Kemenangan ini sekaligus memperpanjang rekor unik Silverstone yang mencatatkan 12 pemenang berbeda secara beruntun dalam ajang Grand Prix. Sayang cak pada race hari sekali ini terlihat sekali bagaimana kondisi itu Ducati yang kesulitan.",
+      "points": [
+        "Pembalap Trackhouse Racing Aprilia, Raul Fernandez, tampil luar biasa mendominasi balapan utama MotoGP Inggris 2026 di Sirkuit Silverstone.",
+        "Di pertengahan balapan, Fernandez berhasil melebarkan jarak hingga lebih dari 4 detik dari kejaran duo pabrikan Aprilia Racing, Jorge Martin dan Marco Bezzecchi.",
+        "Keberhasilan Fernandez melengkapi podium sapu bersih (1-2-3) untuk pabrikan Aprilia di Silverstone: Marco Bezzecchi, yang baru saja kembali pasca-operasi bahu dan lutut, tampil heroik menahan gempuran ketat dari Alex Marquez (Gresini Ducati) menjelang garis finis untuk mengamankan podium ketiga.",
+        "Ai Ogura terlempar ke posisi ketiga berjarak 37 poin, disusul Marc Marquez di peringkat keempat terpaut 40 poin.(iwb) Aktifkan JavaScript untuk membaca komentar, atau buka langsung di halaman artikel ini."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/motogp-silverstone-2026-marquez-ambyarr-ducati-mawut-aprilia-tak-tersentuh",
+      "brands": [
+        "Vespa / Piaggio",
+        "Ducati"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
       "id": "aef888401684",
       "title": "Akankah Race MotoGP Silverstone 2026 akan hadirkan SEJARAH Baru ?",
       "url": "https://tmcblog.com/2026/08/09/akankah-race-motogp-silverstone-2026-akan-hadirkan-sejarah-baru/?utm_source=rss&utm_medium=rss&utm_campaign=akankah-race-motogp-silverstone-2026-akan-hadirkan-sejarah-baru",
@@ -440,6 +798,31 @@
         "Ducati"
       ],
       "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "9ece2c4c9762",
+      "title": "Hancur Sprint Race Silverstone — Marquez Dapat Ban Cacat !?",
+      "url": "https://iwanbanaran.com/news/hancur-sprint-race-silverstone-marquez-dapat-ban-cacat",
+      "source": "Iwan Banaran",
+      "published": "2026-08-09T06:28:10+07:00",
+      "summary": "Iwanbanaran.com – Cakkk… Marc Marquez, tidak bisa menyembunyikan kekecewaannya usai melakoni sesi Sprint Race di Sirkuit Silverstone. Mengalami masalah degradasi ban belakang yang sangat parah, pembalap asal Spanyol tersebut mengakui bahwa performa motor Ducati terpuruk dibandingkan para pesaingnya, khususnya Aprilia yang tampil dominan. Hancur Sprint Race Silverstone..Marquez Dapat Ban Cacat !? Masalah utama yang dialami Marquez dan jajaran pembalap Ducati lainnya adalah fenomena graining atau terkikis berlebih pada ban belakang.",
+      "points": [
+        "Marc Marquez, tidak bisa menyembunyikan kekecewaannya usai melakoni sesi Sprint Race di Sirkuit Silverstone.",
+        "Masalah utama yang dialami Marquez dan jajaran pembalap Ducati lainnya adalah fenomena graining atau terkikis berlebih pada ban belakang.",
+        "Marquez menjelaskan bahwa degradasi ban belakang yang ia alami berada di tingkat yang sangat ekstrim.",
+        "Selain masalah teknis pada ban, Marquez secara terbuka mengakui keunggulan pabrikan rival, Aprilia, di sirkuit sepanjang 5,9 kilometer tersebut."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/hancur-sprint-race-silverstone-marquez-dapat-ban-cacat",
+      "brands": [
+        "Vespa / Piaggio",
+        "Ducati"
+      ],
+      "categories": [
+        "Recall & Kualitas",
+        "Aftersales & Servis",
         "Racing & Motorsport"
       ]
     },
@@ -556,6 +939,28 @@
       ]
     },
     {
+      "id": "be5565a3c493",
+      "title": "Torehkan Record….Marco Bezzecchi Tahan Dengkul Nyeri",
+      "url": "https://iwanbanaran.com/news/torehkan-record-marco-bezzecchi-tahan-dengkul-nyeri",
+      "source": "Iwan Banaran",
+      "published": "2026-08-08T12:00:31+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…. Marco Bezzecchi, mencatatkan rekor lap baru dan menjadi yang tercepat dalam sesi latihan ( Friday Practice ) MotoGP Inggris di Silverstone. Namun, di balik performa impresifnya tersebut, Bezzecchi mengungkapkan bahwa dirinya masih berjuang keras menahan rasa sakit akibat cedera rumit yang didapatnya di Sachsenring bulan lalu. Betul cak, walau Torehkan Record….Marco Bezzecchi Tahan Dengkul Nyeri !!! Marco mengungguli Raul Fernandez (Trackhouse Aprilia) dengan selisih 0,3 detik dan mengasapi para rival utamanya.",
+      "points": [
+        "Marco Bezzecchi, mencatatkan rekor lap baru dan menjadi yang tercepat dalam sesi latihan ( Friday Practice ) MotoGP Inggris di Silverstone.",
+        "Namun, di balik performa impresifnya tersebut, Bezzecchi mengungkapkan bahwa dirinya masih berjuang keras menahan rasa sakit akibat cedera rumit yang didapatnya di Sachsenring bulan lalu.",
+        "Bezzecchi mengungkapkan bahwa cedera lutut yang dialaminya ternyata jauh lebih rumit dan menyiksa ketimbang cedera tulang selangka ( collarbone ) yang juga dideritanya di Jerman.",
+        "Meski harus menahan rasa sakit dan nyeri di atas motor, Bezzecchi mengaku puas bisa membuktikan kecepatannya di hari pertama, terlebih Aprilia mendominasi dengan menempatkan empat motor RS-GP di lima besar."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/torehkan-record-marco-bezzecchi-tahan-dengkul-nyeri",
+      "brands": [
+        "Vespa / Piaggio"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
       "id": "eb70eb381f4e",
       "title": "KTM Dapatkan Restu Untuk Bongkar Mesin RC16 2026 & Ganti Part Bermasalah !",
       "url": "https://tmcblog.com/2026/08/08/ktm-mendapatkan-restu-untuk-bongkar-mesin-rc16-2026/?utm_source=rss&utm_medium=rss&utm_campaign=ktm-mendapatkan-restu-untuk-bongkar-mesin-rc16-2026",
@@ -577,6 +982,26 @@
         "Racing & Motorsport",
         "Peluncuran Produk",
         "Regulasi & Kebijakan"
+      ]
+    },
+    {
+      "id": "b37da6d424eb",
+      "title": "Marc Marquez kurang KLIK dengan motornya di Silverstone ” Sulit”",
+      "url": "https://iwanbanaran.com/news/marc-marquez-kurang-klik-dengan-motornya-di-silverstone-sulit",
+      "source": "Iwan Banaran",
+      "published": "2026-08-08T07:19:26+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…Marc Marquez, mengakui bahwa dirinya masih berada di posisi yang cukup jauh dari persaingan podium usai melakoni sesi latihan ( practice ) GP Inggris di sirkuit Silverstone. Sirkuit Silverstone secara historis menjadi salah satu lintasan yang paling menantang bagi gaya balap Marquez. Meskipun musim lalu berhasil meraih podium, pembalap asal Spanyol tersebut menuntaskan sesi latihan hari Jumat dengan finis di urutan keenam, terpaut 0,733 detik dari catatan waktu tercepat.",
+      "points": [
+        "Marc Marquez, mengakui bahwa dirinya masih berada di posisi yang cukup jauh dari persaingan podium usai melakoni sesi latihan ( practice ) GP Inggris di sirkuit Silverstone.",
+        "Sirkuit Silverstone secara historis menjadi salah satu lintasan yang paling menantang bagi gaya balap Marquez.",
+        "Yup…Pesimis.Marc Marquez akui sulit di Silverstone.",
+        "Marquez menambahkan bahwa mencoba meniru atau memaksa mengikuti gaya balap adiknya, Alex Marquez, di sektor cepat justru terbukti memperburuk situasinya."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/marc-marquez-kurang-klik-dengan-motornya-di-silverstone-sulit",
+      "brands": [],
+      "categories": [
+        "Racing & Motorsport"
       ]
     },
     {
@@ -646,6 +1071,28 @@
       ]
     },
     {
+      "id": "c8b273bce4d2",
+      "title": "Wowww….Veda Ega Melesat pada Opening FP1 Silverstone Cakkk",
+      "url": "https://iwanbanaran.com/news/wowww-veda-ega-melesat-pada-opening-fp1-silverstone-cakkk",
+      "source": "Iwan Banaran",
+      "published": "2026-08-07T18:52:30+07:00",
+      "summary": "Iwanbanaran.com – Cakkkk… Veda Ega Pratama (#6) , sukses mencuri perhatian dalam sesi Free Practice 1 (FP1) Qatar Airways Grand Prix of Great Britain di Sirkuit Silverstone. Mengendarai Honda NSF250R milik Honda Team Asia, Veda menorehkan waktu lap impresif 2 menit 11,085 detik dan mengamankan posisi ke-6 dari total 26 pebalap dunia. Veda Ega Melesat pada Opening FP1 Silverstone Cakkk !! Hasil ini menempatkan Veda hanya terpaut 0,532 detik dari pebalap tercepat David Almansa (2’10.553).",
+      "points": [
+        "Veda Ega Pratama (#6), sukses mencuri perhatian dalam sesi Free Practice 1 (FP1) Qatar Airways Grand Prix of Great Britain di Sirkuit Silverstone.",
+        "Mengendarai Honda NSF250R milik Honda Team Asia, Veda menorehkan waktu lap impresif 2 menit 11,085 detik dan mengamankan posisi ke-6 dari total 26 pebalap dunia.",
+        "Data lembar timing resmi menunjukkan kecepatan puncak ( top speed ) Veda di trek lurus berada di angka 232,7 km/jam, lebih rendah dibanding pebalap seperti Morelli (237,3 km/jam).",
+        "Karakter gaya balap Veda yang halus dan berani di titik masuk tikungan ( corner entry ) sangat cocok dengan tata letak mengalir ( flowing ) Sirkuit Silverstone."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/wowww-veda-ega-melesat-pada-opening-fp1-silverstone-cakkk",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
       "id": "069b82186de7",
       "title": "Puncak Astra Honda Safety Riding Instructors Competition 2026: Menguji Skill, Prediksi Bahaya, hingga Inovasi Instruktur Terbaik",
       "url": "https://tmcblog.com/2026/08/07/puncak-astra-honda-safety-riding-instructors-competition-2026-menguji-skill-prediksi-bahaya-hingga-inovasi-instruktur-terbaik/?utm_source=rss&utm_medium=rss&utm_campaign=puncak-astra-honda-safety-riding-instructors-competition-2026-menguji-skill-prediksi-bahaya-hingga-inovasi-instruktur-terbaik",
@@ -692,6 +1139,28 @@
       ]
     },
     {
+      "id": "7411319f3ca2",
+      "title": "Belum dimulai….Fabio Quartararo Sudah ancam Honda ???",
+      "url": "https://iwanbanaran.com/news/belum-dimulai-fabio-quartararo-sudah-ancam-honda",
+      "source": "Iwan Banaran",
+      "published": "2026-08-07T12:00:45+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…Pengumuman kepindahan Fabio Quartararo ke Honda untuk musim MotoGP 2027 menjadi salah satu kabar paling menyedot perhatian di paddock . Menjelang seri GP Inggris di Sirkuit Silverstone, Juara Dunia MotoGP 2021 tersebut akhirnya angkat bicara mengenai alasannya mengambil tantangan baru bersama pabrikan asal Jepang itu.",
+      "points": [
+        "Pengumuman kepindahan Fabio Quartararo ke Honda untuk musim MotoGP 2027 menjadi salah satu kabar paling menyedot perhatian di paddock.",
+        "Perubahan regulasi besar-besaran yang akan diterapkan pada MotoGP 2027 (termasuk mesin 850cc dan regulasi aerodinamika baru) menjadi salah satu alasan utama Quartararo mempercayakan masa depannya kepada Honda.",
+        "Dan indikasi kuat Fabio memberikan pressure besar kepada Honda dan ini sudah pernah dilontarkan oleh Pernat.",
+        "Ibaratnya ini adalah ancaman harus dari Fabio kepada Honda untuk menyediakan motor yang bagus karena itulah alasan dia kenapa mau pindah ke Honda."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/belum-dimulai-fabio-quartararo-sudah-ancam-honda",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
       "id": "1dfcf7d9e6a8",
       "title": "Luca Marini Perkirakan Pekan ini Ada Pengumuman Masa depannya di 2027 MotoGP",
       "url": "https://tmcblog.com/2026/08/07/luca-marini-perkirakan-pekan-ini-ada-pengumuman-masa-depannya-di-2027-motogp/?utm_source=rss&utm_medium=rss&utm_campaign=luca-marini-perkirakan-pekan-ini-ada-pengumuman-masa-depannya-di-2027-motogp",
@@ -712,6 +1181,29 @@
       "categories": [
         "Racing & Motorsport",
         "Regulasi & Kebijakan"
+      ]
+    },
+    {
+      "id": "df78c702a0b3",
+      "title": "Gawattt…Marquez akui lengannya sudah cacat ???",
+      "url": "https://iwanbanaran.com/news/gawattt-marquez-akui-lengannya-sudah-cacat",
+      "source": "Iwan Banaran",
+      "published": "2026-08-07T09:35:41+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…Pembalap Ducati Lenovo, Marc Marquez, kembali memberikan pengakuan jujur mengenai kondisi fisik lengan kanannya yang sempat melewati empat kali operasi besar. Juara dunia delapan kali tersebut menegaskan bahwa kondisi lengan kanannya tidak akan pernah bisa kembali seperti sediakala, sehingga ia harus terus menyesuaikan gaya balapnya di atas motor MotoGP. Kalau Bahasa kasarnya lengannya sudah cacat ?? waduhhh…..gawaatttt… Namun Marc idak ingin menjadikan kondisi fisiknya sebagai alasan untuk menyerah.",
+      "points": [
+        "Pembalap Ducati Lenovo, Marc Marquez, kembali memberikan pengakuan jujur mengenai kondisi fisik lengan kanannya yang sempat melewati empat kali operasi besar.",
+        "Kendati kini mampu bersaing ketat di papan atas kejuaraan dunia bersama pabrikan Ducati, Marquez mengakui bahwa keterbatasan fisik masih ada.",
+        "Marquez menjelaskan bahwa alih-alih memikirkan keterbatasan tersebut, langkah terbaik yang bisa ia lakukan adalah kembali mengubah cara mengendarai motor agar sesuai dengan tuntutan kondisi fisiknya saat ini.",
+        "Meski harus berlomba dengan kondisi fisik yang tak lagi utuh, Marquez bertekad untuk terus tampil maksimal di setiap seri demi memperebutkan gelar juara dunia."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/gawattt-marquez-akui-lengannya-sudah-cacat",
+      "brands": [
+        "Ducati"
+      ],
+      "categories": [
+        "Recall & Kualitas",
+        "Racing & Motorsport"
       ]
     },
     {
@@ -807,9 +1299,29 @@
       ],
       "categories": [
         "Peluncuran Produk"
+      ]
+    },
+    {
+      "id": "e8fd281ac0d2",
+      "title": "Veda Ega Sudah Tiba di Silverstone….Harus waspada Pada Hakim Danish",
+      "url": "https://iwanbanaran.com/news/veda-ega-sudah-tiba-di-silverstone-harus-waspada-pada-hakim-danish",
+      "source": "Iwan Banaran",
+      "published": "2026-08-06T18:11:08+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Pebalap muda berbakat Indonesia, Veda Ega Pratama, bersiap melakoni tantangan besar pada lanjutan seri Moto3 musim 2026 di Sirkuit Silverstone, Inggris, akhir pekan ini (7–9/8). Balapan ini bakal menjadi momen penting bagi Veda untuk mempertahankan tren positif sekaligus memperkokoh posisinya di papan atas klasemen sementara. Yup…Veda Ega Sudah Tiba di Silverstone….Waktunya Bangkit ?? Saat ini, pebalap binaan Astra Honda Racing Team yang membela Honda Team Asia tersebut bertengger di peringkat ke-6 klasemen sementara dengan torehan 90 poin.",
+      "points": [
+        "Pebalap muda berbakat Indonesia, Veda Ega Pratama, bersiap melakoni tantangan besar pada lanjutan seri Moto3 musim 2026 di Sirkuit Silverstone, Inggris, akhir pekan ini (7–9/8).",
+        "Yup…Veda Ega Sudah Tiba di Silverstone.Waktunya Bangkit??.",
+        "Selain harus mewaspadai pimpinan klasemen Maximo Quiles dan barisan pebalap KTM/CFMoto, Veda juga harus mengawasi pergerakan rival terdekatnya asal Malaysia, Hakim Danish, yang berada di posisi ke-7 dengan selisih hanya 4 poin.",
+        "Jika mampu menjaga konsistensi pengereman dan cerdik mengeksekusi strategi di lap-lap terakhir, peluang Veda untuk kembali membawa kibaran Merah Putih ke podium Silverstone sangat terbuka lebar."
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/veda-ega-sudah-tiba-di-silverstone-harus-waspada-pada-hakim-danish",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
     },
     {
       "id": "0547cd932366",
@@ -880,6 +1392,30 @@
       ]
     },
     {
+      "id": "5eafad2527a2",
+      "title": "Honda Vario EVO Gempur Thailand…Warna Kuning + Pakai Subtank Suspension",
+      "url": "https://iwanbanaran.com/news/honda-vario-evo-gempur-thailand-warna-kuning-pakai-subtank-suspension",
+      "source": "Iwan Banaran",
+      "published": "2026-08-06T14:00:59+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…. Kejutan datang dari APHonda Thailand yang ternyata secara resmi meluncurkan generasi terbaru  seperti Vario 160 evo tanah air. AP Honda Thailand secara resmi merilis gebrakan terbaru untuk skutik sporty andalan mereka: Honda Click 160R Edisi 2026 ! Yang bikin ngiler mereka meluncurkan versi warna kuning termasuk juga hadirnya varian Limited edition yang sudah dicari dengan suspensi sub tank Profender. Waahhhhh…..ediann ikii cakkk !!! Perubahan paling mencolok yang sukses bikin geger para antusias otomotif terletak pada area peredam kejut belakang .",
+      "points": [
+        "Kejutan datang dari APHonda Thailand yang ternyata secara resmi meluncurkan generasi terbaru seperti Vario 160 evo tanah air.",
+        "AP Honda Thailand secara resmi merilis gebrakan terbaru untuk skutik sporty andalan mereka: Honda Click 160R Edisi 2026.",
+        "Honda Click 160R edisi 2026 kini secara standar sudah dibekali subtank suspension (suspensi tabung) berwarna keemasan/merah khas gaya racing.",
+        "Honda Thailand menghadirkan 2 pilihan varian/tipe untuk Click 160R 2026 guna menyesuaikan karakter berkendara para konsumennya : Varian ABS : Tampil lebih eksklusif dengan pilihan warna kuning, hijau Army, Hitam dan juga putih yang makin mempertegas aura premium sporty."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/honda-vario-evo-gempur-thailand-warna-kuning-pakai-subtank-suspension",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Peluncuran Produk"
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
+    },
+    {
       "id": "9fa3e4a9e3d4",
       "title": "SPY SHOT Next-Gen BMW S1000RR: Bedah Aerodinamika Winglet Aktif, Sasis Baru, dan Frame Subframe Serba Radikal!",
       "url": "https://tmcblog.com/2026/08/06/spy-shot-next-gen-bmw-s1000rr-bedah-aerodinamika-winglet-aktif-sasis-baru-dan-frame-subframe-serba-radikal/?utm_source=rss&utm_medium=rss&utm_campaign=spy-shot-next-gen-bmw-s1000rr-bedah-aerodinamika-winglet-aktif-sasis-baru-dan-frame-subframe-serba-radikal",
@@ -919,6 +1455,28 @@
       "brands": [],
       "categories": [
         "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "8b714fbb80c5",
+      "title": "Horeee Retro Suzuki Datang cakkk….ini adalah Suzuki GN160",
+      "url": "https://iwanbanaran.com/news/horeee-retro-suzuki-datang-cakkk-ini-adalah-suzuki-gn160",
+      "source": "Iwan Banaran",
+      "published": "2026-08-06T06:16:44+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…di saat pabrikan lain sibuk dengan trennya masing-masing, pabrikan berlogo “S” alias Suzuki ternyata punya amunisi yang nggak kalah aduhai. Yup, apalagi kalau bukan Suzuki GN160 ! Motor berkonsep neo-retro roadster ini sukses mencuri perhatian para pencinta roda dua. Nah, daripada penasaran, yuk kita bedah secara mendalam asal-usul, spesifikasi mesin, hingga detail fiturnya…!! Ngomongin soal silsilah cak, Suzuki GN160 ini sejatinya mengusung DNA besar dari keluarga legendaris Suzuki GN Series (seperti GN125) yang terkenal amat sangat tangguh di berbagai belahan dunia.",
+      "points": [
+        "Suzuki GN160 dibekali mesin berkapasitas 162 cc, 1-silinder, 4-tak, SOHC, 2-katup, berpendingin udara ( air-cooled ), serta didukung sistem pembakaran Injeksi Elektronik (FI).",
+        "Untuk mempertahankan estetika retro cak, panel instrumen Suzuki GN160 dirancang mengusung bentuk rumah instrumen ( pod ) bulat bergaya klasik.",
+        "Secara proporsi bodi, Suzuki GN160 memiliki dimensi yang sangat pas dan ramah pengendara: Tinggi Jok: 760 mm (sangat bersahabat, bikin kaki gampang menapak) Sektor kaki-kaki mempergunakan velg berukuran 18 inci bergaya klasik yang dibalut ban berukuran 80/100-R18 di depan dan 90/90-R18 di belakang.",
+        "Last…Secara keseluruhan, Suzuki GN160 merupakan wujud nyata kepiawaian Suzuki dalam meracik motor bergenre neo-retro yang mengombinasikan warisan histori keluarga GN, estetika klasik, serta ketangguhan mesin 162 cc yang irit dan bertenaga."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/horeee-retro-suzuki-datang-cakkk-ini-adalah-suzuki-gn160",
+      "brands": [
+        "Suzuki"
+      ],
+      "categories": [
+        "Lainnya"
       ]
     },
     {
@@ -1032,9 +1590,51 @@
       ],
       "categories": [
         "Peluncuran Produk"
+      ]
+    },
+    {
+      "id": "4712b8a76745",
+      "title": "Hot — Jorge Lorenzo tawarkan jadi Test Rider Yamaha ” Salah Mereka Melepasku”",
+      "url": "https://iwanbanaran.com/news/hot-jorge-lorenzo-tawarkan-jadi-test-rider-yamaha-salah-mereka-melepasku",
+      "source": "Iwan Banaran",
+      "published": "2026-08-04T16:00:23+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…Drama panas kembali meletup dari panggung MotoGP, Kali ini mantan juara dunia 5 kali, Jorge Lorenzo , mendadak buka kartu terkait kenangan lamanya bersama pabrikan garputala, Yamaha. Lewat wawancara terbarunya, sang kolektor 3 gelar juara dunia MotoGP bareng Yamaha ini secara terbuka melontarkan pernyataan menohok.",
+      "points": [
+        "Drama panas kembali meletup dari panggung MotoGP, Kali ini mantan juara dunia 5 kali, Jorge Lorenzo, mendadak buka kartu terkait kenangan lamanya bersama pabrikan garputala, Yamaha.",
+        "Lorenzo menilai Yamaha telah melakukan kesalahan fatal karena tidak mempertahankannya sebagai test rider (pembalap penguji) beberapa tahun lalu.",
+        "Setelah memutuskan gantung helm dari balapan reguler pada akhir musim 2019 bersama Repsol Honda, Lorenzo langsung direkrut oleh Yamaha sebagai test rider untuk musim 2020.",
+        "So.apakah sampeyan setuju Lorenzo gabung Yamaha kembali sebagai test rider atau keputusan Yamaha sudah benar melepas Jorge? piye menurut sampeyan cak??."
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/hot-jorge-lorenzo-tawarkan-jadi-test-rider-yamaha-salah-mereka-melepasku",
+      "brands": [
+        "Yamaha"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "403070d2d031",
+      "title": "Ini Yamaha XSR155 Hasil Modif Lady Biker — Lhaa sangarrr benerrr",
+      "url": "https://iwanbanaran.com/news/ini-yamaha-xsr155-hasil-modif-lady-biker-lhaa-sangarrr-benerrr",
+      "source": "Iwan Banaran",
+      "published": "2026-08-04T11:19:07+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…..Kalau biasanya dunia modifikasi roda dua didominasi oleh para kaum pria, kali ini ada cerita super menarik dari seorang ladies biker sekaligus petualang bernama Suherti atau yang akrab disapa Ntie Chan ! Lhaaa piyee cakk… Doi sukses menyulap motor sport heritage kesayangannya, Yamaha XSR 155 , jadi sesosok kuda besi touring & adventure yang cakepnya bikin ngiler! Nggak main-main, proses modifikasinya bertahap selama 3 tahun sampai akhirnya melahirkan modifikasi berkarakter yang dinamai “Jubei Yagyuu” —mengambil inspirasi dari nama samurai legendaris Jepang era Edo .",
+      "points": [
+        "Kalau biasanya dunia modifikasi roda dua didominasi oleh para kaum pria, kali ini ada cerita super menarik dari seorang ladies biker sekaligus petualang bernama Suherti atau yang akrab disapa Ntie Chan.",
+        "Doi sukses menyulap motor sport heritage kesayangannya, Yamaha XSR 155, jadi sesosok kuda besi touring & adventure yang cakepnya bikin ngiler.",
+        "Ntie Chan nggak ragu menjejali area kaki-kaki Yamaha XSR 155 miliknya dengan part aftermarket kelas premium : Pengereman: Kaliper rem depan dan belakang sudah mempercayakan merek ternama Brembo.",
+        "Cakram Rem: Bagian depan pakai disc brake WR3 320mm full floating, sedangkan bagian belakang dikawal piringan cakram TDR lengkap dengan push rod master brake."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/ini-yamaha-xsr155-hasil-modif-lady-biker-lhaa-sangarrr-benerrr",
+      "brands": [
+        "Yamaha"
+      ],
+      "categories": [
+        "Event & Komunitas"
+      ]
     },
     {
       "id": "87e7d29676d5",
@@ -1080,6 +1680,28 @@
       ]
     },
     {
+      "id": "a07559161089",
+      "title": "Breaking ! Yamaha Indonesia Rilis New Fazzio SE Sunset Blue…Cakepppp",
+      "url": "https://iwanbanaran.com/news/breaking-yamaha-indonesia-rilis-new-fazzio-se-sunset-blue-cakepppp",
+      "source": "Iwan Banaran",
+      "published": "2026-08-04T07:16:26+07:00",
+      "summary": "Iwanbanaran.com – Cakkkk…. PT Yamaha Indonesia Motor Manufacturing (YIMM) kembali memperkuat kepemimpinannya di segmen skutik gaya hidup dengan meluncurkan varian terbatas Yamaha Fazzio Special Edition Sunset Blue . Peluncuran resmi yang digelar pada Senin (3/8/2026) ini menghadirkan nuansa desain Retro Summer yang terinspirasi dari keindahan momen matahari terbenam di pesisir pantai . Wowww…cakeppp !!! Langkah ini mengikuti kesuksesan edisi spesial terdahulu, Fazzio Starry Night .",
+      "points": [
+        "PT Yamaha Indonesia Motor Manufacturing (YIMM) kembali memperkuat kepemimpinannya di segmen skutik gaya hidup dengan meluncurkan varian terbatas Yamaha Fazzio Special Edition Sunset Blue.",
+        "Yamaha Fazzio edisi Sunset Blue dirancang untuk mengakomodasi kebutuhan generasi muda yang mengedepankan ekspresi diri, gaya hidup urban, serta tren budaya anak muda ( skena ) yang kian populer.",
+        "Di balik tampilan eksklusifnya, Yamaha Fazzio Special Edition Sunset Blue tetap mengandalkan spesifikasi teknis andalan keluarga Fazzio.",
+        "Menyemarakkan peluncuran edisi spesial ini, Yamaha menggelar program kompetisi berhadiah satu unit Yamaha Fazzio Special Edition Sunset Blue secara gratis."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/breaking-yamaha-indonesia-rilis-new-fazzio-se-sunset-blue-cakepppp",
+      "brands": [
+        "Yamaha"
+      ],
+      "categories": [
+        "Peluncuran Produk"
+      ]
+    },
+    {
       "id": "ec4a9ea8afac",
       "title": "Kijima Garap Asesoris untuk Kawasaki W230, Ubah Tampilan Jadi Makin Kalcer Dan Classic!",
       "url": "https://tmcblog.com/2026/08/04/kijima-garap-asesoris-untuk-kawasaki-w230-ubah-tampilan-jadi-makin-kalcer-dan-classic/?utm_source=rss&utm_medium=rss&utm_campaign=kijima-garap-asesoris-untuk-kawasaki-w230-ubah-tampilan-jadi-makin-kalcer-dan-classic",
@@ -1121,9 +1743,7 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ],
-      "highlight": true,
-      "highlight_by": "auto"
+      ]
     },
     {
       "id": "eb339787953e",
@@ -1150,6 +1770,28 @@
       ]
     },
     {
+      "id": "5e00302d0ac3",
+      "title": "Karir Maverick Vinales diujung Tanduk….Dipecat Pertengahan Musim ini ??",
+      "url": "https://iwanbanaran.com/news/karir-maverick-vinales-diujung-tanduk-dipecat-pertengahan-musim-ini",
+      "source": "Iwan Banaran",
+      "published": "2026-08-03T08:23:22+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…Menjelang gelaran MotoGP Inggris di Sirkuit Silverstone, spekulasi panas mengenai masa depan Maverick Vinales mendadak mencuat. Berdasarkan laporan awal yang diturunkan oleh Motorsport.com , KTM dikabarkan mempertimbangkan untuk mencopot Vinales dari kursi balapnya lebih awal dan menggantikannya dengan pebalap penguji Pol Espargaro. Waahhh… Laporan tersebut mengklaim bahwa keputusan itu dipicu oleh kombinasi cedera bahu berkelanjutan yang dialami Vinales, ketegangan hubungan dengan manajemen KTM, serta friksi dengan CEO Tech3, Guenther Steiner.",
+      "points": [
+        "Menjelang gelaran MotoGP Inggris di Sirkuit Silverstone, spekulasi panas mengenai masa depan Maverick Vinales mendadak mencuat.",
+        "Berdasarkan laporan awal yang diturunkan oleh Motorsport.com, KTM dikabarkan mempertimbangkan untuk mencopot Vinales dari kursi balapnya lebih awal dan menggantikannya dengan pebalap penguji Pol Espargaro.",
+        "Sepanjang paruh pertama musim, Vinales secara terbuka menyuarakan ketidakpuasannya atas penanganan situasi kontrak dan masa depannya oleh manajemen KTM.",
+        "Last…Meskipun Vinales bertekad bertahan hingga akhir musim, masa depannya untuk musim depan tetap dipenuhi ketidakpastian."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/karir-maverick-vinales-diujung-tanduk-dipecat-pertengahan-musim-ini",
+      "brands": [
+        "KTM / Husqvarna"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
       "id": "676ed58e595a",
       "title": "Maverick Vinales Berpotensi akhiri Karir di KTM Sebelum Musim 2026 selesai karena Masalah kesehatan",
       "url": "https://tmcblog.com/2026/08/03/maverick-vinales-berpotensi-berakhir/?utm_source=rss&utm_medium=rss&utm_campaign=maverick-vinales-berpotensi-berakhir",
@@ -1171,9 +1813,7 @@
         "Recall & Kualitas",
         "Peluncuran Produk",
         "Spy / Rumor"
-      ],
-      "highlight": true,
-      "highlight_by": "auto"
+      ]
     },
     {
       "id": "571a6d586bef",
@@ -1197,6 +1837,51 @@
       "categories": [
         "Racing & Motorsport",
         "Peluncuran Produk",
+        "Regulasi & Kebijakan"
+      ]
+    },
+    {
+      "id": "551962cf098a",
+      "title": "Aprilia Atur Strategi lawan Marc Marquez… — Perburuan Gelar 2026 Memanas",
+      "url": "https://iwanbanaran.com/news/aprilia-atur-strategi-lawan-marc-marquez-perburuan-gelar-2026-memanas",
+      "source": "Iwan Banaran",
+      "published": "2026-08-02T15:00:41+07:00",
+      "summary": "Iwanbanaran.com – Cakkkk… Ketegangan di dalam garasi Aprilia Racing berada di titik tertinggi musim ini. Chief Executive Officer (CEO) Aprilia Racing, Massimo Rivola, secara tegas menyatakan komitmennya untuk segera membenahi atmosfer “beracun” dan dinamika internal tim demi menyelamatkan peluang gelar juara dunia MotoGP 2026.",
+      "points": [
+        "Ketegangan di dalam garasi Aprilia Racing berada di titik tertinggi musim ini.",
+        "Chief Executive Officer (CEO) Aprilia Racing, Massimo Rivola, secara tegas menyatakan komitmennya untuk segera membenahi atmosfer “beracun” dan dinamika internal tim demi menyelamatkan peluang gelar juara dunia MotoGP 2026.",
+        "Langkah tegas ini diambil bertepatan dengan kian melesatnya performa sang juara bertahan, Marc Marquez, yang kini makin mengancam posisi puncak klasemen.",
+        "Rivola bahkan secara terbuka melabeli Marquez sebagai kandidat terkuat untuk merengkuh gelar juara dunia musim 2026, meski menekankan bahwa Aprilia tidak akan menyerah begitu saja."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/aprilia-atur-strategi-lawan-marc-marquez-perburuan-gelar-2026-memanas",
+      "brands": [
+        "Vespa / Piaggio"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "fa23a82bb4f5",
+      "title": "Breaking ! Fermin Aldeguér Pindah ke VR46 Team….Dapat Ducati spek Factory",
+      "url": "https://iwanbanaran.com/news/breaking-fermin-aldeguer-pindah-ke-vr46-team-dapat-ducati-spek-factory",
+      "source": "Iwan Banaran",
+      "published": "2026-08-02T12:00:49+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Bursa transfer pebalap MotoGP jelang era anyar regulasi 2027 benar-benar panas membara, Cak! Kabar mengejutkan datang dari pabrikan Borgo Panigale. Fermin Aldeguer , rookie berbakat asal Spanyol yang saat ini membela Gresini Racing, dipastikan bakal pindah markas ke VR46 Racing Team pada musim MotoGP 2027! Langkah manuver ini murni diprakarsai oleh Ducati Corse yang memegang kontrak langsung sang pembalap.",
+      "points": [
+        "Fermin Aldeguer, rookie berbakat asal Spanyol yang saat ini membela Gresini Racing, dipastikan bakal pindah markas ke VR46 Racing Team pada musim MotoGP 2027.",
+        "Meskipun membela tim satelit VR46, Aldeguer tetap berstatus sebagai pembalap pabrikan ( factory rider ) yang dikontrak langsung oleh Ducati Corse.",
+        "Bagi kubu VR46 Racing Team—khususnya sang manajer tim, Alessio ‘Uccio’ Salucci—merekrut Aldeguer sebenarnya adalah impian lama yang tertunda.",
+        "Kini, berkat restu dan skema dari Ducati, VR46 akhirnya berhasil mengamankan salah satu talenta muda paling mematikan di kisi balap MotoGP untuk jangka panjang."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/breaking-fermin-aldeguer-pindah-ke-vr46-team-dapat-ducati-spek-factory",
+      "brands": [
+        "Ducati"
+      ],
+      "categories": [
+        "Racing & Motorsport",
         "Regulasi & Kebijakan"
       ]
     },
@@ -1246,6 +1931,28 @@
       ]
     },
     {
+      "id": "4f0dc984cf5d",
+      "title": "Revolusi Total sang Legendaris….All New CB400 SUPER FOUR E-Clutch siap Gempur Dunia",
+      "url": "https://iwanbanaran.com/news/revolusi-total-sang-legendaris-all-new-cb400-super-four-e-clutch-siap-gempur-dunia",
+      "source": "Iwan Banaran",
+      "published": "2026-08-02T06:11:22+07:00",
+      "summary": "Iwanbanaran.com – Cakkk… .akhirnya ini berita yang paling ditunggu-tunggu para pecinta roda dua sejati! Pabrikan berlambang sayap mengepak secara resmi mengumumkan kehadiran Sang legendaris Turing bike jalanan CB400. Honda Motor Co., Ltd. meluncurkan All New CB400 SUPER FOUR E-Clutch yang dijadwalkan resmi menyapa publik pada 21 Agustus 2026 mendatang. Mengusung konsep pengembangan “Next Stage CB: Setiap Momen Adalah Kesenangan” , motor legendaris nggak hanya sekadar dandan paras cak.",
+      "points": [
+        "Honda Motor Co., Ltd. meluncurkan All New CB400 SUPER FOUR E-Clutch yang dijadwalkan resmi menyapa publik pada 21 Agustus 2026 mendatang.",
+        "Secara keseluruhan, All New CB400 SUPER FOUR E-Clutch benar-benar tampil tanpa cela.",
+        "Last…All New CB400 SUPER FOUR E-Clutch dipastikan akan mulai distribusi resmi di Jepang per 21 Agustus 2026 cak.",
+        "Untuk Honda CB400 Super Four E-Clutch (2026), Honda Motor Co., Ltd. secara resmi membanderolnya di pasar Jepang seharga ¥998.800 (atau sekitar Rp 111,6 jutaan berdasarkan kurs resmi saat ini)."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/revolusi-total-sang-legendaris-all-new-cb400-super-four-e-clutch-siap-gempur-dunia",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Peluncuran Produk"
+      ]
+    },
+    {
       "id": "400fe32eb0bc",
       "title": "Tekiro Raih Apresiasi Guinness World Records",
       "url": "https://tmcblog.com/2026/08/02/tekiro-raih-apresiasi-guinness-world-records/?utm_source=rss&utm_medium=rss&utm_campaign=tekiro-raih-apresiasi-guinness-world-records",
@@ -1264,6 +1971,28 @@
       "categories": [
         "Peluncuran Produk",
         "Event & Komunitas"
+      ]
+    },
+    {
+      "id": "597d58ad0369",
+      "title": "Breaking ! Sirkuit Mugello minta korban…seorang Pembalap dilaporkan meninggal crash",
+      "url": "https://iwanbanaran.com/news/breaking-sirkuit-mugello-minta-korban-seorang-pembalap-dilaporkan-meninggal-crash",
+      "source": "Iwan Banaran",
+      "published": "2026-08-01T10:50:11+07:00",
+      "summary": "Iwanbanaran.com – Caakkk…. Kabar duka yang sangat menyayat hati baru saja datang dari lintasan balap legendaris Italia, Sirkuit Mugello. Dunia balap dan track day internasional berduka setelah salah satu rider dilaporkan meninggal dunia akibat insiden tragis yang melibatkan tumpahan oli di lintasan. Kabar memilukan ini dikonfirmasi langsung oleh pihak penyelenggara acara, No Limits Trackdays —salah satu penyedia layanan track day terbesar asal Inggris yang menggelar acara bertajuk European Track Day di Mugello bekerjasama dengan DG Events … Berdasarkan laporan resmi yang dilansir dari…",
+      "points": [
+        "Kabar duka yang sangat menyayat hati baru saja datang dari lintasan balap legendaris Italia, Sirkuit Mugello.",
+        "Dunia balap dan track day internasional berduka setelah salah satu rider dilaporkan meninggal dunia akibat insiden tragis yang melibatkan tumpahan oli di lintasan.",
+        "“Dengan rasa sedih yang mendalam, kami mengonfirmasi kehilangan seorang pebalap menyusul insiden di Sirkuit Mugello selama acara European track day kami, yang diselenggarakan bekerja sama dengan DG Events.",
+        "Selain itu, No Limits Trackdays juga akan melakukan evaluasi dan peninjauan internal secara menyeluruh terkait prosedur keselamatan acara bersama pengelola Sirkuit Mugello."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/breaking-sirkuit-mugello-minta-korban-seorang-pembalap-dilaporkan-meninggal-crash",
+      "brands": [],
+      "categories": [
+        "Racing & Motorsport",
+        "Peluncuran Produk",
+        "Aftersales & Servis"
       ]
     },
     {
@@ -1309,6 +2038,32 @@
       "categories": [
         "Racing & Motorsport"
       ]
+    },
+    {
+      "id": "76827dc98595",
+      "title": "BMW Motorrad Indonesia Luncurkan BMW F450 GS…Harga Bikin Mulesss",
+      "url": "https://iwanbanaran.com/news/bmw-motorrad-indonesia-luncurkan-bmw-f450-gs-harga-bikin-mulesss",
+      "source": "Iwan Banaran",
+      "published": "2026-08-01T06:00:05+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….BMW Motorrad Indonesia resmi memperkuat penetrasinya di pasar sepeda motor premium Tanah Air dengan meluncurkan dua model moge terbaru pada pembukaan ajang GAIKINDO Indonesia International Auto Show (GIIAS) 2026 di ICE BSD City, Tangerang, Kamis (30/7). Dua lini yang diboyong meliputi BMW F 450 GS yang menyasar segmen entry-level adventure , serta BMW R 1300 RT sebagai flagship sport tourer .",
+      "points": [
+        "BMW Motorrad Indonesia resmi memperkuat penetrasinya di pasar sepeda motor premium Tanah Air dengan meluncurkan dua model moge terbaru pada pembukaan ajang GAIKINDO Indonesia International Auto Show (GIIAS) 2026 di ICE BSD City, Tangerang, Kamis (30/7).",
+        "Moge petualang berkapasitas sedang ini dipasarkan dengan harga reguler Rp 418,9 juta (OTR Jakarta).",
+        "Namun, khusus sepanjang pameran GIIAS 2026 berlangsung, pemegang merek memberikan harga promosi sebesar Rp 398,9 juta.",
+        "Unit mesin ini mampu menghembuskan daya puncak 145 hp pada 7.750 rpm dan torsi gajah sebesar 149 Nm pada 6.500 rpm."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/bmw-motorrad-indonesia-luncurkan-bmw-f450-gs-harga-bikin-mulesss",
+      "brands": [
+        "BMW Motorrad"
+      ],
+      "categories": [
+        "Harga & Promo",
+        "Peluncuran Produk",
+        "Event & Komunitas"
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "9db4630554d8",

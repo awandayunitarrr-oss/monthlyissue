@@ -3,11 +3,11 @@
   "label": "1 – 15 Juni 2026",
   "start": "2026-06-01",
   "end": "2026-06-15",
-  "generated_at": "2026-11-12T11:36:05+07:00",
+  "generated_at": "2026-11-12T11:46:14+07:00",
   "sources": {
     "Iwan Banaran": {
-      "count": 0,
-      "method": null
+      "count": 28,
+      "method": "feed+listing+sitemap"
     },
     "Pertamax7": {
       "count": 0,
@@ -106,6 +106,28 @@
       ]
     },
     {
+      "id": "d8e2f5496bf0",
+      "title": "Bos Ducati akui Terkejut dengan Kemenangan Marquez di Hongaria",
+      "url": "https://iwanbanaran.com/news/bos-ducati-akui-terkejut-dengan-kemenangan-marquez-di-hongaria",
+      "source": "Iwan Banaran",
+      "published": "2026-06-14T07:44:10+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Manajer Tim Ducati Lenovo, Davide Tardozzi, mengaku sangat takjub sekaligus terheran-heran dengan mentalitas dan kemampuan Marc Marquez. Pria asal Italia tersebut berseloroh bahwa dirinya “terkejut karena masih bisa dibuat terkejut” oleh performa luar biasa pembalap berjuluk The Ant of Cervera itu saat merebut kemenangan emosional di MotoGP Hungaria 2026 yang digelar di Sirkuit Balaton Park. Kemenangan di GP Hungaria ini merupakan podium tertinggi pertama bagi Marquez di musim kompetisi 2026, sekaligus mengakhiri puasa kemenangan pertamanya sejak September tahun lalu.",
+      "points": [
+        "Manajer Tim Ducati Lenovo, Davide Tardozzi, mengaku sangat takjub sekaligus terheran-heran dengan mentalitas dan kemampuan Marc Marquez.",
+        "Pria asal Italia tersebut berseloroh bahwa dirinya “terkejut karena masih bisa dibuat terkejut” oleh performa luar biasa pembalap berjuluk The Ant of Cervera itu saat merebut kemenangan emosional di MotoGP Hungaria 2026 yang digelar di Sirkuit Balaton Park.",
+        "Kemenangan di GP Hungaria ini merupakan podium tertinggi pertama bagi Marquez di musim kompetisi 2026, sekaligus mengakhiri puasa kemenangan pertamanya sejak September tahun lalu.",
+        "Kendati demikian, dominasi total dan sapu bersih yang ditunjukkan Marquez sepanjang akhir pekan di Hungaria tetap membuat jajaran petinggi Ducati terperangah."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/bos-ducati-akui-terkejut-dengan-kemenangan-marquez-di-hongaria",
+      "brands": [
+        "Ducati"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
       "id": "9345208b3377",
       "title": "Pavesio : Yamaha MotoGP & Monster Energy 100% tetap Bersama di 2027",
       "url": "https://tmcblog.com/2026/06/14/pavesio-yamaha-motogp-monster-energy-100-tetap-bersama-di-2027/?utm_source=rss&utm_medium=rss&utm_campaign=pavesio-yamaha-motogp-monster-energy-100-tetap-bersama-di-2027",
@@ -151,6 +173,31 @@
       ]
     },
     {
+      "id": "638de8a56a49",
+      "title": "AHM kerahkan puluhan Motor di PRJ 2026….Vario 160 jadi Pusat perhatian",
+      "url": "https://iwanbanaran.com/news/ahm-kerahkan-puluhan-motor-di-prj-2026-vario-160-jadi-pusat-perhatian",
+      "source": "Iwan Banaran",
+      "published": "2026-06-13T10:10:18+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….PT Astra Honda Motor (AHM) dipastikan tampil agresif pada gelaran Jakarta Fair Kemayoran (JFK) 2026 yang berlangsung mulai 11 Juni hingga 12 Juli 2026. Mengambil lokasi strategis di Hall A & D, Booth Nomor 35, pabrikan berlambang sayap mengepak ini kerahkan puluhan Motor di PRJ 2026. Dan dilalah cak dilokasi ternyata Vario 160 masih jadi pusat perhatian cak !! Akhirnya Pekan Raya Jakarta di buka. AHM seperti biasa hadir disana dengan posisi strategis yakni Hall A & D, Booth Nomor 35.",
+      "points": [
+        "PT Astra Honda Motor (AHM) dipastikan tampil agresif pada gelaran Jakarta Fair Kemayoran (JFK) 2026 yang berlangsung mulai 11 Juni hingga 12 Juli 2026.",
+        "Mengambil lokasi strategis di Hall A & D, Booth Nomor 35, pabrikan berlambang sayap mengepak ini kerahkan puluhan Motor di PRJ 2026.",
+        "Dan ada puluhan motor dipamerkan oleh merekaBerikut adalah pemetaan zona pameran Honda di JFK 2026: Area Fashion: Menampilkan lini skutik retro modern, antara lain Stylo160, Scoopy, dan Genio.",
+        "Last…yang menarik dari pantauan IWB ternyata Vario 160 masih jadi pusat perhatian tanda banyak yang nggak tahu gen baru akan segera meluncur."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/ahm-kerahkan-puluhan-motor-di-prj-2026-vario-160-jadi-pusat-perhatian",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Event & Komunitas"
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
+    },
+    {
       "id": "5fb4ffaf294b",
       "title": "KYT Rilis NM-1: Helm Flip-Up Turing dengan Homologasi P/J ECE 22.06, Harga 1,7 Jutaan!",
       "url": "https://tmcblog.com/2026/06/13/kyt-rilis-nm-1-helm-flip-up-turing-dengan-homologasi-p-j-ece-22-06-harga-17-jutaan/?utm_source=rss&utm_medium=rss&utm_campaign=kyt-rilis-nm-1-helm-flip-up-turing-dengan-homologasi-p-j-ece-22-06-harga-17-jutaan",
@@ -192,6 +239,30 @@
         "Peluncuran Produk",
         "Event & Komunitas",
         "Teknologi & Fitur"
+      ]
+    },
+    {
+      "id": "ee486637fc34",
+      "title": "Breaking ! Yamaha Rilis MX King 150 Pramac Racing Motogp….hanya 2000 unit",
+      "url": "https://iwanbanaran.com/news/breaking-yamaha-rilis-mx-king-150-pramac-racing-motogp-hanya-2000-unit",
+      "source": "Iwan Banaran",
+      "published": "2026-06-12T11:17:38+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….PT Yamaha Indonesia Motor Manufacturing (YIMM) menggelar launching MX King 150 Prima Pramac livery di event Jakarta Fair Kemayoran, 11 Juni 2026. Edisi spesial itu menjadi pilihan teranyar yang memenuhi passion pecinta racing di Tanah Air. Karakter istimewa MX King 150 sebagai Raja Jalanan “King of Street” makin memperkuat keunggulan produk ini untuk meningkatkan pengalaman berkendara bagi konsumen. Diluncurkannya MX King 150 Prima Pramac livery salah satunya karena popularitas Toprak Razgatlıoğlu yang mendapatkan atensi tinggi dari para fans di Indonesia.",
+      "points": [
+        "PT Yamaha Indonesia Motor Manufacturing (YIMM) menggelar launching MX King 150 Prima Pramac livery di event Jakarta Fair Kemayoran, 11 Juni 2026.",
+        "Lalu yang terbaru adalah edisi terbatas MX King 150 Prima Pramac livery diperkenalkan untuk memuaskan kebutuhan penikmat balap dan penggemar bebek sport Yamaha.",
+        "Yamaha memasarkan MX King 150 Prima Pramac livery seharga Rp 29.900.000 rekomendasi on the road Jakarta.",
+        "Line up MX King 150 kini semakin bervariasi setelah sebelumnya telah diisi dengan kehadiran produk bernilai sejarah Special Livery Yamaha 70th Anniversary yang dipasarkan dengan harga Rp 29.200.000 rekomendasi on the road Jakarta."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/breaking-yamaha-rilis-mx-king-150-pramac-racing-motogp-hanya-2000-unit",
+      "brands": [
+        "Yamaha"
+      ],
+      "categories": [
+        "Racing & Motorsport",
+        "Peluncuran Produk",
+        "Event & Komunitas"
       ]
     },
     {
@@ -265,6 +336,32 @@
       ]
     },
     {
+      "id": "2858aeb46308",
+      "title": "PRJ 2026 : Bersiaplah cak…hari ini ada 3 Motor Baru yang dirilis! New Vario 160 Masuk — ??",
+      "url": "https://iwanbanaran.com/news/prj-2026-bersiaplah-cak-hari-ini-ada-3-motor-baru-yang-dirilis-new-vario-160-masuk",
+      "source": "Iwan Banaran",
+      "published": "2026-06-11T09:11:36+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…..Ajang Pekan Raya Jakarta (PRJ) atau Jakarta Fair Kemayoran 2026 kembali menjadi panggung panas bagi para produsen roda dua. Kalau dianalisis dari pergerakan pasar, peta persaingan tahun ini sangat menarik karena adanya pergeseran peta segmen dari pabrikan Jepang besar serta agresivitas merek baru dan motor listrik (EV) yang semakin matang.",
+      "points": [
+        "Ajang Pekan Raya Jakarta (PRJ) atau Jakarta Fair Kemayoran 2026 kembali menjadi panggung panas bagi para produsen roda dua.",
+        "Inilah cak…analisa PRJ 2026, hari ini ada 3 Motor Baru yang dirilis.",
+        "Langkah PT Kawasaki Motor Indonesia (KMI) di PRJ 2026 bisa dibilang menjadi buah bibir utama.",
+        "Last…PRJ 2026 menjadi sinyal kuat bahwa pabrikan konvensional mulai pragmatis melihat pasar (terbukti dari manuver nekat Kawasaki ke ranah matik urban), sementara pabrikan EV mulai beralih fokus dari sekadar mengandalkan subsidi pemerintah ke arah perang fitur riil dan kemudahan pembiayaan langsung di lapangan."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/prj-2026-bersiaplah-cak-hari-ini-ada-3-motor-baru-yang-dirilis-new-vario-160-masuk",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Motor Listrik",
+        "Event & Komunitas"
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
+    },
+    {
       "id": "9fa6c2e763c2",
       "title": "Jarak Baris Grid Start MotoGP Akan Diperlebar dan Ride Height Device Dilarang Saat Start Pasca Summer Break 2026!",
       "url": "https://tmcblog.com/2026/06/11/jarak-baris-grid-start-motogp-akan-diperlebar-dan-ride-height-device-dilarang-saat-start-pasca-summer-break-2026/?utm_source=rss&utm_medium=rss&utm_campaign=jarak-baris-grid-start-motogp-akan-diperlebar-dan-ride-height-device-dilarang-saat-start-pasca-summer-break-2026",
@@ -311,6 +408,28 @@
       ]
     },
     {
+      "id": "849a57db78f0",
+      "title": "Motor Viral Honda Hoo Ride….ADV versi Dek Rata Yang Makin di Cari",
+      "url": "https://iwanbanaran.com/news/motor-viral-honda-hoo-ride-adv-versi-dek-rata-yang-makin-di-cari",
+      "source": "Iwan Banaran",
+      "published": "2026-06-10T13:00:55+07:00",
+      "summary": "Iwanbanaran.com – Cak… kalau kita ngomongin motor matic adventure Honda, di kepala sampeyan pasti langsung keluar nama ADV160 atau X-ADV. Padahal seperti yang pernah IWB bahas diluar sana ada satu lagi motor matic petualang buatan Honda yang desainnya nggak kalah liar, tapi punya fungsionalitas yang jauh lebih praktis. Yup, namanya Honda “Hoo Ride” (HooRide) rilisan Wuyang Honda Tiongkok! Sebuah matic dek rata dengan desain crossover membuatnya makin di cari…. IWB baru saja ngintip ulasan menarik hadirnya Honda Hoo Ride yang mengupas tuntas edisi ke-33 dari seri motor langka dunia.",
+      "points": [
+        "IWB baru saja ngintip ulasan menarik hadirnya Honda Hoo Ride yang mengupas tuntas edisi ke-33 dari seri motor langka dunia.",
+        "Kalau kita coba bedah ulang…Wuyang Honda secara resmi mengklaim kalau garis desain Hoo Ride ini berkiblat pada sang kakak legendaris, Honda CRF1100L Africa Twin.",
+        "Berbeda dengan ADV160 yang punya dek tengah menonjol karena tangki bensin, Honda Hoo Ride ini menganut paham lantai dek rata (flat deck) berukuran 276mm x 450mm.",
+        "Jantung mekanis Honda Hoo Ride ini mengandalkan mesin eSP+ 124,7cc, 4-katup, SOHC, berpendingin cairan."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/motor-viral-honda-hoo-ride-adv-versi-dek-rata-yang-makin-di-cari",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Lainnya"
+      ]
+    },
+    {
       "id": "079532811511",
       "title": "MotoGP 2027: Wacana Satu Motor di Garasi Saat Latihan Jumat-Sabtu? Ini Detailnya!",
       "url": "https://tmcblog.com/2026/06/10/motogp-2027-wacana-satu-motor-di-garasi-saat-latihan-jumat-sabtu-ini-detailnya/?utm_source=rss&utm_medium=rss&utm_campaign=motogp-2027-wacana-satu-motor-di-garasi-saat-latihan-jumat-sabtu-ini-detailnya",
@@ -354,9 +473,7 @@
         "Peluncuran Produk",
         "Spy / Rumor",
         "Racing & Motorsport"
-      ],
-      "highlight": true,
-      "highlight_by": "auto"
+      ]
     },
     {
       "id": "0419c80fc1cf",
@@ -377,6 +494,29 @@
       "categories": [
         "Aftersales & Servis",
         "Teknologi & Fitur"
+      ]
+    },
+    {
+      "id": "27bf585ec10f",
+      "title": "Terbongkar Kenapa Veda sulit di Hongaria…” Aku kehabisan Ban…”",
+      "url": "https://iwanbanaran.com/news/terbongkar-kenapa-veda-sulit-di-hongaria-aku-kehabisan-ban",
+      "source": "Iwan Banaran",
+      "published": "2026-06-10T05:48:43+07:00",
+      "summary": "Iwanbanaran.com – Cak… seri kedelapan Moto3 2026 yang digelar di Sirkuit Balaton Park, Hungaria, akhir pekan kemarin (7/6/2026) bener-bener jadi ujian berat buat pembalap muda kebanggaan tanah air, Veda Ega Pratama. Sempat bikin kita optimis lewat performa apiknya di awal sesi latihan, rider besutan Honda Team Asia ini harus legawa finis di posisi ke-16 dan gagal membawa pulang poin berharga. Selepas balapan, Veda secara blak-blakan membongkar semua rintangan yang bikin dia kerepotan menjinakkan sirkuit baru sepanjang 4,08 kilometer tersebut.",
+      "points": [
+        "Seri kedelapan Moto3 2026 yang digelar di Sirkuit Balaton Park, Hungaria, akhir pekan kemarin (7/6/2026) bener-bener jadi ujian berat buat pembalap muda kebanggaan tanah air, Veda Ega Pratama.",
+        "Balaton Park ini adalah sirkuit gres yang baru pertama kali dicicipi oleh Veda.",
+        "Sayang saya kehabisan grip ban dan ya susah,” keluh Veda.",
+        "Last. balapan di Balaton Park kemarin bener-bener jadi learning curve alias pelajaran yang mahal banget buat seorang rookie seperti Veda Ega Pratama."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/terbongkar-kenapa-veda-sulit-di-hongaria-aku-kehabisan-ban",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Racing & Motorsport",
+        "Aftersales & Servis"
       ]
     },
     {
@@ -424,6 +564,26 @@
       ]
     },
     {
+      "id": "941c54b3399e",
+      "title": "Dokter Bedah Marquez Dr. Costa: ” Penderitaan membuatnya jadi Ksatria ”",
+      "url": "https://iwanbanaran.com/news/dokter-bedah-marquez-dr-costa-penderitaan-membuatnya-jadi-ksatria",
+      "source": "Iwan Banaran",
+      "published": "2026-06-09T17:00:23+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Kemenangan bersejarah Marc Marquez di Grand Prix Hongaria 2026, yang sekaligus menandai kemenangan ke-100 sepanjang kariernya di semua kelas Kejuaraan Dunia, terus menuai kekaguman dari berbagai tokoh penting di dunia motorsport. Salah satu ulasan yang paling mendalam datang dari Dr. Claudio Costa, dokter ikonik sekaligus pendiri Clinica Mobile yang telah merawat ratusan pembalap legenda selama berdekade-dekade. Bagi Dr. Costa, pencapaian luar biasa The Baby Alien di Sirkuit Balaton Park bukan sekadar menambah angka dalam buku statistik.",
+      "points": [
+        "Kemenangan bersejarah Marc Marquez di Grand Prix Hongaria 2026, yang sekaligus menandai kemenangan ke-100 sepanjang kariernya di semua kelas Kejuaraan Dunia, terus menuai kekaguman dari berbagai tokoh penting di dunia motorsport.",
+        "Costa, periode-periode sulit yang dilalui Marquez akibat cedera parah pada lengan kanannya sejak tahun 2020—yang membutuhkan serangkaian operasi besar dan fase pemulihan yang sangat panjang—sama sekali tidak melemahkan pembalap asal Spanyol tersebut.",
+        "Costa menjelaskan beberapa poin penting mengapa Marquez kini menjadi sosok yang berbeda: Mentalitas yang Kebal: Pembalap biasa mungkin akan menyerah atau kehilangan kecepatan mereka setelah mengalami trauma fisik yang begitu berat.",
+        "Costa ini semakin mempertegas naratif bahwa Marc Marquez telah berhasil menyelesaikan salah satu kisah kebangkitan ( comeback ) paling agung dalam sejarah olahraga modern."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/dokter-bedah-marquez-dr-costa-penderitaan-membuatnya-jadi-ksatria",
+      "brands": [],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
       "id": "9c725c0bb7b1",
       "title": "Perjanjian Concordia Ala MotoGP telah disepakati di Balaton-Park . . Siap Siap Pengumuman Line Up 2027 menyusul !!",
       "url": "https://tmcblog.com/2026/06/09/perjanjian-concordia-ala-motogp-telah-disepakati-di-balaton-park-siap-siap-pengumuman-line-up-2027-menyusul/?utm_source=rss&utm_medium=rss&utm_campaign=perjanjian-concordia-ala-motogp-telah-disepakati-di-balaton-park-siap-siap-pengumuman-line-up-2027-menyusul",
@@ -441,6 +601,27 @@
       "brands": [],
       "categories": [
         "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "88afd4a7b82e",
+      "title": "Cetak Sejarah! Marc Marquez Jadi Pembalap Ke 3 yang Tembus 100 Kemenangan Grand Prix",
+      "url": "https://iwanbanaran.com/news/cetak-sejarah-marc-marquez-jadi-pembalap-ke-3-yang-tembus-100-kemenangan-grand-prix",
+      "source": "Iwan Banaran",
+      "published": "2026-06-09T13:00:05+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Pembalap legendaris Marc Marquez resmi menorehkan namanya dalam buku sejarah emas Kejuaraan Dunia Balap Motor. Lewat kemenangan gemilang di Grand Prix Hongaria yang digelar di Sirkuit Balaton Park, sang The Baby Alien kini resmi mengoleksi 100 kemenangan sepanjang kariernya di semua kelas (125cc/Moto3, 250cc/Moto2, dan 500cc/MotoGP). Pencapaian ini menempatkan Marquez ke dalam klub elite yang sangat eksklusif.",
+      "points": [
+        "Pembalap legendaris Marc Marquez resmi menorehkan namanya dalam buku sejarah emas Kejuaraan Dunia Balap Motor.",
+        "Lewat kemenangan gemilang di Grand Prix Hongaria yang digelar di Sirkuit Balaton Park, sang The Baby Alien kini resmi mengoleksi 100 kemenangan sepanjang kariernya di semua kelas (125cc/Moto3, 250cc/Moto2, dan 500cc/MotoGP).",
+        "Sepanjang sejarah balap motor dunia, kini hanya ada tiga pembalap yang mampu menembus angka tiga digit atau 100 kemenangan Grand Prix.",
+        "Meski Marquez sukses menyentuh angka 100 kemenangan secara total di semua kelas, statistik di kelas utama (500cc/MotoGP) menunjukkan dinamika yang berbeda."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/cetak-sejarah-marc-marquez-jadi-pembalap-ke-3-yang-tembus-100-kemenangan-grand-prix",
+      "brands": [],
+      "categories": [
+        "Racing & Motorsport",
+        "Peluncuran Produk"
       ]
     },
     {
@@ -491,6 +672,26 @@
       ]
     },
     {
+      "id": "1474bcb255be",
+      "title": "Memanas…Banding tim Leopard di tolak, Pertimbangkan bawa ke CAS !??",
+      "url": "https://iwanbanaran.com/news/memanas-banding-tim-leopard-di-tolak-pertimbangkan-bawa-ke-cas",
+      "source": "Iwan Banaran",
+      "published": "2026-06-09T07:42:36+07:00",
+      "summary": "Iwanbanaran.com – Cakkkk….Kabar Buruk bagi Leopard: FIM Tolak Upaya Banding! Panel Juri Banding (Stewards’ Appeal Panel) memperkuat keputusan awal dan menolak banding dari tim. Leopard kini tidak punya pilihan selain mengajukan banding ke Pengadilan Arbitrase Olahraga (CAS). Waah makin mawuttt cakkk…. Berita besar hari ini di kelas Moto3 adalah didiskualifikasinya Adrien Fernandez dari GP Thailand, Brasil, Austin, Jerez, Le Mans, dan Barcelona. Ini merupakan pukulan telak bagi Tim Leopard yang kini terpaksa menghadapi kemunduran yang signifikan.",
+      "points": [
+        "Kabar Buruk bagi Leopard: FIM Tolak Upaya Banding.",
+        "Panel Juri Banding (Stewards’ Appeal Panel) memperkuat keputusan awal dan menolak banding dari tim.",
+        "Kini untuk iktiar final tim Leopard bisa mengajukan final banding ke CAS atau Pengadilan Arbitrase Olahraga.",
+        "Jadi sepertinya tim Leopard harus merelakan perjuangan mereka untuk tidak banding karena justru akan membuat mereka makin tak menentu…(iwb) Aktifkan JavaScript untuk membaca komentar, atau buka langsung di halaman artikel ini."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/memanas-banding-tim-leopard-di-tolak-pertimbangkan-bawa-ke-cas",
+      "brands": [],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
       "id": "122f0e5979a0",
       "title": "Geng Ijo Bikin Geger! Intip Calon Skutik Baru Kawasaki Indonesia yang Siap Rilis Esok di PRJ 2026",
       "url": "https://tmcblog.com/2026/06/09/geng-ijo-bikin-geger-intip-calon-skutik-baru-kawasaki-indonesia-yang-siap-rilis-esok-di-prj-2026/?utm_source=rss&utm_medium=rss&utm_campaign=geng-ijo-bikin-geger-intip-calon-skutik-baru-kawasaki-indonesia-yang-siap-rilis-esok-di-prj-2026",
@@ -505,6 +706,31 @@
       ],
       "summary_by": "auto",
       "image": "https://cdn.tmcblog.com/2026/06/modenas-kawasaki-125-7.webp",
+      "brands": [
+        "Kawasaki"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Spy / Rumor"
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
+    },
+    {
+      "id": "e365231c500f",
+      "title": "Breaking…Kawasaki Rilis Teaser “Matic Baru”, New Era Datang cakk",
+      "url": "https://iwanbanaran.com/news/breaking-kawasaki-rilis-teaser-matic-baru-new-era-datang-cakk",
+      "source": "Iwan Banaran",
+      "published": "2026-06-08T19:05:50+07:00",
+      "summary": "Iwanbanaran.com – Cakkkk…akhirnyaaa era baru datang. Sebuah teaser yang sebenarnya sudah IWB terawang via IG Iwanbanaran akan gebrakan Geng ijo. Yup…Kawasaki, yang sejak dulu fokus total pada segmen sport akhirnya, perkemarin merilis teaser peluncuran produk baru. Sebuah sosok yang awalnya kita pikir merupakan moge. Tapi setelah kita pelototin….fix, Kawasaki Rilis Teaser “Matic Baru”, yesss era baru Datang cakk !!! Peta persaingan pasar sepeda motor matik (skutik) tanah air tampaknya akan kedatangan penantang baru dari arah yang sangat tidak terduga cak.",
+      "points": [
+        "Yup…Kawasaki, yang sejak dulu fokus total pada segmen sport akhirnya, perkemarin merilis teaser peluncuran produk baru.",
+        "Tapi setelah kita pelototin.fix, Kawasaki Rilis Teaser “Matic Baru”, yesss era baru Datang cakk.",
+        "PT Kawasaki Motor Indonesia (KMI) baru saja mengejutkan jagat maya dengan merilis sebuah gambar teaser misterius melalui akun media sosial resminya.",
+        "Jika KMI mampu membanderol motor ini di kisaran harga psikologis Rp 20 jutaan hingga Rp 23 jutaan—setara dengan rival terdekatnya maka Brusky 125 diprediksi akan menjadi opsi alternatif yang sangat seksi bagi konsumen yang bosan dengan model skutik yang itu-itu saja di jalanan perkotaan."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/breaking-kawasaki-rilis-teaser-matic-baru-new-era-datang-cakk",
       "brands": [
         "Kawasaki"
       ],
@@ -540,6 +766,26 @@
       ]
     },
     {
+      "id": "2c4e002124a7",
+      "title": "Update Klasemen Sementara Moto3 Hongaria 2026…Veda Ega tertekan",
+      "url": "https://iwanbanaran.com/news/update-klasemen-sementara-moto3-hongaria-2026-veda-ega-tertekan",
+      "source": "Iwan Banaran",
+      "published": "2026-06-08T08:48:17+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…Pembalap Indonesia, Veda Ega Pratama, harus rela turun ke posisi keenam klasemen sementara Moto3 2026 setelah gagal meraih poin di seri Hungaria, Minggu (7/6/2026). Veda yang start dari posisi 9 dan sempat merangsek ke 6….akhirnya harus puas finis di urutan 16 setelah terkena hukuman long lap penalty . Inilah Update Klasemen Sementara Moto3 Hongaria…Veda Ega tertekan !! Akhir pekan di Grand Prix Hungaria 2026 menjadi seri yang penuh ujian bagi pembalap muda berbakat asal Indonesia, Veda Ega Pratama.",
+      "points": [
+        "Pembalap Indonesia, Veda Ega Pratama, harus rela turun ke posisi keenam klasemen sementara Moto3 2026 setelah gagal meraih poin di seri Hungaria, Minggu (7/6/2026).",
+        "Akhir pekan di Grand Prix Hungaria 2026 menjadi seri yang penuh ujian bagi pembalap muda berbakat asal Indonesia, Veda Ega Pratama.",
+        "Meskipun turun ke posisi keenam, peluang Veda Ega Pratama untuk kembali menembus posisi lima besar atau bahkan mengincar peringkat ketiga dunia masih terbuka sangat lebar.",
+        "Jika Veda bisa finis di posisi 5-6 di Assen, ia berpeluang besar merebut kembali posisi 4 atau 5 klasemen.(iwb) *Catatan: Adrian Fernandez (Leopard Racing) saat ini dalam proses banding terkait diskualifikasi dari 6 seri awal."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/update-klasemen-sementara-moto3-hongaria-2026-veda-ega-tertekan",
+      "brands": [],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
       "id": "c4e2d16a1b52",
       "title": "Kawasaki Bangkitkan Balik Kejayaan Dua Tak Lewat KX327 dan KX327X 2027, Pakai Injeksi!",
       "url": "https://tmcblog.com/2026/06/08/kawasaki-bangkitkan-balik-kejayaan-dua-tak-lewat-kx327-dan-kx327x-2027-pakai-injeksi/?utm_source=rss&utm_medium=rss&utm_campaign=kawasaki-bangkitkan-balik-kejayaan-dua-tak-lewat-kx327-dan-kx327x-2027-pakai-injeksi",
@@ -561,9 +807,7 @@
       "categories": [
         "Peluncuran Produk",
         "Regulasi & Kebijakan"
-      ],
-      "highlight": true,
-      "highlight_by": "auto"
+      ]
     },
     {
       "id": "63d777e9e7b3",
@@ -610,6 +854,26 @@
       ]
     },
     {
+      "id": "47643b0740f5",
+      "title": "Moto3 Hongaria : Penalti Paksa Veda Ega terpuruk ke 16, Moto3 Balaton Bencana",
+      "url": "https://iwanbanaran.com/news/moto3-hongaria-penalti-paksa-veda-ega-terpuruk-ke-15-moto3-balaton-bencana",
+      "source": "Iwan Banaran",
+      "published": "2026-06-07T17:52:00+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Balapan Moto3 Hongaria 2026 di Sirkuit Balaton Park berlangsung penuh drama dan ketegangan sepanjang 20 lap. Diwarnai dengan insiden Red Flag di lap terakhir, pembalap muda Maximo Quiles sukses mengamankan podium tertinggi. Di sisi lain, pembalap andalan Indonesia, Veda Ega Pratama, harus puas finis di posisi ke-16 setelah berjuang keras melewati hukuman Long Lap Penalty (LLP). Balapan dimulai dalam kondisi lintasan yang kering dengan suhu permukaan trek mencapai 42°C.",
+      "points": [
+        "Balapan Moto3 Hongaria 2026 di Sirkuit Balaton Park berlangsung penuh drama dan ketegangan sepanjang 20 lap.",
+        "Di sisi lain, pembalap andalan Indonesia, Veda Ega Pratama, harus puas finis di posisi ke-16 setelah berjuang keras melewati hukuman Long Lap Penalty (LLP).",
+        "Sementara itu, Veda Ega Pratama diputuskan finis di posisi ke-16, tepat satu strip di luar zona poin.",
+        "Last.Meski gagal membawa pulang poin dari seri Hongaria ini, posisi Veda Ega Pratama di klasemen sementara Kejuaraan Dunia Moto3 2026 masih tergolong aman."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/moto3-hongaria-penalti-paksa-veda-ega-terpuruk-ke-15-moto3-balaton-bencana",
+      "brands": [],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
       "id": "6f2dc535acba",
       "title": "QUILES Menangkan Race Moto3 Hongaria 2026 | Veda Pratama Finish Posisi 16",
       "url": "https://tmcblog.com/2026/06/07/quiles-menangkan-race-moto3-hongaria-2026-veda-pratama-finish/?utm_source=rss&utm_medium=rss&utm_campaign=quiles-menangkan-race-moto3-hongaria-2026-veda-pratama-finish",
@@ -628,6 +892,27 @@
       "categories": [
         "Racing & Motorsport",
         "Aftersales & Servis"
+      ]
+    },
+    {
+      "id": "9b8f6494f676",
+      "title": "Perang ditabuh….Fernandes dan Tim Leopard Racing Lawan Hukuman diskualifikasi Moto3…",
+      "url": "https://iwanbanaran.com/news/perang-ditabuh-fernandes-dan-tim-leopard-racing-lawan-hukuman-diskualifikasi-moto3",
+      "source": "Iwan Banaran",
+      "published": "2026-06-07T12:04:50+07:00",
+      "summary": "Iwanbanaran.com – Cakkkk…seperti yang sampeyan semua tahu, Dunia Moto3 diguncang skandal besar jelang balapan utama GP Hungaria. Pembalap andalan Leopard Racing, Adrian Fernandez, secara resmi didiskualifikasi dari enam seri awal musim 2026 (Thailand, Brasil, Amerika Serikat, Spanyol, Prancis, dan Catalunya). Keputusan ini dijatuhkan oleh FIM MotoGP Stewards. Akibat hukuman ini, posisi Fernandez yang semula berada di peringkat ketiga klasemen langsung anjlok ke posisi 19 . Ia hanya menyisakan poin dari finis keempat di Mugello pekan lalu (13 poin).",
+      "points": [
+        "Pembalap andalan Leopard Racing, Adrian Fernandez, secara resmi didiskualifikasi dari enam seri awal musim 2026 (Thailand, Brasil, Amerika Serikat, Spanyol, Prancis, dan Catalunya).",
+        "Leopard Racing merilis pernyataan resmi yang keras dan menyatakan “perang” hukum untuk membela integritas tim dan pembalapnya.",
+        "Taruhannya bukan hanya nasib poin Adrian Fernandez, tetapi juga reputasi Leopard Racing —salah satu tim tersukses di kelas ringan dengan koleksi gelar juara dunia bersama Danny Kent, Joan Mir, Lorenzo Dalla Porta, dan Jaume Masia.",
+        "Jika Leopard Racing berhasil membuktikan bahwa tidak ada niat kecurangan dan prosedur FIM cacat, hukuman ini bisa dibatalkan."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/perang-ditabuh-fernandes-dan-tim-leopard-racing-lawan-hukuman-diskualifikasi-moto3",
+      "brands": [],
+      "categories": [
+        "Racing & Motorsport",
+        "Peluncuran Produk"
       ]
     },
     {
@@ -668,6 +953,28 @@
       "summary_by": "auto",
       "image": "https://cdn.tmcblog.com/2026/06/adrian3.webp",
       "brands": [],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "70a41a9273fb",
+      "title": "MotoGP Sprint Hongaria : The King is Back…Marc Marquez tak Tersentuh cakk",
+      "url": "https://iwanbanaran.com/news/motogp-sprint-hongaria-the-king-is-back-marc-marquez-tak-tersentuh-cakk",
+      "source": "Iwan Banaran",
+      "published": "2026-06-06T20:53:59+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…Juara dunia bertahan, Marc Marquez, membuktikan kembali mentalitas juaranya dengan memenangkan balapan Tissot Sprint dalam Grand Prix Hungaria 2026 di Sirkuit Balaton Park (6/6/2026). Kemenangan ini terasa luar biasa mengingat pembalap utama Ducati tersebut baru saja menjalani operasi pada bahu kanannya bulan lalu dan masih berada dalam proses pemulihan kebugaran fisik. Yup…The King is Back…Marc Marquez tak Tersentuh cakk !!! Sebelum akhir pekan ini dimulai, Marquez sempat meredam ekspektasi publik dengan menyatakan dirinya belum cukup bugar untuk memperebutkan podium.",
+      "points": [
+        "Juara dunia bertahan, Marc Marquez, membuktikan kembali mentalitas juaranya dengan memenangkan balapan Tissot Sprint dalam Grand Prix Hungaria 2026 di Sirkuit Balaton Park (6/6/2026).",
+        "Memasuki lap kedua, Marquez menjadi satu-satunya pembalap yang mampu menembus catatan waktu 1 menit 37 detik, tepatnya 1 menit 37,901 detik, menjadikannya pemilik Fastest Lap pada sesi Sprint ini.",
+        "Kemenangan Sprint ketiga bagi Marc Marquez di musim 2026 ini memberikan suntikan 12 poin penting dalam upayanya mengejar ketertinggalan di papan klasemen akibat absen dan pemulihan operasi.",
+        "Last…Kemenangan di Balaton Park ini menjadi pesan tegas dari Marc Marquez kepada rival-rivalnya: bahkan dalam kondisi fisik yang belum 100 persen pasca operasi, insting membunuh sang juara dunia di atas lintasan tetap tidak terkalahkan."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/motogp-sprint-hongaria-the-king-is-back-marc-marquez-tak-tersentuh-cakk",
+      "brands": [
+        "Ducati"
+      ],
       "categories": [
         "Racing & Motorsport"
       ]
@@ -752,6 +1059,29 @@
       "brands": [],
       "categories": [
         "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "78e28868d2e2",
+      "title": "Licik Bongkar Mesin ! Adrian Fernandez Didiskualifikasi dari 6 Balapan….Veda Melesat P3 di Moto3",
+      "url": "https://iwanbanaran.com/news/licik-bongkar-mesin-adrian-fernandez-didiskualifikasi-dari-6-balapan-veda-melesat-p3-di-moto3",
+      "source": "Iwan Banaran",
+      "published": "2026-06-06T08:24:22+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…Dunia balap Moto3 diguncang skandal teknis besar. Pebalap tim Leopard Racing, Adrian Fernandez, secara resmi didiskualifikasi dari hasil enam Grand Prix (GP) awal musim ini. Keputusan berat ini diambil setelah Direktur Teknis kejuaraan menemukan adanya indikasi kecurangan berupa manipulasi atau perusakan segel pada mesin Honda milik tim asal Luksemburg tersebut…!! Berdasarkan hasil investigasi mendalam, Fernandez dicoret dari hasil balapan yang berlangsung di Thailand, Brasil, Amerika Serikat (Austin), Spanyol (Jerez), Prancis (Le Mans), dan Catalunya (Barcelona).",
+      "points": [
+        "Dunia balap Moto3 diguncang skandal teknis besar.",
+        "Pebalap tim Leopard Racing, Adrian Fernandez, secara resmi didiskualifikasi dari hasil enam Grand Prix (GP) awal musim ini.",
+        "Sanksi tegas ini dijatuhkan setelah pihak penyelenggara melakukan inspeksi menyeluruh terhadap dua mesin Honda yang digunakan oleh Adrian Fernandez, yaitu mesin dengan nomor seri 810 dan 811.",
+        "Dan dengan didiskualifikasi Adrian otomatis akan membuat posisi Veda Naik ke P3 dalam klasemen sementara Moto3 2026…Goooo Veda."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/licik-bongkar-mesin-adrian-fernandez-didiskualifikasi-dari-6-balapan-veda-melesat-p3-di-moto3",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Racing & Motorsport",
+        "Peluncuran Produk"
       ]
     },
     {
@@ -843,6 +1173,50 @@
       ]
     },
     {
+      "id": "f1949503737c",
+      "title": "Moto3 FP1 Hongaria : Veda Melesat ke 2 tempel Quiles…ediann kencang cakkk",
+      "url": "https://iwanbanaran.com/news/moto3-fp1-hongaria-veda-melesat-ke-2-tempel-quiles-ediann-kencang-cakkk",
+      "source": "Iwan Banaran",
+      "published": "2026-06-05T19:10:42+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Kebangkitan luar biasa ditunjukkan oleh pembalap muda Indonesia, Veda Ega Pratama, pada rangkaian Moto3 Hungaria 2026. Setelah sempat kesulitan dan terdampar di posisi buncit pada sesi awal, pembalap andalan Honda Team Asia ini mengamuk di sesi berikutnya dengan berhasil mengamankan posisi kedua sebagai pembalap tercepat . Yuppp…Veda Melesat ke 2 tempel Quiles…ediann kencang cakkk !!! Lompatan performa yang drastis di Sirkuit Balaton Park ini membuktikan mentalitas baja serta kejelian Veda dan timnya dalam merombak pengaturan ( set-up ) motor Honda NSF250RW miliknya.",
+      "points": [
+        "Kebangkitan luar biasa ditunjukkan oleh pembalap muda Indonesia, Veda Ega Pratama, pada rangkaian Moto3 Hungaria 2026.",
+        "Yuppp…Veda Melesat ke 2 tempel Quiles…ediann kencang cakkk.",
+        "Berikut adalah gambaran sengitnya persaingan di posisi 5 besar sesi tersebut: Keberhasilan Veda menembus posisi kedua ini terasa semakin manis karena ia mampu mengasapi pembalap-pembalap yang menjadi rival langsungnya di papan atas klasemen.",
+        "Kemampuan adaptasi kilat dari posisi paling belakang langsung melesat ke posisi ke-2 dalam waktu singkat menegaskan statusnya sebagai salah satu rookie paling berbahaya di Moto3 musim 2026."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/moto3-fp1-hongaria-veda-melesat-ke-2-tempel-quiles-ediann-kencang-cakkk",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "4616902fc1cd",
+      "title": "Kejutan….Marc Marquez Melesat di FP1 Hongaria, Toprak Razgatlioglu Jadi Yamaha Tercepat",
+      "url": "https://iwanbanaran.com/news/kejutan-marc-marquez-melesat-di-fp1-hongaria-toprak-razgatlioglu-jadi-yamaha-tercepat",
+      "source": "Iwan Banaran",
+      "published": "2026-06-05T17:39:27+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…Maju ke Sirkuit Balaton Park untuk putaran ketujuh kejuaraan dunia MotoGP 2026, sirkuit yang terkenal dengan desainnya yang berliku dan teknis ini menyuguhkan aksi pembuka yang mendebarkan. Meskipun masih dalam fase pemulihan setelah operasi bahu baru-baru ini, juara bertahan Marc Marquez membuktikan statusnya sebagai pembalap yang sulit ditandingi dengan mendominasi sesi Latihan Bebas 1 (FP1) Grand Prix Hongaria.",
+      "points": [
+        "Meskipun masih dalam fase pemulihan setelah operasi bahu baru-baru ini, juara bertahan Marc Marquez membuktikan statusnya sebagai pembalap yang sulit ditandingi dengan mendominasi sesi Latihan Bebas 1 (FP1) Grand Prix Hongaria.",
+        "Marc Marquez Terkencang di FP1 Hungaria, Toprak Razgatlioglu Jadi Yamaha Tercepat.",
+        "Hanya menggunakan satu set ban jenis medium dari awal hingga akhir, Marquez mencatatkan waktu tercepat 1:38.626s pada menit-menit pertengahan sesi.",
+        "Fernandez membuat kejutan pada detik-detik terakhir dengan mencatatkan waktu 1:38.795s, hanya selisih 0.169s di belakang Marquez, sekaligus mengamankan posisi kedua."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/kejutan-marc-marquez-melesat-di-fp1-hongaria-toprak-razgatlioglu-jadi-yamaha-tercepat",
+      "brands": [
+        "Yamaha"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
       "id": "6921a9211527",
       "title": "Marc Marquez Tercepat FP1 MotoGP Hongaria 2026",
       "url": "https://tmcblog.com/2026/06/05/marc-marquez-tercepat-fp1-motogp-hongaria-2026/?utm_source=rss&utm_medium=rss&utm_campaign=marc-marquez-tercepat-fp1-motogp-hongaria-2026",
@@ -861,6 +1235,30 @@
       "categories": [
         "Racing & Motorsport",
         "Aftersales & Servis"
+      ]
+    },
+    {
+      "id": "bdd3a85254d3",
+      "title": "Kelemahan Ducati makin Kelihatan….Pantes Marquez crash terus",
+      "url": "https://iwanbanaran.com/news/kelemahan-ducati-makin-kelihatan-pantes-marquez-crash-terus",
+      "source": "Iwan Banaran",
+      "published": "2026-06-05T08:09:21+07:00",
+      "summary": "Iwanbanaran.com – Cakkkk….Pembalap VR46 Ducati, Fabio Di Giannantonio, secara blak-blakan mengungkap kelemahan terbesar Ducati saat ini. Menurutnya, masalah tersebut sudah terlihat sejak Jorge Martin pertama kali mengendarai Aprilia pada tes Barcelona 2024. Pernyataan ini muncul setelah Pecco Bagnaia berhasil meraih podium pertama musim ini di Mugello. Dalam video Inside Ducati, Bagnaia mengakui bahwa peningkatan di bagian depan motor dicapai dengan menggeser beban ke depan. “Kami telah mengambil langkah maju… Dengan menggeser beban ke depan, kami telah meningkat.” serunya.",
+      "points": [
+        "Pembalap VR46 Ducati, Fabio Di Giannantonio, secara blak-blakan mengungkap kelemahan terbesar Ducati saat ini.",
+        "Di Giannantonio, yang saat ini menjadi pembalap Ducati dengan posisi terbaik di klasemen (ketiga), menjelaskan mengapa bagian depan Desmosedici menjadi masalah kronis.",
+        "Dari tujuh balapan utama musim ini, Ducati hanya memenangkan dua (Alex Marquez di Jerez, Di Giannantonio di Catalunya).",
+        "Ia menjadi satu-satunya harapan Ducati untuk mengejar ketertinggalan di kejuaraan, mengingat Bagnaia dan Marquez masih kesulitan performa."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/kelemahan-ducati-makin-kelihatan-pantes-marquez-crash-terus",
+      "brands": [
+        "Ducati",
+        "Vespa / Piaggio"
+      ],
+      "categories": [
+        "Racing & Motorsport",
+        "Recall & Kualitas"
       ]
     },
     {
@@ -905,9 +1303,7 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ],
-      "highlight": true,
-      "highlight_by": "auto"
+      ]
     },
     {
       "id": "1abc1047f9d1",
@@ -931,6 +1327,51 @@
         "Racing & Motorsport",
         "Aftersales & Servis",
         "Peluncuran Produk"
+      ]
+    },
+    {
+      "id": "8ee78936dbfc",
+      "title": "BREAKING NEWS: Hasil GP Catalunya Dibatalkan, Brian Uriarte Kena Diskualifikasi…Veda Ega Melesat",
+      "url": "https://iwanbanaran.com/news/breaking-news-hasil-gp-catalunya-dibatalkan-brian-uriarte-kena-diskualifikasi-veda-ega-melesat",
+      "source": "Iwan Banaran",
+      "published": "2026-06-04T19:27:12+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….`KTM Ajo Mrongos tenan cak-cakkk. Kabar mengejutkan datang dari paddock Moto3 menjelang gelaran Grand Prix Hungaria. Panel Pengawas Balapan FIM ( FIM MotoGP Stewards Panel ) secara resmi menjatuhkan hukuman diskualifikasi total kepada pembalap muda Red Bull KTM Ajo, Brian Uriarte, dari seluruh sesi Kualifikasi 2 (Q2) dan balapan utama seri CatalanGP yang berlangsung di Sirkuit Barcelona-Catalunya beberapa waktu lalu.",
+      "points": [
+        "Panel Pengawas Balapan FIM ( FIM MotoGP Stewards Panel ) secara resmi menjatuhkan hukuman diskualifikasi total kepada pembalap muda Red Bull KTM Ajo, Brian Uriarte, dari seluruh sesi Kualifikasi 2 (Q2) dan balapan utama seri CatalanGP yang berlangsung di Sirkuit Barcelona-Catalunya beberapa waktu lalu.",
+        "Berdasarkan informasi mengenai tautan unggahan resmi dari akun X MotoGP tersebut, hukuman ( penalty ) yang dijatuhkan kepada Brian Uriarte di kelas Moto3 adalah pembatalan ( disqualification ) dari seluruh hasil sesi Kualifikasi 2 (Q2) dan hasil balapan utama pada seri CatalanGP (GP Catalunya).",
+        "Hasil Lab yang Tidak Sesuai: Saat sampel oli dari motor KTM milik Brian Uriarte (tim Red Bull KTM Ajo) diuji oleh tim teknis, mereka menemukan indikasi kandungannya tidak cocok dengan regulasi standar atau kimiawi oli resmi yang ditetapkan.",
+        "Last.pembatalan hasil Uriarte yang semula finis di posisi ke-4 (P4) di Catalunya membawa berkah besar bagi Veda Ega Pratama."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/breaking-news-hasil-gp-catalunya-dibatalkan-brian-uriarte-kena-diskualifikasi-veda-ega-melesat",
+      "brands": [
+        "KTM / Husqvarna"
+      ],
+      "categories": [
+        "Racing & Motorsport",
+        "Peluncuran Produk"
+      ]
+    },
+    {
+      "id": "62d94b02dec5",
+      "title": "Breaking ! Yamaha Pamerkan Winglet Karbon buat R25…keren",
+      "url": "https://iwanbanaran.com/news/breaking-yamaha-pamerkan-winglet-karbon-buat-r25-keren",
+      "source": "Iwan Banaran",
+      "published": "2026-06-04T13:00:30+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…Pameran Osaka Motorcycle Show akhir pekan lalu menjadi saksi kehadiran Yamaha YZF-R3 dengan tampilan paling berani dan segar dalam beberapa tahun terakhir. Dibungkus warna Miami Mint Green yang jarang ditemui pada motor sport fairing penuh, motor ini langsung menyedot perhatian pengunjung. Namun, yang membuatnya lebih spesial bukan hanya warna catnya.",
+      "points": [
+        "Pameran Osaka Motorcycle Show akhir pekan lalu menjadi saksi kehadiran Yamaha YZF-R3 dengan tampilan paling berani dan segar dalam beberapa tahun terakhir.",
+        "Yamaha (melalui divisi aksesori Y’s Gear) juga memamerkan tiga bagian prototipe (referensi) yang kemungkinan akan dijual tergantung respons pasar salah satunya winglet…keren.",
+        "Peluncuran edisi warna Miami Mint Green dan aksesori aerodinamika (winglet) untuk YZF-R3 menunjukkan bahwa Yamaha masih serius menggarap segmen sport 300cc.",
+        "Namun, mengingat popularitas R25 (versi 250cc untuk Indonesia) sekarang naik lagi, bukan tidak mungkin Yamaha akan membawa warna ini sebagai edisi terbatas di masa depan."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/breaking-yamaha-pamerkan-winglet-karbon-buat-r25-keren",
+      "brands": [
+        "Yamaha"
+      ],
+      "categories": [
+        "Event & Komunitas"
       ]
     },
     {
@@ -958,6 +1399,28 @@
       ]
     },
     {
+      "id": "615f39b12082",
+      "title": "Alex Rins Buka Suara Soal Masa Depan di Yamaha…”Aku Dikhianati, Tapi Belum Menyerah”",
+      "url": "https://iwanbanaran.com/news/alex-rins-buka-suara-soal-masa-depan-di-yamaha-aku-dikhianati-tapi-belum-menyerah",
+      "source": "Iwan Banaran",
+      "published": "2026-06-04T07:09:26+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Dunia MotoGP dikejutkan dengan kabar bahwa Alex Rins tidak akan melanjutkan kariernya bersama Yamaha di musim depan. Keputusan ini membuat pembalap asal Spanyol itu harus mencari peluang baru di tengah pasar pembalap yang semakin kompetitif. Dalam wawancara eksklusif dengan media Italia, Rins mengungkapkan kekecewaan dan rasa frustrasinya selama berseragam pabrikan Iwata. “Saya Kaget Hanya Tiga Balapan Mereka Sudah Ambil Keputusan” keluhnya…. Rins mengakui bahwa momen terberat adalah ketika ia mendengar kabar bahwa Yamaha tidak akan memperpanjang kontraknya.",
+      "points": [
+        "Dunia MotoGP dikejutkan dengan kabar bahwa Alex Rins tidak akan melanjutkan kariernya bersama Yamaha di musim depan.",
+        "Rins mengakui bahwa momen terberat adalah ketika ia mendengar kabar bahwa Yamaha tidak akan memperpanjang kontraknya.",
+        "Dengan pintu Yamaha tertutup, Rins harus mencari tim baru.",
+        "Last…Alex Rins mungkin tersingkir dari Yamaha cak, tetapi kariernya di MotoGP belum berakhir."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/alex-rins-buka-suara-soal-masa-depan-di-yamaha-aku-dikhianati-tapi-belum-menyerah",
+      "brands": [
+        "Yamaha"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
       "id": "c9d49ae83a1c",
       "title": "Yamaha Karnaval GEAR ULTIMA Resmi Menyapa Depok, Pesta Rakyat Seru Bertabur Varian Hybrid Baru Plus Smart Key!",
       "url": "https://tmcblog.com/2026/06/04/yamaha-karnaval-gear-ultima-resmi-menyapa-depok-pesta-rakyat-seru-bertabur-varian-hybrid-baru-plus-smart-key/?utm_source=rss&utm_medium=rss&utm_campaign=yamaha-karnaval-gear-ultima-resmi-menyapa-depok-pesta-rakyat-seru-bertabur-varian-hybrid-baru-plus-smart-key",
@@ -979,9 +1442,31 @@
         "Teknologi & Fitur",
         "Peluncuran Produk",
         "Event & Komunitas"
+      ]
+    },
+    {
+      "id": "ced1aeb385ce",
+      "title": "Honda ogah sombong di MotoGP 850cc, Masih Terlalu Dini",
+      "url": "https://iwanbanaran.com/news/honda-ogah-sombong-di-motogp-850cc-masih-terlalu-dini",
+      "source": "Iwan Banaran",
+      "published": "2026-06-03T12:01:56+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Direktur Teknis HRC (Honda Racing Corporation), Romano Albesiano, mengingatkan semua pihak agar tidak terburu-buru menarik kesimpulan tentang performa motor MotoGP 850cc yang akan digunakan mulai musim 2027. Menurutnya, membandingkan performa prototipe dari berbagai pabrikan saat ini adalah tindakan yang “sia-sia” (worthless). Pernyataan ini keluar di tengah keingintahuan besar publik menyusul beberapa pabrikan seperti KTM, Honda, Ducati, dan Aprilia yang mulai menguji motor 850cc mereka di berbagai sirkuit.",
+      "points": [
+        "Direktur Teknis HRC (Honda Racing Corporation), Romano Albesiano, mengingatkan semua pihak agar tidak terburu-buru menarik kesimpulan tentang performa motor MotoGP 850cc yang akan digunakan mulai musim 2027.",
+        "Pernyataan ini keluar di tengah keingintahuan besar publik menyusul beberapa pabrikan seperti KTM, Honda, Ducati, dan Aprilia yang mulai menguji motor 850cc mereka di berbagai sirkuit.",
+        "Aleix Espargaro, yang kini menjadi test rider Honda, mengungkapkan bahwa motor 850cc akan “jauh lebih menyenangkan” untuk dikendarai dibandingkan motor 1000cc saat ini.",
+        "Menariknya, tes multi-pabrikan pertama untuk motor 850cc akan digelar secara tertutup setelah seri MotoGP Brno bulan depan."
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/honda-ogah-sombong-di-motogp-850cc-masih-terlalu-dini",
+      "brands": [
+        "Honda",
+        "Vespa / Piaggio",
+        "KTM / Husqvarna"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
     },
     {
       "id": "834626ff10d6",
@@ -1008,6 +1493,28 @@
       ]
     },
     {
+      "id": "9ca157c5a00a",
+      "title": "MotoGP Hapus Wildcard Mulai 2027, Aturan Tekanan Ban Tetap Berlaku…Yealahhhh",
+      "url": "https://iwanbanaran.com/news/motogp-hapus-wildcard-mulai-2027-aturan-tekanan-ban-tetap-berlaku-yealahhhh",
+      "source": "Iwan Banaran",
+      "published": "2026-06-03T07:46:05+07:00",
+      "summary": "Iwanbanaran.com – Cakkkk… Ada kabar panas nan mbeledos dari jagad balap kasta tertinggi, MotoGP! Baru saja ada update regulasi yang bikin peta persaingan musim depan bakal berubah total. Komisi Grand Prix resmi mengetok palu soal aturan wildcard dan tekanan ban yang selama ini jadi bahan perdebatan panas para pembalap. MotoGP Hapus Wildcard Mulai 2027, Aturan Tekanan Ban Tetap Berlaku…lahhhh !! Mulai musim depan, Dorna dan FIM resmi melarang penggunaan entri wildcard bagi pabrikan yang masuk dalam kategori konsesi tertentu .",
+      "points": [
+        "Komisi Grand Prix resmi mengetok palu soal aturan wildcard dan tekanan ban yang selama ini jadi bahan perdebatan panas para pembalap.",
+        "Alasannya sederhana: wildcard dengan motor 1000cc tidak akan diizinkan ketika motor 850cc sudah mulai diuji dan dikembangkan.",
+        "Keputusan lain yang diumumkan adalah bahwa aturan pemantauan tekanan ban akan tetap berlaku.",
+        "Namun, ada perubahan penting yang membuatnya tidak seburuk yang dibayangkan: Dengan Pirelli sebagai pemasok ban tunggal mulai 2027, pengecekan tekanan ban akan dilakukan sebelum balapan —mirip dengan aturan yang sudah diterapkan di Kejuaraan Dunia Superbike (WSBK)."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/motogp-hapus-wildcard-mulai-2027-aturan-tekanan-ban-tetap-berlaku-yealahhhh",
+      "brands": [],
+      "categories": [
+        "Racing & Motorsport",
+        "Regulasi & Kebijakan",
+        "Aftersales & Servis"
+      ]
+    },
+    {
       "id": "b70816863e03",
       "title": "Ducati Tunjuk Iker Lecuona sebagai Pengganti Alex Marquez di MotoGP Hongaria 2026",
       "url": "https://tmcblog.com/2026/06/03/ducati-tunjuk-iker-lecuona-sebagai-pengganti-alex-marquez-di-motogp-hongaria-2026/?utm_source=rss&utm_medium=rss&utm_campaign=ducati-tunjuk-iker-lecuona-sebagai-pengganti-alex-marquez-di-motogp-hongaria-2026",
@@ -1029,6 +1536,31 @@
         "Racing & Motorsport",
         "Peluncuran Produk"
       ]
+    },
+    {
+      "id": "9507ea67e459",
+      "title": "Yamaha Resmi Rilis XSR155 ABS Model 2026… — Buatan Indonesia masuk Jepang",
+      "url": "https://iwanbanaran.com/news/yamaha-resmi-rilis-xsr155-abs-model-2026-buatan-indonesia-masuk-jepang",
+      "source": "Iwan Banaran",
+      "published": "2026-06-02T16:27:17+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Setelah sukses besar dengan kehadiran XSR125 di kelas motor ringkas ( moped ), Yamaha Motor Jepang akhirnya menjawab kerinduan para pencinta motor sport neo-retro kelas menengah. Secara resmi, Yamaha mengumumkan peluncuran Yamaha XSR155 ABS model 2026 untuk pasar domestik Jepang ( Japan Domestic Market /JDM) yang dijadwalkan rilis pada 30 Juni 2026 .",
+      "points": [
+        "Secara resmi, Yamaha mengumumkan peluncuran Yamaha XSR155 ABS model 2026 untuk pasar domestik Jepang ( Japan Domestic Market /JDM) yang dijadwalkan rilis pada 30 Juni 2026.",
+        "Langkah ini diambil Yamaha demi mengakomodasi permintaan konsumen yang menginginkan motor berkarakter klasik namun memiliki tenaga lebih besar untuk kebutuhan touring jarak jauh dan legal untuk masuk ke jalan tol (akses jalan bebas hambatan di Jepang mensyaratkan mesin di atas 125cc).",
+        "Untuk pasar Jepang, Yamaha XSR155 ABS 2026 hadir dalam tiga pilihan warna menawan: Greenish Gray Metallic 2 (Hijau) – Menampilkan kesan petualang yang matang.",
+        "Yamaha menargetkan volume penjualan sebanyak 4.000 unit per tahun di Jepang, dengan harga ritel resmi dipatok sebesar 539.000 Yen (termasuk pajak 10%), atau berkisar di angka Rp56 jutaan jika dikonversi langsung ke rupiah."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/yamaha-resmi-rilis-xsr155-abs-model-2026-buatan-indonesia-masuk-jepang",
+      "brands": [
+        "Yamaha"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Teknologi & Fitur"
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "5a1bc2b35635",
@@ -1055,6 +1587,29 @@
       "highlight_by": "auto"
     },
     {
+      "id": "c6a613c47972",
+      "title": "MotoGP Italia : Aprilia Akui Puas “Hancurkan” Ducati di Mugello…",
+      "url": "https://iwanbanaran.com/news/motogp-italia-aprilia-akui-puas-hancurkan-ducati-di-mugello",
+      "source": "Iwan Banaran",
+      "published": "2026-06-02T12:00:52+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…CEO Aprilia Racing, Massimo Rivola, tidak dapat menyembunyikan rasa gembira dan bangganya setelah pabrikan asal Noale tersebut sukses mencetak kemenangan finis 1-2 yang dominan dalam gelaran Grand Prix Italia di Sirkuit Mugello. Keberhasilan ini dinilai sebagai tamparan keras bagi rival utama mereka, Ducati, yang harus rela ditumbangkan di hadapan publik dan pendukung fanatik mereka sendiri. ” Ya…aku sangat puas..!! seru Rivola… Mugello selama ini dikenal sebagai ‘benteng pertahanan’ sekaligus markas keramat bagi Ducati.",
+      "points": [
+        "CEO Aprilia Racing, Massimo Rivola, tidak dapat menyembunyikan rasa gembira dan bangganya setelah pabrikan asal Noale tersebut sukses mencetak kemenangan finis 1-2 yang dominan dalam gelaran Grand Prix Italia di Sirkuit Mugello.",
+        "Akhir pekan di Mugello akhir Mei kemarin memang sepenuhnya menjadi panggung milik Aprilia.",
+        "Hasil akhir balapan mengukuhkan Aprilia di podium 1-2, sementara Pecco Bagnaia (Ducati) harus puas menyelamatkan muka di podium ketiga setelah menerima perlawanan sengit di lap-lap akhir dari pembalap satelit Aprilia (Trackhouse), Ai Ogura.",
+        "Dengan kompetisi yang masih panjang, kemenangan di Mugello ini dipastikan menjadi suntikan motivasi luar biasa bagi seluruh kru Aprilia Racing untuk terus menekan Ducati demi memburu takhta juara dunia MotoGP 2026.(iwb) Aktifkan JavaScript untuk membaca komentar, atau buka langsung di halaman artikel ini."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/motogp-italia-aprilia-akui-puas-hancurkan-ducati-di-mugello",
+      "brands": [
+        "Vespa / Piaggio",
+        "Ducati"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
       "id": "d04cc8ce000e",
       "title": "Manu González Berpotensi Jadi “Pembalap Pirelli” Aprilia di MotoGP 2027",
       "url": "https://tmcblog.com/2026/06/02/manu-gonzalez-berpotensi-jadi-pembalap-pirelli-aprilia-di-motogp-2027/?utm_source=rss&utm_medium=rss&utm_campaign=manu-gonzalez-berpotensi-jadi-pembalap-pirelli-aprilia-di-motogp-2027",
@@ -1075,6 +1630,28 @@
       "categories": [
         "Racing & Motorsport",
         "Spy / Rumor"
+      ]
+    },
+    {
+      "id": "5b65af1873dd",
+      "title": "Breaking ! Kawasaki Resmi Rilis Z650S Model 2026…ediann serem tenan",
+      "url": "https://iwanbanaran.com/news/breaking-kawasaki-resmi-rilis-z650s-model-2026-ediann-serem-tenan",
+      "source": "Iwan Banaran",
+      "published": "2026-06-02T07:43:58+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Kawasaki kembali menggebrak pasar naked bike kelas menengah dengan resmi mengumumkan kehadiran Kawasaki Z650S model 2026 . Motor yang mengusung konsep agresif khas keluarga “Z Series” ini dijadwalkan akan resmi meluncur ke pasar Jepang pada tanggal 11 Juli 2026 . Membawa nama baru dengan imbuhan huruf “S”, Kawasaki menjelaskan bahwa “S” di sini mewakili filosofi Stunning (Memikat), Style (Gaya), Stage (Panggung), dan Spotlight (Pusat Perhatian). Motor ini dirancang untuk langsung mencuri perhatian di tengah padatnya jalanan perkotaan.",
+      "points": [
+        "Kawasaki kembali menggebrak pasar naked bike kelas menengah dengan resmi mengumumkan kehadiran Kawasaki Z650S model 2026.",
+        "Kawasaki menanggalkan piringan cakram model gelombang ( petal disc ) lama dan menggantinya dengan cakram bulat konvensional ganda berdiameter 300 mm di bagian depan, serta cakram tunggal 220 mm di belakang.",
+        "Mengikuti tren digital masa kini, panel instrumen Kawasaki Z650S kini menggunakan layar TFT warna 4,3 inci dengan tata letak informasi baru yang jauh lebih mudah dibaca.",
+        "Diproduksi di pabrik Kawasaki Thailand, Z650S 2026 dipasarkan secara eksklusif melalui jaringan dealer Kawasaki Plaza di Jepang dengan harga 1.078.000 Yen (atau sekitar Rp112 jutaan jika dikonversi langsung)."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/breaking-kawasaki-resmi-rilis-z650s-model-2026-ediann-serem-tenan",
+      "brands": [
+        "Kawasaki"
+      ],
+      "categories": [
+        "Peluncuran Produk"
       ]
     },
     {
@@ -1100,6 +1677,26 @@
       ]
     },
     {
+      "id": "2d3498f5ce63",
+      "title": "Iannone Menang di Mugello dan Tantang Casey Stoner: “Ayo Balapan Lagi! Motor Ini Tak Punya Elektronik”",
+      "url": "https://iwanbanaran.com/news/iannone-menang-di-mugello-dan-tantang-casey-stoner-ayo-balapan-lagi-motor-ini-tak-punya-elektronik",
+      "source": "Iwan Banaran",
+      "published": "2026-06-01T15:26:24+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Andrea Iannone kembali menunjukkan taringnya. Setelah menerima penalti long-lap pada Race 1 King of the Baggers di Mugello, pembalap asal Italia itu bangkit dan mendominasi Race 2. Kemenangan ini menjadi yang pertamanya sejak ia menang di Aragon pada musim SBK 2024. Dalam konferensi pers usai balapan, Iannone tampak berseri-seri. Ia mengaku sangat bahagia dan terharu dengan dukungan luar biasa dari para penggemar. Yang paling menarik perhatian adalah pernyataan Iannone tentang motor yang dikendarainya saat ini.",
+      "points": [
+        "Andrea Iannone kembali menunjukkan taringnya.",
+        "Ia justru menantang legenda MotoGP, Casey Stoner, untuk kembali turun balapan.",
+        "Mungkin Casey Stoner bisa balapan lagi,” kata Iannone dengan antusias.",
+        "Andrea Iannone tidak buang-buang waktu: setelah menerima penalti long-lap di Balapan 1 melawan para pembalap kelas Baggers di Mugello, ia mendominasi balapan kedua dan kembali meraih kemenangan untuk pertama kalinya sejak kemenangannya di Aragon pada musim SBK 2024."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/iannone-menang-di-mugello-dan-tantang-casey-stoner-ayo-balapan-lagi-motor-ini-tak-punya-elektronik",
+      "brands": [],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
       "id": "ad38fb9ec792",
       "title": "Zarco Membaik, Namun Masih butuh beberapa Bulan Untuk Pulih",
       "url": "https://tmcblog.com/2026/06/01/zarco-membaik-namun-masih-butuh-beberapa-bulan-untuk-pulih/?utm_source=rss&utm_medium=rss&utm_campaign=zarco-membaik-namun-masih-butuh-beberapa-bulan-untuk-pulih",
@@ -1115,6 +1712,30 @@
       "summary_by": "auto",
       "image": "https://cdn.tmcblog.com/2026/06/zarco-2.webp",
       "brands": [],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "af1ada669262",
+      "title": "Kabar bagus Pasca Mugello….Mati Rasa di Bahu Marquez telah hilang",
+      "url": "https://iwanbanaran.com/news/kabar-bagus-pasca-mugello-mati-rasa-di-bahu-marquez-telah-hilang",
+      "source": "Iwan Banaran",
+      "published": "2026-06-01T07:09:47+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Marc Marquez finis di posisi ketujuh pada balapan utama MotoGP Italia, Minggu (31/5/2026). Ia kalah dalam duel sengit melawan Pedro Acosta (KTM) serta disalip Ai Ogura (Aprilia) dan Fabio Di Giannantonio (Ducati) di lap-lap akhir. Namun, bagi Marquez, hasil akhir bukanlah segalanya. Ia menemukan sesuatu yang jauh lebih berharga: perasaan baru di lengannya setelah menjalani operasi ganda (bahu dan kaki). Betul cak….Mati Rasa di Bahu Marquez telah hilang !! Dalam wawancara seusai balapan, Marquez mengungkapkan bahwa target utama operasi bahunya telah tercapai.",
+      "points": [
+        "Marc Marquez finis di posisi ketujuh pada balapan utama MotoGP Italia, Minggu (31/5/2026).",
+        "Betul cak.Mati Rasa di Bahu Marquez telah hilang.",
+        "Masalah mati rasa (numbness) yang selama ini mengganggunya tidak lagi terasa.",
+        "Namun, pernyataan Marquez bahwa mati rasa di bahunya telah hilang adalah kabar luar biasa."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/kabar-bagus-pasca-mugello-mati-rasa-di-bahu-marquez-telah-hilang",
+      "brands": [
+        "Vespa / Piaggio",
+        "KTM / Husqvarna",
+        "Ducati"
+      ],
       "categories": [
         "Racing & Motorsport"
       ]
