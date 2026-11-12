@@ -43,7 +43,10 @@ button{cursor:pointer}
 button:hover{background:var(--surface-2)}
 button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
 select:focus,input:focus,button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
-.period-select{font-weight:600;min-width:220px}
+.period-pick{display:flex;flex-wrap:wrap;gap:8px}
+.period-pick label{display:flex;flex-direction:column;gap:2px;font-size:11px;color:var(--muted);font-weight:500}
+.period-pick select{font-weight:600;font-size:14px}
+.controls{align-items:flex-end}
 .status{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:12px;color:var(--muted);margin:-8px 0 18px}
 .status b{color:var(--text);font-weight:600}
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle}
@@ -133,7 +136,11 @@ footer{margin-top:30px;font-size:12px;color:var(--muted);text-align:center}
       </div>
     </div>
     <div class="controls">
-      <select id="period" class="period-select" aria-label="Pilih periode"></select>
+      <div class="period-pick" role="group" aria-label="Pilih periode">
+        <label>Tahun<select id="f-year"></select></label>
+        <label>Bulan<select id="f-month"></select></label>
+        <label>Periode<select id="f-half"></select></label>
+      </div>
       <button id="csv" title="Unduh CSV periode ini">Export CSV</button>
       <button id="theme" title="Ganti tema" aria-label="Ganti tema">◐</button>
     </div>
@@ -171,6 +178,7 @@ footer{margin-top:30px;font-size:12px;color:var(--muted);text-align:center}
 <script>
 const SRC_COLORS = {"Iwan Banaran":"var(--s1)","Pertamax7":"var(--s2)","TMC Blog":"var(--s3)"};
 const SOURCES = Object.keys(SRC_COLORS);
+const MONTHS_FULL = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
 const MONTHS = ["Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"];
 const state = { index:null, data:null, cache:{}, q:"", srcs:new Set(), brand:null, cat:null, hl:false, sort:"hl" };
 const $ = s => document.querySelector(s);
@@ -215,13 +223,41 @@ const wibDay = iso => { const w = new Date(new Date(iso).getTime() + 7*3600e3); 
 async function init(){
   try { state.index = await loadJSON("data/index.json"); }
   catch(e){ $("#list").innerHTML = `<div class="none">Gagal memuat data/index.json. Jalankan <code>python scraper/fetch_issues.py</code> dulu.</div>`; return; }
-  const sel = $("#period");
   const periods = state.index.periods;
-  sel.innerHTML = periods.map(p => `<option value="${esc(p.period)}">${esc(p.label)} (${p.count})</option>`).join("")
-    + (periods.length > 1 ? `<option value="__all">Semua periode</option>` : "");
+  const fy = $("#f-year"), fm = $("#f-month"), fh = $("#f-half");
+  const cnt = prefix => periods.filter(p => p.period.startsWith(prefix)).reduce((n,p) => n + p.count, 0);
+  const years = [...new Set(periods.map(p => p.period.slice(0,4)))].sort().reverse();
+  fy.innerHTML = years.map(y => `<option value="${y}">${y}</option>`).join("");
+  const fillMonths = () => {
+    const ms = [...new Set(periods.filter(p => p.period.startsWith(fy.value)).map(p => p.period.slice(5,7)))].sort().reverse();
+    fm.innerHTML = `<option value="">Semua bulan (${cnt(fy.value)})</option>` +
+      ms.map(m => `<option value="${m}">${MONTHS_FULL[+m-1]} (${cnt(fy.value + "-" + m)})</option>`).join("");
+  };
+  const fillHalves = () => {
+    if (!fm.value){ fh.innerHTML = `<option value="">Sepanjang tahun</option>`; fh.disabled = true; return; }
+    fh.disabled = false;
+    const ym = fy.value + "-" + fm.value, last = new Date(Date.UTC(+fy.value, +fm.value, 0)).getUTCDate();
+    const opt = (h, label) => { const p = periods.find(x => x.period === ym + "-" + h);
+      return `<option value="${h}" ${p ? "" : "disabled"}>${label} (${p ? p.count : "belum ada"})</option>`; };
+    fh.innerHTML = `<option value="">Sebulan penuh (${cnt(ym)})</option>` +
+      opt("H1", "Awal bulan · 1–15") + opt("H2", `Akhir bulan · 16–${last}`);
+  };
+  const currentKey = () => fy.value + (fm.value ? "-" + fm.value + (fh.value ? "-" + fh.value : "") : "");
+  const apply = () => { const k = currentKey(); history.replaceState(null, "", "#" + k); selectPeriod(k); };
+  const setKey = key => {
+    const [y, m, h] = key.split("-");
+    if (!years.includes(y)) return false;
+    fy.value = y; fillMonths();
+    if (m && [...fm.options].some(o => o.value === m)) fm.value = m;
+    fillHalves();
+    if (m && h && [...fh.options].some(o => o.value === h && !o.disabled)) fh.value = h;
+    return true;
+  };
+  fy.onchange = () => { fillMonths(); fillHalves(); apply(); };
+  fm.onchange = () => { fillHalves(); apply(); };
+  fh.onchange = apply;
   const fromHash = decodeURIComponent(location.hash.slice(1));
-  sel.value = periods.some(p => p.period === fromHash) || fromHash === "__all" ? fromHash : (periods[0]?.period ?? "");
-  sel.onchange = () => { location.hash = sel.value; selectPeriod(sel.value); };
+  if (!(fromHash && setKey(fromHash))) setKey(periods[0]?.period ?? "");
   $("#src-chips").innerHTML = SOURCES.map(s => `<button class="chip" data-src="${esc(s)}" aria-pressed="false"><span class="dot" style="background:${SRC_COLORS[s]}"></span>${esc(s)}</button>`).join("");
   $("#src-chips").onclick = e => { const b = e.target.closest("[data-src]"); if (!b) return; const s = b.dataset.src;
     state.srcs.has(s) ? state.srcs.delete(s) : state.srcs.add(s); render(); };
@@ -230,18 +266,20 @@ async function init(){
   $("#sort").onchange = e => { state.sort = e.target.value; render(); };
   $("#csv").onclick = exportCSV;
   renderTrend();
-  await selectPeriod(sel.value);
+  await selectPeriod(currentKey());
 }
 
 async function selectPeriod(key){
-  if (key === "__all"){
-    const all = await Promise.all(state.index.periods.map(loadPeriod));
+  // key: "2026" (setahun), "2026-10" (sebulan), atau "2026-10-H2" (setengah bulan)
+  const ps = state.index.periods.filter(p => p.period === key || p.period.startsWith(key + "-"));
+  if (!ps.length){ state.data = { period:key, label:"-", articles:[], sources:{} }; }
+  else if (ps.length === 1 && ps[0].period === key){ state.data = await loadPeriod(ps[0]); }
+  else {
+    const all = await Promise.all(ps.map(loadPeriod));
     const first = all[all.length-1], last = all[0];
-    state.data = { period:"__all", label:"Semua periode", start:first.start, end:last.end,
-      generated_at:last.generated_at, sources:{}, articles: all.flatMap(d => d.articles) };
-  } else {
-    const p = state.index.periods.find(x => x.period === key);
-    state.data = p ? await loadPeriod(p) : { articles:[], sources:{} };
+    const [y, m] = key.split("-");
+    state.data = { period:key, label: m ? `${MONTHS_FULL[+m-1]} ${y}` : `Tahun ${y}`, start:first.start, end:last.end,
+      generated_at: all.map(d => d.generated_at).sort().pop(), sources:{}, articles: all.flatMap(d => d.articles) };
   }
   state.brand = state.cat = null;
   render();
@@ -355,7 +393,7 @@ function renderDays(items){
   const d = state.data, el = $("#ch-day");
   if (!d.start || !d.end){ el.innerHTML = `<div class="empty">Belum ada data</div>`; return; }
   const days = []; for (let t = new Date(d.start + "T00:00:00Z"); t <= new Date(d.end + "T00:00:00Z"); t = new Date(t.getTime() + 864e5)) days.push(t.toISOString().slice(0,10));
-  if (days.length > 62) { el.innerHTML = `<div class="empty">Pilih satu periode untuk melihat grafik harian.</div>`; $("#day-range").textContent = ""; return; }
+  if (days.length > 62) { el.innerHTML = `<div class="empty">Pilih satu bulan untuk melihat grafik harian.</div>`; $("#day-range").textContent = ""; return; }
   const map = {}; items.forEach(x => { const k = wibDay(x.published); (map[k] ||= {})[x.source] = ((map[k] ||= {})[x.source] || 0) + 1; });
   const max = Math.max(1, ...days.map(k => Object.values(map[k] || {}).reduce((a,b) => a+b, 0)));
   $("#day-range").textContent = `${fmtDate(d.start)} – ${fmtDate(d.end)}`;
