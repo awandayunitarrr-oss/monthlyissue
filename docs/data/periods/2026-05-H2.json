@@ -316,7 +316,6 @@
       "highlight": true,
       "countries": [
         "Thailand",
-        "Indonesia",
         "Jepang"
       ]
     },
@@ -623,7 +622,6 @@
       ],
       "highlight": true,
       "countries": [
-        "Indonesia",
         "Jepang"
       ]
     },
@@ -1057,9 +1055,7 @@
         "Racing & Motorsport",
         "Peluncuran Produk"
       ],
-      "countries": [
-        "Indonesia"
-      ]
+      "countries": []
     },
     {
       "id": "88a5ca684ed1",

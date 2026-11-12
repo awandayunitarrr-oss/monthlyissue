@@ -1285,7 +1285,6 @@
         "Peluncuran Produk"
       ],
       "countries": [
-        "Indonesia",
         "Italia"
       ]
     },
@@ -1392,8 +1391,7 @@
         "Peluncuran Produk"
       ],
       "countries": [
-        "Italia",
-        "Indonesia"
+        "Italia"
       ]
     },
     {
@@ -1545,7 +1543,6 @@
         "Peluncuran Produk"
       ],
       "countries": [
-        "Indonesia",
         "Malaysia",
         "Thailand"
       ]
@@ -2313,9 +2310,7 @@
       "categories": [
         "Racing & Motorsport"
       ],
-      "countries": [
-        "Indonesia"
-      ]
+      "countries": []
     },
     {
       "id": "01b3bf6e374f",
@@ -2466,9 +2461,7 @@
       "categories": [
         "Lainnya"
       ],
-      "countries": [
-        "Indonesia"
-      ]
+      "countries": []
     },
     {
       "id": "b724a35591e5",

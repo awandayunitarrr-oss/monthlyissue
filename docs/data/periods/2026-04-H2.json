@@ -1799,7 +1799,6 @@
       "highlight": true,
       "highlight_by": "auto",
       "countries": [
-        "Indonesia",
         "Amerika Serikat"
       ]
     },
@@ -1880,7 +1879,7 @@
       "countries": [
         "Portugal",
         "China",
-        "Indonesia"
+        "Jepang"
       ]
     },
     {
@@ -1958,9 +1957,9 @@
         "Peluncuran Produk"
       ],
       "countries": [
-        "Indonesia",
         "Jepang",
-        "China"
+        "China",
+        "Vietnam"
       ]
     },
     {
@@ -1986,7 +1985,6 @@
         "Peluncuran Produk"
       ],
       "countries": [
-        "Indonesia",
         "Jepang"
       ]
     },
@@ -2072,7 +2070,6 @@
       "highlight": true,
       "highlight_by": "auto",
       "countries": [
-        "Indonesia",
         "Jepang",
         "Vietnam"
       ]
@@ -2099,7 +2096,6 @@
         "Peluncuran Produk"
       ],
       "countries": [
-        "Indonesia",
         "China"
       ]
     }

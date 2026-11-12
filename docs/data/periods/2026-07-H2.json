@@ -327,7 +327,6 @@
       ],
       "highlight": true,
       "countries": [
-        "Indonesia",
         "Jepang"
       ]
     },
@@ -966,7 +965,6 @@
         "Event & Komunitas"
       ],
       "countries": [
-        "Indonesia",
         "India"
       ]
     },
@@ -1120,7 +1118,6 @@
         "Spy / Rumor"
       ],
       "countries": [
-        "Indonesia",
         "India",
         "Thailand"
       ]
@@ -1147,7 +1144,6 @@
         "Lainnya"
       ],
       "countries": [
-        "Indonesia",
         "Jepang"
       ]
     },
@@ -1303,9 +1299,7 @@
         "Spy / Rumor",
         "Racing & Motorsport"
       ],
-      "countries": [
-        "Indonesia"
-      ]
+      "countries": []
     },
     {
       "id": "d1d52dea5574",
@@ -2268,7 +2262,6 @@
         "Teknologi & Fitur"
       ],
       "countries": [
-        "Indonesia",
         "Malaysia"
       ]
     },

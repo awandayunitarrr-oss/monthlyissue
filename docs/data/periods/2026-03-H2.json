@@ -1054,7 +1054,6 @@
       "highlight": true,
       "highlight_by": "auto",
       "countries": [
-        "Indonesia",
         "China"
       ]
     },
@@ -1483,7 +1482,6 @@
         "Teknologi & Fitur"
       ],
       "countries": [
-        "Indonesia",
         "Spanyol"
       ]
     },
@@ -1630,7 +1628,6 @@
       "highlight_by": "auto",
       "countries": [
         "China",
-        "Indonesia",
         "Jepang"
       ]
     },
@@ -1686,7 +1683,6 @@
       "highlight": true,
       "highlight_by": "auto",
       "countries": [
-        "Indonesia",
         "China"
       ]
     },
@@ -1788,8 +1784,7 @@
         "Racing & Motorsport"
       ],
       "countries": [
-        "Amerika Serikat",
-        "Indonesia"
+        "Amerika Serikat"
       ]
     },
     {
@@ -1839,9 +1834,7 @@
       ],
       "highlight": true,
       "highlight_by": "auto",
-      "countries": [
-        "Indonesia"
-      ]
+      "countries": []
     },
     {
       "id": "9b508f53873d",

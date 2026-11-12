@@ -1218,7 +1218,6 @@
         "Regulasi & Kebijakan"
       ],
       "countries": [
-        "Indonesia",
         "Italia"
       ]
     },
@@ -1581,9 +1580,9 @@
         "Peluncuran Produk"
       ],
       "countries": [
-        "Indonesia",
         "Jepang",
-        "China"
+        "China",
+        "Malaysia"
       ]
     },
     {
@@ -1689,9 +1688,7 @@
         "Peluncuran Produk"
       ],
       "highlight": true,
-      "countries": [
-        "Indonesia"
-      ]
+      "countries": []
     },
     {
       "id": "ed24393346b7",
@@ -1943,8 +1940,7 @@
         "Racing & Motorsport"
       ],
       "countries": [
-        "Spanyol",
-        "Indonesia"
+        "Spanyol"
       ]
     },
     {
@@ -2701,7 +2697,6 @@
       ],
       "highlight": true,
       "countries": [
-        "Indonesia",
         "Malaysia"
       ]
     },

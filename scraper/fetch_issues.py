@@ -392,6 +392,32 @@ def tag(article: Article, cfg: dict) -> None:
     article.countries = tag_countries(article.title, f"{article.summary} {article.text[:3000]}", cfg)
 
 
+_SPECULATIVE = re.compile(
+    r"\?|(?<![a-z])(bakal|akan|apakah|apa iya|mungkinkah|mungkin|kapan|semoga|moga|berharap|harapan|diharapkan|potensi|berpotensi|"
+    r"kemungkinan|peluang|berpeluang|ditunggu|menunggu|menanti|dinanti|belum|andai|seandainya|kalau|jika|bila|bisa jadi|"
+    r"bisa saja|tidak mustahil|bukan tidak mungkin|inspirasi|rumor|isu|kabarnya|konon|digadang|diprediksi|prediksi|"
+    r"tertarik|minat|cocok|layak|pantas|wacana|rencana|berencana|tunggu saja|kita tunggu|masuk indonesia juga)(?![a-z])")
+
+
+def _present_in_indonesia(title: str, body: str, keywords: list[str]) -> bool:
+    """True bila ada kalimat yang menyebut Indonesia secara faktual (bukan pertanyaan/harapan/spekulasi)."""
+    kw = re.compile(r"(?<![a-z0-9])(" + "|".join(re.escape(k.lower()) for k in keywords) + r")(?![a-z0-9])")
+    title = title.lower()
+    fact = spec = 0
+    if kw.search(title):
+        if _SPECULATIVE.search(title):
+            spec += 3
+        else:
+            fact += 3
+    for sent in re.split(r"(?<=[.!?…])\s+", body.lower()):
+        if kw.search(sent):
+            if _SPECULATIVE.search(sent):
+                spec += 1
+            else:
+                fact += 1
+    return fact > 0 and fact >= spec
+
+
 def tag_countries(title: str, body: str, cfg: dict) -> list[str]:
     """Negara yang dibahas artikel (lokasi peluncuran/pasar/ajang), maksimal 3, terkuat dulu."""
     title, text = title.lower(), f"{title} {body}".lower()
@@ -401,6 +427,10 @@ def tag_countries(title: str, body: str, cfg: dict) -> list[str]:
 
     scored = [(c, hits(kws, title) * 3 + hits(kws, text)) for c, kws in cfg.get("countries", {}).items()]
     scored = [(c, s) for c, s in sorted(scored, key=lambda x: -x[1]) if s > 0]
+    # Indonesia hanya ditandai bila beritanya memang terjadi/berlaku di Indonesia,
+    # bukan sekadar "masuk Indonesia juga?" atau "belum hadir di tanah air".
+    if any(c == "Indonesia" for c, _ in scored) and not _present_in_indonesia(title, body, cfg["countries"]["Indonesia"]):
+        scored = [x for x in scored if x[0] != "Indonesia"]
     # "Eropa" hanya dipakai bila tidak ada negara Eropa yang lebih spesifik
     if len(scored) > 1:
         scored = [x for x in scored if x[0] != "Eropa"] or scored

@@ -532,9 +532,7 @@
         "Spy / Rumor",
         "Racing & Motorsport"
       ],
-      "countries": [
-        "Indonesia"
-      ]
+      "countries": []
     },
     {
       "id": "0419c80fc1cf",
@@ -1547,7 +1545,6 @@
         "Event & Komunitas"
       ],
       "countries": [
-        "Indonesia",
         "Jepang"
       ]
     },
@@ -1626,9 +1623,7 @@
         "Peluncuran Produk",
         "Event & Komunitas"
       ],
-      "countries": [
-        "Indonesia"
-      ]
+      "countries": []
     },
     {
       "id": "ced1aeb385ce",
@@ -1785,9 +1780,7 @@
       ],
       "highlight": true,
       "highlight_by": "auto",
-      "countries": [
-        "Indonesia"
-      ]
+      "countries": []
     },
     {
       "id": "c6a613c47972",

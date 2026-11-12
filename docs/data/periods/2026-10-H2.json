@@ -1208,8 +1208,7 @@
         "Racing & Motorsport"
       ],
       "countries": [
-        "Australia",
-        "Indonesia"
+        "Australia"
       ]
     },
     {
@@ -1386,7 +1385,7 @@
       "highlight": true,
       "highlight_by": "auto",
       "countries": [
-        "Indonesia"
+        "Eropa"
       ]
     },
     {
@@ -1794,7 +1793,7 @@
         "Peluncuran Produk"
       ],
       "countries": [
-        "Indonesia"
+        "Eropa"
       ]
     },
     {
@@ -2594,8 +2593,7 @@
         "Peluncuran Produk"
       ],
       "countries": [
-        "Ceko",
-        "Indonesia"
+        "Ceko"
       ]
     },
     {
@@ -2621,7 +2619,6 @@
         "Peluncuran Produk"
       ],
       "countries": [
-        "Indonesia",
         "Jerman"
       ]
     },
@@ -2750,9 +2747,7 @@
         "Spy / Rumor",
         "Recall & Kualitas"
       ],
-      "countries": [
-        "Indonesia"
-      ]
+      "countries": []
     },
     {
       "id": "91b3fe6beaf3",
@@ -2778,7 +2773,6 @@
       "highlight": true,
       "highlight_by": "auto",
       "countries": [
-        "Indonesia",
         "Amerika Serikat"
       ]
     },

@@ -222,7 +222,6 @@
         "Peluncuran Produk"
       ],
       "countries": [
-        "Indonesia",
         "Thailand",
         "Filipina"
       ]
@@ -355,7 +354,6 @@
       "highlight": true,
       "highlight_by": "auto",
       "countries": [
-        "Indonesia",
         "China",
         "Jepang"
       ]
@@ -589,8 +587,7 @@
         "Teknologi & Fitur"
       ],
       "countries": [
-        "Malaysia",
-        "Indonesia"
+        "Malaysia"
       ]
     },
     {
@@ -1544,9 +1541,7 @@
         "Racing & Motorsport",
         "Peluncuran Produk"
       ],
-      "countries": [
-        "Indonesia"
-      ]
+      "countries": []
     },
     {
       "id": "fa216376990f",
@@ -2377,9 +2372,7 @@
         "Spy / Rumor",
         "Regulasi & Kebijakan"
       ],
-      "countries": [
-        "Indonesia"
-      ]
+      "countries": []
     }
   ]
 }

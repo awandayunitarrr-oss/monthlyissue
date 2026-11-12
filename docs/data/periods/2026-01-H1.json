@@ -117,7 +117,7 @@
         "Spy / Rumor"
       ],
       "countries": [
-        "Indonesia"
+        "Eropa"
       ]
     },
     {
@@ -577,7 +577,6 @@
         "Peluncuran Produk"
       ],
       "countries": [
-        "Indonesia",
         "Jepang"
       ]
     },
@@ -954,8 +953,7 @@
         "Motor Listrik"
       ],
       "countries": [
-        "Thailand",
-        "Indonesia"
+        "Thailand"
       ]
     },
     {
@@ -1194,9 +1192,7 @@
       "categories": [
         "Lainnya"
       ],
-      "countries": [
-        "Indonesia"
-      ]
+      "countries": []
     },
     {
       "id": "2a7c1fbac016",
@@ -1318,7 +1314,6 @@
       "highlight": true,
       "highlight_by": "auto",
       "countries": [
-        "Indonesia",
         "China",
         "Jepang"
       ]
@@ -1738,7 +1733,6 @@
       "highlight": true,
       "highlight_by": "auto",
       "countries": [
-        "Indonesia",
         "Malaysia"
       ]
     },
@@ -1813,7 +1807,6 @@
         "Peluncuran Produk"
       ],
       "countries": [
-        "Indonesia",
         "Malaysia"
       ]
     },
@@ -1986,9 +1979,7 @@
       ],
       "highlight": true,
       "highlight_by": "auto",
-      "countries": [
-        "Indonesia"
-      ]
+      "countries": []
     },
     {
       "id": "9f78150e896b",

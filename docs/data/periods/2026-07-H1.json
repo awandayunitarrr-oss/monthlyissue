@@ -67,8 +67,7 @@
         "Penjualan & Pasar"
       ],
       "countries": [
-        "Thailand",
-        "Indonesia"
+        "Thailand"
       ]
     },
     {
@@ -148,9 +147,7 @@
       "categories": [
         "Lainnya"
       ],
-      "countries": [
-        "Indonesia"
-      ]
+      "countries": []
     },
     {
       "id": "429abd614318",
@@ -536,7 +533,6 @@
       "highlight": true,
       "highlight_by": "auto",
       "countries": [
-        "Indonesia",
         "Vietnam"
       ]
     },
@@ -710,7 +706,6 @@
         "Peluncuran Produk"
       ],
       "countries": [
-        "Indonesia",
         "Thailand"
       ]
     },
@@ -904,9 +899,7 @@
       "categories": [
         "Teknologi & Fitur"
       ],
-      "countries": [
-        "Indonesia"
-      ]
+      "countries": []
     },
     {
       "id": "c5dff0aa7c7b",
@@ -959,7 +952,6 @@
         "Lainnya"
       ],
       "countries": [
-        "Indonesia",
         "Jepang"
       ]
     },
@@ -1245,9 +1237,7 @@
         "Spy / Rumor"
       ],
       "highlight": true,
-      "countries": [
-        "Indonesia"
-      ]
+      "countries": []
     },
     {
       "id": "472fa43d95f0",
@@ -2025,8 +2015,7 @@
         "Peluncuran Produk"
       ],
       "countries": [
-        "Jepang",
-        "Indonesia"
+        "Jepang"
       ]
     },
     {
