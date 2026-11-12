@@ -16,7 +16,11 @@
       "article_url_regex": "^/news/(?!page/)[a-z0-9-]{8,}$",
       "listing_first_page": "https://iwanbanaran.com/news",
       "listing_page_pattern": "https://iwanbanaran.com/news/page/{n}",
-      "ai_summary": false
+      "ai_summary": false,
+      "listing_discover": {
+        "sitemap": "https://iwanbanaran.com/sitemap.xml",
+        "match": "/category/"
+      }
     },
     {
       "name": "Pertamax7",

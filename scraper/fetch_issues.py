@@ -404,45 +404,69 @@ def is_relevant(article: Article, cfg: dict) -> bool:
 # --------------------------------------------------------------------------- #
 # Main
 # --------------------------------------------------------------------------- #
+def _listing_roots(src: dict) -> list[tuple[str, str]]:
+    """Daftar arsip bernomor: arsip utama + arsip kategori yang ditemukan di sitemap situs."""
+    roots = []
+    if src.get("listing_page_pattern"):
+        roots.append((src.get("listing_first_page", src["listing_page_pattern"].format(n=1)), src["listing_page_pattern"]))
+    disc = src.get("listing_discover")
+    if disc:
+        r = get(disc["sitemap"])
+        if r:
+            for loc in re.findall(r"<loc>([^<]+)</loc>", r.text):
+                loc = loc.strip().rstrip("/")
+                if re.search(disc["match"], loc) and all(loc != x[0] for x in roots):
+                    roots.append((loc, loc + disc.get("page_suffix", "/page/{n}")))
+    return roots
+
+
 def collect_from_listing(src: dict, span, skip: set[str]) -> list[Article]:
-    """Telusuri halaman arsip bernomor (terbaru → terlama) sampai melewati awal rentang."""
-    pattern_url = src.get("listing_page_pattern")
-    if not pattern_url:
-        return []
+    """Telusuri halaman arsip bernomor (terbaru → terlama) sampai melewati awal rentang.
+
+    Arsip utama situs bisa dibatasi jumlah halamannya, jadi arsip per kategori ikut ditelusuri:
+    kategori yang lebih sepi menjangkau lebih jauh ke belakang.
+    """
     start_dt = datetime.combine(span.start, datetime.min.time(), WIB)
     rx = re.compile(src.get("article_url_regex", r"/news/"))
     host = urlparse(src["base"]).netloc.replace("www.", "")
     seen = set(skip)
     out: list[Article] = []
-    stale_pages = 0
-    for n in range(1, src.get("max_listing_pages", 200) + 1):
-        page = pattern_url.format(n=n) if n > 1 else src.get("listing_first_page", pattern_url.format(n=1))
-        r = get(page)
-        if not r:
-            break
-        links = []
-        for a in BeautifulSoup(r.text, "lxml").find_all("a", href=True):
-            href = urljoin(page, a["href"]).split("#")[0].split("?")[0]
-            if urlparse(href).netloc.endswith(host) and rx.search(urlparse(href).path) and href not in seen:
-                seen.add(href)
-                links.append(href)
-        if not links:
-            stale_pages += 1
-            if stale_pages >= 3:
+    for first_page, pattern_url in _listing_roots(src):
+        before = len(out)
+        old_pages = 0
+        n = 0
+        for n in range(1, src.get("max_listing_pages", 200) + 1):
+            page = pattern_url.format(n=n) if n > 1 else first_page
+            time.sleep(0.3)
+            r = get(page)
+            # halaman di luar batas biasanya dialihkan kembali ke halaman pertama
+            if not r or (n > 1 and not r.url.rstrip("/").endswith(f"/{n}")):
                 break
-            continue
-        stale_pages = 0
-        fetched = []
-        for url in links:
-            time.sleep(0.25)
-            art = fetch_article(url, src["name"])
-            if art:
-                fetched.append(art)
-        out.extend(fetched)
-        if n % 5 == 0:
-            print(f"  … arsip hal. {n}: {len(out)} artikel", flush=True)
-        if fetched and max(a.published for a in fetched) < start_dt:
-            break
+            links, total = [], 0
+            for a in BeautifulSoup(r.text, "lxml").find_all("a", href=True):
+                href = urljoin(page, a["href"]).split("#")[0].split("?")[0]
+                if urlparse(href).netloc.endswith(host) and rx.search(urlparse(href).path):
+                    total += 1
+                    if href not in seen:
+                        seen.add(href)
+                        links.append(href)
+            if not total:
+                break
+            fetched = []
+            for url in links:
+                time.sleep(0.25)
+                art = fetch_article(url, src["name"])
+                if art:
+                    fetched.append(art)
+            out.extend(fetched)
+            # berhenti setelah dua halaman berturut-turut yang artikel barunya semua lebih tua dari rentang
+            if fetched and max(a.published for a in fetched) < start_dt:
+                old_pages += 1
+                if old_pages >= 2:
+                    break
+            elif fetched:
+                old_pages = 0
+        print(f"  arsip {urlparse(first_page).path}: {n} hal., +{len(out) - before} artikel", flush=True)
     return out
 
 
