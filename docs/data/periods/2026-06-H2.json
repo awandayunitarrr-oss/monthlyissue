@@ -3,7 +3,7 @@
   "label": "16 – 30 Juni 2026",
   "start": "2026-06-16",
   "end": "2026-06-30",
-  "generated_at": "2026-11-12T11:46:14+07:00",
+  "generated_at": "2026-11-12T11:56:12+07:00",
   "sources": {
     "Iwan Banaran": {
       "count": 29,
@@ -1042,8 +1042,7 @@
       "categories": [
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "095da3cbef09",
@@ -1274,7 +1273,9 @@
       "categories": [
         "Peluncuran Produk",
         "Spy / Rumor"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "a3aefd32bf8e",
@@ -1512,9 +1513,7 @@
         "Peluncuran Produk",
         "Teknologi & Fitur",
         "Event & Komunitas"
-      ],
-      "highlight": true,
-      "highlight_by": "auto"
+      ]
     },
     {
       "id": "7d13d4fff771",
@@ -1758,8 +1757,7 @@
       "categories": [
         "Spy / Rumor"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "1782752d180c",
@@ -1826,7 +1824,9 @@
       "categories": [
         "Peluncuran Produk",
         "Spy / Rumor"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "17032339c799",
@@ -2096,9 +2096,7 @@
       "categories": [
         "Peluncuran Produk",
         "Teknologi & Fitur"
-      ],
-      "highlight": true,
-      "highlight_by": "auto"
+      ]
     },
     {
       "id": "1252a670adf2",
@@ -2145,8 +2143,7 @@
         "Peluncuran Produk",
         "Event & Komunitas"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "32182e2c56c4",

@@ -3,7 +3,7 @@
   "label": "16 – 31 Agustus 2026",
   "start": "2026-08-16",
   "end": "2026-08-31",
-  "generated_at": "2026-11-12T11:46:13+07:00",
+  "generated_at": "2026-11-12T11:56:11+07:00",
   "sources": {
     "Iwan Banaran": {
       "count": 43,
@@ -1178,8 +1178,7 @@
         "Spy / Rumor",
         "Regulasi & Kebijakan"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "4376bd94dc71",
@@ -1470,8 +1469,7 @@
         "Spy / Rumor",
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "ed24393346b7",
@@ -1673,8 +1671,7 @@
         "Spy / Rumor",
         "Teknologi & Fitur"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "21f5892af58f",
@@ -2368,8 +2365,7 @@
         "Peluncuran Produk",
         "Harga & Promo"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "7557c6e8943c",

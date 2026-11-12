@@ -3,7 +3,7 @@
   "label": "16 – 31 Juli 2026",
   "start": "2026-07-16",
   "end": "2026-07-31",
-  "generated_at": "2026-11-12T11:46:14+07:00",
+  "generated_at": "2026-11-12T11:56:11+07:00",
   "sources": {
     "Iwan Banaran": {
       "count": 42,
@@ -61,8 +61,7 @@
         "Motor Listrik",
         "Event & Komunitas"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "02c0a1c11ae8",
@@ -290,8 +289,7 @@
       "categories": [
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "8db8a0b2354f",
@@ -1078,8 +1076,7 @@
         "Event & Komunitas",
         "Spy / Rumor"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "0774cc19f2f7",
@@ -1240,8 +1237,7 @@
         "Regulasi & Kebijakan",
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "42e89328134d",
@@ -1579,8 +1575,7 @@
       "categories": [
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "b316ab197993",
@@ -1764,8 +1759,7 @@
         "Peluncuran Produk",
         "Motor Listrik"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "86692086fbcb",

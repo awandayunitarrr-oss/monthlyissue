@@ -3,7 +3,7 @@
   "label": "1 – 15 Juli 2026",
   "start": "2026-07-01",
   "end": "2026-07-15",
-  "generated_at": "2026-11-12T11:46:14+07:00",
+  "generated_at": "2026-11-12T11:56:12+07:00",
   "sources": {
     "Iwan Banaran": {
       "count": 33,
@@ -201,8 +201,7 @@
       "categories": [
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "719dce729581",
@@ -818,8 +817,7 @@
       "categories": [
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "28d34428bd79",
@@ -1095,8 +1093,7 @@
       "categories": [
         "Spy / Rumor"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "472fa43d95f0",
@@ -1609,8 +1606,7 @@
       "categories": [
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "171c8e4c4c0d",

@@ -3,7 +3,7 @@
   "label": "1 – 15 September 2026",
   "start": "2026-09-01",
   "end": "2026-09-15",
-  "generated_at": "2026-11-12T11:46:13+07:00",
+  "generated_at": "2026-11-12T11:56:11+07:00",
   "sources": {
     "Iwan Banaran": {
       "count": 43,
@@ -936,7 +936,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "2bac6f301ee0",
@@ -1096,8 +1098,7 @@
         "Spy / Rumor",
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "bb3f20729fab",
@@ -1167,8 +1168,7 @@
         "Harga & Promo",
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "e075803c5989",
@@ -1190,8 +1190,7 @@
         "Penjualan & Pasar",
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "3bb5a7d291f4",
@@ -1458,9 +1457,7 @@
         "Peluncuran Produk",
         "Penjualan & Pasar",
         "Event & Komunitas"
-      ],
-      "highlight": true,
-      "highlight_by": "auto"
+      ]
     },
     {
       "id": "e334aeb014f1",

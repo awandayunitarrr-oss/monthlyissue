@@ -3,7 +3,7 @@
   "label": "16 – 31 Mei 2026",
   "start": "2026-05-16",
   "end": "2026-05-31",
-  "generated_at": "2026-11-12T11:46:14+07:00",
+  "generated_at": "2026-11-12T11:56:12+07:00",
   "sources": {
     "Iwan Banaran": {
       "count": 11,
@@ -282,8 +282,7 @@
       "categories": [
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "01178e2aacc6",
@@ -549,8 +548,7 @@
       "categories": [
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "1d8be66f9215",
@@ -725,7 +723,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "7aa4acd788f1",

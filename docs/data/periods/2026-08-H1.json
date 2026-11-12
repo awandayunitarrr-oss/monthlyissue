@@ -3,7 +3,7 @@
   "label": "1 – 15 Agustus 2026",
   "start": "2026-08-01",
   "end": "2026-08-15",
-  "generated_at": "2026-11-12T11:46:13+07:00",
+  "generated_at": "2026-11-12T11:56:11+07:00",
   "sources": {
     "Iwan Banaran": {
       "count": 34,
@@ -109,8 +109,7 @@
         "Peluncuran Produk",
         "Spy / Rumor"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "919120a0e310",
@@ -402,8 +401,7 @@
       "categories": [
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "bdd1cd457c05",
@@ -1412,8 +1410,7 @@
       "categories": [
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "9fa3e4a9e3d4",
@@ -2062,8 +2059,7 @@
         "Peluncuran Produk",
         "Event & Komunitas"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "9db4630554d8",
