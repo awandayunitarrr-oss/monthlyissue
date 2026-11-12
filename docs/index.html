@@ -121,6 +121,42 @@ select:focus,input:focus,button:focus-visible{outline:2px solid var(--accent);ou
 .foot button{font-size:12px;padding:4px 8px}
 .none{padding:40px;text-align:center;color:var(--muted)}
 footer{margin-top:30px;font-size:12px;color:var(--muted);text-align:center}
+
+/* ---------- warna ---------- */
+body{background:
+  radial-gradient(900px 420px at 0% -10%, color-mix(in srgb, var(--s1) 14%, transparent), transparent 70%),
+  radial-gradient(900px 420px at 100% -10%, color-mix(in srgb, var(--s2) 14%, transparent), transparent 70%),
+  var(--bg);background-attachment:fixed}
+header.top{background:linear-gradient(120deg,#c8102e 0%,#e2481f 45%,#f59e0b 100%);color:#fff;border-radius:16px;padding:18px 20px;
+  box-shadow:0 8px 24px -10px rgba(200,16,46,.55);align-items:center}
+header.top h1{color:#fff}
+header.top .sub{color:rgba(255,255,255,.88)}
+header.top .logo{background:rgba(255,255,255,.2);box-shadow:inset 0 0 0 1px rgba(255,255,255,.35)}
+header.top .period-pick label{color:rgba(255,255,255,.9)}
+header.top select,header.top button{background:rgba(255,255,255,.96);color:#14171c;border-color:transparent}
+header.top button:hover{background:#fff}
+header.top select:focus,header.top button:focus-visible{outline-color:#fff}
+.status{margin:0 4px 18px}
+.kpi{border-top:4px solid var(--c);background:linear-gradient(180deg, color-mix(in srgb, var(--c) 11%, var(--surface)), var(--surface) 70%)}
+.kpi .v{color:color-mix(in srgb, var(--c) 78%, var(--text))}
+.panel h2{padding-bottom:8px;border-bottom:1px solid var(--border)}
+.hbar .lbl .dot{margin-right:7px}
+.hbar .fill{background:var(--c)}
+.hbar .track{background:color-mix(in srgb, var(--c) 16%, var(--surface-2))}
+.hbar.dim{opacity:.45}
+.hbar.active{background:color-mix(in srgb, var(--c) 14%, var(--surface))}
+.hbar.active .fill{background:var(--c)}
+.hbar.active .lbl{font-weight:600}
+.tag{background:color-mix(in srgb, var(--c) 13%, var(--surface));border-color:color-mix(in srgb, var(--c) 35%, var(--surface));
+  color:color-mix(in srgb, var(--c) 72%, var(--text))}
+.tag:hover{background:color-mix(in srgb, var(--c) 24%, var(--surface))}
+.issue{border-top:4px solid var(--c)}
+.issue.is-hl{border-color:var(--s3);border-top-color:var(--s3);background:linear-gradient(180deg, color-mix(in srgb, var(--s3) 9%, var(--surface)), var(--surface) 30%)}
+.sum-h{color:color-mix(in srgb, var(--c) 70%, var(--text))}
+.points li::marker{color:var(--c)}
+.chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+#hl.on{background:var(--s3);border-color:var(--s3);color:#14171c}
+.active-filters button{background:var(--accent-soft);color:var(--accent);font-weight:600}
 </style>
 </head>
 <body>
@@ -178,6 +214,15 @@ footer{margin-top:30px;font-size:12px;color:var(--muted);text-align:center}
 <script>
 const SRC_COLORS = {"Iwan Banaran":"var(--s1)","Pertamax7":"var(--s2)","TMC Blog":"var(--s3)"};
 const SOURCES = Object.keys(SRC_COLORS);
+const CAT_COLORS = {"Peluncuran Produk":"#2563eb","Spy / Rumor":"#7c3aed","Motor Listrik":"#059669","Regulasi & Kebijakan":"#d97706",
+  "Penjualan & Pasar":"#0891b2","Harga & Promo":"#db2777","Racing & Motorsport":"#dc2626","Event & Komunitas":"#ea580c",
+  "Teknologi & Fitur":"#4f46e5","Recall & Kualitas":"#be123c","Aftersales & Servis":"#65a30d","Lainnya":"#64748b"};
+const BRAND_COLORS = {"Honda":"#e4002b","Yamaha":"#1d4ed8","Suzuki":"#0ea5e9","Kawasaki":"#16a34a","Vespa / Piaggio":"#0d9488","TVS":"#f59e0b",
+  "KTM / Husqvarna":"#f97316","BMW Motorrad":"#3b82f6","Ducati":"#b91c1c","Harley-Davidson":"#c2410c","Royal Enfield":"#a16207","(Umum)":"#64748b"};
+const PALETTE = ["#8b5cf6","#06b6d4","#ec4899","#84cc16","#f43f5e","#14b8a6","#eab308","#6366f1"];
+const hashColor = k => PALETTE[[...k].reduce((h,c) => (h*31 + c.charCodeAt(0)) >>> 0, 7) % PALETTE.length];
+const catColor = k => CAT_COLORS[k] || hashColor(k);
+const brandColor = k => BRAND_COLORS[k] || hashColor(k);
 const MONTHS_FULL = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
 const MONTHS = ["Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"];
 const state = { index:null, data:null, cache:{}, q:"", srcs:new Set(), brand:null, cat:null, hl:false, sort:"hl" };
@@ -316,17 +361,17 @@ function render(){
   const topB = count(items, x => x.brands)[0], topC = count(items, x => x.categories)[0];
   const hlN = items.filter(x => x.highlight).length;
   $("#kpis").innerHTML = `
-    <div class="card kpi"><div class="k">Total issue</div><div class="v">${items.length}</div><div class="d">${hlN} ★ highlight</div></div>
-    ${SOURCES.map(s => `<div class="card kpi"><div class="k"><span class="dot" style="background:${SRC_COLORS[s]}"></span>${esc(s)}</div><div class="v">${bySrc[s]}</div><div class="d">${items.length ? Math.round(bySrc[s]/items.length*100) : 0}% dari total</div></div>`).join("")}
-    <div class="card kpi"><div class="k">Merek paling ramai</div><div class="v small">${esc(topB?.[0] || "-")}</div><div class="d">${topB ? topB[1] + " artikel" : ""}</div></div>
-    <div class="card kpi"><div class="k">Topik paling ramai</div><div class="v small">${esc(topC?.[0] || "-")}</div><div class="d">${topC ? topC[1] + " artikel" : ""}</div></div>`;
+    <div class="card kpi" style="--c:var(--accent)"><div class="k">Total issue</div><div class="v">${items.length}</div><div class="d">${hlN} ★ highlight</div></div>
+    ${SOURCES.map(s => `<div class="card kpi" style="--c:${SRC_COLORS[s]}"><div class="k"><span class="dot" style="background:${SRC_COLORS[s]}"></span>${esc(s)}</div><div class="v">${bySrc[s]}</div><div class="d">${items.length ? Math.round(bySrc[s]/items.length*100) : 0}% dari total</div></div>`).join("")}
+    <div class="card kpi" style="--c:${topB ? brandColor(topB[0]) : "var(--muted)"}"><div class="k">Merek paling ramai</div><div class="v small">${esc(topB?.[0] || "-")}</div><div class="d">${topB ? topB[1] + " artikel" : ""}</div></div>
+    <div class="card kpi" style="--c:${topC ? catColor(topC[0]) : "var(--muted)"}"><div class="k">Topik paling ramai</div><div class="v small">${esc(topC?.[0] || "-")}</div><div class="d">${topC ? topC[1] + " artikel" : ""}</div></div>`;
 
   // bars (each chart ignores its own filter so you can switch)
   const brandRows = count(filtered("brand"), x => x.brands.length ? x.brands : ["(Umum)"]).slice(0, 10);
-  hbars("#ch-brand", brandRows, state.brand, v => { state.brand = state.brand === v ? null : v; render(); });
-  hbars("#ch-cat", count(filtered("cat"), x => x.categories), state.cat, v => { state.cat = state.cat === v ? null : v; render(); });
+  hbars("#ch-brand", brandRows, state.brand, v => { state.brand = state.brand === v ? null : v; render(); }, brandColor);
+  hbars("#ch-cat", count(filtered("cat"), x => x.categories), state.cat, v => { state.cat = state.cat === v ? null : v; render(); }, catColor);
   const srcRows = SOURCES.map(s => [s, filtered("src").filter(x => x.source === s).length]);
-  hbars("#ch-src", srcRows, null, v => { state.srcs.has(v) ? state.srcs.delete(v) : state.srcs.add(v); render(); }, true, state.srcs);
+  hbars("#ch-src", srcRows, null, v => { state.srcs.has(v) ? state.srcs.delete(v) : state.srcs.add(v); render(); }, k => SRC_COLORS[k], state.srcs);
   renderDays(items);
 
   // chips
@@ -355,7 +400,7 @@ function render(){
 }
 
 function card(x){
-  return `<article class="card issue${x.highlight ? " is-hl" : ""}" data-id="${esc(x.id)}">
+  return `<article class="card issue${x.highlight ? " is-hl" : ""}" style="--c:${SRC_COLORS[x.source] || "var(--muted)"}" data-id="${esc(x.id)}">
     ${x.image ? `<div class="img" style="background-image:url('${esc(x.image)}')"></div>` : ""}
     <div class="body">
       <div class="meta"><span class="src"><span class="dot" style="background:${SRC_COLORS[x.source] || "var(--muted)"}"></span>${esc(x.source)}</span><span>${fmtDate(x.published)}</span>${x.highlight ? `<span class="star">★ Highlight</span>` : ""}</div>
@@ -364,8 +409,8 @@ function card(x){
         ? `<div class="sum-h">Poin penting <span class="by">${x.summary_by === "ai" ? "ringkasan AI" : x.locked ? "kurasi manual" : "ringkasan otomatis"}</span></div><ul class="points">${x.points.map(p => `<li>${esc(p)}</li>`).join("")}</ul>`
         : `<p>${esc(x.summary)}</p>`}
       <div class="tags">
-        ${x.brands.map(b => `<span class="tag b" data-brand="${esc(b)}">${esc(b)}</span>`).join("")}
-        ${x.categories.map(c => `<span class="tag" data-cat="${esc(c)}">${esc(c)}</span>`).join("")}
+        ${x.brands.map(b => `<span class="tag b" style="--c:${brandColor(b)}" data-brand="${esc(b)}">${esc(b)}</span>`).join("")}
+        ${x.categories.map(c => `<span class="tag" style="--c:${catColor(c)}" data-cat="${esc(c)}">${esc(c)}</span>`).join("")}
       </div>
       <div class="foot">${x.points && x.points.length ? "<span></span>" : "<button data-more>Selengkapnya</button>"}<a href="${esc(x.url)}" target="_blank" rel="noopener">Baca sumber ↗</a></div>
     </div></article>`;
@@ -377,14 +422,15 @@ $("#list").addEventListener("click", e => {
   else if (t.hasAttribute("data-more")){ const c = t.closest(".issue"); c.classList.toggle("open"); t.textContent = c.classList.contains("open") ? "Ringkas" : "Selengkapnya"; }
 });
 
-function hbars(sel, rows, active, onClick, colored, activeSet){
+function hbars(sel, rows, active, onClick, colorOf, activeSet){
   const el = $(sel);
   if (!rows.length || rows.every(r => !r[1])) { el.innerHTML = `<div class="empty">Belum ada data</div>`; return; }
   const max = Math.max(...rows.map(r => r[1]), 1);
   el.innerHTML = rows.map(([k,n]) => {
     const on = active === k || (activeSet && activeSet.has(k));
-    return `<button class="hbar ${on ? "active" : ""}" data-v="${esc(k)}" title="${esc(k)}: ${n}">
-      <span class="lbl">${esc(k)}</span><span class="track"><span class="fill" style="display:block;width:${n/max*100}%;${colored && !on ? `background:${SRC_COLORS[k]}` : ""}"></span></span><span class="n">${n}</span></button>`;
+    const dim = !on && (active || (activeSet && activeSet.size));
+    return `<button class="hbar ${on ? "active" : ""} ${dim ? "dim" : ""}" style="--c:${colorOf(k)}" data-v="${esc(k)}" title="${esc(k)}: ${n}">
+      <span class="lbl"><span class="dot" style="background:var(--c)"></span>${esc(k)}</span><span class="track"><span class="fill" style="display:block;width:${n/max*100}%"></span></span><span class="n">${n}</span></button>`;
   }).join("");
   el.onclick = e => { const b = e.target.closest(".hbar"); if (b) onClick(b.dataset.v); };
 }
