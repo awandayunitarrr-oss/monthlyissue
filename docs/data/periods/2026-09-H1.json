@@ -3,11 +3,11 @@
   "label": "1 – 15 September 2026",
   "start": "2026-09-01",
   "end": "2026-09-15",
-  "generated_at": "2026-11-12T11:56:11+07:00",
+  "generated_at": "2026-11-12T12:18:43+07:00",
   "sources": {
     "Iwan Banaran": {
       "count": 43,
-      "method": "feed+listing+sitemap"
+      "method": "feed+listing"
     },
     "Pertamax7": {
       "count": 0,
@@ -937,8 +937,7 @@
       "categories": [
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "2bac6f301ee0",

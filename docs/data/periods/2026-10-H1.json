@@ -3,11 +3,11 @@
   "label": "1 – 15 Oktober 2026",
   "start": "2026-10-01",
   "end": "2026-10-15",
-  "generated_at": "2026-11-12T11:56:10+07:00",
+  "generated_at": "2026-11-12T12:18:42+07:00",
   "sources": {
     "Iwan Banaran": {
       "count": 29,
-      "method": "feed+listing+sitemap"
+      "method": "feed+listing"
     },
     "Pertamax7": {
       "count": 0,

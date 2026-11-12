@@ -3,11 +3,11 @@
   "label": "16 – 31 Mei 2026",
   "start": "2026-05-16",
   "end": "2026-05-31",
-  "generated_at": "2026-11-12T11:56:12+07:00",
+  "generated_at": "2026-11-12T12:18:44+07:00",
   "sources": {
     "Iwan Banaran": {
-      "count": 11,
-      "method": "feed+listing+sitemap"
+      "count": 20,
+      "method": "feed+listing"
     },
     "Pertamax7": {
       "count": 0,
@@ -149,9 +149,7 @@
       "categories": [
         "Peluncuran Produk",
         "Racing & Motorsport"
-      ],
-      "highlight": true,
-      "highlight_by": "auto"
+      ]
     },
     {
       "id": "f551456fa89e",
@@ -723,9 +721,7 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ],
-      "highlight": true,
-      "highlight_by": "auto"
+      ]
     },
     {
       "id": "7aa4acd788f1",
@@ -795,6 +791,29 @@
       ]
     },
     {
+      "id": "53fdd5a3cbc8",
+      "title": "Astra Honda Dream Cup Tasikmalaya 2026….rider Wanita Unjuk Gigi",
+      "url": "https://iwanbanaran.com/news/astra-honda-dream-cup-tasikmalaya-2026-rider-wanita-unjuk-gigi",
+      "source": "Iwan Banaran",
+      "published": "2026-05-26T15:50:40+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Dunia balap motor Tanah Air kembali bergairah dengan digelarnya ajang tahuna n Astra Honda Dream Cup (AHDC) 2026 . Event yang berlangsung di Tasikmalaya pada 24 Mei 2026 ini menjadi panggung pembuktian bagi para pembalap muda dan komunitas bikers Honda dari berbagai daerah. Tidak hanya menguji adrenalin, ajang ini juga menjadi wadah pencarian bakat baru di berbagai kelas balap, mulai dari pemula hingga profesional, dari motor matic hingga sport. Gokilnyaa cak….pada AHDC 2026 para riders wanita sukses unjuk gigi.",
+      "points": [
+        "Dunia balap motor Tanah Air kembali bergairah dengan digelarnya ajang tahuna n Astra Honda Dream Cup (AHDC) 2026.",
+        "Event yang berlangsung di Tasikmalaya pada 24 Mei 2026 ini menjadi panggung pembuktian bagi para pembalap muda dan komunitas bikers Honda dari berbagai daerah.",
+        "Event tahun ini dibagi menjadi dua kategori besar, yaitu AHRS (Sekolah Balap) dan AHDC (Astra Honda Dream Cup), dengan total 12 kelas berbeda.",
+        "Dan setelah seharian melihat gegap gempita serta race yang cukup seru, berikut hasil lengkap balapa Astra Honda Dream Cup Tasikmalaya 2026."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/astra-honda-dream-cup-tasikmalaya-2026-rider-wanita-unjuk-gigi",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Racing & Motorsport",
+        "Event & Komunitas"
+      ]
+    },
+    {
       "id": "4cec3a00e7a0",
       "title": "QJ Motor SRK 125 R1 : Kubikasi Kecil, Tapi Ukuran Wingletnya Masif !!",
       "url": "https://tmcblog.com/2026/05/26/qj-motor-srk-125-r1-kubikasi-kecil-tapi-ukuran-wingletnya-masif/?utm_source=rss&utm_medium=rss&utm_campaign=qj-motor-srk-125-r1-kubikasi-kecil-tapi-ukuran-wingletnya-masif",
@@ -814,6 +833,27 @@
       ],
       "categories": [
         "Lainnya"
+      ]
+    },
+    {
+      "id": "d9aa705306f3",
+      "title": "MotoJunior : Ramadhipa Sabet Podium Perdana pada Debut Moto3… — Gokilll",
+      "url": "https://iwanbanaran.com/news/motojunior-ramadhipa-sabet-podium-perdana-pada-debut-moto3-gokilll",
+      "source": "Iwan Banaran",
+      "published": "2026-05-26T09:12:54+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Setelah menjalani akhir pekan yang impresif, Kiandra Ramadhipa berhasil meraih podium pertamanya di Moto3 Junior World Championship pada Race 1 yang digelar di Circuit de Barcelona-Catalunya. Pebalap Indonesia tersebut sebenarnya menyentuh garis finis di posisi kelima, namun penalti yang diberikan kepada beberapa pebalap setelah balapan membuatnya naik ke posisi ketiga. Pada balapan kedua, Ramadhipa kembali tampil kompetitif dan finis di posisi keenam, menutup empat hari yang luar biasa di Barcelona dengan hasil yang menjanjikan.",
+      "points": [
+        "Setelah menjalani akhir pekan yang impresif, Kiandra Ramadhipa berhasil meraih podium pertamanya di Moto3 Junior World Championship pada Race 1 yang digelar di Circuit de Barcelona-Catalunya.",
+        "Dengan hasil ini, Ramadhipa mencatat debut hari Minggu terbaik bagi pebalap Indonesia di ajang Moto3 Junior World Championship.",
+        "Namun setelah balapan selesai, penalti yang diberikan kepada pebalap yang finis di posisi ketiga dan keempat membuat Ramadhipa naik ke posisi ketiga dan resmi meraih podium perdananya di Moto3 Junior World Championship.",
+        "Meski demikian, Ramadhipa tetap berada dalam grup perebutan podium dengan sekitar empat belas pebalap yang terus bersaing di barisan depan hingga pertengahan balapan."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/motojunior-ramadhipa-sabet-podium-perdana-pada-debut-moto3-gokilll",
+      "brands": [],
+      "categories": [
+        "Racing & Motorsport",
+        "Peluncuran Produk"
       ]
     },
     {
@@ -881,6 +921,31 @@
         "Racing & Motorsport",
         "Peluncuran Produk"
       ]
+    },
+    {
+      "id": "88a5ca684ed1",
+      "title": "Bocorrrr…kode New Vario 160 Terbaru 2026 sudah masuk NJKB Online cakkk",
+      "url": "https://iwanbanaran.com/news/bocorrrr-kode-new-vario-160-terbaru-2026-sudah-masuk-njkb-online-cakkk",
+      "source": "Iwan Banaran",
+      "published": "2026-05-25T09:06:12+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….akhirnya setelah cukup lama ilmu terawangan IWB bekukan sementara, dilalah perkemarin ketika terawangan IWB resume kembali kita menemukan adanya update info dari skutik yang sudah kita tunggu lama. Yesss akhirnya cak skutik 160cc andalan AHM yakni Vario 160 resmi masuk Informasi Nilai Jual Kendaraan Bermotor (NJKB) Pemprov DKI Jakarta resmi tertanggal 22 Mei 2026 . Dan ketika sudah resmi didaftarkan ini artinya skutik yang sudah kita endus gen terbarunya dengan kode K2SM ini mendekati 90 % akurat.",
+      "points": [
+        "Yesss akhirnya cak skutik 160cc andalan AHM yakni Vario 160 resmi masuk Informasi Nilai Jual Kendaraan Bermotor (NJKB) Pemprov DKI Jakarta resmi tertanggal 22 Mei 2026.",
+        "81 & 82): Ini adalah kode resmi untuk Honda Vario 160 varian CBS dan ABS untuk batch produksi tahun 2026.",
+        "Munculnya kode ini dengan nilai NJKB Rp 19,6 juta mengindikasikan AHM mempertahankan eksistensi skutik retro modern eSP+ 4 katup ini dengan potensi penyegaran minor di tahun 2026.",
+        "Tinggal harus jeli dan teliti sehingga kita bisa menarik data tsb yang kemudian bisa kita olah menjadi satu kepastian bahwa New Vario 160 terbaru 2026 sudah sangat siap dirilis ke pasar."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/bocorrrr-kode-new-vario-160-terbaru-2026-sudah-masuk-njkb-online-cakkk",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Spy / Rumor",
+        "Peluncuran Produk"
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "ba307d6a888e",
@@ -1030,9 +1095,7 @@
       ],
       "categories": [
         "Regulasi & Kebijakan"
-      ],
-      "highlight": true,
-      "highlight_by": "auto"
+      ]
     },
     {
       "id": "8f80df84aca9",
@@ -1052,6 +1115,27 @@
       "brands": [],
       "categories": [
         "Racing & Motorsport",
+        "Peluncuran Produk"
+      ]
+    },
+    {
+      "id": "ee5aa9d12524",
+      "title": "Bedah MotoRobot OMOX….Gilaa Ngacirrr cakk, Spek dewa bisa semurah ini",
+      "url": "https://iwanbanaran.com/news/bedah-motorobot-omox-gilaa-ngacirrr-cakk-spek-dewa-bisa-semurah-ini",
+      "source": "Iwan Banaran",
+      "published": "2026-05-22T08:07:13+07:00",
+      "summary": "Iwanbanaran.com – Akhirnya terjawab sudah rasa penasaran kita Cak! Setelah sekian lama jadi bahan bisik-bisik di kalangan bikers, sosok OMO-X yang mengusung arsitektur OMO-Robot ini resmi menghentak aspal Indonesia. Tapi aseli, ini bukan sekadar motor listrik yang biasa sampeyan lihat wara-wiri. Ini adalah “Robot Pintar” yang bisa dinaiki! Sebagai Blogger – Vlogger yang berkesempatan langsung motor ini….fix ini adalah EV tergokil yang IWB pernah jajal.",
+      "points": [
+        "Coba sampeyan bayangkan, motor listrik 40 jutaan tapi pakai suspensi Double Wishbone di depan seperti moge mewah.",
+        "Smart Cockpit: Dilengkapi dengan layar sentuh 10.25 inci yang mengintegrasikan navigasi, kontrol kendaraan, dan sistem hiburan dalam satu antarmuka yang intuitif.",
+        "Dan yang paling penting buat kaum komuter, jarak tempuhnya tembus 210 km untuk varian long-range (standart 160km WMTC).",
+        "Untuk memberikan gambaran IWB sudah lampirkan di list bawah termasuk spek detil sang MotoRobot, yup.Spek dewa bisa semurah ini."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/bedah-motorobot-omox-gilaa-ngacirrr-cakk-spek-dewa-bisa-semurah-ini",
+      "brands": [],
+      "categories": [
+        "Motor Listrik",
         "Peluncuran Produk"
       ]
     },
@@ -1097,9 +1181,7 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ],
-      "highlight": true,
-      "highlight_by": "auto"
+      ]
     },
     {
       "id": "21ad621a47fa",
@@ -1187,6 +1269,31 @@
       "categories": [
         "Racing & Motorsport"
       ]
+    },
+    {
+      "id": "6b6d1df41f94",
+      "title": "Breaking ! Yamaha X-Force ABS 2026 dirilis….ini adalah Master Skutik cak",
+      "url": "https://iwanbanaran.com/news/breaking-yamaha-x-force-abs-2026-dirilis-ini-adalah-master-skutik-cak",
+      "source": "Iwan Banaran",
+      "published": "2026-05-21T06:38:25+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…. masih ingat dengan Yamaha X FORCE? Itu lho, matik dek rata berkarakter kekar bin padat yang punya julukan mentereng, “Master of Street Scooter.” Nah, kali ini Yamaha kembali merilis generasi terbaru 2026. Apa saja yang beda dibandingkan gen sebelumnya ? intip saja detilnya disini…. Secara konsep, X FORCE ini memang dilahirkan untuk membelah kemacetan kota dengan style yang anti-mainstream . Setang dibuat lebar dan rata, otomatis menyuguhkan posisi berkendara yang sigap nan macho . Ergonominya sporty abis, gesss .",
+      "points": [
+        "Itu lho, matik dek rata berkarakter kekar bin padat yang punya julukan mentereng, “Master of Street Scooter.” Nah, kali ini Yamaha kembali merilis generasi terbaru 2026.",
+        "Opsi buat yang merasa ketinggian juga ada, Yamaha menyediakan paket aksesori jok rendah yang bisa memangkas ketinggian hingga 30 mm.",
+        "Tenaga maksimum tembus 11 kW (15 PS) pada 8.000 rpm dan torsi puncaknya nendang di angka 14 N·m pada 6.500 rpm.",
+        "Untuk bagian kaki-kaki, X FORCE mengandalkan roda diameter 13 inci dengan profil ban gambot, depan 120/70-13M/C 53P dan belakang 130/70-13M/C 57P."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/breaking-yamaha-x-force-abs-2026-dirilis-ini-adalah-master-skutik-cak",
+      "brands": [
+        "Yamaha"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Teknologi & Fitur"
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "97a95e7f9e29",
@@ -1299,6 +1406,28 @@
       ]
     },
     {
+      "id": "97492e358c67",
+      "title": "Seremmm, Harga Oli Motor Makin Mahal…Ternyata Ini biang keroknya Cak",
+      "url": "https://iwanbanaran.com/news/seremmm-harga-oli-motor-makin-mahal-ternyata-ini-biang-keroknya-cak",
+      "source": "Iwan Banaran",
+      "published": "2026-05-19T08:24:20+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Belakangan ini IWB mendapatkan banyak pertanyaan kenapa harga oli jadi ikut naik nggilani tenan.  Efeknya luar biasa ngeri, harga minyak mentah dunia ( crude oil ) langsung melesat naik gak karuan. Konflik Amerika Serikat dan Israel melawan Iran ternyata tidak hanya memicu kenaikan harga bahan bakar minyak (BBM), tetapi juga membawa dampak berantai hingga ke produk pelumas kendaraan. Dalam beberapa pekan terakhir, harga oli mesin motor di pasaran mulai menunjukkan tren kenaikan yang cukup signifikan.",
+      "points": [
+        "Belakangan ini IWB mendapatkan banyak pertanyaan kenapa harga oli jadi ikut naik nggilani tenan.",
+        "Oli motor sampeyan itu komposisi utamanya (sekitar 80% sampai 90%) adalah Base Oil.",
+        "Sisa 10% sampai 20% di dalam botol oli motor itu isinya zat aditif (seperti anti-wear, pelindung kopling basah, dan peningkat viskositas).",
+        "Last…itulah alasan kenapa harga oli motor sampeyan jadi jabang bajul tenan kenaikannya."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/seremmm-harga-oli-motor-makin-mahal-ternyata-ini-biang-keroknya-cak",
+      "brands": [],
+      "categories": [
+        "Harga & Promo",
+        "Aftersales & Servis",
+        "Regulasi & Kebijakan"
+      ]
+    },
+    {
       "id": "daa949bac7be",
       "title": "Manuel Gonzalez Berpotensi Menyeberang ke Honda WorldSBK pada 2027",
       "url": "https://tmcblog.com/2026/05/19/manuel-gonzalez-berpotensi-menyeberang-ke-honda-worldsbk-pada-2027/?utm_source=rss&utm_medium=rss&utm_campaign=manuel-gonzalez-berpotensi-menyeberang-ke-honda-worldsbk-pada-2027",
@@ -1319,6 +1448,30 @@
       "categories": [
         "Racing & Motorsport",
         "Spy / Rumor"
+      ]
+    },
+    {
+      "id": "0120691ad7b8",
+      "title": "Era Baru Skutik Premium, MAXi Race Hadir di Kejurnas Motoprix",
+      "url": "https://iwanbanaran.com/news/era-baru-skutik-premium-maxi-race-hadir-di-kejurnas-motoprix",
+      "source": "Iwan Banaran",
+      "published": "2026-05-18T14:53:16+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…Inovasi terkini Yamaha di dunia racing nasional tahun ini diimplementasikan melalui MAXi Race yang telah hadir di berbagai event. Setelah perdana menggebrak di seri 1 Yamaha Cup Race yang digelar di Sidrap, MAXi Race lanjut diadakan di Kejurnas Motoprix Region B putaran 1 di sirkuit Gelora Bung Tomo Surabaya, 9-10 Mei 2026. Kategori baru di Motoprix akhir pekan lalu itu melombakan dua kelas yaitu MAXi 155 Semi Pro dan MAXi 155 Komunitas yang masing-masing diikuti 13 starter.",
+      "points": [
+        "Inovasi terkini Yamaha di dunia racing nasional tahun ini diimplementasikan melalui MAXi Race yang telah hadir di berbagai event.",
+        "Setelah perdana menggebrak di seri 1 Yamaha Cup Race yang digelar di Sidrap, MAXi Race lanjut diadakan di Kejurnas Motoprix Region B putaran 1 di sirkuit Gelora Bung Tomo Surabaya, 9-10 Mei 2026.",
+        "Melalui pelaksanaan MAXi Race di berbagai kejuaraan populer diantaranya Yamaha Cup Race dan Kejurnas Motoprix, Yamaha ingin mengajak biker untuk menikmati keunggulan jajaran skutik MAXi Yamaha misalnya dari segi performa dan handling serta merasakan Racing DNA.",
+        "Jadi tidak hanya enjoy MAXi Yamaha sebagai skutik harian atau partner berkendara yang fun buat touring, juga jadi pilihan tunggangan yang memacu adrenalin dalam keseruan MAXi Race.(YIMM PR) Aktifkan JavaScript untuk membaca komentar, atau buka langsung di halaman artikel ini."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/era-baru-skutik-premium-maxi-race-hadir-di-kejurnas-motoprix",
+      "brands": [
+        "Yamaha"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Racing & Motorsport",
+        "Event & Komunitas"
       ]
     },
     {
@@ -1452,6 +1605,31 @@
       ]
     },
     {
+      "id": "0006b2bfd34e",
+      "title": "Satu Dekade Yamaha Aerox Dimulai dari Bandung… Modifikasinya Jiannn Moncrot Tenan",
+      "url": "https://iwanbanaran.com/news/satu-dekade-yamaha-aerox-dimulai-dari-bandung-modifikasinya-jiannn-moncrot-tenan",
+      "source": "Iwan Banaran",
+      "published": "2026-05-17T16:35:41+07:00",
+      "summary": "Iwanbanaran.com – Cakkk..Bandung emang nggak ada matinya kalau soal urusan gaya, Cak! Sabtu kemarin (25/4), area Pasir Koja mendadak berubah jadi “lautan” Aerox. Bukan tanpa alasan, ternyata Yamaha resmi membuka rangkaian event akbar Gathering Team Aerox (GTA) sebagai gong pembuka perayaan satu dekade alias 10 tahun kiprah Yamaha Aerox di Indonesia. Oalahhh… nggak terasa ya Cak, sudah 10 tahun kita ditemani motor sporty bin beraura racy ini! IWB salut sama antusiasme para youngster masa kini. Ratusan peserta tumplek blek jadi satu.",
+      "points": [
+        "Bukan tanpa alasan, ternyata Yamaha resmi membuka rangkaian event akbar Gathering Team Aerox (GTA) sebagai gong pembuka perayaan satu dekade alias 10 tahun kiprah Yamaha Aerox di Indonesia.",
+        "Mulai dari pengguna Aerox generasi awal sampai yang paling gres, yaitu Yamaha Aerox Alpha yang sudah dibekali teknologi canggih YECVT.",
+        "Mau dipakai night ride, sunmori, sampai dimodifikasi gila-gilaan, Aerox emang paling juozzz buat anak muda yang ogah tampil standar. ” Menyambut perayaan satu dekade Yamaha AEROX, secara spesial kami kembali menggelar event Gathering Team AEROX sebagai pembuka keseruan.",
+        "Rangkaian perayaan satu dekade Aerox ini bakal lanjut terus dari Mei sampai Juni mendatang di kota-kota besar lainnya di Indonesia."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/satu-dekade-yamaha-aerox-dimulai-dari-bandung-modifikasinya-jiannn-moncrot-tenan",
+      "brands": [
+        "Yamaha"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Event & Komunitas"
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
+    },
+    {
       "id": "175469243191",
       "title": "Davide Brivio Resmi Tinggalkan Trackhouse Racing MotoGP di Akhir Musim 2026!",
       "url": "https://tmcblog.com/2026/05/17/davide-brivio-resmi-tinggalkan-trackhouse-racing-motogp-di-akhir-musim-2026/?utm_source=rss&utm_medium=rss&utm_campaign=davide-brivio-resmi-tinggalkan-trackhouse-racing-motogp-di-akhir-musim-2026",
@@ -1579,6 +1757,32 @@
         "Spy / Rumor",
         "Regulasi & Kebijakan"
       ]
+    },
+    {
+      "id": "2ad6e64eb4aa",
+      "title": "Breaking ! Suzuki New Burgman 150 Terbaru 2026 Resmi dirilis — ini baru Gantenggg",
+      "url": "https://iwanbanaran.com/news/breaking-suzuki-new-burgman-150-terbaru-2026-resmi-dirilis-ini-baru-gantenggg",
+      "source": "Iwan Banaran",
+      "published": "2026-05-16T11:23:14+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….lama tak terdengar suaranya di pasar skutik bongsor 150cc, kini dunia otomotif dikejutkan oleh kabar rilisnya skutik legendaris Suzuki yang sudah lama dinanti-nanti. Bukan di Indonesia, cakk! Kabar terbaru menyebutkan bahwa Suzuki Burgman 150 terbaru kini sudah resmi rilis di Kolombia. Ini baru gantenggg !!! Langkah mengejutkan ini sekaligus menjawab teka-teki panjang mengenai masa depan lini Burgman di kelas premium, mengingat pasar 150cc Maxy didominasi oleh Yamaha NMax dan Honda PCX.",
+      "points": [
+        "Kabar terbaru menyebutkan bahwa Suzuki Burgman 150 terbaru kini sudah resmi rilis di Kolombia.",
+        "Ini dia bocoran data spesifikasi Burgman 150 terbaru yang kini resmi mengaspal di sana : Kalau dilihat cak…Burgman 150 terbaru ini tetap mempertahankan DNA asli Burgman.",
+        "Berdasarkan data teknis, Burgman 150 ini dibekali mesin generasi terbaru: 4-stroke, 1-silinder, berpendingin cairan (Liquid-cooled), 149 cc.",
+        "Mengingat tren skutik premium 150cc terus meningkat, kehadiran Burgman 150 bisa menjadi opsi menarik bagi mereka yang jenuh dengan dominasi Yamaha dan Honda, terutama bagi pecinta sejati brand Suzuki."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/breaking-suzuki-new-burgman-150-terbaru-2026-resmi-dirilis-ini-baru-gantenggg",
+      "brands": [
+        "Suzuki",
+        "Honda",
+        "Yamaha"
+      ],
+      "categories": [
+        "Peluncuran Produk"
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "3f7d4b5d039f",

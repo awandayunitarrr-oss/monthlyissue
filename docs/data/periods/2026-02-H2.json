@@ -3,11 +3,11 @@
   "label": "16 – 28 Februari 2026",
   "start": "2026-02-16",
   "end": "2026-02-28",
-  "generated_at": "2026-11-12T11:56:12+07:00",
+  "generated_at": "2026-11-12T12:18:45+07:00",
   "sources": {
     "Iwan Banaran": {
-      "count": 0,
-      "method": null
+      "count": 9,
+      "method": "feed+listing"
     },
     "Pertamax7": {
       "count": 0,
@@ -36,6 +36,28 @@
       "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f947.png",
       "brands": [
         "KTM / Husqvarna"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "e3905092c529",
+      "title": "Luaaar biasaaa ! Veda Ega Start di Barisan Depan Moto3 Thailand 2026",
+      "url": "https://iwanbanaran.com/news/luaaar-biasaaa-veda-ega-start-di-barisan-depan-moto3-thailand-2026",
+      "source": "Iwan Banaran",
+      "published": "2026-02-28T14:36:18+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…Bendera Merah Putih berkibar tinggi di Sirkuit Internasional Chang, Buriram. Pembalap muda berbakat asal Indonesia, Veda Ega Pratama, sukses mencatatkan hasil gemilang dalam sesi kualifikasi Moto3 Thailand 2026 yang berlangsung pada Sabtu (28/2/2026). Sebagai seorang rookie , Veda berhasil membuktikan bahwa dirinya bukan sekadar pelengkap, melainkan ancaman nyata di kancah kejuaraan dunia. Kejutan Veda sebenarnya sudah tercium sejak rangkaian sesi latihan dimulai. Pembalap yang membela Honda Team Asia ini tampil konsisten sejak hari pertama.",
+      "points": [
+        "Pembalap muda berbakat asal Indonesia, Veda Ega Pratama, sukses mencatatkan hasil gemilang dalam sesi kualifikasi Moto3 Thailand 2026 yang berlangsung pada Sabtu (28/2/2026).",
+        "Berkat kerja kerasnya, Veda Ega Pratama berhasil mengunci posisi ke-5 (P5) dalam kualifikasi.",
+        "Berikut adalah posisi 5 besar hasil kualifikasi Moto3 Thailand 2026: Last…Start dari posisi kelima merupakan pencapaian luar biasa bagi seorang pembalap debutan di seri pembuka musim.",
+        "Dengan kecepatan yang sangat kompetitif di sektor-sektor krusial Buriram, peluang Veda untuk bertarung memperebutkan podium pertamanya di kelas Moto3 terbuka lebar."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/luaaar-biasaaa-veda-ega-start-di-barisan-depan-moto3-thailand-2026",
+      "brands": [
+        "Honda"
       ],
       "categories": [
         "Racing & Motorsport"
@@ -236,6 +258,28 @@
       ]
     },
     {
+      "id": "6a96d07236c3",
+      "title": "Honda bikin Mumet…Foto-foto New Scoopy 2026 Ijo Botol",
+      "url": "https://iwanbanaran.com/news/honda-bikin-mumet-foto-foto-new-scoopy-2026-ijo-botol",
+      "source": "Iwan Banaran",
+      "published": "2026-02-27T07:21:35+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….sampeyan pasti tahu manuver PT AHM di awal tahun 2026 ini dimana Honda merilis racikan warna baru buat skutik retro andalan mereka, New Scoopy 2026. Dan jujur wae, pandangan IWB langsung “mumet” pas liat varian Stylish Green alias Ijo Botol . Sentuhan yang membuat sosok Scoopy bener-bener menggoda celengan. Ora percoyo ?? intip wae Foto-foto New Scoopy 2026 Ijo Botol ini !! Lupakan warna matte yang mulai membosankan karena dikit-dikit doff. Di tahun 2026 ini, Honda main Glossy Green yang cakep puol.",
+      "points": [
+        "Sampeyan pasti tahu manuver PT AHM di awal tahun 2026 ini dimana Honda merilis racikan warna baru buat skutik retro andalan mereka, New Scoopy 2026.",
+        "Ora percoyo?? intip wae Foto-foto New Scoopy 2026 Ijo Botol ini.",
+        "Buat sampeyan yang udah mulai gatel pengen boyong si “Ijo Botol” ini, siapkan mahar di kisaran Rp23,6 jutaan sampai Rp25,3 jutaan (OTR Jakarta).",
+        "Untuk gambaran berikut beberapa foto si Ijo Scoopy 2026."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/honda-bikin-mumet-foto-foto-new-scoopy-2026-ijo-botol",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Lainnya"
+      ]
+    },
+    {
       "id": "d13944dc5e12",
       "title": "Geger Paddock Buriram : Yamaha Kabarnya Beri Penawaran “Wah” ke Luca Marini Untuk 2027 !!",
       "url": "https://tmcblog.com/2026/02/27/geger-paddock-buriram-yamaha-kabarnya-beri-penawaran-wah-ke-luca-marini-untuk-2027/?utm_source=rss&utm_medium=rss&utm_campaign=geger-paddock-buriram-yamaha-kabarnya-beri-penawaran-wah-ke-luca-marini-untuk-2027",
@@ -348,9 +392,7 @@
       ],
       "categories": [
         "Spy / Rumor"
-      ],
-      "highlight": true,
-      "highlight_by": "auto"
+      ]
     },
     {
       "id": "25ee1aa18e5a",
@@ -372,9 +414,7 @@
       ],
       "categories": [
         "Event & Komunitas"
-      ],
-      "highlight": true,
-      "highlight_by": "auto"
+      ]
     },
     {
       "id": "62760778ca76",
@@ -444,6 +484,29 @@
         "Racing & Motorsport",
         "Recall & Kualitas",
         "Spy / Rumor"
+      ]
+    },
+    {
+      "id": "26dd6a078e5f",
+      "title": "Modifikasi paling Gokil Grand Filano — jadi Pangling cak",
+      "url": "https://iwanbanaran.com/news/modifikasi-paling-gokil-grand-filano-jadi-pangling-cak",
+      "source": "Iwan Banaran",
+      "published": "2026-02-25T07:00:31+07:00",
+      "summary": "Iwanbanaran.com – Cakkk…Bagi banyak pengendara muda di kota, modifikasi pada sepeda motor bukan selalu soal untuk meningkatkan performa dan berusaha untuk tampil berbeda dari motor lainnya, tetapi menjadi salah satu cara untuk mengekspresikan selera, gaya hidup, dan aktivitas sehari-hari. Hal ini tercermin pada skutik Grand Filano Hybrid yang dimodifikasi dengan tema Urban Rally dengan pemilihan warna yang sangat nyentrik dan ikonik milik Adega Anggayasta yang dimodifikasi oleh Rainbow Moto Builder, salah satu modifikator lokal yang terkenal dengan gaya modifikasinya yang terinspirasi dari…",
+      "points": [
+        "Bagi banyak pengendara muda di kota, modifikasi pada sepeda motor bukan selalu soal untuk meningkatkan performa dan berusaha untuk tampil berbeda dari motor lainnya, tetapi menjadi salah satu cara untuk mengekspresikan selera, gaya hidup, dan aktivitas sehari-hari.",
+        "Founder dari komunitas bernama Kalcer Skuter ini sukses menerjemahkan nuansa retro rally ke dalam skutik kalcer anak muda zaman now, yaitu Grand Filano Hybrid yang punya desain retro tapi tetap punya berbagai fitur modern nan canggih sehingga relevan untuk bermobilitas sehari-hari di perkotaan.",
+        "Perpaduan warna tosca dan ungu pada area batok lampu memperkuat karakter Urban Rally yang bold, sekaligus tetap menyatu dengan desain retro modern Grand Filano Hybrid dengan keberadaan front rack berwarna ungu yang terpasang dengan rapih.",
+        "Hal itu dikarenakan Yamaha Grand Filano Hybrid hadir dengan desain yang timeless dan elegan, tapi tetap modern karena memiliki beragam fitur canggih seperti sudah menggunakan teknologi Blue Core Hybrid 125 cc yang irit dan powerful, TFT Sub Display pada speedometer dan lampunya sudah Full LED serta Smart Key System."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/modifikasi-paling-gokil-grand-filano-jadi-pangling-cak",
+      "brands": [
+        "Yamaha"
+      ],
+      "categories": [
+        "Event & Komunitas",
+        "Teknologi & Fitur"
       ]
     },
     {
@@ -605,6 +668,32 @@
       "categories": [
         "Racing & Motorsport"
       ]
+    },
+    {
+      "id": "57f92b03d896",
+      "title": "Breaking ! Honda Rilis new XL750 Transalp E-Clutch 2026…Rombakan Besarr",
+      "url": "https://iwanbanaran.com/news/breaking-honda-rilis-new-xl750-transalp-e-clutch-2026-rombakan-besarr",
+      "source": "Iwan Banaran",
+      "published": "2026-02-23T05:33:29+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Honda secara resmi memperkenalkan XL750 Transalp E-Clutch sebagai unit referensi utama dalam rangkaian pameran Motorcycle Show 2026 di Osaka, Tokyo, dan Nagoya. Langkah ini menandai debut teknologi kopling elektronik canggih Honda pada segmen motor adventure kelas menengah. Yess..Honda Rilis new XL750 Transalp E-Clutch 2026…Makin Canggih cakk !! Pembaruan ini tidak hanya sekadar penambahan fitur, melainkan evolusi signifikan yang memadukan ketangguhan off-road dengan kenyamanan transmisi modern. Fitur utama yang menjadi sorotan adalah penyematan Honda E-Clutch .",
+      "points": [
+        "Honda secara resmi memperkenalkan XL750 Transalp E-Clutch sebagai unit referensi utama dalam rangkaian pameran Motorcycle Show 2026 di Osaka, Tokyo, dan Nagoya.",
+        "Yess.Honda Rilis new XL750 Transalp E-Clutch 2026…Makin Canggih cakk.",
+        "Last…Kehadiran Honda XL750 Transalp E-Clutch di ajang Motorcycle Show tahun ini mempertegas posisi Honda sebagai pemimpin inovasi di kelas middleweight adventure.",
+        "Jadi yang pasti cak…XL750 Transalp E-Clutch 2026 telah mengalami perombakan Besarr."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/breaking-honda-rilis-new-xl750-transalp-e-clutch-2026-rombakan-besarr",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Teknologi & Fitur",
+        "Event & Komunitas"
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "5b4fc1a6a917",
@@ -914,6 +1003,29 @@
       ]
     },
     {
+      "id": "a51ad02b8139",
+      "title": "Breaking ! Honda Perkenalkan CB1000GT 2026….Gilaaa Sangar Bangett",
+      "url": "https://iwanbanaran.com/news/breaking-honda-perkenalkan-cb1000gt-2026-gilaaa-sangar-bangett",
+      "source": "Iwan Banaran",
+      "published": "2026-02-21T04:52:06+07:00",
+      "summary": "Iwanbanaran/com – Cakkk…Honda kembali mengguncang segmen sport touring dengan memperkenalkan CB1000GT 2026 sebagai unit rencana produksi massal di ajang Motorcycle Show tahun ini. Mengambil basis dari performa buas streetfighter CB1000 Hornet, varian GT (Gran Turismo) ini hadir sebagai jawaban bagi pengendara yang menginginkan kecepatan superbike namun tetap mengutamakan kenyamanan jelajah lintas benua. Woww sangarr bangett cakkk….",
+      "points": [
+        "Iwanbanaran/com – Cakkk…Honda kembali mengguncang segmen sport touring dengan memperkenalkan CB1000GT 2026 sebagai unit rencana produksi massal di ajang Motorcycle Show tahun ini.",
+        "Di pasar Eropa, Honda CB1000GT dibanderol mulai dari €13.999 atau sekitar Rp240–260 jutaan (estimasi kurs).",
+        "Last.Honda CB1000GT 2026 bukan sekadar motor touring biasa cak.",
+        "Dengan fitur standar seperti Cruise Control, Heated Grips, dan layar TFT 5 inci dengan konektivitas Honda RoadSync, motor ini siap menjadi standar baru di kelasnya."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/breaking-honda-perkenalkan-cb1000gt-2026-gilaaa-sangar-bangett",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Event & Komunitas"
+      ]
+    },
+    {
       "id": "0f85cba8e20d",
       "title": "Kenapa Bulega dan Sam Lowes Pakai Helm Polos di WorldSBK Phillip Island 2026? FRHPhe-02 Jadi Jawabannya!",
       "url": "https://tmcblog.com/2026/02/21/kenapa-bulega-dan-sam-lowes-pakai-helm-polos-di-worldsbk-phillip-island-2026-frhphe-02-jadi-jawabannya/?utm_source=rss&utm_medium=rss&utm_campaign=kenapa-bulega-dan-sam-lowes-pakai-helm-polos-di-worldsbk-phillip-island-2026-frhphe-02-jadi-jawabannya",
@@ -1106,6 +1218,31 @@
       ]
     },
     {
+      "id": "0509c353f0f9",
+      "title": "Breaking ! New Honda CG150 Terbaru gebrak dunia….mesin Badak tahan Banting",
+      "url": "https://iwanbanaran.com/news/breaking-new-honda-cg150-terbaru-gebrak-dunia-mesin-badak-tahan-banting",
+      "source": "Iwan Banaran",
+      "published": "2026-02-19T05:39:07+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….nama Honda CG 160 sudah tidak asing lagi sebagai motor paling laris. Apalagi kini untuk model 2026, varian Titan kasta tertinggi di keluarga CG hadir dengan pembaruan signifikan yang menggabungkan efisiensi bahan bakar, teknologi modern, dan desain yang lebih agresif. Yup…ini adalah Honda CG150 terbaru 2026, mesin Badak tahan Banting !!! Honda CG 160 Titan versi terbaru (model 2026) telah resmi dirilis dan mulai tersedia di dealer Honda Brasil pada awal Januari 2026 .",
+      "points": [
+        "Yup…ini adalah Honda CG150 terbaru 2026, mesin Badak tahan Banting.",
+        "Honda CG 160 Titan versi terbaru (model 2026) telah resmi dirilis dan mulai tersedia di dealer Honda Brasil pada awal Januari 2026.",
+        "Last.Di Brazil, Honda CG 160 Titan 2026 dibanderol mulai dari sekitar R$ 20.310 (sekitar Rp 64 jutaan, tergantung kurs lokal).",
+        "Berikut beberapa foto sosok New CG160 yang bisa menggunakan bensin Etanol.hhmm ini sih mesin Megapro versi advance cak, 160cc 2 katup…pantes bandel."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/breaking-new-honda-cg150-terbaru-gebrak-dunia-mesin-badak-tahan-banting",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Teknologi & Fitur"
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
+    },
+    {
       "id": "20e093dffd3a",
       "title": "Kiandra Ramadhipa Naik Kasta ke Moto3 Junior saat JTT Ganti Pemilik ke Joan Olivé!",
       "url": "https://tmcblog.com/2026/02/19/kiandra-ramadhipa-naik-kasta-ke-moto3-junior-saat-jtt-ganti-pemilik-ke-joan-olive/?utm_source=rss&utm_medium=rss&utm_campaign=kiandra-ramadhipa-naik-kasta-ke-moto3-junior-saat-jtt-ganti-pemilik-ke-joan-olive",
@@ -1167,6 +1304,28 @@
       ],
       "categories": [
         "Peluncuran Produk"
+      ]
+    },
+    {
+      "id": "42a2568780cd",
+      "title": "Geger…! Inikah Bocoran Foto new Vario 160 2026 — ???",
+      "url": "https://iwanbanaran.com/news/geger-inikah-bocoran-foto-new-vario-160-2026",
+      "source": "Iwan Banaran",
+      "published": "2026-02-18T07:57:24+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….baru-baru ini heboh bocoran foto yang disebut sebagai New Vario 160 2026. Sebuah foto yang membikin geger karena terlihat jelas sekali penampakannya. Desain yang super agresif …raut muka serba lancip dengan bentuk lampu yang juga tipis. Pertanyaannya…benarkah ini adalah bocoran Foto New Vario 160 yang sampeyan tunggu ?? Seperti yang sampeyan tahu, IWB sudah pernah membahas perihal pergerakan New Vario 160 2026. Honda terakhir telah merilis New Vario 160 di tahun 2024. Ketika itu AHM hanya merilis versi penyegaran dengan lahirnya Warna baru.",
+      "points": [
+        "Baru-baru ini heboh bocoran foto yang disebut sebagai New Vario 160 2026.",
+        "Seperti yang sampeyan tahu, IWB sudah pernah membahas perihal pergerakan New Vario 160 2026.",
+        "Intinya disebut disana bahkan gambar terlampir ini adalah New Vario 160 terbaru 2026.",
+        "Asli IWB wae ngowoh tenan…lha kok sangarrr tenan kiiii mereka bisa dapat foto new Vario 160 2026."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/geger-inikah-bocoran-foto-new-vario-160-2026",
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Spy / Rumor"
       ],
       "highlight": true,
       "highlight_by": "auto"
@@ -1236,6 +1395,30 @@
       "categories": [
         "Racing & Motorsport"
       ]
+    },
+    {
+      "id": "8f6a380c38e3",
+      "title": "Breaking ! Suzuki Rilis New GSX-R125 2026….Mesin makin kencang cakkk",
+      "url": "https://iwanbanaran.com/news/breaking-suzuki-rilis-new-gsx-r125-2026-mesin-makin-kencang-cakkk",
+      "source": "Iwan Banaran",
+      "published": "2026-02-17T13:16:24+07:00",
+      "summary": "Iwanbanaran.com – Cakkk….Suzuki secara mengejutkan menggebrak pasar dunia dengan merilis New GSX-R125 2026. Suzuki Jepang dan Eropa kembali memperbarui lini motor sport terkecil mereka. Menariknya, pembaruan tahun 2026 ini bukan sekadar ganti warna ( facelift ringan), melainkan ada optimasi pada sektor jantung pacu. Yess…Mesin makin kencang caakkk !!! Fokus utama pada model 2026 adalah revisi pada sistem manajemen mesin (ECU) dan sistem pembuangan untuk memenuhi standar emisi yang semakin ketat tanpa mengorbankan tenaga.",
+      "points": [
+        "Suzuki secara mengejutkan menggebrak pasar dunia dengan merilis New GSX-R125 2026.",
+        "Walaupun kapasitasnya hanya 125cc, mesin ini tetap menjadi salah satu yang tercanggih di kelasnya: Tipe Mesin: 124,3cc, Single Cylinder, DOHC, 4-Valve, Liquid Cooled.",
+        "Berikut adalah tabel perbandingan spesifikasi antara Suzuki GSX-R125 (2026) dan Suzuki GSX-R150 (Indonesia) : GSX-R125 dirancang untuk mengejar efisiensi dan regulasi SIM A1 di Eropa/Jepang yang membatasi tenaga maksimal di 15 PS.",
+        "Last…Mengingat GSX-R125 2026 mendapatkan optimasi pada torsi dan manajemen mesin, ada kemungkinan besar teknologi atau pemetaan ECU serupa akan diterapkan pada GSX-R150 versi Indonesia di masa mendatang agar mesin 150cc-nya juga menjadi lebih responsif di putaran rendah."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/breaking-suzuki-rilis-new-gsx-r125-2026-mesin-makin-kencang-cakkk",
+      "brands": [
+        "Suzuki"
+      ],
+      "categories": [
+        "Peluncuran Produk"
+      ],
+      "highlight": true,
+      "highlight_by": "auto"
     },
     {
       "id": "862e329bb650",
@@ -1319,6 +1502,28 @@
       "image": "https://cdn.tmcblog.com/2025/11/ZX-10R-2026-1.webp",
       "brands": [
         "Kawasaki"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "e3e3c47f3ea1",
+      "title": "Moto3 Jerez Day 2 : Veda Ega Raja Rookie Asia….Adaptasinya ngeri cakkkk",
+      "url": "https://iwanbanaran.com/news/moto3-jerez-day-2-veda-ega-rookie-raja-asia-adaptasinya-ngeri-cakkkk",
+      "source": "Iwan Banaran",
+      "published": "2026-02-16T19:55:34+07:00",
+      "summary": "Iwanbanaran.com – Cakkkk….Veda Ega Pratama, rookie asal Gunungkidul yang membela Honda Team Asia , menunjukkan kembali kelasnya sebagai talenta muda berbakat di kancah dunia. IWB bisa melihat bagaimana Veda secara metodis memperbaiki catatan waktunya sepanjang hari kedua tes pramusim. Veda menunjukkan kurva pembelajaran yang sangat positif. Ia tidak hanya sekadar memutar lap, tetapi mampu memangkas waktu secara drastis setiap kali turun ke lintasan. Yup…Veda Ega Raja Asia….Adaptasinya ngeri cakkkk !! Cak…Veda Ega Pratama membuktikan bahwa ia adalah “pembelajar cepat”.",
+      "points": [
+        "Veda Ega Pratama, rookie asal Gunungkidul yang membela Honda Team Asia, menunjukkan kembali kelasnya sebagai talenta muda berbakat di kancah dunia.",
+        "Yup…Veda Ega Raja Asia.Adaptasinya ngeri cakkkk.",
+        "Hal ini tidak lepas dari pengamatan IWB Berdasarkan data hasil tes resmi Moto3 di Jerez (Day 2), persaingan kategori Rookie tahun 2026 memang sangat ketat.",
+        "Sekarang mari kita bedah lebih dalam melalui perbandingan visual dan tren performa antara Veda Ega Pratama melawan dua rival terdekatnya dari Asia, yaitu Zen Mitani (Jepang) dan Hakim Danish (Malaysia), berdasarkan data Tes Jerez Day 2."
+      ],
+      "summary_by": "auto",
+      "image": "https://iwanbanaran.com/api/og/moto3-jerez-day-2-veda-ega-rookie-raja-asia-adaptasinya-ngeri-cakkkk",
+      "brands": [
+        "Honda"
       ],
       "categories": [
         "Racing & Motorsport"
