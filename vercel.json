@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
   "installCommand": "echo 'no install step'",
-  "buildCommand": "echo PWD=$(pwd); ls -la; echo --- docs:; ls -la docs || echo NO_DOCS_DIR; mkdir -p public; cp -r docs/. public/ || echo COPY_FAILED; echo --- public:; ls -la public",
+  "buildCommand": "rm -rf public && mkdir -p public && cp -r docs/. public/",
   "outputDirectory": "public",
   "headers": [
     {
