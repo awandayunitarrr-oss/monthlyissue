@@ -68,6 +68,10 @@ def extractive_points(title: str, text: str, n: int = 4) -> list[str]:
         score += 1.2 if i == 0 else 0.5 if i == 1 else 0
         if s.endswith("?.") or "?" in s:
             score -= 1.5
+        if re.search(r"[“”\"]", s):  # kutipan sering terpotong di tengah
+            score -= 1.0
+        if title_w and len(title_w & set(ws)) / len(title_w | set(ws)) > 0.6:
+            continue  # kalimat yang hanya mengulang judul
         scored.append((score, i, s, set(ws)))
     picked: list[tuple[int, str, set]] = []
     for score, i, s, ws in sorted(scored, reverse=True):
