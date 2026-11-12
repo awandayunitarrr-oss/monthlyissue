@@ -3,7 +3,7 @@
   "label": "16 – 31 Mei 2026",
   "start": "2026-05-16",
   "end": "2026-05-31",
-  "generated_at": "2026-11-12T11:20:12+07:00",
+  "generated_at": "2026-11-12T11:36:05+07:00",
   "sources": {
     "Iwan Banaran": {
       "count": 0,
@@ -14,7 +14,7 @@
       "method": null
     },
     "TMC Blog": {
-      "count": 68,
+      "count": 64,
       "method": "feed"
     }
   },

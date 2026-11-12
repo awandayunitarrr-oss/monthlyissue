@@ -3,18 +3,18 @@
   "label": "1 – 15 Mei 2026",
   "start": "2026-05-01",
   "end": "2026-05-15",
-  "generated_at": "2026-11-12T11:20:17+07:00",
+  "generated_at": "2026-11-12T11:36:05+07:00",
   "sources": {
     "Iwan Banaran": {
-      "count": 0,
-      "method": null
+      "count": 5,
+      "method": "feed+sitemap"
     },
     "Pertamax7": {
       "count": 0,
       "method": null
     },
     "TMC Blog": {
-      "count": 63,
+      "count": 62,
       "method": "feed"
     }
   },

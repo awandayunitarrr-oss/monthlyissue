@@ -3,11 +3,11 @@
   "label": "1 – 15 November 2026",
   "start": "2026-11-01",
   "end": "2026-11-15",
-  "generated_at": "2026-11-12T11:19:12+07:00",
+  "generated_at": "2026-11-12T11:36:05+07:00",
   "sources": {
     "Iwan Banaran": {
       "count": 38,
-      "method": "feed"
+      "method": "feed+sitemap"
     },
     "Pertamax7": {
       "count": 0,
@@ -1304,8 +1304,7 @@
       "categories": [
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "096f5face9e1",
@@ -1515,8 +1514,7 @@
         "Harga & Promo",
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "9177344ea0fc",
