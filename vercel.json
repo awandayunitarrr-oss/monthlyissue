@@ -2,12 +2,17 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
   "installCommand": "echo 'no install step'",
-  "buildCommand": "rm -rf public && mkdir -p public && cp -r docs/. public/ && ls -la public public/data | head -20",
+  "buildCommand": "echo PWD=$(pwd); ls -la; echo --- docs:; ls -la docs || echo NO_DOCS_DIR; mkdir -p public; cp -r docs/. public/ || echo COPY_FAILED; echo --- public:; ls -la public",
   "outputDirectory": "public",
   "headers": [
     {
       "source": "/data/(.*)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
     }
   ]
 }
