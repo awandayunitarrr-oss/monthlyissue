@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import argparse
 import calendar
+from collections import Counter
 import hashlib
 import json
 import re
@@ -449,6 +450,7 @@ def run(period: Period, article_fetch: bool = True, pool: tuple[list[Article], d
         merged.append(d)
     merged.extend(existing.values())  # artikel lama yang tak muncul lagi tetap disimpan
     merged.sort(key=lambda x: x["published"], reverse=True)
+    auto_highlight(merged, cfg)
 
     payload = {
         "period": period.key,
@@ -464,6 +466,55 @@ def run(period: Period, article_fetch: bool = True, pool: tuple[list[Article], d
     rebuild_index()
     print(f"✓ {len(merged)} artikel → {out_path.relative_to(ROOT)}")
     return payload
+
+
+def highlight_score(d: dict, hl: dict) -> float:
+    cats, brands = d.get("categories", []), d.get("brands", [])
+    cw, bw = hl["category_weights"], hl["brand_weights"]
+    # kategori pertama = topik utama artikel, bobotnya penuh; sisanya setengah
+    score = sum(cw.get(c, 0) * (1 if i == 0 else 0.5) for i, c in enumerate(cats))
+    score += max((bw.get(b, 0) for b in brands), default=0)
+    title = d.get("title", "").lower()
+    text = title + " " + " ".join(d.get("points") or [d.get("summary", "")]).lower()
+    for kw, w in hl["keywords"].items():
+        if re.search(r"(?<![a-z0-9])" + re.escape(kw) + r"(?![a-z0-9])", text):
+            score += w
+    return score
+
+
+def auto_highlight(articles: list[dict], cfg: dict) -> None:
+    """Tandai ★ otomatis issue terpenting per periode. Highlight manual tidak diubah."""
+    hl = cfg.get("highlight")
+    if not hl:
+        return
+    for d in articles:
+        if d.get("highlight_by") == "auto":
+            d.pop("highlight", None)
+            d.pop("highlight_by", None)
+    manual = sum(1 for d in articles if d.get("highlight"))
+    cands = [(highlight_score(d, hl), d) for d in articles if "highlight" not in d]
+    cands = [c for c in cands if c[0] >= hl.get("min_score", 4)]
+    cands.sort(key=lambda c: (-c[0], c[1]["published"]))
+    picked_brands: Counter = Counter()
+    for score, d in cands:
+        if manual >= hl.get("count", 6):
+            break
+        main = (d.get("brands") or ["-"])[0]
+        if picked_brands[main] >= 3:  # jangan sampai satu merek memborong semua highlight
+            continue
+        picked_brands[main] += 1
+        d["highlight"], d["highlight_by"] = True, "auto"
+        manual += 1
+
+
+def rehighlight_all() -> None:
+    cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+    for p in sorted(PERIOD_DIR.glob("*.json")):
+        d = json.loads(p.read_text(encoding="utf-8"))
+        auto_highlight(d["articles"], cfg)
+        p.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(p.name, sum(1 for a in d["articles"] if a.get("highlight")), "highlight")
+    rebuild_index()
 
 
 def run_range(first: str, last: str, article_fetch: bool = True) -> None:
@@ -512,8 +563,12 @@ def main() -> None:
                                      "(default: periode hari ini, WIB)")
     ap.add_argument("--no-article-fetch", action="store_true", help="jangan buka halaman artikel satu per satu")
     ap.add_argument("--no-ai", action="store_true", help="jangan pakai ringkasan AI walau ANTHROPIC_API_KEY tersedia")
+    ap.add_argument("--rehighlight", action="store_true", help="hitung ulang ★ highlight otomatis semua periode (tanpa scraping)")
     ap.add_argument("--reindex", action="store_true", help="hanya bangun ulang docs/data/index.json")
     args = ap.parse_args()
+    if args.rehighlight:
+        rehighlight_all()
+        return
     if args.reindex:
         rebuild_index()
         return

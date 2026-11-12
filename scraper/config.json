@@ -3,76 +3,460 @@
     {
       "name": "Iwan Banaran",
       "base": "https://iwanbanaran.com/",
-      "feeds": ["https://iwanbanaran.com/feed", "https://iwanbanaran.com/rss", "https://iwanbanaran.com/feed/news"],
-      "sitemaps": ["https://iwanbanaran.com/sitemap.xml", "https://iwanbanaran.com/sitemap_index.xml"],
-      "listing_pages": ["https://iwanbanaran.com/", "https://iwanbanaran.com/news", "https://iwanbanaran.com/news?page=2", "https://iwanbanaran.com/news?page=3"],
+      "feeds": [
+        "https://iwanbanaran.com/feed",
+        "https://iwanbanaran.com/rss",
+        "https://iwanbanaran.com/feed/news"
+      ],
+      "sitemaps": [
+        "https://iwanbanaran.com/sitemap.xml",
+        "https://iwanbanaran.com/sitemap_index.xml"
+      ],
+      "listing_pages": [
+        "https://iwanbanaran.com/",
+        "https://iwanbanaran.com/news",
+        "https://iwanbanaran.com/news?page=2",
+        "https://iwanbanaran.com/news?page=3"
+      ],
       "article_url_regex": "/news/[a-z0-9-]{8,}"
     },
     {
       "name": "Pertamax7",
       "base": "https://www.pertamax7.com/",
-      "feeds": ["https://www.pertamax7.com/feed/", "https://pertamax7.com/feed/"],
-      "sitemaps": ["https://www.pertamax7.com/sitemap_index.xml", "https://www.pertamax7.com/wp-sitemap.xml", "https://www.pertamax7.com/sitemap.xml"],
-      "listing_pages": ["https://www.pertamax7.com/", "https://www.pertamax7.com/page/2/", "https://www.pertamax7.com/page/3/"],
+      "feeds": [
+        "https://www.pertamax7.com/feed/",
+        "https://pertamax7.com/feed/"
+      ],
+      "sitemaps": [
+        "https://www.pertamax7.com/sitemap_index.xml",
+        "https://www.pertamax7.com/wp-sitemap.xml",
+        "https://www.pertamax7.com/sitemap.xml"
+      ],
+      "listing_pages": [
+        "https://www.pertamax7.com/",
+        "https://www.pertamax7.com/page/2/",
+        "https://www.pertamax7.com/page/3/"
+      ],
       "article_url_regex": "/\\d{4}/\\d{2}/"
     },
     {
       "name": "TMC Blog",
       "base": "https://www.tmcblog.com/",
-      "feeds": ["https://www.tmcblog.com/feed/", "https://tmcblog.com/feed/"],
-      "sitemaps": ["https://www.tmcblog.com/sitemap_index.xml", "https://www.tmcblog.com/wp-sitemap.xml", "https://www.tmcblog.com/sitemap.xml"],
-      "listing_pages": ["https://www.tmcblog.com/", "https://www.tmcblog.com/page/2/", "https://www.tmcblog.com/page/3/"],
+      "feeds": [
+        "https://www.tmcblog.com/feed/",
+        "https://tmcblog.com/feed/"
+      ],
+      "sitemaps": [
+        "https://www.tmcblog.com/sitemap_index.xml",
+        "https://www.tmcblog.com/wp-sitemap.xml",
+        "https://www.tmcblog.com/sitemap.xml"
+      ],
+      "listing_pages": [
+        "https://www.tmcblog.com/",
+        "https://www.tmcblog.com/page/2/",
+        "https://www.tmcblog.com/page/3/"
+      ],
       "article_url_regex": "/\\d{4}/\\d{2}/\\d{2}/"
     }
   ],
-
   "brands": {
-    "Honda": ["honda", "ahm", "astra honda", "vario", "beat", "pcx", "adv", "scoopy", "cbr", "crf", "genio", "stylo", "supra", "revo", "sonic", "cb150", "rebel", "forza", "icon e", "cuv e"],
-    "Yamaha": ["yamaha", "ymki", "nmax", "aerox", "xmax", "lexi", "mio", "fazzio", "grand filano", "gear 125", "r15", "r25", "mt-15", "mt-25", "mt-10", "xsr", "wr155", "vixion", "jupiter", "tmax"],
-    "Suzuki": ["suzuki", "gsx", "satria", "nex", "address", "burgman", "v-strom", "hayabusa", "avenis"],
-    "Kawasaki": ["kawasaki", "kmi", "ninja", "klx", "w175", "z900", "z650", "versys", "eliminator"],
-    "Vespa / Piaggio": ["vespa", "piaggio", "aprilia", "moto guzzi", "gilera"],
-    "TVS": ["tvs", "ntorq", "apache", "callisto", "ronin"],
-    "KTM / Husqvarna": ["ktm", "husqvarna", "gasgas", "duke", "rc 390", "rc390"],
-    "BMW Motorrad": ["bmw motorrad", "bmw", "gs 1300", "r 1300"],
-    "Ducati": ["ducati", "panigale", "multistrada", "scrambler ducati"],
-    "Harley-Davidson": ["harley", "harley-davidson", "x440", "x350"],
-    "Royal Enfield": ["royal enfield", "classic 350", "himalayan", "hunter 350", "interceptor"],
-    "Triumph": ["triumph"],
-    "Benelli": ["benelli"],
-    "CFMoto": ["cfmoto", "cf moto"],
-    "QJ Motor": ["qj motor", "qjmotor"],
-    "Kymco / SYM": ["kymco", "sym"],
-    "Aveta": ["aveta"],
-    "Alva": ["alva", "alva one", "cervo"],
-    "Polytron": ["polytron", "fox-r", "fox r"],
-    "United E-Motor": ["united e-motor", "united e motor"],
-    "Gesits": ["gesits"],
-    "Selis": ["selis"],
-    "Viar": ["viar"],
-    "Volta": ["volta"],
-    "Smoot": ["smoot"],
-    "Yadea": ["yadea"],
-    "Maka": ["maka cavalry", "maka motors"],
-    "Indomobil eMotor": ["indomobil emotor", "tangkas"],
-    "VinFast / NIU / Segway": ["vinfast", "niu", "segway"]
+    "Honda": [
+      "honda",
+      "ahm",
+      "astra honda",
+      "vario",
+      "beat",
+      "pcx",
+      "adv",
+      "scoopy",
+      "cbr",
+      "crf",
+      "genio",
+      "stylo",
+      "supra",
+      "revo",
+      "sonic",
+      "cb150",
+      "rebel",
+      "forza",
+      "icon e",
+      "cuv e"
+    ],
+    "Yamaha": [
+      "yamaha",
+      "ymki",
+      "nmax",
+      "aerox",
+      "xmax",
+      "lexi",
+      "mio",
+      "fazzio",
+      "grand filano",
+      "gear 125",
+      "r15",
+      "r25",
+      "mt-15",
+      "mt-25",
+      "mt-10",
+      "xsr",
+      "wr155",
+      "vixion",
+      "jupiter",
+      "tmax"
+    ],
+    "Suzuki": [
+      "suzuki",
+      "gsx",
+      "satria",
+      "nex",
+      "address",
+      "burgman",
+      "v-strom",
+      "hayabusa",
+      "avenis"
+    ],
+    "Kawasaki": [
+      "kawasaki",
+      "kmi",
+      "ninja",
+      "klx",
+      "w175",
+      "z900",
+      "z650",
+      "versys",
+      "eliminator"
+    ],
+    "Vespa / Piaggio": [
+      "vespa",
+      "piaggio",
+      "aprilia",
+      "moto guzzi",
+      "gilera"
+    ],
+    "TVS": [
+      "tvs",
+      "ntorq",
+      "apache",
+      "callisto",
+      "ronin"
+    ],
+    "KTM / Husqvarna": [
+      "ktm",
+      "husqvarna",
+      "gasgas",
+      "duke",
+      "rc 390",
+      "rc390"
+    ],
+    "BMW Motorrad": [
+      "bmw motorrad",
+      "bmw",
+      "gs 1300",
+      "r 1300"
+    ],
+    "Ducati": [
+      "ducati",
+      "panigale",
+      "multistrada",
+      "scrambler ducati"
+    ],
+    "Harley-Davidson": [
+      "harley",
+      "harley-davidson",
+      "x440",
+      "x350"
+    ],
+    "Royal Enfield": [
+      "royal enfield",
+      "classic 350",
+      "himalayan",
+      "hunter 350",
+      "interceptor"
+    ],
+    "Triumph": [
+      "triumph"
+    ],
+    "Benelli": [
+      "benelli"
+    ],
+    "CFMoto": [
+      "cfmoto",
+      "cf moto"
+    ],
+    "QJ Motor": [
+      "qj motor",
+      "qjmotor"
+    ],
+    "Kymco / SYM": [
+      "kymco",
+      "sym"
+    ],
+    "Aveta": [
+      "aveta"
+    ],
+    "Alva": [
+      "alva",
+      "alva one",
+      "cervo"
+    ],
+    "Polytron": [
+      "polytron",
+      "fox-r",
+      "fox r"
+    ],
+    "United E-Motor": [
+      "united e-motor",
+      "united e motor"
+    ],
+    "Gesits": [
+      "gesits"
+    ],
+    "Selis": [
+      "selis"
+    ],
+    "Viar": [
+      "viar"
+    ],
+    "Volta": [
+      "volta"
+    ],
+    "Smoot": [
+      "smoot"
+    ],
+    "Yadea": [
+      "yadea"
+    ],
+    "Maka": [
+      "maka cavalry",
+      "maka motors"
+    ],
+    "Indomobil eMotor": [
+      "indomobil emotor",
+      "tangkas"
+    ],
+    "VinFast / NIU / Segway": [
+      "vinfast",
+      "niu",
+      "segway"
+    ]
   },
-
   "categories": {
-    "Peluncuran Produk": ["rilis", "resmi", "launching", "meluncur", "diluncurkan", "debut", "hadir", "world premiere", "dirilis", "unveil"],
-    "Spy / Rumor": ["terawangan", "spyshot", "spy shot", "bocoran", "paten", "rumor", "kode", "teaser", "tertangkap kamera", "isu", "prediksi", "kabarnya", "uji jalan"],
-    "Motor Listrik": ["listrik", "ev", "baterai", "battery", "elektrik", "electric", "konversi", "spklu", "swap", "swapping"],
-    "Regulasi & Kebijakan": ["subsidi", "insentif", "pajak", "pemerintah", "regulasi", "aturan", "kebijakan", "tilang", "etle", "sim", "stnk", "bbm", "pertalite", "kemenperin", "polri", "korlantas", "opsen", "ppn"],
-    "Penjualan & Pasar": ["penjualan", "aisi", "market share", "pangsa pasar", "unit terjual", "terlaris", "wholesales", "distribusi", "ekspor", "data penjualan"],
-    "Harga & Promo": ["harga", "dibanderol", "banderol", "promo", "diskon", "cashback", "otr", "kredit", "dp", "cicilan"],
-    "Racing & Motorsport": ["motogp", "wsbk", "worldsbk", "moto2", "moto3", "arrc", "balap", "racing", "sirkuit", "mandalika", "podium", "pembalap", "oneprix", "drag"],
-    "Event & Komunitas": ["pameran", "iims", "giias", "jakarta fair", "touring", "komunitas", "event", "festival", "kontes", "modifikasi", "jamnas"],
-    "Teknologi & Fitur": ["fitur", "teknologi", "abs", "traction control", "tcs", "quickshifter", "keyless", "smart key", "tft", "konektivitas", "roadsync", "y-connect", "esaf", "esp+", "hybrid"],
-    "Recall & Kualitas": ["recall", "penarikan", "kampanye servis", "cacat", "keluhan", "rangka keropos", "masalah", "garansi"],
-    "Aftersales & Servis": ["servis", "bengkel", "suku cadang", "sparepart", "oli", "aki", "ban", "perawatan", "aftersales"]
+    "Peluncuran Produk": [
+      "rilis",
+      "resmi",
+      "launching",
+      "meluncur",
+      "diluncurkan",
+      "debut",
+      "hadir",
+      "world premiere",
+      "dirilis",
+      "unveil"
+    ],
+    "Spy / Rumor": [
+      "terawangan",
+      "spyshot",
+      "spy shot",
+      "bocoran",
+      "paten",
+      "rumor",
+      "kode",
+      "teaser",
+      "tertangkap kamera",
+      "isu",
+      "prediksi",
+      "kabarnya",
+      "uji jalan"
+    ],
+    "Motor Listrik": [
+      "listrik",
+      "ev",
+      "baterai",
+      "battery",
+      "elektrik",
+      "electric",
+      "konversi",
+      "spklu",
+      "swap",
+      "swapping"
+    ],
+    "Regulasi & Kebijakan": [
+      "subsidi",
+      "insentif",
+      "pajak",
+      "pemerintah",
+      "regulasi",
+      "aturan",
+      "kebijakan",
+      "tilang",
+      "etle",
+      "sim",
+      "stnk",
+      "bbm",
+      "pertalite",
+      "kemenperin",
+      "polri",
+      "korlantas",
+      "opsen",
+      "ppn"
+    ],
+    "Penjualan & Pasar": [
+      "penjualan",
+      "aisi",
+      "market share",
+      "pangsa pasar",
+      "unit terjual",
+      "terlaris",
+      "wholesales",
+      "distribusi",
+      "ekspor",
+      "data penjualan"
+    ],
+    "Harga & Promo": [
+      "harga",
+      "dibanderol",
+      "banderol",
+      "promo",
+      "diskon",
+      "cashback",
+      "otr",
+      "kredit",
+      "dp",
+      "cicilan"
+    ],
+    "Racing & Motorsport": [
+      "motogp",
+      "wsbk",
+      "worldsbk",
+      "moto2",
+      "moto3",
+      "arrc",
+      "balap",
+      "racing",
+      "sirkuit",
+      "mandalika",
+      "podium",
+      "pembalap",
+      "oneprix",
+      "drag"
+    ],
+    "Event & Komunitas": [
+      "pameran",
+      "iims",
+      "giias",
+      "jakarta fair",
+      "touring",
+      "komunitas",
+      "event",
+      "festival",
+      "kontes",
+      "modifikasi",
+      "jamnas"
+    ],
+    "Teknologi & Fitur": [
+      "fitur",
+      "teknologi",
+      "abs",
+      "traction control",
+      "tcs",
+      "quickshifter",
+      "keyless",
+      "smart key",
+      "tft",
+      "konektivitas",
+      "roadsync",
+      "y-connect",
+      "esaf",
+      "esp+",
+      "hybrid"
+    ],
+    "Recall & Kualitas": [
+      "recall",
+      "penarikan",
+      "kampanye servis",
+      "cacat",
+      "keluhan",
+      "rangka keropos",
+      "masalah",
+      "garansi"
+    ],
+    "Aftersales & Servis": [
+      "servis",
+      "bengkel",
+      "suku cadang",
+      "sparepart",
+      "oli",
+      "aki",
+      "ban",
+      "perawatan",
+      "aftersales"
+    ]
   },
-
-  "motorcycle_keywords": ["motor", "skutik", "matic", "skuter", "sport", "bebek", "moge", "cc", "bikers", "naked", "adventure", "trail"],
-  "car_keywords": ["mobil", "suv", "mpv", "sedan", "hatchback", "lcgc"],
-  "exclude_title_keywords": []
+  "motorcycle_keywords": [
+    "motor",
+    "skutik",
+    "matic",
+    "skuter",
+    "sport",
+    "bebek",
+    "moge",
+    "cc",
+    "bikers",
+    "naked",
+    "adventure",
+    "trail"
+  ],
+  "car_keywords": [
+    "mobil",
+    "suv",
+    "mpv",
+    "sedan",
+    "hatchback",
+    "lcgc"
+  ],
+  "exclude_title_keywords": [],
+  "highlight": {
+    "count": 6,
+    "min_score": 4,
+    "category_weights": {
+      "Peluncuran Produk": 3,
+      "Spy / Rumor": 3,
+      "Regulasi & Kebijakan": 3,
+      "Penjualan & Pasar": 3,
+      "Motor Listrik": 2,
+      "Recall & Kualitas": 2,
+      "Harga & Promo": 1,
+      "Teknologi & Fitur": 1,
+      "Aftersales & Servis": 0,
+      "Event & Komunitas": -1,
+      "Racing & Motorsport": -5,
+      "Lainnya": -1
+    },
+    "brand_weights": {
+      "Honda": 3,
+      "Yamaha": 2,
+      "Suzuki": 1,
+      "Kawasaki": 1,
+      "TVS": 1,
+      "Vespa / Piaggio": 1
+    },
+    "keywords": {
+      "indonesia": 2,
+      "ahm": 2,
+      "tanah air": 2,
+      "aisi": 2,
+      "all new": 1,
+      "terbaru": 1,
+      "resmi": 1,
+      "subsidi": 2,
+      "vario": 1,
+      "beat": 1,
+      "pcx": 1,
+      "nmax": 1,
+      "aerox": 1,
+      "scoopy": 1,
+      "skutik": 1,
+      "matic": 1
+    }
+  }
 }

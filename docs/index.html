@@ -96,6 +96,7 @@ select:focus,input:focus,button:focus-visible{outline:2px solid var(--accent);ou
 @media (max-width:420px){.grid{grid-template-columns:1fr}}
 .issue{display:flex;flex-direction:column;overflow:hidden}
 .issue .img{aspect-ratio:16/8;background:var(--surface-2) center/cover no-repeat;display:grid;place-items:center;color:var(--muted);font-size:12px}
+.issue.is-hl{border-color:var(--s3);box-shadow:0 0 0 1px var(--s3)}
 .issue .body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:8px;flex:1}
 .meta{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:12px;color:var(--muted)}
 .src{font-weight:600;color:var(--text)}
@@ -154,6 +155,7 @@ footer{margin-top:30px;font-size:12px;color:var(--muted);text-align:center}
     <div class="chips" id="src-chips"></div>
     <button class="chip" id="hl" aria-pressed="false">★ Highlight</button>
     <select id="sort" aria-label="Urutkan">
+      <option value="hl">Highlight dulu</option>
       <option value="new">Terbaru</option>
       <option value="old">Terlama</option>
       <option value="src">Sumber</option>
@@ -170,7 +172,7 @@ footer{margin-top:30px;font-size:12px;color:var(--muted);text-align:center}
 const SRC_COLORS = {"Iwan Banaran":"var(--s1)","Pertamax7":"var(--s2)","TMC Blog":"var(--s3)"};
 const SOURCES = Object.keys(SRC_COLORS);
 const MONTHS = ["Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"];
-const state = { index:null, data:null, cache:{}, q:"", srcs:new Set(), brand:null, cat:null, hl:false, sort:"new" };
+const state = { index:null, data:null, cache:{}, q:"", srcs:new Set(), brand:null, cat:null, hl:false, sort:"hl" };
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const store = { get(k){ try{return localStorage.getItem(k)}catch(e){return null} }, set(k,v){ try{localStorage.setItem(k,v)}catch(e){} } };
@@ -255,7 +257,8 @@ function filtered(ignore){
     (!hl || x.highlight) &&
     (!q || (x.title + " " + x.summary + " " + (x.points || []).join(" ") + " " + x.brands.join(" ")).toLowerCase().includes(q)));
   const s = state.sort;
-  a.sort((x,y) => s === "old" ? x.published.localeCompare(y.published)
+  a.sort((x,y) => s === "hl" ? (!!y.highlight - !!x.highlight) || y.published.localeCompare(x.published)
+              : s === "old" ? x.published.localeCompare(y.published)
               : s === "src" ? x.source.localeCompare(y.source) || y.published.localeCompare(x.published)
               : y.published.localeCompare(x.published));
   return a;
@@ -275,7 +278,7 @@ function render(){
   const topB = count(items, x => x.brands)[0], topC = count(items, x => x.categories)[0];
   const hlN = items.filter(x => x.highlight).length;
   $("#kpis").innerHTML = `
-    <div class="card kpi"><div class="k">Total issue</div><div class="v">${items.length}</div><div class="d">${hlN} highlight</div></div>
+    <div class="card kpi"><div class="k">Total issue</div><div class="v">${items.length}</div><div class="d">${hlN} ★ highlight</div></div>
     ${SOURCES.map(s => `<div class="card kpi"><div class="k"><span class="dot" style="background:${SRC_COLORS[s]}"></span>${esc(s)}</div><div class="v">${bySrc[s]}</div><div class="d">${items.length ? Math.round(bySrc[s]/items.length*100) : 0}% dari total</div></div>`).join("")}
     <div class="card kpi"><div class="k">Merek paling ramai</div><div class="v small">${esc(topB?.[0] || "-")}</div><div class="d">${topB ? topB[1] + " artikel" : ""}</div></div>
     <div class="card kpi"><div class="k">Topik paling ramai</div><div class="v small">${esc(topC?.[0] || "-")}</div><div class="d">${topC ? topC[1] + " artikel" : ""}</div></div>`;
@@ -314,7 +317,7 @@ function render(){
 }
 
 function card(x){
-  return `<article class="card issue" data-id="${esc(x.id)}">
+  return `<article class="card issue${x.highlight ? " is-hl" : ""}" data-id="${esc(x.id)}">
     ${x.image ? `<div class="img" style="background-image:url('${esc(x.image)}')"></div>` : ""}
     <div class="body">
       <div class="meta"><span class="src"><span class="dot" style="background:${SRC_COLORS[x.source] || "var(--muted)"}"></span>${esc(x.source)}</span><span>${fmtDate(x.published)}</span>${x.highlight ? `<span class="star">★ Highlight</span>` : ""}</div>
