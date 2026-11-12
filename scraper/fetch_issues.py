@@ -659,6 +659,13 @@ def probe(urls: list[str]) -> None:
         print(f"   <loc>={t.count('<loc>')} <item>={t.count('<item')} lastmod={t.count('<lastmod>')} links={len(links)}")
         print("   head:", re.sub(r"\s+", " ", t[:700]))
         locs = re.findall(r"<loc>([^<]+)</loc>", t)
+        print("   lastmod per bulan:", sorted(Counter(m[:7] for m in re.findall(r"<lastmod>([^<]+)</lastmod>", t)).items()))
+        print("   tanggal di halaman:", re.findall(r'(?:published_time|datePublished|dateModified)"?[^>]{0,40}?(\d{4}-\d{2}-\d{2}T[\d:]+[^"<]{0,8})', t)[:4])
+        for needle in ("terawangan-new-vario-160-terbaru-2026", "motor-listrik-akan-dapat-subsidi-lagi"):
+            hit = [l for l in locs if needle in l]
+            if hit:
+                i = t.find(hit[0])
+                print("   ditemukan:", re.sub(r"\s+", " ", t[i:i + 160]))
         print("   loc sample:", locs[:6], "...", locs[-3:])
         news = [l for l in links if "/news/" in l or re.search(r"/\d{4}/\d{2}/", l)]
         print("   article-like links:", len(news), news[:5])
