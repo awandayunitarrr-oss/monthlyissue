@@ -47,6 +47,7 @@ HEADERS = {
     "Accept-Language": "id-ID,id;q=0.9,en;q=0.8",
 }
 
+MAX_SITEMAP_URLS = 150
 MAX_FEED_PAGES = 15  # dinaikkan otomatis saat backfill rentang panjang
 
 MONTHS_ID = [
@@ -149,6 +150,8 @@ def get(url: str, retries: int = 3, timeout: int = 25) -> requests.Response | No
             if r.status_code == 200:
                 return r
             print(f"  ! {url}: HTTP {r.status_code}", file=sys.stderr)
+            if r.status_code == 503:
+                time.sleep(5 * (i + 1))
             if r.status_code == 429:
                 time.sleep(min(int(r.headers.get("retry-after", "0") or 0), 60) or 10 * (i + 1))
             if r.status_code in (520, 521, 522, 523):  # server sumber mati → tidak usah diulang
@@ -254,13 +257,13 @@ def collect_from_feed(src: dict, period: Period) -> list[Article]:
     return out
 
 
-def collect_from_sitemap(src: dict, period: Period) -> list[Article]:
+def collect_from_sitemap(src: dict, period: Period, skip: set[str] | None = None) -> list[Article]:
     """Fallback: baca sitemap, ambil URL dengan lastmod di sekitar periode."""
     urls: list[tuple[str, datetime | None]] = []
     lo = datetime.combine(period.start, datetime.min.time(), WIB) - timedelta(days=1)
     seen_maps: set[str] = set()
     queue = list(src.get("sitemaps", []))
-    while queue and len(seen_maps) < 30:
+    while queue and len(seen_maps) < 80:
         sm = queue.pop(0)
         if sm in seen_maps:
             continue
@@ -280,7 +283,12 @@ def collect_from_sitemap(src: dict, period: Period) -> list[Article]:
             if loc and (lm is None or lm >= lo):
                 urls.append((loc.text.strip(), lm))
     arts = []
-    for url, _ in urls[: src.get("max_sitemap_urls", 150)]:
+    rx = re.compile(src.get("article_url_regex", "."))
+    skip = skip or set()
+    urls = [(u, lm) for u, lm in dict(urls).items() if rx.search(urlparse(u).path) and u not in skip]
+    urls.sort(key=lambda x: x[1] or datetime.min.replace(tzinfo=WIB), reverse=True)
+    for url, _ in urls[: src.get("max_sitemap_urls", MAX_SITEMAP_URLS)]:
+        time.sleep(0.25)
         a = fetch_article(url, src["name"])
         if a:
             arts.append(a)
@@ -313,7 +321,7 @@ def fetch_article(url: str, source: str) -> Article | None:
     r = get(url)
     if not r:
         return None
-    soup = BeautifulSoup(r.text, "lxml")
+    soup = BeautifulSoup(r.content, "lxml")  # bytes → encoding dideteksi dari <meta charset>
 
     def meta(*names):
         for n in names:
@@ -412,7 +420,7 @@ def collect_from_listing(src: dict, span, skip: set[str]) -> list[Article]:
                 links.append(href)
         if not links:
             stale_pages += 1
-            if stale_pages >= 3 or n == 1:
+            if stale_pages >= 3:
                 break
             continue
         stale_pages = 0
@@ -454,7 +462,7 @@ def collect(span, cfg: dict, deep: bool = False, only: set[str] | None = None) -
                 elif method == "listing":
                     got = collect_from_listing(src, span, set(arts))
                 elif method == "sitemap":
-                    got = collect_from_sitemap(src, span)
+                    got = collect_from_sitemap(src, span, set(arts))
                 else:
                     got = collect_from_homepage(src, span)
             except Exception as e:  # noqa: BLE001 - lanjut ke metode berikutnya
@@ -591,7 +599,7 @@ def rehighlight_all() -> None:
 
 def run_range(first: str, last: str, article_fetch: bool = True, only: set[str] | None = None) -> None:
     """Backfill beberapa periode sekaligus: feed ditelusuri satu kali, lalu dibagi per periode."""
-    global MAX_FEED_PAGES
+    global MAX_FEED_PAGES, MAX_SITEMAP_URLS
     p, end = Period.parse(first), Period.parse(last)
     today = Period.for_day(datetime.now(WIB).date())
     if end.start > today.start:
@@ -603,7 +611,7 @@ def run_range(first: str, last: str, article_fetch: bool = True, only: set[str] 
     if not periods:
         raise SystemExit("Rentang periode kosong")
     print(f"Backfill {periods[0].key} .. {periods[-1].key} ({len(periods)} periode)")
-    MAX_FEED_PAGES = 600
+    MAX_FEED_PAGES, MAX_SITEMAP_URLS = 600, 3000
 
     class Span:
         start, end = periods[0].start, periods[-1].end
