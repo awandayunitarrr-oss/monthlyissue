@@ -63,8 +63,8 @@ select:focus,input:focus,button:focus-visible{outline:2px solid var(--accent);ou
 .panel{padding:14px 16px}
 .panel h2{font-size:13px;font-weight:600;margin:0 0 10px;display:flex;justify-content:space-between;gap:8px}
 .panel h2 span{color:var(--muted);font-weight:400}
-.c-4{grid-column:span 4}.c-6{grid-column:span 6}.c-8{grid-column:span 8}.c-12{grid-column:span 12}
-@media (max-width:980px){.c-4,.c-6,.c-8{grid-column:span 12}}
+.c-3{grid-column:span 3}.c-4{grid-column:span 4}.c-6{grid-column:span 6}.c-8{grid-column:span 8}.c-12{grid-column:span 12}
+@media (max-width:980px){.c-3,.c-4,.c-6,.c-8{grid-column:span 12}}
 
 .hbars{display:flex;flex-direction:column;gap:6px}
 .hbar{display:grid;grid-template-columns:minmax(90px,140px) 1fr 28px;gap:8px;align-items:center;font-size:12px;cursor:pointer;border-radius:6px;padding:2px 4px;margin:0 -4px;background:none;border:0;text-align:left;width:calc(100% + 8px)}
@@ -188,15 +188,17 @@ header.top select:focus,header.top button:focus-visible{outline-color:#fff}
   <section class="charts">
     <div class="card panel c-4"><h2>Issue per merek <span>klik untuk filter</span></h2><div class="hbars" id="ch-brand"></div></div>
     <div class="card panel c-4"><h2>Issue per kategori <span>klik untuk filter</span></h2><div class="hbars" id="ch-cat"></div></div>
-    <div class="card panel c-4"><h2>Issue per sumber</h2><div class="hbars" id="ch-src"></div></div>
-    <div class="card panel c-8"><h2>Artikel per hari <span id="day-range"></span></h2><div id="ch-day"></div></div>
-    <div class="card panel c-4"><h2>Tren antar periode</h2><div id="ch-trend"></div></div>
+    <div class="card panel c-4"><h2>Issue per negara <span>klik untuk filter</span></h2><div class="hbars" id="ch-country"></div></div>
+    <div class="card panel c-6"><h2>Artikel per hari <span id="day-range"></span></h2><div id="ch-day"></div></div>
+    <div class="card panel c-3"><h2>Issue per sumber</h2><div class="hbars" id="ch-src"></div></div>
+    <div class="card panel c-3"><h2>Tren antar periode</h2><div id="ch-trend"></div></div>
   </section>
 
   <div class="toolbar">
     <input type="search" id="q" placeholder="Cari judul / ringkasan… (mis. Vario, subsidi, NMAX)" aria-label="Cari">
     <div class="chips" id="src-chips"></div>
     <button class="chip" id="hl" aria-pressed="false">★ Highlight</button>
+    <select id="f-country" aria-label="Filter negara"></select>
     <select id="sort" aria-label="Urutkan">
       <option value="hl">Highlight dulu</option>
       <option value="new">Terbaru</option>
@@ -221,11 +223,15 @@ const BRAND_COLORS = {"Honda":"#e4002b","Yamaha":"#1d4ed8","Suzuki":"#0ea5e9","K
   "KTM / Husqvarna":"#f97316","BMW Motorrad":"#3b82f6","Ducati":"#b91c1c","Harley-Davidson":"#c2410c","Royal Enfield":"#a16207","(Umum)":"#64748b"};
 const PALETTE = ["#8b5cf6","#06b6d4","#ec4899","#84cc16","#f43f5e","#14b8a6","#eab308","#6366f1"];
 const hashColor = k => PALETTE[[...k].reduce((h,c) => (h*31 + c.charCodeAt(0)) >>> 0, 7) % PALETTE.length];
+const NO_COUNTRY = "(Tidak spesifik)";
+const COUNTRY_COLORS = {"Indonesia":"#dc2626","Jepang":"#db2777","China":"#d97706","Malaysia":"#2563eb","Thailand":"#7c3aed","India":"#ea580c",
+  "Italia":"#16a34a","Spanyol":"#ca8a04","Eropa":"#4f46e5","Amerika Serikat":"#0891b2","(Tidak spesifik)":"#64748b"};
+const countryColor = k => COUNTRY_COLORS[k] || hashColor(k);
 const catColor = k => CAT_COLORS[k] || hashColor(k);
 const brandColor = k => BRAND_COLORS[k] || hashColor(k);
 const MONTHS_FULL = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
 const MONTHS = ["Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"];
-const state = { index:null, data:null, cache:{}, q:"", srcs:new Set(), brand:null, cat:null, hl:false, sort:"hl" };
+const state = { index:null, data:null, cache:{}, q:"", srcs:new Set(), brand:null, cat:null, country:null, hl:false, sort:"hl" };
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const store = { get(k){ try{return localStorage.getItem(k)}catch(e){return null} }, set(k,v){ try{localStorage.setItem(k,v)}catch(e){} } };
@@ -326,19 +332,20 @@ async function selectPeriod(key){
     state.data = { period:key, label: m ? `${MONTHS_FULL[+m-1]} ${y}` : `Tahun ${y}`, start:first.start, end:last.end,
       generated_at: all.map(d => d.generated_at).sort().pop(), sources:{}, articles: all.flatMap(d => d.articles) };
   }
-  state.brand = state.cat = null;
+  state.brand = state.cat = state.country = null;
   render();
 }
 
 // ---------- filtering ----------
 function filtered(ignore){
-  const { q, srcs, brand, cat, hl } = state;
+  const { q, srcs, brand, cat, country, hl } = state;
   let a = state.data.articles.filter(x =>
     (ignore === "src" || !srcs.size || srcs.has(x.source)) &&
     (ignore === "brand" || !brand || (brand === "(Umum)" ? !x.brands.length : x.brands.includes(brand))) &&
     (ignore === "cat" || !cat || x.categories.includes(cat)) &&
+    (ignore === "country" || !country || (country === NO_COUNTRY ? !(x.countries || []).length : (x.countries || []).includes(country))) &&
     (!hl || x.highlight) &&
-    (!q || (x.title + " " + x.summary + " " + (x.points || []).join(" ") + " " + x.brands.join(" ")).toLowerCase().includes(q)));
+    (!q || (x.title + " " + x.summary + " " + (x.points || []).join(" ") + " " + x.brands.join(" ") + " " + (x.countries || []).join(" ")).toLowerCase().includes(q)));
   const s = state.sort;
   a.sort((x,y) => s === "hl" ? (!!y.highlight - !!x.highlight) || y.published.localeCompare(x.published)
               : s === "old" ? x.published.localeCompare(y.published)
@@ -370,6 +377,12 @@ function render(){
   const brandRows = count(filtered("brand"), x => x.brands.length ? x.brands : ["(Umum)"]).slice(0, 10);
   hbars("#ch-brand", brandRows, state.brand, v => { state.brand = state.brand === v ? null : v; render(); }, brandColor);
   hbars("#ch-cat", count(filtered("cat"), x => x.categories), state.cat, v => { state.cat = state.cat === v ? null : v; render(); }, catColor);
+  const countryAll = count(filtered("country"), x => (x.countries || []).length ? x.countries : [NO_COUNTRY]);
+  hbars("#ch-country", countryAll.slice(0, 10), state.country, v => { state.country = state.country === v ? null : v; render(); }, countryColor);
+  const fc = $("#f-country");
+  fc.innerHTML = `<option value="">Semua negara</option>` + [...countryAll].sort((a,b) => a[0].localeCompare(b[0]))
+    .map(([k,n]) => `<option value="${esc(k)}" ${state.country === k ? "selected" : ""}>${esc(k)} (${n})</option>`).join("");
+  fc.onchange = () => { state.country = fc.value || null; render(); };
   const srcRows = SOURCES.map(s => [s, filtered("src").filter(x => x.source === s).length]);
   hbars("#ch-src", srcRows, null, v => { state.srcs.has(v) ? state.srcs.delete(v) : state.srcs.add(v); render(); }, k => SRC_COLORS[k], state.srcs);
   renderDays(items);
@@ -382,6 +395,7 @@ function render(){
   const af = [];
   if (state.brand) af.push(["brand", "Merek: " + state.brand]);
   if (state.cat) af.push(["cat", "Kategori: " + state.cat]);
+  if (state.country) af.push(["country", "Negara: " + state.country]);
   state.srcs.forEach(s => af.push(["src:" + s, "Sumber: " + s]));
   if (state.q) af.push(["q", `Cari: “${state.q}”`]);
   if (state.hl) af.push(["hl", "★ Highlight"]);
@@ -389,6 +403,7 @@ function render(){
   $("#af").onclick = e => { const k = e.target.dataset.k; if (!k) return;
     if (k === "brand" || k === "all") state.brand = null;
     if (k === "cat" || k === "all") state.cat = null;
+    if (k === "country" || k === "all") state.country = null;
     if (k === "q" || k === "all") { state.q = ""; $("#q").value = ""; }
     if (k === "hl" || k === "all") state.hl = false;
     if (k === "all") state.srcs.clear(); else if (k.startsWith("src:")) state.srcs.delete(k.slice(4));
@@ -410,6 +425,7 @@ function card(x){
         : `<p>${esc(x.summary)}</p>`}
       <div class="tags">
         ${x.brands.map(b => `<span class="tag b" style="--c:${brandColor(b)}" data-brand="${esc(b)}">${esc(b)}</span>`).join("")}
+        ${(x.countries || []).map(c => `<span class="tag" style="--c:${countryColor(c)}" data-country="${esc(c)}" title="Negara">📍 ${esc(c)}</span>`).join("")}
         ${x.categories.map(c => `<span class="tag" style="--c:${catColor(c)}" data-cat="${esc(c)}">${esc(c)}</span>`).join("")}
       </div>
       <div class="foot">${x.points && x.points.length ? "<span></span>" : "<button data-more>Selengkapnya</button>"}<a href="${esc(x.url)}" target="_blank" rel="noopener">Baca sumber ↗</a></div>
@@ -419,6 +435,7 @@ $("#list").addEventListener("click", e => {
   const t = e.target;
   if (t.dataset.brand){ state.brand = t.dataset.brand; render(); }
   else if (t.dataset.cat){ state.cat = t.dataset.cat; render(); }
+  else if (t.dataset.country){ state.country = t.dataset.country; render(); }
   else if (t.hasAttribute("data-more")){ const c = t.closest(".issue"); c.classList.toggle("open"); t.textContent = c.classList.contains("open") ? "Ringkas" : "Selengkapnya"; }
 });
 
@@ -478,9 +495,9 @@ function bindTips(el){
 
 function exportCSV(){
   const rows = filtered();
-  const head = ["Tanggal","Sumber","Judul","Merek","Kategori","Highlight","Poin penting","URL"];
+  const head = ["Tanggal","Sumber","Judul","Merek","Kategori","Negara","Highlight","Poin penting","URL"];
   const q = v => `"${String(v ?? "").replace(/"/g,'""')}"`;
-  const csv = [head, ...rows.map(x => [fmtDate(x.published), x.source, x.title, x.brands.join("; "), x.categories.join("; "), x.highlight ? "Ya" : "", (x.points && x.points.length ? x.points.map(p => "• " + p).join("\n") : x.summary), x.url])]
+  const csv = [head, ...rows.map(x => [fmtDate(x.published), x.source, x.title, x.brands.join("; "), x.categories.join("; "), (x.countries || []).join("; "), x.highlight ? "Ya" : "", (x.points && x.points.length ? x.points.map(p => "• " + p).join("\n") : x.summary), x.url])]
     .map(r => r.map(q).join(",")).join("\r\n");
   const a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob(["﻿" + csv], { type:"text/csv;charset=utf-8" }));

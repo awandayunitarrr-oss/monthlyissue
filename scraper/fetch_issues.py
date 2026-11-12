@@ -112,6 +112,7 @@ class Article:
     image: str | None = None
     brands: list[str] = field(default_factory=list)
     categories: list[str] = field(default_factory=list)
+    countries: list[str] = field(default_factory=list)
     text: str = ""  # isi lengkap artikel, hanya dipakai untuk meringkas (tidak disimpan)
     points: list[str] = field(default_factory=list)
     summary_by: str = ""  # "ai" | "auto"
@@ -132,6 +133,7 @@ class Article:
             "summary_by": self.summary_by,
             "image": self.image,
             "brands": self.brands,
+            "countries": self.countries,
             "categories": self.categories,
         }
 
@@ -387,6 +389,22 @@ def tag(article: Article, cfg: dict) -> None:
     article.brands = [b for b, s in sorted(brands, key=lambda x: -x[1]) if s > 0][:3]
     cats = [(c, hits(kws, title) * 2 + hits(kws, text)) for c, kws in cfg["categories"].items()]
     article.categories = [c for c, s in sorted(cats, key=lambda x: -x[1]) if s > 0][:3] or ["Lainnya"]
+    article.countries = tag_countries(article.title, f"{article.summary} {article.text[:3000]}", cfg)
+
+
+def tag_countries(title: str, body: str, cfg: dict) -> list[str]:
+    """Negara yang dibahas artikel (lokasi peluncuran/pasar/ajang), maksimal 3, terkuat dulu."""
+    title, text = title.lower(), f"{title} {body}".lower()
+
+    def hits(keywords: list[str], hay: str) -> int:
+        return sum(1 for k in keywords if re.search(r"(?<![a-z0-9])" + re.escape(k.lower()) + r"(?![a-z0-9])", hay))
+
+    scored = [(c, hits(kws, title) * 3 + hits(kws, text)) for c, kws in cfg.get("countries", {}).items()]
+    scored = [(c, s) for c, s in sorted(scored, key=lambda x: -x[1]) if s > 0]
+    # "Eropa" hanya dipakai bila tidak ada negara Eropa yang lebih spesifik
+    if len(scored) > 1:
+        scored = [x for x in scored if x[0] != "Eropa"] or scored
+    return [c for c, _ in scored[:3]]
 
 
 def is_relevant(article: Article, cfg: dict) -> bool:
@@ -551,7 +569,7 @@ def run(period: Period, article_fetch: bool = True, pool: tuple[list[Article], d
                 if k in prev:
                     d[k] = prev[k]
             if prev.get("locked"):
-                d.update({k: prev[k] for k in ("summary", "points", "summary_by", "brands", "categories", "title") if k in prev})
+                d.update({k: prev[k] for k in ("summary", "points", "summary_by", "brands", "categories", "countries", "title") if k in prev})
                 d["locked"] = True
         merged.append(d)
     merged.extend(existing.values())  # artikel lama yang tak muncul lagi tetap disimpan
@@ -617,6 +635,17 @@ def auto_highlight(articles: list[dict], cfg: dict) -> None:
         picked_brands[main] += 1
         d["highlight"], d["highlight_by"] = True, "auto"
         manual += 1
+
+
+def retag_countries_all() -> None:
+    """Isi ulang tag negara semua artikel tersimpan (tanpa scraping), dari judul + ringkasan + poin."""
+    cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+    for p in sorted(PERIOD_DIR.glob("*.json")):
+        d = json.loads(p.read_text(encoding="utf-8"))
+        for a in d["articles"]:
+            a["countries"] = tag_countries(a["title"], a.get("summary", "") + " " + " ".join(a.get("points") or []), cfg)
+        p.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(p.name, sum(1 for a in d["articles"] if a["countries"]), "/", len(d["articles"]), "bertag negara")
 
 
 def rehighlight_all() -> None:
@@ -704,11 +733,15 @@ def main() -> None:
     ap.add_argument("--no-ai", action="store_true", help="jangan pakai ringkasan AI walau ANTHROPIC_API_KEY tersedia")
     ap.add_argument("--sources", help="backfill hanya sumber ini (nama dipisah koma), mis. \"Iwan Banaran\"")
     ap.add_argument("--probe", help="diagnostik: daftar URL dipisah spasi")
+    ap.add_argument("--retag-countries", action="store_true", help="isi ulang tag negara semua periode (tanpa scraping)")
     ap.add_argument("--rehighlight", action="store_true", help="hitung ulang ★ highlight otomatis semua periode (tanpa scraping)")
     ap.add_argument("--reindex", action="store_true", help="hanya bangun ulang docs/data/index.json")
     args = ap.parse_args()
     if args.probe:
         probe(args.probe.split())
+        return
+    if args.retag_countries:
+        retag_countries_all()
         return
     if args.rehighlight:
         rehighlight_all()

@@ -38,6 +38,9 @@
       "categories": [
         "Racing & Motorsport",
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Prancis"
       ]
     },
     {
@@ -61,6 +64,10 @@
       ],
       "categories": [
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Malaysia",
+        "Spanyol"
       ]
     },
     {
@@ -81,7 +88,8 @@
       "brands": [],
       "categories": [
         "Racing & Motorsport"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "5e198f5952a8",
@@ -103,6 +111,9 @@
       ],
       "categories": [
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Malaysia"
       ]
     },
     {
@@ -125,6 +136,9 @@
       ],
       "categories": [
         "Lainnya"
+      ],
+      "countries": [
+        "Malaysia"
       ]
     },
     {
@@ -149,7 +163,8 @@
       "categories": [
         "Racing & Motorsport",
         "Regulasi & Kebijakan"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "b86462768cd5",
@@ -171,7 +186,8 @@
       ],
       "categories": [
         "Racing & Motorsport"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "57ac50a3e28c",
@@ -192,6 +208,9 @@
       "categories": [
         "Racing & Motorsport",
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -216,7 +235,8 @@
       "categories": [
         "Spy / Rumor",
         "Racing & Motorsport"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "b74dbf9b8b9d",
@@ -236,6 +256,9 @@
       "brands": [],
       "categories": [
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Malaysia"
       ]
     },
     {
@@ -259,7 +282,8 @@
       ],
       "categories": [
         "Racing & Motorsport"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "aedb566c5291",
@@ -281,6 +305,9 @@
         "Peluncuran Produk",
         "Motor Listrik",
         "Teknologi & Fitur"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -304,6 +331,11 @@
       "categories": [
         "Peluncuran Produk",
         "Event & Komunitas"
+      ],
+      "countries": [
+        "Indonesia",
+        "Jepang",
+        "India"
       ]
     },
     {
@@ -327,7 +359,8 @@
       "categories": [
         "Racing & Motorsport",
         "Peluncuran Produk"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "78d75c9d38cb",
@@ -351,6 +384,9 @@
         "Racing & Motorsport",
         "Peluncuran Produk",
         "Regulasi & Kebijakan"
+      ],
+      "countries": [
+        "Malaysia"
       ]
     },
     {
@@ -373,6 +409,9 @@
       ],
       "categories": [
         "Penjualan & Pasar"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -395,6 +434,9 @@
       ],
       "categories": [
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Jepang"
       ]
     },
     {
@@ -418,6 +460,9 @@
       "categories": [
         "Regulasi & Kebijakan",
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Spanyol"
       ]
     },
     {
@@ -441,6 +486,10 @@
       "categories": [
         "Peluncuran Produk",
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Malaysia",
+        "Italia"
       ]
     },
     {
@@ -463,6 +512,9 @@
       ],
       "categories": [
         "Spy / Rumor"
+      ],
+      "countries": [
+        "Italia"
       ]
     },
     {
@@ -485,7 +537,8 @@
         "Regulasi & Kebijakan",
         "Racing & Motorsport",
         "Peluncuran Produk"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "b8d2f48367f7",
@@ -508,6 +561,10 @@
       "categories": [
         "Peluncuran Produk",
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Jerman",
+        "Portugal"
       ]
     },
     {
@@ -531,6 +588,9 @@
       "categories": [
         "Racing & Motorsport",
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "China"
       ]
     },
     {
@@ -553,6 +613,9 @@
       ],
       "categories": [
         "Lainnya"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -575,6 +638,10 @@
         "Racing & Motorsport",
         "Peluncuran Produk",
         "Regulasi & Kebijakan"
+      ],
+      "countries": [
+        "Malaysia",
+        "Thailand"
       ]
     },
     {
@@ -598,6 +665,10 @@
       "categories": [
         "Peluncuran Produk",
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Austria",
+        "Italia"
       ]
     },
     {
@@ -621,6 +692,10 @@
       "categories": [
         "Spy / Rumor",
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Malaysia",
+        "Spanyol"
       ]
     },
     {
@@ -642,7 +717,8 @@
       "categories": [
         "Racing & Motorsport",
         "Peluncuran Produk"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "a579757443e7",
@@ -664,7 +740,8 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "448d1ba1e306",
@@ -686,6 +763,11 @@
         "Racing & Motorsport",
         "Peluncuran Produk",
         "Spy / Rumor"
+      ],
+      "countries": [
+        "Malaysia",
+        "Thailand",
+        "Spanyol"
       ]
     },
     {
@@ -708,6 +790,9 @@
       ],
       "categories": [
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Australia"
       ]
     },
     {
@@ -730,6 +815,10 @@
       ],
       "categories": [
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Spanyol",
+        "Prancis"
       ]
     },
     {
@@ -754,6 +843,9 @@
         "Racing & Motorsport",
         "Regulasi & Kebijakan",
         "Teknologi & Fitur"
+      ],
+      "countries": [
+        "Italia"
       ]
     },
     {
@@ -776,6 +868,9 @@
       ],
       "categories": [
         "Lainnya"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -796,7 +891,8 @@
       "brands": [],
       "categories": [
         "Racing & Motorsport"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "6548fec782cf",
@@ -818,6 +914,10 @@
       ],
       "categories": [
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Jepang",
+        "Italia"
       ]
     },
     {
@@ -839,6 +939,10 @@
       "categories": [
         "Peluncuran Produk",
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Thailand",
+        "Qatar"
       ]
     },
     {
@@ -863,6 +967,10 @@
         "Peluncuran Produk",
         "Aftersales & Servis",
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Italia",
+        "Inggris"
       ]
     },
     {
@@ -885,7 +993,8 @@
       ],
       "categories": [
         "Racing & Motorsport"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "9b211fee660b",
@@ -907,6 +1016,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -929,6 +1041,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -951,7 +1066,8 @@
       ],
       "categories": [
         "Racing & Motorsport"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "43148e2ef6da",
@@ -971,6 +1087,10 @@
       "brands": [],
       "categories": [
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Indonesia",
+        "Jepang"
       ]
     },
     {
@@ -995,7 +1115,10 @@
         "Peluncuran Produk"
       ],
       "highlight": true,
-      "highlight_by": "auto"
+      "highlight_by": "auto",
+      "countries": [
+        "Eropa"
+      ]
     },
     {
       "id": "af10b98255c2",
@@ -1017,6 +1140,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -1040,6 +1166,9 @@
       "categories": [
         "Peluncuran Produk",
         "Teknologi & Fitur"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -1063,6 +1192,9 @@
       "categories": [
         "Racing & Motorsport",
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -1086,6 +1218,9 @@
       "categories": [
         "Peluncuran Produk",
         "Teknologi & Fitur"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -1110,7 +1245,10 @@
         "Peluncuran Produk"
       ],
       "highlight": true,
-      "highlight_by": "auto"
+      "highlight_by": "auto",
+      "countries": [
+        "Indonesia"
+      ]
     },
     {
       "id": "5b27f19ee083",
@@ -1133,6 +1271,10 @@
       "categories": [
         "Racing & Motorsport",
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Spanyol",
+        "Portugal"
       ]
     },
     {
@@ -1156,6 +1298,9 @@
       "categories": [
         "Peluncuran Produk",
         "Teknologi & Fitur"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -1178,7 +1323,8 @@
         "Racing & Motorsport",
         "Regulasi & Kebijakan",
         "Aftersales & Servis"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "090a3deb8ab7",
@@ -1200,6 +1346,10 @@
       ],
       "categories": [
         "Lainnya"
+      ],
+      "countries": [
+        "Amerika Serikat",
+        "Brasil"
       ]
     },
     {
@@ -1221,6 +1371,9 @@
       "categories": [
         "Racing & Motorsport",
         "Regulasi & Kebijakan"
+      ],
+      "countries": [
+        "Australia"
       ]
     },
     {
@@ -1244,6 +1397,11 @@
       "categories": [
         "Peluncuran Produk",
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Indonesia",
+        "Italia",
+        "Belanda"
       ]
     },
     {
@@ -1267,6 +1425,10 @@
       ],
       "categories": [
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Jerman",
+        "Italia"
       ]
     },
     {
@@ -1289,6 +1451,9 @@
       ],
       "categories": [
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Malaysia"
       ]
     },
     {
@@ -1310,6 +1475,11 @@
       "categories": [
         "Peluncuran Produk",
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Indonesia",
+        "Italia",
+        "Jerman"
       ]
     },
     {
@@ -1332,7 +1502,8 @@
       ],
       "categories": [
         "Racing & Motorsport"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "6941c231f61f",
@@ -1354,6 +1525,9 @@
       ],
       "categories": [
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Malaysia"
       ]
     },
     {
@@ -1378,7 +1552,11 @@
         "Regulasi & Kebijakan"
       ],
       "highlight": true,
-      "highlight_by": "auto"
+      "highlight_by": "auto",
+      "countries": [
+        "Indonesia",
+        "Brasil"
+      ]
     },
     {
       "id": "68e2e982e1bf",
@@ -1401,6 +1579,10 @@
       "categories": [
         "Racing & Motorsport",
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Indonesia",
+        "Amerika Serikat"
       ]
     },
     {
@@ -1425,7 +1607,8 @@
       "categories": [
         "Racing & Motorsport",
         "Peluncuran Produk"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "faeb509b42d2",
@@ -1447,6 +1630,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -1470,6 +1656,9 @@
       "categories": [
         "Peluncuran Produk",
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -1493,6 +1682,10 @@
       "categories": [
         "Peluncuran Produk",
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Indonesia",
+        "Spanyol"
       ]
     },
     {
@@ -1516,6 +1709,9 @@
       "categories": [
         "Racing & Motorsport",
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Jepang"
       ]
     },
     {
@@ -1540,7 +1736,10 @@
         "Peluncuran Produk"
       ],
       "highlight": true,
-      "highlight_by": "auto"
+      "highlight_by": "auto",
+      "countries": [
+        "Indonesia"
+      ]
     },
     {
       "id": "2699df3a77d6",
@@ -1561,6 +1760,11 @@
       "categories": [
         "Racing & Motorsport",
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Indonesia",
+        "Malaysia",
+        "Portugal"
       ]
     },
     {
@@ -1585,6 +1789,9 @@
         "Racing & Motorsport",
         "Teknologi & Fitur",
         "Spy / Rumor"
+      ],
+      "countries": [
+        "Italia"
       ]
     },
     {
@@ -1608,6 +1815,9 @@
       "categories": [
         "Racing & Motorsport",
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -1630,6 +1840,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -1653,6 +1866,9 @@
       "categories": [
         "Racing & Motorsport",
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Italia"
       ]
     },
     {
@@ -1675,7 +1891,8 @@
       ],
       "categories": [
         "Regulasi & Kebijakan"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "c6b288c33d21",
@@ -1698,7 +1915,8 @@
       "categories": [
         "Spy / Rumor",
         "Racing & Motorsport"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "f3943488c480",
@@ -1722,7 +1940,10 @@
         "Peluncuran Produk"
       ],
       "highlight": true,
-      "highlight_by": "auto"
+      "highlight_by": "auto",
+      "countries": [
+        "Indonesia"
+      ]
     },
     {
       "id": "afb4115deb2f",
@@ -1748,7 +1969,10 @@
         "Teknologi & Fitur"
       ],
       "highlight": true,
-      "highlight_by": "auto"
+      "highlight_by": "auto",
+      "countries": [
+        "Jepang"
+      ]
     },
     {
       "id": "a5777c0e930d",
@@ -1770,6 +1994,9 @@
       ],
       "categories": [
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -1793,6 +2020,9 @@
       "categories": [
         "Peluncuran Produk",
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Italia"
       ]
     },
     {
@@ -1815,6 +2045,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -1837,6 +2070,9 @@
       ],
       "categories": [
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Jepang"
       ]
     },
     {
@@ -1859,6 +2095,9 @@
       ],
       "categories": [
         "Spy / Rumor"
+      ],
+      "countries": [
+        "Jepang"
       ]
     },
     {
@@ -1881,6 +2120,9 @@
       ],
       "categories": [
         "Lainnya"
+      ],
+      "countries": [
+        "Jepang"
       ]
     },
     {
@@ -1903,6 +2145,10 @@
       ],
       "categories": [
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Austria",
+        "India"
       ]
     },
     {
@@ -1925,6 +2171,11 @@
       ],
       "categories": [
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Indonesia",
+        "Malaysia",
+        "Spanyol"
       ]
     },
     {
@@ -1947,7 +2198,8 @@
       ],
       "categories": [
         "Peluncuran Produk"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "00c1bb18e35b",
@@ -1968,7 +2220,8 @@
       "categories": [
         "Racing & Motorsport",
         "Spy / Rumor"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "227bca34828b",
@@ -1992,6 +2245,10 @@
         "Peluncuran Produk",
         "Teknologi & Fitur",
         "Aftersales & Servis"
+      ],
+      "countries": [
+        "Indonesia",
+        "Jepang"
       ]
     },
     {
@@ -2014,7 +2271,8 @@
       ],
       "categories": [
         "Racing & Motorsport"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "b0f2c63fcc88",
@@ -2037,6 +2295,9 @@
       "categories": [
         "Peluncuran Produk",
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Jepang"
       ]
     },
     {
@@ -2060,6 +2321,9 @@
       "categories": [
         "Racing & Motorsport",
         "Regulasi & Kebijakan"
+      ],
+      "countries": [
+        "Italia"
       ]
     },
     {
@@ -2084,6 +2348,9 @@
       "categories": [
         "Spy / Rumor",
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Italia"
       ]
     },
     {
@@ -2106,7 +2373,8 @@
       ],
       "categories": [
         "Racing & Motorsport"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "6cd3d6f76822",
@@ -2128,6 +2396,9 @@
       ],
       "categories": [
         "Racing & Motorsport"
+      ],
+      "countries": [
+        "Italia"
       ]
     },
     {
@@ -2148,7 +2419,8 @@
       "brands": [],
       "categories": [
         "Racing & Motorsport"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "86cfd31049a5",
@@ -2170,6 +2442,10 @@
       ],
       "categories": [
         "Lainnya"
+      ],
+      "countries": [
+        "Indonesia",
+        "Jepang"
       ]
     },
     {
@@ -2194,6 +2470,9 @@
       "categories": [
         "Racing & Motorsport",
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Italia"
       ]
     },
     {
@@ -2216,6 +2495,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Jepang"
       ]
     },
     {
@@ -2238,6 +2520,9 @@
       ],
       "categories": [
         "Peluncuran Produk"
+      ],
+      "countries": [
+        "Indonesia"
       ]
     },
     {
@@ -2259,7 +2544,8 @@
       "categories": [
         "Racing & Motorsport",
         "Aftersales & Servis"
-      ]
+      ],
+      "countries": []
     },
     {
       "id": "a860c47b906d",
@@ -2279,7 +2565,8 @@
       "brands": [],
       "categories": [
         "Racing & Motorsport"
-      ]
+      ],
+      "countries": []
     }
   ]
 }

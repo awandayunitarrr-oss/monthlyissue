@@ -460,5 +460,208 @@
       "skutik": 1,
       "matic": 1
     }
+  },
+  "countries": {
+    "Indonesia": [
+      "indonesia",
+      "tanah air",
+      "ahm",
+      "astra honda",
+      "yimm",
+      "ymki",
+      "jakarta",
+      "iims",
+      "giias",
+      "pekan raya jakarta",
+      "prj",
+      "aisi",
+      "mandalika",
+      "pertamina",
+      "pertalite",
+      "korlantas",
+      "polri",
+      "kemenperin",
+      "njkb",
+      "samsat",
+      "stnk",
+      "otr jakarta",
+      "bandung",
+      "surabaya",
+      "bali",
+      "nusantara",
+      "vario",
+      "scoopy",
+      "genio",
+      "stylo 160",
+      "fazzio",
+      "supra x",
+      "satria",
+      "pcx160",
+      "nmax turbo",
+      "rupiah"
+    ],
+    "Jepang": [
+      "jepang",
+      "japan",
+      "tokyo",
+      "hamamatsu",
+      "iwata",
+      "yen",
+      "suzuka",
+      "motegi",
+      "japan mobility show",
+      "osaka"
+    ],
+    "China": [
+      "china",
+      "cina",
+      "tiongkok",
+      "chongqing",
+      "guangzhou",
+      "shanghai",
+      "cimamotor",
+      "wuyang",
+      "yuan"
+    ],
+    "Malaysia": [
+      "malaysia",
+      "sepang",
+      "ringgit",
+      "kuala lumpur",
+      "modenas"
+    ],
+    "Thailand": [
+      "thailand",
+      "bangkok",
+      "buriram",
+      "baht",
+      "thai"
+    ],
+    "Vietnam": [
+      "vietnam",
+      "hanoi",
+      "ho chi minh"
+    ],
+    "Filipina": [
+      "filipina",
+      "philippines",
+      "manila"
+    ],
+    "India": [
+      "india",
+      "rupee",
+      "new delhi",
+      "pune",
+      "bharat",
+      "chennai"
+    ],
+    "Taiwan": [
+      "taiwan",
+      "taipei"
+    ],
+    "Italia": [
+      "italia",
+      "italy",
+      "milan",
+      "eicma",
+      "mugello",
+      "misano",
+      "bologna",
+      "noale",
+      "borgo panigale",
+      "imola"
+    ],
+    "Spanyol": [
+      "spanyol",
+      "spain",
+      "jerez",
+      "catalunya",
+      "barcelona",
+      "aragon",
+      "valencia",
+      "madrid"
+    ],
+    "Jerman": [
+      "jerman",
+      "germany",
+      "intermot",
+      "sachsenring",
+      "munich",
+      "munchen",
+      "koln"
+    ],
+    "Inggris": [
+      "inggris",
+      "britania",
+      "silverstone",
+      "british",
+      "donington",
+      "london"
+    ],
+    "Prancis": [
+      "prancis",
+      "france",
+      "le mans",
+      "paris"
+    ],
+    "Belanda": [
+      "belanda",
+      "assen",
+      "netherlands"
+    ],
+    "Austria": [
+      "austria",
+      "red bull ring",
+      "mattighofen",
+      "spielberg"
+    ],
+    "Portugal": [
+      "portugal",
+      "portimao",
+      "portimão",
+      "algarve",
+      "estoril"
+    ],
+    "Ceko": [
+      "ceko",
+      "brno",
+      "czech"
+    ],
+    "Qatar": [
+      "qatar",
+      "losail",
+      "lusail"
+    ],
+    "Amerika Serikat": [
+      "amerika serikat",
+      "amerika",
+      "usa",
+      "cota",
+      "austin",
+      "texas",
+      "california",
+      "dolar as",
+      "laguna seca"
+    ],
+    "Brasil": [
+      "brasil",
+      "brazil",
+      "goiania"
+    ],
+    "Argentina": [
+      "argentina",
+      "termas"
+    ],
+    "Australia": [
+      "australia",
+      "phillip island"
+    ],
+    "Eropa": [
+      "eropa",
+      "europe",
+      "euro 5",
+      "euro5",
+      "euro 5+"
+    ]
   }
 }
