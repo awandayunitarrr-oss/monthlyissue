@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       period:
-        description: "Periode (YYYY-MM-H1 / YYYY-MM-H2). Kosongkan = periode hari ini"
+        description: "Periode (2026-05-H1) atau rentang (2026-01-H1..2026-11-H1). Kosongkan = periode hari ini"
         required: false
         default: ""
   push:
@@ -76,6 +76,7 @@ jobs:
           git add docs/data
           git diff --cached --quiet && { echo "Tidak ada perubahan"; exit 0; }
           git commit -m "data: update motorcycle issue $(TZ=Asia/Jakarta date +%Y-%m-%d)"
+          git pull --rebase
           git push
     outputs:
       ran: ${{ steps.gate.outputs.run }}

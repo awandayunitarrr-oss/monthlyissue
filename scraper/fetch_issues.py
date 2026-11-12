@@ -46,6 +46,8 @@ HEADERS = {
     "Accept-Language": "id-ID,id;q=0.9,en;q=0.8",
 }
 
+MAX_FEED_PAGES = 15  # dinaikkan otomatis saat backfill rentang panjang
+
 MONTHS_ID = [
     "", "Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli",
     "Agustus", "September", "Oktober", "November", "Desember",
@@ -84,6 +86,11 @@ class Period:
         if not m:
             raise ValueError(f"Format periode salah: {s!r} (contoh: 2026-05-H1)")
         return cls(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+
+    def next(self) -> "Period":
+        if self.half == 1:
+            return Period(self.year, self.month, 2)
+        return Period(self.year + (self.month == 12), self.month % 12 + 1, 1)
 
     @classmethod
     def for_day(cls, d: date) -> "Period":
@@ -195,7 +202,9 @@ def collect_from_feed(src: dict, period: Period) -> list[Article]:
     out: list[Article] = []
     start_dt = datetime.combine(period.start, datetime.min.time(), WIB)
     for feed_url in src.get("feeds", []):
-        for page in range(1, src.get("max_feed_pages", 15) + 1):
+        for page in range(1, src.get("max_feed_pages", MAX_FEED_PAGES) + 1):
+            if page > 1:
+                time.sleep(0.4)  # jangan membebani server sumber
             url = feed_url if page == 1 else f"{feed_url}{'&' if '?' in feed_url else '?'}paged={page}"
             r = get(url)
             if not r or "<item" not in r.text:
@@ -367,13 +376,12 @@ def is_relevant(article: Article, cfg: dict) -> bool:
 # --------------------------------------------------------------------------- #
 # Main
 # --------------------------------------------------------------------------- #
-def run(period: Period, article_fetch: bool = True) -> dict:
-    cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
-    start_dt = datetime.combine(period.start, datetime.min.time(), WIB)
-    end_dt = datetime.combine(period.end, datetime.max.time(), WIB)
-
+def collect(span, cfg: dict) -> tuple[list[Article], dict]:
+    """Kumpulkan artikel semua sumber untuk rentang span.start..span.end (boleh lintas periode)."""
+    start_dt = datetime.combine(span.start, datetime.min.time(), WIB)
+    end_dt = datetime.combine(span.end, datetime.max.time(), WIB)
     collected: dict[str, Article] = {}
-    report = {}
+    methods = {}
     for src in cfg["sources"]:
         print(f"→ {src['name']}")
         arts: list[Article] = []
@@ -381,7 +389,7 @@ def run(period: Period, article_fetch: bool = True) -> dict:
         for method in ("feed", "sitemap", "homepage"):
             fn = {"feed": collect_from_feed, "sitemap": collect_from_sitemap, "homepage": collect_from_homepage}[method]
             try:
-                arts = fn(src, period)
+                arts = fn(src, span)
             except Exception as e:  # noqa: BLE001 - lanjut ke metode berikutnya
                 print(f"  ! {method} gagal: {e}", file=sys.stderr)
                 arts = []
@@ -389,11 +397,22 @@ def run(period: Period, article_fetch: bool = True) -> dict:
             if arts:
                 break
         print(f"  {len(arts)} artikel via {method if arts else '-'}")
-        report[src["name"]] = {"count": len(arts), "method": method if arts else None}
+        methods[src["name"]] = method if arts else None
         for a in arts:
             collected.setdefault(a.url, a)
+    return list(collected.values()), methods
 
-    articles = list(collected.values())
+
+def run(period: Period, article_fetch: bool = True, pool: tuple[list[Article], dict] | None = None) -> dict:
+    cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+    start_dt = datetime.combine(period.start, datetime.min.time(), WIB)
+    end_dt = datetime.combine(period.end, datetime.max.time(), WIB)
+    all_arts, methods = pool if pool is not None else collect(period, cfg)
+    articles = [a for a in all_arts if start_dt <= a.published <= end_dt]
+    report = {}
+    for src in cfg["sources"]:
+        n = sum(1 for a in articles if a.source == src["name"])
+        report[src["name"]] = {"count": n, "method": methods.get(src["name"]) if n else None}
     for a in articles:
         if article_fetch:
             enrich(a)
@@ -447,6 +466,32 @@ def run(period: Period, article_fetch: bool = True) -> dict:
     return payload
 
 
+def run_range(first: str, last: str, article_fetch: bool = True) -> None:
+    """Backfill beberapa periode sekaligus: feed ditelusuri satu kali, lalu dibagi per periode."""
+    global MAX_FEED_PAGES
+    p, end = Period.parse(first), Period.parse(last)
+    today = Period.for_day(datetime.now(WIB).date())
+    if end.start > today.start:
+        end = today
+    periods = []
+    while p.start <= end.start:
+        periods.append(p)
+        p = p.next()
+    if not periods:
+        raise SystemExit("Rentang periode kosong")
+    print(f"Backfill {periods[0].key} .. {periods[-1].key} ({len(periods)} periode)")
+    MAX_FEED_PAGES = 600
+
+    class Span:
+        start, end = periods[0].start, periods[-1].end
+
+    cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+    pool = collect(Span, cfg)
+    for period in reversed(periods):
+        print(f"Periode {period.key} ({period.label})")
+        run(period, article_fetch=article_fetch, pool=pool)
+
+
 def rebuild_index() -> None:
     periods = []
     for p in sorted(PERIOD_DIR.glob("*.json"), reverse=True):
@@ -463,7 +508,8 @@ def rebuild_index() -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--period", help="YYYY-MM-H1 atau YYYY-MM-H2 (default: periode hari ini, WIB)")
+    ap.add_argument("--period", help="YYYY-MM-H1 / YYYY-MM-H2, atau rentang 2026-01-H1..2026-11-H1 "
+                                     "(default: periode hari ini, WIB)")
     ap.add_argument("--no-article-fetch", action="store_true", help="jangan buka halaman artikel satu per satu")
     ap.add_argument("--no-ai", action="store_true", help="jangan pakai ringkasan AI walau ANTHROPIC_API_KEY tersedia")
     ap.add_argument("--reindex", action="store_true", help="hanya bangun ulang docs/data/index.json")
@@ -471,9 +517,12 @@ def main() -> None:
     if args.reindex:
         rebuild_index()
         return
-    period = Period.parse(args.period) if args.period else Period.for_day(datetime.now(WIB).date())
     if args.no_ai:
         summarize.USE_AI = False
+    if args.period and ".." in args.period:
+        run_range(*args.period.split("..", 1), article_fetch=not args.no_article_fetch)
+        return
+    period = Period.parse(args.period) if args.period else Period.for_day(datetime.now(WIB).date())
     print(f"Periode {period.key} ({period.label})")
     run(period, article_fetch=not args.no_article_fetch)
 
