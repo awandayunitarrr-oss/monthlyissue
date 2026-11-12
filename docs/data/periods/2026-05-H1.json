@@ -1,0 +1,118 @@
+{
+  "period": "2026-05-H1",
+  "label": "1 – 15 Mei 2026",
+  "start": "2026-05-01",
+  "end": "2026-05-15",
+  "generated_at": "2026-11-12T10:37:55+07:00",
+  "sources": {
+    "Iwan Banaran": {
+      "count": 5,
+      "method": "ppt"
+    },
+    "Pertamax7": {
+      "count": 0,
+      "method": null
+    },
+    "TMC Blog": {
+      "count": 0,
+      "method": null
+    }
+  },
+  "articles": [
+    {
+      "id": "52d72b06b932",
+      "title": "Update Terawangan New Vario 160 Terbaru 2026",
+      "url": "https://iwanbanaran.com/news/update-terawangan-new-vario-160-terbaru-2026-wahh-berubah-cakkk",
+      "source": "Iwan Banaran",
+      "published": "2026-05-14T10:00:00+07:00",
+      "summary": "Kode misterius K2SM diprediksi sebagai minor change/facelift Vario 160 (K2S): casing & shape bodi baru, mesin 157cc eSP+ 4-katup tetap (15,4 PS / 13,8 Nm), sasis eSAF. Prosesnya sudah masuk tahap PP3 (pre-production) — New Vario 160, bukan All New.",
+      "image": null,
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Spy / Rumor",
+        "Teknologi & Fitur"
+      ],
+      "highlight": true,
+      "locked": true,
+      "note": "Dari deck PPT (tanggal publikasi perkiraan)"
+    },
+    {
+      "id": "42d29a98cc55",
+      "title": "Honda NS150ES 2026 Rilis di China, ketika \"Jiwa\" PCX Dipaksa Punya Dek Rata Vario",
+      "url": "https://iwanbanaran.com/news/geger-honda-ns150es-2026-rilis-ketikajiwa-pcx-dipaksa-punya-dek-rata-vario",
+      "source": "Iwan Banaran",
+      "published": "2026-05-12T10:00:00+07:00",
+      "summary": "Wuyang Honda merilis NS150ES: tampang mewah ala PCX dengan dek rata seperti Vario, headlight full LED, mesin 150cc eSP+ ±14,5 HP / 14,2 Nm. Berpotensi jadi inspirasi Vario 160 generasi baru di Indonesia.",
+      "image": null,
+      "brands": [
+        "Honda"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Teknologi & Fitur"
+      ],
+      "highlight": true,
+      "locked": true,
+      "note": "Dari deck PPT (tanggal publikasi perkiraan)"
+    },
+    {
+      "id": "0912a226c4a0",
+      "title": "Motor Listrik Akan Dapat Subsidi Lagi",
+      "url": "https://iwanbanaran.com/news/horeee-motor-listrik-akan-dapat-subsidi-lagi-cakkk-berapa",
+      "source": "Iwan Banaran",
+      "published": "2026-05-10T10:00:00+07:00",
+      "summary": "Pemerintah memastikan insentif kendaraan listrik berlaku mulai Juni 2026 untuk 200.000 unit. Motor listrik mendapat subsidi langsung Rp5 juta per unit dengan kuota awal 100.000 unit; mobil listrik mendapat PPN DTP.",
+      "image": null,
+      "brands": [],
+      "categories": [
+        "Regulasi & Kebijakan",
+        "Motor Listrik"
+      ],
+      "highlight": true,
+      "locked": true,
+      "note": "Dari deck PPT (tanggal publikasi perkiraan)"
+    },
+    {
+      "id": "15c341b13e86",
+      "title": "Tantang Yamaha Aerox! Aveta Nova 200 Resmi Rilis di Malaysia",
+      "url": "https://iwanbanaran.com/news/breaking-aveta-nova-200-resmi-dirilis-mesin-183cc-lho-kok-nyontek-aerox",
+      "source": "Iwan Banaran",
+      "published": "2026-05-08T10:00:00+07:00",
+      "summary": "Pabrikan lokal Malaysia Aveta meluncurkan Nova 200 bergaya Aerox: mesin 183cc SOHC 4-katup liquid cooled 18,5 hp / 17,5 Nm, velg 14/13 inci, suspensi tabung. Harga RM 8.488 (±Rp31 juta).",
+      "image": null,
+      "brands": [
+        "Yamaha",
+        "Aveta"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Harga & Promo"
+      ],
+      "highlight": true,
+      "locked": true,
+      "note": "Dari deck PPT (tanggal publikasi perkiraan)"
+    },
+    {
+      "id": "aaf6a378212f",
+      "title": "Yamaha Jepang Rilis New MT-10 2026, Ini Baru Monster!",
+      "url": "https://iwanbanaran.com/news/breaking-yamaha-rilis-new-mt-10-2026-ini-baru-monster",
+      "source": "Iwan Banaran",
+      "published": "2026-05-06T10:00:00+07:00",
+      "summary": "MT-10 2026 tetap dengan mesin CP4 997cc (166 PS / 112 Nm), quickshifter, YVSL, cruise control dan riding mode. Penyegaran warna Matte Light Grey + velg Sky Blue. Harga Jepang ¥1.925.000 (SP ¥2.189.000).",
+      "image": null,
+      "brands": [
+        "Yamaha"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Harga & Promo",
+        "Teknologi & Fitur"
+      ],
+      "highlight": true,
+      "locked": true,
+      "note": "Dari deck PPT (tanggal publikasi perkiraan)"
+    }
+  ]
+}

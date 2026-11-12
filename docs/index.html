@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Motorcycle Issue Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f5f6f8; --surface:#ffffff; --surface-2:#f0f2f5; --border:#e2e5ea;
+  --text:#14171c; --muted:#5d6673; --accent:#c8102e; --accent-soft:#fbe7ea;
+  --s1:#c8102e; --s2:#1f6feb; --s3:#d48806; --bar:#3a4250; --bar-soft:#d9dde3;
+  --shadow:0 1px 2px rgba(16,24,40,.06),0 1px 3px rgba(16,24,40,.08);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1115; --surface:#171a20; --surface-2:#1e222a; --border:#2a2f38;
+    --text:#e8eaee; --muted:#9aa3b0; --accent:#ff4d63; --accent-soft:#3a1a20;
+    --s1:#ff4d63; --s2:#5c9dff; --s3:#f0b440; --bar:#c3cad5; --bar-soft:#2c323c;
+    --shadow:none;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f1115; --surface:#171a20; --surface-2:#1e222a; --border:#2a2f38;
+  --text:#e8eaee; --muted:#9aa3b0; --accent:#ff4d63; --accent-soft:#3a1a20;
+  --s1:#ff4d63; --s2:#5c9dff; --s3:#f0b440; --bar:#c3cad5; --bar-soft:#2c323c;
+  --shadow:none;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--text);font:14px/1.5 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1280px;margin:0 auto;padding:20px 16px 60px}
+header.top{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;justify-content:space-between;margin-bottom:20px}
+.brand{display:flex;gap:12px;align-items:center}
+.logo{width:40px;height:40px;border-radius:10px;background:var(--accent);display:grid;place-items:center;color:#fff;flex:none}
+h1{font-size:22px;margin:0;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:13px}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+select,input[type=search],button{font:inherit;color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:8px 10px}
+button{cursor:pointer}
+button:hover{background:var(--surface-2)}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+select:focus,input:focus,button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.period-select{font-weight:600;min-width:220px}
+.status{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:12px;color:var(--muted);margin:-8px 0 18px}
+.status b{color:var(--text);font-weight:600}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle}
+
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:16px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;box-shadow:var(--shadow)}
+.kpi{padding:14px 16px}
+.kpi .k{font-size:12px;color:var(--muted);font-weight:500}
+.kpi .v{font-size:26px;font-weight:700;letter-spacing:-.02em;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.kpi .v.small{font-size:18px;padding-top:6px}
+.kpi .d{font-size:12px;color:var(--muted)}
+
+.charts{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;margin-bottom:16px}
+.panel{padding:14px 16px}
+.panel h2{font-size:13px;font-weight:600;margin:0 0 10px;display:flex;justify-content:space-between;gap:8px}
+.panel h2 span{color:var(--muted);font-weight:400}
+.c-4{grid-column:span 4}.c-6{grid-column:span 6}.c-8{grid-column:span 8}.c-12{grid-column:span 12}
+@media (max-width:980px){.c-4,.c-6,.c-8{grid-column:span 12}}
+
+.hbars{display:flex;flex-direction:column;gap:6px}
+.hbar{display:grid;grid-template-columns:minmax(90px,140px) 1fr 28px;gap:8px;align-items:center;font-size:12px;cursor:pointer;border-radius:6px;padding:2px 4px;margin:0 -4px;background:none;border:0;text-align:left;width:calc(100% + 8px)}
+.hbar:hover{background:var(--surface-2)}
+.hbar.active{background:var(--accent-soft)}
+.hbar .lbl{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hbar .track{height:10px;background:var(--bar-soft);border-radius:5px;overflow:hidden}
+.hbar .fill{height:100%;background:var(--bar);border-radius:5px}
+.hbar.active .fill{background:var(--accent)}
+.hbar .n{text-align:right;font-variant-numeric:tabular-nums;color:var(--muted)}
+.empty{color:var(--muted);font-size:12px;padding:8px 0}
+
+.cols{display:flex;align-items:flex-end;gap:3px;height:120px;padding-top:6px}
+.col{flex:1;display:flex;flex-direction:column-reverse;min-width:0;height:100%;position:relative}
+.col .seg{width:100%}
+.col .seg:first-child{border-radius:0 0 2px 2px}
+.col:hover{background:var(--surface-2)}
+.col-x{display:flex;gap:3px;font-size:10px;color:var(--muted);margin-top:4px}
+.col-x span{flex:1;text-align:center;min-width:0;overflow:hidden}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--muted);margin-top:8px}
+.tip{position:fixed;pointer-events:none;background:var(--text);color:var(--bg);font-size:12px;padding:6px 8px;border-radius:6px;z-index:9;display:none;white-space:nowrap}
+
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:4px 0 12px}
+.toolbar input[type=search]{flex:1;min-width:200px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border-radius:999px;padding:5px 12px;font-size:12px;font-weight:500}
+.chip.on{background:var(--text);color:var(--bg);border-color:var(--text)}
+.active-filters{display:flex;flex-wrap:wrap;gap:6px;font-size:12px;color:var(--muted);margin-bottom:10px;align-items:center}
+.active-filters button{font-size:12px;padding:3px 8px;border-radius:999px;background:var(--accent-soft);border-color:transparent}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+@media (max-width:420px){.grid{grid-template-columns:1fr}}
+.issue{display:flex;flex-direction:column;overflow:hidden}
+.issue .img{aspect-ratio:16/8;background:var(--surface-2) center/cover no-repeat;display:grid;place-items:center;color:var(--muted);font-size:12px}
+.issue .body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:8px;flex:1}
+.meta{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:12px;color:var(--muted)}
+.src{font-weight:600;color:var(--text)}
+.issue h3{font-size:15px;line-height:1.35;margin:0}
+.issue h3 a{text-decoration:none}
+.issue h3 a:hover{text-decoration:underline}
+.issue p{margin:0;color:var(--muted);font-size:13px;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}
+.issue.open p{-webkit-line-clamp:unset}
+.tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:auto}
+.tag{font-size:11px;padding:2px 8px;border-radius:999px;background:var(--surface-2);border:1px solid var(--border);cursor:pointer}
+.tag.b{font-weight:600}
+.star{color:var(--s3);font-size:12px;font-weight:600}
+.foot{display:flex;justify-content:space-between;gap:8px;align-items:center}
+.foot a{font-size:12px;font-weight:600;color:var(--accent);text-decoration:none}
+.foot button{font-size:12px;padding:4px 8px}
+.none{padding:40px;text-align:center;color:var(--muted)}
+footer{margin-top:30px;font-size:12px;color:var(--muted);text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.5" cy="17" r="3.5"/><circle cx="18.5" cy="17" r="3.5"/><path d="M15 6h3l2 5M5.5 17 9 10h6l3.5 7M9 10 7.5 7H5"/></svg>
+      </div>
+      <div>
+        <h1>Motorcycle Issue</h1>
+        <div class="sub">Iwan Banaran · Pertamax7 · TMC Blog — rekap 2× sebulan</div>
+      </div>
+    </div>
+    <div class="controls">
+      <select id="period" class="period-select" aria-label="Pilih periode"></select>
+      <button id="csv" title="Unduh CSV periode ini">Export CSV</button>
+      <button id="theme" title="Ganti tema" aria-label="Ganti tema">◐</button>
+    </div>
+  </header>
+  <div class="status" id="status"></div>
+
+  <section class="kpis" id="kpis"></section>
+
+  <section class="charts">
+    <div class="card panel c-4"><h2>Issue per merek <span>klik untuk filter</span></h2><div class="hbars" id="ch-brand"></div></div>
+    <div class="card panel c-4"><h2>Issue per kategori <span>klik untuk filter</span></h2><div class="hbars" id="ch-cat"></div></div>
+    <div class="card panel c-4"><h2>Issue per sumber</h2><div class="hbars" id="ch-src"></div></div>
+    <div class="card panel c-8"><h2>Artikel per hari <span id="day-range"></span></h2><div id="ch-day"></div></div>
+    <div class="card panel c-4"><h2>Tren antar periode</h2><div id="ch-trend"></div></div>
+  </section>
+
+  <div class="toolbar">
+    <input type="search" id="q" placeholder="Cari judul / ringkasan… (mis. Vario, subsidi, NMAX)" aria-label="Cari">
+    <div class="chips" id="src-chips"></div>
+    <button class="chip" id="hl" aria-pressed="false">★ Highlight</button>
+    <select id="sort" aria-label="Urutkan">
+      <option value="new">Terbaru</option>
+      <option value="old">Terlama</option>
+      <option value="src">Sumber</option>
+    </select>
+  </div>
+  <div class="active-filters" id="af"></div>
+  <section class="grid" id="list"></section>
+
+  <footer>Data di-update otomatis tiap tanggal 15 dan hari terakhir bulan (23:30 WIB) via GitHub Actions.</footer>
+</div>
+<div class="tip" id="tip"></div>
+
+<script>
+const SRC_COLORS = {"Iwan Banaran":"var(--s1)","Pertamax7":"var(--s2)","TMC Blog":"var(--s3)"};
+const SOURCES = Object.keys(SRC_COLORS);
+const MONTHS = ["Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"];
+const state = { index:null, data:null, cache:{}, q:"", srcs:new Set(), brand:null, cat:null, hl:false, sort:"new" };
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const store = { get(k){ try{return localStorage.getItem(k)}catch(e){return null} }, set(k,v){ try{localStorage.setItem(k,v)}catch(e){} } };
+
+// ---------- theme ----------
+(function(){ const t = store.get("mi-theme"); if (t) document.documentElement.dataset.theme = t; })();
+$("#theme").onclick = () => {
+  const cur = document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  const next = cur === "dark" ? "light" : "dark";
+  document.documentElement.dataset.theme = next; store.set("mi-theme", next);
+};
+
+// ---------- data ----------
+async function loadJSON(url){
+  const r = await fetch(url + (url.includes("?") ? "&" : "?") + "v=" + Date.now());
+  if (!r.ok) throw new Error(url + " " + r.status);
+  return r.json();
+}
+async function loadPeriod(p){
+  if (!state.cache[p.period]) state.cache[p.period] = await loadJSON(p.file);
+  return state.cache[p.period];
+}
+function nextRun(){
+  const now = new Date(Date.now() + 7*3600e3); // WIB clock
+  const y = now.getUTCFullYear(), m = now.getUTCMonth(), d = now.getUTCDate();
+  const last = new Date(Date.UTC(y, m+1, 0)).getUTCDate();
+  const t = d < 15 ? [y,m,15] : d < last ? [y,m,last] : [y, m+1, 15];
+  const dt = new Date(Date.UTC(t[0], t[1], t[2]));
+  return `${dt.getUTCDate()} ${MONTHS[dt.getUTCMonth()]} ${dt.getUTCFullYear()}, 23:30 WIB`;
+}
+function fmtDate(iso, withTime){
+  const d = new Date(iso); if (isNaN(d)) return "";
+  const w = new Date(d.getTime() + 7*3600e3);
+  let s = `${w.getUTCDate()} ${MONTHS[w.getUTCMonth()]} ${w.getUTCFullYear()}`;
+  if (withTime) s += ` ${String(w.getUTCHours()).padStart(2,"0")}:${String(w.getUTCMinutes()).padStart(2,"0")}`;
+  return s;
+}
+const wibDay = iso => { const w = new Date(new Date(iso).getTime() + 7*3600e3); return w.toISOString().slice(0,10); };
+
+async function init(){
+  try { state.index = await loadJSON("data/index.json"); }
+  catch(e){ $("#list").innerHTML = `<div class="none">Gagal memuat data/index.json. Jalankan <code>python scraper/fetch_issues.py</code> dulu.</div>`; return; }
+  const sel = $("#period");
+  const periods = state.index.periods;
+  sel.innerHTML = periods.map(p => `<option value="${esc(p.period)}">${esc(p.label)} (${p.count})</option>`).join("")
+    + (periods.length > 1 ? `<option value="__all">Semua periode</option>` : "");
+  const fromHash = decodeURIComponent(location.hash.slice(1));
+  sel.value = periods.some(p => p.period === fromHash) || fromHash === "__all" ? fromHash : (periods[0]?.period ?? "");
+  sel.onchange = () => { location.hash = sel.value; selectPeriod(sel.value); };
+  $("#src-chips").innerHTML = SOURCES.map(s => `<button class="chip" data-src="${esc(s)}" aria-pressed="false"><span class="dot" style="background:${SRC_COLORS[s]}"></span>${esc(s)}</button>`).join("");
+  $("#src-chips").onclick = e => { const b = e.target.closest("[data-src]"); if (!b) return; const s = b.dataset.src;
+    state.srcs.has(s) ? state.srcs.delete(s) : state.srcs.add(s); render(); };
+  $("#q").oninput = e => { state.q = e.target.value.trim().toLowerCase(); render(); };
+  $("#hl").onclick = () => { state.hl = !state.hl; render(); };
+  $("#sort").onchange = e => { state.sort = e.target.value; render(); };
+  $("#csv").onclick = exportCSV;
+  renderTrend();
+  await selectPeriod(sel.value);
+}
+
+async function selectPeriod(key){
+  if (key === "__all"){
+    const all = await Promise.all(state.index.periods.map(loadPeriod));
+    const first = all[all.length-1], last = all[0];
+    state.data = { period:"__all", label:"Semua periode", start:first.start, end:last.end,
+      generated_at:last.generated_at, sources:{}, articles: all.flatMap(d => d.articles) };
+  } else {
+    const p = state.index.periods.find(x => x.period === key);
+    state.data = p ? await loadPeriod(p) : { articles:[], sources:{} };
+  }
+  state.brand = state.cat = null;
+  render();
+}
+
+// ---------- filtering ----------
+function filtered(ignore){
+  const { q, srcs, brand, cat, hl } = state;
+  let a = state.data.articles.filter(x =>
+    (ignore === "src" || !srcs.size || srcs.has(x.source)) &&
+    (ignore === "brand" || !brand || (brand === "(Umum)" ? !x.brands.length : x.brands.includes(brand))) &&
+    (ignore === "cat" || !cat || x.categories.includes(cat)) &&
+    (!hl || x.highlight) &&
+    (!q || (x.title + " " + x.summary + " " + x.brands.join(" ")).toLowerCase().includes(q)));
+  const s = state.sort;
+  a.sort((x,y) => s === "old" ? x.published.localeCompare(y.published)
+              : s === "src" ? x.source.localeCompare(y.source) || y.published.localeCompare(x.published)
+              : y.published.localeCompare(x.published));
+  return a;
+}
+function count(arr, fn){ const m = new Map(); arr.forEach(x => fn(x).forEach(k => m.set(k, (m.get(k)||0)+1))); return [...m].sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0])); }
+
+// ---------- render ----------
+function render(){
+  const d = state.data, items = filtered();
+  $("#status").innerHTML = `
+    <span>Periode: <b>${esc(d.label || "-")}</b></span>
+    <span>Terakhir di-update: <b>${d.generated_at ? fmtDate(d.generated_at, true) + " WIB" : "-"}</b></span>
+    <span>Update otomatis berikutnya: <b>${nextRun()}</b></span>`;
+
+  // KPIs
+  const bySrc = Object.fromEntries(SOURCES.map(s => [s, items.filter(x => x.source === s).length]));
+  const topB = count(items, x => x.brands)[0], topC = count(items, x => x.categories)[0];
+  const hlN = items.filter(x => x.highlight).length;
+  $("#kpis").innerHTML = `
+    <div class="card kpi"><div class="k">Total issue</div><div class="v">${items.length}</div><div class="d">${hlN} highlight</div></div>
+    ${SOURCES.map(s => `<div class="card kpi"><div class="k"><span class="dot" style="background:${SRC_COLORS[s]}"></span>${esc(s)}</div><div class="v">${bySrc[s]}</div><div class="d">${items.length ? Math.round(bySrc[s]/items.length*100) : 0}% dari total</div></div>`).join("")}
+    <div class="card kpi"><div class="k">Merek paling ramai</div><div class="v small">${esc(topB?.[0] || "-")}</div><div class="d">${topB ? topB[1] + " artikel" : ""}</div></div>
+    <div class="card kpi"><div class="k">Topik paling ramai</div><div class="v small">${esc(topC?.[0] || "-")}</div><div class="d">${topC ? topC[1] + " artikel" : ""}</div></div>`;
+
+  // bars (each chart ignores its own filter so you can switch)
+  const brandRows = count(filtered("brand"), x => x.brands.length ? x.brands : ["(Umum)"]).slice(0, 10);
+  hbars("#ch-brand", brandRows, state.brand, v => { state.brand = state.brand === v ? null : v; render(); });
+  hbars("#ch-cat", count(filtered("cat"), x => x.categories), state.cat, v => { state.cat = state.cat === v ? null : v; render(); });
+  const srcRows = SOURCES.map(s => [s, filtered("src").filter(x => x.source === s).length]);
+  hbars("#ch-src", srcRows, null, v => { state.srcs.has(v) ? state.srcs.delete(v) : state.srcs.add(v); render(); }, true, state.srcs);
+  renderDays(items);
+
+  // chips
+  document.querySelectorAll("#src-chips [data-src]").forEach(b => { const on = state.srcs.has(b.dataset.src); b.classList.toggle("on", on); b.setAttribute("aria-pressed", on); });
+  $("#hl").classList.toggle("on", state.hl); $("#hl").setAttribute("aria-pressed", state.hl);
+
+  // active filters
+  const af = [];
+  if (state.brand) af.push(["brand", "Merek: " + state.brand]);
+  if (state.cat) af.push(["cat", "Kategori: " + state.cat]);
+  state.srcs.forEach(s => af.push(["src:" + s, "Sumber: " + s]));
+  if (state.q) af.push(["q", `Cari: “${state.q}”`]);
+  if (state.hl) af.push(["hl", "★ Highlight"]);
+  $("#af").innerHTML = af.length ? `Filter: ${af.map(([k,l]) => `<button data-k="${esc(k)}">${esc(l)} ✕</button>`).join("")} <button data-k="all">Reset</button>` : "";
+  $("#af").onclick = e => { const k = e.target.dataset.k; if (!k) return;
+    if (k === "brand" || k === "all") state.brand = null;
+    if (k === "cat" || k === "all") state.cat = null;
+    if (k === "q" || k === "all") { state.q = ""; $("#q").value = ""; }
+    if (k === "hl" || k === "all") state.hl = false;
+    if (k === "all") state.srcs.clear(); else if (k.startsWith("src:")) state.srcs.delete(k.slice(4));
+    render(); };
+
+  // list
+  $("#list").innerHTML = items.length ? items.map(card).join("") :
+    `<div class="none" style="grid-column:1/-1">${d.articles.length ? "Tidak ada artikel yang cocok dengan filter." : "Belum ada artikel untuk periode ini. Data akan terisi saat update otomatis berjalan."}</div>`;
+}
+
+function card(x){
+  return `<article class="card issue" data-id="${esc(x.id)}">
+    ${x.image ? `<div class="img" style="background-image:url('${esc(x.image)}')"></div>` : ""}
+    <div class="body">
+      <div class="meta"><span class="src"><span class="dot" style="background:${SRC_COLORS[x.source] || "var(--muted)"}"></span>${esc(x.source)}</span><span>${fmtDate(x.published)}</span>${x.highlight ? `<span class="star">★ Highlight</span>` : ""}</div>
+      <h3><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></h3>
+      <p>${esc(x.summary)}</p>
+      <div class="tags">
+        ${x.brands.map(b => `<span class="tag b" data-brand="${esc(b)}">${esc(b)}</span>`).join("")}
+        ${x.categories.map(c => `<span class="tag" data-cat="${esc(c)}">${esc(c)}</span>`).join("")}
+      </div>
+      <div class="foot"><button data-more>Selengkapnya</button><a href="${esc(x.url)}" target="_blank" rel="noopener">Baca sumber ↗</a></div>
+    </div></article>`;
+}
+$("#list").addEventListener("click", e => {
+  const t = e.target;
+  if (t.dataset.brand){ state.brand = t.dataset.brand; render(); }
+  else if (t.dataset.cat){ state.cat = t.dataset.cat; render(); }
+  else if (t.hasAttribute("data-more")){ const c = t.closest(".issue"); c.classList.toggle("open"); t.textContent = c.classList.contains("open") ? "Ringkas" : "Selengkapnya"; }
+});
+
+function hbars(sel, rows, active, onClick, colored, activeSet){
+  const el = $(sel);
+  if (!rows.length || rows.every(r => !r[1])) { el.innerHTML = `<div class="empty">Belum ada data</div>`; return; }
+  const max = Math.max(...rows.map(r => r[1]), 1);
+  el.innerHTML = rows.map(([k,n]) => {
+    const on = active === k || (activeSet && activeSet.has(k));
+    return `<button class="hbar ${on ? "active" : ""}" data-v="${esc(k)}" title="${esc(k)}: ${n}">
+      <span class="lbl">${esc(k)}</span><span class="track"><span class="fill" style="display:block;width:${n/max*100}%;${colored && !on ? `background:${SRC_COLORS[k]}` : ""}"></span></span><span class="n">${n}</span></button>`;
+  }).join("");
+  el.onclick = e => { const b = e.target.closest(".hbar"); if (b) onClick(b.dataset.v); };
+}
+
+function renderDays(items){
+  const d = state.data, el = $("#ch-day");
+  if (!d.start || !d.end){ el.innerHTML = `<div class="empty">Belum ada data</div>`; return; }
+  const days = []; for (let t = new Date(d.start + "T00:00:00Z"); t <= new Date(d.end + "T00:00:00Z"); t = new Date(t.getTime() + 864e5)) days.push(t.toISOString().slice(0,10));
+  if (days.length > 62) { el.innerHTML = `<div class="empty">Pilih satu periode untuk melihat grafik harian.</div>`; $("#day-range").textContent = ""; return; }
+  const map = {}; items.forEach(x => { const k = wibDay(x.published); (map[k] ||= {})[x.source] = ((map[k] ||= {})[x.source] || 0) + 1; });
+  const max = Math.max(1, ...days.map(k => Object.values(map[k] || {}).reduce((a,b) => a+b, 0)));
+  $("#day-range").textContent = `${fmtDate(d.start)} – ${fmtDate(d.end)}`;
+  el.innerHTML = `<div class="cols">${days.map(k => {
+      const v = map[k] || {}, tot = Object.values(v).reduce((a,b)=>a+b,0);
+      return `<div class="col" data-tip="${fmtDate(k)}: ${tot} artikel${tot ? " — " + SOURCES.filter(s => v[s]).map(s => s + " " + v[s]).join(", ") : ""}">
+        ${SOURCES.filter(s => v[s]).map(s => `<div class="seg" style="height:${v[s]/max*100}%;background:${SRC_COLORS[s]};border-top:1px solid var(--surface)"></div>`).join("")}</div>`;
+    }).join("")}</div>
+    <div class="col-x">${days.map((k,i) => `<span>${i % 2 === 0 || days.length < 12 ? +k.slice(8) : ""}</span>`).join("")}</div>
+    <div class="legend">${SOURCES.map(s => `<span><span class="dot" style="background:${SRC_COLORS[s]}"></span>${s}</span>`).join("")}</div>`;
+  bindTips(el);
+}
+
+async function renderTrend(){
+  const el = $("#ch-trend"), ps = [...state.index.periods].reverse().slice(-8);
+  if (!ps.length){ el.innerHTML = `<div class="empty">Belum ada data</div>`; return; }
+  const all = await Promise.all(ps.map(loadPeriod));
+  const max = Math.max(1, ...all.map(d => d.articles.length));
+  el.innerHTML = `<div class="cols">${all.map(d => {
+      const v = Object.fromEntries(SOURCES.map(s => [s, d.articles.filter(x => x.source === s).length]));
+      return `<div class="col" data-tip="${esc(d.label)}: ${d.articles.length} artikel — ${SOURCES.map(s => s + " " + v[s]).join(", ")}">
+        ${SOURCES.filter(s => v[s]).map(s => `<div class="seg" style="height:${v[s]/max*100}%;background:${SRC_COLORS[s]};border-top:1px solid var(--surface)"></div>`).join("")}</div>`;
+    }).join("")}</div>
+    <div class="col-x">${all.map(d => { const [y,m,h] = d.period.split("-"); return `<span>${MONTHS[+m-1]} ${h}</span>`; }).join("")}</div>`;
+  bindTips(el);
+}
+
+function bindTips(el){
+  const tip = $("#tip");
+  el.querySelectorAll("[data-tip]").forEach(c => {
+    c.onmousemove = e => { tip.textContent = c.dataset.tip; tip.style.display = "block";
+      const x = Math.min(e.clientX + 12, innerWidth - tip.offsetWidth - 8); tip.style.left = x + "px"; tip.style.top = (e.clientY - 34) + "px"; };
+    c.onmouseleave = () => tip.style.display = "none";
+  });
+}
+
+function exportCSV(){
+  const rows = filtered();
+  const head = ["Tanggal","Sumber","Judul","Merek","Kategori","Highlight","Ringkasan","URL"];
+  const q = v => `"${String(v ?? "").replace(/"/g,'""')}"`;
+  const csv = [head, ...rows.map(x => [fmtDate(x.published), x.source, x.title, x.brands.join("; "), x.categories.join("; "), x.highlight ? "Ya" : "", x.summary, x.url])]
+    .map(r => r.map(q).join(",")).join("\r\n");
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob(["﻿" + csv], { type:"text/csv;charset=utf-8" }));
+  a.download = `motorcycle-issue-${state.data.period}.csv`; a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+
+init();
+</script>
+</body>
+</html>
