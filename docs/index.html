@@ -122,6 +122,12 @@ select:focus,input:focus,button:focus-visible{outline:2px solid var(--accent);ou
 .none{padding:40px;text-align:center;color:var(--muted)}
 footer{margin-top:30px;font-size:12px;color:var(--muted);text-align:center}
 
+.flag{width:20px;height:15px;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.14);vertical-align:-2px;object-fit:cover;flex:none}
+.flags{display:inline-flex;gap:4px;margin-left:auto}
+.tag .flag{width:16px;height:12px;margin-right:5px;vertical-align:-1px}
+.hbar .lbl .flag{width:18px;height:13.5px;margin-right:7px}
+.meta .star{margin-left:0}
+
 /* ---------- warna ---------- */
 body{background:
   radial-gradient(900px 420px at 0% -10%, color-mix(in srgb, var(--s1) 14%, transparent), transparent 70%),
@@ -226,6 +232,10 @@ const hashColor = k => PALETTE[[...k].reduce((h,c) => (h*31 + c.charCodeAt(0)) >
 const NO_COUNTRY = "(Tidak spesifik)";
 const COUNTRY_COLORS = {"Indonesia":"#dc2626","Jepang":"#db2777","China":"#d97706","Malaysia":"#2563eb","Thailand":"#7c3aed","India":"#ea580c",
   "Italia":"#16a34a","Spanyol":"#ca8a04","Eropa":"#4f46e5","Amerika Serikat":"#0891b2","(Tidak spesifik)":"#64748b"};
+const FLAGS = {"Indonesia":"id","Jepang":"jp","China":"cn","Malaysia":"my","Thailand":"th","Vietnam":"vn","Filipina":"ph","India":"in","Taiwan":"tw",
+  "Italia":"it","Spanyol":"es","Jerman":"de","Inggris":"gb","Prancis":"fr","Belanda":"nl","Austria":"at","Portugal":"pt","Ceko":"cz","Qatar":"qa",
+  "Amerika Serikat":"us","Brasil":"br","Argentina":"ar","Australia":"au","Eropa":"eu"};
+const flag = k => FLAGS[k] ? `<img class="flag" src="flags/${FLAGS[k]}.svg" alt="" loading="lazy">` : "";
 const countryColor = k => COUNTRY_COLORS[k] || hashColor(k);
 const catColor = k => CAT_COLORS[k] || hashColor(k);
 const brandColor = k => BRAND_COLORS[k] || hashColor(k);
@@ -378,7 +388,7 @@ function render(){
   hbars("#ch-brand", brandRows, state.brand, v => { state.brand = state.brand === v ? null : v; render(); }, brandColor);
   hbars("#ch-cat", count(filtered("cat"), x => x.categories), state.cat, v => { state.cat = state.cat === v ? null : v; render(); }, catColor);
   const countryAll = count(filtered("country"), x => (x.countries || []).length ? x.countries : [NO_COUNTRY]);
-  hbars("#ch-country", countryAll.slice(0, 10), state.country, v => { state.country = state.country === v ? null : v; render(); }, countryColor);
+  hbars("#ch-country", countryAll.slice(0, 10), state.country, v => { state.country = state.country === v ? null : v; render(); }, countryColor, null, flag);
   const fc = $("#f-country");
   fc.innerHTML = `<option value="">Semua negara</option>` + [...countryAll].sort((a,b) => a[0].localeCompare(b[0]))
     .map(([k,n]) => `<option value="${esc(k)}" ${state.country === k ? "selected" : ""}>${esc(k)} (${n})</option>`).join("");
@@ -418,14 +428,14 @@ function card(x){
   return `<article class="card issue${x.highlight ? " is-hl" : ""}" style="--c:${SRC_COLORS[x.source] || "var(--muted)"}" data-id="${esc(x.id)}">
     ${x.image ? `<div class="img" style="background-image:url('${esc(x.image)}')"></div>` : ""}
     <div class="body">
-      <div class="meta"><span class="src"><span class="dot" style="background:${SRC_COLORS[x.source] || "var(--muted)"}"></span>${esc(x.source)}</span><span>${fmtDate(x.published)}</span>${x.highlight ? `<span class="star">★ Highlight</span>` : ""}</div>
+      <div class="meta"><span class="src"><span class="dot" style="background:${SRC_COLORS[x.source] || "var(--muted)"}"></span>${esc(x.source)}</span><span>${fmtDate(x.published)}</span>${(x.countries || []).length ? `<span class="flags" title="${esc(x.countries.join(", "))}">${x.countries.map(flag).join("")}</span>` : ""}${x.highlight ? `<span class="star">★ Highlight</span>` : ""}</div>
       <h3><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></h3>
       ${x.points && x.points.length
         ? `<div class="sum-h">Poin penting <span class="by">${x.summary_by === "ai" ? "ringkasan AI" : x.locked ? "kurasi manual" : "ringkasan otomatis"}</span></div><ul class="points">${x.points.map(p => `<li>${esc(p)}</li>`).join("")}</ul>`
         : `<p>${esc(x.summary)}</p>`}
       <div class="tags">
         ${x.brands.map(b => `<span class="tag b" style="--c:${brandColor(b)}" data-brand="${esc(b)}">${esc(b)}</span>`).join("")}
-        ${(x.countries || []).map(c => `<span class="tag" style="--c:${countryColor(c)}" data-country="${esc(c)}" title="Negara">📍 ${esc(c)}</span>`).join("")}
+        ${(x.countries || []).map(c => `<span class="tag" style="--c:${countryColor(c)}" data-country="${esc(c)}" title="Negara">${flag(c) || "📍 "}${esc(c)}</span>`).join("")}
         ${x.categories.map(c => `<span class="tag" style="--c:${catColor(c)}" data-cat="${esc(c)}">${esc(c)}</span>`).join("")}
       </div>
       <div class="foot">${x.points && x.points.length ? "<span></span>" : "<button data-more>Selengkapnya</button>"}<a href="${esc(x.url)}" target="_blank" rel="noopener">Baca sumber ↗</a></div>
@@ -439,7 +449,7 @@ $("#list").addEventListener("click", e => {
   else if (t.hasAttribute("data-more")){ const c = t.closest(".issue"); c.classList.toggle("open"); t.textContent = c.classList.contains("open") ? "Ringkas" : "Selengkapnya"; }
 });
 
-function hbars(sel, rows, active, onClick, colorOf, activeSet){
+function hbars(sel, rows, active, onClick, colorOf, activeSet, iconOf){
   const el = $(sel);
   if (!rows.length || rows.every(r => !r[1])) { el.innerHTML = `<div class="empty">Belum ada data</div>`; return; }
   const max = Math.max(...rows.map(r => r[1]), 1);
@@ -447,7 +457,7 @@ function hbars(sel, rows, active, onClick, colorOf, activeSet){
     const on = active === k || (activeSet && activeSet.has(k));
     const dim = !on && (active || (activeSet && activeSet.size));
     return `<button class="hbar ${on ? "active" : ""} ${dim ? "dim" : ""}" style="--c:${colorOf(k)}" data-v="${esc(k)}" title="${esc(k)}: ${n}">
-      <span class="lbl"><span class="dot" style="background:var(--c)"></span>${esc(k)}</span><span class="track"><span class="fill" style="display:block;width:${n/max*100}%"></span></span><span class="n">${n}</span></button>`;
+      <span class="lbl">${(iconOf && iconOf(k)) || `<span class="dot" style="background:var(--c)"></span>`}${esc(k)}</span><span class="track"><span class="fill" style="display:block;width:${n/max*100}%"></span></span><span class="n">${n}</span></button>`;
   }).join("");
   el.onclick = e => { const b = e.target.closest(".hbar"); if (b) onClick(b.dataset.v); };
 }
