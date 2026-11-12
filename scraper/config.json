@@ -4,21 +4,19 @@
       "name": "Iwan Banaran",
       "base": "https://iwanbanaran.com/",
       "feeds": [
-        "https://iwanbanaran.com/feed",
-        "https://iwanbanaran.com/rss",
-        "https://iwanbanaran.com/feed/news"
+        "https://iwanbanaran.com/feed.xml"
       ],
       "sitemaps": [
-        "https://iwanbanaran.com/sitemap.xml",
         "https://iwanbanaran.com/sitemap_index.xml"
       ],
       "listing_pages": [
         "https://iwanbanaran.com/",
-        "https://iwanbanaran.com/news",
-        "https://iwanbanaran.com/news?page=2",
-        "https://iwanbanaran.com/news?page=3"
+        "https://iwanbanaran.com/news"
       ],
-      "article_url_regex": "/news/[a-z0-9-]{8,}"
+      "article_url_regex": "^/news/(?!page/)[a-z0-9-]{8,}$",
+      "listing_first_page": "https://iwanbanaran.com/news",
+      "listing_page_pattern": "https://iwanbanaran.com/news/page/{n}",
+      "ai_summary": false
     },
     {
       "name": "Pertamax7",

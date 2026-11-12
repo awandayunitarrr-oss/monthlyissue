@@ -299,7 +299,7 @@ def collect_from_homepage(src: dict, period: Period) -> list[Article]:
         for a in soup.find_all("a", href=True):
             href = urljoin(page, a["href"]).split("#")[0]
             if urlparse(href).netloc.endswith(urlparse(src["base"]).netloc.replace("www.", "")) \
-                    and pattern.search(href) and href not in links:
+                    and pattern.search(urlparse(href).path) and href not in links:
                 links.append(href)
     arts = []
     for url in links[: src.get("max_listing_urls", 80)]:
@@ -388,30 +388,89 @@ def is_relevant(article: Article, cfg: dict) -> bool:
 # --------------------------------------------------------------------------- #
 # Main
 # --------------------------------------------------------------------------- #
-def collect(span, cfg: dict) -> tuple[list[Article], dict]:
-    """Kumpulkan artikel semua sumber untuk rentang span.start..span.end (boleh lintas periode)."""
+def collect_from_listing(src: dict, span, skip: set[str]) -> list[Article]:
+    """Telusuri halaman arsip bernomor (terbaru → terlama) sampai melewati awal rentang."""
+    pattern_url = src.get("listing_page_pattern")
+    if not pattern_url:
+        return []
+    start_dt = datetime.combine(span.start, datetime.min.time(), WIB)
+    rx = re.compile(src.get("article_url_regex", r"/news/"))
+    host = urlparse(src["base"]).netloc.replace("www.", "")
+    seen = set(skip)
+    out: list[Article] = []
+    stale_pages = 0
+    for n in range(1, src.get("max_listing_pages", 200) + 1):
+        page = pattern_url.format(n=n) if n > 1 else src.get("listing_first_page", pattern_url.format(n=1))
+        r = get(page)
+        if not r:
+            break
+        links = []
+        for a in BeautifulSoup(r.text, "lxml").find_all("a", href=True):
+            href = urljoin(page, a["href"]).split("#")[0].split("?")[0]
+            if urlparse(href).netloc.endswith(host) and rx.search(urlparse(href).path) and href not in seen:
+                seen.add(href)
+                links.append(href)
+        if not links:
+            stale_pages += 1
+            if stale_pages >= 3 or n == 1:
+                break
+            continue
+        stale_pages = 0
+        fetched = []
+        for url in links:
+            time.sleep(0.25)
+            art = fetch_article(url, src["name"])
+            if art:
+                fetched.append(art)
+        out.extend(fetched)
+        if n % 5 == 0:
+            print(f"  … arsip hal. {n}: {len(out)} artikel", flush=True)
+        if fetched and max(a.published for a in fetched) < start_dt:
+            break
+    return out
+
+
+def collect(span, cfg: dict, deep: bool = False, only: set[str] | None = None) -> tuple[list[Article], dict]:
+    """Kumpulkan artikel semua sumber untuk rentang span.start..span.end (boleh lintas periode).
+
+    deep=True (backfill): bila feed tidak menjangkau awal rentang, lanjut ke halaman arsip/sitemap.
+    """
     start_dt = datetime.combine(span.start, datetime.min.time(), WIB)
     end_dt = datetime.combine(span.end, datetime.max.time(), WIB)
     collected: dict[str, Article] = {}
     methods = {}
     for src in cfg["sources"]:
-        print(f"→ {src['name']}")
-        arts: list[Article] = []
-        method = None
-        for method in ("feed", "sitemap", "homepage"):
-            fn = {"feed": collect_from_feed, "sitemap": collect_from_sitemap, "homepage": collect_from_homepage}[method]
+        if only and src["name"] not in only:
+            continue
+        print(f"→ {src['name']}", flush=True)
+        arts: dict[str, Article] = {}
+        used = []
+        for method in ("feed", "listing", "sitemap", "homepage"):
+            if method == "homepage" and arts:
+                break
             try:
-                arts = fn(src, span)
+                if method == "feed":
+                    got = collect_from_feed(src, span)
+                elif method == "listing":
+                    got = collect_from_listing(src, span, set(arts))
+                elif method == "sitemap":
+                    got = collect_from_sitemap(src, span)
+                else:
+                    got = collect_from_homepage(src, span)
             except Exception as e:  # noqa: BLE001 - lanjut ke metode berikutnya
                 print(f"  ! {method} gagal: {e}", file=sys.stderr)
-                arts = []
-            arts = [a for a in arts if start_dt <= a.published <= end_dt]
-            if arts:
+                got = []
+            new = [a for a in got if start_dt <= a.published <= end_dt and a.url not in arts]
+            if new:
+                used.append(method)
+                arts.update((a.url, a) for a in new)
+            reached = arts and min(a.published for a in arts.values()) <= start_dt + timedelta(days=3)
+            if arts and (not deep or reached):
                 break
-        print(f"  {len(arts)} artikel via {method if arts else '-'}")
-        methods[src["name"]] = method if arts else None
-        for a in arts:
-            collected.setdefault(a.url, a)
+        print(f"  {len(arts)} artikel via {'+'.join(used) or '-'}", flush=True)
+        methods[src["name"]] = "+".join(used) or None
+        for url, a in arts.items():
+            collected.setdefault(url, a)
     return list(collected.values()), methods
 
 
@@ -421,10 +480,6 @@ def run(period: Period, article_fetch: bool = True, pool: tuple[list[Article], d
     end_dt = datetime.combine(period.end, datetime.max.time(), WIB)
     all_arts, methods = pool if pool is not None else collect(period, cfg)
     articles = [a for a in all_arts if start_dt <= a.published <= end_dt]
-    report = {}
-    for src in cfg["sources"]:
-        n = sum(1 for a in articles if a.source == src["name"])
-        report[src["name"]] = {"count": n, "method": methods.get(src["name"]) if n else None}
     for a in articles:
         if article_fetch:
             enrich(a)
@@ -442,7 +497,7 @@ def run(period: Period, article_fetch: bool = True, pool: tuple[list[Article], d
     todo = [a for a in articles
             if not (existing.get(a.url, {}).get("locked")
                     or (existing.get(a.url, {}).get("summary_by") == "ai" and existing[a.url].get("points")))]
-    summarize.summarize_all(todo)
+    summarize.summarize_all(todo, frozenset(x["name"] for x in cfg["sources"] if x.get("ai_summary") is False))
 
     merged = []
     for a in articles:
@@ -462,6 +517,12 @@ def run(period: Period, article_fetch: bool = True, pool: tuple[list[Article], d
     merged.extend(existing.values())  # artikel lama yang tak muncul lagi tetap disimpan
     merged.sort(key=lambda x: x["published"], reverse=True)
     auto_highlight(merged, cfg)
+    prev_sources = old.get("sources", {}) if out_path.exists() else {}
+    report = {}
+    for src in cfg["sources"]:
+        n = sum(1 for d in merged if d["source"] == src["name"])
+        m = methods.get(src["name"]) or prev_sources.get(src["name"], {}).get("method")
+        report[src["name"]] = {"count": n, "method": m if n else None}
 
     payload = {
         "period": period.key,
@@ -528,7 +589,7 @@ def rehighlight_all() -> None:
     rebuild_index()
 
 
-def run_range(first: str, last: str, article_fetch: bool = True) -> None:
+def run_range(first: str, last: str, article_fetch: bool = True, only: set[str] | None = None) -> None:
     """Backfill beberapa periode sekaligus: feed ditelusuri satu kali, lalu dibagi per periode."""
     global MAX_FEED_PAGES
     p, end = Period.parse(first), Period.parse(last)
@@ -548,7 +609,7 @@ def run_range(first: str, last: str, article_fetch: bool = True) -> None:
         start, end = periods[0].start, periods[-1].end
 
     cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
-    pool = collect(Span, cfg)
+    pool = collect(Span, cfg, deep=True, only=only)
     for period in reversed(periods):
         print(f"Periode {period.key} ({period.label})")
         run(period, article_fetch=article_fetch, pool=pool)
@@ -594,6 +655,7 @@ def main() -> None:
                                      "(default: periode hari ini, WIB)")
     ap.add_argument("--no-article-fetch", action="store_true", help="jangan buka halaman artikel satu per satu")
     ap.add_argument("--no-ai", action="store_true", help="jangan pakai ringkasan AI walau ANTHROPIC_API_KEY tersedia")
+    ap.add_argument("--sources", help="backfill hanya sumber ini (nama dipisah koma), mis. \"Iwan Banaran\"")
     ap.add_argument("--probe", help="diagnostik: daftar URL dipisah spasi")
     ap.add_argument("--rehighlight", action="store_true", help="hitung ulang ★ highlight otomatis semua periode (tanpa scraping)")
     ap.add_argument("--reindex", action="store_true", help="hanya bangun ulang docs/data/index.json")
@@ -610,7 +672,8 @@ def main() -> None:
     if args.no_ai:
         summarize.USE_AI = False
     if args.period and ".." in args.period:
-        run_range(*args.period.split("..", 1), article_fetch=not args.no_article_fetch)
+        only = {x.strip() for x in args.sources.split(",")} if args.sources else None
+        run_range(*args.period.split("..", 1), article_fetch=not args.no_article_fetch, only=only)
         return
     period = Period.parse(args.period) if args.period else Period.for_day(datetime.now(WIB).date())
     print(f"Periode {period.key} ({period.label})")

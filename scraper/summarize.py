@@ -128,7 +128,7 @@ def _ai_points(client, title: str, source: str, text: str) -> list[str]:
     return [p.strip() for p in points if isinstance(p, str) and p.strip()][:5]
 
 
-def summarize_all(articles) -> None:
+def summarize_all(articles, no_ai_sources: frozenset = frozenset()) -> None:
     """Mengisi .points dan .summary_by pada setiap artikel."""
     client = None
     if USE_AI and os.environ.get("ANTHROPIC_API_KEY"):
@@ -141,7 +141,8 @@ def summarize_all(articles) -> None:
     ai_ok = ai_fail = 0
     for a in articles:
         text = a.text or a.summary
-        if client and len(text) > 200:
+        # sumber yang melarang kontennya dipakai sebagai input AI (robots.txt) selalu ekstraktif
+        if client and len(text) > 200 and a.source not in no_ai_sources:
             import anthropic
             try:
                 a.points = _ai_points(client, a.title, a.source, text)

@@ -13,6 +13,10 @@ on:
         description: "Periode (2026-05-H1) atau rentang (2026-01-H1..2026-11-H1). Kosongkan = periode hari ini"
         required: false
         default: ""
+      sources:
+        description: "Opsional, hanya untuk rentang: batasi ke sumber tertentu, mis. Iwan Banaran"
+        required: false
+        default: ""
       probe:
         description: "Diagnostik (opsional): daftar URL dipisah spasi; tidak mengubah data"
         required: false
@@ -69,7 +73,7 @@ jobs:
           if [ -n "${{ inputs.probe }}" ]; then
             python scraper/fetch_issues.py --probe "${{ inputs.probe }}"
           elif [ -n "${{ inputs.period }}" ]; then
-            python scraper/fetch_issues.py --period "${{ inputs.period }}"
+            python scraper/fetch_issues.py --period "${{ inputs.period }}" --sources "${{ inputs.sources }}"
           else
             python scraper/fetch_issues.py
           fi
