@@ -1,9 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "installCommand": null,
-  "buildCommand": null,
-  "outputDirectory": "docs",
+  "installCommand": "echo 'no install step'",
+  "buildCommand": "rm -rf public && mkdir -p public && cp -r docs/. public/ && ls -la public public/data | head -20",
+  "outputDirectory": "public",
   "headers": [
     {
       "source": "/data/(.*)",
