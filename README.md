@@ -48,3 +48,9 @@ Setiap artikel diringkas menjadi 3–5 poin (`scraper/summarize.py`):
 - **Dengan AI (opsional)**: tambahkan secret `ANTHROPIC_API_KEY` di
   **Settings → Secrets and variables → Actions → New repository secret**. Ringkasan lalu ditulis
   ulang oleh Claude dalam bahasa baku, dan artikel yang sudah diringkas AI tidak diringkas ulang.
+
+## Deploy di Vercel (opsional)
+
+`vercel.json` menyalin `docs/` ke `public/` dan menayangkannya sebagai situs statis.
+Di pengaturan proyek Vercel, **Root Directory harus kosong** (bukan `scraper`), kalau tidak
+folder `docs/` tidak terlihat saat build.
