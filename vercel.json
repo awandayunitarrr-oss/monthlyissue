@@ -1,9 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [
-    { "source": "/", "destination": "/docs/index.html" },
-    { "source": "/data/:path*", "destination": "/docs/data/:path*" }
-  ],
+  "framework": null,
+  "installCommand": null,
+  "buildCommand": null,
+  "outputDirectory": "docs",
   "headers": [
     {
       "source": "/data/(.*)",
