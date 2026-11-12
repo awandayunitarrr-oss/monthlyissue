@@ -263,15 +263,23 @@ def collect_from_sitemap(src: dict, period: Period, skip: set[str] | None = None
     lo = datetime.combine(period.start, datetime.min.time(), WIB) - timedelta(days=1)
     seen_maps: set[str] = set()
     queue = list(src.get("sitemaps", []))
-    while queue and len(seen_maps) < 80:
+    old_streak = 0  # sitemap berurutan yang seluruh isinya lebih tua dari rentang
+    while queue and len(seen_maps) < 80 and old_streak < 2:
         sm = queue.pop(0)
         if sm in seen_maps:
             continue
+        if seen_maps:
+            time.sleep(2)  # file sitemap besar; server sumber membatasi permintaan beruntun
         seen_maps.add(sm)
-        r = get(sm)
+        r = get(sm, retries=6)
         if not r:
             continue
         soup = BeautifulSoup(r.content, "xml")
+        mods = [parse_date(u.lastmod.text) for u in soup.find_all("url") if u.find("lastmod")]
+        mods = [m for m in mods if m]
+        if mods:
+            old_streak = old_streak + 1 if max(mods) < lo else 0
+            print(f"  sitemap {sm.rsplit('/', 1)[-1]}: {len(mods)} URL, {min(mods).date()} … {max(mods).date()}", flush=True)
         for s in soup.find_all("sitemap"):
             loc = s.find("loc")
             lm = parse_date(s.lastmod.text if s.find("lastmod") else None)
