@@ -13,6 +13,10 @@ on:
         description: "Periode (2026-05-H1) atau rentang (2026-01-H1..2026-11-H1). Kosongkan = periode hari ini"
         required: false
         default: ""
+      probe:
+        description: "Diagnostik (opsional): daftar URL dipisah spasi; tidak mengubah data"
+        required: false
+        default: ""
   push:
     branches: [main]
     paths: ["docs/**"]
@@ -62,7 +66,9 @@ jobs:
           # opsional: bila secret ini diisi, ringkasan ditulis oleh AI
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          if [ -n "${{ inputs.period }}" ]; then
+          if [ -n "${{ inputs.probe }}" ]; then
+            python scraper/fetch_issues.py --probe "${{ inputs.probe }}"
+          elif [ -n "${{ inputs.period }}" ]; then
             python scraper/fetch_issues.py --period "${{ inputs.period }}"
           else
             python scraper/fetch_issues.py

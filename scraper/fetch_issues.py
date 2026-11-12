@@ -149,6 +149,10 @@ def get(url: str, retries: int = 3, timeout: int = 25) -> requests.Response | No
             if r.status_code == 200:
                 return r
             print(f"  ! {url}: HTTP {r.status_code}", file=sys.stderr)
+            if r.status_code == 429:
+                time.sleep(min(int(r.headers.get("retry-after", "0") or 0), 60) or 10 * (i + 1))
+            if r.status_code in (520, 521, 522, 523):  # server sumber mati → tidak usah diulang
+                return None
             if r.status_code in (404, 410):
                 return None
         except requests.RequestException as e:
@@ -201,6 +205,7 @@ def shorten(text: str, limit: int = 600) -> str:
 def collect_from_feed(src: dict, period: Period) -> list[Article]:
     """WordPress-style RSS, menelusuri ?paged=N sampai melewati awal periode."""
     out: list[Article] = []
+    seen: set[str] = set()
     start_dt = datetime.combine(period.start, datetime.min.time(), WIB)
     for feed_url in src.get("feeds", []):
         for page in range(1, src.get("max_feed_pages", MAX_FEED_PAGES) + 1):
@@ -215,12 +220,16 @@ def collect_from_feed(src: dict, period: Period) -> list[Article]:
             if not items:
                 break
             oldest = None
+            before = len(seen)
             for it in items:
                 pub = parse_date(it.pubDate.text if it.pubDate else None)
                 link = (it.link.text if it.link else "").strip()
                 title = clean_text(it.title.text if it.title else "")
                 if not (pub and link and title):
                     continue
+                if link in seen:
+                    continue
+                seen.add(link)
                 oldest = pub if oldest is None or pub < oldest else oldest
                 content = it.find("encoded") or it.find("content:encoded")
                 desc = it.description.text if it.description else ""
@@ -236,6 +245,8 @@ def collect_from_feed(src: dict, period: Period) -> list[Article]:
                 text = clean_text(body_html)
                 out.append(Article(title=title, url=link, source=src["name"], published=pub,
                                    summary=shorten(text), image=image, text=text))
+            if len(seen) == before:  # halaman ini tidak membawa artikel baru → feed tidak berhalaman
+                break
             if oldest and oldest < start_dt:
                 break
         if out:
@@ -557,15 +568,39 @@ def rebuild_index() -> None:
                    ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def probe(urls: list[str]) -> None:
+    """Diagnostik: tampilkan bentuk respons beberapa URL (dipakai untuk menyetel sumber baru)."""
+    for url in urls:
+        try:
+            r = session.get(url, timeout=25)
+        except requests.RequestException as e:
+            print(f"== {url}\n   ERROR {e}")
+            continue
+        t = r.text
+        links = sorted(set(re.findall(r'href="([^"]+)"', t)))
+        print(f"== {url}\n   {r.status_code} {r.headers.get('content-type')} len={len(t)} final={r.url}")
+        print(f"   <loc>={t.count('<loc>')} <item>={t.count('<item')} lastmod={t.count('<lastmod>')} links={len(links)}")
+        print("   head:", re.sub(r"\s+", " ", t[:700]))
+        locs = re.findall(r"<loc>([^<]+)</loc>", t)
+        print("   loc sample:", locs[:6], "...", locs[-3:])
+        news = [l for l in links if "/news/" in l or re.search(r"/\d{4}/\d{2}/", l)]
+        print("   article-like links:", len(news), news[:5])
+        print("   pager-like links:", [l for l in links if re.search(r"page[=/]\d+", l)][:8])
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--period", help="YYYY-MM-H1 / YYYY-MM-H2, atau rentang 2026-01-H1..2026-11-H1 "
                                      "(default: periode hari ini, WIB)")
     ap.add_argument("--no-article-fetch", action="store_true", help="jangan buka halaman artikel satu per satu")
     ap.add_argument("--no-ai", action="store_true", help="jangan pakai ringkasan AI walau ANTHROPIC_API_KEY tersedia")
+    ap.add_argument("--probe", help="diagnostik: daftar URL dipisah spasi")
     ap.add_argument("--rehighlight", action="store_true", help="hitung ulang ★ highlight otomatis semua periode (tanpa scraping)")
     ap.add_argument("--reindex", action="store_true", help="hanya bangun ulang docs/data/index.json")
     args = ap.parse_args()
+    if args.probe:
+        probe(args.probe.split())
+        return
     if args.rehighlight:
         rehighlight_all()
         return
