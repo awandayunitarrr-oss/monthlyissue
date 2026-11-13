@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T01:52:12",
+  "updated_at": "2026-11-13T02:22:31",
   "launches": [
     {
       "id": "4a2dd382d9c3",
@@ -33,6 +33,38 @@
       "detail": null,
       "prev_detail": null,
       "title": "TVS Resmi Rilis Ronin Agonda di Indonesia, Dibanderol Mulai Rp 37 Jutaan!",
+      "previous_release": null
+    },
+    {
+      "id": "14744d2be785",
+      "date": "2026-10-23T08:01:02+07:00",
+      "brand": "Honda",
+      "model": "Honda Perbarui GROM 125",
+      "key": "honda|perbaruigrom125",
+      "specs": {
+        "price": null,
+        "engine": "125 cc",
+        "power": null,
+        "torque": null
+      },
+      "previous_from_article": {
+        "price": null,
+        "price_delta": null
+      },
+      "compare": [],
+      "articles": [
+        {
+          "title": "Honda Perbarui GROM 125 Model Year: Tampil Makin Sporty dengan Under-cowl & Warna Baru yang Menggoda!",
+          "url": "https://tmcblog.com/2026/10/23/honda-perbarui-grom-125-model-year-tampil-makin-sporty-dengan-under-cowl-warna-baru-yang-menggoda/?utm_source=rss&utm_medium=rss&utm_campaign=honda-perbarui-grom-125-model-year-tampil-makin-sporty-dengan-under-cowl-warna-baru-yang-menggoda",
+          "source": "TMC Blog",
+          "published": "2026-10-23T08:01:02+07:00"
+        }
+      ],
+      "image": "https://cdn.tmcblog.com/2026/10/grom-27-4.webp",
+      "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Honda Perbarui GROM 125 Model Year: Tampil Makin Sporty dengan Under-cowl & Warna Baru yang Menggoda!",
       "previous_release": null
     },
     {
@@ -102,8 +134,8 @@
       "previous_release": null
     },
     {
-      "id": "301d3e017227",
-      "date": "2026-10-02T06:20:42+07:00",
+      "id": "57cee0cc19ca",
+      "date": "2026-10-01T12:47:30+07:00",
       "brand": "Honda",
       "model": "Honda CRF1100L Africa Twin",
       "key": "honda|crf1100lafricatwin",
@@ -118,9 +150,16 @@
         "price_delta": null
       },
       "compare": [
+        "Sentuhan Grafis dan Warna Baru: Makin Clean & Bold Untuk penyegaran kali ini, Honda memfokuskan perubahannya pada detail visual yang bikin tongkrongan Africa Twin makin gagah: Varian Honda Tricolor: Suspensi depan ( fork ) dan pelek kini diberi sentuhan warna gold yang mewah.",
         "Motor penjelajah sejati yang diandalkan para pecinta touring jarak jauh ini kini tampil makin segar dengan balutan warna, grafis, serta detail baru yang sukses memancarkan karakter Adventure Rally yang jauh lebih kuat dan berwibawa!"
       ],
       "articles": [
+        {
+          "title": "AHM Segarkan Honda CRF1100L Africa Twin: Warna Baru, Sasis Hitam, dan Aksen Gold Makin Gagah!",
+          "url": "https://tmcblog.com/2026/10/01/ahm-segarkan-honda-crf1100l-africa-twin-warna-baru-sasis-hitam-dan-aksen-gold-makin-gagah/?utm_source=rss&utm_medium=rss&utm_campaign=ahm-segarkan-honda-crf1100l-africa-twin-warna-baru-sasis-hitam-dan-aksen-gold-makin-gagah",
+          "source": "TMC Blog",
+          "published": "2026-10-01T12:47:30+07:00"
+        },
         {
           "title": "Breaking ! AHM Rilis New CRF1100L Africa Twin 2027… — Idaman Tenan",
           "url": "https://iwanbanaran.com/news/breaking-ahm-rilis-new-crf1100l-africa-twin-2027-idaman-tenan",
@@ -128,11 +167,11 @@
           "published": "2026-10-02T06:20:42+07:00"
         }
       ],
-      "image": "https://iwanbanaran.com/api/og/breaking-ahm-rilis-new-crf1100l-africa-twin-2027-idaman-tenan",
-      "highlight": false,
+      "image": "https://cdn.tmcblog.com/2026/10/CRF1100L__GrandPrixRed.webp",
+      "highlight": true,
       "detail": null,
       "prev_detail": null,
-      "title": "Breaking ! AHM Rilis New CRF1100L Africa Twin 2027… — Idaman Tenan",
+      "title": "AHM Segarkan Honda CRF1100L Africa Twin: Warna Baru, Sasis Hitam, dan Aksen Gold Makin Gagah!",
       "previous_release": null
     },
     {
@@ -173,7 +212,19 @@
       "detail": null,
       "prev_detail": null,
       "title": "AHM Rilis Warna Baru Honda Stylo 160, Ada Royal Violet dan Glam Grey!",
-      "previous_release": null
+      "previous_release": {
+        "id": "2078a38a1855",
+        "date": "2026-04-02T21:47:16+07:00",
+        "model": "Honda Stylo",
+        "specs": {
+          "price": null,
+          "engine": "160 cc",
+          "power": null,
+          "torque": null
+        },
+        "url": "https://iwanbanaran.com/news/breaking-honda-new-stylo-2026-gebrak-indonesia-coklatnya-bikin-leleh-cakkk",
+        "title": "Breaking ! Honda New Stylo 2026 Gebrak Indonesia…coklatnya bikin leleh cakkk"
+      }
     },
     {
       "id": "ecc615cd333f",
@@ -1210,6 +1261,42 @@
       "previous_release": null
     },
     {
+      "id": "2078a38a1855",
+      "date": "2026-04-02T21:47:16+07:00",
+      "brand": "Honda",
+      "model": "Honda Stylo",
+      "key": "honda|stylo",
+      "specs": {
+        "price": null,
+        "engine": "160 cc",
+        "power": null,
+        "torque": null
+      },
+      "previous_from_article": {
+        "price": null,
+        "price_delta": null
+      },
+      "compare": [
+        "Skutik yang mengusung gaya modern klasik ini kini hadir dengan pilihan warna terbaru yang semakin memperkuat karakter retro dan elegan bagi para penggunanya .",
+        "Daya tarik utama dari pembaruan ini adalah hadirnya Varian ABS Spesial dengan balutan warna Burgundy .",
+        "New Honda Stylo 160 kini tersedia dalam 7 pilihan warna dengan rincian harga On The Road (OTR) Jakarta sebagai berikut : Last…new Stylo berarti tetap dipasarkan dalam dua tipe yakni ABS dan CBS, dengan total 7 pilihan warna yang semakin elegan."
+      ],
+      "articles": [
+        {
+          "title": "Breaking ! Honda New Stylo 2026 Gebrak Indonesia…coklatnya bikin leleh cakkk",
+          "url": "https://iwanbanaran.com/news/breaking-honda-new-stylo-2026-gebrak-indonesia-coklatnya-bikin-leleh-cakkk",
+          "source": "Iwan Banaran",
+          "published": "2026-04-02T21:47:16+07:00"
+        }
+      ],
+      "image": "https://iwanbanaran.com/api/og/breaking-honda-new-stylo-2026-gebrak-indonesia-coklatnya-bikin-leleh-cakkk",
+      "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Breaking ! Honda New Stylo 2026 Gebrak Indonesia…coklatnya bikin leleh cakkk",
+      "previous_release": null
+    },
+    {
       "id": "9684a49edeee",
       "date": "2026-03-16T14:01:20+07:00",
       "brand": "QJ Motor",
@@ -1426,6 +1513,139 @@
       "previous_release": null
     },
     {
+      "id": "05b0f50d963a",
+      "date": "2026-02-11T17:31:19+07:00",
+      "brand": "Honda",
+      "model": "Honda PCX 160",
+      "key": "honda|pcx160",
+      "specs": {
+        "price": null,
+        "engine": "160 cc",
+        "power": "8 KW",
+        "torque": null
+      },
+      "previous_from_article": {
+        "price": null,
+        "price_delta": null
+      },
+      "compare": [
+        "Yuk, kita kupas tuntas apa saja yang berubah dan bagaimana positioning harganya!"
+      ],
+      "articles": [
+        {
+          "title": "Strategi Warna Baru Honda PCX 160 2026 : Upaya AHM Perkuat Imej “Big Skutik” yang Semakin Mature",
+          "url": "https://tmcblog.com/2026/02/11/strategi-warna-baru-honda-pcx-160-2026-upaya-ahm-perkuat-imej-big-skutik-yang-semakin-mature/?utm_source=rss&utm_medium=rss&utm_campaign=strategi-warna-baru-honda-pcx-160-2026-upaya-ahm-perkuat-imej-big-skutik-yang-semakin-mature",
+          "source": "TMC Blog",
+          "published": "2026-02-11T17:31:19+07:00"
+        },
+        {
+          "title": "IIMS 2026 : New PCX160 Terbaru Gebrak Indonesia….woww birunya cakeppp",
+          "url": "https://iwanbanaran.com/news/iims-2026-new-pcx160-terbaru-gebrak-indonesia-woww-birunya-cakeppp",
+          "source": "Iwan Banaran",
+          "published": "2026-02-12T10:06:33+07:00"
+        }
+      ],
+      "image": "https://cdn.tmcblog.com/2026/02/AHM_NewPCX160_01.webp",
+      "highlight": true,
+      "detail": null,
+      "prev_detail": {
+        "brand": "Honda",
+        "model": "PCX160",
+        "key": "pcx160",
+        "year": 2025,
+        "variants": [
+          {
+            "name": "RoadSync",
+            "price": 40350000.0,
+            "colors": [
+              {
+                "name": "RoadSync Matte Black",
+                "hex": null,
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "RoadSync Red",
+                "hex": null,
+                "new": null,
+                "image": null
+              }
+            ],
+            "notes": [
+              "Contoh dari deck PPT Motorcycle Issue"
+            ]
+          },
+          {
+            "name": "ABS",
+            "price": 37350000.0,
+            "colors": [
+              {
+                "name": "Phenomenal Matte Red",
+                "hex": null,
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Phenomenal Matte Black",
+                "hex": null,
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Phenomenal White",
+                "hex": null,
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Phenomenal Matte Silver",
+                "hex": null,
+                "new": null,
+                "image": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "CBS",
+            "price": 33750000.0,
+            "colors": [
+              {
+                "name": "Exceptional Red",
+                "hex": null,
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Exceptional Black",
+                "hex": null,
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Exceptional White",
+                "hex": null,
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Exceptional Matte Silver",
+                "hex": null,
+                "new": null,
+                "image": null
+              }
+            ],
+            "notes": []
+          }
+        ],
+        "source": "manual",
+        "date": "2025-01-01",
+        "url": null
+      },
+      "title": "Strategi Warna Baru Honda PCX 160 2026 : Upaya AHM Perkuat Imej “Big Skutik” yang Semakin Mature",
+      "previous_release": null
+    },
+    {
       "id": "1fbfbafc7a4d",
       "date": "2026-02-11T09:09:29+07:00",
       "brand": "Yamaha",
@@ -1491,6 +1711,40 @@
       "detail": null,
       "prev_detail": null,
       "title": "Morbidelli Gebrak IIMS 2026: Rilis Moge Adventure T502X dan Cruiser Futuristis LFC700!",
+      "previous_release": null
+    },
+    {
+      "id": "69a630e045a3",
+      "date": "2026-02-05T20:25:16+07:00",
+      "brand": "Yamaha",
+      "model": "Yamaha IIMS",
+      "key": "yamaha|iims",
+      "specs": {
+        "price": 33900000.0,
+        "engine": null,
+        "power": null,
+        "torque": null
+      },
+      "previous_from_article": {
+        "price": null,
+        "price_delta": null
+      },
+      "compare": [
+        "Varian Cyber City kini naik kelas dengan hadirnya fitur ABS, plus perpaduan warna Matte Purple Black yang memberikan kesan futuristik ala vaporwave yang lagi tren."
+      ],
+      "articles": [
+        {
+          "title": "Yamaha Indonesia Gebrak IIMS 2026 dengan Aerox Alpha Cyber City ABS",
+          "url": "https://tmcblog.com/2026/02/05/yamaha-indonesia-gebrak-iims-2026-dengan-aerox-alpha-cyber-city/?utm_source=rss&utm_medium=rss&utm_campaign=yamaha-indonesia-gebrak-iims-2026-dengan-aerox-alpha-cyber-city",
+          "source": "TMC Blog",
+          "published": "2026-02-05T20:25:16+07:00"
+        }
+      ],
+      "image": "https://cdn.tmcblog.com/2026/02/aerox-cyber1.webp",
+      "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Yamaha Indonesia Gebrak IIMS 2026 dengan Aerox Alpha Cyber City ABS",
       "previous_release": null
     },
     {

@@ -323,8 +323,9 @@ def build(period_dir: Path, out_path: Path) -> list[dict]:
             g["detail"], g["title"] = {**L["detail"], "source": a["source"]}, a["title"]
         if detail_score(L.get("prev_detail")) > detail_score(g["prev_detail"]):
             g["prev_detail"] = L["prev_detail"]
-    for g in groups:
-        align_previous(g["detail"], g["prev_detail"])
+        for k in ("prev_official", "now_official"):
+            if L.get(k) and not g.get(k):
+                g[k] = L[k]
         g["image"] = g["image"] or a.get("image")
         if len(L["model"]) > len(g["model"]) and L["key"]:
             g["model"], g["key"] = L["model"], L["key"]
@@ -335,6 +336,26 @@ def build(period_dir: Path, out_path: Path) -> list[dict]:
         for s in L["compare"]:
             if not any(_similar(s, c) for c in g["compare"]) and len(g["compare"]) < 6:
                 g["compare"].append(s)
+    import official  # noqa: PLC0415 - hindari import melingkar saat modul dimuat
+    manual = official.load_manual()
+    for g in groups:
+        if g["detail"]:
+            g["detail"].setdefault("source", "artikel")
+        if g["prev_detail"]:
+            g["prev_detail"]["source"] = "artikel"
+        align_previous(g["detail"], g["prev_detail"])
+        # prioritas pembanding: isian manual > situs resmi (riwayat / Internet Archive) > artikel blog
+        year = int(g["date"][:4])
+        m_prev, m_now = official.manual_for(manual, g["brand"], g["model"], year)
+        o_prev, o_now = g.pop("prev_official", None), g.pop("now_official", None)
+        if o_now:
+            g["detail"] = {**o_now, "intro": (g["detail"] or {}).get("intro", ""), "source": o_now["source"]}
+        if m_now:
+            g["detail"] = {**m_now, "intro": (g["detail"] or {}).get("intro", ""), "url": (g["detail"] or {}).get("url")}
+        if o_prev:
+            g["prev_detail"] = o_prev
+        if m_prev:
+            g["prev_detail"] = m_prev
 
     # 2) rilis sebelumnya untuk model yang sama (di data yang ada)
     for i, g in enumerate(groups):

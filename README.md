@@ -54,3 +54,15 @@ Setiap artikel diringkas menjadi 3–5 poin (`scraper/summarize.py`):
 `vercel.json` menyalin `docs/` ke `public/` dan menayangkannya sebagai situs statis.
 Di pengaturan proyek Vercel, **Root Directory harus kosong** (bukan `scraper`), kalau tidak
 folder `docs/` tidak terlihat saat build.
+
+## Rilis Motor Indonesia & pembanding
+
+Menu **Rilis Motor Indonesia** mengumpulkan berita peluncuran motor di Indonesia dan membuat slide
+perbandingan "sebelumnya vs sekarang" per tipe (harga, warna, gambar). Sumber pembanding, urut prioritas:
+
+1. **Isian manual** — `manual/pembanding.csv` (lihat `manual/README.md`). Dipakai untuk Honda dan merek lain.
+2. **Situs resmi Yamaha** — halaman produk publik dicatat setiap update ke `docs/data/official/yamaha/`;
+   untuk rilis sebelum pencatatan dimulai dipakai arsip Internet Archive dari halaman resmi tersebut.
+3. **Artikel blog** — artikel rilis versi sebelumnya yang ditemukan otomatis.
+
+Situs resmi merek lain tidak diambil otomatis karena datanya hanya tersedia lewat API internal mereka.

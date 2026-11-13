@@ -178,6 +178,7 @@ footer{margin-top:30px;font-size:12px;color:var(--muted);text-align:center}
 @media (max-width:899px){.sl-body{grid-template-columns:1fr}}
 .sl-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px 10px;align-content:start;overflow:auto;min-height:0}
 .sl-year{background:#111;color:#fff;font-weight:800;font-size:20px;text-align:center;padding:4px;clip-path:polygon(0 0,100% 0,100% 100%,0 100%)}
+.sl-year small{display:block;font-size:10px;font-weight:500;opacity:.75;letter-spacing:.02em}
 .sl-cell{border:1.5px dashed #9aa0a6;border-radius:4px;padding:6px}
 .sl-cell.none{display:grid;place-items:center;color:#80868b;font-size:12px;text-align:center;min-height:60px}
 .sl-vh{display:flex;justify-content:space-between;align-items:center;gap:6px;margin-bottom:4px}
@@ -280,7 +281,8 @@ header.top select:focus,header.top button:focus-visible{outline-color:#fff}
         <option value="price-lo">Harga terendah</option>
       </select>
     </div>
-    <p class="note">Rilis motor yang diberitakan resmi meluncur di Indonesia. Spesifikasi & perbandingan diambil otomatis dari isi artikel, jadi bisa tidak lengkap — cek sumbernya untuk angka resmi.</p>
+    <p class="note">Rilis motor yang diberitakan resmi meluncur di Indonesia. Pembanding diambil dari: isian manual tim → situs resmi Yamaha (termasuk arsip web) → artikel blog. Data otomatis bisa tidak lengkap — cek sumbernya untuk angka resmi.
+      <a href="https://github.com/awandayunitarrr-oss/monthlyissue/edit/main/manual/pembanding.csv" target="_blank" rel="noopener">Isi / ubah pembanding manual ↗</a></p>
     <section class="rgrid" id="r-list"></section>
   </div>
 
@@ -627,17 +629,21 @@ const SWATCH = [["burgundy|maroon","#7f1d3a"],["red|merah","#c8102e"],["black|hi
   ["violet|purple|ungu|magenta","#7c3aed"],["gold|emas","#c9a227"],["pink","#ec4899"],["beige|cream|krem","#e8dcc0"]];
 const swatch = name => (SWATCH.find(([k]) => new RegExp("\\b(" + k + ")\\b", "i").test(name)) || [, "#9aa0a6"])[1];
 const yearOf = iso => iso ? new Date(iso).getFullYear() : "";
+const SRC_LABEL = d => !d ? "" : d.source === "manual" ? "isian manual"
+  : d.source === "official" ? `situs resmi · dicatat ${fmtDate(d.date)}`
+  : d.source === "wayback" ? `situs resmi · arsip web ${fmtDate(d.date)}`
+  : "artikel blog";
 function openSlide(id){
   const g = (state.launches || []).find(x => x.id === id);
-  if (!g || !g.detail) return;
-  const now = g.detail, prev = g.prev_detail;
+  if (!g || !(g.detail || g.prev_detail)) return;
+  const now = g.detail || { variants: [], url: g.articles[0].url, intro: "" }, prev = g.prev_detail;
   const vkey = v => v.name.toUpperCase();
   const names = [...new Set([...(now.variants || []).map(vkey), ...((prev?.variants) || []).map(vkey)])];
   const find = (d, k) => (d?.variants || []).find(v => vkey(v) === k);
   const prevColors = new Set((prev?.variants || []).flatMap(v => v.colors.map(c => c.name.toLowerCase())));
   const tile = (c, isNow) => {
     const isNew = isNow && (prev ? !prevColors.has(c.name.toLowerCase()) : c.new === true);
-    return `<div class="sl-tile">${isNew ? `<span class="new">NEW</span>` : ""}${c.image ? `<div class="im" style="background-image:url('${esc(c.image)}')"></div>` : `<div class="sw" style="background:${swatch(c.name)}"></div>`}<b>${esc(c.name)}</b></div>`;
+    return `<div class="sl-tile">${isNew ? `<span class="new">NEW</span>` : ""}${c.image ? `<div class="im" style="background-image:url('${esc(c.image)}')"></div>` : `<div class="sw" style="background:${c.hex || swatch(c.name)}"></div>`}<b>${esc(c.name)}</b></div>`;
   };
   const cell = (v, isNow, d) => !d ? (isNow ? "" : `<div class="sl-cell none">Artikel produk sebelumnya<br>tidak ditemukan otomatis</div>`)
     : !v ? `<div class="sl-cell none">–</div>`
@@ -651,12 +657,13 @@ function openSlide(id){
     <div class="sl-head"><span class="sl-news">NEWS</span><h2>${esc(g.title || g.model)}</h2>${flag("Indonesia")}</div>
     <div class="sl-body">
       <div class="sl-grid">
-        <div class="sl-year">${prev ? yearOf(prev.date) : "Sebelumnya"}</div><div class="sl-year">${yearOf(g.date)}</div>
+        <div class="sl-year">${prev ? (prev.year || yearOf(prev.date)) : "Sebelumnya"}<small>${esc(SRC_LABEL(prev))}</small></div>
+        <div class="sl-year">${yearOf(g.date)}<small>${esc(SRC_LABEL(g.detail))}</small></div>
         ${names.length > 1 && !prev ? `<div class="sl-cell none" style="grid-row:span ${names.length}">Artikel produk sebelumnya<br>tidak ditemukan otomatis</div>` + names.map(k => cell(find(now, k), true, now)).join("") : rows}
       </div>
       <div class="sl-notes">${now.intro ? `<div class="sl-box">${esc(now.intro)}</div>` : ""}${boxes}</div>
     </div>
-    <div class="sl-src">*Source : ${esc(now.url)}${prev ? ` · Pembanding: ${esc(prev.url)}` : ""}</div>`;
+    <div class="sl-src">*Source : ${esc(now.archive_url || now.url || g.articles[0].url)}${prev ? ` · Pembanding (${esc(SRC_LABEL(prev))}): ${esc(prev.archive_url || prev.url || "manual/pembanding.csv")}` : ""}</div>`;
   $("#slide-wrap").hidden = false;
   $("#sl-close").focus();
 }
@@ -720,7 +727,7 @@ function launchCard(g){
     <div class="srcs">${g.articles.map(a => `<a href="${esc(a.url)}" target="_blank" rel="noopener" title="${esc(a.title)}"><span class="dot" style="background:${SRC_COLORS[a.source] || "var(--muted)"}"></span>${esc(a.source)} ↗</a>`).join("")}</div>
     ${table}
     ${cmp}
-    ${g.detail && (g.detail.variants || []).length ? `<div class="actions"><button data-slide="${esc(g.id)}">Lihat slide perbandingan →</button></div>` : ""}
+    ${(g.detail?.variants || []).length || (g.prev_detail?.variants || []).length ? `<div class="actions"><button data-slide="${esc(g.id)}">Lihat slide perbandingan →</button></div>` : ""}
   </article>`;
 }
 function renderLaunches(){

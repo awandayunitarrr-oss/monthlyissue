@@ -1625,7 +1625,28 @@
       "highlight_by": "auto",
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda Stylo",
+        "key": "honda|stylo",
+        "specs": {
+          "price": null,
+          "engine": "160 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Skutik yang mengusung gaya modern klasik ini kini hadir dengan pilihan warna terbaru yang semakin memperkuat karakter retro dan elegan bagi para penggunanya .",
+          "Daya tarik utama dari pembaruan ini adalah hadirnya Varian ABS Spesial dengan balutan warna Burgundy .",
+          "New Honda Stylo 160 kini tersedia dalam 7 pilihan warna dengan rincian harga On The Road (OTR) Jakarta sebagai berikut : Last…new Stylo berarti tetap dipasarkan dalam dua tipe yakni ABS dan CBS, dengan total 7 pilihan warna yang semakin elegan."
+        ],
+        "analyzed_at": "2026-11-13T02:22:05",
+        "full": false
+      }
     },
     {
       "id": "d1b266f63508",

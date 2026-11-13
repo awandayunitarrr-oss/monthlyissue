@@ -2438,7 +2438,26 @@
       "highlight_by": "auto",
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda CRF1100L Africa Twin",
+        "key": "honda|crf1100lafricatwin",
+        "specs": {
+          "price": 665000000.0,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Sentuhan Grafis dan Warna Baru: Makin Clean & Bold Untuk penyegaran kali ini, Honda memfokuskan perubahannya pada detail visual yang bikin tongkrongan Africa Twin makin gagah: Varian Honda Tricolor: Suspensi depan ( fork ) dan pelek kini diberi sentuhan warna gold yang mewah."
+        ],
+        "analyzed_at": "2026-11-13T02:22:05",
+        "full": false
+      }
     },
     {
       "id": "f96e516b7079",

@@ -32,6 +32,7 @@ import requests
 from bs4 import BeautifulSoup
 
 import launches
+import official
 import summarize
 
 WIB = timezone(timedelta(hours=7))
@@ -770,6 +771,13 @@ def launch_detail(a: dict, cfg: dict) -> None:
         if sc >= 6:
             break
     a["launch"]["prev_detail"] = best
+    if a["brands"][0] == "Yamaha":
+        try:
+            prev, now = official.yamaha_compare(get, a["launch"]["model"], a["published"])
+        except Exception as e:  # noqa: BLE001
+            print(f"  ! situs resmi {a['url']}: {e}", file=sys.stderr)
+            prev = now = None
+        a["launch"]["prev_official"], a["launch"]["now_official"] = prev, now
 
 
 def enrich_launches(force: bool = False) -> None:
@@ -781,7 +789,8 @@ def enrich_launches(force: bool = False) -> None:
         n = 0
         for a in d["articles"]:
             L = a.get("launch") or {}
-            if not launches.is_launch(a) or (L.get("full") and "detail" in L and not force):
+            yamaha_todo = a.get("brands", [""])[:1] == ["Yamaha"] and "prev_official" not in L
+            if not launches.is_launch(a) or (L.get("full") and "detail" in L and not yamaha_todo and not force):
                 continue
             time.sleep(0.4)
             if not L.get("full") or force:
@@ -876,6 +885,7 @@ def main() -> None:
     ap.add_argument("--sources", help="backfill hanya sumber ini (nama dipisah koma), mis. \"Iwan Banaran\"")
     ap.add_argument("--probe", help="diagnostik: daftar URL dipisah spasi")
     ap.add_argument("--debug-launch", nargs="+", metavar="URL", help="diagnostik: tampilkan hasil analisis rilis untuk URL artikel")
+    ap.add_argument("--snapshot-official", action="store_true", help="simpan kondisi terkini halaman produk resmi Yamaha")
     ap.add_argument("--enrich-launches", action="store_true", help="ambil spesifikasi & perbandingan untuk artikel rilis motor di Indonesia")
     ap.add_argument("--force", action="store_true", help="dengan --enrich-launches: analisis ulang semua")
     ap.add_argument("--retag-countries", action="store_true", help="isi ulang tag negara semua periode (tanpa scraping)")
@@ -887,6 +897,10 @@ def main() -> None:
         return
     if args.debug_launch:
         debug_launch(args.debug_launch)
+        return
+    if args.snapshot_official:
+        print(f"Situs resmi Yamaha: {official.snapshot_yamaha(get)} produk berubah/tercatat")
+        rebuild_index()
         return
     if args.enrich_launches:
         enrich_launches(force=args.force)
@@ -909,6 +923,10 @@ def main() -> None:
     period = Period.parse(args.period) if args.period else Period.for_day(datetime.now(WIB).date())
     print(f"Periode {period.key} ({period.label})")
     run(period, article_fetch=not args.no_article_fetch)
+    try:
+        print(f"Situs resmi Yamaha: {official.snapshot_yamaha(get)} produk berubah/tercatat")
+    except Exception as e:  # noqa: BLE001 - jangan gagalkan update karena situs resmi
+        print(f"  ! snapshot Yamaha: {e}", file=sys.stderr)
     enrich_launches()  # rilis baru di periode ini: detail tipe/warna + produk sebelumnya
 
 

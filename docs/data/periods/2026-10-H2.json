@@ -1583,7 +1583,24 @@
         "Indonesia",
         "Jepang",
         "Thailand"
-      ]
+      ],
+      "launch": {
+        "model": "Honda Perbarui GROM 125",
+        "key": "honda|perbaruigrom125",
+        "specs": {
+          "price": null,
+          "engine": "125 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T02:22:05",
+        "full": false
+      }
     },
     {
       "id": "580054ed147b",

@@ -477,7 +477,24 @@
       "highlight_by": "auto",
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "PCX160",
+        "key": "honda|pcx160",
+        "specs": {
+          "price": null,
+          "engine": "160 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T02:22:05",
+        "full": false
+      }
     },
     {
       "id": "4ef70ed3cdbe",
@@ -624,7 +641,26 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda PCX 160",
+        "key": "honda|pcx160",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": "8 KW",
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Yuk, kita kupas tuntas apa saja yang berubah dan bagaimana positioning harganya!"
+        ],
+        "analyzed_at": "2026-11-13T02:22:05",
+        "full": false
+      }
     },
     {
       "id": "c6618d382909",
@@ -1381,7 +1417,26 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha IIMS",
+        "key": "yamaha|iims",
+        "specs": {
+          "price": 33900000.0,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Varian Cyber City kini naik kelas dengan hadirnya fitur ABS, plus perpaduan warna Matte Purple Black yang memberikan kesan futuristik ala vaporwave yang lagi tren."
+        ],
+        "analyzed_at": "2026-11-13T02:22:05",
+        "full": false
+      }
     },
     {
       "id": "68004781f40c",
