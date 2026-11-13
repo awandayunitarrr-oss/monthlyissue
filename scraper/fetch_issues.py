@@ -843,6 +843,11 @@ def probe(urls: list[str]) -> None:
         print("   pager-like links:", [l for l in links if re.search(r"page[=/]\d+", l)][:8])
         prod = [l for l in links if re.search(r"product|produk|motor/|price|harga|pricelist|/model", l, re.I)]
         print("   product-like links:", len(prod), prod[:40])
+        print("   all links:", links[:70])
+        scripts = re.findall(r'<script[^>]+src="([^"]+)"', t)
+        print("   scripts:", scripts[:12])
+        apis = sorted(set(re.findall(r'["\'](/?(?:api|wp-json|ajax)[^"\'\s]{2,120})["\']', t)))
+        print("   api-like:", apis[:30])
         if "json" in (r.headers.get("content-type") or "") or t.lstrip().startswith("["):
             print("   json:", re.sub(r"\s+", " ", t[:2500]))
         for kw in ("Rp", "harga", "__NEXT_DATA__", "price"):
