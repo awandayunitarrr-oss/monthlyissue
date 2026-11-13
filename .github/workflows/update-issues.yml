@@ -35,7 +35,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: motorcycle-issue
+  # probe hanya membaca → boleh jalan bersamaan dengan run yang mengubah data
+  group: motorcycle-issue-${{ (github.event.inputs.probe != '' && github.event.inputs.task == '') && github.run_id || 'data' }}
   cancel-in-progress: false
 
 jobs:
