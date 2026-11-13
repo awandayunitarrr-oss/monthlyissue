@@ -147,8 +147,17 @@ session = requests.Session()
 session.headers.update(HEADERS)
 
 
+_last_hit: dict[str, float] = {}
+HOST_GAP = 1.5  # detik minimal antar permintaan ke host yang sama (TMC Blog membalas 429 bila terlalu rapat)
+
+
 def get(url: str, retries: int = 3, timeout: int = 25) -> requests.Response | None:
+    host = urlparse(url).netloc
     for i in range(retries):
+        wait = _last_hit.get(host, 0) + HOST_GAP - time.time()
+        if wait > 0:
+            time.sleep(wait)
+        _last_hit[host] = time.time()
         try:
             r = session.get(url, timeout=timeout)
             if r.status_code == 200:
