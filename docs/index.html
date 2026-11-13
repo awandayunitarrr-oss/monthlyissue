@@ -163,6 +163,44 @@ footer{margin-top:30px;font-size:12px;color:var(--muted);text-align:center}
 .cmp .prev{font-size:12px;margin-bottom:6px}
 .cmp .empty{padding:0}
 
+.rcard .actions{display:flex;justify-content:flex-end}
+.rcard .actions button{background:var(--c);border-color:var(--c);color:#fff;font-weight:600;font-size:13px}
+#slide-wrap{position:fixed;inset:0;z-index:20;background:rgba(10,12,16,.72);overflow:auto;padding:16px}
+.slide-bar{max-width:1280px;margin:0 auto 10px;display:flex;justify-content:flex-end;gap:8px}
+.slide{--ink:#14171c;max-width:1280px;margin:0 auto;background:#fff;color:var(--ink);border-radius:6px;padding:14px 18px 10px;
+  font-size:13px;box-shadow:0 20px 50px rgba(0,0,0,.4)}
+@media (min-width:900px){.slide{aspect-ratio:16/9;display:flex;flex-direction:column;overflow:hidden}}
+.sl-head{display:flex;align-items:center;gap:12px;background:linear-gradient(90deg,#e9e9ea,#f6f6f7);margin:-14px -18px 10px;padding:8px 18px}
+.sl-news{font-weight:800;font-size:11px;color:#c8102e;border:2px solid #14171c;border-radius:4px;padding:2px 5px;background:#fff8d6}
+.sl-head h2{margin:0;font-size:22px;flex:1;letter-spacing:-.01em;color:#14171c}
+.sl-head .flag{width:46px;height:34px}
+.sl-body{display:grid;grid-template-columns:1.1fr .9fr;gap:14px;flex:1;min-height:0}
+@media (max-width:899px){.sl-body{grid-template-columns:1fr}}
+.sl-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px 10px;align-content:start;overflow:auto;min-height:0}
+.sl-year{background:#111;color:#fff;font-weight:800;font-size:20px;text-align:center;padding:4px;clip-path:polygon(0 0,100% 0,100% 100%,0 100%)}
+.sl-cell{border:1.5px dashed #9aa0a6;border-radius:4px;padding:6px}
+.sl-cell.none{display:grid;place-items:center;color:#80868b;font-size:12px;text-align:center;min-height:60px}
+.sl-vh{display:flex;justify-content:space-between;align-items:center;gap:6px;margin-bottom:4px}
+.sl-vname{font-weight:800;font-size:15px;letter-spacing:.02em}
+.sl-price{background:#fde7e9;color:#14171c;font-weight:800;font-size:15px;padding:1px 8px;border-radius:3px;white-space:nowrap}
+.sl-colors{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:6px}
+.sl-tile{text-align:center;font-size:10.5px;line-height:1.2;position:relative}
+.sl-tile .im{height:62px;background:center/contain no-repeat;margin-bottom:2px}
+.sl-tile .sw{height:44px;width:44px;border-radius:50%;margin:6px auto 4px;border:1px solid rgba(0,0,0,.2);box-shadow:inset 0 -6px 10px rgba(0,0,0,.18)}
+.sl-tile .new{position:absolute;left:2px;top:2px;background:#c8102e;color:#fff;font-size:8px;font-weight:800;padding:1px 4px;border-radius:2px}
+.sl-tile b{font-weight:700}
+.sl-notes{display:flex;flex-direction:column;gap:8px;overflow:auto;min-height:0}
+.sl-box{background:#fbeaec;border:1.5px dashed #c98c96;border-radius:6px;padding:8px 10px;font-size:13px;line-height:1.4}
+.sl-box ul{margin:4px 0 0;padding-left:18px}
+.sl-src{font-size:12px;font-style:italic;margin-top:6px;word-break:break-all}
+@media print{
+  @page{size:A4 landscape;margin:8mm}
+  body *{visibility:hidden}
+  #slide,#slide *{visibility:visible}
+  #slide{position:absolute;left:0;top:0;width:100%;max-width:none;box-shadow:none;aspect-ratio:auto}
+  #slide-wrap{position:static;background:none;padding:0}
+}
+
 /* ---------- warna ---------- */
 body{background:
   radial-gradient(900px 420px at 0% -10%, color-mix(in srgb, var(--s1) 14%, transparent), transparent 70%),
@@ -277,6 +315,10 @@ header.top select:focus,header.top button:focus-visible{outline-color:#fff}
   <footer>Data di-update otomatis tiap tanggal 15 dan hari terakhir bulan (23:30 WIB) via GitHub Actions.</footer>
 </div>
 <div class="tip" id="tip"></div>
+<div id="slide-wrap" hidden role="dialog" aria-modal="true" aria-label="Slide perbandingan">
+  <div class="slide-bar"><button id="sl-print">Cetak / simpan PDF</button><button id="sl-close">Tutup ✕</button></div>
+  <div class="slide" id="slide"></div>
+</div>
 
 <script>
 const SRC_COLORS = {"Iwan Banaran":"var(--s1)","Pertamax7":"var(--s2)","TMC Blog":"var(--s3)"};
@@ -578,6 +620,52 @@ function bindTips(el){
   });
 }
 
+// ---------- slide perbandingan ----------
+const SWATCH = [["burgundy|maroon","#7f1d3a"],["red|merah","#c8102e"],["black|hitam","#16181d"],["white|putih","#f4f4f5"],["navy","#1e3a8a"],
+  ["blue|biru","#1d4ed8"],["green|hijau","#15803d"],["teal|turquoise|cyan","#0e9aa7"],["titanium","#8a8d91"],["grey|gray|abu","#6b7280"],
+  ["silver|perak","#c0c4cc"],["bronze","#a0662f"],["brown|coklat|cokelat","#6f4429"],["yellow|kuning","#facc15"],["orange|oranye","#f97316"],
+  ["violet|purple|ungu|magenta","#7c3aed"],["gold|emas","#c9a227"],["pink","#ec4899"],["beige|cream|krem","#e8dcc0"]];
+const swatch = name => (SWATCH.find(([k]) => new RegExp("\\b(" + k + ")\\b", "i").test(name)) || [, "#9aa0a6"])[1];
+const yearOf = iso => iso ? new Date(iso).getFullYear() : "";
+function openSlide(id){
+  const g = (state.launches || []).find(x => x.id === id);
+  if (!g || !g.detail) return;
+  const now = g.detail, prev = g.prev_detail;
+  const vkey = v => v.name.toUpperCase();
+  const names = [...new Set([...(now.variants || []).map(vkey), ...((prev?.variants) || []).map(vkey)])];
+  const find = (d, k) => (d?.variants || []).find(v => vkey(v) === k);
+  const prevColors = new Set((prev?.variants || []).flatMap(v => v.colors.map(c => c.name.toLowerCase())));
+  const tile = (c, isNow) => {
+    const isNew = isNow && (prev ? !prevColors.has(c.name.toLowerCase()) : c.new === true);
+    return `<div class="sl-tile">${isNew ? `<span class="new">NEW</span>` : ""}${c.image ? `<div class="im" style="background-image:url('${esc(c.image)}')"></div>` : `<div class="sw" style="background:${swatch(c.name)}"></div>`}<b>${esc(c.name)}</b></div>`;
+  };
+  const cell = (v, isNow, d) => !d ? (isNow ? "" : `<div class="sl-cell none">Artikel produk sebelumnya<br>tidak ditemukan otomatis</div>`)
+    : !v ? `<div class="sl-cell none">–</div>`
+    : `<div class="sl-cell"><div class="sl-vh"><span class="sl-vname">${esc(v.name.toUpperCase())}</span>${v.price ? `<span class="sl-price">${esc(rupiah(v.price).replace("Rp ", ""))}</span>` : ""}</div>
+       <div class="sl-colors">${v.colors.map(c => tile(c, isNow)).join("") || `<span class="na">warna tidak disebut</span>`}</div></div>`;
+  const rows = names.map((k, i) => `${i === 0 || prev ? cell(find(prev, k), false, prev) : (i === 0 ? "" : "<div></div>")}${cell(find(now, k), true, now)}`).join("");
+  const boxes = (now.variants || []).map(v => `<div class="sl-box"><b>${v.name === "Semua tipe" ? "Pilihan warna" : "Tipe " + esc(v.name)}</b>
+      <ul>${v.colors.length ? `<li>Warna: ${v.colors.map(c => esc(c.name)).join(", ")}.</li>` : ""}${v.price ? `<li>Harga: ${rupiah(v.price)}${(() => { const pv = find(prev, vkey(v)); return pv?.price ? ` (sebelumnya ${rupiah(pv.price)}${priceDelta(pv.price, v.price)})` : ""; })()}</li>` : ""}
+      ${(v.notes || []).slice(0, 2).map(n => `<li>${esc(n.length > 220 ? n.slice(0, 217) + "…" : n)}</li>`).join("")}</ul></div>`).join("");
+  $("#slide").innerHTML = `
+    <div class="sl-head"><span class="sl-news">NEWS</span><h2>${esc(g.title || g.model)}</h2>${flag("Indonesia")}</div>
+    <div class="sl-body">
+      <div class="sl-grid">
+        <div class="sl-year">${prev ? yearOf(prev.date) : "Sebelumnya"}</div><div class="sl-year">${yearOf(g.date)}</div>
+        ${names.length > 1 && !prev ? `<div class="sl-cell none" style="grid-row:span ${names.length}">Artikel produk sebelumnya<br>tidak ditemukan otomatis</div>` + names.map(k => cell(find(now, k), true, now)).join("") : rows}
+      </div>
+      <div class="sl-notes">${now.intro ? `<div class="sl-box">${esc(now.intro)}</div>` : ""}${boxes}</div>
+    </div>
+    <div class="sl-src">*Source : ${esc(now.url)}${prev ? ` · Pembanding: ${esc(prev.url)}` : ""}</div>`;
+  $("#slide-wrap").hidden = false;
+  $("#sl-close").focus();
+}
+$("#r-list").addEventListener("click", e => { const b = e.target.closest("[data-slide]"); if (b) openSlide(b.dataset.slide); });
+$("#sl-close").onclick = () => { $("#slide-wrap").hidden = true; };
+$("#slide-wrap").addEventListener("click", e => { if (e.target.id === "slide-wrap") $("#slide-wrap").hidden = true; });
+document.addEventListener("keydown", e => { if (e.key === "Escape") $("#slide-wrap").hidden = true; });
+$("#sl-print").onclick = () => window.print();
+
 // ---------- rilis motor Indonesia ----------
 function periodRange(key){
   const [y, m, h] = key.split("-");
@@ -632,6 +720,7 @@ function launchCard(g){
     <div class="srcs">${g.articles.map(a => `<a href="${esc(a.url)}" target="_blank" rel="noopener" title="${esc(a.title)}"><span class="dot" style="background:${SRC_COLORS[a.source] || "var(--muted)"}"></span>${esc(a.source)} ↗</a>`).join("")}</div>
     ${table}
     ${cmp}
+    ${g.detail && (g.detail.variants || []).length ? `<div class="actions"><button data-slide="${esc(g.id)}">Lihat slide perbandingan →</button></div>` : ""}
   </article>`;
 }
 function renderLaunches(){
