@@ -790,7 +790,8 @@ def enrich_launches(force: bool = False) -> None:
         for a in d["articles"]:
             L = a.get("launch") or {}
             yamaha_todo = a.get("brands", [""])[:1] == ["Yamaha"] and "prev_official" not in L
-            if not launches.is_launch(a) or (L.get("full") and "detail" in L and not yamaha_todo and not force):
+            spec_todo = "spec_table" not in (L.get("detail") or {})
+            if not launches.is_launch(a) or (L.get("full") and "detail" in L and not yamaha_todo and not spec_todo and not force):
                 continue
             time.sleep(0.4)
             if not L.get("full") or force:

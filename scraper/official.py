@@ -26,6 +26,7 @@ YAMAHA = "https://www.yamaha-motor.co.id"
 ROOT = Path(__file__).resolve().parent.parent
 STORE = ROOT / "docs" / "data" / "official"
 MANUAL_CSV = ROOT / "manual" / "pembanding.csv"
+MANUAL_SPEC_CSV = ROOT / "manual" / "spesifikasi.csv"
 
 
 def _price(text: str) -> float | None:
@@ -76,7 +77,14 @@ def parse_yamaha(html: bytes | str, url: str) -> dict | None:
                     variants.append({"name": v.get("name", ""), "price": price, "colors": [], "notes": []})
                 if isinstance(item, dict) and item.get("@type") == "ProductGroup" and not name:
                     name = item.get("name", "")
-    if not variants:
+    spec_lines = []
+    for tr in soup.select("table.sec4-table tr"):
+        tds = [td.get_text(" ", strip=True) for td in tr.find_all("td")]
+        if len(tds) >= 2:
+            spec_lines.append(f"{tds[0]} : {tds[-1]}")
+    from launches import spec_table_from_lines  # noqa: PLC0415
+    spec_table = spec_table_from_lines(spec_lines)
+    if not variants and not spec_table:
         return None
     # gabungkan blok dengan nama tipe sama (satu blok per warna di beberapa halaman)
     merged: dict[str, dict] = {}
@@ -87,7 +95,7 @@ def parse_yamaha(html: bytes | str, url: str) -> dict | None:
             merged[k]["price"] = merged[k]["price"] or v["price"]
         else:
             merged[k] = v
-    return {"name": name, "url": url, "variants": list(merged.values())}
+    return {"name": name, "url": url, "variants": list(merged.values()), "spec_table": spec_table}
 
 
 def yamaha_product_urls(get) -> list[str]:
@@ -105,7 +113,7 @@ def yamaha_product_urls(get) -> list[str]:
 
 def _same(a: dict, b: dict) -> bool:
     sig = lambda d: [(v["name"], v["price"], tuple(c["name"] for c in v["colors"])) for v in d["variants"]]  # noqa: E731
-    return sig(a) == sig(b)
+    return sig(a) == sig(b) and (a.get("spec_table") or {}) == (b.get("spec_table") or {})
 
 
 def _store_path(slug: str) -> Path:
@@ -118,8 +126,11 @@ def record(slug: str, entry: dict) -> bool:
     p.parent.mkdir(parents=True, exist_ok=True)
     data = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {"slug": slug, "history": []}
     hist = data["history"]
-    if any(h["date"][:10] == entry["date"][:10] and h["source"] == entry["source"] for h in hist):
-        return False
+    same_day = next((h for h in hist if h["date"][:10] == entry["date"][:10] and h["source"] == entry["source"]), None)
+    if same_day is not None:
+        if _same(same_day, entry):
+            return False
+        hist.remove(same_day)  # catatan hari yang sama diperbarui (mis. setelah pembaca diperluas)
     same_before = [h for h in hist if h["date"] <= entry["date"]]
     if same_before and _same(same_before[-1], entry) and entry["source"] == "official":
         return False
@@ -241,6 +252,22 @@ def load_manual() -> list[dict]:
                 "colors": [{"name": c, "hex": None, "new": None, "image": images[i] if i < len(images) and images[i] else None}
                            for i, c in enumerate(colors)],
                 "notes": [row["catatan"]] if row.get("catatan") else []})
+    if MANUAL_SPEC_CSV.exists():
+        from launches import spec_from_line  # noqa: PLC0415
+        with MANUAL_SPEC_CSV.open(encoding="utf-8-sig", newline="") as f:
+            for row in csv.DictReader(f):
+                row = {k.strip().lower(): (v or "").strip() for k, v in row.items() if k}
+                if not row.get("model") or not row.get("tahun") or not row.get("spesifikasi") or row.get("merek", "").startswith("#"):
+                    continue
+                try:
+                    year = int(row["tahun"])
+                except ValueError:
+                    continue
+                k = (row.get("merek", "").lower(), _norm(row["model"]), year)
+                g = groups.setdefault(k, {"brand": row.get("merek", ""), "model": row["model"], "key": k[1], "year": year,
+                                          "variants": [], "source": "manual", "date": f"{year}-01-01", "url": None})
+                hit = spec_from_line(f"{row['spesifikasi']} : {row.get('nilai', '')}")
+                g.setdefault("spec_table", {})[hit[0] if hit else row["spesifikasi"]] = row.get("nilai", "")
     return list(groups.values())
 
 

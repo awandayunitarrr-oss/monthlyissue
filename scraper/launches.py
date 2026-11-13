@@ -348,6 +348,10 @@ def build(period_dir: Path, out_path: Path) -> list[dict]:
         year = int(g["date"][:4])
         m_prev, m_now = official.manual_for(manual, g["brand"], g["model"], year)
         o_prev, o_now = g.pop("prev_official", None), g.pop("now_official", None)
+        now_specs = {**((g["detail"] or {}).get("spec_table") or {}), **((o_now or {}).get("spec_table") or {}),
+                     **((m_now or {}).get("spec_table") or {})}
+        prev_specs = {**((g["prev_detail"] or {}).get("spec_table") or {}), **((o_prev or {}).get("spec_table") or {}),
+                      **((m_prev or {}).get("spec_table") or {})}
         if o_now:
             g["detail"] = {**o_now, "intro": (g["detail"] or {}).get("intro", ""), "source": o_now["source"]}
         if m_now:
@@ -356,6 +360,12 @@ def build(period_dir: Path, out_path: Path) -> list[dict]:
             g["prev_detail"] = o_prev
         if m_prev:
             g["prev_detail"] = m_prev
+        if m_now and not m_now.get("variants") and o_now:   # isian manual hanya spesifikasi → tetap pakai tipe/warna resmi
+            g["detail"] = {**o_now, "intro": g["detail"].get("intro", ""), "source": o_now["source"]}
+        if g["detail"] is not None or now_specs:
+            g["detail"] = {**(g["detail"] or {"variants": [], "source": "artikel"}), "spec_table": now_specs}
+        if g["prev_detail"] is not None or prev_specs:
+            g["prev_detail"] = {**(g["prev_detail"] or {"variants": [], "source": "artikel"}), "spec_table": prev_specs}
 
     # 2) rilis sebelumnya untuk model yang sama (di data yang ada)
     for i, g in enumerate(groups):
@@ -462,6 +472,7 @@ def extract_detail(html: bytes | str, url: str) -> dict:
         images.append({"src": src, "key": key, "variant": variant})
 
     variants: dict[str, dict] = {}
+    spec_lines: list[str] = []
     order: list[str] = []
     loose: list[dict] = []
     intro = ""
@@ -491,6 +502,7 @@ def extract_detail(html: bytes | str, url: str) -> dict:
         text = re.sub(r"\s+", " ", el.get_text(" | " if el.name == "tr" else " ", strip=True)).strip()
         if len(text) < 3:
             continue
+        spec_lines.extend(re.split(r"\s*(?:<br>|\n)\s*", el.get_text("\n", strip=True)) if el.name != "tr" else [text])
         if not intro and el.name == "p" and len(text) > 80:
             first = [s for s in _sentences(text)][:2]
             intro = _clean_sentence(" ".join(first)) if first else ""
@@ -548,7 +560,7 @@ def extract_detail(html: bytes | str, url: str) -> dict:
                 c["image"] = images[i]["src"]
                 used.add(i)
     _place_loose(out_vars, loose)
-    return {"url": url, "intro": intro, "variants": out_vars, "loose_colors": [c["name"] for c in loose][:12],
+    return {"url": url, "intro": intro, "variants": out_vars, "spec_table": spec_table_from_lines(spec_lines), "loose_colors": [c["name"] for c in loose][:12],
             "n_images": len(images), "image_keys": [im["key"][-80:] for im in images[:20]]}
 
 
@@ -641,3 +653,70 @@ def detail_score(d: dict | None) -> int:
     if not d:
         return 0
     return sum(2 * bool(v["price"]) + len(v["colors"]) + sum(1 for c in v["colors"] if c["image"]) for v in d["variants"])
+
+
+# --------------------------------------------------------------------------- #
+# Head to head spesifikasi
+# --------------------------------------------------------------------------- #
+SPEC_GROUPS = [
+    ("Mesin", [
+        ("Tipe Mesin", r"(tipe|jenis) mesin|engine type"),
+        ("Volume Silinder", r"volume silinder|isi silinder|kapasitas (mesin|silinder)|displacement|kubikasi"),
+        ("Diameter x Langkah", r"diameter x langkah|diameter ?x ?langkah|bore x stroke"),
+        ("Perbandingan Kompresi", r"(perbandingan|rasio) kompresi|compression ratio"),
+        ("Daya Maksimum", r"(daya|tenaga|power) (maksimum|maksimal|max)|max(imum)? power"),
+        ("Torsi Maksimum", r"torsi (maksimum|maksimal|max)|max(imum)? torque"),
+        ("Sistem Starter", r"(sistem )?(starter|stater)"),
+        ("Sistem Bahan Bakar", r"sistem (bahan bakar|suplai bahan bakar)|fuel system"),
+        ("Tipe Transmisi", r"(tipe |sistem |jenis )?transmisi"),
+        ("Tipe Kopling", r"(tipe |jenis )?kopling"),
+        ("Kapasitas Oli Mesin", r"kapasitas (oli|minyak pelumas)"),
+    ]),
+    ("Rangka & Kaki-kaki", [
+        ("Tipe Rangka", r"(tipe |jenis )?rangka"),
+        ("Suspensi Depan", r"suspensi depan"),
+        ("Suspensi Belakang", r"suspensi belakang"),
+        ("Ban Depan", r"(ukuran )?ban depan"),
+        ("Ban Belakang", r"(ukuran )?ban belakang"),
+        ("Rem Depan", r"rem depan"),
+        ("Rem Belakang", r"rem belakang"),
+    ]),
+    ("Dimensi & Kapasitas", [
+        ("P x L x T", r"p ?x ?l ?x ?t|dimensi( \(p ?x ?l ?x ?t\))?|panjang x lebar x tinggi"),
+        ("Jarak Sumbu Roda", r"jarak sumbu roda|wheelbase"),
+        ("Jarak Terendah ke Tanah", r"jarak (terendah )?(ke|dengan) tanah|ground clearance"),
+        ("Tinggi Tempat Duduk", r"tinggi (tempat duduk|jok)|seat height"),
+        ("Berat Isi", r"berat( isi| kosong| kering)?|bobot( isi)?|curb weight"),
+        ("Kapasitas Tangki Bensin", r"(kapasitas )?tangki( bensin| bahan bakar)?|kapasitas bahan bakar|fuel tank"),
+    ]),
+    ("Kelistrikan", [
+        ("Sistem Pengapian", r"(sistem )?pengapian"),
+        ("Tipe Battery", r"(tipe )?(battery|baterai|aki)"),
+        ("Tipe Busi", r"(tipe )?busi"),
+    ]),
+]
+_SPEC_RX = [(label, re.compile(r"^\s*(?:" + rx + r")\b\s*(?:\([^)]*\))?\s*(?:[:：|=]|\s{2,}|\t)\s*(?P<val>.+)$", re.I))
+            for _, items in SPEC_GROUPS for label, rx in items]
+
+
+def spec_from_line(line: str) -> tuple[str, str] | None:
+    """'Daya Maksimum : 11,3 kW / 8.500 rpm' → ('Daya Maksimum', '11,3 kW / 8.500 rpm')."""
+    line = re.sub(r"\s*\|\s*[:：]?\s*\|?\s*", " : ", line.strip().strip("|•-– ")) if "|" in line else line.strip().strip("•-– ")
+    if len(line) > 160:
+        return None
+    for label, rx in _SPEC_RX:
+        m = rx.match(line)
+        if m:
+            val = re.sub(r"^[\s:：|=]+", "", m.group("val")).strip(" .;|")
+            if val and len(val) <= 100 and not re.match(r"(?i)^(yang|ini|itu|juga|dan|masih|kini|tetap)\b", val):
+                return label, val
+    return None
+
+
+def spec_table_from_lines(lines) -> dict:
+    out: dict[str, str] = {}
+    for line in lines:
+        hit = spec_from_line(line)
+        if hit and hit[0] not in out:
+            out[hit[0]] = hit[1]
+    return out

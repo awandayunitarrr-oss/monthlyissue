@@ -194,12 +194,27 @@ footer{margin-top:30px;font-size:12px;color:var(--muted);text-align:center}
 .sl-notes{display:flex;flex-direction:column;gap:8px;overflow:auto;min-height:0}
 .sl-box{background:#fbeaec;border:1.5px dashed #c98c96;border-radius:6px;padding:8px 10px;font-size:13px;line-height:1.4}
 .sl-box ul{margin:4px 0 0;padding-left:18px}
+.slide2{margin-top:14px}
+.h2h{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+.h2h th{background:#111;color:#fff;font-size:15px;padding:6px 10px;text-align:left}
+.h2h th small{display:block;font-size:10px;font-weight:500;opacity:.75}
+.h2h td{padding:5px 10px;border-bottom:1px solid #e3e5e8;vertical-align:top}
+.h2h td:first-child{color:#5d6673;width:22%}
+.h2h tr.grp td{background:#f1f2f4;font-weight:800;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#14171c}
+.h2h tr.chg td{background:#fff8e1}
+.h2h tr.chg td:nth-child(3){font-weight:700}
+.h2h .tag{font-size:10px;font-weight:800;border-radius:3px;padding:1px 5px;margin-left:6px;background:#c8102e;color:#fff;white-space:nowrap}
+.h2h .tag.same{background:#e3e5e8;color:#5d6673}
+.h2h .na{color:#9aa0a6}
 .sl-src{font-size:12px;font-style:italic;margin-top:6px;word-break:break-all}
 @media print{
   @page{size:A4 landscape;margin:8mm}
   body *{visibility:hidden}
-  #slide,#slide *{visibility:visible}
-  #slide{position:absolute;left:0;top:0;width:100%;max-width:none;box-shadow:none;aspect-ratio:auto}
+  #slide,#slide *,#slide2,#slide2 *{visibility:visible}
+  #slide-wrap{position:absolute;left:0;top:0;width:100%}
+  #slide,#slide2{width:100%;max-width:none;box-shadow:none;aspect-ratio:auto}
+  #slide2{page-break-before:always;margin-top:0}
+  .slide-bar{display:none}
   #slide-wrap{position:static;background:none;padding:0}
 }
 
@@ -321,6 +336,7 @@ header.top select:focus,header.top button:focus-visible{outline-color:#fff}
 <div id="slide-wrap" hidden role="dialog" aria-modal="true" aria-label="Slide perbandingan">
   <div class="slide-bar"><button id="sl-print">Cetak / simpan PDF</button><button id="sl-close">Tutup ✕</button></div>
   <div class="slide" id="slide"></div>
+  <div class="slide slide2" id="slide2"></div>
 </div>
 
 <script>
@@ -665,8 +681,61 @@ function openSlide(id){
       <div class="sl-notes">${now.intro ? `<div class="sl-box">${esc(now.intro)}</div>` : ""}${boxes}</div>
     </div>
     <div class="sl-src">*Source : ${esc(now.archive_url || now.url || g.articles[0].url)}${prev ? ` · Pembanding (${esc(SRC_LABEL(prev))}): ${esc(prev.archive_url || prev.url || "manual/pembanding.csv")}` : ""}</div>`;
+  $("#slide2").innerHTML = headToHead(g, now, prev);
+  $("#slide2").hidden = !$("#slide2").innerHTML;
   $("#slide-wrap").hidden = false;
   $("#sl-close").focus();
+}
+const SPEC_GROUPS = [
+  ["Mesin", ["Tipe Mesin","Volume Silinder","Diameter x Langkah","Perbandingan Kompresi","Daya Maksimum","Torsi Maksimum","Sistem Starter","Sistem Bahan Bakar","Tipe Transmisi","Tipe Kopling","Kapasitas Oli Mesin"]],
+  ["Rangka & Kaki-kaki", ["Tipe Rangka","Suspensi Depan","Suspensi Belakang","Ban Depan","Ban Belakang","Rem Depan","Rem Belakang"]],
+  ["Dimensi & Kapasitas", ["P x L x T","Jarak Sumbu Roda","Jarak Terendah ke Tanah","Tinggi Tempat Duduk","Berat Isi","Kapasitas Tangki Bensin"]],
+  ["Kelistrikan", ["Sistem Pengapian","Tipe Battery","Tipe Busi"]]];
+const NUMERIC_SPECS = new Set(["Volume Silinder","Daya Maksimum","Torsi Maksimum","Jarak Sumbu Roda","Jarak Terendah ke Tanah","Tinggi Tempat Duduk","Berat Isi","Kapasitas Tangki Bensin","Kapasitas Oli Mesin"]);
+function firstNum(v){
+  const m = String(v || "").match(/(\d{1,3}(?:\.\d{3})+|\d+(?:[.,]\d+)?)\s*([a-zA-Z%]*)/);
+  if (!m) return null;
+  const n = /^\d{1,3}(\.\d{3})+$/.test(m[1]) ? +m[1].replace(/\./g, "") : +m[1].replace(",", ".");
+  return { n, unit: m[2].toLowerCase() };
+}
+const normSpec = v => String(v || "").toLowerCase().replace(/[\s.,]/g, "");
+function specDiff(label, a, b){
+  if (!a || !b) return "";
+  if (normSpec(a) === normSpec(b)) return `<span class="tag same">sama</span>`;
+  if (NUMERIC_SPECS.has(label)){
+    const x = firstNum(a), y = firstNum(b);
+    if (x && y && x.unit === y.unit && x.n !== y.n){
+      const d = +(y.n - x.n).toFixed(2);
+      return `<span class="tag">${d > 0 ? "▲ +" : "▼ "}${d.toLocaleString("id-ID")} ${esc(y.unit)}</span>`;
+    }
+  }
+  return `<span class="tag">berubah</span>`;
+}
+function headToHead(g, now, prev){
+  const A = prev?.spec_table || {}, B = now?.spec_table || {};
+  const known = new Set(SPEC_GROUPS.flatMap(([, l]) => l));
+  const extra = [...new Set([...Object.keys(A), ...Object.keys(B)])].filter(k => !known.has(k));
+  const groups = [...SPEC_GROUPS, ...(extra.length ? [["Lainnya", extra]] : [])];
+  let rows = "", n = 0, changed = 0;
+  for (const [grp, labels] of groups){
+    const present = labels.filter(l => A[l] || B[l]);
+    if (!present.length) continue;
+    rows += `<tr class="grp"><td colspan="3">${esc(grp)}</td></tr>`;
+    for (const l of present){
+      const diff = specDiff(l, A[l], B[l]); n++;
+      const chg = A[l] && B[l] && !diff.includes("same");
+      if (chg) changed++;
+      rows += `<tr class="${chg ? "chg" : ""}"><td>${esc(l)}</td><td>${A[l] ? esc(A[l]) : `<span class="na">–</span>`}</td><td>${B[l] ? esc(B[l]) : `<span class="na">–</span>`}${diff}</td></tr>`;
+    }
+  }
+  if (!n) return "";
+  const both = Object.keys(A).length && Object.keys(B).length;
+  return `<div class="sl-head"><span class="sl-news">SPEC</span><h2>Head to head spesifikasi · ${esc(g.model)}</h2>${flag("Indonesia")}</div>
+    <table class="h2h"><thead><tr><th>Spesifikasi</th>
+      <th>${prev ? (prev.year || yearOf(prev.date)) : "Sebelumnya"}<small>${esc(SRC_LABEL(prev) || "tidak ada data")}</small></th>
+      <th>${yearOf(g.date)}<small>${esc(SRC_LABEL(now) || "")}</small></th></tr></thead><tbody>${rows}</tbody></table>
+    <div class="sl-src">${both ? `${changed} dari ${n} baris spesifikasi berbeda (ditandai kuning).` : "Spesifikasi salah satu versi belum tersedia — lengkapi lewat manual/spesifikasi.csv."}
+      Nilai diambil otomatis; cek sumber resmi sebelum dipresentasikan.</div>`;
 }
 $("#r-list").addEventListener("click", e => { const b = e.target.closest("[data-slide]"); if (b) openSlide(b.dataset.slide); });
 $("#sl-close").onclick = () => { $("#slide-wrap").hidden = true; };
@@ -728,8 +797,8 @@ function launchCard(g){
     <div class="srcs">${g.articles.map(a => `<a href="${esc(a.url)}" target="_blank" rel="noopener" title="${esc(a.title)}"><span class="dot" style="background:${SRC_COLORS[a.source] || "var(--muted)"}"></span>${esc(a.source)} ↗</a>`).join("")}</div>
     ${table}
     ${cmp}
-    ${(g.detail?.variants || []).length || (g.prev_detail?.variants || []).length
-      ? `<div class="actions"><button data-slide="${esc(g.id)}">Lihat slide perbandingan →</button></div>`
+    ${(g.detail?.variants || []).length || (g.prev_detail?.variants || []).length || Object.keys(g.detail?.spec_table || {}).length || Object.keys(g.prev_detail?.spec_table || {}).length
+      ? `<div class="actions"><button data-slide="${esc(g.id)}">Lihat slide perbandingan & spesifikasi →</button></div>`
       : `<div class="actions noslide">Slide belum tersedia: data tipe/warna belum terbaca.
            <a href="https://github.com/awandayunitarrr-oss/monthlyissue/edit/main/manual/pembanding.csv" target="_blank" rel="noopener">Isi pembanding manual ↗</a></div>`}
   </article>`;
