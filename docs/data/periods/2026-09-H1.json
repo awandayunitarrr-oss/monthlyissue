@@ -1161,7 +1161,7 @@
         "key": "honda|ct125",
         "specs": {
           "price": 83500000.0,
-          "engine": null,
+          "engine": "125 cc",
           "power": "6,76 KW",
           "torque": "10,8 Nm"
         },
@@ -1170,9 +1170,48 @@
           "price_delta": null
         },
         "compare": [
-          "Motor bebek penjelajah bergenre Iconic Tracking Cub ini sekarang tampil makin menggoda dengan sentuhan warna baru yang siap bikin iman goyah, Cak!"
+          "Kalau sebelumnya kita lekat dengan nuansa warna merah mentereng, sekarang AHM nambahin opsi warna anyar berjuluk Matte Fresco Brown .",
+          "Cak….ada kabar segar nih buat para penikmat roda dua tanah air Motor bebek penjelajah bergenre Iconic Tracking Cub ini sekarang tampil makin menggoda dengan sentuhan warna baru yang siap bikin iman goyah, […] Iwanbanaran.com – Cak….ada kabar segar nih buat para penikmat roda dua tanah air!"
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:44:28",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/breaking-ahm-rilis-new-ct125-terbaru-2027-bebek-trail-sultan-lahir",
+          "intro": "Cak….ada kabar segar nih buat para penikmat roda dua tanah air! PT Astra Honda Motor (AHM) baru saja merilis penyegaran pada salah satu lini motor hobi paling ikonik sejagat, yakni Honda CT125 .",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 83500000.0,
+              "colors": [
+                {
+                  "name": "Matte Fresco Brown",
+                  "new": false,
+                  "image": null
+                },
+                {
+                  "name": "Glowing Red",
+                  "new": false,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 8,
+          "image_keys": [
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f09 2fhonda ctx125 2027 6 webp w 860",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f09 2fhonda ctx125 2027 3 webp w 1062",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f09 2fhonda ctx125 2027 6 webp w 884",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f09 2fhonda ctx125 2027 5 webp w 953",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f09 2fhonda ctx125 2027 7 webp w 892",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f09 2fhonda ctx125 2027 1 webp w 952",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f09 2fhonda ctx125 2027 2 webp w 906"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {
@@ -1234,8 +1273,8 @@
         "specs": {
           "price": 83500000.0,
           "engine": "125 cc",
-          "power": null,
-          "torque": null
+          "power": "6,76 KW",
+          "torque": "10,8 Nm"
         },
         "previous_from_article": {
           "price": null,
@@ -1244,7 +1283,39 @@
         "compare": [
           "AHM menghadirkan warna baru Matte Fresco Brown yang melengkapi warna ikonik Glowing Red yang tetap dipertahankan."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:44:41",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/09/10/akhirnnya-honda-ct125-warna-coklat-matte-resmi-dirilis-oleh-ahm/?utm_source=rss&utm_medium=rss&utm_campaign=akhirnnya-honda-ct125-warna-coklat-matte-resmi-dirilis-oleh-ahm",
+          "intro": "PT Astra Honda Motor (AHM) kembali memberikan sentuhan penyegaran buat salah satu moped hobi yang paling favorit di Tanah Air, yaitu Honda CT125 . Motor bebek petualang berpajangan Iconic Tracking Cub ini dapet update visual yang makin memperkuat karakternya buat diajak riding santai maupun touring tipis-tipis melintasi alam.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 83500000.0,
+              "colors": [
+                {
+                  "name": "Matte Fresco Brown",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Glowing Red",
+                  "new": false,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 2,
+          "image_keys": [
+            "ct125 2026 2 webp",
+            "ct125 2026 1 webp"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {
@@ -1774,8 +1845,78 @@
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "compare": [
+          "Ditambah sentuhan aksen krom di beberapa bagian hardware , karakter retro-modern motor ini makin keluar."
+        ],
+        "analyzed_at": "2026-11-13T03:44:53",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/09/07/ahm-resmi-jual-warna-2-baru-honda-st125-dax-my2026/?utm_source=rss&utm_medium=rss&utm_campaign=ahm-resmi-jual-warna-2-baru-honda-st125-dax-my2026",
+          "intro": "PT Astra Honda Motor (AHM) kembali menyegarkan salah satu iconic leisure bike jagoannya, Honda ST125 Dax. Motor mungil bernuansa klasik ini resmi mendapatkan pilihan warna baru untuk pasar Indonesia, yaitu Candy Energy Orange dan Pearl Shining Black .",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 84500000.0,
+              "colors": [
+                {
+                  "name": "Candy Energy Orange",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Pearl Shining Black",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 2,
+          "image_keys": [
+            "570137 26ym honda st125 dax webp",
+            "26ym honda st125 dax 570139 26ym honda st125 dax webp"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/breaking-ahm-rilis-motor-klasik-unik-st125-dax-terbaru-2025-ini-motor-sultan",
+          "intro": "Cakkk….PT Astra Honda Motor (AHM) menghadirkan penyegaran untuk salah satu model ikonik, yakni Honda ST125 Dax. Sepeda motor berkesan klasik, simpel dan berbekal teknologi modern ini ditawarkan dengan warna baru yang semakin terlihat unik dan berbeda.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 82480000.0,
+              "colors": [
+                {
+                  "name": "Pearl Glittering Blue",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Pearl Cadet Gray",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 6,
+          "image_keys": [
+            "https 3a 2f 2fcdn iwanbanaran com 2f2024 2f11 2fdax125 2024 s02 scaled jpg w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "https 3a 2f 2fcdn iwanbanaran com 2f2024 2f11 2fdax125 2024 01 scaled jpg w 1600",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f11 2fdax125 2024 03 jpg w 1246",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f11 2fdax125 2024 0x3 jpg w 718",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f11 2fdax125 2024 0x2 jpg w 1600"
+          ],
+          "title": "Breaking ! AHM Rilis Motor Klasik Unik ST125 DAX terbaru 2025…ini Motor Sultan",
+          "date": "2024-11-03T00:00:00",
+          "source": "Iwan Banaran"
+        }
       }
     },
     {

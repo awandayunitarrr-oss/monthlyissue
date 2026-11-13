@@ -229,8 +229,8 @@
         "model": "Yamaha MX King 150",
         "key": "yamaha|mxking150",
         "specs": {
-          "price": null,
-          "engine": null,
+          "price": 32000000.0,
+          "engine": "150 cc",
           "power": "15,4 PS",
           "torque": "13,8 Nm"
         },
@@ -239,9 +239,157 @@
           "price_delta": null
         },
         "compare": [
-          "IWB berani jamin, melihat tampilannya yang sekarang, para pecinta kecepatan pasti langsung bergejolak dan dibuat klenger cakk karena makin gagah !"
+          "IWB berani jamin, melihat tampilannya yang sekarang, para pecinta kecepatan pasti langsung bergejolak dan dibuat klenger cakk karena makin gagah Iwanbanaran.com – Cakkk….Yamaha resmi merilis versi paling gres dari motor bebek legendaris mereka."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:40:31",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/breaking-yamaha-rilis-new-mx-king-150-terbaru-2027-edian-warna-gold",
+          "intro": "Cakkk….Yamaha resmi merilis versi paling gres dari motor bebek legendaris mereka. Yup, Yamaha New MX King 150 generasi terbaru Yamaha Y15ZR versi 2027 yang baru aja mengaspal.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 32000000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 11,
+          "image_keys": [
+            " webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fmx king 3 1 webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            " webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fmx king 1 1 webp w 635",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fmx king 2 768x537 webp w 768",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fmx king 3 768x575 webp w 768",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fmx king 4 768x575 webp w 768",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fmx king 1 768x575 webp w 768",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fmx king 2 1 768x533 webp w 768",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fmx king 4 1 768x537 webp w 768",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fmx king 5 768x537 webp w 768",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fmx king 6 768x537 webp w 768"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/geger-bocor-new-mx-king-155-2026-di-gudang-dirilis-sebentar-lagi",
+          "intro": "Cakkk….sepertinya New MX King 155 benar-benar akan dirilis sebentar lagi. Setelah sebelumnya kita disodori dengan foto penampakannya digudang cak.",
+          "variants": [
+            {
+              "name": "ABS",
+              "price": 26000000.0,
+              "colors": [],
+              "notes": [
+                "Pengereman: Kedua gambar memperlihatkan cakram rem depan yang besar dengan kaliper rem (kemungkinan besar dua piston) berwarna keemasan. Ini adalah ciri khas versi high-end yang memiliki ABS (Anti-lock Braking System). Piringan cakram yang lebar ini membedakannya dari versi non-ABS.",
+                "Motor ini adalah Yamaha Sniper 155 VVA (Versi ABS/Lanjutan) . Meskipun model dasarnya sudah ada, varian warna dan kemungkinan sedikit pembaruan fitur ini menjadikannya “rilis baru” dalam konteks penyegaran produk tahunan. Jadi memang lebih ke facelift bodi dan desain bukan all New…",
+                "Jadi ngono cak…pertanyaannya apakah gen anyar ini akan masuk Indonesia ?? Sebenarnya dari beberapa informasi yang IWB kumpulkan… Pihak Yamaha Indonesia (YIMM) selama ini cukup menahan diri membawa model 155 VVA ini karena biaya produksi dan market . Fitur seperti Assist & Slipper Clutch , ABS, dan m"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 7,
+          "image_keys": [
+            "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fmx king 155 spyshot 1 webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fmx king 155 spyshot 2 2 webp w 1200",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fmx king 155 spyshot 1 2 webp w 1200",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fmx king 155 spyshot 2 3 webp w 1200",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fmx king 155 spyshot 1 3 webp w 1153",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fmx king 155 spyshot 2 webp w 1153"
+          ],
+          "title": "Geger ! Bocor New MX King 155 2026 di Gudang… — dirilis sebentar lagi ??",
+          "date": "2026-03-18T00:00:00",
+          "source": "Iwan Banaran"
+        },
+        "prev_official": null,
+        "now_official": {
+          "name": "Yamaha MX King 150",
+          "url": "https://www.yamaha-motor.co.id/product/mx-king-150/",
+          "variants": [
+            {
+              "name": "MX King 150 Prima Pramac Livery",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Prima Pramac",
+                  "hex": "#1a26cb",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026062207303160354M62891.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "MX King 150 70th Livery",
+              "price": 29400000.0,
+              "colors": [
+                {
+                  "name": "70th Livery",
+                  "hex": "#ff0000",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012212570650164D72125.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "MX King 150",
+              "price": 29200000.0,
+              "colors": [
+                {
+                  "name": "Blue",
+                  "hex": "#000088",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025120815501128784Y48788.png",
+                  "new": null
+                },
+                {
+                  "name": "CyberCity",
+                  "hex": "#5e51ab",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025120815502299713A93187.png",
+                  "new": null
+                },
+                {
+                  "name": "Silver",
+                  "hex": "#999999",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025120815502963133Z5037.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Sistem Bahan Bakar": "Fuel Injection",
+            "Tipe Kopling": "Basah, Kopling Manual , Multiplat",
+            "Tipe Transmisi": "Constant Mesh, 5-kecepatan",
+            "Tipe Mesin": "Berpendingin cairan, 4 langkah, SOHC, 4 Klep",
+            "Diameter x Langkah": "57,0 x 58,7 mm",
+            "Perbandingan Kompresi": "10,4 : 1",
+            "Volume Silinder": "149,79 cc",
+            "Daya Maksimum": "11,3 kW / 8500 rpm",
+            "Torsi Maksimum": "13,8 Nm / 7000 rpm",
+            "Sistem Starter": "Elektrik Starter & Kick Starter",
+            "Tipe Rangka": "Backbone",
+            "Suspensi Depan": "Teleskopik",
+            "Suspensi Belakang": "Monoshock",
+            "Ban Depan": "90/80-17M/C (46P)",
+            "Ban Belakang": "120/70-17M/C (58P)",
+            "Rem Depan": "Rem Cakram",
+            "Rem Belakang": "Rem Cakram",
+            "P x L x T": "1985 mm X 670 mm X 1100 mm",
+            "Jarak Sumbu Roda": "1290 mm",
+            "Jarak Terendah ke Tanah": "155 mm",
+            "Tinggi Tempat Duduk": "795 mm",
+            "Berat Isi": "118 kg",
+            "Kapasitas Tangki Bensin": "4,2 L",
+            "Tipe Busi": "NGK/CR8E",
+            "Sistem Pengapian": "TCI",
+            "Tipe Battery": "GTZ4V / YTZ4V"
+          },
+          "date": "2026-11-13",
+          "source": "official"
+        }
       }
     },
     {
@@ -950,7 +1098,7 @@
         "model": "SYM Jet SL 158",
         "key": "honda|symjetsl158",
         "specs": {
-          "price": null,
+          "price": 58000000.0,
           "engine": "158 cc",
           "power": null,
           "torque": null
@@ -960,9 +1108,40 @@
           "price_delta": null
         },
         "compare": [
-          "Ini dia poin krusial yang bikin SYM Jet SL+ 158 ini punya nilai plus dibanding Vario reguler."
+          "Nah, ini dia poin krusial yang bikin SYM Jet SL+ 158 ini punya nilai plus dibanding Vario reguler."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:42:02",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/tantang-vario-sym-jet-sl-158-resmi-dirilis-wowww-gahar-tenan",
+          "intro": "Cakkk….IWB jamin sampeyan bakal langsung melongo kalau melihat jagoan baru dari pabrikan Taiwan satu ini. Yup, SYM baru saja resmi menetaskan generasi terbaru dari matic sport andalan mereka, yakni SYM Jet SL 158 versi 2026 .",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 58000000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 12,
+          "image_keys": [
+            "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fsym jet sl 10 webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fsym jet sl 9 webp w 861",
+            "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fsym jet sl 11 768x576 webp w 768",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fsym jet sl 2 768x551 webp w 768",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fsym jet sl 3 768x502 webp w 768",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fsym jet sl 4 756x600 webp w 756",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fsym jet sl 5 768x530 webp w 768",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fsym jet sl 6 460x460 webp w 460",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fsym jet sl 7 768x551 webp w 768",
+            "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fsym jet sl 1 webp w 1280",
+            "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fsym jet sl 8 webp w 1280"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {
@@ -1339,9 +1518,91 @@
           "price_delta": null
         },
         "compare": [
-          "Nggak tanggung-tanggung, kini sang urban cruiser dapet opsi warna baru yang bikin tampilannya makin berkelas dan mewah."
+          "Di bagian ini, Honda nggak melakukan ubahan alias masih sama dengan versi sebelumnya.",
+          "Nggak tanggung-tanggung, kini sang urban cruiser dapet opsi warna baru yang bikin tampilannya makin berkelas dan mewah.",
+          "Ditambah lagi ada teknologi Throttle by Wire , pilihan riding mode , dan fitur Cruise Control yang bikin tangan kanan nggak pegal saat melibas jalanan lurus yang panjang."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:42:15",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/breaking-ahm-rilis-new-rebel-1100-versi-2027-makin-sangarrr",
+          "intro": "Cakkkk… Ada kabar hot datang dari PT Astra Honda Motor (AHM).",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 445250000.0,
+              "colors": [
+                {
+                  "name": "Matte Beta Silver Metallic",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Matte Ballistic Black Metallic",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Silver",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Hitam",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 7,
+          "image_keys": [
+            "webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2frebel 1100 6 webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2frebel 1100 3 800x555 webp w 800",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2frebel 1100 5 750x600 webp w 750",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2frebel 1100 4 800x565 webp w 800",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2frebel 1100 1 800x566 webp w 800",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2frebel 1100 2 800x566 webp w 800"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/honda-rebel-1100-dct-resmi-gempur-indonesia-lho-harga-miring-cakk",
+          "intro": "Cakkk…PT Astra Honda Motor (AHM) menghadirkan New Rebel 1100 sebagai pilihan baru bagi para pecinta sepeda motor Big Bike cruiser di Indonesia pada gelaran Jakarta Fair Kemayoran, Rabu (12/6). Hadir dengan kapasitas mesin powerfull 1.100 cc, model ini mencerminkan jati diri pengendara yang berkarakter menarik dan menyukai kebebasan dalam mengekspresikan gaya hidup sesuai perwujudan hobinya.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 375000000.0,
+              "colors": [
+                {
+                  "name": "Gunmetal Black Metallic",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 8,
+          "image_keys": [
+            "245bf88 webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f06 2frebel jpg w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f06 2frebel 11004 2 jpg w 1500",
+            "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f06 2frebel 11003 2 jpg w 1500",
+            " webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f06 2frebel 11001 jpg w 1500",
+            " webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f06 2frebel 11003 jpg w 1415",
+            " webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f06 2frebel 11004 jpg w 1500",
+            " webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f06 2frebel 11002 jpg w 1415"
+          ],
+          "title": "Honda Rebel 1100 DCT Resmi Gempur Indonesia…lho, Harga Miring cakk",
+          "date": "2024-06-13T00:00:00",
+          "source": "Iwan Banaran"
+        }
       }
     },
     {
@@ -1374,17 +1635,84 @@
         "specs": {
           "price": 445250000.0,
           "engine": null,
-          "power": null,
-          "torque": null
+          "power": "65 KW",
+          "torque": "98 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
         "compare": [
-          "Moge bergenre urban cruiser yang kental dengan siluet bobber ini kini mendapatkan pilihan kelir baru yang dinamakan Matte Beta Silver Metallic !"
+          "Moge bergenre urban cruiser yang kental dengan siluet bobber ini kini mendapatkan pilihan kelir baru yang dinamakan Matte Beta Silver Metallic !",
+          "Ditambah lagi dengan sistem akselerasi elektrik Throttle by Wire serta beberapa pilihan riding mode yang bisa disesuaikan dengan kebutuhan riding kalian."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:42:29",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/07/07/ahm-rilis-warna-baru-honda-rebel-1100-2026-matte-beta-silver-metallic-aura-premium-urban-cruiser-makin-kental/?utm_source=rss&utm_medium=rss&utm_campaign=ahm-rilis-warna-baru-honda-rebel-1100-2026-matte-beta-silver-metallic-aura-premium-urban-cruiser-makin-kental",
+          "intro": "PT Astra Honda Motor (AHM) baru saja memberikan penyegaran yang ciamik pada line-up big bike premium mereka, New Honda Rebel 1100 . Moge bergenre urban cruiser yang kental dengan siluet bobber ini kini mendapatkan pilihan kelir baru yang dinamakan Matte Beta Silver Metallic !",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 445250000.0,
+              "colors": [
+                {
+                  "name": "Matte Beta Silver Metallic",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Matte Ballistic Black Metallic",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 3,
+          "image_keys": [
+            "rebel1100 2026 1 avif",
+            "rebel1100 2026 2 avif",
+            "rebel1100 2026 3 avif"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/honda-rebel-1100-dct-resmi-gempur-indonesia-lho-harga-miring-cakk",
+          "intro": "Cakkk…PT Astra Honda Motor (AHM) menghadirkan New Rebel 1100 sebagai pilihan baru bagi para pecinta sepeda motor Big Bike cruiser di Indonesia pada gelaran Jakarta Fair Kemayoran, Rabu (12/6). Hadir dengan kapasitas mesin powerfull 1.100 cc, model ini mencerminkan jati diri pengendara yang berkarakter menarik dan menyukai kebebasan dalam mengekspresikan gaya hidup sesuai perwujudan hobinya.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 375000000.0,
+              "colors": [
+                {
+                  "name": "Gunmetal Black Metallic",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 8,
+          "image_keys": [
+            "245bf88 webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f06 2frebel jpg w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f06 2frebel 11004 2 jpg w 1500",
+            "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f06 2frebel 11003 2 jpg w 1500",
+            " webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f06 2frebel 11001 jpg w 1500",
+            " webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f06 2frebel 11003 jpg w 1415",
+            " webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f06 2frebel 11004 jpg w 1500",
+            " webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f06 2frebel 11002 jpg w 1415"
+          ],
+          "title": "Honda Rebel 1100 DCT Resmi Gempur Indonesia…lho, Harga Miring cakk",
+          "date": "2024-06-13T00:00:00",
+          "source": "Iwan Banaran"
+        }
       }
     },
     {
@@ -1903,9 +2231,60 @@
           "price_delta": null
         },
         "compare": [
-          "Cakkk….belum genap seminggu AHM bikin kejutan dengan new Vario EVO, dilalah kini mereka kembali memggebrak pasar dengan generasi terbaru Monkey 125 terbaru 2027."
+          "Oleh Publisher & Editor • sejak 2009 Jelajahi Topik Poin Penting Cakkk….belum genap seminggu AHM bikin kejutan dengan new Vario EVO, dilalah kini mereka kembali memggebrak pasar dengan generasi terbaru Monkey 125 terbaru 2027.",
+          "Penasaran apa saja yang berubah?",
+          "Nggak cuma kelir bodinya yang diganti, tapi bagian joknya sekarang dibekali motif kotak-kotak teranyar yang super modis!"
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:42:42",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/makin-menggemaskan-dan-ikonik-ahm-rilis-new-honda-monkey-125-terbaru-2027",
+          "intro": "Cakkk….belum genap seminggu AHM bikin kejutan dengan new Vario EVO, dilalah kini mereka kembali memggebrak pasar dengan generasi terbaru Monkey 125 terbaru 2027. Yup….pabrikan berlogo sayap mengepak tersebut resmi memberikan sentuhan fresh pada motor mini legendaris mereka, Honda Monkey !",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 88094000.0,
+              "colors": [
+                {
+                  "name": "Banana Yellow",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Millenium Red",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Pearl Cadet Gray",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Transmisi": "5 Percepatan"
+          },
+          "loose_colors": [],
+          "n_images": 12,
+          "image_keys": [
+            "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fmonkey 125 gd webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            " 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda monkey 125 1 768x576 webp w 768",
+            " 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda monkey 125 6 768x576 webp w 768",
+            " 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda monkey 125 5 768x576 webp w 768",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fmonkey 125 2027 4 743x600 webp w 743",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fmonkey 125 2027 1 768x550 webp w 768",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fmonkey 125 2027 2 768x511 webp w 768",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fmonkey 125 2027 3 768x535 webp w 768",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fmonkey 125 2027 5 768x593 webp w 768",
+            " 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda monkey 125 4 768x543 webp w 768",
+            " 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda monkey 125 2 768x543 webp w 768"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {
@@ -2038,7 +2417,7 @@
         "key": "honda|monkey125",
         "specs": {
           "price": 88094000.0,
-          "engine": null,
+          "engine": "125 cc",
           "power": null,
           "torque": null
         },
@@ -2049,7 +2428,45 @@
         "compare": [
           "Pembaruan kali ini berfokus pada kombinasi warna baru yang lebih segar serta desain jok yang kental dengan aura retro-klasik."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:42:57",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/07/03/ahm-rilis-penyegaran-honda-monkey-125-pilihan-warna-baru-plus-jok-tartan-kotak-kotak-klasik-makin-gemesin/?utm_source=rss&utm_medium=rss&utm_campaign=ahm-rilis-penyegaran-honda-monkey-125-pilihan-warna-baru-plus-jok-tartan-kotak-kotak-klasik-makin-gemesin",
+          "intro": "TMCBlog.com – Sahabat sekalian, PT Astra Honda Motor (AHM) baru saja memberikan penyegaran terbaru untuk motor mini-bike ikonik legendaris mereka, yaitu Honda Monkey . Pembaruan kali ini berfokus pada kombinasi warna baru yang lebih segar serta desain jok yang kental dengan aura retro-klasik.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 88094000.0,
+              "colors": [
+                {
+                  "name": "Banana Yellow",
+                  "new": true,
+                  "image": "https://cdn.tmcblog.com/2026/07/Monkey125-Banana-Yellow.avif"
+                },
+                {
+                  "name": "Millenium Red",
+                  "new": true,
+                  "image": "https://cdn.tmcblog.com/2026/07/Monkey125-Millenium-Red.avif"
+                },
+                {
+                  "name": "Pearl Cadet Gray",
+                  "new": true,
+                  "image": "https://cdn.tmcblog.com/2026/07/Monkey125-Pearl-Cadet-Grey.avif"
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 3,
+          "image_keys": [
+            "monkey125 millenium red avif",
+            "monkey125 banana yellow avif",
+            "monkey125 pearl cadet grey avif"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {

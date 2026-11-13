@@ -577,8 +577,8 @@
         "model": "Honda BeAT",
         "key": "honda|beat",
         "specs": {
-          "price": null,
-          "engine": null,
+          "price": 19155000.0,
+          "engine": "110 cc",
           "power": "6,6 KW",
           "torque": "9,2 Nm"
         },
@@ -586,8 +586,201 @@
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "compare": [
+          "Selain itu, warna Glossy Metallic Black di versi sebelumnya kini dieliminasi dan digantikan oleh Matte Black (hitam doff) yang condong ke arah premium.",
+          "Terus, apa saja ubahan detilnya di setiap tipe?",
+          "Tipe Deluxe Smart Key (Varian Tertinggi): Buat sampeyan yang suka tampilan elegan ala skutik mahal, varian Deluxe Smart Key warna Matte Black kini dijejali emblem 3D baru beraksen silver Chrome .",
+          "Karakter mesin yang responsif di putaran bawah, ditambah starter halus berkat teknologi ACG Starter, plus fitur ISS yang bikin bensin makin awet."
+        ],
+        "analyzed_at": "2026-11-13T03:38:45",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/breaking-ahm-rilis-new-beat-2027-ediann-warnanya-makin-keren",
+          "intro": "Cakeeep… bener-bener nggak kasih kendor cakkk! PT Astra Honda Motor (AHM) diam-diam langsung tancap gas di pertengahan tahun ini dengan memberikan sentuhan fresh pada skutik sejuta umat mereka, New Honda BeAT series.",
+          "variants": [
+            {
+              "name": "Premium",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Glossy Gray",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Matte Black",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Matte Brown",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "AHM membagi racikan warna baru ini dengan sangat rapi di setiap varian. Desain stripingnya pun dirombak total agar aura racy dan dinamisnya makin keluar.",
+                "New Honda BeAT Street (Si Gaul Setang Telanjang): Pecinta gaya street style juga kecipratan untung. BeAT Street kedatangan warna baru Glossy Gray (Abu-abu glossy) yang kental banget nuansa urban modern-nya. Menemani warna Matte Black dan Matte Brown yang sudah eksis duluan. Grafis stripingnya? Jelas"
+              ]
+            },
+            {
+              "name": "CBS",
+              "price": 19155000.0,
+              "colors": [
+                {
+                  "name": "Glossy Blue Black",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Glossy Black",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Gradation Red Black",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Tipe CBS (Entry Level yang Tetap Genit): Nah, buat tipe paling terjangkau, ada jagoan baru namanya Glossy Blue Black . Kombinasi warna biru mentereng berpadu hitam bikin karakter motor ini makin tegas. Warna baru ini bakal menemani opsi lawas yang tetap laris manis, yaitu Glossy Black dan Gradation"
+              ]
+            },
+            {
+              "name": "ISS",
+              "price": 20026000.0,
+              "colors": [
+                {
+                  "name": "Glossy Red Blue",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Glossy Metallic Black",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Matte Black",
+                  "new": false,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Tipe ISS (Idling Stop System): Di tipe ini, AHM meluncurkan warna Glossy Red Blue . Perpaduan merah dan biru yang tabrakan tapi justru terlihat sangat berkarakter, pas banget buat anak muda yang ogah tampil biasa aja. Selain itu, warna Glossy Metallic Black di versi sebelumnya kini dieliminasi dan d"
+              ]
+            },
+            {
+              "name": "Deluxe Smart",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Matte Black",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Matte Brown",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Matte Blue",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Tipe Deluxe Smart Key (Varian Tertinggi): Buat sampeyan yang suka tampilan elegan ala skutik mahal, varian Deluxe Smart Key warna Matte Black kini dijejali emblem 3D baru beraksen silver Chrome . Mewah banget, cak! Sementara warna Matte Brown dan Matte Blue yang kalem bin elegan tetap dipertahankan."
+              ]
+            },
+            {
+              "name": "Motor",
+              "price": 20026000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 9,
+          "image_keys": [
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fhonda beat 2027 5 webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fhonda beat 2027 4 800x543 webp w 800",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fhonda beat 2027 1 724x600 webp w 724",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fhonda beat 2027 3 800x535 webp w 800",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fhonda beat 2027 2 800x576 webp w 800",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fhonda beat 2027 8 724x600 webp w 724",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fhonda beat 2027 7 724x600 webp w 724",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fhonda beat 2027 6 724x600 webp w 724"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/breaking-ahm-rilis-new-beat-2025-woww-makin-cakeppp",
+          "intro": "Cakkkk…generasi terbaru raja Matic akhirnya datang. Generasi 2025 yang dirilis kemarin cak.",
+          "variants": [
+            {
+              "name": "CBS",
+              "price": 18930000.0,
+              "colors": [],
+              "notes": []
+            },
+            {
+              "name": "Deluxe Standard",
+              "price": 19801000.0,
+              "colors": [],
+              "notes": []
+            },
+            {
+              "name": "Deluxe Smart",
+              "price": 20331000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Deluxe Matte Brown",
+            "Deluxe Matte Blue",
+            "Deluxe Matte Black",
+            "Deluxe Black",
+            "Deluxe Matte Green",
+            "Hard Rock Black",
+            "Funk Red Black",
+            "Jazz White Black",
+            "Street White",
+            "Street Black",
+            "Street Brown"
+          ],
+          "n_images": 21,
+          "image_keys": [
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 10 1 webp w 860",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 3 webp w 1487",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 2 1 webp w 1300",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 2 2 webp w 1300",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 10 300x249 webp w 300",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 11 300x249 webp w 300",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 12 300x249 webp w 300",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 13 80x60 webp w 200",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 14 300x375 webp w 300",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 15 300x249 webp w 300",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 16 300x375 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 1 300x249 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 2 300x249 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 4 300x249 webp w 300",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 5 80x60 webp w 200",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 6 300x249 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 7 300x249 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 8 300x249 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 9 300x249 webp w 300"
+          ],
+          "title": "Breaking ! AHM Rilis new Beat 2025…woww Makin Cakeppp",
+          "date": "2025-07-26T00:00:00",
+          "source": "Iwan Banaran"
+        }
       }
     },
     {
@@ -814,20 +1007,182 @@
         "model": "Honda BeAT",
         "key": "honda|beat",
         "specs": {
-          "price": null,
-          "engine": null,
-          "power": null,
-          "torque": null
+          "price": 19155000.0,
+          "engine": "110 cc",
+          "power": "6,6 KW",
+          "torque": "9,2 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
         "compare": [
+          "Warna baru ini melengkapi varian Glossy Black dan Glossy Red Black yang sudah ada sebelumnya, lengkap dengan desain striping baru yang lebih ekspresif.",
+          "Selain itu, warna Glossy Metallic Black pada model sebelumnya kini diubah menjadi Matte Black yang memberikan kesan lebih premium.",
           "Yuk, kita bedah bareng-bareng apa saja ubahan per tipenya!",
-          "New Honda BeAT Street: Buat pecinta gaya street style, kini hadir warna baru Glossy Gray yang urban banget, mendampingi warna Matte Black dan Matte Brown yang sudah jadi favorit."
+          "Tipe Deluxe Smart Key: Varian Matte Black kini mendapatkan emblem baru beraksen silver yang bikin tampilannya makin berkelas dan modern."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:38:59",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/06/26/ahm-rilis-warna-baru-new-honda-beat-series-makin-dinamis-segar-dan-berkarakter/?utm_source=rss&utm_medium=rss&utm_campaign=ahm-rilis-warna-baru-new-honda-beat-series-makin-dinamis-segar-dan-berkarakter",
+          "intro": "PT Astra Honda Motor (AHM) baru saja memberikan penyegaran berupa update tampilan untuk skutik terlaris sejuta umat di Indonesia, New Honda BeAT Series . Yup, skutik yang terkenal lincah dan irit ini mendapatkan pilihan warna baru plus desain striping yang makin segar dan atraktif.",
+          "variants": [
+            {
+              "name": "ISS",
+              "price": 20026000.0,
+              "colors": [
+                {
+                  "name": "Glossy Red Blue",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Glossy Metallic Black",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Matte Black",
+                  "new": false,
+                  "image": null
+                },
+                {
+                  "name": "Glossy Blue Black",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Glossy Black",
+                  "new": false,
+                  "image": null
+                },
+                {
+                  "name": "Glossy Red Black",
+                  "new": false,
+                  "image": null
+                },
+                {
+                  "name": "Matte Brown",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Matte Blue",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Glossy Gray",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Tipe ISS (Idling Stop System): Ada warna baru Glossy Red Blue yang mencolok dan dinamis. Selain itu, warna Glossy Metallic Black pada model sebelumnya kini diubah menjadi Matte Black yang memberikan kesan lebih premium."
+              ]
+            },
+            {
+              "name": "CBS",
+              "price": 19155000.0,
+              "colors": [],
+              "notes": [
+                "Fungsionalitas: Power Charger , Battery Indicator , Combi Brake System (CBS), Side Stand Switch , dan Parking Brake Lock ."
+              ]
+            },
+            {
+              "name": "Varian",
+              "price": 20026000.0,
+              "colors": [],
+              "notes": [
+                "Gimana sob menurutmu? Apakah pilihan warna baru dari New Honda BeAT series ini makin menarik? Silakan tulis opini sobat di kolom komentar ya!"
+              ]
+            },
+            {
+              "name": "Deluxe Smart",
+              "price": 20556000.0,
+              "colors": [],
+              "notes": [
+                "New Honda BeAT Tipe Deluxe Smart Key | Rp 20.556.000"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Matte Black"
+          ],
+          "n_images": 4,
+          "image_keys": [
+            "beat street2 avif",
+            "beat 2026 3 avif",
+            "beat 2026 2a avif",
+            "beat street avif"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/breaking-ahm-rilis-new-beat-2025-woww-makin-cakeppp",
+          "intro": "Cakkkk…generasi terbaru raja Matic akhirnya datang. Generasi 2025 yang dirilis kemarin cak.",
+          "variants": [
+            {
+              "name": "CBS",
+              "price": 18930000.0,
+              "colors": [],
+              "notes": []
+            },
+            {
+              "name": "Deluxe Standard",
+              "price": 19801000.0,
+              "colors": [],
+              "notes": []
+            },
+            {
+              "name": "Deluxe Smart",
+              "price": 20331000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Deluxe Matte Brown",
+            "Deluxe Matte Blue",
+            "Deluxe Matte Black",
+            "Deluxe Black",
+            "Deluxe Matte Green",
+            "Hard Rock Black",
+            "Funk Red Black",
+            "Jazz White Black",
+            "Street White",
+            "Street Black",
+            "Street Brown"
+          ],
+          "n_images": 21,
+          "image_keys": [
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 10 1 webp w 860",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 3 webp w 1487",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 2 1 webp w 1300",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 2 2 webp w 1300",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 10 300x249 webp w 300",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 11 300x249 webp w 300",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 12 300x249 webp w 300",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 13 80x60 webp w 200",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 14 300x375 webp w 300",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 15 300x249 webp w 300",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 16 300x375 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 1 300x249 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 2 300x249 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 4 300x249 webp w 300",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 5 80x60 webp w 200",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 6 300x249 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 7 300x249 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 8 300x249 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2025 2f07 2fhonda new beat 9 300x249 webp w 300"
+          ],
+          "title": "Breaking ! AHM Rilis new Beat 2025…woww Makin Cakeppp",
+          "date": "2025-07-26T00:00:00",
+          "source": "Iwan Banaran"
+        }
       }
     },
     {
@@ -1225,17 +1580,53 @@
         "model": "Honda Vario EVO 160",
         "key": "honda|varioevo160",
         "specs": {
-          "price": null,
-          "engine": null,
-          "power": null,
-          "torque": null
+          "price": 28500000.0,
+          "engine": "160 cc",
+          "power": "11,3 KW",
+          "torque": "13,8 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "compare": [
+          "Di saat pasar skutik 150-160cc makin panas, mereka langsung menyodorkan New Vario Evo 160 dengan tampang depan yang agresifnya melompat jauh dibanding generasi sebelumnya.",
+          "Vice President PT AHM, Pak Thomas Wijaya, blak-blakan nyebut kalau nama “Evo” ini diambil dari kata Evolution , yang menggambarkan perubahan besar pada sisi desain.",
+          "Perubahan paling mencolok dan paling bikin IWB senyum dalah area bodi bagian depan.",
+          "Mukanya kini terlihat jauh lebih agresif, rona wajahnya makin galak, dengan garis-garis desain yang ditarik lebih tajam dan sporty ."
+        ],
+        "analyzed_at": "2026-11-13T03:39:12",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/breaking-honda-new-vario-evo-160-terbaru-2027-resmi-rilis-sangarrr",
+          "intro": "Cakkk….PT Astra Honda Motor (AHM) dino iki resmi nggawe geger jagad otomotif tanah air. Bertempat di Cikarang, Rabu (24 Juni 2026), pabrikan sayap mengepak secara mengejutkan resmi merilis generasi terbaru skutik andalan mereka yang diberi label New Honda Vario Evo 160 !",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 28500000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 12,
+          "image_keys": [
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fnew vario 1604 webp w 860",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fnew vario 1602 webp w 1161",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fnew vario 1603 webp w 873",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fnew vario 1604 webp w 1060",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fnew vario 1601 768x504 webp w 768",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fnew vario 1605 512x600 webp w 512",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fnew vario 1606 768x575 webp w 768",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fnew vario 1607 381x600 webp w 381",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fnew vario 1608 612x600 webp w 612",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fnew vario 1609 530x600 webp w 530",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fnew vario 16010 768x548 webp w 768"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {
@@ -1268,15 +1659,82 @@
         "specs": {
           "price": 28000000.0,
           "engine": "160 cc",
-          "power": null,
-          "torque": null
+          "power": "11,3 KW",
+          "torque": "14,0 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "compare": [
+          "Detail Bodyworknya tmcblog anggap lebih agresif dibanding sebelumnya.",
+          "Bagaimana menurut sobat sekalian, Apakah racikan baru ini cukup menggoda untuk menggantikan Vario 160 yang lama?"
+        ],
+        "analyzed_at": "2026-11-13T03:39:24",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/06/24/ahm-resmi-rilis-new-honda-vario-evo-160-performa-naik-mulai-28-jutaan-rupiah/?utm_source=rss&utm_medium=rss&utm_campaign=ahm-resmi-rilis-new-honda-vario-evo-160-performa-naik-mulai-28-jutaan-rupiah",
+          "intro": "PT Astra Honda Motor (AHM) baru saja resmi melakukan langkah penyegaran signifikan pada lini skutik sporty andalan mereka. Yes, hari ini, New Honda Vario Evo 160 hadir dengan serangkaian evolusi yang tidak hanya menyentuh sektor visual, tapi juga menyasar performa dan fungsionalitas harian.",
+          "variants": [
+            {
+              "name": "CBS",
+              "price": 28525000.0,
+              "colors": [
+                {
+                  "name": "Glossy White Red",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Tipe CBS: Tampil atraktif dengan striping kekinian (Glossy Blue Lime dan Glossy White Red)."
+              ]
+            },
+            {
+              "name": "CBS Nitro",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Nitro Glossy Grey",
+                  "new": null,
+                  "image": "https://cdn.tmcblog.com/2026/06/varian-warna-cbs-nitro-glossy-grey-lime-515x504px-24062026-030651.avif"
+                }
+              ],
+              "notes": [
+                "Tipe CBS Nitro: Mengusung dual-tone color dengan velg yang kontras (Nitro Matte Black Red & Nitro Glossy Grey Lime)."
+              ]
+            },
+            {
+              "name": "ABS",
+              "price": 28775000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "White",
+            "Red",
+            "Ultimate Matte Purple"
+          ],
+          "n_images": 13,
+          "image_keys": [
+            "img 9977 avif",
+            "varian warna cbs glossy blue lime 515x504px 24062026 030706 1 avif",
+            "varian warna cbs nitro matte black red 515x504px 24062026 030655 avif",
+            "varian warna cbs nitro glossy grey lime 515x504px 24062026 030651 avif",
+            "varian warna abs ultimate matte red 515x504px 24062026 030637 1 avif",
+            "varian warna abs ultimate matte white 515x504px 24062026 030640 avif",
+            "varian warna abs ultimate glossy purple 515x504px 24062026 030628 avif",
+            "img 9986 avif",
+            "img 9947 avif",
+            "17822784953331 avif",
+            "17822785040552 avif",
+            "img 9978 avif",
+            "img 9990 avif"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {
@@ -1797,7 +2255,257 @@
           "price_delta": null
         },
         "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:39:36",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/06/21/yamaha-rilis-grand-filano-hybrid-classy-modern-explorer-hasil-kolaborasi-bersama-kahf-di-jfk-2026/?utm_source=rss&utm_medium=rss&utm_campaign=yamaha-rilis-grand-filano-hybrid-classy-modern-explorer-hasil-kolaborasi-bersama-kahf-di-jfk-2026",
+          "intro": "Bertempat di ajang Jakarta Fair Kemayoran (JFK) 2026 pada hari Sabtu (20/6), PT Yamaha Indonesia Motor Mfg. secara resmi menghadirkan sebuah kejutan visual baru berupa karya modifikasi spesial berbasis skutik Classy mereka. Bertajuk “Classy Modern Explorer” , proyek modifikasi Grand Filano Hybrid ini lahir dari hasil kolaborasi apik bersama salah satu brand perawatan kulit (skincare) terkemuka pria di Indonesia, Kahf.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": null,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 3,
+          "image_keys": [
+            "modification yamaha grand filano hybrid x kahf collaboration 6 avif",
+            "modification yamaha grand filano hybrid x kahf collaboration 5 avif",
+            "modification yamaha grand filano hybrid x kahf collaboration 4 avif"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/breaking-new-grand-filano-2026-lahir-yamaha-lakukan-attacking-mode",
+          "intro": "Cakkk….Yamaha menggilaaa cakk. Diawal 2026 pabrikan ini sudah terlihat melakukan attacking mode.",
+          "variants": [
+            {
+              "name": "Hybrid Lux",
+              "price": 28795000.0,
+              "colors": [],
+              "notes": [
+                "Penyegaran pada skutik kalcer ini semakin mempertegas identitas Grand Filano Hybrid sebagai skutik yang selalu mampu mendukung gaya para pengendaranya yang fashionable sekaligus mengikuti trend yang terus berkembang. Ditambah dengan desainnya yang ikonik melalui ciri khas Diamond Shape serta lampuny"
+              ]
+            },
+            {
+              "name": "Hybrid Neo",
+              "price": 28315000.0,
+              "colors": [
+                {
+                  "name": "Pink",
+                  "new": null,
+                  "image": "https://iwanbanaran.com/api/proxy/image/5c037d1d0449025b.webp?url=https%3A%2F%2Fcdn.iwanbanaran.com%2F2026%2F01%2FGrand-Filano-Hybrid-Neo-Pink-Mauve.webp&w=1200"
+                },
+                {
+                  "name": "Essential White",
+                  "new": null,
+                  "image": "https://iwanbanaran.com/api/proxy/image/1920170f85c60ee9.webp?url=https%3A%2F%2Fcdn.iwanbanaran.com%2F2026%2F01%2FGrand-Filano-Hybrid-Neo-Essential-White.webp&w=1200"
+                }
+              ],
+              "notes": [
+                "Kedua warna lainnya dari varian Hybrid Neo seperti Pink Mauve dan Essential White juga tidak lupa diberikan sedikit sentuhan penyegaran agar terlihat lebih selaras dan premium serta kesan timeless yang cocok untuk berbagai karakter pengendara. Sentuhan tersebut merupakan list berwarna abu-abu pada b"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Prime Gray",
+            "Greenish Gray",
+            "Pink",
+            "Essential White",
+            "Blue",
+            "Mesin Blue"
+          ],
+          "n_images": 7,
+          "image_keys": [
+            "fcdn iwanbanaran com 2f2026 2f01 2fgrand filano hybrid lux royal iron webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "2f 2fcdn iwanbanaran com 2f2026 2f01 2fgrand filano hybrid new color webp w 1563",
+            "wanbanaran com 2f2026 2f01 2fgrand filano hybrid neo essential white webp w 1200",
+            "cdn iwanbanaran com 2f2026 2f01 2fgrand filano hybrid neo prime gray webp w 1200",
+            "cdn iwanbanaran com 2f2026 2f01 2fgrand filano hybrid neo pink mauve webp w 1200",
+            " iwanbanaran com 2f2026 2f01 2fgrand filano hybrid neo greenish gray webp w 1200"
+          ],
+          "title": "Breaking ! New Grand Filano 2026 Lahir…Yamaha lakukan Attacking mode",
+          "date": "2026-01-26T00:00:00",
+          "source": "Iwan Banaran"
+        },
+        "prev_official": {
+          "name": "Yamaha Grand Filano",
+          "url": "https://www.yamaha-motor.co.id/product/grand-filano/",
+          "variants": [
+            {
+              "name": "Hybrid Lux",
+              "price": 28795000.0,
+              "colors": [
+                {
+                  "name": "Magma Black",
+                  "hex": "#2c2324",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024103012385668569G38738.png",
+                  "new": null
+                },
+                {
+                  "name": "Elixir Dark Silver",
+                  "hex": "#999999",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024020213472067401H24864.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Hybrid Neo",
+              "price": 28315000.0,
+              "colors": [
+                {
+                  "name": "Green",
+                  "hex": "#84937f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024103012395610897K52086.png",
+                  "new": null
+                },
+                {
+                  "name": "Pink Mauve",
+                  "hex": "#cba49f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024020213481067732Y32927.png",
+                  "new": null
+                },
+                {
+                  "name": "Dull Blue",
+                  "hex": "#b0d4ea",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2023010916512225882T15971.png",
+                  "new": null
+                },
+                {
+                  "name": "White",
+                  "hex": "#ffffff",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024103012392476507R50569.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Mesin": "Pendingin Udara, 4-Langkah, SOHC",
+            "Diameter x Langkah": "52,4 x 57,9 mm",
+            "Perbandingan Kompresi": "11,0 : 1",
+            "Volume Silinder": "124,86 cc",
+            "Daya Maksimum": "6,1 kW / 6.500 rpm",
+            "Torsi Maksimum": "10,4 Nm / 5.000 rpm",
+            "Sistem Bahan Bakar": "Fuel Injection",
+            "Tipe Kopling": "Kopling Sentrifugal, Kering",
+            "Tipe Transmisi": "V-Belt Otomatis",
+            "Sistem Starter": "Elektrik",
+            "Tipe Rangka": "Underbone",
+            "Suspensi Depan": "Teleskopik",
+            "Suspensi Belakang": "Unit Swing",
+            "Ban Depan": "110/70-12 47L",
+            "Ban Belakang": "110/70-12 47L",
+            "Rem Depan": "Rem Cakram",
+            "Rem Belakang": "Rem Tromol",
+            "P x L x T": "1820 x 685 x 1155 mm",
+            "Jarak Sumbu Roda": "1280 mm",
+            "Jarak Terendah ke Tanah": "125 mm",
+            "Tinggi Tempat Duduk": "790 mm",
+            "Berat Isi": "100 Kg",
+            "Kapasitas Tangki Bensin": "4,4 L",
+            "Sistem Pengapian": "TCI",
+            "Tipe Battery": "YTZ6V",
+            "Tipe Busi": "CR6HSA"
+          },
+          "date": "2026-01-19",
+          "source": "wayback",
+          "archive_url": "http://web.archive.org/web/20260119041623/https://www.yamaha-motor.co.id/product/grand-filano/"
+        },
+        "now_official": {
+          "name": "Yamaha Grand Filano",
+          "url": "https://www.yamaha-motor.co.id/product/grand-filano/",
+          "variants": [
+            {
+              "name": "Hybrid Lux",
+              "price": 29145000.0,
+              "colors": [
+                {
+                  "name": "Royal Iron",
+                  "hex": "#bfd4f0",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601231028034876K13777.png",
+                  "new": null
+                },
+                {
+                  "name": "Magma Black",
+                  "hex": "#2c2324",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310455516358M58371.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Hybrid Neo",
+              "price": 28665000.0,
+              "colors": [
+                {
+                  "name": "Prime Gray",
+                  "hex": "#afb7c3",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310263681335O86751.png",
+                  "new": null
+                },
+                {
+                  "name": "Greenish Gray",
+                  "hex": "#afcccf",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310255191745O23444.png",
+                  "new": null
+                },
+                {
+                  "name": "Pink Mauve",
+                  "hex": "#cba49f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310255677911L16899.png",
+                  "new": null
+                },
+                {
+                  "name": "Essential White",
+                  "hex": "#ffffff",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310261915448E14156.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Mesin": "Pendingin Udara, 4-Langkah, SOHC",
+            "Diameter x Langkah": "52,4 x 57,9 mm",
+            "Perbandingan Kompresi": "11,0 : 1",
+            "Volume Silinder": "124,86 cc",
+            "Daya Maksimum": "6,1 kW / 6.500 rpm",
+            "Torsi Maksimum": "10,4 Nm / 5.000 rpm",
+            "Sistem Bahan Bakar": "Fuel Injection",
+            "Tipe Kopling": "Kopling Sentrifugal, Kering",
+            "Tipe Transmisi": "V-Belt Otomatis",
+            "Sistem Starter": "Elektrik",
+            "Tipe Rangka": "Underbone",
+            "Suspensi Depan": "Teleskopik",
+            "Suspensi Belakang": "Unit Swing",
+            "Ban Depan": "110/70-12 47L",
+            "Ban Belakang": "110/70-12 47L",
+            "Rem Depan": "Rem Cakram",
+            "Rem Belakang": "Rem Tromol",
+            "P x L x T": "1820 x 685 x 1155 mm",
+            "Jarak Sumbu Roda": "1280 mm",
+            "Jarak Terendah ke Tanah": "125 mm",
+            "Tinggi Tempat Duduk": "790 mm",
+            "Berat Isi": "100 Kg",
+            "Kapasitas Tangki Bensin": "4,4 L",
+            "Sistem Pengapian": "TCI",
+            "Tipe Battery": "YTZ6V",
+            "Tipe Busi": "CR6HSA"
+          },
+          "date": "2026-07-13",
+          "source": "wayback",
+          "archive_url": "http://web.archive.org/web/20260713180015/https://www.yamaha-motor.co.id/product/grand-filano/"
+        }
       }
     },
     {
@@ -2474,15 +3182,36 @@
         "specs": {
           "price": 57800000.0,
           "engine": "250 cc",
-          "power": null,
-          "torque": null
+          "power": "18,4 KW",
+          "torque": "23,4 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "compare": [
+          "Jadi, selama perjalanan turing beralur panjang, pengendara bisa langsung menyambungkan smartphone mereka dan mendengarkan musik favorit langsung dari area fairing motor tanpa perlu ribet memasang intercom tambahan di helm.",
+          "“Kami yakin Road Falcon akan menjadi pemain baru yang bisa menjawab kebutuhan para pencinta motor, dimana kami tetap menghadirkan tipe cruiser terbaru dan memberikan fitur tambahan berupa speaker untuk menemani perjalanan jauh,” papar Pak Steven Kentjana Putra, selaku CEO PT Benelli Motor Indonesia (BMI)."
+        ],
+        "analyzed_at": "2026-11-13T03:40:04",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/06/17/prj-2026-keeway-road-falcon-250-resmi-mengaspal-gaya-cruiser-amerika-plus-fitur-bluetooth-speaker-di-bawah-60-juta/?utm_source=rss&utm_medium=rss&utm_campaign=prj-2026-keeway-road-falcon-250-resmi-mengaspal-gaya-cruiser-amerika-plus-fitur-bluetooth-speaker-di-bawah-60-juta",
+          "intro": "Bertempat di sela-sela riuhnya gelaran Pekan Raya Jakarta (PRJ) 2026 yang berlangsung di JIExpo Kemayoran, Jakarta Pusat pada Kamis (11/06) lalu, PT Benelli Motor Indonesia (BMI) secara resmi membuka selubung gacoan cruiser terbaru mereka. Yap, inilah Keeway Road Falcon 250 !",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 60000000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 0,
+          "image_keys": []
+        },
+        "prev_detail": null
       }
     },
     {
@@ -2544,16 +3273,136 @@
         "key": "honda|vario",
         "specs": {
           "price": 26500000.0,
-          "engine": null,
-          "power": null,
-          "torque": null
+          "engine": "125 cc",
+          "power": "7.0 KW",
+          "torque": "10.0 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "compare": [
+          "Tak sekadar jual tampang, Kawasaki juga membekali Brusky 125 dengan sederet fitur fungsional yang sangat dibutuhkan pengendara masa kini, di antaranya: USB Power Socket: Terletak strategis di dekat Twin Pocket (kompartemen penyimpanan ganda di bagian depan) untuk memudahkan pengisian daya smartphone selama perjalanan."
+        ],
+        "analyzed_at": "2026-11-13T03:40:15",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/menggebrak-jakarta-fair-2026-kawasaki-resmi-rilis-brusky-125-untuk-tantang-honda-vario",
+          "intro": "Cakkk…seperti yang sampeyan tahu, Kejutan besar datang dari jagat roda dua tanah air. PT Kawasaki Motor Indonesia (KMI) secara resmi meluncurkan skuter matik (skutik) pertama mereka untuk pasar Indonesia, yaitu Modenas Brusky 125 .",
+          "variants": [
+            {
+              "name": "Sporty",
+              "price": 26500000.0,
+              "colors": [
+                {
+                  "name": "Glorius Black",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Melihat tampangnya sekilas, aura sporty langsung terpancar kuat. Modenas Brusky 125 mengusung bahasa desain tajam nan agresif yang sangat diminati oleh konsumen Indonesia, mirip dengan pakem desain skutik komuter perkotaan seperti Honda Vario.",
+                "Meski berwajah galak, Kawasaki memastikan kenyamanan berkendara tetap menjadi prioritas utama. Brusky 125 dirancang ergonomis untuk menunjang mobilitas harian dengan penyematan setang yang cukup lebar, area pijakan kaki ( dek bawah ) anti-slip yang luas, serta pegangan belakang (behel) yang nyaman d",
+                "Tak sekadar jual tampang, Kawasaki juga membekali Brusky 125 dengan sederet fitur fungsional yang sangat dibutuhkan pengendara masa kini, di antaranya:"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 19,
+          "image_keys": [
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fkawasaki brusky 125 17 webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fkawasaki brusky 125 4 webp w 891",
+            " 2f 2fcdn iwanbanaran com 2f2026 2f06 2fkawasaki brusky 125 2 522x600 webp w 522",
+            " 2f 2fcdn iwanbanaran com 2f2026 2f06 2fkawasaki brusky 125 3 768x432 webp w 768",
+            " 2f 2fcdn iwanbanaran com 2f2026 2f06 2fkawasaki brusky 125 5 768x432 webp w 768",
+            " 2f 2fcdn iwanbanaran com 2f2026 2f06 2fkawasaki brusky 125 6 768x458 webp w 768",
+            " 2f 2fcdn iwanbanaran com 2f2026 2f06 2fkawasaki brusky 125 7 768x436 webp w 768",
+            " 2f 2fcdn iwanbanaran com 2f2026 2f06 2fkawasaki brusky 125 8 768x432 webp w 768",
+            " 2f 2fcdn iwanbanaran com 2f2026 2f06 2fkawasaki brusky 125 9 768x432 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f06 2fkawasaki brusky 125 10 768x484 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f06 2fkawasaki brusky 125 11 768x450 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f06 2fkawasaki brusky 125 12 768x432 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f06 2fkawasaki brusky 125 13 768x432 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f06 2fkawasaki brusky 125 14 768x432 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f06 2fkawasaki brusky 125 15 768x432 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f06 2fkawasaki brusky 125 16 768x432 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f06 2fkawasaki brusky 125 17 768x432 webp w 768",
+            " 2f 2fcdn iwanbanaran com 2f2026 2f06 2fkawasaki brusky 125 1 768x432 webp w 768"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/breaking-honda-rilis-hooride-125-mesin-vario-tampang-adv-keren-puoll",
+          "intro": "Cakkk….Pasar otomotif roda dua kembali diramaikan dengan kehadiran pemain baru di segmen skutik petualangan (adventure). Honda, melalui mitra produksinya di China, Wuyang-Honda, secara resmi meluncurkan model terbaru yang diberi nama HooRide 125 .",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 28000000.0,
+              "colors": [
+                {
+                  "name": "Glacier White",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Adventure Green",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Armor Grey",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Obsidian Black",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Mesin": "eSP+ 4-tak, SOHC, 4 klep, silinder tunggal",
+            "Diameter x Langkah": "53,5 mm x 55,5 mm",
+            "Daya Maksimum": "8,2 kW (11,1 PS) @ 8.250 rpm",
+            "Torsi Maksimum": "11,7 Nm @ 5.250–6.500 rpm",
+            "Sistem Bahan Bakar": "PGM-FI (Injeksi)",
+            "Sistem Starter": "ACG (Starter Elektrik)",
+            "P x L x T": "1.972 mm x 753 mm x 1.206 mm (estimasi)",
+            "Jarak Sumbu Roda": "1.315 mm",
+            "Tinggi Tempat Duduk": "760 mm",
+            "Berat Isi": "Belum disebutkan secara spesifik",
+            "Suspensi Depan": "Teleskopik",
+            "Suspensi Belakang": "Double shock absorber : / Dual rear shock (2 sisi)",
+            "Rem Depan": "Cakram hidrolik (twin piston)",
+            "Rem Belakang": "Cakram hidrolik (twin piston)",
+            "Ban Depan": "110/80-14 (All-Terrain / Dual Purpose)",
+            "Ban Belakang": "130/70-13 (All-Terrain / Dual Purpose)"
+          },
+          "loose_colors": [],
+          "n_images": 13,
+          "image_keys": [
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fhonda hooride 125 9 webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fhonda hooride 125 6 webp w 682",
+            "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fhonda hooride 125 3 1 webp w 911",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fhonda hooride 125 4 webp w 765",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fhonda hooride 125 1 1 webp w 1288",
+            "3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fhonda hooride 125 3 755x600 webp w 755",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fhonda hooride 125 8 webp w 660",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fhonda hooride 125 7 webp w 663",
+            "3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fhonda hooride 125 5 768x500 webp w 768",
+            " 2f 2fcdn iwanbanaran com 2f2026 2f03 2fhonda hooride 125 4 1 768x527 webp w 768",
+            " 2f 2fcdn iwanbanaran com 2f2026 2f03 2fhonda hooride 125 2 1 768x500 webp w 768",
+            "3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fhonda hooride 125 1 726x600 webp w 726"
+          ],
+          "title": "Breaking ! Honda Rilis HooRide 125….mesin Vario Tampang ADV ? Keren puoll",
+          "date": "2026-03-24T00:00:00",
+          "source": "Iwan Banaran"
+        }
       }
     },
     {

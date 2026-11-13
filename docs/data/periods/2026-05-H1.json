@@ -1503,7 +1503,7 @@
         "key": "tvs|callisto125",
         "specs": {
           "price": null,
-          "engine": null,
+          "engine": "124,8 cc",
           "power": "6 KW",
           "torque": "10,5 Nm"
         },
@@ -1512,9 +1512,44 @@
           "price_delta": null
         },
         "compare": [
+          "Performa Mesin: Efisiensi Berbalut Teknologi Intelli-Go Dibalik jubah barunya, TVS Callisto 125 masih mengandalkan dapur pacu 124,8cc, silinder tunggal, berpendingin udara .",
           "Meskipun secara basis mekanis tidak ada ubahan drastis, namun kehadiran warna hijau zamrud ini memberikan impresi yang lebih mewah dan fresh ."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:32:43",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/05/05/tvs-indonesia-rilis-warna-baru-callisto-125-emerald-green-%f0%9f%92%9a/?utm_source=rss&utm_medium=rss&utm_campaign=tvs-indonesia-rilis-warna-baru-callisto-125-emerald-green-%25f0%259f%2592%259a",
+          "intro": "PT TVS Motor Indonesia (TVSMI) rupanya tidak tinggal diam dalam memanaskan persaingan skutik retro di tanah air. Pekan ini, bertajuk event “Good Vibes Ride” yang melibatkan para rider TVS Callisto dan berbagai komunitas, TVS secara resmi memperkenalkan penyegaran visual untuk jagoan mereka: TVS Callisto 125 kini hadir dengan pilihan warna baru yang sangat elegan, Emerald Green .",
+          "variants": [
+            {
+              "name": "Premium",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Hijau",
+                  "new": null,
+                  "image": "https://cdn.tmcblog.com/2026/05/emerald-green-Callisto125-2.webp"
+                }
+              ],
+              "notes": [
+                "TVS Callisto 125 tetap mempertahankan garis desain retro-classic yang menjadi identitasnya dengan Warna Hijau Zamrut yang mengisi bagian depan sampai belakang. Namun, pada versi terbaru ini, TVS memberikan beberapa sentuhan detail yang mengangkat kelasnya:",
+                "Aksen Krom: Tersebar di beberapa titik strategis yang memberikan kesan mewah.",
+                "Emblem 3D: Penggunaan emblem timbul yang membuat tampilan samping lebih berkelas."
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Emerald Green"
+          ],
+          "n_images": 3,
+          "image_keys": [
+            "emerald green callisto 125 webp",
+            "emerald green callisto125 2 webp",
+            "emerald green callisto125 3 webp"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {
@@ -2023,7 +2058,32 @@
           "price_delta": null
         },
         "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:33:28",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/geger-honda-ns150es-2026-rilis-ketikajiwa-pcx-dipaksa-punya-dek-rata-vario",
+          "intro": "Asli cak….dunia otomotif memang nggak pernah kehabisan berita. Lhaa piyee…Baru saja IWB memelototi sosok motor baru dari Wuyang Honda (partner Honda di China) bernama Honda NS150ES .",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": null,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 6,
+          "image_keys": [
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f04 2fhonda ns150es z webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f04 2fhonda ns150es 4 webp w 1168",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f04 2fhonda ns150es 2 webp w 742",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f04 2fhonda ns150es 1 webp w 1100",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f04 2fhonda ns150es 3 webp w 1050"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {

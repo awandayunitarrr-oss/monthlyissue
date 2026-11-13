@@ -491,9 +491,207 @@
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-13T02:22:05",
-        "full": false
+        "compare": [
+          "Tipe ABS Tipe ABS kini memiliki empat varian warna yang menonjolkan setiap lekukan desainnya.",
+          "Pilihan Warna Lain: Melengkapi warna yang sudah ada seperti Exceptional Black , Exceptional Matte Silver , dan Exceptional Red ."
+        ],
+        "analyzed_at": "2026-11-13T03:23:44",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/iims-2026-new-pcx160-terbaru-gebrak-indonesia-woww-birunya-cakeppp",
+          "intro": "Cakkk…PT Astra Honda Motor (AHM) resmi memberikan penyegaran pada skutik besar premium andalannya, Honda PCX160 . Kehadiran pilihan warna baru yang lebih berkelas ini diperkenalkan secara perdana dalam ajang Indonesia International Motor Show (IIMS) 2026 di Jakarta.",
+          "variants": [
+            {
+              "name": "RoadSync",
+              "price": 40951000.0,
+              "colors": [
+                {
+                  "name": "Signature Brown",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Signature Burgundy",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Sebagai tipe tertinggi, Honda RoadSync hadir dengan pilihan warna yang menjadi simbol gaya hidup modern.",
+                "Detail Eksklusif: Velg dilapisi warna Burnt Titanium dan emblem PCX160 yang mewah.",
+                "Honda RoadSync: Konektivitas smartphone untuk navigasi, musik, dan telepon melalui Voice Control (khusus tipe RoadSync)."
+              ]
+            },
+            {
+              "name": "ABS",
+              "price": 37951000.0,
+              "colors": [
+                {
+                  "name": "Phenomenal Blue",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Phenomenal Green",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Phenomenal Black",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Phenomenal Matte White",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Tipe ABS kini memiliki empat varian warna yang menonjolkan setiap lekukan desainnya.",
+                "Warna: Phenomenal Blue , Phenomenal Green , Phenomenal Black , dan Phenomenal Matte White .",
+                "Detail: Velg berwarna Burnt Titanium dengan logo emblem PCX160 berwarna perak ( Silver )."
+              ]
+            },
+            {
+              "name": "CBS",
+              "price": 34350000.0,
+              "colors": [
+                {
+                  "name": "Exceptional Matte White",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Exceptional Black",
+                  "new": false,
+                  "image": null
+                },
+                {
+                  "name": "Exceptional Matte Silver",
+                  "new": false,
+                  "image": null
+                },
+                {
+                  "name": "Exceptional Red",
+                  "new": false,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Tipe ini mendapatkan sentuhan warna yang sporty namun tetap elegan.",
+                "Pilihan Warna Lain: Melengkapi warna yang sudah ada seperti Exceptional Black , Exceptional Matte Silver , dan Exceptional Red .",
+                "Detail: Velg berwarna hitam dengan logo emblem berwarna Silver ."
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 11,
+          "image_keys": [
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fnew pcx 2026 5 webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fnew pcx 2026 6 webp w 1200",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fnew pcx 2026 3 webp w 1200",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fnew pcx 2026 4 webp w 1200",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fnew pcx 2026 7 300x219 webp w 300",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fnew pcx 2026 2 300x200 webp w 300",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fnew pcx 2026 9 300x198 webp w 300",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fnew pcx 2026 10 300x188 webp w 300",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fnew pcx 2026 8 300x198 webp w 300",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fnew pcx 2026 1 300x204 webp w 300"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/mega-gallery-dan-spesifikasi-honda-new-pcx-160-2025-fix-tidak-perlu-vtec",
+          "intro": "Cakkk….akhirnya IWB bisa mengumpulkan semua data dan informasi termasuk foto generasi terbaru New PCX 160 versi 2025. Mega Gallery dan spesifikasi Honda New PCX 160 2025…Tidak perlu VTEC, AHM siap tantang NMAX Turbo !??!!",
+          "variants": [
+            {
+              "name": "RoadSync",
+              "price": 40350000.0,
+              "colors": [
+                {
+                  "name": "RoadSync Matte Black",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "RoadSync Glossy Red",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Posisi berkendara semakin nyaman dengan beragam fitur teranyar yang dihadirkan melalui penyematan USB Type-C Charger, Handlebar Cover, hingga penggunaan lampu LED pada system pencahayaan dengan design lampu depan & belakang terbaru. Inovasi terbaru disematkan pada New Honda PCX160 tipe RoadSync. Ber"
+              ]
+            },
+            {
+              "name": "ABS",
+              "price": 37350000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Mesin": "4-Langkah, 4-Valve, eSP+",
+            "Sistem Bahan Bakar": "PGM-FI (Programmed Fuel Injection)",
+            "Diameter x Langkah": "60 x 55,5 mm",
+            "Perbandingan Kompresi": "12:1",
+            "Daya Maksimum": "11,8 kW (16 PS) / 8.500 rpm",
+            "Torsi Maksimum": "14,7 Nm (1,5 kgf.m) / 6.500 rpm",
+            "Tipe Transmisi": "Otomatis, V-Matic",
+            "Tipe Kopling": "Otomatis, Sentrifugal, Tipe Kering",
+            "Kapasitas Oli Mesin": "0,8 liter (Penggantian Periodik)",
+            "Tipe Rangka": "Double Cradle",
+            "Ban Depan": "110/70 – 14 M/C Tubeless",
+            "Ban Belakang": "130/70 – 13 M/C Tubeless",
+            "P x L x T": "1.936 x 742 x 1.123 mm",
+            "Jarak Sumbu Roda": "1.313 mm",
+            "Jarak Terendah ke Tanah": "135 mm",
+            "Tinggi Tempat Duduk": "764 mm",
+            "Berat Isi": "132 kg (CBS), 132 kg (ABS) & 133 kg (RoadSync)",
+            "Kapasitas Tangki Bensin": "8,1 liter",
+            "Sistem Pengapian": "Full Transisterized",
+            "Tipe Busi": "NGKLMAR8L-9"
+          },
+          "loose_colors": [
+            "Exceptional Black",
+            "Exceptional White",
+            "Exceptional Matte Silver",
+            "Exceptional Red",
+            "Phenomenal Matte Black",
+            "Phenomenal White",
+            "Phenomenal Matte Silver",
+            "Phenomenal Matte Red",
+            "Burnt Titanium"
+          ],
+          "n_images": 42,
+          "image_keys": [
+            "d15b6 webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fpcx 160 jpg w 860",
+            "9b7 webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fimg 6659 jpg w 1043",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "43 webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 3 jpg w 1400",
+            "d0 webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 5 jpg w 1400",
+            "1 webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 24 jpg w 1047",
+            "c webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 13 jpg w 1400",
+            "c webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 20 jpg w 1400",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 22 100x70 jpg w 200",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 21 488x420 jpg w 488",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 19 100x70 jpg w 200",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 14 534x420 jpg w 534",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 12 80x60 jpg w 200",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 18 586x420 jpg w 586",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 17 489x420 jpg w 489",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 16 513x420 jpg w 513",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 15 630x420 jpg w 630",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 11 630x420 jpg w 630",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 9 100x70 jpg w 200",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 10 455x420 jpg w 455"
+          ],
+          "title": "Mega Gallery dan spesifikasi Honda New PCX 160 2025…Fix, tidak Perlu VTEC",
+          "date": "2024-12-07T00:00:00",
+          "source": "Iwan Banaran"
+        }
       }
     },
     {
@@ -646,8 +844,8 @@
         "model": "Honda PCX 160",
         "key": "honda|pcx160",
         "specs": {
-          "price": null,
-          "engine": null,
+          "price": 37951000.0,
+          "engine": "160 cc",
           "power": "8 KW",
           "torque": null
         },
@@ -656,10 +854,239 @@
           "price_delta": null
         },
         "compare": [
-          "Yuk, kita kupas tuntas apa saja yang berubah dan bagaimana positioning harganya!"
+          "Secara visual, warna ini jauh lebih eksklusif dibandingkan emas standar atau hitam, memberikan kesan aftermarket yang berkelas.",
+          "Diferensiasi Eksklusif: Sama seperti ABS, ia menggunakan velg Burnt Titanium , namun emblem PCX 160 di sini diklaim memiliki sentuhan yang lebih berkelas lagi untuk membedakannya sebagai varian top-of-the-line .",
+          "Yuk, kita kupas tuntas apa saja yang berubah dan bagaimana positioning harganya!",
+          "Seluruh varian ABS kini dibekali velg berkelir Burnt Titanium ."
         ],
-        "analyzed_at": "2026-11-13T02:22:05",
-        "full": false
+        "analyzed_at": "2026-11-13T03:24:00",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/02/11/strategi-warna-baru-honda-pcx-160-2026-upaya-ahm-perkuat-imej-big-skutik-yang-semakin-mature/?utm_source=rss&utm_medium=rss&utm_campaign=strategi-warna-baru-honda-pcx-160-2026-upaya-ahm-perkuat-imej-big-skutik-yang-semakin-mature",
+          "intro": "Halo sobat sekalian, kembali lagi kita membedah geliat industri roda dua tanah air. Kali ini, sorotan tajam tertuju pada lantai pameran IIMS 2026 , di mana PT Astra Honda Motor (AHM) secara resmi merilis penyegaran visual untuk sang king of big skutik mereka, Honda PCX 160 .",
+          "variants": [
+            {
+              "name": "ABS",
+              "price": 37951000.0,
+              "colors": [
+                {
+                  "name": "Burnt Titanium",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Phenomenal Blue",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Phenomenal Green",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Phenomenal Black",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Phenomenal Matte White",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Blue",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Silver",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Pada tipe ABS, AHM memberikan tema Phenomenal . Ada empat pilihan warna: Phenomenal Blue, Phenomenal Green, Phenomenal Black, dan Phenomenal Matte White .",
+                "Analisa Estetika: Yang paling mencuri perhatian TMCBlog adalah hadirnya Phenomenal Green . Ini sepertinya upaya Honda menangkap tren warna otomotif global yang mulai mengarah ke warna-warna “earthy” yang deep namun tetap terlihat premium.",
+                "Velg Burnt Titanium: Inilah point of interest -nya. Seluruh varian ABS kini dibekali velg berkelir Burnt Titanium . Secara visual, warna ini jauh lebih eksklusif dibandingkan emas standar atau hitam, memberikan kesan aftermarket yang berkelas. Dipadukan dengan emblem Silver, aura mewahnya makin “kel"
+              ]
+            },
+            {
+              "name": "RoadSync",
+              "price": 40951000.0,
+              "colors": [
+                {
+                  "name": "Signature Brown",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Burgundy",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Brown",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Sebagai kasta tertinggi, tipe RoadSync mendapatkan perlakuan paling spesial dengan tema warna Signature .",
+                "Signature Brown & Burgundy: Pilihan warna cokelat ( Brown ) dan merah tua ( Burgundy ) ini adalah simbol status. Honda ingin menegaskan bahwa pemilik RoadSync adalah pribadi yang mapan dan mengikuti gaya hidup modern.",
+                "Harga: Sebagai flagship, ia dibanderol Rp 40.951.000,- (OTR Jakarta) ."
+              ]
+            },
+            {
+              "name": "CBS",
+              "price": 34350000.0,
+              "colors": [
+                {
+                  "name": "Exceptional Matte White",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Black",
+                  "new": false,
+                  "image": null
+                },
+                {
+                  "name": "Matte Silver",
+                  "new": false,
+                  "image": null
+                },
+                {
+                  "name": "Red",
+                  "new": false,
+                  "image": null
+                },
+                {
+                  "name": "Burnt Titanium",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Hitam",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Silver",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Untuk tipe CBS yang menjadi volume maker, AHM menghadirkan warna baru Exceptional Matte White guna menemani warna yang sudah ada ( Black, Matte Silver, dan Red ).",
+                "Kontras Visual: Berbeda dengan saudaranya, tipe CBS tetap menggunakan velg berwarna Hitam . Strategi ini cukup logis secara branding —untuk memisahkan secara visual mana tipe high-end (Burnt Titanium) dan mana tipe fungsional (Black).",
+                "CBS | Exceptional Matte White | Hitam | Silver | Rp 34.350.000"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Signature Brown",
+            "Burgundy",
+            "Burnt Titanium",
+            "Phenomenal Green"
+          ],
+          "n_images": 2,
+          "image_keys": [
+            "ahm newpcx160 01 webp",
+            "ahm newpcx160 02 webp"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/mega-gallery-dan-spesifikasi-honda-new-pcx-160-2025-fix-tidak-perlu-vtec",
+          "intro": "Cakkk….akhirnya IWB bisa mengumpulkan semua data dan informasi termasuk foto generasi terbaru New PCX 160 versi 2025. Mega Gallery dan spesifikasi Honda New PCX 160 2025…Tidak perlu VTEC, AHM siap tantang NMAX Turbo !??!!",
+          "variants": [
+            {
+              "name": "RoadSync",
+              "price": 40350000.0,
+              "colors": [
+                {
+                  "name": "RoadSync Matte Black",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "RoadSync Glossy Red",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Posisi berkendara semakin nyaman dengan beragam fitur teranyar yang dihadirkan melalui penyematan USB Type-C Charger, Handlebar Cover, hingga penggunaan lampu LED pada system pencahayaan dengan design lampu depan & belakang terbaru. Inovasi terbaru disematkan pada New Honda PCX160 tipe RoadSync. Ber"
+              ]
+            },
+            {
+              "name": "ABS",
+              "price": 37350000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Mesin": "4-Langkah, 4-Valve, eSP+",
+            "Sistem Bahan Bakar": "PGM-FI (Programmed Fuel Injection)",
+            "Diameter x Langkah": "60 x 55,5 mm",
+            "Perbandingan Kompresi": "12:1",
+            "Daya Maksimum": "11,8 kW (16 PS) / 8.500 rpm",
+            "Torsi Maksimum": "14,7 Nm (1,5 kgf.m) / 6.500 rpm",
+            "Tipe Transmisi": "Otomatis, V-Matic",
+            "Tipe Kopling": "Otomatis, Sentrifugal, Tipe Kering",
+            "Kapasitas Oli Mesin": "0,8 liter (Penggantian Periodik)",
+            "Tipe Rangka": "Double Cradle",
+            "Ban Depan": "110/70 – 14 M/C Tubeless",
+            "Ban Belakang": "130/70 – 13 M/C Tubeless",
+            "P x L x T": "1.936 x 742 x 1.123 mm",
+            "Jarak Sumbu Roda": "1.313 mm",
+            "Jarak Terendah ke Tanah": "135 mm",
+            "Tinggi Tempat Duduk": "764 mm",
+            "Berat Isi": "132 kg (CBS), 132 kg (ABS) & 133 kg (RoadSync)",
+            "Kapasitas Tangki Bensin": "8,1 liter",
+            "Sistem Pengapian": "Full Transisterized",
+            "Tipe Busi": "NGKLMAR8L-9"
+          },
+          "loose_colors": [
+            "Exceptional Black",
+            "Exceptional White",
+            "Exceptional Matte Silver",
+            "Exceptional Red",
+            "Phenomenal Matte Black",
+            "Phenomenal White",
+            "Phenomenal Matte Silver",
+            "Phenomenal Matte Red",
+            "Burnt Titanium"
+          ],
+          "n_images": 42,
+          "image_keys": [
+            "d15b6 webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fpcx 160 jpg w 860",
+            "9b7 webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fimg 6659 jpg w 1043",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "43 webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 3 jpg w 1400",
+            "d0 webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 5 jpg w 1400",
+            "1 webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 24 jpg w 1047",
+            "c webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 13 jpg w 1400",
+            "c webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 20 jpg w 1400",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 22 100x70 jpg w 200",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 21 488x420 jpg w 488",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 19 100x70 jpg w 200",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 14 534x420 jpg w 534",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 12 80x60 jpg w 200",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 18 586x420 jpg w 586",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 17 489x420 jpg w 489",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 16 513x420 jpg w 513",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 15 630x420 jpg w 630",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 11 630x420 jpg w 630",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 9 100x70 jpg w 200",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f12 2fnew pcx 10 455x420 jpg w 455"
+          ],
+          "title": "Mega Gallery dan spesifikasi Honda New PCX 160 2025…Fix, tidak Perlu VTEC",
+          "date": "2024-12-07T00:00:00",
+          "source": "Iwan Banaran"
+        }
       }
     },
     {
@@ -743,19 +1170,92 @@
         "model": "Yamaha R15",
         "key": "yamaha|r15",
         "specs": {
-          "price": 47000000.0,
-          "engine": null,
-          "power": null,
-          "torque": null
+          "price": 72509000.0,
+          "engine": "155 cc",
+          "power": "18,8 HP",
+          "torque": "14,7 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
         "compare": [
-          "Woww mahal juga cakkk (Catatan: Harga di Brasil cenderung jauh lebih tinggi dibandingkan versi Indonesia (sekitar Rp 40-47 jutaan) karena perbedaan struktur pajak, biaya impor komponen, dan kebijakan pasar lokal di Amerika Selatan)."
+          "Woww mahal juga cakkk (Catatan: Harga di Brasil cenderung jauh lebih tinggi dibandingkan versi Indonesia (sekitar Rp 40-47 jutaan) karena perbedaan struktur pajak, biaya impor komponen, dan kebijakan pasar lokal di Amerika Selatan).",
+          "Assist & Slipper Clutch: Fitur yang membuat tarikan kopling lebih ringan dan mencegah ban belakang selip (skidding) saat melakukan downshift (penurunan gigi) secara agresif.",
+          "Dan gen baru ini memang nggak banyak berubah cak khususnya mesin dan fitur."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:24:14",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/yamaha-rilis-new-r15-terbaru-woww-makin-ganteng-cakkk",
+          "intro": "Cakkk….Yamaha R15 ABS terus mengukuhkan posisinya sebagai motor sport fairing paling canggih di kelasnya. Untuk pasar Brasil (yamaha-motor.com.br), motor ini hadir dengan kombinasi teknologi mesin balap dan fitur keamanan modern.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 72509000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 11,
+          "image_keys": [
+            "2e1 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fr15 jkss webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha r15 9 webp w 1440",
+            "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha r15 2 webp w 1280",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha r15 10 webp w 1600",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha r15 1 1 300x188 webp w 300",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha r15 8 300x200 webp w 300",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha r15 7 300x200 webp w 300",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha r15 6 300x200 webp w 300",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha r15 5 300x200 webp w 300",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha r15 3 300x169 webp w 300"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/yamaha-indonesia-ngamukkk-rilis-new-xsr150-terbaru-2025-brown-metallic-cakk",
+          "intro": "Cakkk….Awal tahun 2025 baru bergulir, Yamaha sudah menggebrak dengan menghadirkan dua model baru di segmen sport yaitu New R25 dan New MT-25. Di pekan yang sama, Yamaha juga merilis penyegaran produk lainnya di line up sport yakni XSR 155.",
+          "variants": [
+            {
+              "name": "Premium",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Metallic Brown",
+                  "new": true,
+                  "image": "https://iwanbanaran.com/api/proxy/image/c11e44d6b4a31e47.webp?url=https%3A%2F%2Fcdn.iwanbanaran.com%2F2025%2F01%2FXSR-155-Metallic-Brown-Authentic-2.jpg&w=860"
+                },
+                {
+                  "name": "Matte Silver",
+                  "new": true,
+                  "image": "https://iwanbanaran.com/api/proxy/image/0b30fd19bac69a2b.webp?url=https%3A%2F%2Fcdn.iwanbanaran.com%2F2025%2F01%2FXSR-155-Matte-Silver-Premium.jpg&w=1200"
+                }
+              ],
+              "notes": [
+                "Merespon minat positif market tersebut, di bulan Januari 2025 ini Yamaha meluncurkan warna dan grafis baru pada XSR 155 yang membuat tampilan motor tersebut semakin menarik untuk jadi pilihan teranyar bagi pengendara. Kini tersedia XSR 155 Metallic Brown Authentic dan XSR 155 Matte Silver Premium ya",
+                "XSR 155 dengan warna terbaru Metallic Brown Authentic mengusung konsep classical update yang mengangkat masa lalu dengan warna autentik seperti coklat. Tampilan motor pun makin segar dibalut grafis yang mempertegas kesan retro. Mengendarai XSR 155 Metallic Brown Authentic akan menambah kebanggaan pe",
+                "Kehadiran warna baru Metallic Brown Authentic dan Matte Silver Premium semakin melengkapi gaya hidup berkendara tersebut, mewakili karakter “Born to be Free” yang melekat kuat pada motor itu. Ditambah kualitas desain retro serta fitur dan teknologi modern membuat XSR 155 jadi partner berkendara ungg"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 5,
+          "image_keys": [
+            "2fcdn iwanbanaran com 2f2025 2f01 2fxsr 155 metallic brown authentic 2 jpg w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            " 2fcdn iwanbanaran com 2f2025 2f01 2fxsr 155 metallic brown authentic jpg w 1200",
+            "a 2f 2fcdn iwanbanaran com 2f2025 2f01 2fxsr 155 matte silver premium jpg w 1200",
+            "2f 2fcdn iwanbanaran com 2f2025 2f01 2fxsr 155 matte silver premium 2 jpg w 1200"
+          ],
+          "title": "Yamaha Indonesia ngamukkk…rilis New XSR150 Terbaru 2025, brown metallic cakk",
+          "date": "2025-04-08T00:00:00",
+          "source": "Iwan Banaran"
+        },
+        "prev_official": null,
+        "now_official": null
       }
     },
     {
@@ -1350,13 +1850,13 @@
         "Italia"
       ],
       "launch": {
-        "model": "Adventure T502X",
-        "key": "benelli|adventuret502x",
+        "model": "Morbidelli",
+        "key": "benelli|morbidelli",
         "specs": {
           "price": 159000000.0,
-          "engine": "500 cc",
-          "power": null,
-          "torque": null
+          "engine": "494 cc",
+          "power": "47 DK",
+          "torque": "45 Nm"
         },
         "previous_from_article": {
           "price": null,
@@ -1365,7 +1865,29 @@
         "compare": [
           "Selain membawa brand Benelli dan Keeway, tahun ini mereka benar-benar tancap gas dengan memperkenalkan lini produk terbaru dari brand legendaris asal Italia yang kini bangkit kembali: Morbidelli ."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:24:32",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/02/06/morbidelli-gebrak-iims-2026-rilis-moge-adventure-t502x-dan-cruiser-futuristis-lfc700/?utm_source=rss&utm_medium=rss&utm_campaign=morbidelli-gebrak-iims-2026-rilis-moge-adventure-t502x-dan-cruiser-futuristis-lfc700",
+          "intro": "Kejutan besar datang dari booth PT Benelli Motor Indonesia (BMI) di ajang IIMS 2026 . Selain membawa brand Benelli dan Keeway, tahun ini mereka benar-benar tancap gas dengan memperkenalkan lini produk terbaru dari brand legendaris asal Italia yang kini bangkit kembali: Morbidelli .",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 159000000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 3,
+          "image_keys": [
+            "morbidelli benda iims 2 webp",
+            "morbidelli benda iims 3 webp",
+            "morbidelli benda iims 1 webp"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {
@@ -1422,7 +1944,7 @@
         "model": "Yamaha IIMS",
         "key": "yamaha|iims",
         "specs": {
-          "price": 33900000.0,
+          "price": 29900000.0,
           "engine": null,
           "power": null,
           "torque": null
@@ -1434,8 +1956,96 @@
         "compare": [
           "Varian Cyber City kini naik kelas dengan hadirnya fitur ABS, plus perpaduan warna Matte Purple Black yang memberikan kesan futuristik ala vaporwave yang lagi tren."
         ],
-        "analyzed_at": "2026-11-13T02:22:05",
-        "full": false
+        "analyzed_at": "2026-11-13T03:24:44",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/02/05/yamaha-indonesia-gebrak-iims-2026-dengan-aerox-alpha-cyber-city/?utm_source=rss&utm_medium=rss&utm_campaign=yamaha-indonesia-gebrak-iims-2026-dengan-aerox-alpha-cyber-city",
+          "intro": "Assalamualaikum sobat sekalian, dari lantai pameran IIMS 2026 yang berlangsung di JIExpo Kemayoran, Jakarta, Yamaha Indonesia (YIMM) tampil all-out tahun ini. Menempati booth yang luas dan atraktif, Yamaha nggak cuma sekadar pamer motor, tapi membawa atmosfer perayaan 70th Anniversary Yamaha dan 25th Anniversary MAXI Series langsung ke hadapan pengunjung.",
+          "variants": [
+            {
+              "name": "Standard",
+              "price": 29900000.0,
+              "colors": [],
+              "notes": []
+            },
+            {
+              "name": "CyberCity ABS",
+              "price": 33900000.0,
+              "colors": [],
+              "notes": []
+            },
+            {
+              "name": "Turbo",
+              "price": 39500000.0,
+              "colors": [],
+              "notes": []
+            },
+            {
+              "name": "Ultimate",
+              "price": 41700000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Red",
+            "Blue",
+            "Matte Purple Black",
+            "White Pearl Blue",
+            "Elixir Dark Silver"
+          ],
+          "n_images": 5,
+          "image_keys": [
+            "aerox cyber1 webp",
+            "aerox cyber2 webp",
+            "aerox cyber3 webp",
+            "nggung iims 2026 pamerkan model terbaru dan rayakan momen istimewa 3 scaled webp",
+            "nggung iims 2026 pamerkan model terbaru dan rayakan momen istimewa 4 scaled webp"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/iims-2024-bongkar-motor-listrik-neu-green-yang-dipakai-gibran-di-gbk-harganya-ediannn",
+          "intro": "Cakkk…siapa yang nggak penasaran dengan sosok motor yang dipakai Gibran Rakabuming Raka saat deklarasi di GBK. Calon wakil presiden ini bukannya naik mobil cak namun bersama istrinya Gibran malah nunggang Molis yang membuat IWB mengerutkan dahi.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 85000000.0,
+              "colors": [
+                {
+                  "name": "NEU Green",
+                  "new": null,
+                  "image": "https://iwanbanaran.com/api/proxy/image/65ee9d876e6dbd05.webp?url=https%3A%2F%2Fcdn.iwanbanaran.com%2F2024%2F02%2Fneu-green-gibran-1.jpg&w=860"
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 14,
+          "image_keys": [
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fneu green gibran 1 jpg w 860",
+            "rl https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fneu green gibran 6 jpg w 1500",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fneu green gibran jpg w 679",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fneu green gibran 10 jpg w 1500",
+            " 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fneu green gibran 11 696x391 jpg w 696",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fneu green gibran 7 696x407 jpg w 696",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fneu green gibran 9 687x420 jpg w 687",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fneu green gibran 8 361x420 jpg w 361",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fneu green gibran 4 696x391 jpg w 696",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fneu green gibran 3 633x420 jpg w 633",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fneu green gibran 5 696x391 jpg w 696",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fneu green gibran 2 633x420 jpg w 633",
+            " 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fneu green gibran 12 654x420 jpg w 654"
+          ],
+          "title": "IIMS 2024 : Bongkar Motor Listrik NEU Green yang dipakai Gibran di GBK….harganya ediannn",
+          "date": "2024-02-22T00:00:00",
+          "source": "Iwan Banaran"
+        },
+        "prev_official": null,
+        "now_official": null
       }
     },
     {
@@ -1627,19 +2237,87 @@
         "key": "yamaha|lander250",
         "specs": {
           "price": 93000000.0,
-          "engine": null,
-          "power": null,
-          "torque": null
+          "engine": "249 cc",
+          "power": "20,9 HP",
+          "torque": "20,59 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
         "compare": [
-          "Motor yang dikenal tangguh di segala medan ini kini hadir dengan tampilan lebih segar dan teknologi konektivitas yang lebih pintar.",
-          "Pembaruan yang paling mencolok pada model 2026 adalah hadirnya pilihan warna baru bernama Atacama Brown (Cokelat Metalik)."
+          "Yess, Yamaha Rilis Lander 250 MY2026…..Mesin Scorpio, Garang Puoll Motor yang dikenal tangguh di segala medan ini kini hadir dengan tampilan lebih segar dan teknologi konektivitas yang lebih pintar.",
+          "Desain Baru: Warna “Atacama Brown” yang Eksklusif Pembaruan yang paling mencolok pada model 2026 adalah hadirnya pilihan warna baru bernama Atacama Brown (Cokelat Metalik).",
+          "Teknologi Konektivitas “Y-Connect” Lander 250 edisi 2026 kini semakin modern dengan panel instrumen LCD digital bergaya blackout ."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:25:00",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/breaking-yamaha-rilis-lander-250-my2026-mesin-scorpio-garang-puoll",
+          "intro": "Cakkk…Yamaha baru saja memperkenalkan penyegaran untuk salah satu motor dual-purpose andalannya, Yamaha Lander 250 (XTZ 250) untuk model tahun 2026. Motor yang dikenal tangguh di segala medan ini kini hadir dengan tampilan lebih segar dan teknologi konektivitas yang lebih pintar.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 93000000.0,
+              "colors": [
+                {
+                  "name": "Atacama Brown",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Cokelat",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Titanium Grey",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Racing Blue",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Amazon Green",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 20,
+          "image_keys": [
+            " 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 4 2 webp w 860",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 4 webp w 735",
+            "iklan iwanbanaran 728x174p iwb webp",
+            " 2f 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 4 2 1 webp w 1200",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 6 webp w 1280",
+            "3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 4 7 webp w 1200",
+            "fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 4 5 218x150 webp w 218",
+            "fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 4 6 218x150 webp w 218",
+            "fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 4 4 218x150 webp w 218",
+            "fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 4 3 218x150 webp w 218",
+            "f 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 5 300x84 webp w 300",
+            " 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 7 300x169 webp w 300",
+            " 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 1 300x200 webp w 300",
+            " 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 2 300x200 webp w 300",
+            " 2fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 3 300x200 webp w 300",
+            "fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 5 1 300x200 webp w 300",
+            "fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 1 1 300x182 webp w 300",
+            "fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 2 1 300x169 webp w 300",
+            "2fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 3 1 300x84 webp w 300",
+            "2fcdn iwanbanaran com 2f2026 2f02 2fyamaha lander 250 2026 4 1 300x84 webp w 300"
+          ]
+        },
+        "prev_detail": null,
+        "prev_official": null,
+        "now_official": null
       }
     },
     {

@@ -1972,17 +1972,62 @@
         "specs": {
           "price": 32000000.0,
           "engine": "197 cc",
-          "power": null,
-          "torque": null
+          "power": "12,7 HP",
+          "torque": "14 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
         "compare": [
-          "Setelah sebelumnya kita membedah skutik adventure Fort 180, kali ini kita akan beralih ke menu utama bagi para pecinta “aspal lurus” dan gaya hidup santai."
+          "Pabrikan QJ Motor TMCBLOG.com – Setelah sebelumnya kita membedah skutik adventure Fort 180, kali ini kita akan beralih ke menu utama bagi para pecinta “aspal lurus” dan gaya hidup santai.",
+          "Tapi tunggu dulu, konfigurasinya tergolong unik untuk motor modern zaman sekarang, yaitu: 2V OHV (Over Head Valve) ."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:28:41",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/03/16/qj-motor-rilis-cuiser-srv-200-mt-murah-32-jutaan-saja/?utm_source=rss&utm_medium=rss&utm_campaign=qj-motor-rilis-cuiser-srv-200-mt-murah-32-jutaan-saja",
+          "intro": "Setelah sebelumnya kita membedah skutik adventure Fort 180, kali ini kita akan beralih ke menu utama bagi para pecinta “aspal lurus” dan gaya hidup santai. Masih dari rangkaian acara peluncuran akbar QJMotor Indonesia bertema “Define Your Power, Ride Your Legacy” , Brand Tiongkok ini resmi memperkenalkan jagoan cruiser entry-level mereka: QJ Motor SRV200 MT .",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 32000000.0,
+              "colors": [
+                {
+                  "name": "Green",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Yellow",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Black",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Red",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 4,
+          "image_keys": [
+            "srv 200 1 webp",
+            "srv 200 3 webp",
+            "srv 200 4 webp",
+            "srv 200 2 webp"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {
@@ -2015,8 +2060,8 @@
         "model": "QJ Motor Fort 180 Adventure",
         "key": "qj motor|fort180adventure",
         "specs": {
-          "price": 33000000.0,
-          "engine": "180 cc",
+          "price": 33990000.0,
+          "engine": "175 cc",
           "power": null,
           "torque": null
         },
@@ -2024,8 +2069,44 @@
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "compare": [
+          "Nah, sekarang kita masuk ke menu utama, yaitu si Fort 180 Adventure ."
+        ],
+        "analyzed_at": "2026-11-13T03:28:53",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/03/16/qj-motor-fort-180-adventure-resmi-dirilis-dengan-harga-mulai-3399-juta-rupiah/?utm_source=rss&utm_medium=rss&utm_campaign=qj-motor-fort-180-adventure-resmi-dirilis-dengan-harga-mulai-3399-juta-rupiah",
+          "intro": "TMCBLOG.com Akhir pekan lalu, PT QJMotor Industry Indonesia resmi menggebrak pasar roda dua Tanah Air dengan meluncurkan lini produk flagship terbaru mereka. Salah satu yang paling menyita perhatian dan bakal kita bedah tipis-tipis kali ini adalah skutik bergaya petualang: QJ Motor Fort 180 Adventure .",
+          "variants": [
+            {
+              "name": "ABS",
+              "price": 36990000.0,
+              "colors": [],
+              "notes": [
+                "Dual Channel ABS: Khusus untuk tipe tertinggi, pengereman depan dan belakang sudah terjaga oleh sensor ABS.",
+                "• 180cc Hybrid Engine • Adventure Ready Suspension • TCS untuk kontrol lebih stabil • ABS untuk pengereman maksimal • Smart key system • Desain ADVENTURE yang sesungguhnya"
+              ]
+            },
+            {
+              "name": "CBS",
+              "price": 33990000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 6,
+          "image_keys": [
+            "fort 180 5 webp",
+            "fort 180 2 webp",
+            "fort 180 3 webp",
+            "fort 180 8 webp",
+            "fort 180 7 webp",
+            "fort 180 4 webp"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {

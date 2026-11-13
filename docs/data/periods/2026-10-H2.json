@@ -596,9 +596,53 @@
           "price_delta": null
         },
         "compare": [
-          "Mengambil inspirasi langsung dari budaya modifikasi kustom di Pantai Agonda, Goa, India—yang sebelumnya sempat tampil di ajang Moto Soul 2025 di Pantai Vagator—motor ini memadukan karakter petualang yang kental dengan estetika modern."
+          "Mengambil inspirasi langsung dari budaya modifikasi kustom di Pantai Agonda, Goa, India—yang sebelumnya sempat tampil di ajang Moto Soul 2025 di Pantai Vagator—motor ini memadukan karakter petualang yang kental dengan estetika modern.",
+          "Apa saja nilai lebih dari Top Variant dibanding versi dasarnya?",
+          "Ia juga menambahkan bahwa respons konsumen terhadap keluarga Ronin selama tiga tahun terakhir sangat positif, dibuktikan dengan raihan berbagai penghargaan sejak tahun 2024 hingga sekarang."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:46:22",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/10/29/tvs-resmi-rilis-ronin-agonda-di-indonesia-dibanderol-mulai-rp-37-jutaan/?utm_source=rss&utm_medium=rss&utm_campaign=tvs-resmi-rilis-ronin-agonda-di-indonesia-dibanderol-mulai-rp-37-jutaan",
+          "intro": "TVS Motor Company Indonesia kembali membuat gebrakan di segmen sepeda motor modern-retro Tanah Air. Tepat hari Kamis (29/10/2026) berlokasi di Ancol, Jakarta, TVS secara resmi memperkenalkan TVS Ronin Agonda untuk memperluas pilihan bagi para pencinta roda dua bergaya klasik-kustom.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 37000000.0,
+              "colors": [
+                {
+                  "name": "Lightning Black",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Nimbus Grey",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Midnight Blue",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 7,
+          "image_keys": [
+            "agonda 3 webp",
+            "ronin agoda id 4 scaled webp",
+            "ronin agoda id 1 scaled webp",
+            "ronin agoda id 3 scaled webp",
+            "agonda 2 webp",
+            "ronin agoda id 5 scaled webp",
+            "ronin agoda id 6 scaled webp"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {
@@ -1590,16 +1634,62 @@
         "specs": {
           "price": null,
           "engine": "125 cc",
-          "power": null,
-          "torque": null
+          "power": "7,4 KW",
+          "torque": "11 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-13T02:22:05",
-        "full": false
+        "compare": [
+          "Desain Agresif & Kehadiran Under-Cowl Baru Kalau sebelumnya Honda sudah merombak bagian shroud dan side cover jadi lebih tajam dan edgy , maka di update terbarunya ini Honda kembali memberikan suntikan aura balap yang makin kental.",
+          "Ditambah panel meter full digital multifungsi, membuat motor ini siap memanjakan pengendaranya baik untuk harian maupun sekadar hobi riding di akhir pekan."
+        ],
+        "analyzed_at": "2026-11-13T03:46:33",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/10/23/honda-perbarui-grom-125-model-year-tampil-makin-sporty-dengan-under-cowl-warna-baru-yang-menggoda/?utm_source=rss&utm_medium=rss&utm_campaign=honda-perbarui-grom-125-model-year-tampil-makin-sporty-dengan-under-cowl-warna-baru-yang-menggoda",
+          "intro": "Pasar motor mini sport 125cc di Jepang kembali kedatangan penyegaran menarik dari pabrikan berlogo sayap mengepak, Honda. Kali ini, Honda Jepang resmi merilis update terbaru untuk Honda Grom (atau yang di Indonesia dan Thailand populer disebut Honda MSX125) untuk jajaran lini produk terbarunya.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Gayety Red",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Merah",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Pearl Shining Black",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Splendid Blue",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 4,
+          "image_keys": [
+            "grom 27 4 webp",
+            "grom 27 1 webp",
+            "grom 27 2 webp",
+            "grom 27 3 webp"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {
@@ -2612,8 +2702,8 @@
         "specs": {
           "price": 52800000.0,
           "engine": "125 cc",
-          "power": null,
-          "torque": null
+          "power": "15 PS",
+          "torque": "11 Nm"
         },
         "previous_from_article": {
           "price": null,
@@ -2622,7 +2712,96 @@
         "compare": [
           "Secara fisik memang tidak ada ubahan apapun cak."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:46:44",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/breaking-honda-rilis-new-cb125r-neo-cafe-bikin-leleh-cakkkk",
+          "intro": "Cakkk…. Honda memang pinter main di segmen kecil.",
+          "variants": [
+            {
+              "name": "ABS",
+              "price": 52800000.0,
+              "colors": [
+                {
+                  "name": "Matte Gunpowder Black Metallic",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Candy Caribbean Blue",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Kedua , ABS dengan IMU . Bukan sekadar ABS biasa, tapi sudah pakai inertial measurement unit. Jadi pengereman darurat tetap stabil, nggak takut ban depan terkunci. Ketiga , TFT full color 5 inci . Panel instrumen digital warna, Cak! Bukan LCD monokrom murahan. Ada 4-way selector switch di setang kir",
+                "Last…. Honda CB125R ini bukan motor untuk semua orang . Harga 52,8 juta bikin banyak orang mikir dua kali. Apalagi buat yang cuma butuh transportasi murah. Tapi kalau sampeyan melihatnya sebagai “CB250R dengan mesin 125cc” , harganya jadi masuk akal. Sasis gede, suspensi Showa, ABS IMU, TFT display,"
+              ]
+            }
+          ],
+          "spec_table": {
+            "Tipe Mesin": "Water-cooled 4-stroke DOHC 4-valve single cylinder",
+            "Diameter x Langkah": "57.3 x 48.4mm",
+            "Perbandingan Kompresi": "11.3",
+            "Torsi Maksimum": "11N・m (1.1kgf・m) / 8000rpm"
+          },
+          "loose_colors": [],
+          "n_images": 5,
+          "image_keys": [
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fcb125 neo cafe webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "951 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fcb125 3 webp w 1280",
+            "ed5 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fcb125 2 webp w 1280",
+            "508 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fcb125 1 webp w 1280"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/bikin-klepek-klepek-honda-rilis-new-cb125r-neo-cafe-versi-2024-speedo-full-tft",
+          "intro": "Cakkkk…Honda kembali menggebrak dengan meluncurkan generasi terbaru CB125R Neo Cafe 2024. Sebuah motor bercc kecil namun desainnya moge look banget.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 55300000.0,
+              "colors": [
+                {
+                  "name": "Candy Caribbean Blue",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Matte Gunpowder Black Metallic",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tinggi Tempat Duduk": "815mm",
+            "Tipe Mesin": "Silinder tunggal 4-tak DOHC 4-katup berpendingin air",
+            "Perbandingan Kompresi": "11.3",
+            "Torsi Maksimum": "11N・m (1,1kgf・m)/8000rpm",
+            "Kapasitas Tangki Bensin": "10L",
+            "Tipe Transmisi": "6 kecepatan kembali"
+          },
+          "loose_colors": [],
+          "n_images": 9,
+          "image_keys": [
+            "31 webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f04 2fcb125r 8 1 jpg w 860",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f04 2fcb125r 1 1 800x476 jpg w 800",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "anbanaran com 2f2022 2f11 2f2023 honda cb125r lcd panel detail 800x533 jpg w 800",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f04 2fcb125r 7 800x476 jpg w 800",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f04 2fcb125r 8 1 741x600 jpg w 741",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f04 2fcb125r 5 1 800x476 jpg w 800",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f04 2fcb125r 3 1 800x476 jpg w 800",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f04 2fcb125r 6 1 800x476 jpg w 800"
+          ],
+          "title": "Bikin klepek-klepek ! Honda Rilis New CB125R Neo Cafe versi 2024…speedo full TFT",
+          "date": "2024-04-06T00:00:00",
+          "source": "Iwan Banaran"
+        }
       }
     },
     {

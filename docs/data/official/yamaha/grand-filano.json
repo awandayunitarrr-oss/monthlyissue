@@ -7,6 +7,180 @@
       "variants": [
         {
           "name": "Hybrid Lux",
+          "price": 28795000.0,
+          "colors": [
+            {
+              "name": "Magma Black",
+              "hex": "#2c2324",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024103012385668569G38738.png",
+              "new": null
+            },
+            {
+              "name": "Elixir Dark Silver",
+              "hex": "#999999",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024020213472067401H24864.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Hybrid Neo",
+          "price": 28315000.0,
+          "colors": [
+            {
+              "name": "Green",
+              "hex": "#84937f",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024103012395610897K52086.png",
+              "new": null
+            },
+            {
+              "name": "Pink Mauve",
+              "hex": "#cba49f",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024020213481067732Y32927.png",
+              "new": null
+            },
+            {
+              "name": "Dull Blue",
+              "hex": "#b0d4ea",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2023010916512225882T15971.png",
+              "new": null
+            },
+            {
+              "name": "White",
+              "hex": "#ffffff",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024103012392476507R50569.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "spec_table": {
+        "Tipe Mesin": "Pendingin Udara, 4-Langkah, SOHC",
+        "Diameter x Langkah": "52,4 x 57,9 mm",
+        "Perbandingan Kompresi": "11,0 : 1",
+        "Volume Silinder": "124,86 cc",
+        "Daya Maksimum": "6,1 kW / 6.500 rpm",
+        "Torsi Maksimum": "10,4 Nm / 5.000 rpm",
+        "Sistem Bahan Bakar": "Fuel Injection",
+        "Tipe Kopling": "Kopling Sentrifugal, Kering",
+        "Tipe Transmisi": "V-Belt Otomatis",
+        "Sistem Starter": "Elektrik",
+        "Tipe Rangka": "Underbone",
+        "Suspensi Depan": "Teleskopik",
+        "Suspensi Belakang": "Unit Swing",
+        "Ban Depan": "110/70-12 47L",
+        "Ban Belakang": "110/70-12 47L",
+        "Rem Depan": "Rem Cakram",
+        "Rem Belakang": "Rem Tromol",
+        "P x L x T": "1820 x 685 x 1155 mm",
+        "Jarak Sumbu Roda": "1280 mm",
+        "Jarak Terendah ke Tanah": "125 mm",
+        "Tinggi Tempat Duduk": "790 mm",
+        "Berat Isi": "100 Kg",
+        "Kapasitas Tangki Bensin": "4,4 L",
+        "Sistem Pengapian": "TCI",
+        "Tipe Battery": "YTZ6V",
+        "Tipe Busi": "CR6HSA"
+      },
+      "date": "2026-01-19",
+      "source": "wayback",
+      "archive_url": "http://web.archive.org/web/20260119041623/https://www.yamaha-motor.co.id/product/grand-filano/"
+    },
+    {
+      "name": "Yamaha Grand Filano",
+      "url": "https://www.yamaha-motor.co.id/product/grand-filano/",
+      "variants": [
+        {
+          "name": "Hybrid Lux",
+          "price": 29145000.0,
+          "colors": [
+            {
+              "name": "Royal Iron",
+              "hex": "#bfd4f0",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601231028034876K13777.png",
+              "new": null
+            },
+            {
+              "name": "Magma Black",
+              "hex": "#2c2324",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310455516358M58371.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Hybrid Neo",
+          "price": 28665000.0,
+          "colors": [
+            {
+              "name": "Prime Gray",
+              "hex": "#afb7c3",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310263681335O86751.png",
+              "new": null
+            },
+            {
+              "name": "Greenish Gray",
+              "hex": "#afcccf",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310255191745O23444.png",
+              "new": null
+            },
+            {
+              "name": "Pink Mauve",
+              "hex": "#cba49f",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310255677911L16899.png",
+              "new": null
+            },
+            {
+              "name": "Essential White",
+              "hex": "#ffffff",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310261915448E14156.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "spec_table": {
+        "Tipe Mesin": "Pendingin Udara, 4-Langkah, SOHC",
+        "Diameter x Langkah": "52,4 x 57,9 mm",
+        "Perbandingan Kompresi": "11,0 : 1",
+        "Volume Silinder": "124,86 cc",
+        "Daya Maksimum": "6,1 kW / 6.500 rpm",
+        "Torsi Maksimum": "10,4 Nm / 5.000 rpm",
+        "Sistem Bahan Bakar": "Fuel Injection",
+        "Tipe Kopling": "Kopling Sentrifugal, Kering",
+        "Tipe Transmisi": "V-Belt Otomatis",
+        "Sistem Starter": "Elektrik",
+        "Tipe Rangka": "Underbone",
+        "Suspensi Depan": "Teleskopik",
+        "Suspensi Belakang": "Unit Swing",
+        "Ban Depan": "110/70-12 47L",
+        "Ban Belakang": "110/70-12 47L",
+        "Rem Depan": "Rem Cakram",
+        "Rem Belakang": "Rem Tromol",
+        "P x L x T": "1820 x 685 x 1155 mm",
+        "Jarak Sumbu Roda": "1280 mm",
+        "Jarak Terendah ke Tanah": "125 mm",
+        "Tinggi Tempat Duduk": "790 mm",
+        "Berat Isi": "100 Kg",
+        "Kapasitas Tangki Bensin": "4,4 L",
+        "Sistem Pengapian": "TCI",
+        "Tipe Battery": "YTZ6V",
+        "Tipe Busi": "CR6HSA"
+      },
+      "date": "2026-07-13",
+      "source": "wayback",
+      "archive_url": "http://web.archive.org/web/20260713180015/https://www.yamaha-motor.co.id/product/grand-filano/"
+    },
+    {
+      "name": "Yamaha Grand Filano",
+      "url": "https://www.yamaha-motor.co.id/product/grand-filano/",
+      "variants": [
+        {
+          "name": "Hybrid Lux",
           "price": 29145000.0,
           "colors": [
             {

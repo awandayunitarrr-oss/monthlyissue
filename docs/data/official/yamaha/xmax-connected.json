@@ -6,6 +6,87 @@
       "url": "https://www.yamaha-motor.co.id/product/xmax-connected/",
       "variants": [
         {
+          "name": "XMAX 250 TECH MAX",
+          "price": 75610000.0,
+          "colors": [
+            {
+              "name": "Ceramic Grey",
+              "hex": "#999999",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025092412234469028U9058.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "XMAX 250 Connected",
+          "price": 68215000.0,
+          "colors": [
+            {
+              "name": "Metallic Blue",
+              "hex": "#000088",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410361864796E17453.png",
+              "new": null
+            },
+            {
+              "name": "Metallic Black",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410411324315K95315.png",
+              "new": null
+            },
+            {
+              "name": "Ceramic Grey",
+              "hex": "#919191",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410370912244S46425.png",
+              "new": null
+            },
+            {
+              "name": "Elixir Dark Silver",
+              "hex": "#c9c9cd",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410364512389Y58336.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "spec_table": {
+        "Tipe Mesin": "Liquid Cooled, 4-Stroke, SOHC, 4 Valves",
+        "Volume Silinder": "249.8 cc",
+        "Diameter x Langkah": "70.0 mm X 64.9 mm",
+        "Perbandingan Kompresi": "10.5 : 1",
+        "Daya Maksimum": "16.8kW / 7.000 rpm",
+        "Torsi Maksimum": "24.3 Nm / 5.500 rpm",
+        "Sistem Starter": "Electric Starter",
+        "Sistem Bahan Bakar": "Fuel Injection",
+        "Tipe Kopling": "Dry, Centrifugal Automatic",
+        "Tipe Transmisi": "V-belt Automatic",
+        "Ban Depan": "120/70-15M/C 56P",
+        "Ban Belakang": "140/70-14M/C 62P",
+        "Rem Depan": "Disc Brake",
+        "Rem Belakang": "Disc Brake",
+        "Tipe Rangka": "Backbone",
+        "Suspensi Depan": "Telescopic Fork",
+        "Suspensi Belakang": "Unit Swing",
+        "P x L x T": "2.180 mm x 795 mm x 1.5050 mm",
+        "Jarak Sumbu Roda": "1.540 mm",
+        "Jarak Terendah ke Tanah": "135 mm",
+        "Tinggi Tempat Duduk": "795 mm",
+        "Berat Isi": "184 kg",
+        "Kapasitas Tangki Bensin": "13 L",
+        "Tipe Battery": "GTZ8V",
+        "Tipe Busi": "NGK/ LMAR8A-9",
+        "Sistem Pengapian": "TCI"
+      },
+      "date": "2026-01-19",
+      "source": "wayback",
+      "archive_url": "http://web.archive.org/web/20260119171119/https://www.yamaha-motor.co.id/product/xmax-connected/"
+    },
+    {
+      "name": "Yamaha XMAX 250",
+      "url": "https://www.yamaha-motor.co.id/product/xmax-connected/",
+      "variants": [
+        {
           "name": "XMAX 250 MAX Special Livery",
           "price": 70415000.0,
           "colors": [

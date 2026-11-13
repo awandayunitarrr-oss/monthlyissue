@@ -1947,7 +1947,7 @@
         "key": "yamaha|fazziosesunsetblue",
         "specs": {
           "price": null,
-          "engine": null,
+          "engine": "125 cc",
           "power": null,
           "torque": null
         },
@@ -1956,7 +1956,285 @@
           "price_delta": null
         },
         "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:43:47",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/breaking-yamaha-indonesia-rilis-new-fazzio-se-sunset-blue-cakepppp",
+          "intro": "Cakkkk…. PT Yamaha Indonesia Motor Manufacturing (YIMM) kembali memperkuat kepemimpinannya di segmen skutik gaya hidup dengan meluncurkan varian terbatas Yamaha Fazzio Special Edition Sunset Blue .",
+          "variants": [
+            {
+              "name": "Special Edition",
+              "price": 23150000.0,
+              "colors": [
+                {
+                  "name": "Special Edition Sunset Blue",
+                  "new": null,
+                  "image": "https://iwanbanaran.com/api/proxy/image/02dbdc39fd17ab15.webp?url=https%3A%2F%2Fcdn.iwanbanaran.com%2F2026%2F08%2Fnew-fazzio-special-edition-20261.webp&w=860"
+                },
+                {
+                  "name": "Blue",
+                  "new": null,
+                  "image": "https://iwanbanaran.com/api/proxy/image/d34653252073ff56.webp?url=https%3A%2F%2Fcdn.iwanbanaran.com%2F2026%2F08%2Fnew-fazzio-special-edition-20266.webp&w=1376"
+                },
+                {
+                  "name": "Dull Blue",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Navy",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "PT Yamaha Indonesia Motor Manufacturing (YIMM) kembali memperkuat kepemimpinannya di segmen skutik gaya hidup dengan meluncurkan varian terbatas Yamaha Fazzio Special Edition Sunset Blue.",
+                "Cakkkk…. PT Yamaha Indonesia Motor Manufacturing (YIMM) kembali memperkuat kepemimpinannya di segmen skutik gaya hidup dengan meluncurkan varian terbatas Yamaha Fazzio Special Edition Sunset Blue . Peluncuran resmi yang digelar pada Senin (3/8/2026) ini menghadirkan nuansa desain R",
+                "Di balik tampilan eksklusifnya, Yamaha Fazzio Special Edition Sunset Blue tetap mengandalkan spesifikasi teknis andalan keluarga Fazzio . Dapur pacu disokong oleh teknologi mesin Blue Core Hybrid 125 cc yang dirancang untuk memberikan akselerasi awal yang responsif serta konsumsi bahan bakar yang ef"
+              ]
+            },
+            {
+              "name": "Sunset Blue",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Sunset Blue",
+                  "new": null,
+                  "image": "https://iwanbanaran.com/api/proxy/image/22378dee5bb61a2b.webp?url=https%3A%2F%2Fcdn.iwanbanaran.com%2F2026%2F08%2Fnew-fazzio-special-edition-20263.webp&w=1586"
+                },
+                {
+                  "name": "Dull Blue",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Dari segi visual, varian Sunset Blue mengombinasikan warna dasar Dull Blue pada bodi luar dengan aksen warna Navy pada bagian bodi dalam . Perpaduan ini menciptakan kontras yang tegas namun tetap elegan ."
+              ]
+            },
+            {
+              "name": "Fazzio",
+              "price": 22820000.0,
+              "colors": [
+                {
+                  "name": "Blue White",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Black Red",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Graceful Pink",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Yolo Black",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Go Purple",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Pink",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Green",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "White",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Greenish Gray",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Fazzio Hybrid | Blue White, Black Red, Graceful Pink, Yolo Black | Rp22.820.000,-",
+                "Fazzio Hybrid Neo | Go Purple, Pink Mauve, Green, White | Rp24.405.000,-",
+                "Fazzio Hybrid Lux | Greenish Gray, Titan | Rp25.095.000,-"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Sunset Blue",
+            "White"
+          ],
+          "n_images": 12,
+          "image_keys": [
+            " 2fcdn iwanbanaran com 2f2026 2f08 2fnew fazzio special edition 20261 webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "2fcdn iwanbanaran com 2f2026 2f08 2fnew fazzio special edition 20266 webp w 1376",
+            "2fcdn iwanbanaran com 2f2026 2f08 2fnew fazzio special edition 20263 webp w 1586",
+            "2fcdn iwanbanaran com 2f2026 2f08 2fnew fazzio special edition 20265 webp w 1316",
+            "wanbanaran com 2f2026 2f08 2fnew fazzio special edition 20264 800x450 webp w 800",
+            "wanbanaran com 2f2026 2f08 2fnew fazzio special edition 20267 800x450 webp w 800",
+            "wanbanaran com 2f2026 2f08 2fnew fazzio special edition 20268 800x450 webp w 800",
+            "wanbanaran com 2f2026 2f08 2fnew fazzio special edition 20269 800x400 webp w 800",
+            "anbanaran com 2f2026 2f08 2fnew fazzio special edition 202610 800x450 webp w 800",
+            "anbanaran com 2f2026 2f08 2fnew fazzio special edition 202611 800x450 webp w 800",
+            "2fcdn iwanbanaran com 2f2026 2f08 2fnew fazzio special edition 20262 webp w 1600"
+          ]
+        },
+        "prev_detail": null,
+        "prev_official": null,
+        "now_official": {
+          "name": "Yamaha Fazzio",
+          "url": "https://www.yamaha-motor.co.id/product/fazzio/",
+          "variants": [
+            {
+              "name": "Special Edition Sunset Blue",
+              "price": 23150000.0,
+              "colors": [
+                {
+                  "name": "Sunset Blue",
+                  "hex": "#b2e0f2",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026080316375451807H45960.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Special Edition Starry Night",
+              "price": 25250000.0,
+              "colors": [
+                {
+                  "name": "Starry Night",
+                  "hex": "#798fd2",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202603021616392454D52822.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Hybrid Lux",
+              "price": 25095000.0,
+              "colors": [
+                {
+                  "name": "Greenish Gray",
+                  "hex": "#afcccf",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315110540976J2461.png",
+                  "new": null
+                },
+                {
+                  "name": "Titan",
+                  "hex": "#c9c9cd",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315101756736A45457.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Hybrid Neo",
+              "price": 24405000.0,
+              "colors": [
+                {
+                  "name": "Go Purple",
+                  "hex": "#5e51ab",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601231711304860C78501.png",
+                  "new": null
+                },
+                {
+                  "name": "Pink Mauve",
+                  "hex": "#cba49f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315073710159J99507.png",
+                  "new": null
+                },
+                {
+                  "name": "Green",
+                  "hex": "#84937f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315075513962R64993.png",
+                  "new": null
+                },
+                {
+                  "name": "White",
+                  "hex": "#ffffff",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601231508455255U66303.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Hybrid",
+              "price": 22820000.0,
+              "colors": [
+                {
+                  "name": "Blue White",
+                  "hex": "#294561",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012317153856719H48710.png",
+                  "new": null
+                },
+                {
+                  "name": "Black Red",
+                  "hex": "#000000",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315093684262D3348.png",
+                  "new": null
+                },
+                {
+                  "name": "Grayceful Pink",
+                  "hex": "#cba49f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025062114190814455O18634.png",
+                  "new": null
+                },
+                {
+                  "name": "Yolo Black",
+                  "hex": "#ecd78e",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025062114193117991G63536.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Mesin": "Pendingin Udara, 4 Langkah, SOHC",
+            "Diameter x Langkah": "52.4 mm x 57.9 mm",
+            "Volume Silinder": "124.86 cc",
+            "Perbandingan Kompresi": "11.0: 1",
+            "Daya Maksimum": "6.2 kW / 6500 rpm",
+            "Torsi Maksimum": "10.6 Nm / 4500 rpm",
+            "Sistem Starter": "Elektrik",
+            "Sistem Bahan Bakar": "Fuel Injection",
+            "Tipe Kopling": "Kopling Sentrifungal, Kering",
+            "Tipe Transmisi": "V-Belt Otomatis",
+            "Tipe Rangka": "Underbone",
+            "Suspensi Depan": "Telescopic",
+            "Suspensi Belakang": "Unit Swing",
+            "Ban Depan": "110/70-12  47L",
+            "Ban Belakang": "110/70-12  47L",
+            "Rem Depan": "Cakram",
+            "Rem Belakang": "Tromol",
+            "P x L x T": "1820 mm x 685 mm x 1125 mm",
+            "Jarak Sumbu Roda": "1280 mm",
+            "Jarak Terendah ke Tanah": "135 mm",
+            "Tinggi Tempat Duduk": "750 mm",
+            "Berat Isi": "95 kg",
+            "Kapasitas Tangki Bensin": "5.1 L",
+            "Tipe Busi": "CR6HSA",
+            "Sistem Pengapian": "TCI",
+            "Tipe Battery": "YTZ6V"
+          },
+          "date": "2026-11-13",
+          "source": "official"
+        }
       }
     },
     {
@@ -2013,7 +2291,7 @@
         "key": "yamaha|fazzio",
         "specs": {
           "price": 23150000.0,
-          "engine": null,
+          "engine": "125 cc",
           "power": null,
           "torque": null
         },
@@ -2022,10 +2300,388 @@
           "price_delta": null
         },
         "compare": [
-          "Setelah sebelumnya sukses menarik perhatian para pecinta motor retro-modern lewat edisi terbatas Fazzio Starry Night , PT Yamaha Indonesia Motor Mfg.",
-          "Melengkapi nuansa skena yang diusung, peluncuran Fazzio Sunset Blue ini juga dibarengi dengan kolaborasi kreatif bersama band indie asal Bandung, Alkateri."
+          "Pabrikan Yamaha TMCBlog.com – Bro sekalian, setelah sebelumnya sukses menarik perhatian para pecinta motor retro-modern lewat edisi terbatas Fazzio Starry Night , PT Yamaha Indonesia Motor Mfg.",
+          "USB Power Pocket Type-C: Siap mengisi daya gadget pengendara tanpa repot adapter tambahan.",
+          "Melengkapi nuansa skena yang diusung, peluncuran Fazzio Sunset Blue ini juga dibarengi dengan kolaborasi kreatif bersama band indie asal Bandung, Alkateri ."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:44:03",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/08/03/vibe-skena-makin-pekat-yamaha-rilis-fazzio-special-edition-sunset-blue-dengan-sentuhan-retro-summer/?utm_source=rss&utm_medium=rss&utm_campaign=vibe-skena-makin-pekat-yamaha-rilis-fazzio-special-edition-sunset-blue-dengan-sentuhan-retro-summer",
+          "intro": "Setelah sebelumnya sukses menarik perhatian para pecinta motor retro-modern lewat edisi terbatas Fazzio Starry Night , PT Yamaha Indonesia Motor Mfg. (YIMM) per hari ini (Senin, 3 Agustus 2026) kembali menggebrak pasar roda dua Tanah Air dengan merilis varian edisi terbatas terbaru: Yamaha Fazzio Special Edition Sunset Blue !",
+          "variants": [
+            {
+              "name": "Special Edition",
+              "price": 23150000.0,
+              "colors": [
+                {
+                  "name": "Special Edition Sunset Blue",
+                  "new": false,
+                  "image": null
+                },
+                {
+                  "name": "White",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Blue",
+                  "new": null,
+                  "image": "https://cdn.tmcblog.com/2026/08/Sunset-Blue-fazzio3.webp"
+                },
+                {
+                  "name": "Sunset Blue",
+                  "new": true,
+                  "image": "https://cdn.tmcblog.com/2026/08/Sunset-Blue-fazzio5.webp"
+                }
+              ],
+              "notes": [
+                "Setelah sebelumnya sukses menarik perhatian para pecinta motor retro-modern lewat edisi terbatas Fazzio Starry Night , PT Yamaha Indonesia Motor Mfg. (YIMM) per hari ini (Senin, 3 Agustus 2026) kembali menggebrak pasar roda dua Tanah Air dengan merilis varian edisi terbat",
+                "Seperti yang disampaikan oleh Pak Rifki Maulana , Manager Public Relations, YRA & Community PT YIMM: “Skutik ini hadir sebagai ‘White Canvas’ yang memberikan kebebasan bagi penggunanya untuk berekspresi. Karena itu, kami berkomitmen untuk konsisten menghadirkan penyegaran layaknya Fazzio Special Edi",
+                "Untuk urusan teknis dan dapur pacu, Yamaha tidak mengubah racikan mekanis bawaan Fazzio. Motor ini tetap memboyong mesin 125 cc Blue Core Hybrid yang terkenal irit bahan bakar sekaligus responsif berkat bantuan dorongan Electric Power Assist Start saat akselerasi awal. Fitur-fitur kepraktisan harian"
+              ]
+            },
+            {
+              "name": "SE",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Fazzio SE Sunset Blue",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Dull Blue",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Sunset Blue",
+                  "new": null,
+                  "image": "https://cdn.tmcblog.com/2026/08/Sunset-Blue-fazzio2.webp"
+                },
+                {
+                  "name": "Aksen Silver",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Fazzio Sunset Blue",
+                  "new": false,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Secara basis visual, Fazzio SE Sunset Blue ini menggunakan warna dasar Dull Blue matte/doff yang dipadukan secara ciamik dengan grafis striping bernuansa Retro Summer pada area bodi samping dan dasi front panel depan. Permainan garis grafisnya menghadirkan gradasi cahaya senja khas pantai, memberika",
+                "Nah, buat Sobat TMCBlog yang mengincar motor ini tapi mau mencoba keberuntungan, Yamaha mengadakan Program Giveaway OOTD berhadiah 1 Unit Yamaha Fazzio SE Sunset Blue GRATIS plus belasan merchandise skena eksklusif lainnya! Caranya cukup posting foto OOTD ( Outfit of The Day ) terbaik kalian yang pa"
+              ]
+            },
+            {
+              "name": "Fazzio Hybrid",
+              "price": 24405000.0,
+              "colors": [
+                {
+                  "name": "Go Purple",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Pink",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Green",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "White",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Greenish Gray",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Fazzio Hybrid Neo | Go Purple, Pink Mauve, Green, White | Rp 24.405.000,-",
+                "Fazzio Hybrid Lux | Greenish Gray, Titan | Rp 25.095.000,-",
+                "Gimana menurutmu sob mengenai perpaduan warna dan grafis Sunset Blue pada Fazzio edisi terbatas ini? Apakah masuk ke selera skena dan kalcer kalian? Silakan tumpahkan opininya di kolom komentar di bawah ya"
+              ]
+            },
+            {
+              "name": "Standard",
+              "price": 22820000.0,
+              "colors": [
+                {
+                  "name": "Blue White",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Black Red",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Graceful Pink",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Yolo Black",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Fazzio Hybrid (Standard) | Blue White, Black Red, Graceful Pink, Yolo Black | Rp 22.820.000,-"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Perpaduan Dull Blue",
+            "Oranye",
+            "Blue",
+            "Navy",
+            "Tetap Mengandalkan Blue"
+          ],
+          "n_images": 5,
+          "image_keys": [
+            "sunset blue fazzio3 webp",
+            "sunset blue fazzio5 webp",
+            "sunset blue fazzio2 webp",
+            "sunset blue fazzio1 webp",
+            "sunset blue fazzio41 webp"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/breaking-yamaha-indonesia-rilis-new-fazzio-2026-se-starry-night-bikin-lelehhh",
+          "intro": "Cakkk…..siapa menyangka YIMM bikin kejutan dengan meluncurkan gen terbaru mesin classy mereka. Siapa lagi kalau bukan Yamaha Fazzio Hybrid New Special Edition kelir Starry Night yang baru saja rilis 2 Maret 2026 kemarin .",
+          "variants": [
+            {
+              "name": "Special Edition",
+              "price": 25250000.0,
+              "colors": [],
+              "notes": [
+                "Siapa lagi kalau bukan Yamaha Fazzio Hybrid New Special Edition kelir Starry Night yang baru saja rilis 2 Maret 2026 kemarin.",
+                "Cakkk…..siapa menyangka YIMM bikin kejutan dengan meluncurkan gen terbaru mesin classy mereka. Siapa lagi kalau bukan Yamaha Fazzio Hybrid New Special Edition kelir Starry Night yang baru saja rilis 2 Maret 2026 kemarin . Warna yang bikin lelehhh cakkk. Seperti apa ? intip wae deti",
+                "Special Edition | Starry Night | Iklan | Rp 25.250.000"
+              ]
+            },
+            {
+              "name": "Standard",
+              "price": 22270000.0,
+              "colors": [
+                {
+                  "name": "Blue White",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Black Red",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Grayceful Pink",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Yolo Black",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Blue",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Fazzio Standard | Blue White, Black Red, Grayceful Pink, Yolo Black | Rp 22.270.000"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Greenish Gray",
+            "Go Purple",
+            "Pink",
+            "White",
+            "Green",
+            "Blue White",
+            "Black Red",
+            "Grayceful Pink",
+            "Yolo Black"
+          ],
+          "n_images": 11,
+          "image_keys": [
+            "anbanaran com 2f2026 2f03 2ffazzio hybrid new special edition color 4 webp w 860",
+            "anaran com 2f2026 2f03 2ffazzio hybrid new special edition color 4 2 webp w 1200",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "nbanaran com 2f2026 2f03 2ffazzio hybrid new special edition color 2 webp w 1200",
+            "anaran com 2f2026 2f03 2ffazzio hybrid new special edition color 1 4 webp w 1200",
+            "nbanaran com 2f2026 2f03 2ffazzio hybrid new special edition color 1 webp w 1200",
+            "anaran com 2f2026 2f03 2ffazzio hybrid new special edition color 2 3 webp w 1200",
+            "anaran com 2f2026 2f03 2ffazzio hybrid new special edition color 2 2 webp w 1200",
+            "anaran com 2f2026 2f03 2ffazzio hybrid new special edition color 1 3 webp w 1200",
+            "anaran com 2f2026 2f03 2ffazzio hybrid new special edition color 1 2 webp w 1200",
+            "nbanaran com 2f2026 2f03 2ffazzio hybrid new special edition color 3 webp w 1200"
+          ],
+          "title": "Breaking ! Yamaha Indonesia rilis new Fazzio 2026 SE Starry Night…Bikin lelehhh",
+          "date": "2026-03-04T00:00:00",
+          "source": "Iwan Banaran"
+        },
+        "prev_official": null,
+        "now_official": {
+          "name": "Yamaha Fazzio",
+          "url": "https://www.yamaha-motor.co.id/product/fazzio/",
+          "variants": [
+            {
+              "name": "Special Edition Sunset Blue",
+              "price": 23150000.0,
+              "colors": [
+                {
+                  "name": "Sunset Blue",
+                  "hex": "#b2e0f2",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026080316375451807H45960.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Special Edition Starry Night",
+              "price": 25250000.0,
+              "colors": [
+                {
+                  "name": "Starry Night",
+                  "hex": "#798fd2",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202603021616392454D52822.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Hybrid Lux",
+              "price": 25095000.0,
+              "colors": [
+                {
+                  "name": "Greenish Gray",
+                  "hex": "#afcccf",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315110540976J2461.png",
+                  "new": null
+                },
+                {
+                  "name": "Titan",
+                  "hex": "#c9c9cd",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315101756736A45457.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Hybrid Neo",
+              "price": 24405000.0,
+              "colors": [
+                {
+                  "name": "Go Purple",
+                  "hex": "#5e51ab",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601231711304860C78501.png",
+                  "new": null
+                },
+                {
+                  "name": "Pink Mauve",
+                  "hex": "#cba49f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315073710159J99507.png",
+                  "new": null
+                },
+                {
+                  "name": "Green",
+                  "hex": "#84937f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315075513962R64993.png",
+                  "new": null
+                },
+                {
+                  "name": "White",
+                  "hex": "#ffffff",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601231508455255U66303.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Hybrid",
+              "price": 22820000.0,
+              "colors": [
+                {
+                  "name": "Blue White",
+                  "hex": "#294561",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012317153856719H48710.png",
+                  "new": null
+                },
+                {
+                  "name": "Black Red",
+                  "hex": "#000000",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315093684262D3348.png",
+                  "new": null
+                },
+                {
+                  "name": "Grayceful Pink",
+                  "hex": "#cba49f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025062114190814455O18634.png",
+                  "new": null
+                },
+                {
+                  "name": "Yolo Black",
+                  "hex": "#ecd78e",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025062114193117991G63536.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Mesin": "Pendingin Udara, 4 Langkah, SOHC",
+            "Diameter x Langkah": "52.4 mm x 57.9 mm",
+            "Volume Silinder": "124.86 cc",
+            "Perbandingan Kompresi": "11.0: 1",
+            "Daya Maksimum": "6.2 kW / 6500 rpm",
+            "Torsi Maksimum": "10.6 Nm / 4500 rpm",
+            "Sistem Starter": "Elektrik",
+            "Sistem Bahan Bakar": "Fuel Injection",
+            "Tipe Kopling": "Kopling Sentrifungal, Kering",
+            "Tipe Transmisi": "V-Belt Otomatis",
+            "Tipe Rangka": "Underbone",
+            "Suspensi Depan": "Telescopic",
+            "Suspensi Belakang": "Unit Swing",
+            "Ban Depan": "110/70-12  47L",
+            "Ban Belakang": "110/70-12  47L",
+            "Rem Depan": "Cakram",
+            "Rem Belakang": "Tromol",
+            "P x L x T": "1820 mm x 685 mm x 1125 mm",
+            "Jarak Sumbu Roda": "1280 mm",
+            "Jarak Terendah ke Tanah": "135 mm",
+            "Tinggi Tempat Duduk": "750 mm",
+            "Berat Isi": "95 kg",
+            "Kapasitas Tangki Bensin": "5.1 L",
+            "Tipe Busi": "CR6HSA",
+            "Sistem Pengapian": "TCI",
+            "Tipe Battery": "YTZ6V"
+          },
+          "date": "2026-11-13",
+          "source": "official"
+        }
       }
     },
     {
@@ -2388,16 +3044,54 @@
         "key": "bmw motorrad|f450gs",
         "specs": {
           "price": 418900000.0,
-          "engine": null,
-          "power": "145 HP",
-          "torque": "149 Nm"
+          "engine": "450 cc",
+          "power": "48 HP",
+          "torque": "45 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "compare": [
+          "Peluncuran BMW F 450 GS sekaligus menandai debut perdana model ini di pasar nasional, setelah sebelumnya sempat diperkenalkan dalam wujud prototipe pada pameran otomotif awal 2025 lalu.",
+          "R 1300 RT membawa pembaruan desain aerodinamis yang lebih ringkas dibanding generasi terdahulu."
+        ],
+        "analyzed_at": "2026-11-13T03:44:16",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/bmw-motorrad-indonesia-luncurkan-bmw-f450-gs-harga-bikin-mulesss",
+          "intro": "Cakkk….BMW Motorrad Indonesia resmi memperkuat penetrasinya di pasar sepeda motor premium Tanah Air dengan meluncurkan dua model moge terbaru pada pembukaan ajang GAIKINDO Indonesia International Auto Show (GIIAS) 2026 di ICE BSD City, Tangerang, Kamis (30/7). Dua lini yang diboyong meliputi BMW F 450 GS yang menyasar segmen entry-level adventure , serta BMW R 1300 RT sebagai flagship sport tourer .",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 418900000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Diameter x Langkah": "72 mm x 51.6 mm",
+            "Perbandingan Kompresi": "13.0 : 1",
+            "Tipe Battery": "12 V / 8 Ah",
+            "Jarak Sumbu Roda": "57.7″"
+          },
+          "loose_colors": [],
+          "n_images": 11,
+          "image_keys": [
+            "anbanaran com 2f2026 2f07 2fbmw f 450 gs adventure bike 10 1024x886 1 webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "nbanaran com 2f2026 2f07 2fbmw f 450 gs adventure bike 12 1024x683 1 webp w 1024",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fbmw r 1300 rt webp w 1372",
+            "n com 2f2026 2f07 2fbmw f 450 gs adventure bike 10 1024x886 1 693x600 webp w 693",
+            "n com 2f2026 2f07 2fbmw f 450 gs adventure bike 19 1024x576 1 768x432 webp w 768",
+            "n com 2f2026 2f07 2fbmw f 450 gs adventure bike 20 1024x576 1 768x432 webp w 768",
+            "n com 2f2026 2f07 2fbmw f 450 gs adventure bike 15 1024x576 1 768x432 webp w 768",
+            "n com 2f2026 2f07 2fbmw f 450 gs adventure bike 21 1024x576 1 768x432 webp w 768",
+            "n com 2f2026 2f07 2fbmw f 450 gs adventure bike 22 1024x576 1 768x432 webp w 768",
+            "2f07 2fbmw f 450 gs specs revealed before launch 2 1068x601 1 768x432 webp w 768"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {

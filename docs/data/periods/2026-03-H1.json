@@ -62,9 +62,78 @@
           "price_delta": null
         },
         "compare": [
+          "Yahhh emang kecil cak, mirip dengan Byson Indonesia di masa lalu….atau malah nggak makin kecil Pendingin Udara & SOHC: Meskipun masih menggunakan pendingin udara (air-cooled) dan sistem 2-katup, mesin ini dikenal sangat minim perawatan dan memiliki biaya operasional yang rendah—sebuah poin krusial di tengah fluktuasi harga energi global saat ini.",
+          "Double disk brake : Baik roda depan maupun belakang sudah menggunakan rem cakram, memberikan daya henti yang lebih presisi dibandingkan penggunaan rem tromol di bagian belakang.",
+          "Angka ini memang terlihat tinggi untuk kelas 150cc jika dibanding pasar Indonesia, namun mencerminkan standar kualitas komponen yang disematkan.",
           "Motor yang sering dianggap sebagai “saudara jauh” dari Yamaha Byson di Indonesia ini hadir dengan transformasi total, membawa fitur-fitur yang biasanya hanya ditemukan pada motor berkubikasi lebih besar."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:25:25",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/breaking-yamaha-rilis-new-fz15-abs-connected-2026-mesin-byson-makin-sangarrr",
+          "intro": "Cakkk…boleh saja Yamaha Byson sudah finish di Indonesia. Namun tidak untuk luar negeri.",
+          "variants": [
+            {
+              "name": "Premium",
+              "price": 60000000.0,
+              "colors": [
+                {
+                  "name": "Racing Blue",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Biru",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Magma Red",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Merah",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Titanium Grey",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Last…Di Brasil, Yamaha Fazer FZ15 2026 ditawarkan dengan harga sekitar R$ 21.090 (sekitar Rp 60 jutaan). Angka ini memang terlihat tinggi untuk kelas 150cc jika dibanding pasar Indonesia, namun mencerminkan standar kualitas komponen yang disematkan. Pilihan Warna 2026: Racing Blue (Biru), Magma Red"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 17,
+          "image_keys": [
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fyamaha fz15 2026 6 1 webp w 589",
+            "rl https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fyamaha fz15 2026 6 webp w 810",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fyamaha fz15 2026 11 webp w 852",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "rl https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fyamaha fz15 2026 9 webp w 843",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fyamaha fz15 2026 10 webp w 761",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fyamaha fz15 2026 2 1 webp w 961",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fyamaha fz15 2026 3 1 webp w 776",
+            " 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fyamaha fz15 2026 8 768x513 webp w 768",
+            " 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fyamaha fz15 2026 4 768x475 webp w 768",
+            " 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fyamaha fz15 2026 5 768x479 webp w 768",
+            " 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fyamaha fz15 2026 7 768x541 webp w 768",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fyamaha fz15 2026 1 1 webp w 735",
+            "rl https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fyamaha fz15 2026 2 webp w 735",
+            "rl https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fyamaha fz15 2026 3 webp w 735",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fyamaha fz15 2026 4 1 webp w 735",
+            " 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fyamaha fz15 2026 1 768x413 webp w 768"
+          ]
+        },
+        "prev_detail": null,
+        "prev_official": null,
+        "now_official": null
       }
     },
     {
@@ -565,15 +634,109 @@
         "specs": {
           "price": 149900000.0,
           "engine": null,
-          "power": null,
+          "power": "38,3 KW",
           "torque": null
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "compare": [
+          "Dengan menyebutnya sebagai KLE, Kawasaki mengidentifikasi varian ini sebagai model yang lebih mumpuni untuk medan off-road daripada Versys yang lebih berorientasi jalan raya.",
+          "Model ini sebelumnya telah diperkenalkan dan menarik perhatian dunia saat pertama kali ditampilkan di ajang EICMA tahun lalu."
+        ],
+        "analyzed_at": "2026-11-13T03:25:38",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/03/11/kawasaki-kle500-kle500-se-resmi-dibanderol-mulai-1499-juta-rupiah/?utm_source=rss&utm_medium=rss&utm_campaign=kawasaki-kle500-kle500-se-resmi-dibanderol-mulai-1499-juta-rupiah",
+          "intro": "TMCBLOG.com Akhir tahun lalu Kawasaki Motor Indonesia (KMI) telah resmi memperkenalkan motor adventure KLE500 Series. Nah hari ini resmi sudah Untuk Indonesia KMI Menghadirkan Secara resmi Kawasaki KLE500 standar dengan Warna Metallic Carbon Gray / Ebony dan KLE500 SE dengan pilihan warna Pearl Storm Gray",
+          "variants": [
+            {
+              "name": "SE",
+              "price": 156900000.0,
+              "colors": [
+                {
+                  "name": "Metallic Carbon Gray",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Pearl Storm Gray",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "TMCBLOG.com Akhir tahun lalu Kawasaki Motor Indonesia (KMI) telah resmi memperkenalkan motor adventure KLE500 Series. Nah hari ini resmi sudah Untuk Indonesia KMI Menghadirkan Secara resmi Kawasaki KLE500 standar dengan Warna Metallic Carbon Gray / Ebony dan KLE500 SE dengan pilihan warna Pearl Stor",
+                "Membahas performa, baik pada KLE500 dan KLE500 SE, keduanya dibekali mesin 451 cm³ liquid-cooled , 4-stroke Parallel Twin DOHC 8 valves dengan sistem fuel injection . Untuk pasar Indonesia, mesin ini menghasilkan tenaga hingga 38,3 kW (52 PS) pada 10.000 rpm serta torsi 42,6 N·m pada 7.500 rpm. Kara",
+                "Untuk varian yang lebih premium, Kawasaki KLE500 SE dilengkapi dengan large windshield (lebih tinggi 106 mm), metal-reinforced hand guards , large skid plate untuk perlindungan ekstra, sharp LED turn signals , serta layar 4.3” TFT full-colour display dengan selectable background (black/white) dan au"
+              ]
+            },
+            {
+              "name": "Standard",
+              "price": 149900000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 9,
+          "image_keys": [
+            "kle500 std webp",
+            "kle500 6 webp",
+            "kle500 8 2048x1537 webp",
+            "kle500 std3 webp",
+            "kle500 1 webp",
+            "kle500 10 webp",
+            "kle500 129 webp",
+            "kle500 9 scaled webp",
+            "kle500 3 webp"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/breaking-kawasaki-new-kle500-2026-siap-gempur-indonesia-harganya-murah",
+          "intro": "Cakkk…seperti yang sampeyan tahu kemarin Kawasaki Global meluncurkan generasi terbaru adventure bike KLE 500. Sebuah Nama yang pernah digunakan oleh Kawasaki sejak tahun 1991 hingga sekitar 2007.",
+          "variants": [
+            {
+              "name": "SE",
+              "price": 100000000.0,
+              "colors": [],
+              "notes": [
+                "Pilihan aksesori pabrikan seperti panniers, top-case, skid plate, etc (terlebih pada versi SE) untuk memperkuat fungsi touring/adventure. Ini penting cak karena Touring/aventur sering kali memerlukan kenyamanan dan kemampuan membawa barang. Fitur-fitur ini membuat KLE500 lebih siap untuk perjalanan",
+                "Di pasar Amerika, MSRP untuk versi standar US $6,599 dan versi SE US $7,499. Artinya hanya 100 jutaan"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 25,
+          "image_keys": [
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 23 webp w 860",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 webp w 1200",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 2 webp w 1224",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 5 webp w 1079",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 16 webp w 1079",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 8 webp w 1600",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 18 webp w 1224",
+            "2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 23 300x186 webp w 300",
+            "a 2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 14 80x60 webp w 200",
+            " 2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 13 100x70 webp w 200",
+            "a 2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 12 80x60 webp w 200",
+            " 2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 10 100x70 webp w 200",
+            "3a 2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 9 80x60 webp w 200",
+            "3a 2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 7 80x60 webp w 200",
+            " 2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 6 300x393 webp w 300",
+            "a 2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 22 80x60 webp w 200",
+            "3a 2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 1 80x60 webp w 200",
+            "a 2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 21 80x60 webp w 200",
+            "a 2f 2fcdn iwanbanaran com 2f2025 2f10 2fnew kawasaki kle500 20 80x60 webp w 200"
+          ],
+          "title": "Breaking ! Kawasaki New KLE500 2026 siap gempur Indonesia…harganya murah ??",
+          "date": "2025-10-27T00:00:00",
+          "source": "Iwan Banaran"
+        }
       }
     },
     {
@@ -1325,8 +1488,294 @@
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "compare": [
+          "Grafis Bunglon (Starry Graphic): Di bodi samping ada grafis yang warnanya bisa berubah sesuai sudut pandang .",
+          "Kalau sampeyan lihat dari kiri warnanya biru, tapi dari kanan berubah jadi pink keunguan .",
+          "Detail Premium: Emblem “F” di depan sekarang pakai model timbul 3D resin yang eksklusif, bukan stiker tipis-tipis ."
+        ],
+        "analyzed_at": "2026-11-13T03:25:51",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/breaking-yamaha-indonesia-rilis-new-fazzio-2026-se-starry-night-bikin-lelehhh",
+          "intro": "Cakkk…..siapa menyangka YIMM bikin kejutan dengan meluncurkan gen terbaru mesin classy mereka. Siapa lagi kalau bukan Yamaha Fazzio Hybrid New Special Edition kelir Starry Night yang baru saja rilis 2 Maret 2026 kemarin .",
+          "variants": [
+            {
+              "name": "Special Edition",
+              "price": 25250000.0,
+              "colors": [],
+              "notes": [
+                "Siapa lagi kalau bukan Yamaha Fazzio Hybrid New Special Edition kelir Starry Night yang baru saja rilis 2 Maret 2026 kemarin.",
+                "Cakkk…..siapa menyangka YIMM bikin kejutan dengan meluncurkan gen terbaru mesin classy mereka. Siapa lagi kalau bukan Yamaha Fazzio Hybrid New Special Edition kelir Starry Night yang baru saja rilis 2 Maret 2026 kemarin . Warna yang bikin lelehhh cakkk. Seperti apa ? intip wae deti",
+                "Special Edition | Starry Night | Iklan | Rp 25.250.000"
+              ]
+            },
+            {
+              "name": "Standard",
+              "price": 22270000.0,
+              "colors": [
+                {
+                  "name": "Blue White",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Black Red",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Grayceful Pink",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Yolo Black",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Blue",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Fazzio Standard | Blue White, Black Red, Grayceful Pink, Yolo Black | Rp 22.270.000"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Greenish Gray",
+            "Go Purple",
+            "Pink",
+            "White",
+            "Green",
+            "Blue White",
+            "Black Red",
+            "Grayceful Pink",
+            "Yolo Black"
+          ],
+          "n_images": 11,
+          "image_keys": [
+            "anbanaran com 2f2026 2f03 2ffazzio hybrid new special edition color 4 webp w 860",
+            "anaran com 2f2026 2f03 2ffazzio hybrid new special edition color 4 2 webp w 1200",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "nbanaran com 2f2026 2f03 2ffazzio hybrid new special edition color 2 webp w 1200",
+            "anaran com 2f2026 2f03 2ffazzio hybrid new special edition color 1 4 webp w 1200",
+            "nbanaran com 2f2026 2f03 2ffazzio hybrid new special edition color 1 webp w 1200",
+            "anaran com 2f2026 2f03 2ffazzio hybrid new special edition color 2 3 webp w 1200",
+            "anaran com 2f2026 2f03 2ffazzio hybrid new special edition color 2 2 webp w 1200",
+            "anaran com 2f2026 2f03 2ffazzio hybrid new special edition color 1 3 webp w 1200",
+            "anaran com 2f2026 2f03 2ffazzio hybrid new special edition color 1 2 webp w 1200",
+            "nbanaran com 2f2026 2f03 2ffazzio hybrid new special edition color 3 webp w 1200"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/breaking-yamaha-rilis-new-fazzio-2025wowww-ijo-cakkk",
+          "intro": "Cakkk….Lifestyle dalam berkendara sepeda motor saat ini berperan penting bagi konsumen untuk menemani aktivitas yang juga harus ditunjang dengan style keren. Kebutuhan tersebut dapat terpenuhi menggunakan motor Classy Yamaha yang sesuai untuk mengakomodir gaya hidup pengendara.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 23955000.0,
+              "colors": [
+                {
+                  "name": "Blue",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Green",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Pink",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "White",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Red",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Black",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 10,
+          "image_keys": [
+            "53df5 webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fscoopy1 jpg w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "cacb webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fscoopy2 jpg w 1043",
+            "webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fscoopy 20253 jpg w 1043",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fscoopy 20253 2 jpg w 1500",
+            "webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fscoopy 20251 jpg w 1043",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fscoopy 20252 2 jpg w 1500",
+            "webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fscoopy 20252 jpg w 1043",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fscoopy 20254 2 jpg w 1500",
+            "webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fscoopy 20254 jpg w 1043"
+          ],
+          "title": "Breaking ! Yamaha Rilis New Fazzio 2025…wowww Ijo cakkk",
+          "date": "2024-10-12T00:00:00",
+          "source": "Iwan Banaran"
+        },
+        "prev_official": null,
+        "now_official": {
+          "name": "Yamaha Fazzio",
+          "url": "https://www.yamaha-motor.co.id/product/fazzio/",
+          "variants": [
+            {
+              "name": "Special Edition Sunset Blue",
+              "price": 23150000.0,
+              "colors": [
+                {
+                  "name": "Sunset Blue",
+                  "hex": "#b2e0f2",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026080316375451807H45960.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Special Edition Starry Night",
+              "price": 25250000.0,
+              "colors": [
+                {
+                  "name": "Starry Night",
+                  "hex": "#798fd2",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202603021616392454D52822.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Hybrid Lux",
+              "price": 25095000.0,
+              "colors": [
+                {
+                  "name": "Greenish Gray",
+                  "hex": "#afcccf",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315110540976J2461.png",
+                  "new": null
+                },
+                {
+                  "name": "Titan",
+                  "hex": "#c9c9cd",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315101756736A45457.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Hybrid Neo",
+              "price": 24405000.0,
+              "colors": [
+                {
+                  "name": "Go Purple",
+                  "hex": "#5e51ab",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601231711304860C78501.png",
+                  "new": null
+                },
+                {
+                  "name": "Pink Mauve",
+                  "hex": "#cba49f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315073710159J99507.png",
+                  "new": null
+                },
+                {
+                  "name": "Green",
+                  "hex": "#84937f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315075513962R64993.png",
+                  "new": null
+                },
+                {
+                  "name": "White",
+                  "hex": "#ffffff",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601231508455255U66303.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Hybrid",
+              "price": 22820000.0,
+              "colors": [
+                {
+                  "name": "Blue White",
+                  "hex": "#294561",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012317153856719H48710.png",
+                  "new": null
+                },
+                {
+                  "name": "Black Red",
+                  "hex": "#000000",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315093684262D3348.png",
+                  "new": null
+                },
+                {
+                  "name": "Grayceful Pink",
+                  "hex": "#cba49f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025062114190814455O18634.png",
+                  "new": null
+                },
+                {
+                  "name": "Yolo Black",
+                  "hex": "#ecd78e",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025062114193117991G63536.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Mesin": "Pendingin Udara, 4 Langkah, SOHC",
+            "Diameter x Langkah": "52.4 mm x 57.9 mm",
+            "Volume Silinder": "124.86 cc",
+            "Perbandingan Kompresi": "11.0: 1",
+            "Daya Maksimum": "6.2 kW / 6500 rpm",
+            "Torsi Maksimum": "10.6 Nm / 4500 rpm",
+            "Sistem Starter": "Elektrik",
+            "Sistem Bahan Bakar": "Fuel Injection",
+            "Tipe Kopling": "Kopling Sentrifungal, Kering",
+            "Tipe Transmisi": "V-Belt Otomatis",
+            "Tipe Rangka": "Underbone",
+            "Suspensi Depan": "Telescopic",
+            "Suspensi Belakang": "Unit Swing",
+            "Ban Depan": "110/70-12  47L",
+            "Ban Belakang": "110/70-12  47L",
+            "Rem Depan": "Cakram",
+            "Rem Belakang": "Tromol",
+            "P x L x T": "1820 mm x 685 mm x 1125 mm",
+            "Jarak Sumbu Roda": "1280 mm",
+            "Jarak Terendah ke Tanah": "135 mm",
+            "Tinggi Tempat Duduk": "750 mm",
+            "Berat Isi": "95 kg",
+            "Kapasitas Tangki Bensin": "5.1 L",
+            "Tipe Busi": "CR6HSA",
+            "Sistem Pengapian": "TCI",
+            "Tipe Battery": "YTZ6V"
+          },
+          "date": "2026-11-13",
+          "source": "official"
+        }
       }
     },
     {
@@ -1386,7 +1835,7 @@
         "key": "yamaha|fazziohybrid",
         "specs": {
           "price": 25250000.0,
-          "engine": null,
+          "engine": "125 cc",
           "power": null,
           "torque": null
         },
@@ -1394,8 +1843,186 @@
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "compare": [
+          "Artinya, warna grafis ini bisa berubah-ubah tergantung sudut pandang dan pantulan cahaya—dari biru di sisi kiri ke pink keunguan di sisi kanan.",
+          "Mesin dan Performa Untuk urusan dapur pacu, tidak ada perubahan teknis."
+        ],
+        "analyzed_at": "2026-11-13T03:27:18",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/03/04/yamaha-rilis-fazzio-hybrid-special-edition-starry-night-tampil-berkilau-incar-anak-skena-cek-detailnya-sob/?utm_source=rss&utm_medium=rss&utm_campaign=yamaha-rilis-fazzio-hybrid-special-edition-starry-night-tampil-berkilau-incar-anak-skena-cek-detailnya-sob",
+          "intro": "Yamaha Indonesia kembali melakukan pergerakan menarik di lini Classy Yamaha . Seolah tidak mau kehilangan momentum di tengah tren motor sebagai fashion statement , Yamaha resmi merilis varian terbatas (Limited Edition) untuk skutik retro-modern andalan mereka.",
+          "variants": [
+            {
+              "name": "Special Edition",
+              "price": 25250000.0,
+              "colors": [],
+              "notes": [
+                "Ini dia bintang utamanya. Pada bagian bodi samping, terdapat grafis logo Fazzio berwarna biru muda yang disandingkan dengan tulisan “Special Edition” berwarna pink. Yang menarik, latar belakangnya menggunakan pola dot-dot kecil dengan efek Iridescent . Artinya, warna grafis ini bisa berubah-ubah ter",
+                "Yamaha Fazzio Hybrid Special Edition Starry Night ini dipasarkan dengan harga Rp 25.250.000 ."
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Silver",
+            "Matte Blue",
+            "Blue",
+            "Pink"
+          ],
+          "n_images": 4,
+          "image_keys": [
+            "fazzio 3 webp",
+            "fazzio 2 webp",
+            "fazzio 4 webp",
+            "fazzio 3 1 webp"
+          ]
+        },
+        "prev_detail": null,
+        "prev_official": null,
+        "now_official": {
+          "name": "Yamaha Fazzio",
+          "url": "https://www.yamaha-motor.co.id/product/fazzio/",
+          "variants": [
+            {
+              "name": "Special Edition Sunset Blue",
+              "price": 23150000.0,
+              "colors": [
+                {
+                  "name": "Sunset Blue",
+                  "hex": "#b2e0f2",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026080316375451807H45960.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Special Edition Starry Night",
+              "price": 25250000.0,
+              "colors": [
+                {
+                  "name": "Starry Night",
+                  "hex": "#798fd2",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202603021616392454D52822.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Hybrid Lux",
+              "price": 25095000.0,
+              "colors": [
+                {
+                  "name": "Greenish Gray",
+                  "hex": "#afcccf",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315110540976J2461.png",
+                  "new": null
+                },
+                {
+                  "name": "Titan",
+                  "hex": "#c9c9cd",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315101756736A45457.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Hybrid Neo",
+              "price": 24405000.0,
+              "colors": [
+                {
+                  "name": "Go Purple",
+                  "hex": "#5e51ab",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601231711304860C78501.png",
+                  "new": null
+                },
+                {
+                  "name": "Pink Mauve",
+                  "hex": "#cba49f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315073710159J99507.png",
+                  "new": null
+                },
+                {
+                  "name": "Green",
+                  "hex": "#84937f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315075513962R64993.png",
+                  "new": null
+                },
+                {
+                  "name": "White",
+                  "hex": "#ffffff",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601231508455255U66303.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Hybrid",
+              "price": 22820000.0,
+              "colors": [
+                {
+                  "name": "Blue White",
+                  "hex": "#294561",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012317153856719H48710.png",
+                  "new": null
+                },
+                {
+                  "name": "Black Red",
+                  "hex": "#000000",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315093684262D3348.png",
+                  "new": null
+                },
+                {
+                  "name": "Grayceful Pink",
+                  "hex": "#cba49f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025062114190814455O18634.png",
+                  "new": null
+                },
+                {
+                  "name": "Yolo Black",
+                  "hex": "#ecd78e",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025062114193117991G63536.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Mesin": "Pendingin Udara, 4 Langkah, SOHC",
+            "Diameter x Langkah": "52.4 mm x 57.9 mm",
+            "Volume Silinder": "124.86 cc",
+            "Perbandingan Kompresi": "11.0: 1",
+            "Daya Maksimum": "6.2 kW / 6500 rpm",
+            "Torsi Maksimum": "10.6 Nm / 4500 rpm",
+            "Sistem Starter": "Elektrik",
+            "Sistem Bahan Bakar": "Fuel Injection",
+            "Tipe Kopling": "Kopling Sentrifungal, Kering",
+            "Tipe Transmisi": "V-Belt Otomatis",
+            "Tipe Rangka": "Underbone",
+            "Suspensi Depan": "Telescopic",
+            "Suspensi Belakang": "Unit Swing",
+            "Ban Depan": "110/70-12  47L",
+            "Ban Belakang": "110/70-12  47L",
+            "Rem Depan": "Cakram",
+            "Rem Belakang": "Tromol",
+            "P x L x T": "1820 mm x 685 mm x 1125 mm",
+            "Jarak Sumbu Roda": "1280 mm",
+            "Jarak Terendah ke Tanah": "135 mm",
+            "Tinggi Tempat Duduk": "750 mm",
+            "Berat Isi": "95 kg",
+            "Kapasitas Tangki Bensin": "5.1 L",
+            "Tipe Busi": "CR6HSA",
+            "Sistem Pengapian": "TCI",
+            "Tipe Battery": "YTZ6V"
+          },
+          "date": "2026-11-13",
+          "source": "official"
+        }
       }
     },
     {

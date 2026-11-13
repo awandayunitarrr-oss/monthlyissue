@@ -246,7 +246,7 @@
         "model": "Yamaha X-MAX 250",
         "key": "yamaha|xmax250",
         "specs": {
-          "price": null,
+          "price": 68215000.0,
           "engine": "250 cc",
           "power": "16,8 KW",
           "torque": "24,3 Nm"
@@ -256,10 +256,228 @@
           "price_delta": null
         },
         "compare": [
+          "Ceramic Grey : Varian warna yang sebelumnya diperkenalkan pada tipe tertinggi XMAX TECHMAX model 2025 di ajang IMOS tahun lalu .",
+          "Jika sebelumnya bagian cast wheel dan embos logo XMAX berwarna biru, kini diubah menjadi hitam penuh ( all black ) untuk kesan yang lebih garang dan tangguh .",
           "Gen anyar ini ternyata makin fresh cak dan yang paling penting sekarang ada warna birunya.",
           "Pembaruan ini bertujuan untuk memberikan tampilan yang lebih sporty dan maskulin bagi para pecinta skutik Maxi Yamaha di tanah air ."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T02:52:27",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/breaking-yamaha-indonesia-rilis-new-x-max-250-terbaru-2026-biru-cakeppp",
+          "intro": "Cakkk…..diawal Januari 2026 ini Yamaha Indonesia langsung menggebrak pasar dengan merilis gen terbaru XMAX 250 versi 2026. Gen anyar ini ternyata makin fresh cak dan yang paling penting sekarang ada warna birunya.",
+          "variants": [
+            {
+              "name": "Connected",
+              "price": 68215000.0,
+              "colors": [],
+              "notes": [
+                "Menanggapi tren gaya hidup konsumen skutik premium yang dinamis, PT Yamaha Indonesia Motor Mfg. resmi meluncurkan varian warna baru untuk model XMAX Connected pada Januari 2026 . Pembaruan ini bertujuan untuk memberikan tampilan yang lebih sporty dan maskulin bagi para pecinta skutik Maxi Yamaha di",
+                "XMAX Connected tidak hanya unggul dalam gaya, tetapi juga didukung oleh performa mesin yang tangguh:",
+                "XMAX Connected : Rp 68.215.000 (OTR Jakarta) ."
+              ]
+            },
+            {
+              "name": "Ultimate",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Blue",
+                  "new": null,
+                  "image": "https://iwanbanaran.com/api/proxy/image/2088e6335bc07a33.webp?url=https%3A%2F%2Fcdn.iwanbanaran.com%2F2026%2F01%2Fyamaha-xmax-250-8.webp&w=1600"
+                }
+              ],
+              "notes": [
+                "Ultimate Performance : Dibekali mesin Blue Core 250cc, 4-katup, berpendingin cairan yang mampu menghasilkan tenaga maksimal 16,8 Kw/7000rpm dan torsi 24,3 Nm/5500rpm . Motor ini juga menggunakan teknologi one-piece forged crankshaft yang ringan dan bertenaga, serta fitur Traction Control System (TCS"
+              ]
+            },
+            {
+              "name": "Tech Max",
+              "price": 75610000.0,
+              "colors": [],
+              "notes": [
+                "XMAX TechMAX : Rp 75.610.000 (OTR Jakarta) ."
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Metallic Blue",
+            "Ceramic Grey",
+            "Metallic Black",
+            "Elixir Dark Silver"
+          ],
+          "n_images": 15,
+          "image_keys": [
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fyamaha xmax 250 4 webp w 860",
+            "rl https 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fyamaha xmax 250 6 webp w 1320",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fyamaha xmax 250 10 webp w 1320",
+            "rl https 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fyamaha xmax 250 8 webp w 1600",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fyamaha xmax 250 12 webp w 1600",
+            "rl https 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fyamaha xmax 250 7 webp w 1600",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fyamaha xmax 250 9 300x216 webp w 300",
+            " 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fyamaha xmax 250 11 300x172 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fyamaha xmax 250 13 80x60 webp w 200",
+            " 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fyamaha xmax 250 14 300x201 webp w 300",
+            " 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fyamaha xmax 250 15 300x189 webp w 300",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fyamaha xmax 250 2 263x420 webp w 263",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fyamaha xmax 250 3 268x420 webp w 268",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fyamaha xmax 250 5 277x420 webp w 277"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/breaking-yamaha-rilis-new-x-max-2025-sudah-turbo",
+          "intro": "Cakkk….Yamaha diawal Oktober ini menggebrak kembali lewat pembaruan jajaran line up skutik MAXi Yamaha-nya. Guna merespon tren gaya hidup konsumen MAXi Yamaha yang ingin tampil lebih premium namun tetap kental dengan aura sporty yang elegan, PT Yamaha Indonesia Motor Mfg. memberikan sentuhan warna dan grafis terkini untuk model XMAX Connected terbaru.",
+          "variants": [
+            {
+              "name": "Connected",
+              "price": 66855000.0,
+              "colors": [
+                {
+                  "name": "XMAX Connected Prestige Grey",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Memberikan sentuhan warna dan grafis terkini untuk model XMAX Connected terbaru.",
+                "Cakkk….Yamaha diawal Oktober ini menggebrak kembali lewat pembaruan jajaran line up skutik MAXi Yamaha-nya. Guna merespon tren gaya hidup konsumen MAXi Yamaha yang ingin tampil lebih premium namun tetap kental dengan aura sporty yang elegan, PT Yamaha Indonesia Motor Mfg. memberika",
+                "“Sebagai upaya menjawab kebutuhan gaya hidup para pecinta big skutik premium di Indonesia, Yamaha melalui XMAX Connected terus melakukan inovasi tidak hanya dari segi teknologi dan performa mesin yang mampu menghadirkan sensasi bekendaran yang lebih bertenaga dan menyenangkan. Kali ini, Yamaha mempe"
+              ]
+            },
+            {
+              "name": "Ultimate",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Blue",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "XMAX dibekali dengan mesin Blue Core 250cc, 4-katup, berpendingin cairan yang memiliki performa paling besar dikelasnya. Mesin ini mampu menghasilkan tenaga maksimum sebesar 16,8 Kw/7000rpm dan torsi maksimum sebesar 24,3 Nm/5500rpm. Selain itu, motor ini juga mengadopsi teknologi one-piece forged c",
+                "Guna meningkatkan kestabilan saat berkendara, XMAX dibekali ban tubeless bertapak lebar dengan ukuran 127/70-15 di bagian depan dan 140/70-14 di bagian belakang. Suspensi depan motor ini juga mengadopsi gaya motorsport dengan tabung yang besar (33mm) sehingga memberikan kestabilan yang maksimal dan",
+                "Posisi Windshield serta handlebar pada XMAX juga dapat disetel sesuai dengan prefensi kenyamanan sang pengendara. Selain itu, speedometer analog yang dikombinasikan dengan LCD berukuran besar dengan MID (Multi Information Display) yang snagat informatif bagi pengendara juga dihadirkan pada motor. Un"
+              ]
+            },
+            {
+              "name": "XMAX TechMAX",
+              "price": 72115000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Elixir Dark Silver"
+          ],
+          "n_images": 16,
+          "image_keys": [
+            "8f5f5c79 webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fxmax jpg w 860",
+            "e webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fxmax 20257 jpg w 1600",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fxmax 20251 2 scaled jpg w 1600",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fxmax 20254 2 scaled jpg w 1600",
+            "639a5c3 webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fxmax jpg w 1600",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fxmax 20251 100x70 jpg w 200",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fxmax 20252 631x420 jpg w 631",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fxmax 20253 641x420 jpg w 641",
+            "rl https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fxmax 20251 1 100x70 jpg w 200",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fxmax 20254 1 666x420 jpg w 666",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fxmax 20255 100x70 jpg w 200",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fxmax 20256 100x70 jpg w 200",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fxmax 20258 617x420 jpg w 617",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fxmax 20259 100x70 png w 200",
+            "rl https 3a 2f 2fcdn iwanbanaran com 2f2024 2f10 2fxmax 20259 1 100x70 png w 200"
+          ],
+          "title": "Breaking ! Yamaha Rilis New X-MAX 2025….sudah Turbo ????",
+          "date": "2024-10-09T00:00:00",
+          "source": "Iwan Banaran"
+        },
+        "prev_official": null,
+        "now_official": {
+          "name": "Yamaha XMAX 250",
+          "url": "https://www.yamaha-motor.co.id/product/xmax-connected/",
+          "variants": [
+            {
+              "name": "XMAX 250 TECH MAX",
+              "price": 75610000.0,
+              "colors": [
+                {
+                  "name": "Ceramic Grey",
+                  "hex": "#999999",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025092412234469028U9058.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "XMAX 250 Connected",
+              "price": 68215000.0,
+              "colors": [
+                {
+                  "name": "Metallic Blue",
+                  "hex": "#000088",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410361864796E17453.png",
+                  "new": null
+                },
+                {
+                  "name": "Metallic Black",
+                  "hex": "#000000",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410411324315K95315.png",
+                  "new": null
+                },
+                {
+                  "name": "Ceramic Grey",
+                  "hex": "#919191",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410370912244S46425.png",
+                  "new": null
+                },
+                {
+                  "name": "Elixir Dark Silver",
+                  "hex": "#c9c9cd",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410364512389Y58336.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Mesin": "Liquid Cooled, 4-Stroke, SOHC, 4 Valves",
+            "Volume Silinder": "249.8 cc",
+            "Diameter x Langkah": "70.0 mm X 64.9 mm",
+            "Perbandingan Kompresi": "10.5 : 1",
+            "Daya Maksimum": "16.8kW / 7.000 rpm",
+            "Torsi Maksimum": "24.3 Nm / 5.500 rpm",
+            "Sistem Starter": "Electric Starter",
+            "Sistem Bahan Bakar": "Fuel Injection",
+            "Tipe Kopling": "Dry, Centrifugal Automatic",
+            "Tipe Transmisi": "V-belt Automatic",
+            "Ban Depan": "120/70-15M/C 56P",
+            "Ban Belakang": "140/70-14M/C 62P",
+            "Rem Depan": "Disc Brake",
+            "Rem Belakang": "Disc Brake",
+            "Tipe Rangka": "Backbone",
+            "Suspensi Depan": "Telescopic Fork",
+            "Suspensi Belakang": "Unit Swing",
+            "P x L x T": "2.180 mm x 795 mm x 1.5050 mm",
+            "Jarak Sumbu Roda": "1.540 mm",
+            "Jarak Terendah ke Tanah": "135 mm",
+            "Tinggi Tempat Duduk": "795 mm",
+            "Berat Isi": "184 kg",
+            "Kapasitas Tangki Bensin": "13 L",
+            "Tipe Battery": "GTZ8V",
+            "Tipe Busi": "NGK/ LMAR8A-9",
+            "Sistem Pengapian": "TCI"
+          },
+          "date": "2026-01-19",
+          "source": "wayback",
+          "archive_url": "http://web.archive.org/web/20260119171119/https://www.yamaha-motor.co.id/product/xmax-connected/"
+        }
       }
     },
     {
@@ -1401,7 +1619,9 @@
         "compare": [
           "Meskipun secara siluet terlihat masih sama, ternyata ada beberapa detail krusial yang bikin motor “bebek sultan” ini makin matang."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T02:54:42",
+        "full": false,
+        "prev_detail": null
       }
     },
     {

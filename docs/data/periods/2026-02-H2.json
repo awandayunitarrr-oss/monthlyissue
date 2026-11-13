@@ -1612,16 +1612,51 @@
           "price": null,
           "engine": "125 cc",
           "power": "15 PS",
-          "torque": null
+          "torque": "11,5 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
         "compare": [
-          "Menariknya, pembaruan tahun 2026 ini bukan sekadar ganti warna ( facelift ringan), melainkan ada optimasi pada sektor jantung pacu."
+          "Hasilnya, torsi puncak motor ini mengalami kenaikan yang membuat tarikan awal (akselerasi) menjadi lebih responsif dibandingkan model sebelumnya.",
+          "Menariknya, pembaruan tahun 2026 ini bukan sekadar ganti warna (facelift ringan), melainkan ada optimasi pada sektor jantung pacu.",
+          "Bobot dan Rasio Tenaga Menariknya, GSX-R150 di Indonesia seringkali terasa sedikit lebih ringan karena standar regulasi keselamatan di Indonesia tidak seketat di Eropa (seperti absennya sensor-sensor emisi tambahan atau jenis knalpot yang lebih sederhana)."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:25:13",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/breaking-suzuki-rilis-new-gsx-r125-2026-mesin-makin-kencang-cakkk",
+          "intro": "Cakkk….Suzuki secara mengejutkan menggebrak pasar dunia dengan merilis New GSX-R125 2026. Suzuki Jepang dan Eropa kembali memperbarui lini motor sport terkecil mereka.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": null,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Volume Silinder": "124,3 cc : 147,3 cc",
+            "Daya Maksimum": "± 15 PS (11 kW) : ± 19,1 PS (14,1 kW)",
+            "Torsi Maksimum": "11,5 Nm : (Meningkat dari 11 Nm) : 14,0 Nm",
+            "Sistem Pengapian": "ECU Optimasi Terbaru (Euro 5+) : ECU Standar (Euro 3/4)",
+            "Berat Isi": "± 134 kg : ± 131 kg"
+          },
+          "loose_colors": [],
+          "n_images": 8,
+          "image_keys": [
+            " 2f 2fcdn iwanbanaran com 2f2026 2f02 2fsuzuki gsx r125 2026 biru 1 2 webp w 860",
+            "3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fsuzuki gsx r125 2026 8 2 6 webp w 1200",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "2f 2fcdn iwanbanaran com 2f2026 2f02 2fsuzuki gsx r125 2026 biru 1 4 webp w 1200",
+            "3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fsuzuki gsx r125 2026 8 2 4 webp w 1200",
+            "2f 2fcdn iwanbanaran com 2f2026 2f02 2fsuzuki gsx r125 2026 biru 1 3 webp w 1200",
+            "a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fsuzuki gsx r125 2026 biru 1 webp w 1200",
+            "3a 2f 2fcdn iwanbanaran com 2f2026 2f02 2fsuzuki gsx r125 2026 8 2 5 webp w 1200"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {

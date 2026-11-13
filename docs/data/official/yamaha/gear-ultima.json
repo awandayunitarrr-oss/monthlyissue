@@ -7,6 +7,99 @@
       "variants": [
         {
           "name": "Hybrid Smart",
+          "price": 22685000.0,
+          "colors": [
+            {
+              "name": "Magma Black",
+              "hex": "#2c2324",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026040210281363446A2951.png",
+              "new": null
+            },
+            {
+              "name": "Matte Blue",
+              "hex": "#1f3e65",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026040210285549459N49815.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Hybrid Solid",
+          "price": 20560000.0,
+          "colors": [
+            {
+              "name": "Solid Orange",
+              "hex": "#c43f12",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026040210302746779S97325.png",
+              "new": null
+            },
+            {
+              "name": "Solid Blue",
+              "hex": "#2172ca",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026040210304321568W76344.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Hybrid",
+          "price": 20140000.0,
+          "colors": [
+            {
+              "name": "Putih",
+              "hex": "#ffffff",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026040210355699153B34831.png",
+              "new": null
+            },
+            {
+              "name": "Hitam",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026040210362244135P20329.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "spec_table": {
+        "Tipe Mesin": "Berpendingin udara, 4 Langkah, SOHC",
+        "Diameter x Langkah": "52,4mm  x 57,9mm",
+        "Volume Silinder": "124,86cc",
+        "Daya Maksimum": "6,2 kW / 6.500 rpm",
+        "Torsi Maksimum": "10,6 Nm / 4.500 rpm",
+        "Sistem Bahan Bakar": "Fuel Injeksi",
+        "Tipe Kopling": "Kopling Sentrifugal, Kering",
+        "Tipe Transmisi": "V-Belt Otomatis",
+        "Sistem Starter": "Elektik Starter",
+        "Tipe Rangka": "Underbone",
+        "Suspensi Depan": "Teleskopik",
+        "Suspensi Belakang": "Unit Swing",
+        "Ban Depan": "110/70-12 47L",
+        "Ban Belakang": "110/70-12 47L",
+        "Rem Depan": "Rem Cakram",
+        "Rem Belakang": "Rem Tromol",
+        "P x L x T": "1.850 mm x 685 mm x 1.075 mm",
+        "Jarak Sumbu Roda": "1.280 mm",
+        "Jarak Terendah ke Tanah": "135 mm",
+        "Berat Isi": "95 Kg",
+        "Kapasitas Tangki Bensin": "5,1 L",
+        "Tinggi Tempat Duduk": "750 mm",
+        "Sistem Pengapian": "TCI",
+        "Tipe Battery": "YTZ6V",
+        "Tipe Busi": "NGK/CR6HSA"
+      },
+      "date": "2026-04-19",
+      "source": "wayback",
+      "archive_url": "http://web.archive.org/web/20260419053227/https://yamaha-motor.co.id/product/gear-ultima/"
+    },
+    {
+      "name": "Yamaha Gear Ultima",
+      "url": "https://www.yamaha-motor.co.id/product/gear-ultima/",
+      "variants": [
+        {
+          "name": "Hybrid Smart",
           "price": 22785000.0,
           "colors": [
             {

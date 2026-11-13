@@ -335,9 +335,33 @@
           "price_delta": null
         },
         "compare": [
+          "Paling kentara adalah ubahan pada sektor pencahayaan depan yang kini mengadopsi lampu LED berbentuk bulat .",
           "Kombinasi sasis ringan, handling lincah yang selama ini menjadi kekuatan utama keluarga KLX150, serta tambahan fungsionalitas komponen overland ini membuat KLX150 XPL menjadi paket yang menarik bagi para petualang."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:34:17",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/06/12/kawasaki-rilis-klx150-xpl-usung-konsep-overland-style-siap-diajak-berpetualang-lebih-jauh/?utm_source=rss&utm_medium=rss&utm_campaign=kawasaki-rilis-klx150-xpl-usung-konsep-overland-style-siap-diajak-berpetualang-lebih-jauh",
+          "intro": "PT Kawasaki Motor Indonesia (KMI) kembali memperluas keluarga motor dual-purpose legendaris mereka dengan meluncurkan varian terbaru: Kawasaki KLX150 XPL dengan harga 44,8 Juta rupiah . Membawa jargon “Built To Explore Beyond Limits” , varian ini hadir dengan arah konsep yang jelas, yaitu Overland Style .",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 44800000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 4,
+          "image_keys": [
+            "klx 150 xpl 1 webp",
+            "klx150 xpl 6 webp",
+            "klx150 xpl 10 webp",
+            "klx150 xpl 7 webp"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {
@@ -371,16 +395,163 @@
         "key": "yamaha|mxking150",
         "specs": {
           "price": null,
-          "engine": null,
-          "power": null,
-          "torque": null
+          "engine": "150 cc",
+          "power": "11.3 KW",
+          "torque": "13.8 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
         "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:34:28",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/06/12/yamaha-rilis-mx-king-150-livery-prima-pramac-di-jfk-2026-imbas-toprak-effect/?utm_source=rss&utm_medium=rss&utm_campaign=yamaha-rilis-mx-king-150-livery-prima-pramac-di-jfk-2026-imbas-toprak-effect",
+          "intro": "PT Yamaha Indonesia Motor Manufacturing (YIMM) memanfaatkan momentum Jakarta Fair Kemayoran (JFK) 2026 untuk merilis varian terbatas 2.000 unit : Yamaha MX King 150 Prima Pramac Livery . Langkah ini jelas menjadi upaya Yamaha menyegarkan sang “King of Street” dengan aura sirkuit yang kental.",
+          "variants": [
+            {
+              "name": "Model",
+              "price": 29900000.0,
+              "colors": [],
+              "notes": [
+                "Prima Pramac Livery (New) | Rp 29.900.000",
+                "Special Livery Yamaha 70th Anniversary | Rp 29.200.000",
+                "Dengan grafis ungu-putih khas Prima Pramac MotoGP, bebek sport ini jelas mengincar para loyalis balap yang menginginkan tampilan racy dan eksklusif langsung dari pabrikan."
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Blue",
+            "Silver"
+          ],
+          "n_images": 3,
+          "image_keys": [
+            "mxking pramac 3 webp",
+            "mxking pramac 2 webp",
+            "mxking pramac 1 webp"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/geger-bocor-new-mx-king-155-2026-di-gudang-dirilis-sebentar-lagi",
+          "intro": "Cakkk….sepertinya New MX King 155 benar-benar akan dirilis sebentar lagi. Setelah sebelumnya kita disodori dengan foto penampakannya digudang cak.",
+          "variants": [
+            {
+              "name": "ABS",
+              "price": 26000000.0,
+              "colors": [],
+              "notes": [
+                "Pengereman: Kedua gambar memperlihatkan cakram rem depan yang besar dengan kaliper rem (kemungkinan besar dua piston) berwarna keemasan. Ini adalah ciri khas versi high-end yang memiliki ABS (Anti-lock Braking System). Piringan cakram yang lebar ini membedakannya dari versi non-ABS.",
+                "Motor ini adalah Yamaha Sniper 155 VVA (Versi ABS/Lanjutan) . Meskipun model dasarnya sudah ada, varian warna dan kemungkinan sedikit pembaruan fitur ini menjadikannya “rilis baru” dalam konteks penyegaran produk tahunan. Jadi memang lebih ke facelift bodi dan desain bukan all New…",
+                "Jadi ngono cak…pertanyaannya apakah gen anyar ini akan masuk Indonesia ?? Sebenarnya dari beberapa informasi yang IWB kumpulkan… Pihak Yamaha Indonesia (YIMM) selama ini cukup menahan diri membawa model 155 VVA ini karena biaya produksi dan market . Fitur seperti Assist & Slipper Clutch , ABS, dan m"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 7,
+          "image_keys": [
+            "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fmx king 155 spyshot 1 webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fmx king 155 spyshot 2 2 webp w 1200",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fmx king 155 spyshot 1 2 webp w 1200",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fmx king 155 spyshot 2 3 webp w 1200",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fmx king 155 spyshot 1 3 webp w 1153",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fmx king 155 spyshot 2 webp w 1153"
+          ],
+          "title": "Geger ! Bocor New MX King 155 2026 di Gudang… — dirilis sebentar lagi ??",
+          "date": "2026-03-18T00:00:00",
+          "source": "Iwan Banaran"
+        },
+        "prev_official": null,
+        "now_official": {
+          "name": "Yamaha MX King 150",
+          "url": "https://www.yamaha-motor.co.id/product/mx-king-150/",
+          "variants": [
+            {
+              "name": "MX King 150 Prima Pramac Livery",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Prima Pramac",
+                  "hex": "#1a26cb",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026062207303160354M62891.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "MX King 150 70th Livery",
+              "price": 29400000.0,
+              "colors": [
+                {
+                  "name": "70th Livery",
+                  "hex": "#ff0000",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012212570650164D72125.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "MX King 150",
+              "price": 29200000.0,
+              "colors": [
+                {
+                  "name": "Blue",
+                  "hex": "#000088",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025120815501128784Y48788.png",
+                  "new": null
+                },
+                {
+                  "name": "CyberCity",
+                  "hex": "#5e51ab",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025120815502299713A93187.png",
+                  "new": null
+                },
+                {
+                  "name": "Silver",
+                  "hex": "#999999",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025120815502963133Z5037.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Sistem Bahan Bakar": "Fuel Injection",
+            "Tipe Kopling": "Basah, Kopling Manual , Multiplat",
+            "Tipe Transmisi": "Constant Mesh, 5-kecepatan",
+            "Tipe Mesin": "Berpendingin cairan, 4 langkah, SOHC, 4 Klep",
+            "Diameter x Langkah": "57,0 x 58,7 mm",
+            "Perbandingan Kompresi": "10,4 : 1",
+            "Volume Silinder": "149,79 cc",
+            "Daya Maksimum": "11,3 kW / 8500 rpm",
+            "Torsi Maksimum": "13,8 Nm / 7000 rpm",
+            "Sistem Starter": "Elektrik Starter & Kick Starter",
+            "Tipe Rangka": "Backbone",
+            "Suspensi Depan": "Teleskopik",
+            "Suspensi Belakang": "Monoshock",
+            "Ban Depan": "90/80-17M/C (46P)",
+            "Ban Belakang": "120/70-17M/C (58P)",
+            "Rem Depan": "Rem Cakram",
+            "Rem Belakang": "Rem Cakram",
+            "P x L x T": "1985 mm X 670 mm X 1100 mm",
+            "Jarak Sumbu Roda": "1290 mm",
+            "Jarak Terendah ke Tanah": "155 mm",
+            "Tinggi Tempat Duduk": "795 mm",
+            "Berat Isi": "118 kg",
+            "Kapasitas Tangki Bensin": "4,2 L",
+            "Tipe Busi": "NGK/CR8E",
+            "Sistem Pengapian": "TCI",
+            "Tipe Battery": "GTZ4V / YTZ4V"
+          },
+          "date": "2026-11-13",
+          "source": "official"
+        }
       }
     },
     {
@@ -845,7 +1016,7 @@
         "key": "kawasaki|esok",
         "specs": {
           "price": null,
-          "engine": null,
+          "engine": "500 cc",
           "power": null,
           "torque": null
         },
@@ -854,7 +1025,38 @@
           "price_delta": null
         },
         "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:37:06",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/06/09/geng-ijo-bikin-geger-intip-calon-skutik-baru-kawasaki-indonesia-yang-siap-rilis-esok-di-prj-2026/?utm_source=rss&utm_medium=rss&utm_campaign=geng-ijo-bikin-geger-intip-calon-skutik-baru-kawasaki-indonesia-yang-siap-rilis-esok-di-prj-2026",
+          "intro": "Jagat roda dua tanah air mendadak geger, Bagaimana tidak, PT Kawasaki Motor Indonesia (KMI) secara mengejutkan merilis sebuah poster teaser di akun media sosial resmi mereka yang menampilkan siluet lampu depan sebuah motor misterius.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Benang Merah",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 6,
+          "image_keys": [
+            "modenas kawasaki 125 7 webp",
+            "modenas kawasaki 125 2 webp",
+            "modenas kawasaki 125 4 scaled webp",
+            "modenas kawasaki 125 5 webp",
+            "modenas kawasaki 125 6 scaled webp",
+            "modenas kawasaki 125 3 webp"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {
@@ -1812,17 +2014,144 @@
         "specs": {
           "price": 56000000.0,
           "engine": "125 cc",
-          "power": null,
-          "torque": null
+          "power": "19 PS",
+          "torque": "14 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
         "compare": [
-          "Langkah ini diambil Yamaha demi mengakomodasi permintaan konsumen yang menginginkan motor berkarakter klasik namun memiliki tenaga lebih besar untuk kebutuhan touring jarak jauh dan legal untuk masuk ke jalan tol (akses jalan bebas hambatan di Jepang mensyaratkan mesin di atas 125cc)."
+          "Langkah ini diambil Yamaha demi mengakomodasi permintaan konsumen yang menginginkan motor berkarakter klasik namun memiliki tenaga lebih besar untuk kebutuhan touring jarak jauh dan legal untuk masuk ke jalan tol (akses jalan bebas hambatan di Jepang mensyaratkan mesin di atas 125cc).",
+          "Fitur ini membuat pengoperasian tuas kopling menjadi jauh lebih ringan sekaligus mencegah roda belakang mengunci ( slip ) akibat efek engine brake yang agresif saat menurunkan gigi secara mendadak."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:37:17",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/yamaha-resmi-rilis-xsr155-abs-model-2026-buatan-indonesia-masuk-jepang",
+          "intro": "Cakkk….Setelah sukses besar dengan kehadiran XSR125 di kelas motor ringkas ( moped ), Yamaha Motor Jepang akhirnya menjawab kerinduan para pencinta motor sport neo-retro kelas menengah. Secara resmi, Yamaha mengumumkan peluncuran Yamaha XSR155 ABS model 2026 untuk pasar domestik Jepang ( Japan Domestic Market /JDM) yang dijadwalkan rilis pada 30 Juni 2026 .",
+          "variants": [
+            {
+              "name": "ABS",
+              "price": 56000000.0,
+              "colors": [],
+              "notes": [
+                "Secara resmi, Yamaha mengumumkan peluncuran Yamaha XSR155 ABS model 2026 untuk pasar domestik Jepang (Japan Domestic Market/JDM) yang dijadwalkan rilis pada 30 Juni 2026.",
+                "Secara resmi, Yamaha mengumumkan peluncuran Yamaha XSR155 ABS model 2026 untuk pasar domestik Jepang ( Japan Domestic Market /JDM) yang dijadwalkan rilis pada 30 Juni 2026 .",
+                "Cakkk….Setelah sukses besar dengan kehadiran XSR125 di kelas motor ringkas ( moped ), Yamaha Motor Jepang akhirnya menjawab kerinduan para pencinta motor sport neo-retro kelas menengah. Secara resmi, Yamaha mengumumkan peluncuran Yamaha XSR155 ABS model 2026 untuk pasar domestik Je"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Cedar Green",
+            "Greenish Gray Metallic",
+            "Hijau",
+            "Black Metallic",
+            "Hitam",
+            "Light Bluish Gray Metallic",
+            "Silver"
+          ],
+          "n_images": 22,
+          "image_keys": [
+            "fed webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 2 webp w 860",
+            "3 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 15 webp w 1280",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "c webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 19 webp w 1280",
+            "1 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 16 webp w 1280",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 10 768x511 webp w 768",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 11 768x512 webp w 768",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 12 768x512 webp w 768",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 13 768x511 webp w 768",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 14 768x511 webp w 768",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 17 768x512 webp w 768",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 18 768x512 webp w 768",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 20 768x504 webp w 768",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 21 768x504 webp w 768",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 1 768x512 webp w 768",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 3 768x512 webp w 768",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 4 768x512 webp w 768",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 5 768x511 webp w 768",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 6 768x511 webp w 768",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f06 2fxsr155 7 768x512 webp w 768"
+          ]
+        },
+        "prev_detail": null,
+        "prev_official": null,
+        "now_official": {
+          "name": "Yamaha XSR 155",
+          "url": "https://www.yamaha-motor.co.id/product/xsr-155/",
+          "variants": [
+            {
+              "name": "XSR 155 70th Livery",
+              "price": 40665000.0,
+              "colors": [
+                {
+                  "name": "70th Livery",
+                  "hex": "#ff0000",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012212283641750K65588.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "XSR 155",
+              "price": 40265000.0,
+              "colors": [
+                {
+                  "name": "Metallic Brown Authentic",
+                  "hex": "#2c2324",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025012015091380240D96357.png",
+                  "new": null
+                },
+                {
+                  "name": "Metallic Black Elegance",
+                  "hex": "#000000",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2022122614535230076F30677.png",
+                  "new": null
+                },
+                {
+                  "name": "Matte Silver Premium",
+                  "hex": "#c9c9cd",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025012015100168918C54101.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Mesin": "Pendingin Cairan, 4-Langkah SOHC, 4 Valve, VVA",
+            "Diameter x Langkah": "58,0 x 58,7 mm",
+            "Perbandingan Kompresi": "11,6 : 1",
+            "Daya Maksimum": "14,2 kW/ 10.000 rpm",
+            "Torsi Maksimum": "14,7 Nm/ 8.500 rpm",
+            "Sistem Starter": "Elektrik",
+            "Sistem Bahan Bakar": "Fuel Injection",
+            "Tipe Kopling": "Tipe Multi-Plate Basah, Assist & Slipper Clutch",
+            "Tipe Transmisi": "Manual",
+            "Volume Silinder": "155,09 cc",
+            "Tipe Rangka": "Deltabox",
+            "Suspensi Depan": "Telescopic Fork (Inverted)",
+            "Suspensi Belakang": "Link Monoshock",
+            "Ban Depan": "110/70-17M/C (54S)",
+            "Ban Belakang": "140/70-17M/C (66S)",
+            "Rem Depan": "Disc Brake",
+            "Rem Belakang": "Disc Brake",
+            "P x L x T": "2007 X 804 X 1080",
+            "Jarak Sumbu Roda": "1330 mm",
+            "Jarak Terendah ke Tanah": "170 mm",
+            "Tinggi Tempat Duduk": "810 mm",
+            "Berat Isi": "134 kg",
+            "Kapasitas Tangki Bensin": "10.4 Liter",
+            "Sistem Pengapian": "TCI/Transistor",
+            "Tipe Battery": "YTZ4V",
+            "Tipe Busi": "MR8E9"
+          },
+          "date": "2026-11-13",
+          "source": "official"
+        }
       }
     },
     {

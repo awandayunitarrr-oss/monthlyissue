@@ -58,6 +58,67 @@
         "Tipe Busi": "NGK/LMAR7G",
         "Sistem Pengapian": "T.C.I"
       },
+      "date": "2026-02-15",
+      "source": "wayback",
+      "archive_url": "http://web.archive.org/web/20260215195149/https://www.yamaha-motor.co.id/product/tmax-tech-max/"
+    },
+    {
+      "name": "Yamaha TMAX",
+      "url": "https://www.yamaha-motor.co.id/product/tmax-tech-max/",
+      "variants": [
+        {
+          "name": "TMAX MAX Special Livery",
+          "price": 475000000.0,
+          "colors": [
+            {
+              "name": "Black MAX",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012109354833782C36890.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "TMAX Tech MAX",
+          "price": 455000000.0,
+          "colors": [
+            {
+              "name": "Crystal Graphite",
+              "hex": "#999999",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012109464595907G85940.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "spec_table": {
+        "Tipe Transmisi": "V-Belt Otomatis",
+        "Tipe Mesin": "4 Langkah, Pendingin Cairan, 4 Katup,  2 Silinder",
+        "Volume Silinder": "561,88  cc",
+        "Diameter x Langkah": "70.0 mm X 73.0mm",
+        "Perbandingan Kompresi": "10.9 : 1",
+        "Daya Maksimum": "35.0 kW / 7000 rpm",
+        "Torsi Maksimum": "55.0 Nm / 5250 rpm",
+        "Sistem Starter": "Elektrik Starter",
+        "Ban Belakang": "160/60R15M/C",
+        "Rem Depan": "Hydraulic dual disc brake, Ø267 mm",
+        "Rem Belakang": "Hydraulic single disc brake, Ø282 mm",
+        "Tipe Rangka": "Double-cradle frame",
+        "Suspensi Depan": "Telescopic fork",
+        "Suspensi Belakang": "Swingarm",
+        "Ban Depan": "120/70R15M/C",
+        "P x L x T": "2.195mm x 780 mm x 1.415mm-1.525mm (E - windscreen)",
+        "Tinggi Tempat Duduk": "800 mm",
+        "Jarak Sumbu Roda": "1.575 mm",
+        "Jarak Terendah ke Tanah": "135 mm",
+        "Berat Isi": "221 kg",
+        "Kapasitas Tangki Bensin": "15L",
+        "Tipe Battery": "YTZ12S",
+        "Tipe Busi": "NGK/LMAR7G",
+        "Sistem Pengapian": "T.C.I"
+      },
       "date": "2026-11-13",
       "source": "official"
     }

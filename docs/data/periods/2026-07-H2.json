@@ -695,9 +695,9 @@
         "key": "honda|nx500eclutch",
         "specs": {
           "price": 230000000.0,
-          "engine": null,
-          "power": null,
-          "torque": null
+          "engine": "471 cc",
+          "power": "37,1 KW",
+          "torque": "44,7 Nm"
         },
         "previous_from_article": {
           "price": null,
@@ -706,7 +706,47 @@
         "compare": [
           "Mengusung konsep Daily Crossover , motor adventure kelas menengah ini kini mendapatkan pembaruan yang sangat menarik, terutama hadirnya fitur canggih Honda E-Clutch ."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:43:09",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/07/28/ahm-resmi-rilis-new-honda-nx500-e-clutch-seharga-rp-230-juta/?utm_source=rss&utm_medium=rss&utm_campaign=ahm-resmi-rilis-new-honda-nx500-e-clutch-seharga-rp-230-juta",
+          "intro": "Kabar terbaru datang dari Astra Honda Motor (AHM) yang secara resmi mulai memasarkan big bike adventure touring terbarunya di Indonesia, yaitu New Honda NX500 . Mengusung konsep Daily Crossover , motor adventure kelas menengah ini kini mendapatkan pembaruan yang sangat menarik, terutama hadirnya fitur canggih Honda E-Clutch .",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 230000000.0,
+              "colors": [
+                {
+                  "name": "Pearl Horizon White",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Graphite Black",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Mat Gunpowder Black Metallic",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 5,
+          "image_keys": [
+            "nx500 4 avif",
+            "nx500 2a avif",
+            "nx500 3 avif",
+            "nx500 1 avif",
+            "nx500 5 avif"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {
@@ -741,16 +781,72 @@
         "key": "honda|nx500",
         "specs": {
           "price": 230000000.0,
-          "engine": null,
-          "power": null,
-          "torque": null
+          "engine": "471 cc",
+          "power": "37,1 KW",
+          "torque": "44,7 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
         "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:43:21",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/gegerrr-honda-resmi-rilis-new-nx500-di-indonesia-ediann-tanpa-kopling-cakkkk",
+          "intro": "Caakkk…. persaingan pasar moge adventure touring di tanah air makin mendidih! Setelah Kawasaki merilis KLE500, kini PT Astra Honda Motor (AHM) secara resmi meluncurkan big bike petualang terbarunya, yaitu New NX500 .",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 230000000.0,
+              "colors": [
+                {
+                  "name": "Pearl Horizon White",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Graphite Black",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Mat Gunpowder Black Metallic",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Mesin": "Liquid-cooled, 8v, parallel-twin",
+            "Tinggi Tempat Duduk": "830mm"
+          },
+          "loose_colors": [],
+          "n_images": 18,
+          "image_keys": [
+            "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda nx500 4 webp w 860",
+            "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda nx500 3 webp w 821",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda nx500 1 webp w 1007",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda nx500 03 768x512 webp w 768",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda nx500 04 768x512 webp w 768",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda nx500 11 1 768x512 webp w 768",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda nx500 07 768x512 webp w 768",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda nx500 02 768x512 webp w 768",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda nx500 1 1 768x512 webp w 768",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda nx500 10 460x460 webp w 460",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda nx500 13 768x576 webp w 768",
+            "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda nx500 2 768x530 webp w 768",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda nx500 8 webp w 1013",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda nx500 12 460x460 webp w 460",
+            "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda nx500 7 768x543 webp w 768",
+            "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda nx500 6 768x543 webp w 768",
+            "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fhonda nx500 5 768x543 webp w 768"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {
@@ -886,17 +982,87 @@
         "specs": {
           "price": null,
           "engine": "250 cc",
-          "power": null,
-          "torque": null
+          "power": "39 PS",
+          "torque": "23,5 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
         "compare": [
+          "Last…kalau kita perhatikan pola rilis KMI selama ini, biasanya selisih waktu peluncuran antara versi Jepang dan versi Indonesia ora bakal terlalu jauh, Cak.",
+          "Yahhh memang cak…secara garis besar, tidak ada perubahan pada sektor mekanis alias performa dapur pacu.",
+          "Perubahan murni menyasar sisi estetika untuk menjaga kesegaran tampilannya di pasaran.",
           "Bagi sampeyan para pengguna setia maupun calon peminang Kawasaki Ninja 250 di Indonesia yang kepengen tampil beda dengan kelir lebih berani, sepertinya sampeyan kudu mulai siap-siap tabungan dari sekarang."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:43:33",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/breaking-ini-dia-new-kawasaki-ninja-250-terbaru-2026-mesin-2-silinder-unjuk-gigi",
+          "intro": "Cakkk….Siapa yang tak kenal dengan klan sport fairing legendaris berkapasitas 250cc dari pabrikan geng hijau? Yup, Kawasaki kembali bikin geger para pecinta roda dua!",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Lime Green",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 9,
+          "image_keys": [
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fninja 250 fi 4 webp w 860",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fninja 250 2027 1 webp w 1262",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fninja 250 fi 2 webp w 1361",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fninja 250 fi 1 webp w 1536",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fscreenshot 377 webp w 1083",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fninja 250 fi 3 1 webp w 1272",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fninja 250 fi 2 1 webp w 1187",
+            "url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f07 2fninja 250 2027 3 webp w 1262"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/breaking-suzuki-rilis-new-gsx-250r-versi-2024-inikah-pembunuh-cbr-dan-ninja-250",
+          "intro": "Akhirnya setelah menunggu lama konfirmasi dilayangkan oleh media Jepang Autoby yang menekankan kelahiran generasi terbaru Suzuki GSX250R versi 2024. Generasi yang dipandang mengalami improvement agar lebih baik dibandingkan dengan generasi sebelumnya.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 66000000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 14,
+          "image_keys": [
+            "a4 webp url https 3a 2f 2fcdn iwanbanaran com 2f2021 2f08 2fgsx250r x5 jpg w 860",
+            "e4 webp url https 3a 2f 2fcdn iwanbanaran com 2f2021 2f08 2fgsx250r 17 jpg w 678",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "2 webp url https 3a 2f 2fcdn iwanbanaran com 2f2021 2f08 2fgsx250r 16 jpg w 1280",
+            "1 webp url https 3a 2f 2fcdn iwanbanaran com 2f2021 2f08 2fgsx250r x5 jpg w 1000",
+            "59 webp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f04 2fimg 7566 jpeg w 1280",
+            "07 webp url https 3a 2f 2fcdn iwanbanaran com 2f2021 2f08 2fgsx250r 14 jpg w 980",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2023 2f07 2fgsx250r7 630x420 jpg w 630",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2023 2f07 2fgsx250r6 630x420 jpg w 630",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2023 2f07 2fgsx250r5 630x420 jpg w 630",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2023 2f07 2fgsx250r4 630x420 jpg w 630",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2023 2f07 2fgsx250r3 630x420 jpg w 630",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2023 2f07 2fgsx250r2 630x420 jpg w 630",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2023 2f07 2fgsx250r1 630x420 jpg w 630"
+          ],
+          "title": "Breaking ! Suzuki Rilis New GSX-250R versi 2024…inikah Pembunuh CBR dan Ninja 250 ?",
+          "date": "2024-04-17T00:00:00",
+          "source": "Iwan Banaran"
+        }
       }
     },
     {

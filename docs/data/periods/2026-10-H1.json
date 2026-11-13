@@ -225,7 +225,7 @@
         "specs": {
           "price": 222000000.0,
           "engine": "948 cc",
-          "power": null,
+          "power": "122 PS",
           "torque": null
         },
         "previous_from_article": {
@@ -233,7 +233,49 @@
           "price_delta": null
         },
         "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:45:22",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/breaking-new-kawasaki-versys-900-2027-resmi-diluncurkan-edian-garang",
+          "intro": "Cakkk…..Kawasaki baru saja membuat gebrakan besar di dunia sepeda motor global dengan memperkenalkan jajaran sport tourer terbaru mereka, yaitu Kawasaki Versys 900 dan Versys 900 SE untuk pasaran Eropa, serta varian Versys 900 SE LT yang dilengkapi pannier box standar khusus pasar Amerika Utara. Kehadiran motor ini langsung menarik perhatian para pencinta roda dua karena mengombinasikan performa mesin empat silinder segaris yang bertenaga dengan teknologi keselamatan canggih berbasis radar.",
+          "variants": [
+            {
+              "name": "SE",
+              "price": 222000000.0,
+              "colors": [],
+              "notes": [
+                "Bagi sampeyan yang menginginkan kenyamanan ekstra, varian SE hadir dengan kelengkapan pabrikan yang jauh lebih mewah. Varian ini sudah dibekali dengan:",
+                "Last…dengan segala keunggulan fungsionalitas, performa mesin empat silinder, serta teknologi keselamatan modern yang diusungnya, Kawasaki Versys 900 digadang-gadang akan menjadi salah satu pemain kunci di segmen sport touring global. Meskipun pihak Kawasaki belum mengumumkan jadwal resmi peluncuran"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 37,
+          "image_keys": [
+            "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 2 webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 31 webp w 1280",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 22 webp w 1280",
+            " 2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 4 460x460 webp w 460",
+            "2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 23 768x586 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 24 768x586 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 25 768x586 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 26 768x576 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 27 768x586 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 28 768x586 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 29 768x576 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 30 768x586 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 32 768x586 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 33 768x586 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 34 768x512 webp w 768",
+            "2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 35 450x600 webp w 450",
+            " 2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 1 458x600 webp w 458",
+            " 2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 2 768x446 webp w 768",
+            " 2f 2fcdn iwanbanaran com 2f2026 2f10 2fkawasaki versys 900 3 460x460 webp w 460"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {
@@ -2213,17 +2255,99 @@
         "specs": {
           "price": 665000000.0,
           "engine": null,
-          "power": null,
-          "torque": null
+          "power": "75 KW",
+          "torque": "112 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
         "compare": [
-          "Motor penjelajah sejati yang diandalkan para pecinta touring jarak jauh ini kini tampil makin segar dengan balutan warna, grafis, serta detail baru yang sukses memancarkan karakter Adventure Rally yang jauh lebih kuat dan berwibawa!"
+          "Perubahan juga nampak pada bagian frame yang kini dilabur warna hitam (sebelumnya merah), dipadu dengan desain grafis baru yang terlihat jauh lebih clean , terutama pada stiker batok lampu depan.",
+          "Motor penjelajah sejati yang diandalkan para pecinta touring jarak jauh ini kini tampil makin segar dengan balutan warna, grafis, serta detail baru yang sukses memancarkan karakter Adventure Rally yang jauh lebih kuat dan berwibawa!",
+          "Detail Perubahan Warna: Makin Bold dan Berkarakter!",
+          "Varian Matt Ballistic Black Metallic: Tampilannya kini makin misterius sekaligus elegan berkat rangka yang juga berubah jadi hitam, dipadu kombinasi striping anyar dari yang tadinya silver-merah, sekarang berubah manis menjadi warna gold ."
         ],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "analyzed_at": "2026-11-13T03:45:34",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/breaking-ahm-rilis-new-crf1100l-africa-twin-2027-idaman-tenan",
+          "intro": "Cakkkk…..akhirnya PT Astra Honda Motor (AHM) baru saja memberikan sentuhan refreshment yang bikin pangling pada salah satu moge adventure tangguh mereka, Honda CRF1100L Africa Twin 2027 . Motor penjelajah sejati yang diandalkan para pecinta touring jarak jauh ini kini tampil makin segar dengan balutan warna, grafis, serta detail baru yang sukses memancarkan karakter Adventure Rally yang jauh lebih kuat dan berwibawa!",
+          "variants": [
+            {
+              "name": "Matt Ballistic",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Matt Ballistic Black Metallic",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Varian Matt Ballistic Black Metallic: Tampilannya kini makin misterius sekaligus elegan berkat rangka yang juga berubah jadi hitam, dipadu kombinasi striping anyar dari yang tadinya silver-merah, sekarang berubah manis menjadi warna gold ."
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Grand Prix Red"
+          ],
+          "n_images": 10,
+          "image_keys": [
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fcrf1100 2027 9 webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fcrf1100 2027 4 webp w 1052",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fcrf1100 2027 2 webp w 1027",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fcrf1100 2027 11 768x543 webp w 768",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fcrf1100 2027 6 768x550 webp w 768",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fcrf1100 2027 8 768x532 webp w 768",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fcrf1100 2027 10 768x543 webp w 768",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fcrf1100 2027 3 768x545 webp w 768",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fcrf1100 2027 1 768x543 webp w 768"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/motor-sultan-datang-ini-dia-new-crf1100l-africa-twin-terbaru-indonesia",
+          "intro": "Cakkk….PT Astra Honda Motor (AHM) secara resmi menghadirkan tampilan baru untuk motor big bike adventure andalannya, CRF1100L Africa Twin . Dengan penyematan warna dan striping terbaru, motor ini semakin memperkuat aura Adventure Rally sejati dan siap menemani para pecinta Big Bike Adventure di Indonesia menaklukkan berbagai kondisi jalan, baik aspal maupun off-road .",
+          "variants": [
+            {
+              "name": "Matte Ballistic",
+              "price": 647542000.0,
+              "colors": [
+                {
+                  "name": "Matte Ballistic Black Metallic",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Last….AHM memasarkan CRF1100L Africa Twin, baik varian Matte Ballistic Black Metallic maupun Tricolor, dengan harga Rp 647.542.000 ( on the road DKI Jakarta) . Model big bike ini dapat dibeli di seluruh gerai Honda Big Wing yang tersebar di 9 kota diseluruh tanah air. Jadi wis ada cak…monggo sampeya"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Matte Ballistic Black Metallic"
+          ],
+          "n_images": 11,
+          "image_keys": [
+            " 3a 2f 2fcdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 3 webp w 860",
+            "3a 2f 2fcdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 5 webp w 1168",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "3a 2f 2fcdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 4 webp w 1096",
+            "3a 2f 2fcdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 2 webp w 1031",
+            "fcdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 6 218x150 webp w 218",
+            "2fcdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 8 100x70 webp w 200",
+            " 2fcdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 9 80x60 webp w 200",
+            "fcdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 10 100x70 webp w 200",
+            "cdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 11 300x200 webp w 300",
+            "fcdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 7 300x195 webp w 300"
+          ],
+          "title": "Motor Sultan Datang…ini dia New CRF1100L Africa Twin Terbaru Indonesia",
+          "date": "2025-11-22T00:00:00",
+          "source": "Iwan Banaran"
+        }
       }
     },
     {
@@ -2445,18 +2569,113 @@
         "specs": {
           "price": 665000000.0,
           "engine": null,
-          "power": null,
-          "torque": null
+          "power": "75 KW",
+          "torque": "112 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
         "compare": [
-          "Sentuhan Grafis dan Warna Baru: Makin Clean & Bold Untuk penyegaran kali ini, Honda memfokuskan perubahannya pada detail visual yang bikin tongkrongan Africa Twin makin gagah: Varian Honda Tricolor: Suspensi depan ( fork ) dan pelek kini diberi sentuhan warna gold yang mewah."
+          "Perubahan terlihat pada warna fork dan pelek, serta grafis pada batok depan untuk varian Tricolor.",
+          "Apa saja sih detail perubahan dan fitur yang diusung?",
+          "Sentuhan Grafis dan Warna Baru: Makin Clean & Bold Untuk penyegaran kali ini, Honda memfokuskan perubahannya pada detail visual yang bikin tongkrongan Africa Twin makin gagah: Varian Honda Tricolor: Suspensi depan ( fork ) dan pelek kini diberi sentuhan warna gold yang mewah.",
+          "Warna frame (sasis) yang tadinya merah kini berganti menjadi hitam ."
         ],
-        "analyzed_at": "2026-11-13T02:22:05",
-        "full": false
+        "analyzed_at": "2026-11-13T03:45:51",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/10/01/ahm-segarkan-honda-crf1100l-africa-twin-warna-baru-sasis-hitam-dan-aksen-gold-makin-gagah/?utm_source=rss&utm_medium=rss&utm_campaign=ahm-segarkan-honda-crf1100l-africa-twin-warna-baru-sasis-hitam-dan-aksen-gold-makin-gagah",
+          "intro": "CRF1100L Africa Twin mendapatkan pilihan warna dan grafis terbaru yang semakin memperkuat karakter Adventure Rally. Perubahan terlihat pada warna fork dan pelek, serta grafis pada batok depan untuk varian Tricolor.",
+          "variants": [
+            {
+              "name": "Tricolor",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Grand Prix Red",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "CRF1100L Africa Twin mendapatkan pilihan warna dan grafis terbaru yang semakin memperkuat karakter Adventure Rally. Perubahan terlihat pada warna fork dan pelek, serta grafis pada batok depan untuk varian Tricolor. Hadir juga pilihan warna baru Grand Prix Red yang memberikan karakter lebih berani da"
+              ]
+            },
+            {
+              "name": "Matt Ballistic",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Matt Ballistic Black Metallic",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Grand Prix Red",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Aksen kombinasi striping berganti dari silver-merah menjadi warna gold .",
+                "Pilihan warna baru dengan kelir merah khas Honda Racing yang bikin aura motor makin sporty dan berani."
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Matt Ballistic Black Metallic",
+            "Grand Prix Red"
+          ],
+          "n_images": 3,
+          "image_keys": [
+            "crf1100l grandprixred webp",
+            "crf1100l hondatricolor webp",
+            "crf1100l mattballisticblackmetallic webp"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/motor-sultan-datang-ini-dia-new-crf1100l-africa-twin-terbaru-indonesia",
+          "intro": "Cakkk….PT Astra Honda Motor (AHM) secara resmi menghadirkan tampilan baru untuk motor big bike adventure andalannya, CRF1100L Africa Twin . Dengan penyematan warna dan striping terbaru, motor ini semakin memperkuat aura Adventure Rally sejati dan siap menemani para pecinta Big Bike Adventure di Indonesia menaklukkan berbagai kondisi jalan, baik aspal maupun off-road .",
+          "variants": [
+            {
+              "name": "Matte Ballistic",
+              "price": 647542000.0,
+              "colors": [
+                {
+                  "name": "Matte Ballistic Black Metallic",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Last….AHM memasarkan CRF1100L Africa Twin, baik varian Matte Ballistic Black Metallic maupun Tricolor, dengan harga Rp 647.542.000 ( on the road DKI Jakarta) . Model big bike ini dapat dibeli di seluruh gerai Honda Big Wing yang tersebar di 9 kota diseluruh tanah air. Jadi wis ada cak…monggo sampeya"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Matte Ballistic Black Metallic"
+          ],
+          "n_images": 11,
+          "image_keys": [
+            " 3a 2f 2fcdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 3 webp w 860",
+            "3a 2f 2fcdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 5 webp w 1168",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "3a 2f 2fcdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 4 webp w 1096",
+            "3a 2f 2fcdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 2 webp w 1031",
+            "fcdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 6 218x150 webp w 218",
+            "2fcdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 8 100x70 webp w 200",
+            " 2fcdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 9 80x60 webp w 200",
+            "fcdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 10 100x70 webp w 200",
+            "cdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 11 300x200 webp w 300",
+            "fcdn iwanbanaran com 2f2025 2f11 2fafrica twin crf1100 2026 7 300x195 webp w 300"
+          ],
+          "title": "Motor Sultan Datang…ini dia New CRF1100L Africa Twin Terbaru Indonesia",
+          "date": "2025-11-22T00:00:00",
+          "source": "Iwan Banaran"
+        }
       }
     },
     {
@@ -2564,17 +2783,200 @@
         "model": "Honda Stylo 160 Violet",
         "key": "honda|stylo160violet",
         "specs": {
-          "price": null,
-          "engine": null,
-          "power": null,
-          "torque": null
+          "price": 29695000.0,
+          "engine": "160 cc",
+          "power": "11,3 KW",
+          "torque": "13,8 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-13T01:32:59"
+        "compare": [
+          "Sementara warna baru lainnya, yakni Glam Grey melengkapi jajaran warna yang telah ada sebelumnya pada tipe CBS seperti Glam Black, Glam Beige dan Glam White.",
+          "Warna ungu mewah ini melengkapi jajaran keluarga “Royal” sebelumnya seperti Royal Blue, Royal Brown, dan Royal Green.",
+          "Glam Grey (Tipe CBS): Buat sampeyan yang lebih suka nuansa subtle tapi tetep modern dan berkelas, warna Glam Grey hadir melengkapi varian CBS yang sebelumnya udah diisi Glam Black, Glam Beige, dan Glam White.",
+          "Soal dapur pacu memang masih sama cak namun nggak jadi soal karena disana telah tersimpan jantung pacu yang powerfull banget."
+        ],
+        "analyzed_at": "2026-11-13T03:46:05",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/breaking-ahm-rilis-new-stylo-160-violet-2027-celengan-ambrolll",
+          "intro": "Cakkkkk…PT Astra Honda Motor (AHM) hadirkan pilihan warna terbaru pada skutik favorit premium fashionable, New Honda Stylo 160. Penyegaran pada skutik bergaya retro dan powerful ini hadir dengan pilihan warna baru Glam Grey serta Royal Violet.",
+          "variants": [
+            {
+              "name": "ABS",
+              "price": 32686000.0,
+              "colors": [
+                {
+                  "name": "Royal Violet",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Royal Blue",
+                  "new": false,
+                  "image": null
+                },
+                {
+                  "name": "Royal Brown",
+                  "new": false,
+                  "image": null
+                },
+                {
+                  "name": "Royal Green",
+                  "new": false,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Royal Violet (Tipe ABS): Nah, iki sing paling sangar cak! Warna ungu mewah ini melengkapi jajaran keluarga “Royal” sebelumnya seperti Royal Blue, Royal Brown, dan Royal Green. Dipadu sama karakter bodi retro, kesan elegan dan prestige -nya langsung naik kelas drastis! Pengendaranya dijamin bakal kle",
+                "Tipe ABS (Royal Blue, Royal Brown, Royal Green, Royal Violet baru): Rp 32.686.000,-"
+              ]
+            },
+            {
+              "name": "CBS",
+              "price": 29695000.0,
+              "colors": [
+                {
+                  "name": "Glam Grey",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Glam Black",
+                  "new": false,
+                  "image": null
+                },
+                {
+                  "name": "Glam Beige",
+                  "new": false,
+                  "image": null
+                },
+                {
+                  "name": "Glam White",
+                  "new": false,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Glam Grey (Tipe CBS): Buat sampeyan yang lebih suka nuansa subtle tapi tetep modern dan berkelas, warna Glam Grey hadir melengkapi varian CBS yang sebelumnya udah diisi Glam Black, Glam Beige, dan Glam White. Kesan maskulin dan stylish -nya dapet banget!",
+                "Tipe CBS (Glam Beige, Glam Black, Glam White, Glam Grey baru): Rp 29.695.000,-"
+              ]
+            },
+            {
+              "name": "ABS Special",
+              "price": 34286000.0,
+              "colors": [
+                {
+                  "name": "Special Burgundy",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Tipe ABS Special (Special Burgundy): Rp 34.286.000,-"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Glam Grey",
+            "Royal Violet",
+            "Royal Blue",
+            "Royal Brown",
+            "Royal Green",
+            "Glam Black",
+            "Glam Beige",
+            "Glam White"
+          ],
+          "n_images": 9,
+          "image_keys": [
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fstylo violet 1 webp w 860",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fstylo 160 violet 5 webp w 1371",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fstylo 160 violet 3 webp w 1371",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fstylo violet 2 webp w 1021",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fstylo violet 3 webp w 933",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fstylo violet 4 webp w 990",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fstylo 160 violet 4 webp w 1320",
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f10 2fstylo 160 violet 1 webp w 1320"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/foto-foto-spesifikasi-new-honda-stylo-160-ini-sih-sudah-level-ancurrrr",
+          "intro": "Cakkk…seperti yang sampeyan semua tahu AHM resmi meluncurkan skutik terbaru New Stylo 160. Walau sudah banyak yang nayangin di Youtube jelas nggak afdol rasanya jika kita tidak garap mega gallery sang skutik.",
+          "variants": [
+            {
+              "name": "ABS",
+              "price": 30425000.0,
+              "colors": [],
+              "notes": []
+            },
+            {
+              "name": "CBS",
+              "price": 27550000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Mesin": "4 Langkah, 4 Katup, eSP+",
+            "Diameter x Langkah": "60 x 55,5 mm",
+            "Perbandingan Kompresi": "12:1",
+            "Daya Maksimum": "11,3 kW (15,4 PS) / 8,500 rpm",
+            "Torsi Maksimum": "13,8 Nm (1,5 kgf.m) / 7000 rpm",
+            "Tipe Transmisi": "Otomatis, V-Matic",
+            "Sistem Starter": "Elektrik",
+            "Kapasitas Oli Mesin": "0,8 liter (Penggantian Periodik)",
+            "Tipe Rangka": "Underbone – eSAF (enhanced Smart Architecture Frame)",
+            "Ban Depan": "110/90 – 12 M/C Tubeless",
+            "Ban Belakang": "130/80 – 12 M/C Tubeless",
+            "Rem Depan": "220 mm Cakram Hidrolik (ABS) & 190 mm Cakram Hidrolik (CBS)",
+            "Rem Belakang": "220 mm Cakram Hidrolik (ABS) & Tromol (CBS)",
+            "P x L x T": "1.886 x 706 x 1.133 mm (ABS) & 1.886 x 701 x 1.133 mm (CBS)",
+            "Jarak Sumbu Roda": "1.275 mm",
+            "Jarak Terendah ke Tanah": "151 mm",
+            "Tinggi Tempat Duduk": "768 mm",
+            "Berat Isi": "118 kg (ABS) & 115 kg (CBS)",
+            "Sistem Pengapian": "Full Transisterized",
+            "Tipe Busi": "NGK LMAP8L-9"
+          },
+          "loose_colors": [
+            "Royal Green",
+            "Royal Matte Black",
+            "Royal Matte White",
+            "Glam Red",
+            "Glam Black",
+            "Glam Beige"
+          ],
+          "n_images": 79,
+          "image_keys": [
+            "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 24 jpg w 860",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 21 jpg w 1500",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 47 jpg w 1500",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 53 jpg w 1014",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 68 jpg w 1500",
+            "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 79 jpg w 844",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 81 jpg w 1500",
+            "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 43 jpg w 896",
+            "rl https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 12 2 1 jpg w 1482",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 3 296x420 jpg w 296",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 5 696x407 jpg w 696",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 4 696x419 jpg w 696",
+            "https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 92 289x420 jpg w 289",
+            "https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 91 289x420 jpg w 289",
+            "https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 90 257x420 jpg w 257",
+            "https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 89 686x420 jpg w 686",
+            "https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 87 257x420 jpg w 257",
+            "https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 86 696x392 jpg w 696",
+            "https 3a 2f 2fcdn iwanbanaran com 2f2024 2f02 2fhonda stylo 85 696x392 jpg w 696"
+          ],
+          "title": "Foto-foto & Spesifikasi New Honda Stylo 160….ini sih sudah level ancurrrr",
+          "date": "2024-02-04T00:00:00",
+          "source": "Iwan Banaran"
+        }
       }
     },
     {
