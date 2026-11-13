@@ -851,7 +851,7 @@ def probe(urls: list[str]) -> None:
         if "json" in (r.headers.get("content-type") or "") or t.lstrip().startswith("["):
             print("   json:", re.sub(r"\s+", " ", t[:2500]))
         for kw in ("Rp", "harga", "__NEXT_DATA__", "price", "baseURL", "axios.create", "VITE_", "/v1/", "/api/", "endpoint",
-                   "price-list", "getProduct", "pricelist"):
+                   "price-list", "getProduct", "pricelist", "api_url"):
             for j, mm in enumerate(re.finditer(re.escape(kw), t)):
                 if j >= 3:
                     break
