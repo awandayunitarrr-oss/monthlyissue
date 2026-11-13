@@ -741,23 +741,70 @@ def rebuild_index() -> None:
     launches.build(PERIOD_DIR, DATA_DIR / "launches.json")
 
 
+def launch_detail(a: dict, cfg: dict) -> None:
+    """Isi a["launch"]["detail"] (tipe/harga/warna/gambar) dan ["prev_detail"] (produk sebelumnya)."""
+    r = get(a["url"])
+    if r is not None:
+        a["launch"]["detail"] = launches.extract_detail(r.content, a["url"])
+    best, best_score = None, 0
+    for cand in launches.find_previous(a["launch"]["model"], a["brands"][0], a["published"], get, cfg["sources"])[:3]:
+        time.sleep(0.5)
+        rr = get(cand["url"])
+        if rr is None:
+            continue
+        det = launches.extract_detail(rr.content, cand["url"])
+        title = BeautifulSoup(rr.content, "lxml").find("meta", attrs={"property": "og:title"})
+        det.update({"title": (title or {}).get("content") or cand["title"], "date": cand["date"], "source": cand["source"]})
+        sc = launches.detail_score(det)
+        if sc > best_score:
+            best, best_score = det, sc
+        if sc >= 6:
+            break
+    a["launch"]["prev_detail"] = best
+
+
 def enrich_launches(force: bool = False) -> None:
-    """Buka ulang artikel peluncuran motor di Indonesia untuk mengambil spesifikasi & perbandingan."""
+    """Buka ulang artikel peluncuran motor di Indonesia: spesifikasi, perbandingan, detail tipe/warna,
+    dan artikel rilis produk sebelumnya. Artikel yang sudah lengkap dilewati (kecuali --force)."""
+    cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     for p in sorted(PERIOD_DIR.glob("*.json")):
         d = json.loads(p.read_text(encoding="utf-8"))
         n = 0
         for a in d["articles"]:
-            if not launches.is_launch(a) or ((a.get("launch") or {}).get("full") and not force):
+            L = a.get("launch") or {}
+            if not launches.is_launch(a) or (L.get("full") and "detail" in L and not force):
                 continue
             time.sleep(0.4)
-            full = fetch_article(a["url"], a["source"])
-            text = (full.spec_text or full.text) if full else " ".join([a.get("summary", "")] + (a.get("points") or []))
-            a["launch"] = launches.analyze(a, text)
-            a["launch"]["full"] = bool(full)
+            if not L.get("full") or force:
+                full = fetch_article(a["url"], a["source"])
+                text = (full.spec_text or full.text) if full else " ".join([a.get("summary", "")] + (a.get("points") or []))
+                a["launch"] = launches.analyze(a, text)
+                a["launch"]["full"] = bool(full)
+            try:
+                launch_detail(a, cfg)
+            except Exception as e:  # noqa: BLE001 - satu artikel gagal tidak menghentikan yang lain
+                print(f"  ! detail {a['url']}: {e}", file=sys.stderr)
             n += 1
         p.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"{p.name}: {n} artikel rilis dianalisis", flush=True)
     rebuild_index()
+
+
+def debug_launch(urls: list[str]) -> None:
+    cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+    for url in urls:
+        art = fetch_article(url, "?")
+        if not art:
+            print("== gagal", url)
+            continue
+        tag(art, cfg)
+        d = art.to_dict()
+        d["launch"] = launches.analyze(d, art.spec_text or art.text)
+        print("==", art.title, "| brands", art.brands, "| is_launch", launches.is_launch(d), "| model", d["launch"]["model"])
+        if d["brands"]:
+            print("   kandidat sebelumnya:", json.dumps(launches.find_previous(d["launch"]["model"], d["brands"][0], d["published"], get, cfg["sources"]), ensure_ascii=False))
+            launch_detail(d, cfg)
+        print(json.dumps({k: d["launch"].get(k) for k in ("specs", "detail", "prev_detail")}, ensure_ascii=False, indent=1)[:6000])
 
 
 def probe(urls: list[str]) -> None:
@@ -795,6 +842,7 @@ def main() -> None:
     ap.add_argument("--no-ai", action="store_true", help="jangan pakai ringkasan AI walau ANTHROPIC_API_KEY tersedia")
     ap.add_argument("--sources", help="backfill hanya sumber ini (nama dipisah koma), mis. \"Iwan Banaran\"")
     ap.add_argument("--probe", help="diagnostik: daftar URL dipisah spasi")
+    ap.add_argument("--debug-launch", nargs="+", metavar="URL", help="diagnostik: tampilkan hasil analisis rilis untuk URL artikel")
     ap.add_argument("--enrich-launches", action="store_true", help="ambil spesifikasi & perbandingan untuk artikel rilis motor di Indonesia")
     ap.add_argument("--force", action="store_true", help="dengan --enrich-launches: analisis ulang semua")
     ap.add_argument("--retag-countries", action="store_true", help="isi ulang tag negara semua periode (tanpa scraping)")
@@ -803,6 +851,9 @@ def main() -> None:
     args = ap.parse_args()
     if args.probe:
         probe(args.probe.split())
+        return
+    if args.debug_launch:
+        debug_launch(args.debug_launch)
         return
     if args.enrich_launches:
         enrich_launches(force=args.force)
@@ -825,6 +876,7 @@ def main() -> None:
     period = Period.parse(args.period) if args.period else Period.for_day(datetime.now(WIB).date())
     print(f"Periode {period.key} ({period.label})")
     run(period, article_fetch=not args.no_article_fetch)
+    enrich_launches()  # rilis baru di periode ini: detail tipe/warna + produk sebelumnya
 
 
 if __name__ == "__main__":

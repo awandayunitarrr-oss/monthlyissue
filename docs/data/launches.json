@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T01:32:59",
+  "updated_at": "2026-11-13T01:52:12",
   "launches": [
     {
       "id": "4a2dd382d9c3",
@@ -30,6 +30,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/10/agonda-3.webp",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "TVS Resmi Rilis Ronin Agonda di Indonesia, Dibanderol Mulai Rp 37 Jutaan!",
       "previous_release": null
     },
     {
@@ -61,6 +64,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/breaking-honda-rilis-new-cb125r-neo-cafe-bikin-leleh-cakkkk",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Breaking ! Honda Rilis New CB125R Neo Cafe…bikin leleh cakkkk",
       "previous_release": null
     },
     {
@@ -90,6 +96,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/breaking-new-kawasaki-versys-900-2027-resmi-diluncurkan-edian-garang",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Breaking ! New Kawasaki Versys 900 2027 Resmi diluncurkan…Edian Garang",
       "previous_release": null
     },
     {
@@ -121,6 +130,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/breaking-ahm-rilis-new-crf1100l-africa-twin-2027-idaman-tenan",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Breaking ! AHM Rilis New CRF1100L Africa Twin 2027… — Idaman Tenan",
       "previous_release": null
     },
     {
@@ -158,6 +170,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/09/AHM_Royal-Violet_02.webp",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "AHM Rilis Warna Baru Honda Stylo 160, Ada Royal Violet dan Glam Grey!",
       "previous_release": null
     },
     {
@@ -196,6 +211,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/09/CT125-2026-2.webp",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Akhirnnya Honda CT125 Warna Coklat Matte Resmi dirilis Oleh AHM",
       "previous_release": null
     },
     {
@@ -225,6 +243,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/09/570137_26YM_Honda_ST125_Dax.webp",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "AHM Resmi Jual Warna 2 Baru Honda ST125 Dax MY2026",
       "previous_release": null
     },
     {
@@ -263,6 +284,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/08/Sunset-Blue-fazzio3.webp",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Vibe Skena Makin Pekat : Yamaha Rilis Fazzio Special Edition Sunset Blue dengan Sentuhan Retro Summer",
       "previous_release": null
     },
     {
@@ -292,6 +316,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/bmw-motorrad-indonesia-luncurkan-bmw-f450-gs-harga-bikin-mulesss",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "BMW Motorrad Indonesia Luncurkan BMW F450 GS…Harga Bikin Mulesss",
       "previous_release": null
     },
     {
@@ -329,6 +356,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/gegerrr-honda-resmi-rilis-new-nx500-di-indonesia-ediann-tanpa-kopling-cakkkk",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Gegerrr ! Honda Resmi Rilis New NX500 di Indonesia… — Ediann tanpa Kopling cakkkk",
       "previous_release": null
     },
     {
@@ -360,6 +390,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/breaking-ini-dia-new-kawasaki-ninja-250-terbaru-2026-mesin-2-silinder-unjuk-gigi",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Breaking ! Ini dia New Kawasaki Ninja 250 Terbaru 2026….Mesin 2 Silinder Unjuk Gigi",
       "previous_release": null
     },
     {
@@ -391,6 +424,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/breaking-yamaha-rilis-new-mx-king-150-terbaru-2027-edian-warna-gold",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Breaking ! Yamaha Rilis new MX King 150 Terbaru 2027….edian warna gold",
       "previous_release": {
         "id": "f075f6380a6c",
         "date": "2026-06-12T00:01:52+07:00",
@@ -434,6 +470,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/tantang-vario-sym-jet-sl-158-resmi-dirilis-wowww-gahar-tenan",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Tantang Vario…SYM Jet SL 158 resmi dirilis, wowww Gahar tenan",
       "previous_release": null
     },
     {
@@ -472,6 +511,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/07/Rebel1100-2026-1.avif",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "AHM Rilis Warna Baru Honda Rebel 1100 2026 : Matte Beta Silver Metallic, Aura Premium Urban Cruiser Makin Kental!",
       "previous_release": null
     },
     {
@@ -510,6 +552,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/07/Monkey125-Millenium-Red.avif",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "AHM Rilis Penyegaran Honda Monkey 125: Pilihan Warna Baru 2026 Plus Jok Tartan Kotak-Kotak Klasik, Makin Gemesin!",
       "previous_release": null
     },
     {
@@ -548,6 +593,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/06/beat-street2.avif",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "AHM Rilis Warna Baru New Honda BeAT Series, Makin Dinamis, Segar dan Berkarakter!",
       "previous_release": null
     },
     {
@@ -577,6 +625,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/06/Modification-Yamaha-Grand-Filano-Hybrid-x-Kahf-Collaboration_6.avif",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Yamaha Rilis Grand Filano Hybrid “Classy Modern Explorer” Hasil Kolaborasi Bersama Kahf di JFK 2026",
       "previous_release": {
         "id": "8339c72342f9",
         "date": "2026-01-23T11:45:34+07:00",
@@ -618,6 +669,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/06/keeway-Road-Falcon-250-5.avif",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "PRJ 2026: Keeway Road Falcon 250 Resmi Mengaspal, Gaya Cruiser Amerika Plus Fitur Bluetooth Speaker Di Bawah 60 Juta!",
       "previous_release": null
     },
     {
@@ -659,6 +713,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/menggebrak-jakarta-fair-2026-kawasaki-resmi-rilis-brusky-125-untuk-tantang-honda-vario",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Menggebrak Jakarta Fair 2026, Kawasaki Resmi Rilis Brusky 125 untuk Tantang Honda Vario",
       "previous_release": null
     },
     {
@@ -690,6 +747,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/06/KLX-150-XPL-1.webp",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Kawasaki Rilis KLX150 XPL: Usung Konsep Overland Style, Siap Diajak Berpetualang Lebih Jauh!",
       "previous_release": null
     },
     {
@@ -719,6 +779,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/06/mxking-pramac-3.webp",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Yamaha Rilis MX King 150 Livery Prima Pramac di JFK 2026, Imbas Toprak Effect!",
       "previous_release": {
         "id": "adc593e8105a",
         "date": "2026-01-23T08:19:14+07:00",
@@ -760,6 +823,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/06/modenas-kawasaki-125-7.webp",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Geng Ijo Bikin Geger! Intip Calon Skutik Baru Kawasaki Indonesia yang Siap Rilis Esok di PRJ 2026",
       "previous_release": null
     },
     {
@@ -791,6 +857,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/yamaha-resmi-rilis-xsr155-abs-model-2026-buatan-indonesia-masuk-jepang",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Yamaha Resmi Rilis XSR155 ABS Model 2026… — Buatan Indonesia masuk Jepang",
       "previous_release": null
     },
     {
@@ -820,6 +889,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/era-baru-skutik-premium-maxi-race-hadir-di-kejurnas-motoprix",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Era Baru Skutik Premium, MAXi Race Hadir di Kejurnas Motoprix",
       "previous_release": null
     },
     {
@@ -853,6 +925,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/breaking-suzuki-new-burgman-150-terbaru-2026-resmi-dirilis-ini-baru-gantenggg",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Breaking ! Suzuki New Burgman 150 Terbaru 2026 Resmi dirilis — ini baru Gantenggg",
       "previous_release": null
     },
     {
@@ -884,6 +959,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/05/Maxi-Race-2.webp",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "MAXi Race Hadir di Kejurnas Motoprix",
       "previous_release": null
     },
     {
@@ -915,6 +993,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/05/emerald-green-Callisto-125-.webp",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "TVS Indonesia Rilis Warna Baru Callisto 125 : Emerald Green 💚",
       "previous_release": null
     },
     {
@@ -944,6 +1025,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/geger-honda-ns150es-2026-rilis-ketikajiwa-pcx-dipaksa-punya-dek-rata-vario",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Honda NS150ES 2026 Rilis di China, ketika \"Jiwa\" PCX Dipaksa Punya Dek Rata Vario",
       "previous_release": null
     },
     {
@@ -976,6 +1060,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/breaking-new-tvs-ronin-225-midnight-blue-rilis-ada-yang-berubah-cak",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Breaking ! New TVS Ronin 225 Midnight Blue Rilis….Ada yang berubah cak",
       "previous_release": null
     },
     {
@@ -1009,6 +1096,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/04/Ronin-Midnight-Blue-4.webp",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "TVS Indonesia Rilis Warna Baru Midnight Blue untuk Ronin 225 Varian Tertinggi, Ada Update di Jok dan Rear Hugger!",
       "previous_release": null
     },
     {
@@ -1040,6 +1130,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/honda-cbr150r-2026-edisi-stealth-black-meluncur-wediannn-sangarrr-tenan",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Honda CBR150R 2026 Edisi “Stealth Black” Meluncur…Wediannn sangarrr tenan",
       "previous_release": null
     },
     {
@@ -1073,6 +1166,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/04/burgman-street-125-6.webp",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "[HOT] Generasi Kedua Suzuki Burgman Street 125 Resmi Rilis… Pakai Layar TFT, Keyless, Dan Isi BBM Nggak Perlu Buka Jok!",
       "previous_release": null
     },
     {
@@ -1108,6 +1204,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/04/GEAR-ULTIMA-Hybrid-Solid_Solid-Orange_Keluarga.webp",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Yamaha GEAR ULTIMA Hybrid Hadir Dengan Warna dan Varian Terbaru di 2026",
       "previous_release": null
     },
     {
@@ -1139,6 +1238,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/03/SRV-200-1.webp",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "QJ Motor Rilis Cuiser SRV 200 MT . . . Murah, 32 Jutaan Saja !",
       "previous_release": null
     },
     {
@@ -1168,6 +1270,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/03/fort-180-5.webp",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "QJ Motor Fort 180 Adventure Resmi dirilis dengan Harga Mulai 33,99 Juta Rupiah",
       "previous_release": null
     },
     {
@@ -1199,6 +1304,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/breaking-yamaha-rilis-new-fz15-abs-connected-2026-mesin-byson-makin-sangarrr",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Breaking ! Yamaha Rilis New FZ15 ABS Connected 2026….Mesin Byson Makin Sangarrr",
       "previous_release": null
     },
     {
@@ -1228,6 +1336,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/03/KLE500-std.webp",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Kawasaki KLE500 & KLE500 SE resmi dibanderol Mulai 149,9 Juta rupiah",
       "previous_release": null
     },
     {
@@ -1263,6 +1374,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/03/fazzio-3.webp",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Yamaha Rilis Fazzio Hybrid Special Edition “Starry Night”, Tampil Berkilau Incar Anak Skena! Cek Detailnya Sob!",
       "previous_release": {
         "id": "4956101d8e45",
         "date": "2026-01-23T18:27:38+07:00",
@@ -1306,6 +1420,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/breaking-suzuki-rilis-new-gsx-r125-2026-mesin-makin-kencang-cakkk",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Breaking ! Suzuki Rilis New GSX-R125 2026….Mesin makin kencang cakkk",
       "previous_release": null
     },
     {
@@ -1337,6 +1454,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/yamaha-rilis-new-r15-terbaru-woww-makin-ganteng-cakkk",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Yamaha Rilis new R15 Terbaru…woww Makin Ganteng Cakkk",
       "previous_release": null
     },
     {
@@ -1368,6 +1488,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/02/morbidelli-benda-iims-2.webp",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Morbidelli Gebrak IIMS 2026: Rilis Moge Adventure T502X dan Cruiser Futuristis LFC700!",
       "previous_release": null
     },
     {
@@ -1400,6 +1523,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/breaking-yamaha-rilis-lander-250-my2026-mesin-scorpio-garang-puoll",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Breaking ! Yamaha Rilis Lander 250 MY2026… — Mesin Scorpio, Garang Puoll",
       "previous_release": null
     },
     {
@@ -1431,6 +1557,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/yamaha-luncurkan-new-nmax-xmax-edisi-20th-max-gilaaa-ngak-ada-habisnya",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Yamaha Luncurkan New NMAX – XMAX Edisi 20th MAX, Gilaaa Ngak ada Habisnya",
       "previous_release": null
     },
     {
@@ -1470,6 +1599,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/01/Fazzio-Hybrid-New-Crazee-color.webp",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Yamaha Rilis Fazzio Hybrid 2026 ‘New Crazee Color’, Warna Go Purple-nya Bikin Skena Makin Berwarna!",
       "previous_release": null
     },
     {
@@ -1502,6 +1634,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/01/Grand-Filano-Hybrid-Neo-Greenish-Gray.webp",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Yamaha Rilis Warna Baru Grand Filano Hybrid 2026: Tampil Makin Kalcer dengan Pilihan Warna Royal Iron dan Prime Gray",
       "previous_release": null
     },
     {
@@ -1531,6 +1666,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/yimm-rilis-versi-special-new-mx-king-aerox-r15m-xsr-aura-merah-putih-cakkk",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "YIMM Rilis Versi Special new MX King, Aerox, R15M, XSR…Aura Merah Putih cakkk",
       "previous_release": null
     },
     {
@@ -1562,6 +1700,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/01/70th.webp",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Resmi Mengaspal! Yamaha Indonesia Rilis Livery Spesial 70th Anniversary untuk MX King, Aerox Turbo, R15M dan XSR 155",
       "previous_release": null
     },
     {
@@ -1599,6 +1740,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/01/TMAX-5.webp",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Breaking News: Sang Raja Kembali! Yamaha Indonesia Resmi Rilis New TMAX (2026), Intip Detail Teknis dan Perubahannya!",
       "previous_release": null
     },
     {
@@ -1630,6 +1774,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/01/Yamaha-WR155R-2026-1.webp",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Yamaha Rilis WR155R 2026: Intip Detail Body Baru, Grafis GYTR, dan Pilihan Warna Cyan yang Edgy",
       "previous_release": null
     },
     {
@@ -1663,6 +1810,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/01/Ceramic-Grey-01-S-ABS.webp",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Yamaha Rilis Warna Baru Lexi LX 155 Musim 2026: Ada Ceramic Grey ala TechMAX, Aura Premiumnya Makin Menjadi !",
       "previous_release": null
     },
     {
@@ -1696,6 +1846,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/hot-suzuki-rilis-new-gixxer-250-2026-muka-satria-pro",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Hot…Suzuki Rilis new GIXXER 250 2026, Muka Satria PRO",
       "previous_release": null
     },
     {
@@ -1728,6 +1881,9 @@
       ],
       "image": "https://iwanbanaran.com/api/og/breaking-yamaha-indonesia-rilis-new-x-max-250-terbaru-2026-biru-cakeppp",
       "highlight": true,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Breaking ! Yamaha Indonesia Rilis new X-MAX 250 Terbaru 2026…biru cakeppp",
       "previous_release": null
     },
     {
@@ -1759,6 +1915,9 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/01/C125-26-4a.webp",
       "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Update ‘Bebek Sultan’: Honda C125 Super Cub 2026 Hadir Dengan Kelir Baru dan Mesin Lebih Ramah Lingkungan",
       "previous_release": null
     }
   ]

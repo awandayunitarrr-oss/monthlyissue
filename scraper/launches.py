@@ -21,7 +21,7 @@ from pathlib import Path
 # --------------------------------------------------------------------------- #
 LAUNCH_VERB = re.compile(
     r"(?<![a-z])(rilis|merilis|dirilis|resmi|meluncur|meluncurkan|luncurkan|diluncurkan|launching|hadir|debut|"
-    r"dibanderol|diperkenalkan|perkenalkan|memperkenalkan|mengaspal|unjuk gigi)(?![a-z])", re.I)
+    r"dibanderol|diperkenalkan|perkenalkan|memperkenalkan|mengaspal|unjuk gigi|gebrak|menggebrak|warna baru|kelir baru)(?![a-z])", re.I)
 SPECULATIVE = re.compile(
     r"\?|(?<![a-z])(bakal|akan|apakah|kapan|mungkin|rumor|bocoran|spyshot|spy shot|paten|terawangan|prediksi|"
     r"teaser|segera|siap-siap|jelang)(?![a-z])", re.I)
@@ -314,10 +314,15 @@ def build(period_dir: Path, out_path: Path) -> list[dict]:
         if g is None:
             g = {"id": a["id"], "date": a["published"], "brand": a["brands"][0], "model": L["model"], "key": L["key"],
                  "specs": dict(L["specs"]), "previous_from_article": dict(L["previous_from_article"]),
-                 "compare": [], "articles": [], "image": a.get("image"), "highlight": False}
+                 "compare": [], "articles": [], "image": a.get("image"), "highlight": False,
+                 "detail": None, "prev_detail": None, "title": a["title"]}
             groups.append(g)
         g["articles"].append({"title": a["title"], "url": a["url"], "source": a["source"], "published": a["published"]})
         g["highlight"] = g["highlight"] or bool(a.get("highlight"))
+        if detail_score(L.get("detail")) > detail_score(g["detail"]):
+            g["detail"], g["title"] = {**L["detail"], "source": a["source"]}, a["title"]
+        if detail_score(L.get("prev_detail")) > detail_score(g["prev_detail"]):
+            g["prev_detail"] = L["prev_detail"]
         g["image"] = g["image"] or a.get("image")
         if len(L["model"]) > len(g["model"]) and L["key"]:
             g["model"], g["key"] = L["model"], L["key"]
@@ -343,3 +348,223 @@ def build(period_dir: Path, out_path: Path) -> list[dict]:
     out_path.write_text(json.dumps({"updated_at": datetime.now().isoformat(timespec="seconds"), "launches": groups},
                                    ensure_ascii=False, indent=2), encoding="utf-8")
     return groups
+
+
+# --------------------------------------------------------------------------- #
+# Detail ala slide: tipe → harga → warna (+ gambar), untuk produk baru & sebelumnya
+# --------------------------------------------------------------------------- #
+from urllib.parse import quote, urljoin  # noqa: E402
+
+from bs4 import BeautifulSoup  # noqa: E402
+
+_CW = ("Matte|Metallic|Red|Black|White|Blue|Green|Grey|Gray|Silver|Brown|Burgundy|Yellow|Orange|Purple|Violet|Gold|"
+       "Pink|Cyan|Navy|Maroon|Beige|Cream|Titanium|Bronze|Magenta|Teal|Turquoise|Merah|Hitam|Putih|Biru|Hijau|Coklat|"
+       "Cokelat|Kuning|Ungu|Emas|Perak|Oranye")
+COLOR_RX = re.compile(rf"(?<![\w])((?:[A-Z][a-zA-Z]+ ){{0,3}}(?:{_CW})(?: (?:{_CW}|Metallic|Matte|Pearl|Gloss|Doff|Glossy))*)(?![\w])")
+COLOR_LEAD_STOP = {"Warna", "Tipe", "Type", "Dan", "Yaitu", "Pilihan", "Baru", "New", "Plus", "Ada", "Varian", "Velg",
+                   "Honda", "Yamaha", "Suzuki", "Kawasaki", "Kelir", "Opsi", "Dengan", "Seperti", "Serta", "Hadir", "The",
+                   "Logo", "Emblem", "Jok", "Rangka", "Bodi", "Body", "Nuansa", "Balutan", "Sentuhan", "Livery", "Edisi",
+                   "Dibalut", "Berwarna", "Kini", "Untuk", "Di", "Ini", "Itu", "Yang", "Atau", "Juga", "Tersedia"}
+COLOR_PREV_STOP = re.compile(r"(velg|pelek|rims?|rangka|emblem|logo|jok|knalpot|shock|suspensi|grafis|striping|aksen|"
+                             r"lis|garnish|cover|dek|footstep|spion|panel)(?:\W+\w+){0,3}\W*$", re.I)
+KNOWN_VARIANTS = ["RoadSync", "Smart Key", "Keyless", "CBS", "ABS", "Standard", "Standar", "Deluxe", "Premium",
+                  "Special Edition", "SE", "Connected", "Turbo", "Ultimate", "Tech Max", "TechMAX", "Cyber City",
+                  "Sporty", "Active", "Prestige", "Exclusive", "Limited Edition"]
+VAR_RX = re.compile(r"(?<![\w])(" + "|".join(re.escape(v) for v in sorted(KNOWN_VARIANTS, key=len, reverse=True)) + r")(?![\w])"
+                    r"|(?:[Tt]ipe|[Tt]ype|[Vv]arian)\s+([A-Z][\w-]*(?:\s[A-Z][\w-]*)?)")
+VAR_NORM = {"standar": "Standard", "techmax": "Tech Max"}
+NEW_RX = re.compile(r"(?<![a-z])(baru|anyar|new|terbaru|perdana|tambahan)(?![a-z])", re.I)
+OLD_RX = re.compile(r"(?<![a-z])(sudah ada|sebelumnya|dipertahankan|warna lama|melengkapi|tetap tersedia|masih tersedia)(?![a-z])", re.I)
+
+
+def _var_name(m: re.Match) -> str | None:
+    v = (m.group(1) or m.group(2) or "").strip()
+    if not v or v.lower() in ("baru", "new", "terbaru", "ini", "tertinggi", "terendah", "standar") and not m.group(1):
+        return None
+    return VAR_NORM.get(v.lower().replace(" ", ""), v)
+
+
+def _colors_in(text: str) -> list[tuple[str, int]]:
+    out = []
+    for m in COLOR_RX.finditer(text):
+        words = m.group(1).split()
+        while words and words[0] in COLOR_LEAD_STOP:
+            words.pop(0)
+        if not words or (len(words) == 1 and words[0] in ("Matte", "Metallic")):
+            continue
+        if COLOR_PREV_STOP.search(re.split(r"[.!?;:,]", text[:m.start()][-40:])[-1]):
+            continue
+        name = " ".join(words)
+        if name not in [c for c, _ in out]:
+            out.append((name, m.start()))
+    return out
+
+
+def _img_src(img, base: str) -> str | None:
+    for k in ("data-src", "data-lazy-src", "data-original", "src"):
+        v = img.get(k)
+        if v and not v.startswith("data:"):
+            return urljoin(base, v)
+    ss = img.get("srcset") or img.get("data-srcset")
+    if ss:
+        return urljoin(base, ss.split(",")[-1].strip().split(" ")[0])
+    return None
+
+
+def _norm(s: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
+
+
+def extract_detail(html: bytes | str, url: str) -> dict:
+    """Ambil tipe, harga per tipe, warna per tipe (+ gambar) dan catatan dari HTML artikel."""
+    soup = BeautifulSoup(html, "lxml")
+    body = (soup.find("article") or soup.find(class_=re.compile(r"entry-content|post-content|article-content|content-detail"))
+            or soup.body or soup)
+    for bad in body.find_all(["script", "style", "nav", "aside", "footer", "form"]):
+        bad.decompose()
+    for bad in body.find_all(class_=re.compile(r"related|share|comment|sidebar|baca-juga|tags?\b", re.I)):
+        bad.decompose()
+
+    images = []
+    for img in body.find_all("img"):
+        src = _img_src(img, url)
+        if not src or re.search(r"logo|avatar|icon|emoji|gravatar|ads?[-_/]", src, re.I):
+            continue
+        fig = img.find_parent("figure")
+        cap = fig.find("figcaption").get_text(" ", strip=True) if fig and fig.find("figcaption") else ""
+        key = _norm(" ".join([img.get("alt", ""), img.get("title", ""), cap, src.rsplit("/", 1)[-1]]))
+        images.append({"src": src, "key": key})
+
+    variants: dict[str, dict] = {}
+    order: list[str] = []
+    loose: list[dict] = []
+    intro = ""
+    current = None
+
+    def V(name: str) -> dict:
+        k = name.upper()
+        if k not in variants:
+            variants[k] = {"name": name, "price": None, "colors": [], "notes": []}
+            order.append(k)
+        return variants[k]
+
+    def add_colors(target: list, text: str) -> None:
+        cut = OLD_RX.search(text)
+        for name, pos in _colors_in(text):
+            if any(c["name"].lower() == name.lower() for c in target):
+                continue
+            is_new = False if (cut and pos > cut.start()) else (True if NEW_RX.search(text[:pos + 1]) else None)
+            target.append({"name": name, "new": is_new, "image": None})
+
+    for el in body.find_all(["h2", "h3", "h4", "p", "li", "tr"]):
+        if el.name == "li" and el.find("p"):
+            continue
+        text = re.sub(r"\s+", " ", el.get_text(" | " if el.name == "tr" else " ", strip=True)).strip()
+        if len(text) < 3:
+            continue
+        if not intro and el.name == "p" and len(text) > 80:
+            first = [s for s in _sentences(text)][:2]
+            intro = _clean_sentence(" ".join(first)) if first else ""
+        vars_here = [v for v in (_var_name(m) for m in VAR_RX.finditer(text)) if v]
+        vars_here = list(dict.fromkeys(vars_here))
+        prices = [v for v in (_price_value(m) for m in PRICE.finditer(text)) if v]
+        heading = el.name in ("h2", "h3", "h4") or (len(text) < 60 and not prices)
+        if heading:
+            current = vars_here[0] if len(vars_here) == 1 else (None if el.name.startswith("h") else current)
+        # harga
+        if prices:
+            if len(vars_here) >= 2 and len(prices) >= 2:
+                for vn, pv in zip(vars_here, prices):
+                    V(vn)["price"] = V(vn)["price"] or pv
+            elif len(vars_here) == 1:
+                V(vars_here[0])["price"] = V(vars_here[0])["price"] or prices[0]
+            elif current:
+                V(current)["price"] = V(current)["price"] or prices[0]
+        # warna
+        target_name = vars_here[0] if len(vars_here) == 1 else (current if not vars_here else None)
+        if target_name:
+            add_colors(V(target_name)["colors"], text)
+            if not heading and len(text) > 40 and len(V(target_name)["notes"]) < 3:
+                V(target_name)["notes"].append(_clean_sentence(text[:300]))
+        else:
+            add_colors(loose, text)
+
+    out_vars = [variants[k] for k in order if variants[k]["price"] or variants[k]["colors"]]
+    if not out_vars and (loose or intro):
+        allp = [v for v in (_price_value(m) for m in PRICE.finditer(body.get_text(" "))) if v]
+        out_vars = [{"name": "Semua tipe", "price": allp[0] if allp else None, "colors": loose, "notes": []}]
+        loose = []
+    # gambar per warna
+    used = set()
+    for v in out_vars:
+        for c in v["colors"]:
+            toks = _norm(c["name"]).split()
+            best = None
+            for i, im in enumerate(images):
+                if i in used:
+                    continue
+                hit = sum(1 for t in toks if t in im["key"].split())
+                if hit == len(toks) or (len(toks) >= 2 and hit >= len(toks) - 1 and hit >= 2):
+                    best = i
+                    if hit == len(toks):
+                        break
+            if best is not None:
+                c["image"] = images[best]["src"]
+                used.add(best)
+    return {"url": url, "intro": intro, "variants": out_vars, "loose_colors": [c["name"] for c in loose][:12],
+            "n_images": len(images)}
+
+
+PREV_TITLE = re.compile(r"(rilis|resmi|launching|meluncur|luncur|warna baru|warna-baru|harga|hadir|new|terbaru|facelift|penyegaran)", re.I)
+
+
+def find_previous(model: str, brand: str, date_iso: str, get, sources: list[dict]) -> list[dict]:
+    """Cari artikel rilis model yang sama 2 bulan – 4 tahun sebelum tanggal rilis ini (TMC: pencarian feed,
+    Iwan Banaran: slug di sitemap). Hasil: kandidat {title,url,date,source} terbaru dulu."""
+    name = re.sub(r"(?i)^(" + "|".join(re.escape(b) for b in _brand_tokens(brand)) + r")\s+", "", model).strip()
+    words = [w for w in re.findall(r"[A-Za-z0-9]+", name) if w.lower() not in ("new", "all")][:3]
+    if not words:
+        return []
+    want = "".join(w.lower() for w in words[:2])
+    now = datetime.fromisoformat(date_iso)
+    lo, hi = now.timestamp() - 4 * 365 * 86400, now.timestamp() - 60 * 86400
+    found = []
+    for src in sources:
+        base = src["base"].rstrip("/")
+        if "tmcblog" in base:
+            r = get(f"{base}/?s={quote(' '.join(words[:2]))}&feed=rss2")
+            if r is not None and "<item" in r.text:
+                for it in BeautifulSoup(r.content, "xml").find_all("item"):
+                    t, link = it.title.text if it.title else "", it.link.text if it.link else ""
+                    try:
+                        from email.utils import parsedate_to_datetime
+                        d = parsedate_to_datetime(it.pubDate.text)
+                    except Exception:  # noqa: BLE001
+                        continue
+                    if lo <= d.timestamp() <= hi and want in re.sub(r"[^a-z0-9]", "", t.lower()) and PREV_TITLE.search(t):
+                        found.append({"title": t, "url": link, "date": d.isoformat(), "source": src["name"]})
+        if "iwanbanaran" in base:
+            for sm in ("sitemap-posts-1.xml", "sitemap-posts-2.xml"):
+                r = get(f"{base}/{sm}")
+                if r is None:
+                    continue
+                for u in BeautifulSoup(r.content, "xml").find_all("url"):
+                    loc, lm = u.find("loc"), u.find("lastmod")
+                    if not loc or not lm:
+                        continue
+                    slug = loc.text.rsplit("/", 1)[-1]
+                    try:
+                        d = datetime.fromisoformat(lm.text.strip()[:10])
+                    except ValueError:
+                        continue
+                    if lo <= d.timestamp() <= hi and want in slug.replace("-", "") and PREV_TITLE.search(slug):
+                        found.append({"title": slug.replace("-", " "), "url": loc.text.strip(), "date": d.isoformat(),
+                                      "source": src["name"]})
+    found.sort(key=lambda x: x["date"], reverse=True)
+    return found[:5]
+
+
+def detail_score(d: dict | None) -> int:
+    if not d:
+        return 0
+    return sum(2 * bool(v["price"]) + len(v["colors"]) + sum(1 for c in v["colors"] if c["image"]) for v in d["variants"])

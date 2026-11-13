@@ -18,7 +18,7 @@ on:
         required: false
         default: ""
       task:
-        description: "Opsional, pemeliharaan data: enrich-launches | retag-countries | rehighlight"
+        description: "Opsional, pemeliharaan data: enrich-launches | retag-countries | rehighlight | debug-launch (URL di kolom probe)"
         required: false
         default: ""
       probe:
@@ -75,7 +75,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           if [ -n "${{ inputs.task }}" ]; then
-            python scraper/fetch_issues.py "--${{ inputs.task }}"
+            python scraper/fetch_issues.py "--${{ inputs.task }}" ${{ inputs.probe }}
           elif [ -n "${{ inputs.probe }}" ]; then
             python scraper/fetch_issues.py --probe "${{ inputs.probe }}"
           elif [ -n "${{ inputs.period }}" ]; then
