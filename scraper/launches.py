@@ -323,6 +323,8 @@ def build(period_dir: Path, out_path: Path) -> list[dict]:
             g["detail"], g["title"] = {**L["detail"], "source": a["source"]}, a["title"]
         if detail_score(L.get("prev_detail")) > detail_score(g["prev_detail"]):
             g["prev_detail"] = L["prev_detail"]
+    for g in groups:
+        align_previous(g["detail"], g["prev_detail"])
         g["image"] = g["image"] or a.get("image")
         if len(L["model"]) > len(g["model"]) and L["key"]:
             g["model"], g["key"] = L["model"], L["key"]
@@ -426,14 +428,17 @@ def extract_detail(html: bytes | str, url: str) -> dict:
         bad.decompose()
 
     images = []
-    for img in body.find_all("img"):
+
+    def take_img(img, variant):
         src = _img_src(img, url)
-        if not src or re.search(r"logo|avatar|icon|emoji|gravatar|ads?[-_/]", src, re.I):
-            continue
+        if not src or re.search(r"logo|avatar|icon|emoji|gravatar|ads?[-_/]|banner|\.gif", src, re.I):
+            return
+        if any(i["src"] == src for i in images):
+            return
         fig = img.find_parent("figure")
         cap = fig.find("figcaption").get_text(" ", strip=True) if fig and fig.find("figcaption") else ""
         key = _norm(" ".join([img.get("alt", ""), img.get("title", ""), cap, src.rsplit("/", 1)[-1]]))
-        images.append({"src": src, "key": key})
+        images.append({"src": src, "key": key, "variant": variant})
 
     variants: dict[str, dict] = {}
     order: list[str] = []
@@ -456,7 +461,10 @@ def extract_detail(html: bytes | str, url: str) -> dict:
             is_new = False if (cut and pos > cut.start()) else (True if NEW_RX.search(text[:pos + 1]) else None)
             target.append({"name": name, "new": is_new, "image": None})
 
-    for el in body.find_all(["h2", "h3", "h4", "p", "li", "tr"]):
+    for el in body.find_all(["h2", "h3", "h4", "p", "li", "tr", "img"]):
+        if el.name == "img":
+            take_img(el, current)
+            continue
         if el.name == "li" and el.find("p"):
             continue
         text = re.sub(r"\s+", " ", el.get_text(" | " if el.name == "tr" else " ", strip=True)).strip()
@@ -494,7 +502,7 @@ def extract_detail(html: bytes | str, url: str) -> dict:
         allp = [v for v in (_price_value(m) for m in PRICE.finditer(body.get_text(" "))) if v]
         out_vars = [{"name": "Semua tipe", "price": allp[0] if allp else None, "colors": loose, "notes": []}]
         loose = []
-    # gambar per warna
+    # gambar per warna: 1) cocok nama warna di alt/caption/nama file, 2) urutan gambar di bawah tipe yang sama
     used = set()
     for v in out_vars:
         for c in v["colors"]:
@@ -511,8 +519,52 @@ def extract_detail(html: bytes | str, url: str) -> dict:
             if best is not None:
                 c["image"] = images[best]["src"]
                 used.add(best)
+    for v in out_vars:
+        missing = [c for c in v["colors"] if not c["image"]]
+        pool = [i for i, im in enumerate(images) if i not in used and im["variant"] == v["name"]]
+        if missing and len(pool) >= len(missing) and len(pool) <= len(v["colors"]) + 1:
+            for c, i in zip(missing, pool):
+                c["image"] = images[i]["src"]
+                used.add(i)
+    _place_loose(out_vars, loose)
     return {"url": url, "intro": intro, "variants": out_vars, "loose_colors": [c["name"] for c in loose][:12],
-            "n_images": len(images)}
+            "n_images": len(images), "image_keys": [im["key"][-80:] for im in images[:20]]}
+
+
+def _place_loose(variants: list[dict], loose: list[dict]) -> None:
+    """Warna yang tak jelas tipenya: masukkan ke tipe yang namanya disebut di warna (RoadSync Matte Black)
+    atau yang warna lainnya berawalan sama (Exceptional …, Phenomenal …)."""
+    for c in list(loose):
+        first = c["name"].split()[0].lower()
+        target = next((v for v in variants if v["name"].lower() in c["name"].lower()), None) or \
+            next((v for v in variants if any(x["name"].split()[0].lower() == first for x in v["colors"])), None)
+        if target and not any(x["name"].lower() == c["name"].lower() for x in target["colors"]):
+            target["colors"].append(c)
+            loose.remove(c)
+
+
+def align_previous(now: dict | None, prev: dict | None) -> None:
+    """Lengkapi tipe produk sebelumnya memakai pola penamaan warna produk baru
+    (mis. warna 'Exceptional …' = tipe CBS), lalu buang warna yang bukan warna bodi."""
+    if not now or not prev:
+        return
+    loose = [{"name": n, "new": None, "image": None} for n in prev.get("loose_colors", [])]
+    pv = prev["variants"]
+    for c in list(loose):
+        first = c["name"].split()[0].lower()
+        nv = next((v for v in now["variants"] if v["name"].lower() in c["name"].lower()), None) or \
+            next((v for v in now["variants"] if any(x["name"].split()[0].lower() == first for x in v["colors"])), None)
+        if not nv:
+            continue
+        tv = next((v for v in pv if v["name"].upper() == nv["name"].upper()), None)
+        if tv is None:
+            tv = {"name": nv["name"], "price": None, "colors": [], "notes": []}
+            pv.append(tv)
+        if not any(x["name"].lower() == c["name"].lower() for x in tv["colors"]):
+            tv["colors"].append(c)
+    order = [v["name"].upper() for v in now["variants"]]
+    pv.sort(key=lambda v: order.index(v["name"].upper()) if v["name"].upper() in order else 99)
+    prev["loose_colors"] = []
 
 
 PREV_TITLE = re.compile(r"(rilis|resmi|launching|meluncur|luncur|warna baru|warna-baru|harga|hadir|new|terbaru|facelift|penyegaran)", re.I)

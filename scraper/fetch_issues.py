@@ -167,7 +167,7 @@ def get(url: str, retries: int = 3, timeout: int = 25) -> requests.Response | No
                 time.sleep(5 * (i + 1))
             if r.status_code == 429:
                 time.sleep(min(int(r.headers.get("retry-after", "0") or 0), 60) or 10 * (i + 1))
-            if r.status_code in (520, 521, 522, 523):  # server sumber mati → tidak usah diulang
+            if r.status_code in (520, 521, 522, 523, 525, 526):  # server sumber bermasalah → tidak usah diulang
                 return None
             if r.status_code in (404, 410):
                 return None
