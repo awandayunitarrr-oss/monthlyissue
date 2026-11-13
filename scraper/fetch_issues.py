@@ -819,12 +819,19 @@ def debug_launch(urls: list[str]) -> None:
 def probe(urls: list[str]) -> None:
     """Diagnostik: tampilkan bentuk respons beberapa URL (dipakai untuk menyetel sumber baru)."""
     for url in urls:
+        grep = None
+        if "#grep=" in url:  # diagnostik: tampilkan potongan HTML setelah teks tertentu
+            url, grep = url.split("#grep=", 1)
         try:
             r = session.get(url, timeout=25)
         except requests.RequestException as e:
             print(f"== {url}\n   ERROR {e}")
             continue
         t = r.text
+        if grep:
+            i = t.find(grep)
+            print(f"== {url}\n   grep[{grep}] @ {i}:", re.sub(r"\s+", " ", t[i:i + 6000]) if i >= 0 else "tidak ada")
+            continue
         links = sorted(set(re.findall(r'href="([^"]+)"', t)))
         print(f"== {url}\n   {r.status_code} {r.headers.get('content-type')} len={len(t)} final={r.url}")
         print(f"   <loc>={t.count('<loc>')} <item>={t.count('<item')} lastmod={t.count('<lastmod>')} links={len(links)}")
