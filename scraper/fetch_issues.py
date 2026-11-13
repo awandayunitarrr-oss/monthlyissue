@@ -610,6 +610,7 @@ def run(period: Period, article_fetch: bool = True, pool: tuple[list[Article], d
             text = a.spec_text or a.text
             if len(text) > 300 or not (prev or {}).get("launch"):
                 d["launch"] = launches.analyze(d, text)
+                d["launch"]["full"] = len(text) > 300
             else:
                 d["launch"] = prev["launch"]
         merged.append(d)
@@ -746,12 +747,13 @@ def enrich_launches(force: bool = False) -> None:
         d = json.loads(p.read_text(encoding="utf-8"))
         n = 0
         for a in d["articles"]:
-            if not launches.is_launch(a) or (a.get("launch") and not force):
+            if not launches.is_launch(a) or ((a.get("launch") or {}).get("full") and not force):
                 continue
             time.sleep(0.4)
             full = fetch_article(a["url"], a["source"])
             text = (full.spec_text or full.text) if full else " ".join([a.get("summary", "")] + (a.get("points") or []))
             a["launch"] = launches.analyze(a, text)
+            a["launch"]["full"] = bool(full)
             n += 1
         p.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"{p.name}: {n} artikel rilis dianalisis", flush=True)
