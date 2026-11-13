@@ -164,6 +164,7 @@ footer{margin-top:30px;font-size:12px;color:var(--muted);text-align:center}
 .cmp .empty{padding:0}
 
 .rcard .actions{display:flex;justify-content:flex-end}
+.rcard .actions.noslide{font-size:12px;color:var(--muted);gap:6px;flex-wrap:wrap;justify-content:flex-start}
 .rcard .actions button{background:var(--c);border-color:var(--c);color:#fff;font-weight:600;font-size:13px}
 #slide-wrap{position:fixed;inset:0;z-index:20;background:rgba(10,12,16,.72);overflow:auto;padding:16px}
 .slide-bar{max-width:1280px;margin:0 auto 10px;display:flex;justify-content:flex-end;gap:8px}
@@ -727,7 +728,10 @@ function launchCard(g){
     <div class="srcs">${g.articles.map(a => `<a href="${esc(a.url)}" target="_blank" rel="noopener" title="${esc(a.title)}"><span class="dot" style="background:${SRC_COLORS[a.source] || "var(--muted)"}"></span>${esc(a.source)} ↗</a>`).join("")}</div>
     ${table}
     ${cmp}
-    ${(g.detail?.variants || []).length || (g.prev_detail?.variants || []).length ? `<div class="actions"><button data-slide="${esc(g.id)}">Lihat slide perbandingan →</button></div>` : ""}
+    ${(g.detail?.variants || []).length || (g.prev_detail?.variants || []).length
+      ? `<div class="actions"><button data-slide="${esc(g.id)}">Lihat slide perbandingan →</button></div>`
+      : `<div class="actions noslide">Slide belum tersedia: data tipe/warna belum terbaca.
+           <a href="https://github.com/awandayunitarrr-oss/monthlyissue/edit/main/manual/pembanding.csv" target="_blank" rel="noopener">Isi pembanding manual ↗</a></div>`}
   </article>`;
 }
 function renderLaunches(){
