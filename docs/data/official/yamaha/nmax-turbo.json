@@ -1,0 +1,173 @@
+{
+  "slug": "nmax-turbo",
+  "history": [
+    {
+      "name": "Yamaha NMAX",
+      "url": "https://www.yamaha-motor.co.id/product/nmax-turbo/",
+      "variants": [
+        {
+          "name": "TURBO TECH MAX Ultimate",
+          "price": 46945000.0,
+          "colors": [
+            {
+              "name": "Ceramic Grey",
+              "hex": "#999999",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011411065945811R98632.png",
+              "new": null
+            },
+            {
+              "name": "Elixir Dark Silver",
+              "hex": "#c9c9cd",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011411071096238K87179.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "TURBO TECH MAX Special Livery",
+          "price": 45365000.0,
+          "colors": [
+            {
+              "name": "Black MAX",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012114594317543J23731.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "TURBO TECH MAX",
+          "price": 44965000.0,
+          "colors": [
+            {
+              "name": "Ceramic Grey",
+              "hex": "#999999",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025111019120360785H74074.png",
+              "new": null
+            },
+            {
+              "name": "Elixir Dark Silver",
+              "hex": "#c9c9cd",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025111019182433784K7647.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "TURBO",
+          "price": 39465000.0,
+          "colors": [
+            {
+              "name": "Ceramic Grey",
+              "hex": "#999999",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/20251110191903676F5433.png",
+              "new": null
+            },
+            {
+              "name": "Elixir Dark Silver",
+              "hex": "#c9c9cd",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024081909172910918Y66823.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Neo S MAX Special Livery",
+          "price": 35955000.0,
+          "colors": [
+            {
+              "name": "Black MAX",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020414193854411G50709.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Neo S Version",
+          "price": 35555000.0,
+          "colors": [
+            {
+              "name": "Matte Blue",
+              "hex": "#1f3e65",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025111019194058600Y79045.png",
+              "new": null
+            },
+            {
+              "name": "Red",
+              "hex": "#ff0000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202408190917345976S21101.png",
+              "new": null
+            },
+            {
+              "name": "White",
+              "hex": "#ffffff",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202408190917393908H14301.png",
+              "new": null
+            },
+            {
+              "name": "Black",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024081909174815666G66711.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Neo MAX Special Livery",
+          "price": 34965000.0,
+          "colors": [
+            {
+              "name": "Black MAX",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020414194471194N62487.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Neo Version",
+          "price": 34565000.0,
+          "colors": [
+            {
+              "name": "Matte Blue",
+              "hex": "#1f3e65",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025111019202062H52051.png",
+              "new": null
+            },
+            {
+              "name": "Red",
+              "hex": "#ff0000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024061119274974993S52769.png",
+              "new": null
+            },
+            {
+              "name": "White",
+              "hex": "#ffffff",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024061119281348784W8996.png",
+              "new": null
+            },
+            {
+              "name": "Black",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024061119274037676S53246.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha NMAX",
+  "url": "https://www.yamaha-motor.co.id/product/nmax-turbo/"
+}

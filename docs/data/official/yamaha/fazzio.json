@@ -1,0 +1,122 @@
+{
+  "slug": "fazzio",
+  "history": [
+    {
+      "name": "Yamaha Fazzio",
+      "url": "https://www.yamaha-motor.co.id/product/fazzio/",
+      "variants": [
+        {
+          "name": "Special Edition Sunset Blue",
+          "price": 23150000.0,
+          "colors": [
+            {
+              "name": "Sunset Blue",
+              "hex": "#b2e0f2",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026080316375451807H45960.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Special Edition Starry Night",
+          "price": 25250000.0,
+          "colors": [
+            {
+              "name": "Starry Night",
+              "hex": "#798fd2",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202603021616392454D52822.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Hybrid Lux",
+          "price": 25095000.0,
+          "colors": [
+            {
+              "name": "Greenish Gray",
+              "hex": "#afcccf",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315110540976J2461.png",
+              "new": null
+            },
+            {
+              "name": "Titan",
+              "hex": "#c9c9cd",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315101756736A45457.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Hybrid Neo",
+          "price": 24405000.0,
+          "colors": [
+            {
+              "name": "Go Purple",
+              "hex": "#5e51ab",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601231711304860C78501.png",
+              "new": null
+            },
+            {
+              "name": "Pink Mauve",
+              "hex": "#cba49f",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315073710159J99507.png",
+              "new": null
+            },
+            {
+              "name": "Green",
+              "hex": "#84937f",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315075513962R64993.png",
+              "new": null
+            },
+            {
+              "name": "White",
+              "hex": "#ffffff",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601231508455255U66303.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Hybrid",
+          "price": 22820000.0,
+          "colors": [
+            {
+              "name": "Blue White",
+              "hex": "#294561",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012317153856719H48710.png",
+              "new": null
+            },
+            {
+              "name": "Black Red",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012315093684262D3348.png",
+              "new": null
+            },
+            {
+              "name": "Grayceful Pink",
+              "hex": "#cba49f",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025062114190814455O18634.png",
+              "new": null
+            },
+            {
+              "name": "Yolo Black",
+              "hex": "#ecd78e",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025062114193117991G63536.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha Fazzio",
+  "url": "https://www.yamaha-motor.co.id/product/fazzio/"
+}

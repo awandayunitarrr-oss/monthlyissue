@@ -1,0 +1,72 @@
+{
+  "slug": "gear-ultima",
+  "history": [
+    {
+      "name": "Yamaha Gear Ultima",
+      "url": "https://www.yamaha-motor.co.id/product/gear-ultima/",
+      "variants": [
+        {
+          "name": "Hybrid Smart",
+          "price": 22785000.0,
+          "colors": [
+            {
+              "name": "Magma Black",
+              "hex": "#2c2324",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026040210281363446A2951.png",
+              "new": null
+            },
+            {
+              "name": "Matte Blue",
+              "hex": "#1f3e65",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026040210285549459N49815.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Hybrid Solid",
+          "price": 20660000.0,
+          "colors": [
+            {
+              "name": "Solid Orange",
+              "hex": "#c43f12",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026040210302746779S97325.png",
+              "new": null
+            },
+            {
+              "name": "Solid Blue",
+              "hex": "#2172ca",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026040210304321568W76344.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Hybrid",
+          "price": 20240000.0,
+          "colors": [
+            {
+              "name": "Putih",
+              "hex": "#ffffff",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026040210355699153B34831.png",
+              "new": null
+            },
+            {
+              "name": "Hitam",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026040210362244135P20329.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha Gear Ultima",
+  "url": "https://www.yamaha-motor.co.id/product/gear-ultima/"
+}

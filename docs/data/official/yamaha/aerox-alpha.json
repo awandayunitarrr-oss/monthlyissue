@@ -1,0 +1,111 @@
+{
+  "slug": "aerox-alpha",
+  "history": [
+    {
+      "name": "Yamaha Aerox Alpha",
+      "url": "https://www.yamaha-motor.co.id/product/aerox-alpha/",
+      "variants": [
+        {
+          "name": "TURBO 70th Livery",
+          "price": 40450000.0,
+          "colors": [
+            {
+              "name": "70th Livery",
+              "hex": "#ff0000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012212211612160Y45922.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "TURBO Ultimate",
+          "price": 42230000.0,
+          "colors": [
+            {
+              "name": "Elixir Dark Silver",
+              "hex": "#aeadb6",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020515031335833N50491.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "TURBO",
+          "price": 40050000.0,
+          "colors": [
+            {
+              "name": "Elixir Dark Silver",
+              "hex": "#aeadb6",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020515050852238N68798.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "CyberCity ABS",
+          "price": 34790000.0,
+          "colors": [
+            {
+              "name": "Matte Purple Black",
+              "hex": "#5541ad",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202602051705357793P60642.png",
+              "new": null
+            },
+            {
+              "name": "White Pearl Blue",
+              "hex": "#798fd2",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020516022374054T48660.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Cybercity",
+          "price": 31250000.0,
+          "colors": [
+            {
+              "name": "Matte Blue Red",
+              "hex": "#000088",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020516063336640M90207.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Standard",
+          "price": 30700000.0,
+          "colors": [
+            {
+              "name": "Black",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020515082054412B82352.png",
+              "new": null
+            },
+            {
+              "name": "Red",
+              "hex": "#ff0000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020515061329919C46613.png",
+              "new": null
+            },
+            {
+              "name": "Blue",
+              "hex": "#294561",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020515060448745C51316.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha Aerox Alpha",
+  "url": "https://www.yamaha-motor.co.id/product/aerox-alpha/"
+}

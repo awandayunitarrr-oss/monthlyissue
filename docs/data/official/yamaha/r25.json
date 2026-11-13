@@ -1,0 +1,34 @@
+{
+  "slug": "r25",
+  "history": [
+    {
+      "name": "Yamaha R25",
+      "url": "https://www.yamaha-motor.co.id/product/r25/",
+      "variants": [
+        {
+          "name": "R25",
+          "price": 76250000.0,
+          "colors": [
+            {
+              "name": "Racing Blue",
+              "hex": "#000088",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025012015275896690H23938.png",
+              "new": null
+            },
+            {
+              "name": "Metallic Black",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025012015280236852T12421.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha R25",
+  "url": "https://www.yamaha-motor.co.id/product/r25/"
+}

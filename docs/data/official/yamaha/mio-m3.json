@@ -1,0 +1,46 @@
+{
+  "slug": "mio-m3",
+  "history": [
+    {
+      "name": "Yamaha Mio M3 125",
+      "url": "https://www.yamaha-motor.co.id/product/mio-m3/",
+      "variants": [
+        {
+          "name": "Mio M3 125",
+          "price": 18905000.0,
+          "colors": [
+            {
+              "name": "Metallic Cyan",
+              "hex": "#008b8b",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025051911283817688W57116.png",
+              "new": null
+            },
+            {
+              "name": "Metallic White",
+              "hex": "#ffffff",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025051911302918364Q25138.png",
+              "new": null
+            },
+            {
+              "name": "Metallic Red",
+              "hex": "#ff0000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025051911290160771I39257.png",
+              "new": null
+            },
+            {
+              "name": "Metallic Black",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025051911292554271E73676.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha Mio M3 125",
+  "url": "https://www.yamaha-motor.co.id/product/mio-m3/"
+}

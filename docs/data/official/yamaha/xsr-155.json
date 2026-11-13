@@ -1,0 +1,53 @@
+{
+  "slug": "xsr-155",
+  "history": [
+    {
+      "name": "Yamaha XSR 155",
+      "url": "https://www.yamaha-motor.co.id/product/xsr-155/",
+      "variants": [
+        {
+          "name": "XSR 155 70th Livery",
+          "price": 40665000.0,
+          "colors": [
+            {
+              "name": "70th Livery",
+              "hex": "#ff0000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012212283641750K65588.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "XSR 155",
+          "price": 40265000.0,
+          "colors": [
+            {
+              "name": "Metallic Brown Authentic",
+              "hex": "#2c2324",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025012015091380240D96357.png",
+              "new": null
+            },
+            {
+              "name": "Metallic Black Elegance",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2022122614535230076F30677.png",
+              "new": null
+            },
+            {
+              "name": "Matte Silver Premium",
+              "hex": "#c9c9cd",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025012015100168918C54101.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha XSR 155",
+  "url": "https://www.yamaha-motor.co.id/product/xsr-155/"
+}

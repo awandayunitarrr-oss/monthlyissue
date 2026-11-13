@@ -1,0 +1,66 @@
+{
+  "slug": "mx-king-150",
+  "history": [
+    {
+      "name": "Yamaha MX King 150",
+      "url": "https://www.yamaha-motor.co.id/product/mx-king-150/",
+      "variants": [
+        {
+          "name": "MX King 150 Prima Pramac Livery",
+          "price": null,
+          "colors": [
+            {
+              "name": "Prima Pramac",
+              "hex": "#1a26cb",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026062207303160354M62891.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "MX King 150 70th Livery",
+          "price": 29400000.0,
+          "colors": [
+            {
+              "name": "70th Livery",
+              "hex": "#ff0000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012212570650164D72125.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "MX King 150",
+          "price": 29200000.0,
+          "colors": [
+            {
+              "name": "Blue",
+              "hex": "#000088",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025120815501128784Y48788.png",
+              "new": null
+            },
+            {
+              "name": "CyberCity",
+              "hex": "#5e51ab",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025120815502299713A93187.png",
+              "new": null
+            },
+            {
+              "name": "Silver",
+              "hex": "#999999",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025120815502963133Z5037.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha MX King 150",
+  "url": "https://www.yamaha-motor.co.id/product/mx-king-150/"
+}

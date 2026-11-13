@@ -1,0 +1,59 @@
+{
+  "slug": "vixion",
+  "history": [
+    {
+      "name": "Yamaha VIXION 155",
+      "url": "https://www.yamaha-motor.co.id/product/vixion/",
+      "variants": [
+        {
+          "name": "VIXION R 155",
+          "price": 34020000.0,
+          "colors": [
+            {
+              "name": "Matte Black",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2022011109442589529O58043.png",
+              "new": null
+            },
+            {
+              "name": "Matte Red",
+              "hex": "#ab0512",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2022011109443040020G78018.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "VIXION 150",
+          "price": 31450000.0,
+          "colors": [
+            {
+              "name": "Matte Blue",
+              "hex": "#1f3e65",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202201110944359935S19728.png",
+              "new": null
+            },
+            {
+              "name": "Matte Black",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2022011109444754536F60179.png",
+              "new": null
+            },
+            {
+              "name": "Metallic Red",
+              "hex": "#ff0000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2022011109445268890M59689.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha VIXION 155",
+  "url": "https://www.yamaha-motor.co.id/product/vixion/"
+}

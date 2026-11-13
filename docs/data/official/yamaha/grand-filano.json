@@ -1,0 +1,65 @@
+{
+  "slug": "grand-filano",
+  "history": [
+    {
+      "name": "Yamaha Grand Filano",
+      "url": "https://www.yamaha-motor.co.id/product/grand-filano/",
+      "variants": [
+        {
+          "name": "Hybrid Lux",
+          "price": 29145000.0,
+          "colors": [
+            {
+              "name": "Royal Iron",
+              "hex": "#bfd4f0",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601231028034876K13777.png",
+              "new": null
+            },
+            {
+              "name": "Magma Black",
+              "hex": "#2c2324",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310455516358M58371.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Hybrid Neo",
+          "price": 28665000.0,
+          "colors": [
+            {
+              "name": "Prime Gray",
+              "hex": "#afb7c3",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310263681335O86751.png",
+              "new": null
+            },
+            {
+              "name": "Greenish Gray",
+              "hex": "#afcccf",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310255191745O23444.png",
+              "new": null
+            },
+            {
+              "name": "Pink Mauve",
+              "hex": "#cba49f",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310255677911L16899.png",
+              "new": null
+            },
+            {
+              "name": "Essential White",
+              "hex": "#ffffff",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310261915448E14156.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha Grand Filano",
+  "url": "https://www.yamaha-motor.co.id/product/grand-filano/"
+}

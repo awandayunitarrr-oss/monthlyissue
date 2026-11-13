@@ -1,0 +1,78 @@
+{
+  "slug": "all-new-aerox155-connected",
+  "history": [
+    {
+      "name": "Yamaha Aerox 155",
+      "url": "https://www.yamaha-motor.co.id/product/all-new-aerox155-connected/",
+      "variants": [
+        {
+          "name": "Connected/ABS",
+          "price": 32115000.0,
+          "colors": [
+            {
+              "name": "Prestige Silver",
+              "hex": "#c9c9cd",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2023041415280563814D66821.png",
+              "new": null
+            },
+            {
+              "name": "Maxi Signature",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2023041415280299726S94464.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "CyberCity",
+          "price": 29580000.0,
+          "colors": [
+            {
+              "name": "Cyber City Livery",
+              "hex": "#000088",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2023041415280991628A58578.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Standard",
+          "price": 29380000.0,
+          "colors": [
+            {
+              "name": "Dull Blue Orange",
+              "hex": "#ff8040",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2023102416264470586E6961.png",
+              "new": null
+            },
+            {
+              "name": "Silver Cyan",
+              "hex": "#008b8b",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2023102416255597157E83827.png",
+              "new": null
+            },
+            {
+              "name": "Metallic Red",
+              "hex": "#ff0000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202310241625591732N30808.png",
+              "new": null
+            },
+            {
+              "name": "Black Grey",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2023102416263316247N20315.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha Aerox 155",
+  "url": "https://www.yamaha-motor.co.id/product/all-new-aerox155-connected/"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "mt25",
+  "history": [
+    {
+      "name": "Yamaha MT-25",
+      "url": "https://www.yamaha-motor.co.id/product/mt25/",
+      "variants": [
+        {
+          "name": "MT-25",
+          "price": 66450000.0,
+          "colors": [
+            {
+              "name": "Metallic Light Grey",
+              "hex": "#cad0dd",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025012015174655343P65550.png",
+              "new": null
+            },
+            {
+              "name": "Matte Black",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025012015175849114X62104.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha MT-25",
+  "url": "https://www.yamaha-motor.co.id/product/mt25/"
+}

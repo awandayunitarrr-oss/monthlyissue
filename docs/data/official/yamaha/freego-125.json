@@ -1,0 +1,65 @@
+{
+  "slug": "freego-125",
+  "history": [
+    {
+      "name": "Yamaha FreeGo 125",
+      "url": "https://www.yamaha-motor.co.id/product/freego-125/",
+      "variants": [
+        {
+          "name": "Connected",
+          "price": 24650000.0,
+          "colors": [
+            {
+              "name": "Magma Black",
+              "hex": "#2c2324",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025060914385589502M90490.png",
+              "new": null
+            },
+            {
+              "name": "Silver",
+              "hex": "#c9c9cd",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025060914390157601M77440.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Standard",
+          "price": 22865000.0,
+          "colors": [
+            {
+              "name": "Putih",
+              "hex": "#ffffff",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025060914390790747E27231.png",
+              "new": null
+            },
+            {
+              "name": "Red",
+              "hex": "#ff0000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202506091439118073C8496.png",
+              "new": null
+            },
+            {
+              "name": "Sand",
+              "hex": "#b5a89b",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025060914391694380Z32312.png",
+              "new": null
+            },
+            {
+              "name": "Black",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202506091439217808E18394.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha FreeGo 125",
+  "url": "https://www.yamaha-motor.co.id/product/freego-125/"
+}

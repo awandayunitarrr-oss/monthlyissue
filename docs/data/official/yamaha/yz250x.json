@@ -1,0 +1,28 @@
+{
+  "slug": "yz250x",
+  "history": [
+    {
+      "name": "Yamaha YZ250X",
+      "url": "https://www.yamaha-motor.co.id/product/yz250x/",
+      "variants": [
+        {
+          "name": "YZ250X",
+          "price": 132000000.0,
+          "colors": [
+            {
+              "name": "Blue",
+              "hex": "#000088",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026060310532432856X70087.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha YZ250X",
+  "url": "https://www.yamaha-motor.co.id/product/yz250x/"
+}

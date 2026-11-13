@@ -1,0 +1,102 @@
+{
+  "slug": "all-new-nmax155-connected",
+  "history": [
+    {
+      "name": "Yamaha NMAX 155",
+      "url": "https://www.yamaha-motor.co.id/product/all-new-nmax155-connected/",
+      "variants": [
+        {
+          "name": "Connected/ABS",
+          "price": 36300000.0,
+          "colors": [
+            {
+              "name": "Prestige Silver",
+              "hex": "#c9c9cd",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2022021512553415943O51296.png",
+              "new": null
+            },
+            {
+              "name": "Matte Green",
+              "hex": "#293941",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202202151255313503V70891.png",
+              "new": null
+            },
+            {
+              "name": "Maxi Signature",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2022021512554178402C59171.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "S Version",
+          "price": 33175000.0,
+          "colors": [
+            {
+              "name": "Metallic Red",
+              "hex": "#ff0000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2022021512555053894P68754.png",
+              "new": null
+            },
+            {
+              "name": "Matte Green",
+              "hex": "#293941",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2022021512554781158U20463.png",
+              "new": null
+            },
+            {
+              "name": "Prestige Silver",
+              "hex": "#c9c9cd",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2022021512555336606I37089.png",
+              "new": null
+            },
+            {
+              "name": "Maxi Signature",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2022021512555694457A17058.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Standard",
+          "price": 32175000.0,
+          "colors": [
+            {
+              "name": "Metallic Blue",
+              "hex": "#143053",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2023010515485617128M1683.png",
+              "new": null
+            },
+            {
+              "name": "Matte Green",
+              "hex": "#293941",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2022021512560375607U73329.png",
+              "new": null
+            },
+            {
+              "name": "Metallic Red",
+              "hex": "#ab0512",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2022021512560935623Z67542.png",
+              "new": null
+            },
+            {
+              "name": "Maxi Signature",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2022021512561151468X87638.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha NMAX 155",
+  "url": "https://www.yamaha-motor.co.id/product/all-new-nmax155-connected/"
+}

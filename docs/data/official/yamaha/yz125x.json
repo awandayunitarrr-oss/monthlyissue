@@ -1,0 +1,28 @@
+{
+  "slug": "yz125x",
+  "history": [
+    {
+      "name": "Yamaha YZ125X",
+      "url": "https://www.yamaha-motor.co.id/product/yz125x/",
+      "variants": [
+        {
+          "name": "YZ125X",
+          "price": 99800000.0,
+          "colors": [
+            {
+              "name": "Blue",
+              "hex": "#000088",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026060310515421581Q19732.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha YZ125X",
+  "url": "https://www.yamaha-motor.co.id/product/yz125x/"
+}

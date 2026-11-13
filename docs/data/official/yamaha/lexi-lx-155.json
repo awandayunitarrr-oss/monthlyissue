@@ -1,0 +1,66 @@
+{
+  "slug": "lexi-lx-155",
+  "history": [
+    {
+      "name": "Yamaha LEXi LX 155",
+      "url": "https://www.yamaha-motor.co.id/product/lexi-lx-155/",
+      "variants": [
+        {
+          "name": "Connected/ABS",
+          "price": 32500000.0,
+          "colors": [
+            {
+              "name": "Ceramic Grey",
+              "hex": "#919191",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601210136411054B75592.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "S Version",
+          "price": 29650000.0,
+          "colors": [
+            {
+              "name": "Sand",
+              "hex": "#b5a89b",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012101353067003N34382.png",
+              "new": null
+            },
+            {
+              "name": "Elixir Dark Silver",
+              "hex": "#c9c9cd",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012101360579143I99099.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "Standard",
+          "price": 27850000.0,
+          "colors": [
+            {
+              "name": "Matte Green",
+              "hex": "#84937f",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012101320057424B70971.png",
+              "new": null
+            },
+            {
+              "name": "Metallic Black",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012101322632009E95399.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha LEXi LX 155",
+  "url": "https://www.yamaha-motor.co.id/product/lexi-lx-155/"
+}

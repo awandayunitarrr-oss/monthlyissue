@@ -1,0 +1,34 @@
+{
+  "slug": "wr155r",
+  "history": [
+    {
+      "name": "Yamaha WR155R",
+      "url": "https://www.yamaha-motor.co.id/product/wr155r/",
+      "variants": [
+        {
+          "name": "WR155R",
+          "price": 41275000.0,
+          "colors": [
+            {
+              "name": "Blue",
+              "hex": "#000088",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012216212099486L85017.png",
+              "new": null
+            },
+            {
+              "name": "Black",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012216212651507H98695.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha WR155R",
+  "url": "https://www.yamaha-motor.co.id/product/wr155r/"
+}

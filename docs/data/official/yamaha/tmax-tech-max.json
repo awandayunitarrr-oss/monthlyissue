@@ -1,0 +1,41 @@
+{
+  "slug": "tmax-tech-max",
+  "history": [
+    {
+      "name": "Yamaha TMAX",
+      "url": "https://www.yamaha-motor.co.id/product/tmax-tech-max/",
+      "variants": [
+        {
+          "name": "TMAX MAX Special Livery",
+          "price": 475000000.0,
+          "colors": [
+            {
+              "name": "Black MAX",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012109354833782C36890.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "TMAX Tech MAX",
+          "price": 455000000.0,
+          "colors": [
+            {
+              "name": "Crystal Graphite",
+              "hex": "#999999",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012109464595907G85940.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha TMAX",
+  "url": "https://www.yamaha-motor.co.id/product/tmax-tech-max/"
+}

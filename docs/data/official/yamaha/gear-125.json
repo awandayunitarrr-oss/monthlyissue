@@ -1,0 +1,52 @@
+{
+  "slug": "gear-125",
+  "history": [
+    {
+      "name": "Yamaha GEAR 125",
+      "url": "https://www.yamaha-motor.co.id/product/gear-125/",
+      "variants": [
+        {
+          "name": "Standard",
+          "price": 19495000.0,
+          "colors": [
+            {
+              "name": "Dull Blue",
+              "hex": "#b0d4ea",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025030717193296301C81889.png",
+              "new": null
+            },
+            {
+              "name": "Red",
+              "hex": "#ff0000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025030717194744688Q33745.png",
+              "new": null
+            },
+            {
+              "name": "Cyan",
+              "hex": "#008b8b",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025030717200141027R3909.png",
+              "new": null
+            },
+            {
+              "name": "Olive",
+              "hex": "#656436",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025060914163885294K36248.png",
+              "new": null
+            },
+            {
+              "name": "Black",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025030717204097901P46596.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha GEAR 125",
+  "url": "https://www.yamaha-motor.co.id/product/gear-125/"
+}

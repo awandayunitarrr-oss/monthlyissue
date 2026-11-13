@@ -1,0 +1,40 @@
+{
+  "slug": "jupiter-z1",
+  "history": [
+    {
+      "name": "Yamaha Jupiter Z1",
+      "url": "https://www.yamaha-motor.co.id/product/jupiter-z1/",
+      "variants": [
+        {
+          "name": "Jupiter Z1",
+          "price": 22580000.0,
+          "colors": [
+            {
+              "name": "Metallic Cyan",
+              "hex": "#008b8b",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025061108303017327J72634.png",
+              "new": null
+            },
+            {
+              "name": "Metallic Red",
+              "hex": "#ff0000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025061108303670252P60271.png",
+              "new": null
+            },
+            {
+              "name": "Metallic Black",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025061108304364967I28512.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha Jupiter Z1",
+  "url": "https://www.yamaha-motor.co.id/product/jupiter-z1/"
+}

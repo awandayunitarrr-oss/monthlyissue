@@ -1,0 +1,72 @@
+{
+  "slug": "xmax-connected",
+  "history": [
+    {
+      "name": "Yamaha XMAX 250",
+      "url": "https://www.yamaha-motor.co.id/product/xmax-connected/",
+      "variants": [
+        {
+          "name": "XMAX 250 MAX Special Livery",
+          "price": 70415000.0,
+          "colors": [
+            {
+              "name": "Black MAX",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601211337387306A11348.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "XMAX 250 TECH MAX",
+          "price": 77410000.0,
+          "colors": [
+            {
+              "name": "Ceramic Grey",
+              "hex": "#999999",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025092412234469028U9058.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        },
+        {
+          "name": "XMAX 250 Connected",
+          "price": 70015000.0,
+          "colors": [
+            {
+              "name": "Metallic Blue",
+              "hex": "#000088",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410361864796E17453.png",
+              "new": null
+            },
+            {
+              "name": "Metallic Black",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410411324315K95315.png",
+              "new": null
+            },
+            {
+              "name": "Ceramic Grey",
+              "hex": "#919191",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410370912244S46425.png",
+              "new": null
+            },
+            {
+              "name": "Elixir Dark Silver",
+              "hex": "#c9c9cd",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410364512389Y58336.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha XMAX 250",
+  "url": "https://www.yamaha-motor.co.id/product/xmax-connected/"
+}

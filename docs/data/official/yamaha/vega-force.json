@@ -1,0 +1,34 @@
+{
+  "slug": "vega-force",
+  "history": [
+    {
+      "name": "Yamaha Vega Force",
+      "url": "https://www.yamaha-motor.co.id/product/vega-force/",
+      "variants": [
+        {
+          "name": "Vega Force",
+          "price": 19900000.0,
+          "colors": [
+            {
+              "name": "Black Yellow",
+              "hex": "#ecd78e",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2023060508085578784S98910.png",
+              "new": null
+            },
+            {
+              "name": "Black Red",
+              "hex": "#ab0512",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2023060508085369609J94854.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha Vega Force",
+  "url": "https://www.yamaha-motor.co.id/product/vega-force/"
+}

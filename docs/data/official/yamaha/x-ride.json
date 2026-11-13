@@ -1,0 +1,40 @@
+{
+  "slug": "x-ride",
+  "history": [
+    {
+      "name": "Yamaha X-Ride 125",
+      "url": "https://www.yamaha-motor.co.id/product/x-ride/",
+      "variants": [
+        {
+          "name": "X-Ride 125",
+          "price": 21135000.0,
+          "colors": [
+            {
+              "name": "Blue",
+              "hex": "#112d76",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025070409415976337A27649.png",
+              "new": null
+            },
+            {
+              "name": "Black Red",
+              "hex": "#000000",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025072208562276568O22561.png",
+              "new": null
+            },
+            {
+              "name": "Sand",
+              "hex": "#b5a89b",
+              "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025072208580140423L22332.png",
+              "new": null
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "date": "2026-11-13",
+      "source": "official"
+    }
+  ],
+  "name": "Yamaha X-Ride 125",
+  "url": "https://www.yamaha-motor.co.id/product/x-ride/"
+}
