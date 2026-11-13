@@ -646,6 +646,8 @@ const SWATCH = [["burgundy|maroon","#7f1d3a"],["red|merah","#c8102e"],["black|hi
   ["violet|purple|ungu|magenta","#7c3aed"],["gold|emas","#c9a227"],["pink","#ec4899"],["beige|cream|krem","#e8dcc0"]];
 const swatch = name => (SWATCH.find(([k]) => new RegExp("\\b(" + k + ")\\b", "i").test(name)) || [, "#9aa0a6"])[1];
 const yearOf = iso => iso ? new Date(iso).getFullYear() : "";
+// judul kolom "sebelumnya": tahun model; bila tahunnya sama dengan rilis, tulis "Sebelum rilis"
+const prevTitle = (prev, g) => !prev ? "Sebelumnya" : (prev.year || yearOf(prev.date)) === yearOf(g.date) ? "Sebelum rilis" : (prev.year || yearOf(prev.date));
 const SRC_LABEL = d => !d ? "" : d.source === "manual" ? "isian manual"
   : d.source === "official" ? `situs resmi · dicatat ${fmtDate(d.date)}`
   : d.source === "wayback" ? `situs resmi · arsip web ${fmtDate(d.date)}`
@@ -674,7 +676,7 @@ function openSlide(id){
     <div class="sl-head"><span class="sl-news">NEWS</span><h2>${esc(g.title || g.model)}</h2>${flag("Indonesia")}</div>
     <div class="sl-body">
       <div class="sl-grid">
-        <div class="sl-year">${prev ? (prev.year || yearOf(prev.date)) : "Sebelumnya"}<small>${esc(SRC_LABEL(prev))}</small></div>
+        <div class="sl-year">${prevTitle(prev, g)}<small>${esc(SRC_LABEL(prev))}</small></div>
         <div class="sl-year">${yearOf(g.date)}<small>${esc(SRC_LABEL(g.detail))}</small></div>
         ${names.length > 1 && !prev ? `<div class="sl-cell none" style="grid-row:span ${names.length}">Artikel produk sebelumnya<br>tidak ditemukan otomatis</div>` + names.map(k => cell(find(now, k), true, now)).join("") : rows}
       </div>
@@ -732,7 +734,7 @@ function headToHead(g, now, prev){
   const both = Object.keys(A).length && Object.keys(B).length;
   return `<div class="sl-head"><span class="sl-news">SPEC</span><h2>Head to head spesifikasi · ${esc(g.model)}</h2>${flag("Indonesia")}</div>
     <table class="h2h"><thead><tr><th>Spesifikasi</th>
-      <th>${prev ? (prev.year || yearOf(prev.date)) : "Sebelumnya"}<small>${esc(SRC_LABEL(prev) || "tidak ada data")}</small></th>
+      <th>${prevTitle(prev, g)}<small>${esc(SRC_LABEL(prev) || "tidak ada data")}</small></th>
       <th>${yearOf(g.date)}<small>${esc(SRC_LABEL(now) || "")}</small></th></tr></thead><tbody>${rows}</tbody></table>
     <div class="sl-src">${both ? `${changed} dari ${n} baris spesifikasi berbeda (ditandai kuning).` : "Spesifikasi salah satu versi belum tersedia — lengkapi lewat manual/spesifikasi.csv."}
       Nilai diambil otomatis; cek sumber resmi sebelum dipresentasikan.</div>`;

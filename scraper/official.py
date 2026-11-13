@@ -219,7 +219,7 @@ def yamaha_compare(get, model: str, launch_date: str) -> tuple[dict | None, dict
         snap = wayback(get, url, when, before=False)
         if snap:
             record(slug, snap)
-            now = snap
+        now = snap
     return prev, now
 
 

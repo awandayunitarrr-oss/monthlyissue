@@ -295,6 +295,29 @@ def _days(a: str, b: str) -> float:
 
 
 GROUP_DAYS = 14  # liputan model yang sama dalam 2 minggu dianggap satu rilis
+ID_COLORS = {"merah", "hitam", "putih", "biru", "hijau", "coklat", "cokelat", "kuning", "ungu", "emas", "perak", "oranye", "abu"}
+PART_WORDS = r"(velg|pelek|rims?|emblem|logo|rangka|jok|knalpot|grafis|striping|aksen|cover|panel)"
+
+
+def clean_colors(d: dict | None) -> None:
+    """Buang warna yang bukan warna bodi (velg/emblem) dan nama pendek yang sudah tercakup nama lengkapnya."""
+    if not d:
+        return
+    text = " ".join([d.get("intro") or ""] + [n for v in d.get("variants", []) for n in v.get("notes", [])])
+    for v in d.get("variants", []):
+        names = [c["name"] for c in v["colors"]]
+        keep = []
+        for c in v["colors"]:
+            n, low = c["name"], c["name"].lower()
+            if re.search(PART_WORDS + r"\W+(?:\w+\W+){0,4}" + re.escape(n), text, re.I) or \
+               re.search(re.escape(n) + r"\W+(?:\w+\W+){0,2}(?:pada|di|untuk)\W+" + PART_WORDS, text, re.I):
+                continue
+            if any(o != n and len(o) > len(n) and o.lower().endswith(low) for o in names):
+                continue
+            if low in ID_COLORS and sum(1 for o in names if " " in o) >= 2:
+                continue
+            keep.append(c)
+        v["colors"] = keep
 
 
 def build(period_dir: Path, out_path: Path) -> list[dict]:
@@ -339,6 +362,8 @@ def build(period_dir: Path, out_path: Path) -> list[dict]:
     import official  # noqa: PLC0415 - hindari import melingkar saat modul dimuat
     manual = official.load_manual()
     for g in groups:
+        clean_colors(g["detail"])
+        clean_colors(g["prev_detail"])
         if g["detail"]:
             g["detail"].setdefault("source", "artikel")
         if g["prev_detail"]:
@@ -348,6 +373,9 @@ def build(period_dir: Path, out_path: Path) -> list[dict]:
         year = int(g["date"][:4])
         m_prev, m_now = official.manual_for(manual, g["brand"], g["model"], year)
         o_prev, o_now = g.pop("prev_official", None), g.pop("now_official", None)
+        # halaman resmi yang dicatat jauh sesudah rilis bisa sudah memuat penyegaran berikutnya → jangan dipakai
+        if o_now and _days(o_now["date"] + "T00:00:00+07:00", g["date"]) > 120:
+            o_now = None
         now_specs = {**((g["detail"] or {}).get("spec_table") or {}), **((o_now or {}).get("spec_table") or {}),
                      **((m_now or {}).get("spec_table") or {})}
         prev_specs = {**((g["prev_detail"] or {}).get("spec_table") or {}), **((o_prev or {}).get("spec_table") or {}),
