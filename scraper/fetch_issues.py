@@ -850,10 +850,14 @@ def probe(urls: list[str]) -> None:
         print("   api-like:", apis[:30])
         if "json" in (r.headers.get("content-type") or "") or t.lstrip().startswith("["):
             print("   json:", re.sub(r"\s+", " ", t[:2500]))
-        for kw in ("Rp", "harga", "__NEXT_DATA__", "price"):
-            i = t.find(kw)
-            if i >= 0:
-                print(f"   ctx[{kw}]:", re.sub(r"\s+", " ", t[max(0, i - 150):i + 250]))
+        for kw in ("Rp", "harga", "__NEXT_DATA__", "price", "baseURL", "axios.create", "VITE_", "/v1/", "/api/", "endpoint",
+                   "price-list", "getProduct", "pricelist"):
+            for j, mm in enumerate(re.finditer(re.escape(kw), t)):
+                if j >= 3:
+                    break
+                i = mm.start()
+                print(f"   ctx[{kw}]:", re.sub(r"\s+", " ", t[max(0, i - 200):i + 300]))
+        print("   urls:", sorted(set(u for u in re.findall(r"https?://[\w.-]+(?:/[\w./-]*)?", t) if "astra-honda" in u or "ahm" in u))[:40])
 
 
 def main() -> None:
