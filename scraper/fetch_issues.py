@@ -841,6 +841,14 @@ def probe(urls: list[str]) -> None:
         news = [l for l in links if "/news/" in l or re.search(r"/\d{4}/\d{2}/", l)]
         print("   article-like links:", len(news), news[:5])
         print("   pager-like links:", [l for l in links if re.search(r"page[=/]\d+", l)][:8])
+        prod = [l for l in links if re.search(r"product|produk|motor/|price|harga|pricelist|/model", l, re.I)]
+        print("   product-like links:", len(prod), prod[:40])
+        if "json" in (r.headers.get("content-type") or "") or t.lstrip().startswith("["):
+            print("   json:", re.sub(r"\s+", " ", t[:2500]))
+        for kw in ("Rp", "harga", "__NEXT_DATA__", "price"):
+            i = t.find(kw)
+            if i >= 0:
+                print(f"   ctx[{kw}]:", re.sub(r"\s+", " ", t[max(0, i - 150):i + 250]))
 
 
 def main() -> None:
