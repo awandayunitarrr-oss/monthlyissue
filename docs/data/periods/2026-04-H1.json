@@ -1416,7 +1416,27 @@
       "countries": [
         "Indonesia",
         "India"
-      ]
+      ],
+      "launch": {
+        "model": "Suzuki Burgman Street 125",
+        "key": "suzuki|burgmanstreet125",
+        "specs": {
+          "price": null,
+          "engine": "125 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Mengingat basis produksi Burgman Street 125 yang ada di Indonesia saat ini (versi sebelumnya) berasal dari India, tentu kehadiran versi terbaru ini menjadi sinyal yang sangat menarik untuk pasar tanah air.",
+          "Skutik yang menjadi salah satu tulang punggung penjualan Suzuki ini hadir dengan sederet pembaruan yang cukup komprehensif, baik dari sisi estetika, fitur, hingga teknologi mesin.",
+          "Pembeda paling mencolok ada pada panel instrumennya: Layar TFT 4,2 Inci: Pada varian tertinggi, Burgman Street kini dibekali layar warna TFT yang sangat informatif."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "4ea3887562a6",
@@ -1469,7 +1489,23 @@
       "highlight_by": "auto",
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha Gear Ultima",
+        "key": "yamaha|gearultima",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "5210f04bbc32",
@@ -1545,7 +1581,23 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha GEAR ULTIMA Hybrid",
+        "key": "yamaha|gearultimahybrid",
+        "specs": {
+          "price": null,
+          "engine": "125 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "2078a38a1855",

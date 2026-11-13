@@ -689,7 +689,25 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda NX500 E-Clutch",
+        "key": "honda|nx500eclutch",
+        "specs": {
+          "price": 230000000.0,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Mengusung konsep Daily Crossover , motor adventure kelas menengah ini kini mendapatkan pembaruan yang sangat menarik, terutama hadirnya fitur canggih Honda E-Clutch ."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "56b807d53a0e",
@@ -717,7 +735,23 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda NX500",
+        "key": "honda|nx500",
+        "specs": {
+          "price": 230000000.0,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "ca44f28be98b",
@@ -845,7 +879,25 @@
       "countries": [
         "Indonesia",
         "Jepang"
-      ]
+      ],
+      "launch": {
+        "model": "Kawasaki Ninja 250",
+        "key": "kawasaki|ninja250",
+        "specs": {
+          "price": null,
+          "engine": "250 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Bagi sampeyan para pengguna setia maupun calon peminang Kawasaki Ninja 250 di Indonesia yang kepengen tampil beda dengan kelir lebih berani, sepertinya sampeyan kudu mulai siap-siap tabungan dari sekarang."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "2d490537fb92",

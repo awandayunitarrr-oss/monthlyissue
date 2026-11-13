@@ -1497,7 +1497,25 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "TVS Callisto 125",
+        "key": "tvs|callisto125",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": "6 KW",
+          "torque": "10,5 Nm"
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Meskipun secara basis mekanis tidak ada ubahan drastis, namun kehadiran warna hijau zamrud ini memberikan impresi yang lebih mewah dan fresh ."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "b70c2d74dcfa",
@@ -1990,7 +2008,23 @@
       "countries": [
         "Indonesia",
         "China"
-      ]
+      ],
+      "launch": {
+        "model": "Honda NS150ES",
+        "key": "honda|ns150es",
+        "specs": {
+          "price": null,
+          "engine": "150 cc",
+          "power": "14,5 HP",
+          "torque": "14,2 Nm"
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "6e91771a0bce",

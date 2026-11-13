@@ -572,7 +572,23 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda BeAT",
+        "key": "honda|beat",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": "6,6 KW",
+          "torque": "9,2 Nm"
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "e4d0afaff95d",
@@ -793,7 +809,26 @@
       "highlight_by": "auto",
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda BeAT",
+        "key": "honda|beat",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Yuk, kita bedah bareng-bareng apa saja ubahan per tipenya!",
+          "New Honda BeAT Street: Buat pecinta gaya street style, kini hadir warna baru Glossy Gray yang urban banget, mendampingi warna Matte Black dan Matte Brown yang sudah jadi favorit."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "c4f6ece79286",
@@ -1185,7 +1220,23 @@
       "highlight": true,
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda Vario EVO 160",
+        "key": "honda|varioevo160",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "095da3cbef09",
@@ -1210,7 +1261,23 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda Vario Evo 160",
+        "key": "honda|varioevo160",
+        "specs": {
+          "price": 28000000.0,
+          "engine": "160 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "b4dbaed346a9",
@@ -1715,7 +1782,23 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha Grand Filano Hybrid Classy",
+        "key": "yamaha|grandfilanohybridclassy",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "7d13d4fff771",
@@ -2384,7 +2467,23 @@
       "countries": [
         "Indonesia",
         "Amerika Serikat"
-      ]
+      ],
+      "launch": {
+        "model": "Keeway Road Falcon 250",
+        "key": "benelli|keewayroadfalcon250",
+        "specs": {
+          "price": 57800000.0,
+          "engine": "250 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "1252a670adf2",
@@ -2439,7 +2538,23 @@
       "countries": [
         "Indonesia",
         "Malaysia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda Vario",
+        "key": "honda|vario",
+        "specs": {
+          "price": 26500000.0,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "32182e2c56c4",

@@ -1687,7 +1687,23 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Premium MAXi Race",
+        "key": "yamaha|premiummaxirace",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "237cb5fc7b00",
@@ -2039,7 +2055,27 @@
       "highlight_by": "auto",
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Suzuki Burgman 150",
+        "key": "suzuki|burgman150",
+        "specs": {
+          "price": null,
+          "engine": "150 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Cakkk….lama tak terdengar suaranya di pasar skutik bongsor 150cc, kini dunia otomotif dikejutkan oleh kabar rilisnya skutik legendaris Suzuki yang sudah lama dinanti-nanti.",
+          "Kabar terbaru menyebutkan bahwa Suzuki Burgman 150 terbaru kini sudah resmi rilis di Kolombia.",
+          "Ini dia bocoran data spesifikasi Burgman 150 terbaru yang kini resmi mengaspal di sana : Kalau dilihat cak…Burgman 150 terbaru ini tetap mempertahankan DNA asli Burgman."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "3f7d4b5d039f",
@@ -2136,7 +2172,25 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "MAXi Race",
+        "key": "yamaha|maxirace",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Setelah sukses memulai debut di Yamaha Cup Race (YCR) Sidrap beberapa waktu lalu, kategori MAXi Race kini resmi merambah ajang Kejurnas Motoprix Region B Putaran 1 yang berlangsung di Sirkuit Gelora Bung Tomo (GBT), Surabaya, pada 9-10 Mei 2026."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     }
   ]
 }

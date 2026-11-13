@@ -241,7 +241,26 @@
       "highlight_by": "auto",
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha X-MAX 250",
+        "key": "yamaha|xmax250",
+        "specs": {
+          "price": null,
+          "engine": "250 cc",
+          "power": "16,8 KW",
+          "torque": "24,3 Nm"
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Gen anyar ini ternyata makin fresh cak dan yang paling penting sekarang ada warna birunya.",
+          "Pembaruan ini bertujuan untuk memberikan tampilan yang lebih sporty dan maskulin bagi para pecinta skutik Maxi Yamaha di tanah air ."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "ebd5467d1c40",
@@ -1365,7 +1384,25 @@
       "countries": [
         "Indonesia",
         "Jepang"
-      ]
+      ],
+      "launch": {
+        "model": "Honda C125 Super Cub",
+        "key": "honda|c125supercub",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Meskipun secara siluet terlihat masih sama, ternyata ada beberapa detail krusial yang bikin motor “bebek sultan” ini makin matang."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "2e34fef1f34b",

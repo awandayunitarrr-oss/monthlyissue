@@ -224,7 +224,25 @@
       "highlight": true,
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha MX King 150",
+        "key": "yamaha|mxking150",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": "15,4 PS",
+          "torque": "13,8 Nm"
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "IWB berani jamin, melihat tampilannya yang sekarang, para pecinta kecepatan pasti langsung bergejolak dan dibuat klenger cakk karena makin gagah !"
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "719dce729581",
@@ -927,7 +945,25 @@
       "countries": [
         "Indonesia",
         "Taiwan"
-      ]
+      ],
+      "launch": {
+        "model": "SYM Jet SL 158",
+        "key": "honda|symjetsl158",
+        "specs": {
+          "price": null,
+          "engine": "158 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Ini dia poin krusial yang bikin SYM Jet SL+ 158 ini punya nilai plus dibanding Vario reguler."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "28d34428bd79",
@@ -1288,7 +1324,25 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda Rebel 1100",
+        "key": "honda|rebel1100",
+        "specs": {
+          "price": 445250000.0,
+          "engine": null,
+          "power": "65 KW",
+          "torque": "98 Nm"
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Nggak tanggung-tanggung, kini sang urban cruiser dapet opsi warna baru yang bikin tampilannya makin berkelas dan mewah."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "347753c6bb23",
@@ -1313,7 +1367,25 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda Rebel 1100",
+        "key": "honda|rebel1100",
+        "specs": {
+          "price": 445250000.0,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Moge bergenre urban cruiser yang kental dengan siluet bobber ini kini mendapatkan pilihan kelir baru yang dinamakan Matte Beta Silver Metallic !"
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "565b2c547361",
@@ -1816,7 +1888,25 @@
       "highlight": true,
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda Monkey 125",
+        "key": "honda|monkey125",
+        "specs": {
+          "price": 88094000.0,
+          "engine": "125 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Cakkk….belum genap seminggu AHM bikin kejutan dengan new Vario EVO, dilalah kini mereka kembali memggebrak pasar dengan generasi terbaru Monkey 125 terbaru 2027."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "171c8e4c4c0d",
@@ -1942,7 +2032,25 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda Monkey 125",
+        "key": "honda|monkey125",
+        "specs": {
+          "price": 88094000.0,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Pembaruan kali ini berfokus pada kombinasi warna baru yang lebih segar serta desain jok yang kental dengan aura retro-klasik."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "b4230cb40219",

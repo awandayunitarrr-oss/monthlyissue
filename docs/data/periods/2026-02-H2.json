@@ -1604,7 +1604,25 @@
       "countries": [
         "Indonesia",
         "Jepang"
-      ]
+      ],
+      "launch": {
+        "model": "Suzuki GSX-R125",
+        "key": "suzuki|gsxr125",
+        "specs": {
+          "price": null,
+          "engine": "125 cc",
+          "power": "15 PS",
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Menariknya, pembaruan tahun 2026 ini bukan sekadar ganti warna ( facelift ringan), melainkan ada optimasi pada sektor jantung pacu."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "862e329bb650",

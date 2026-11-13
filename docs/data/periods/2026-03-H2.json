@@ -1965,7 +1965,25 @@
       "countries": [
         "Indonesia",
         "China"
-      ]
+      ],
+      "launch": {
+        "model": "QJ Motor Cuiser SRV 200 MT",
+        "key": "qj motor|cuisersrv200mt",
+        "specs": {
+          "price": 32000000.0,
+          "engine": "197 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Setelah sebelumnya kita membedah skutik adventure Fort 180, kali ini kita akan beralih ke menu utama bagi para pecinta “aspal lurus” dan gaya hidup santai."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "19bbbf8e93b8",
@@ -1992,7 +2010,23 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "QJ Motor Fort 180 Adventure",
+        "key": "qj motor|fort180adventure",
+        "specs": {
+          "price": 33000000.0,
+          "engine": "180 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "0a0ae1fb9ec7",

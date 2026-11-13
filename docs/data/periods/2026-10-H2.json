@@ -581,7 +581,25 @@
       "countries": [
         "Indonesia",
         "India"
-      ]
+      ],
+      "launch": {
+        "model": "TVS Ronin Agonda",
+        "key": "tvs|roninagonda",
+        "specs": {
+          "price": 37080000.0,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Mengambil inspirasi langsung dari budaya modifikasi kustom di Pantai Agonda, Goa, India—yang sebelumnya sempat tampil di ajang Moto Soul 2025 di Pantai Vagator—motor ini memadukan karakter petualang yang kental dengan estetika modern."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "d533d2512391",
@@ -2570,7 +2588,25 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda CB125R Neo Cafe",
+        "key": "honda|cb125rneocafe",
+        "specs": {
+          "price": 52800000.0,
+          "engine": "125 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Secara fisik memang tidak ada ubahan apapun cak."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "f9c587914cfc",

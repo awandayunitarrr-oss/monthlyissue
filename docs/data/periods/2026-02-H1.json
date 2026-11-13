@@ -702,7 +702,25 @@
         "Brasil",
         "Indonesia",
         "Amerika Serikat"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha R15",
+        "key": "yamaha|r15",
+        "specs": {
+          "price": 47000000.0,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Woww mahal juga cakkk (Catatan: Harga di Brasil cenderung jauh lebih tinggi dibandingkan versi Indonesia (sekitar Rp 40-47 jutaan) karena perbedaan struktur pajak, biaya impor komponen, dan kebijakan pasar lokal di Amerika Selatan)."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "9351b804b5b2",
@@ -1294,7 +1312,25 @@
       "countries": [
         "Indonesia",
         "Italia"
-      ]
+      ],
+      "launch": {
+        "model": "Adventure T502X",
+        "key": "benelli|adventuret502x",
+        "specs": {
+          "price": 159000000.0,
+          "engine": "500 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Selain membawa brand Benelli dan Keeway, tahun ini mereka benar-benar tancap gas dengan memperkenalkan lini produk terbaru dari brand legendaris asal Italia yang kini bangkit kembali: Morbidelli ."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "90a47db2359f",
@@ -1530,7 +1566,26 @@
       "countries": [
         "Indonesia",
         "Brasil"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha Lander 250",
+        "key": "yamaha|lander250",
+        "specs": {
+          "price": 93000000.0,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Motor yang dikenal tangguh di segala medan ini kini hadir dengan tampilan lebih segar dan teknologi konektivitas yang lebih pintar.",
+          "Pembaruan yang paling mencolok pada model 2026 adalah hadirnya pilihan warna baru bernama Atacama Brown (Cokelat Metalik)."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "b559742d1be6",

@@ -1162,7 +1162,26 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "TVS Ronin 225 Midnight Blue",
+        "key": "tvs|ronin225midnightblue",
+        "specs": {
+          "price": 42500000.0,
+          "engine": "250 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Peluncuran warna baru Midnight Blue ini tidak hanya sekadar ganti cat, tetapi juga menghadirkan tiga pembaruan fungsional pada varian tertinggi (Top Variant/TD).",
+          "Dengan tiga ubahan fungsional dan paket fitur yang tetap melimpah, Ronin Midnight Blue layak menjadi pertimbangan di kelasnya."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "516890422689",
@@ -1187,7 +1206,27 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "TVS Midnight Blue",
+        "key": "tvs|midnightblue",
+        "specs": {
+          "price": 42500000.0,
+          "engine": "225 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Jika sebelumnya pilihan warna pada varian tertinggi (TD) hanya terpaku pada Nimbus Grey, kini TVS menghadirkan pilihan yang lebih berani dan premium melalui warna Midnight Blue.",
+          "Fitur Unggulan Varian Tertinggi Sebagai pengisi lini Top Variant, TVS Ronin Midnight Blue tetap mempertahankan paket fitur komplit yang menjadi nilai jual utamanya dibanding varian SS (Base) atau TD (Mid) standar: Dual Channel ABS: Menjamin keamanan pengereman di berbagai kondisi jalan.",
+          "Sentuhan Desain Baru: Lebih dari Sekadar Warna Penyegaran pada TVS Ronin Midnight Blue ini membawa tiga pembaruan desain yang cukup signifikan untuk meningkatkan kenyamanan serta tampilan visual motor: New Seat Design: TVS merevisi desain jok menjadi lebih panjang dan luas."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "89f9fb9a9950",
@@ -1570,7 +1609,25 @@
       "countries": [
         "Indonesia",
         "Malaysia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda CBR150R",
+        "key": "honda|cbr150r",
+        "specs": {
+          "price": null,
+          "engine": "150 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Ini jelas berbeda dari edisi sebelumnya, seperti CBR150R CyberRoar dengan tema macan dan warna pink mencolok, atau versi lawas dengan skema warna ala Oskadon (biru-kuning) yang super sporty."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "8f58cf714bb8",

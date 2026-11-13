@@ -218,7 +218,23 @@
       "countries": [
         "Indonesia",
         "Amerika Serikat"
-      ]
+      ],
+      "launch": {
+        "model": "Kawasaki Versys 900",
+        "key": "kawasaki|versys900",
+        "specs": {
+          "price": 222000000.0,
+          "engine": "948 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "2db0649752e3",
@@ -2190,7 +2206,25 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda CRF1100L Africa Twin",
+        "key": "honda|crf1100lafricatwin",
+        "specs": {
+          "price": 665000000.0,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Motor penjelajah sejati yang diandalkan para pecinta touring jarak jauh ini kini tampil makin segar dengan balutan warna, grafis, serta detail baru yang sukses memancarkan karakter Adventure Rally yang jauh lebih kuat dan berwibawa!"
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "c783aaeaff3a",
@@ -2506,7 +2540,23 @@
       "highlight": true,
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda Stylo 160 Violet",
+        "key": "honda|stylo160violet",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "aa881da2df09",

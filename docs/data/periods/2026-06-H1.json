@@ -320,7 +320,25 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Kawasaki KLX150 XPL",
+        "key": "kawasaki|klx150xpl",
+        "specs": {
+          "price": 44800000.0,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Kombinasi sasis ringan, handling lincah yang selama ini menjadi kekuatan utama keluarga KLX150, serta tambahan fungsionalitas komponen overland ini membuat KLX150 XPL menjadi paket yang menarik bagi para petualang."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "f075f6380a6c",
@@ -347,7 +365,23 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha MX King 150",
+        "key": "yamaha|mxking150",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "ee70846b0458",
@@ -805,7 +839,23 @@
       "countries": [
         "Indonesia",
         "Malaysia"
-      ]
+      ],
+      "launch": {
+        "model": "Kawasaki Esok",
+        "key": "kawasaki|esok",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "e365231c500f",
@@ -1755,7 +1805,25 @@
       "countries": [
         "Jepang",
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha XSR155 ABS",
+        "key": "yamaha|xsr155abs",
+        "specs": {
+          "price": 56000000.0,
+          "engine": "125 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Langkah ini diambil Yamaha demi mengakomodasi permintaan konsumen yang menginginkan motor berkarakter klasik namun memiliki tenaga lebih besar untuk kebutuhan touring jarak jauh dan legal untuk masuk ke jalan tol (akses jalan bebas hambatan di Jepang mensyaratkan mesin di atas 125cc)."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "5a1bc2b35635",

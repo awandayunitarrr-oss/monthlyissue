@@ -31,6 +31,7 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 
+import launches
 import summarize
 
 WIB = timezone(timedelta(hours=7))
@@ -113,6 +114,7 @@ class Article:
     brands: list[str] = field(default_factory=list)
     categories: list[str] = field(default_factory=list)
     countries: list[str] = field(default_factory=list)
+    spec_text: str = ""  # teks lengkap termasuk daftar/tabel spesifikasi (tidak disimpan)
     text: str = ""  # isi lengkap artikel, hanya dipakai untuk meringkas (tidak disimpan)
     points: list[str] = field(default_factory=list)
     summary_by: str = ""  # "ai" | "auto"
@@ -249,7 +251,7 @@ def collect_from_feed(src: dict, period: Period) -> list[Article]:
                         image = img["src"]
                 text = clean_text(body_html)
                 out.append(Article(title=title, url=link, source=src["name"], published=pub,
-                                   summary=shorten(text), image=image, text=text))
+                                   summary=shorten(text), image=image, text=text, spec_text=text))
             if len(seen) == before:  # halaman ini tidak membawa artikel baru → feed tidak berhalaman
                 break
             if oldest and oldest < start_dt:
@@ -357,8 +359,9 @@ def fetch_article(url: str, source: str) -> Article | None:
     paras = [p.get_text(" ", strip=True) for p in (body or soup).find_all("p")]
     paras = [p for p in paras if len(p) > 60]
     summary = shorten(" ".join(paras[:4])) or (meta("og:description", "description") or "")
+    full = " ".join(el.get_text(" ", strip=True) for el in (body or soup).find_all(["p", "li", "tr", "h2", "h3"]))
     return Article(title=clean_text(title), url=url, source=source, published=pub,
-                   summary=summary, image=meta("og:image"), text=" ".join(paras))
+                   summary=summary, image=meta("og:image"), text=" ".join(paras), spec_text=full)
 
 
 def enrich(article: Article) -> None:
@@ -369,6 +372,8 @@ def enrich(article: Article) -> None:
     if not full:
         return
     article.image = article.image or full.image
+    if len(full.spec_text) > len(article.spec_text):
+        article.spec_text = full.spec_text
     if len(full.text) > len(article.text):
         article.text = full.text
     if len(full.summary) > len(article.summary):
@@ -601,6 +606,12 @@ def run(period: Period, article_fetch: bool = True, pool: tuple[list[Article], d
             if prev.get("locked"):
                 d.update({k: prev[k] for k in ("summary", "points", "summary_by", "brands", "categories", "countries", "title") if k in prev})
                 d["locked"] = True
+        if launches.is_launch(d):
+            text = a.spec_text or a.text
+            if len(text) > 300 or not (prev or {}).get("launch"):
+                d["launch"] = launches.analyze(d, text)
+            else:
+                d["launch"] = prev["launch"]
         merged.append(d)
     merged.extend(existing.values())  # artikel lama yang tak muncul lagi tetap disimpan
     merged.sort(key=lambda x: x["published"], reverse=True)
@@ -726,6 +737,25 @@ def rebuild_index() -> None:
     (DATA_DIR / "index.json").write_text(
         json.dumps({"updated_at": datetime.now(WIB).isoformat(timespec="seconds"), "periods": periods},
                    ensure_ascii=False, indent=2), encoding="utf-8")
+    launches.build(PERIOD_DIR, DATA_DIR / "launches.json")
+
+
+def enrich_launches(force: bool = False) -> None:
+    """Buka ulang artikel peluncuran motor di Indonesia untuk mengambil spesifikasi & perbandingan."""
+    for p in sorted(PERIOD_DIR.glob("*.json")):
+        d = json.loads(p.read_text(encoding="utf-8"))
+        n = 0
+        for a in d["articles"]:
+            if not launches.is_launch(a) or (a.get("launch") and not force):
+                continue
+            time.sleep(0.4)
+            full = fetch_article(a["url"], a["source"])
+            text = (full.spec_text or full.text) if full else " ".join([a.get("summary", "")] + (a.get("points") or []))
+            a["launch"] = launches.analyze(a, text)
+            n += 1
+        p.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"{p.name}: {n} artikel rilis dianalisis", flush=True)
+    rebuild_index()
 
 
 def probe(urls: list[str]) -> None:
@@ -763,12 +793,17 @@ def main() -> None:
     ap.add_argument("--no-ai", action="store_true", help="jangan pakai ringkasan AI walau ANTHROPIC_API_KEY tersedia")
     ap.add_argument("--sources", help="backfill hanya sumber ini (nama dipisah koma), mis. \"Iwan Banaran\"")
     ap.add_argument("--probe", help="diagnostik: daftar URL dipisah spasi")
+    ap.add_argument("--enrich-launches", action="store_true", help="ambil spesifikasi & perbandingan untuk artikel rilis motor di Indonesia")
+    ap.add_argument("--force", action="store_true", help="dengan --enrich-launches: analisis ulang semua")
     ap.add_argument("--retag-countries", action="store_true", help="isi ulang tag negara semua periode (tanpa scraping)")
     ap.add_argument("--rehighlight", action="store_true", help="hitung ulang ★ highlight otomatis semua periode (tanpa scraping)")
     ap.add_argument("--reindex", action="store_true", help="hanya bangun ulang docs/data/index.json")
     args = ap.parse_args()
     if args.probe:
         probe(args.probe.split())
+        return
+    if args.enrich_launches:
+        enrich_launches(force=args.force)
         return
     if args.retag_countries:
         retag_countries_all()

@@ -1155,7 +1155,25 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda CT125",
+        "key": "honda|ct125",
+        "specs": {
+          "price": 83500000.0,
+          "engine": null,
+          "power": "6,76 KW",
+          "torque": "10,8 Nm"
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Motor bebek penjelajah bergenre Iconic Tracking Cub ini sekarang tampil makin menggoda dengan sentuhan warna baru yang siap bikin iman goyah, Cak!"
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "2c06aac6367a",
@@ -1209,7 +1227,25 @@
       "highlight_by": "auto",
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda CT125",
+        "key": "honda|ct125",
+        "specs": {
+          "price": 83500000.0,
+          "engine": "125 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "AHM menghadirkan warna baru Matte Fresco Brown yang melengkapi warna ikonik Glowing Red yang tetap dipertahankan."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "e6e29165b6af",
@@ -1724,7 +1760,23 @@
       "highlight_by": "auto",
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda ST125 Dax",
+        "key": "honda|st125dax",
+        "specs": {
+          "price": 84500000.0,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "97f15aa2ca70",

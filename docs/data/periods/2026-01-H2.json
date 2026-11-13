@@ -1018,7 +1018,25 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha NMAX",
+        "key": "yamaha|nmax",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Salah satu kejutan itu hadir dalam rupa livery special yang kini menghiasi dan mewarnai line-up MAXi Yamaha 2026."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "e996adf955a9",
@@ -1142,7 +1160,25 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha Fazzio",
+        "key": "yamaha|fazzio",
+        "specs": {
+          "price": 22270000.0,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Cakkk…Mengawali tahun 2026 dengan semangat baru, Yamaha Indonesia kembali menegaskan komitmennya dalam menghadirkan inovasi produk yang relevan dengan kebutuhan generasi masa kini, sekaligus menunjukkan konsistensinya dalam mendukung mobilitas anak muda yang aktif, penuh gaya, serta bebas mengekspresikan diri dan berkarya melalui sepeda motor sebagai representasi diri."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "4956101d8e45",
@@ -1168,7 +1204,26 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha Fazzio Hybrid",
+        "key": "yamaha|fazziohybrid",
+        "specs": {
+          "price": null,
+          "engine": "125 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Kalau sebelumnya kita sudah bahas soal penyegaran “kalcer” dari Grand Filano, kali ini saudaranya yang lebih playful nggak mau kalah.",
+          "Motor sekarang bukan cuma alat transport, tapi sudah jadi part of branding diri sendiri di jalanan."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "8e4ab4d7bda1",
@@ -1220,7 +1275,26 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha Grand Filano Hybrid",
+        "key": "yamaha|grandfilanohybrid",
+        "specs": {
+          "price": null,
+          "engine": "125 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Setelah tahun-tahun sebelumnya sukses besar dengan lini Classy Yamaha , mereka kembali tancap gas di segmen skutik retro-modern yang lagi hype banget.",
+          "Gaya hidup anak muda sekarang—atau yang sering kita sebut anak skena “Kalcer”—memang menuntut motor yang nggak cuma buat alat transportasi, tapi juga sebagai fashion statement ."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "77c0f2a8dc73",
@@ -1300,7 +1374,23 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha MX King",
+        "key": "yamaha|mxking",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "fae30fc631f9",
@@ -1401,7 +1491,25 @@
         "Indonesia",
         "Italia",
         "Belanda"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha 70th Anniversary",
+        "key": "yamaha|70thanniversary",
+        "specs": {
+          "price": 28325000.0,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Setelah sebelumnya kita melihat livery spesial ini nampang di motor M1 Fabio Quartararo di MotoGP Belanda 2025 serta jajaran R-Series di EICMA, kini giliran konsumen di Indonesia yang bisa memilikinya secara resmi."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "80b14f7ff2c2",
@@ -1632,7 +1740,25 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha TMAX",
+        "key": "yamaha|tmax",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "TMAX 2026 sekarang dibekali teknologi Brake Control (BC) yang disokong oleh IMU (Inertial Measurement Unit) 6-axis."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "490ca1947da5",
@@ -1738,7 +1864,23 @@
       "highlight_by": "auto",
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha TMAX",
+        "key": "yamaha|tmax",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "2699df3a77d6",
@@ -1841,7 +1983,25 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha WR155R",
+        "key": "yamaha|wr155r",
+        "specs": {
+          "price": 40275000.0,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Kali ini bukan sekadar ganti warna, tapi ada perubahan pada desain body work yang membuatnya tampil lebih gahar."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "66bed230a2a9",
@@ -2046,7 +2206,27 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha Lexi LX 155",
+        "key": "yamaha|lexilx155",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Tipe Tertinggi S ABS: Kini Hadir dengan Ceramic Grey Jika sebelumnya kita mengenal tipe tertinggi (S ABS) dengan kelir Magma Black, kini Yamaha menggantinya dengan warna Ceramic Grey.",
+          "Setelah pekan lalu sukses memberikan penyegaran pada XMAX Connected, kini giliran “adiknya” di keluarga MAXI, yakni Yamaha Lexi LX 155 , yang mendapatkan sentuhan refreshment warna dan grafis baru untuk semua variannya.",
+          "Kini, pemilik Lexi bisa merasa setara dengan pemilik XMAX TechMAX secara skema warna."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "b21a961084d6",
@@ -2247,7 +2427,27 @@
       "countries": [
         "Indonesia",
         "Jepang"
-      ]
+      ],
+      "launch": {
+        "model": "Suzuki GIXXER 250",
+        "key": "suzuki|gixxer250",
+        "specs": {
+          "price": 51000000.0,
+          "engine": "249 cc",
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Cakkk…Suzuki resmi mengumumkan pembaruan untuk salah satu motor naked sport paling efisien di kelasnya, Suzuki Gixxer 250 model 2026 .",
+          "Meskipun secara teknis tidak mengalami perubahan mesin yang masif, fokus utama pada tahun model ini adalah penyegaran visual yang memberikan kesan lebih premium dan agresif bagi pengendara urban.",
+          "Gixxer 250 tetap mempertahankan jati dirinya sebagai motor yang mengedepankan fungsionalitas, torsi melimpah, dan teknologi pendingin oli (SOCS) yang unik, namun kini hadir dengan skema warna yang lebih segar."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "724bd3897933",

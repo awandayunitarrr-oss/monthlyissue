@@ -1149,7 +1149,25 @@
       "highlight_by": "auto",
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Honda Stylo 160",
+        "key": "honda|stylo160",
+        "specs": {
+          "price": null,
+          "engine": "160 cc",
+          "power": "11,3 KW",
+          "torque": "13,8 Nm"
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Detail Penyegaran Warna Tipe ABS : Kehadiran warna anyar Royal Violet melengkapi opsi warna elegan yang sudah ada sebelumnya, yaitu Royal Blue, Royal Brown, dan Royal Green."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "4a6c09a7081c",

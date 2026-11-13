@@ -1941,7 +1941,23 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha Fazzio SE Sunset Blue",
+        "key": "yamaha|fazziosesunsetblue",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "ec4a9ea8afac",
@@ -1991,7 +2007,26 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Yamaha Fazzio",
+        "key": "yamaha|fazzio",
+        "specs": {
+          "price": 23150000.0,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Setelah sebelumnya sukses menarik perhatian para pecinta motor retro-modern lewat edisi terbatas Fazzio Starry Night , PT Yamaha Indonesia Motor Mfg.",
+          "Melengkapi nuansa skena yang diusung, peluncuran Fazzio Sunset Blue ini juga dibarengi dengan kolaborasi kreatif bersama band indie asal Bandung, Alkateri."
+        ],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "eb339787953e",
@@ -2347,7 +2382,23 @@
       "highlight": true,
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "BMW Motorrad F450 GS",
+        "key": "bmw motorrad|f450gs",
+        "specs": {
+          "price": 418900000.0,
+          "engine": null,
+          "power": "145 HP",
+          "torque": "149 Nm"
+        },
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-13T01:32:59"
+      }
     },
     {
       "id": "9db4630554d8",

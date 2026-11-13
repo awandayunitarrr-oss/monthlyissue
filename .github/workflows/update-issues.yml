@@ -17,6 +17,10 @@ on:
         description: "Opsional, hanya untuk rentang: batasi ke sumber tertentu, mis. Iwan Banaran"
         required: false
         default: ""
+      task:
+        description: "Opsional, pemeliharaan data: enrich-launches | retag-countries | rehighlight"
+        required: false
+        default: ""
       probe:
         description: "Diagnostik (opsional): daftar URL dipisah spasi; tidak mengubah data"
         required: false
@@ -70,7 +74,9 @@ jobs:
           # opsional: bila secret ini diisi, ringkasan ditulis oleh AI
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          if [ -n "${{ inputs.probe }}" ]; then
+          if [ -n "${{ inputs.task }}" ]; then
+            python scraper/fetch_issues.py "--${{ inputs.task }}"
+          elif [ -n "${{ inputs.probe }}" ]; then
             python scraper/fetch_issues.py --probe "${{ inputs.probe }}"
           elif [ -n "${{ inputs.period }}" ]; then
             python scraper/fetch_issues.py --period "${{ inputs.period }}" --sources "${{ inputs.sources }}"
