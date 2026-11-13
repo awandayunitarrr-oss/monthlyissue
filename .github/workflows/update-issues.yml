@@ -93,7 +93,11 @@ jobs:
           git add docs/data
           git diff --cached --quiet && { echo "Tidak ada perubahan"; exit 0; }
           git commit -m "data: update motorcycle issue $(TZ=Asia/Jakarta date +%Y-%m-%d)"
-          git pull --rebase
+          # run lain bisa saja sudah menyimpan data: utamakan hasil run ini, lalu bangun ulang file turunan
+          git pull --rebase -X theirs || { git rebase --abort; git pull --no-rebase -X ours --no-edit; }
+          python scraper/fetch_issues.py --reindex
+          git add docs/data
+          git diff --cached --quiet || git commit -m "data: reindex"
           git push
     outputs:
       ran: ${{ steps.gate.outputs.run }}
@@ -119,7 +123,10 @@ jobs:
           git add docs/data
           git diff --cached --quiet && { echo "Tidak ada perubahan"; exit 0; }
           git commit -m "data: pembanding manual diperbarui"
-          git pull --rebase
+          git pull --rebase -X theirs || { git rebase --abort; git pull --no-rebase -X ours --no-edit; }
+          python scraper/fetch_issues.py --reindex
+          git add docs/data
+          git diff --cached --quiet || git commit -m "data: reindex"
           git push
 
   deploy:
