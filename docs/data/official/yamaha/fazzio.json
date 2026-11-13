@@ -113,6 +113,34 @@
           "notes": []
         }
       ],
+      "spec_table": {
+        "Tipe Mesin": "Pendingin Udara, 4 Langkah, SOHC",
+        "Diameter x Langkah": "52.4 mm x 57.9 mm",
+        "Volume Silinder": "124.86 cc",
+        "Perbandingan Kompresi": "11.0: 1",
+        "Daya Maksimum": "6.2 kW / 6500 rpm",
+        "Torsi Maksimum": "10.6 Nm / 4500 rpm",
+        "Sistem Starter": "Elektrik",
+        "Sistem Bahan Bakar": "Fuel Injection",
+        "Tipe Kopling": "Kopling Sentrifungal, Kering",
+        "Tipe Transmisi": "V-Belt Otomatis",
+        "Tipe Rangka": "Underbone",
+        "Suspensi Depan": "Telescopic",
+        "Suspensi Belakang": "Unit Swing",
+        "Ban Depan": "110/70-12  47L",
+        "Ban Belakang": "110/70-12  47L",
+        "Rem Depan": "Cakram",
+        "Rem Belakang": "Tromol",
+        "P x L x T": "1820 mm x 685 mm x 1125 mm",
+        "Jarak Sumbu Roda": "1280 mm",
+        "Jarak Terendah ke Tanah": "135 mm",
+        "Tinggi Tempat Duduk": "750 mm",
+        "Berat Isi": "95 kg",
+        "Kapasitas Tangki Bensin": "5.1 L",
+        "Tipe Busi": "CR6HSA",
+        "Sistem Pengapian": "TCI",
+        "Tipe Battery": "YTZ6V"
+      },
       "date": "2026-11-13",
       "source": "official"
     }

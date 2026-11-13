@@ -102,6 +102,34 @@
           "notes": []
         }
       ],
+      "spec_table": {
+        "Tipe Mesin": "4 Langkah, berpendingin cairan, SOHC 4 katup, VVA",
+        "Diameter x Langkah": "58 x 58,7 mm",
+        "Volume Silinder": "155,09 cc",
+        "Daya Maksimum": "11,3 kW (15,4PS) / 8000 rpm",
+        "Torsi Maksimum": "14,2 Nm / 6500 rpm",
+        "Sistem Starter": "Electric Starter",
+        "Sistem Bahan Bakar": "Fuel Injection",
+        "Tipe Kopling": "Kopling sentrifugal, Kering",
+        "Tipe Transmisi": "V-Belt Otomatis / YECVT (TURBO & TURBO Ultimate)",
+        "Perbandingan Kompresi": "11,6 : 1",
+        "Tipe Rangka": "Backbone",
+        "Suspensi Depan": "Telescopic with 30 mm Inner Tubes",
+        "Suspensi Belakang": "Unit Swing",
+        "Ban Depan": "110/80-14/C 53P",
+        "Ban Belakang": "140/70-14/C 62P",
+        "Rem Depan": "Disc Brake",
+        "Rem Belakang": "Disc Brake",
+        "Kapasitas Tangki Bensin": "5,5 L",
+        "P x L x T": "1980mm x 710mm x 1170mm",
+        "Jarak Sumbu Roda": "1350 mm",
+        "Jarak Terendah ke Tanah": "145 mm",
+        "Tinggi Tempat Duduk": "790 mm",
+        "Berat Isi": "130 Kg (TURBO & TURBO Ultimate), 127 Kg (CyberCity), 124 Kg (Standard)",
+        "Sistem Pengapian": "TCI",
+        "Tipe Battery": "YTZ7V (TURBO & TURBO Ultimate), YTZ6V (Standard & CyberCity)",
+        "Tipe Busi": "NGK/CPR8EA-9"
+      },
       "date": "2026-11-13",
       "source": "official"
     }

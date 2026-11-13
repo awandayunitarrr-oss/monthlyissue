@@ -31,6 +31,33 @@
           "notes": []
         }
       ],
+      "spec_table": {
+        "Tipe Mesin": "Air cooled 4-stroke, SOHC",
+        "Diameter x Langkah": "50,0 x 57,9 mm",
+        "Perbandingan Kompresi": "9,3 : 1",
+        "Daya Maksimum": "7,4 kW / 7750 rpm",
+        "Torsi Maksimum": "9,8 Nm / 6750 rpm",
+        "Sistem Starter": "Elektrik Starter & Kick Starter",
+        "Sistem Bahan Bakar": "Fuel Injection",
+        "Tipe Kopling": "Basah, Multiplat, Centrifugal automatic",
+        "Tipe Transmisi": "Constant mesh, 4-kecepatan",
+        "Tipe Rangka": "Backbone",
+        "Suspensi Depan": "Teleskopik",
+        "Suspensi Belakang": "Swing Arm",
+        "Ban Depan": "70/90-17 M/C (38P)",
+        "Ban Belakang": "80/90-17 M/C (44P)",
+        "Rem Depan": "Single Disc Brake",
+        "Rem Belakang": "Drum Brake",
+        "P x L x T": "1935mm x 680mm x 1065mm",
+        "Jarak Sumbu Roda": "1240mm",
+        "Jarak Terendah ke Tanah": "150mm",
+        "Tinggi Tempat Duduk": "765mm",
+        "Berat Isi": "101 kg (Spoke wheel) ; 102 kg  (Cast wheel)",
+        "Kapasitas Tangki Bensin": "4,1 L",
+        "Sistem Pengapian": "TCI",
+        "Tipe Battery": "YTZ4V/GTZ4V",
+        "Tipe Busi": "NGK/CR6HSA"
+      },
       "date": "2026-11-13",
       "source": "official"
     }

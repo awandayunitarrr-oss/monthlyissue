@@ -69,6 +69,34 @@
           "notes": []
         }
       ],
+      "spec_table": {
+        "Volume Silinder": "155cc",
+        "Diameter x Langkah": "58,0 mm x 58.7 mm",
+        "Perbandingan Kompresi": "11.6 : 1",
+        "Daya Maksimum": "11.3 kW / 8000 rpm",
+        "Torsi Maksimum": "13.9Nm / 6500rpm",
+        "Sistem Starter": "Electric Starter",
+        "Sistem Bahan Bakar": "FI (Fuel Injection)",
+        "Tipe Kopling": "Kering, Centrifugal Automatic",
+        "Tipe Transmisi": "V-belt Automatic",
+        "Tipe Mesin": "Liquid cooled 4-stroke, SOHC",
+        "Rem Depan": "Disc",
+        "Ban Belakang": "140/70-14M/C 62P",
+        "Rem Belakang": "Drum",
+        "Tipe Rangka": "Underbone",
+        "Suspensi Depan": "Teleskopik",
+        "Suspensi Belakang": "Unit Swing",
+        "Ban Depan": "110/80-14M/C 53P",
+        "P x L x T": "1980mm X 700mm X  1150mm",
+        "Jarak Sumbu Roda": "1350 mm",
+        "Jarak Terendah ke Tanah": "143 mm",
+        "Tinggi Tempat Duduk": "790 mm",
+        "Berat Isi": "125 kg (ABS Version), 122 Kg (Standard Version)",
+        "Kapasitas Tangki Bensin": "5.5 L",
+        "Sistem Pengapian": "TCI",
+        "Tipe Battery": "YTZ7V (ABS Version), NTZ6V (Standard Version)",
+        "Tipe Busi": "NGK/CPR8EA-9"
+      },
       "date": "2026-11-13",
       "source": "official"
     }

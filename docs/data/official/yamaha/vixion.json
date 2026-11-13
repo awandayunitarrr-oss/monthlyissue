@@ -50,6 +50,34 @@
           "notes": []
         }
       ],
+      "spec_table": {
+        "Sistem Bahan Bakar": "Fuel Injection",
+        "Tipe Kopling": "Wet Type Multi-Plate Clutch ; Assist & Slipper Clutch",
+        "Tipe Transmisi": "Manual",
+        "Tipe Mesin": "Liquid Cooled 4-Stroke, SOHC, 4 Valve, VVA (Vixion R), Liquid Cooled 4-stroke, SOHC (Vixion)",
+        "Diameter x Langkah": "58 x 58.7 mm (Vixion R), 57 x 58.7 mm (Vixion)",
+        "Perbandingan Kompresi": "11.6±0.4 : 1 (Vixion R), 10.4 : 1 (Vixion)",
+        "Volume Silinder": "155.1 cc (Vixion R), 149.8 cc (Vixion)",
+        "Daya Maksimum": "14.2 kW / 10000 rpm (Vixion R), 12.2 kW / 8500 rpm (Vixion)",
+        "Torsi Maksimum": "14.7 Nm / 8500 rpm (Vixion R), 14.5 Nm / 7500 rpm (Vixion)",
+        "Sistem Starter": "Electric Starter",
+        "Suspensi Depan": "Teleskopic",
+        "Suspensi Belakang": "Swing Arm",
+        "Ban Depan": "90/80-17M/C 46P",
+        "Ban Belakang": "130/70-17M/C 62P (Vixion R), 120/70-17M/C 58P (Vixion)",
+        "Rem Depan": "Disc Brake",
+        "Rem Belakang": "Disc Brake",
+        "Tipe Rangka": "Deltabox",
+        "P x L x T": "1950 x 720 x 1025 mm (Vixion R), 1955 x 720 x 1025 mm (Vixion)",
+        "Jarak Sumbu Roda": "1320 mm (Vixion R), 1295 mm (Vixion)",
+        "Jarak Terendah ke Tanah": "165 mm",
+        "Tinggi Tempat Duduk": "795 mm",
+        "Berat Isi": "131 kg (Vixion R), 132 Kg (Vixion)",
+        "Kapasitas Tangki Bensin": "11 L (Vixion R), 12 L (Vixion)",
+        "Tipe Busi": "NGK/MR8E9 (Vixion R), NGK/CR8E (Vixion)",
+        "Sistem Pengapian": "TCI",
+        "Tipe Battery": "YTZ4V/GTZ4V"
+      },
       "date": "2026-11-13",
       "source": "official"
     }

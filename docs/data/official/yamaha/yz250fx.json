@@ -19,6 +19,16 @@
           "notes": []
         }
       ],
+      "spec_table": {
+        "Tipe Mesin": "250cc liquid-cooled DOHC 4-stroke; 4 titanium valves",
+        "Diameter x Langkah": "77.0mm × 53.6mm",
+        "Perbandingan Kompresi": "13.8:1",
+        "Tinggi Tempat Duduk": "37.6 in (955 mm)",
+        "Jarak Sumbu Roda": "58.3 in (1481 mm)",
+        "Sistem Pengapian": "TCI/Transistor",
+        "Tipe Battery": "BR98",
+        "Tipe Busi": "LMAR9E-J"
+      },
       "date": "2026-11-13",
       "source": "official"
     }

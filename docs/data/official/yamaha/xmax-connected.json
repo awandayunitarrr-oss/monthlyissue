@@ -63,6 +63,34 @@
           "notes": []
         }
       ],
+      "spec_table": {
+        "Tipe Mesin": "Liquid Cooled, 4-Stroke, SOHC, 4 Valves",
+        "Volume Silinder": "249.8 cc",
+        "Diameter x Langkah": "70.0 mm X 64.9 mm",
+        "Perbandingan Kompresi": "10.5 : 1",
+        "Daya Maksimum": "16.8kW / 7.000 rpm",
+        "Torsi Maksimum": "24.3 Nm / 5.500 rpm",
+        "Sistem Starter": "Electric Starter",
+        "Sistem Bahan Bakar": "Fuel Injection",
+        "Tipe Kopling": "Dry, Centrifugal Automatic",
+        "Tipe Transmisi": "V-belt Automatic",
+        "Ban Depan": "120/70-15M/C 56P",
+        "Ban Belakang": "140/70-14M/C 62P",
+        "Rem Depan": "Disc Brake",
+        "Rem Belakang": "Disc Brake",
+        "Tipe Rangka": "Backbone",
+        "Suspensi Depan": "Telescopic Fork",
+        "Suspensi Belakang": "Unit Swing",
+        "P x L x T": "2.180 mm x 795 mm x 1.5050 mm",
+        "Jarak Sumbu Roda": "1.540 mm",
+        "Jarak Terendah ke Tanah": "135 mm",
+        "Tinggi Tempat Duduk": "795 mm",
+        "Berat Isi": "184 kg",
+        "Kapasitas Tangki Bensin": "13 L",
+        "Tipe Battery": "GTZ8V",
+        "Tipe Busi": "NGK/ LMAR8A-9",
+        "Sistem Pengapian": "TCI"
+      },
       "date": "2026-11-13",
       "source": "official"
     }

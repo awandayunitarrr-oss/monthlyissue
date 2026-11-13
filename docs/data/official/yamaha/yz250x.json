@@ -19,6 +19,15 @@
           "notes": []
         }
       ],
+      "spec_table": {
+        "Tipe Mesin": "249cc liquid-cooled 2-stroke; reed-valve inducted",
+        "Diameter x Langkah": "66.4mm × 72.0mm",
+        "Perbandingan Kompresi": "7.9 -9.4:1",
+        "Tinggi Tempat Duduk": "38.2 in (970 mm)",
+        "Jarak Sumbu Roda": "58.5 in (1486 mm)",
+        "Sistem Pengapian": "CDI",
+        "Tipe Busi": "BR8EG"
+      },
       "date": "2026-11-13",
       "source": "official"
     }

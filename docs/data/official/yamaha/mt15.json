@@ -25,6 +25,33 @@
           "notes": []
         }
       ],
+      "spec_table": {
+        "Sistem Bahan Bakar": "Fuel Injection",
+        "Volume Silinder": "155,09 cc",
+        "Tipe Kopling": "Tipe Multi-Plate Basah; Assist & Slipper Clutch",
+        "Tipe Transmisi": "Manual",
+        "Tipe Mesin": "Pendingin Cairan, 4-Langkah SOHC, 4 Valve, VVA",
+        "Diameter x Langkah": "58,0 x 58,7 mm",
+        "Perbandingan Kompresi": "11,6 : 1",
+        "Daya Maksimum": "14,2 kW/ 10.000 rpm",
+        "Torsi Maksimum": "14,7 Nm/ 8.500 rpm",
+        "Sistem Starter": "Elektrik",
+        "Suspensi Belakang": "Link Monoshock",
+        "Ban Depan": "110/70-17M/C (54S)",
+        "Ban Belakang": "140/70-17M/C (66S)",
+        "Rem Depan": "Disc Brake",
+        "Rem Belakang": "Disc Brake",
+        "Tipe Rangka": "Deltabox",
+        "Suspensi Depan": "Telescopic Fork (Inverted)",
+        "P x L x T": "1965 X 800 X 1065 mm",
+        "Jarak Sumbu Roda": "1335 mm",
+        "Jarak Terendah ke Tanah": "155 mm",
+        "Tinggi Tempat Duduk": "810 mm",
+        "Berat Isi": "133 kg",
+        "Sistem Pengapian": "TCI/Transistor",
+        "Tipe Battery": "YTZ4V",
+        "Tipe Busi": "NGK/MR8E-9"
+      },
       "date": "2026-11-13",
       "source": "official"
     }

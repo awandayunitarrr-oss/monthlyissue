@@ -57,6 +57,34 @@
           "notes": []
         }
       ],
+      "spec_table": {
+        "Tipe Mesin": "SOHC",
+        "Diameter x Langkah": "58,0mm x 58,7mm",
+        "Volume Silinder": "155,09 cc",
+        "Perbandingan Kompresi": "11,6 : 1",
+        "Daya Maksimum": "11,3 kW / 8.000 rpm",
+        "Torsi Maksimum": "14,2 Nm / 6.500 rpm",
+        "Sistem Starter": "Electric Starter",
+        "Sistem Bahan Bakar": "Injeksi",
+        "Tipe Kopling": "Single Dry Clucth",
+        "Tipe Transmisi": "Automatic",
+        "Ban Depan": "90/90-14M/C 46P",
+        "Ban Belakang": "100/90-14M/C 57P",
+        "Rem Depan": "Disc Brake",
+        "Rem Belakang": "Drum Brake",
+        "Tipe Rangka": "Underbone",
+        "Suspensi Depan": "Telescopic",
+        "Suspensi Belakang": "Unit Swing",
+        "P x L x T": "1970mm x 720mm x 1135mm",
+        "Jarak Sumbu Roda": "1350mm",
+        "Jarak Terendah ke Tanah": "135mm",
+        "Tinggi Tempat Duduk": "770mm",
+        "Berat Isi": "Standard: 116kg ; S Version: 117kg ; Connected/ABS: 118kg",
+        "Kapasitas Tangki Bensin": "4,2 L",
+        "Tipe Battery": "YTZ6V",
+        "Tipe Busi": "NGK/CPR8EA-9",
+        "Sistem Pengapian": "TCI/ Transistor"
+      },
       "date": "2026-11-13",
       "source": "official"
     }

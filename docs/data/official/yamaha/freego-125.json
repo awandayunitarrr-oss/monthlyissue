@@ -56,6 +56,34 @@
           "notes": []
         }
       ],
+      "spec_table": {
+        "Tipe Mesin": "Air Cooled 4-Stroke,SOHC",
+        "Diameter x Langkah": "52,4 x 57,9 mm",
+        "Perbandingan Kompresi": "9,5 : 1",
+        "Volume Silinder": "125 cc",
+        "Daya Maksimum": "7,0 kW / 8000 rpm",
+        "Torsi Maksimum": "9,5 Nm/ 5500 rpm",
+        "Sistem Starter": "Electric Starter",
+        "Sistem Bahan Bakar": "Fuel Injection",
+        "Tipe Kopling": "Dry, Centrifugal Automatic",
+        "Tipe Transmisi": "V-belt Automatic",
+        "Tipe Rangka": "Underbone",
+        "Suspensi Depan": "Telescopic Fork",
+        "Suspensi Belakang": "Unit Swing",
+        "Ban Depan": "100/90 - 12M/C 59J - Tubeless",
+        "Ban Belakang": "110/90-12M/C 64L - Tubeless",
+        "Rem Depan": "Disc Brake",
+        "Rem Belakang": "Drum Brake",
+        "P x L x T": "1905 x 690 x 1115 mm",
+        "Jarak Sumbu Roda": "1275 mm",
+        "Tinggi Tempat Duduk": "780 mm",
+        "Berat Isi": "101 Kg (FreeGo 125), 102 Kg (FreeGo 125 Connected)",
+        "Kapasitas Tangki Bensin": "4,2 L",
+        "Jarak Terendah ke Tanah": "135 mm",
+        "Tipe Busi": "NGK/ CR6HSA",
+        "Sistem Pengapian": "TCI",
+        "Tipe Battery": "YTZ4V, GTZ4V, NTZ4V (FreeGo 125), YTZ6V (FreeGo 125 Connected)"
+      },
       "date": "2026-11-13",
       "source": "official"
     }

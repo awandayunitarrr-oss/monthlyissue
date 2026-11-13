@@ -19,6 +19,15 @@
           "notes": []
         }
       ],
+      "spec_table": {
+        "Tipe Mesin": "125cc liquid-cooled 2-stroke; reed-valve inducted",
+        "Diameter x Langkah": "54.0 mm x 54.5 mm",
+        "Perbandingan Kompresi": "7.4 - 8.8:1",
+        "Tinggi Tempat Duduk": "37.6 in (955 mm)",
+        "Jarak Sumbu Roda": "57.3 in (1455 mm)",
+        "Sistem Pengapian": "CDI",
+        "Tipe Busi": "BR9EVX"
+      },
       "date": "2026-11-13",
       "source": "official"
     }

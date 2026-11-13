@@ -31,6 +31,33 @@
           "notes": []
         }
       ],
+      "spec_table": {
+        "Tipe Mesin": "4 Langkah, 2 Valve SOHC, Berpendingin Udara, BlueCore",
+        "Diameter x Langkah": "52,4 x 57,9 mm",
+        "Perbandingan Kompresi": "9,5 : 1",
+        "Volume Silinder": "125 cc",
+        "Daya Maksimum": "7,0 Kw / 8000 rpm",
+        "Torsi Maksimum": "9,6 N.m / 5500 rpm",
+        "Sistem Starter": "Electric Starter dan Kick Starter",
+        "Sistem Bahan Bakar": "Fuel Injection (FI)",
+        "Tipe Kopling": "Dry Centrifugal, Automatic",
+        "Ban Depan": "80/80-14MC 43P Tubeless",
+        "Ban Belakang": "100/70-14MC 51P Tubeless",
+        "Rem Depan": "Single Disc Brake",
+        "Rem Belakang": "Drum Brake",
+        "Suspensi Belakang": "Unit Swing",
+        "Tipe Rangka": "Underbone",
+        "Suspensi Depan": "Teleskopik",
+        "P x L x T": "1.860 mm x 740 mm x 1.070 mm",
+        "Jarak Sumbu Roda": "1.260 mm",
+        "Jarak Terendah ke Tanah": "135 mm",
+        "Tinggi Tempat Duduk": "760 mm",
+        "Berat Isi": "98 kg",
+        "Kapasitas Tangki Bensin": "4,2 L",
+        "Sistem Pengapian": "TCI (Transistor Control Ignition)",
+        "Tipe Battery": "YTZ4V / GTZ4V",
+        "Tipe Busi": "NGK / CR6HSA"
+      },
       "date": "2026-11-13",
       "source": "official"
     }

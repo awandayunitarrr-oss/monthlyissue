@@ -57,6 +57,34 @@
           "notes": []
         }
       ],
+      "spec_table": {
+        "Sistem Bahan Bakar": "Fuel Injection",
+        "Tipe Kopling": "Basah, Kopling Manual , Multiplat",
+        "Tipe Transmisi": "Constant Mesh, 5-kecepatan",
+        "Tipe Mesin": "Berpendingin cairan, 4 langkah, SOHC, 4 Klep",
+        "Diameter x Langkah": "57,0 x 58,7 mm",
+        "Perbandingan Kompresi": "10,4 : 1",
+        "Volume Silinder": "149,79 cc",
+        "Daya Maksimum": "11,3 kW / 8500 rpm",
+        "Torsi Maksimum": "13,8 Nm / 7000 rpm",
+        "Sistem Starter": "Elektrik Starter & Kick Starter",
+        "Tipe Rangka": "Backbone",
+        "Suspensi Depan": "Teleskopik",
+        "Suspensi Belakang": "Monoshock",
+        "Ban Depan": "90/80-17M/C (46P)",
+        "Ban Belakang": "120/70-17M/C (58P)",
+        "Rem Depan": "Rem Cakram",
+        "Rem Belakang": "Rem Cakram",
+        "P x L x T": "1985 mm X 670 mm X 1100 mm",
+        "Jarak Sumbu Roda": "1290 mm",
+        "Jarak Terendah ke Tanah": "155 mm",
+        "Tinggi Tempat Duduk": "795 mm",
+        "Berat Isi": "118 kg",
+        "Kapasitas Tangki Bensin": "4,2 L",
+        "Tipe Busi": "NGK/CR8E",
+        "Sistem Pengapian": "TCI",
+        "Tipe Battery": "GTZ4V / YTZ4V"
+      },
       "date": "2026-11-13",
       "source": "official"
     }
