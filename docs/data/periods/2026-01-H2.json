@@ -1831,31 +1831,227 @@
         },
         "compare": [
           "Kalau sebelumnya kita sudah bahas soal penyegaran “kalcer” dari Grand Filano, kali ini saudaranya yang lebih playful nggak mau kalah.",
-          "Motor sekarang bukan cuma alat transport, tapi sudah jadi part of branding diri sendiri di jalanan."
+          "Motor sekarang bukan cuma alat transport, tapi sudah jadi part of branding diri sendiri di jalanan.",
+          "Grafis barunya kini lebih bernuansa pastel yang vibrant ."
         ],
-        "analyzed_at": "2026-11-13T03:01:02",
-        "full": false,
+        "analyzed_at": "2026-11-15T21:24:34",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/01/23/yamaha-rilis-fazzio-hybrid-2026-new-crazee-color-warna-go-purple-nya-bikin-skena-makin-berwarna/?utm_source=rss&utm_medium=rss&utm_campaign=yamaha-rilis-fazzio-hybrid-2026-new-crazee-color-warna-go-purple-nya-bikin-skena-makin-berwarna",
+          "intro": "Kalau sebelumnya kita sudah bahas soal penyegaran “kalcer” dari Grand Filano, kali ini saudaranya yang lebih playful nggak mau kalah. Yap, di awal tahun 2026 ini, PT Yamaha Indonesia Motor Manufacturing (YIMM) kembali menggebrak dengan merilis warna dan grafis terbaru untuk si “White Canvas”, Yamaha Fazzio Hybrid !",
+          "variants": [
+            {
+              "name": "Hybrid Lux",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Greenish Gray",
+                  "new": null,
+                  "image": "https://cdn.tmcblog.com/2026/01/Fazzio-Hybrid-Lux-Greenish-Gray.webp"
+                }
+              ],
+              "notes": [
+                "Untuk varian tertinggi (Lux), ada warna baru Greenish Gray . Ini adalah kombinasi hijau lembut dan abu-abu dengan tampilan yang clean . Kesannya effortless stylish alias keren tanpa harus berusaha keras. Yang spesial, logo Fazzio di bodi samping berwarna abu-abu, memberikan kesan estetis dan modern."
+              ]
+            },
+            {
+              "name": "Hybrid Neo",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Go Purple",
+                  "new": null,
+                  "image": "https://cdn.tmcblog.com/2026/01/Fazzio-Go-Purple.webp"
+                }
+              ],
+              "notes": [
+                "Ini dia yang paling mencolok! Go Purple hadir dengan ungu pekat yang dipadukan grafis nuansa pastel hitam, ungu, dan putih. Warnanya bener-bener vibrant dan merepresentasikan karakter anak muda yang up to date sama tren. Cocok buat kamu yang nggak takut tampil beda."
+              ]
+            },
+            {
+              "name": "Neo",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Pink",
+                  "new": null,
+                  "image": "https://cdn.tmcblog.com/2026/01/Fazzio-Hybrid-Neo-Pink.webp"
+                },
+                {
+                  "name": "White",
+                  "new": null,
+                  "image": "https://cdn.tmcblog.com/2026/01/Fazzio-Hybrid-Blue-White.webp"
+                },
+                {
+                  "name": "Green",
+                  "new": null,
+                  "image": "https://cdn.tmcblog.com/2026/01/Fazzio-Hybrid-Neo-Green-696x385.webp"
+                }
+              ],
+              "notes": [
+                "Nggak cuma ganti warna dasar, Yamaha juga memberikan update grafis pada area F-Bar (bagian lonjong di bodi samping) untuk varian Neo warna Pink Mauve, White, dan Green ."
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Filosofi White",
+            "Blue White",
+            "Black Red",
+            "Biru",
+            "Hitam",
+            "Blue",
+            "Greenish Gray",
+            "Go Purple",
+            "Pink",
+            "White",
+            "Green",
+            "Grayceful Pink"
+          ],
+          "n_images": 9,
+          "image_keys": [
+            "fazzio hybrid neo green fazzio hybrid neo green 696x385 webp",
+            "fazzio hybrid new crazee color webp",
+            "fazzio hybrid lux greenish gray webp",
+            "fazzio go purple webp",
+            "fazzio hybrid blue white webp",
+            "fazzio hybrid black red webp",
+            "fazzio hybrid neo white webp",
+            "fazzio hybrid neo green webp",
+            "fazzio hybrid neo pink webp"
+          ]
+        },
         "prev_detail": null,
-        "prev_official": null,
-        "now_official": {
+        "prev_official": {
           "name": "Yamaha Fazzio",
           "url": "https://www.yamaha-motor.co.id/product/fazzio/",
           "variants": [
             {
-              "name": "Special Edition Sunset Blue",
-              "price": 23150000.0,
+              "name": "Hybrid Lux",
+              "price": 24745000.0,
               "colors": [
                 {
-                  "name": "Sunset Blue",
-                  "hex": "#b2e0f2",
-                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026080316375451807H45960.png",
+                  "name": "Titan",
+                  "hex": "#c9c9cd",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024101111103535560K68930.png",
+                  "new": null
+                },
+                {
+                  "name": "White Pearl",
+                  "hex": "#f6f7fd",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024101111100398609D40409.png",
                   "new": null
                 }
               ],
               "notes": []
             },
             {
-              "name": "Special Edition Starry Night",
+              "name": "Hybrid Neo",
+              "price": 24055000.0,
+              "colors": [
+                {
+                  "name": "Pink Mauve",
+                  "hex": "#cba49f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024101111082657135W57933.png",
+                  "new": null
+                },
+                {
+                  "name": "Green",
+                  "hex": "#84937f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024101111070190706N29115.png",
+                  "new": null
+                },
+                {
+                  "name": "Dull Blue",
+                  "hex": "#b0d4ea",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024101111084462639F2025.png",
+                  "new": null
+                },
+                {
+                  "name": "Yellow",
+                  "hex": "#ffff00",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024101111090739317U61309.png",
+                  "new": null
+                },
+                {
+                  "name": "White",
+                  "hex": "#ffffff",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024101111093029501A26124.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Hybrid",
+              "price": 22270000.0,
+              "colors": [
+                {
+                  "name": "Grayceful Pink",
+                  "hex": "#cba49f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025062114190814455O18634.png",
+                  "new": null
+                },
+                {
+                  "name": "Yolo Black",
+                  "hex": "#ecd78e",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025062114193117991G63536.png",
+                  "new": null
+                },
+                {
+                  "name": "Red",
+                  "hex": "#ff0000",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024101111115286801U69579.png",
+                  "new": null
+                },
+                {
+                  "name": "Black",
+                  "hex": "#000000",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202410111112217800F98621.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Mesin": "Pendingin Udara, 4 Langkah, SOHC",
+            "Diameter x Langkah": "52.4 mm x 57.9 mm",
+            "Volume Silinder": "124.86 cc",
+            "Perbandingan Kompresi": "11.0: 1",
+            "Daya Maksimum": "6.2 kW / 6500 rpm",
+            "Torsi Maksimum": "10.6 Nm / 4500 rpm",
+            "Sistem Starter": "Elektrik",
+            "Sistem Bahan Bakar": "Fuel Injection",
+            "Tipe Kopling": "Kopling Sentrifungal, Kering",
+            "Tipe Transmisi": "V-Belt Otomatis",
+            "Tipe Rangka": "Underbone",
+            "Suspensi Depan": "Telescopic",
+            "Suspensi Belakang": "Unit Swing",
+            "Ban Depan": "110/70-12  47L",
+            "Ban Belakang": "110/70-12  47L",
+            "Rem Depan": "Cakram",
+            "Rem Belakang": "Tromol",
+            "P x L x T": "1820 mm x 685 mm x 1125 mm",
+            "Jarak Sumbu Roda": "1280 mm",
+            "Jarak Terendah ke Tanah": "135 mm",
+            "Tinggi Tempat Duduk": "750 mm",
+            "Berat Isi": "95 kg",
+            "Kapasitas Tangki Bensin": "5.1 L",
+            "Tipe Busi": "CR6HSA",
+            "Sistem Pengapian": "TCI",
+            "Tipe Battery": "YTZ6V"
+          },
+          "date": "2026-01-19",
+          "source": "wayback",
+          "archive_url": "http://web.archive.org/web/20260119053742/https://www.yamaha-motor.co.id/product/fazzio/"
+        },
+        "now_official": {
+          "name": "Yamaha Fazzio",
+          "url": "https://www.yamaha-motor.co.id/product/fazzio/",
+          "variants": [
+            {
+              "name": "Special Edition",
               "price": 25250000.0,
               "colors": [
                 {
@@ -1869,7 +2065,7 @@
             },
             {
               "name": "Hybrid Lux",
-              "price": 25095000.0,
+              "price": 24745000.0,
               "colors": [
                 {
                   "name": "Greenish Gray",
@@ -1888,7 +2084,7 @@
             },
             {
               "name": "Hybrid Neo",
-              "price": 24405000.0,
+              "price": 24055000.0,
               "colors": [
                 {
                   "name": "Go Purple",
@@ -1919,7 +2115,7 @@
             },
             {
               "name": "Hybrid",
-              "price": 22820000.0,
+              "price": 22270000.0,
               "colors": [
                 {
                   "name": "Blue White",
@@ -1977,8 +2173,9 @@
             "Sistem Pengapian": "TCI",
             "Tipe Battery": "YTZ6V"
           },
-          "date": "2026-11-13",
-          "source": "official"
+          "date": "2026-03-08",
+          "source": "wayback",
+          "archive_url": "http://web.archive.org/web/20260308231955/https://www.yamaha-motor.co.id/product/fazzio/"
         }
       }
     },
@@ -2048,10 +2245,77 @@
         },
         "compare": [
           "Setelah tahun-tahun sebelumnya sukses besar dengan lini Classy Yamaha , mereka kembali tancap gas di segmen skutik retro-modern yang lagi hype banget.",
-          "Gaya hidup anak muda sekarang—atau yang sering kita sebut anak skena “Kalcer”—memang menuntut motor yang nggak cuma buat alat transportasi, tapi juga sebagai fashion statement ."
+          "Gaya hidup anak muda sekarang—atau yang sering kita sebut anak skena “Kalcer”—memang menuntut motor yang nggak cuma buat alat transportasi, tapi juga sebagai fashion statement .",
+          "Sekarang ada sentuhan list berwarna abu-abu di bagian “dasi” fascia depan dan cover headlamp ."
         ],
-        "analyzed_at": "2026-11-13T03:04:33",
-        "full": false,
+        "analyzed_at": "2026-11-15T21:25:39",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/01/23/yamaha-rilis-warna-baru-grand-filano-hybrid-2026-tampil-makin-kalcer-dengan-pilihan-warna-royal-iron-dan-prime-gray/?utm_source=rss&utm_medium=rss&utm_campaign=yamaha-rilis-warna-baru-grand-filano-hybrid-2026-tampil-makin-kalcer-dengan-pilihan-warna-royal-iron-dan-prime-gray",
+          "intro": "Awal tahun 2026 ini rupanya PT Yamaha Indonesia Motor Manufacturing (YIMM) nggak mau kasih kendor. Setelah tahun-tahun sebelumnya sukses besar dengan lini Classy Yamaha , mereka kembali tancap gas di segmen skutik retro-modern yang lagi hype banget.",
+          "variants": [
+            {
+              "name": "Hybrid Neo",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Prime Gray",
+                  "new": null,
+                  "image": "https://cdn.tmcblog.com/2026/01/Grand-Filano-Hybrid-Neo-Prime-Gray.webp"
+                },
+                {
+                  "name": "Greenish Gray",
+                  "new": null,
+                  "image": "https://cdn.tmcblog.com/2026/01/Grand-Filano-Hybrid-Neo-Greenish-Gray.webp"
+                },
+                {
+                  "name": "Pink",
+                  "new": null,
+                  "image": "https://cdn.tmcblog.com/2026/01/Grand-Filano-Hybrid-Neo-Pink-Mauve.webp"
+                },
+                {
+                  "name": "Essential White",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Nah, kalau yang ini “Kalcer” banget! Warna hijau ikonik dengan finishing matte . Warnanya fresh dan sangat mengikuti tren warna earth tone yang lagi digandrungi. Baik cowok maupun cewek bakal masuk banget pake warna ini.",
+                "Dua warna favorit ini nggak dihilangkan, tapi dikasih update detail. Sekarang ada sentuhan list berwarna abu-abu di bagian “dasi” fascia depan dan cover headlamp . Sentuhan kecil ini ternyata sukses bikin tampilannya jadi lebih selaras dan terlihat lebih premium."
+              ]
+            },
+            {
+              "name": "Neo",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Prime Gray",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Masuk ke varian Neo, ada Prime Gray . Warna abu-abu lembut dengan finishing satin yang unik. Kenapa satin? Karena dia berada di antara glossy dan matte , memberikan kesan clean look dan minimalis. TMCBlog rasa warna ini bakal jadi favorit cowok-cowok yang pengen tampil simpel tapi tetap fashionable"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Blue",
+            "Prime Gray",
+            "Greenish Gray",
+            "Pink",
+            "Essential White"
+          ],
+          "n_images": 5,
+          "image_keys": [
+            "and filano hybrid lux royal iron grand filano hybrid lux royal iron 696x385 webp",
+            "grand filano hybrid neo greenish gray webp",
+            "grand filano hybrid lux royal iron webp",
+            "grand filano hybrid neo prime gray webp",
+            "grand filano hybrid neo pink mauve webp"
+          ]
+        },
         "prev_detail": {
           "url": "https://iwanbanaran.com/news/imos-2024-yamaha-gebrak-rilis-new-grand-filano-2025-makin-keren",
           "intro": "Cakkk…..Produk CLASSY Yamaha kembali unjuk gigi. Setelah sebelumnya Fazzio kini GRAND FILANO Hybrid mendapatkan penyegaran warna baru.",
@@ -2204,92 +2468,7 @@
           "source": "wayback",
           "archive_url": "http://web.archive.org/web/20260119041623/https://www.yamaha-motor.co.id/product/grand-filano/"
         },
-        "now_official": {
-          "name": "Yamaha Grand Filano",
-          "url": "https://www.yamaha-motor.co.id/product/grand-filano/",
-          "variants": [
-            {
-              "name": "Hybrid Lux",
-              "price": 29145000.0,
-              "colors": [
-                {
-                  "name": "Royal Iron",
-                  "hex": "#bfd4f0",
-                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601231028034876K13777.png",
-                  "new": null
-                },
-                {
-                  "name": "Magma Black",
-                  "hex": "#2c2324",
-                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310455516358M58371.png",
-                  "new": null
-                }
-              ],
-              "notes": []
-            },
-            {
-              "name": "Hybrid Neo",
-              "price": 28665000.0,
-              "colors": [
-                {
-                  "name": "Prime Gray",
-                  "hex": "#afb7c3",
-                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310263681335O86751.png",
-                  "new": null
-                },
-                {
-                  "name": "Greenish Gray",
-                  "hex": "#afcccf",
-                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310255191745O23444.png",
-                  "new": null
-                },
-                {
-                  "name": "Pink Mauve",
-                  "hex": "#cba49f",
-                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310255677911L16899.png",
-                  "new": null
-                },
-                {
-                  "name": "Essential White",
-                  "hex": "#ffffff",
-                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310261915448E14156.png",
-                  "new": null
-                }
-              ],
-              "notes": []
-            }
-          ],
-          "spec_table": {
-            "Tipe Mesin": "Pendingin Udara, 4-Langkah, SOHC",
-            "Diameter x Langkah": "52,4 x 57,9 mm",
-            "Perbandingan Kompresi": "11,0 : 1",
-            "Volume Silinder": "124,86 cc",
-            "Daya Maksimum": "6,1 kW / 6.500 rpm",
-            "Torsi Maksimum": "10,4 Nm / 5.000 rpm",
-            "Sistem Bahan Bakar": "Fuel Injection",
-            "Tipe Kopling": "Kopling Sentrifugal, Kering",
-            "Tipe Transmisi": "V-Belt Otomatis",
-            "Sistem Starter": "Elektrik",
-            "Tipe Rangka": "Underbone",
-            "Suspensi Depan": "Teleskopik",
-            "Suspensi Belakang": "Unit Swing",
-            "Ban Depan": "110/70-12 47L",
-            "Ban Belakang": "110/70-12 47L",
-            "Rem Depan": "Rem Cakram",
-            "Rem Belakang": "Rem Tromol",
-            "P x L x T": "1820 x 685 x 1155 mm",
-            "Jarak Sumbu Roda": "1280 mm",
-            "Jarak Terendah ke Tanah": "125 mm",
-            "Tinggi Tempat Duduk": "790 mm",
-            "Berat Isi": "100 Kg",
-            "Kapasitas Tangki Bensin": "4,4 L",
-            "Sistem Pengapian": "TCI",
-            "Tipe Battery": "YTZ6V",
-            "Tipe Busi": "CR6HSA"
-          },
-          "date": "2026-11-13",
-          "source": "official"
-        }
+        "now_official": null
       }
     },
     {
@@ -2666,7 +2845,7 @@
         "key": "yamaha|70thanniversary",
         "specs": {
           "price": 28325000.0,
-          "engine": null,
+          "engine": "150 cc",
           "power": null,
           "torque": null
         },
@@ -2677,8 +2856,33 @@
         "compare": [
           "Setelah sebelumnya kita melihat livery spesial ini nampang di motor M1 Fabio Quartararo di MotoGP Belanda 2025 serta jajaran R-Series di EICMA, kini giliran konsumen di Indonesia yang bisa memilikinya secara resmi."
         ],
-        "analyzed_at": "2026-11-13T03:12:01",
-        "full": false,
+        "analyzed_at": "2026-11-15T21:27:04",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/01/22/resmi-mengaspal-yamaha-indonesia-rilis-livery-spesial-70th-anniversary-untuk-mx-king-aerox-turbo-r15m-dan-xsr-155/?utm_source=rss&utm_medium=rss&utm_campaign=resmi-mengaspal-yamaha-indonesia-rilis-livery-spesial-70th-anniversary-untuk-mx-king-aerox-turbo-r15m-dan-xsr-155",
+          "intro": "Selamat siang sobat sekalian, kami baru saja mendapatkan update yang sangat menarik dari jagat roda dua tanah air. Ternyata, euforia perayaan 70 tahun Yamaha masih terus membara!",
+          "variants": [
+            {
+              "name": "Turbo",
+              "price": 39950000.0,
+              "colors": [],
+              "notes": [
+                "Menurut Pak Rifki Maulana dari YIMM, pemilihan empat model ini (MX King, Aerox Turbo, R15M, dan XSR 155) karena masing-masing memiliki karakter sporty yang kuat, sangat pas untuk menandai perjalanan Yamaha sejak 1 Juli 1955.",
+                "Ini dia primadona baru yang punya teknologi YECVT . Dengan livery 70 tahun, tampilannya makin intimidatif berkat Dual Projector LED di depan. Sobat tetap bisa menikmati fitur “Turbo” Riding Mode (T-Mode & S-Mode) serta Y-Shift 3 tingkatan untuk akselerasi instan."
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Merah",
+            "Putih"
+          ],
+          "n_images": 2,
+          "image_keys": [
+            "70th 70th 696x385 webp",
+            "70th webp"
+          ]
+        },
         "prev_detail": null,
         "prev_official": null,
         "now_official": null
@@ -3182,17 +3386,47 @@
         "key": "yamaha|tmax",
         "specs": {
           "price": null,
-          "engine": null,
-          "power": null,
-          "torque": null
+          "engine": "560 cc",
+          "power": "35 KW",
+          "torque": "55,7 Nm"
         },
         "previous_from_article": {
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-13T03:16:24",
-        "full": false,
+        "compare": [
+          "Desain dual-eye face barunya kini lebih ramping, memberikan kesan sleeker namun tetap intimidatif.",
+          "Area fasia depan kini lebih ringkas, yang secara teknis juga membantu sisi aerodinamika saat dipacu di kecepatan tinggi.",
+          "Teknologi yang awalnya dikembangkan untuk superbike Yamaha (YZF-R1) ini kini hadir di TMAX.",
+          "Jadi, nggak perlu lagi pasang holder HP tambahan yang kadang bikin estetika kemudi jadi berantakan."
+        ],
+        "analyzed_at": "2026-11-15T21:27:15",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/01/21/breaking-news-sang-raja-kembali-yamaha-indonesia-resmi-rilis-new-tmax-2026-intip-detail-teknis-dan-perubahannya/?utm_source=rss&utm_medium=rss&utm_campaign=breaking-news-sang-raja-kembali-yamaha-indonesia-resmi-rilis-new-tmax-2026-intip-detail-teknis-dan-perubahannya",
+          "intro": "Jika ada satu nama yang menjadi benchmark atau tolok ukur di kancah Sport Scooter dunia, jawabannya hampir pasti satu: Yamaha TMAX . Namun, para pecinta Maxi Yamaha di tanah air sempat dibuat “puasa” cukup lama.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": null,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 8,
+          "image_keys": [
+            "tmax 5 tmax 5 696x385 webp",
+            "tmax 5 webp",
+            "tmax 8 webp",
+            "tmax 9 webp",
+            "tmax 1 webp",
+            "tmax 7 webp",
+            "tmax 6 webp",
+            "tmax 3 webp"
+          ]
+        },
         "prev_detail": {
           "url": "https://iwanbanaran.com/news/breaking-yamaha-rilis-new-t-max-560-25th-anniversary-matic-tergarang",
           "intro": "Cakkkk…..kemarin tepatnya tanggal 20 November 2025, Yamaha Motor Corporation mengumumkan kehadiran model spesial untuk merayakan seperempat abad eksistensi skuter sport andalan mereka, TMAX560 . Model edisi khusus yang dinamakan TMAX560 25th Anniversary ABS ini diresmikan bersamaan dengan pengenalan warna baru untuk varian premium TMAX560 TECH MAX ABS model tahun 2026.",
@@ -3405,7 +3639,7 @@
         "key": "yamaha|wr155r",
         "specs": {
           "price": 40275000.0,
-          "engine": null,
+          "engine": "155 cc",
           "power": null,
           "torque": null
         },
@@ -3414,10 +3648,103 @@
           "price_delta": null
         },
         "compare": [
-          "Kali ini bukan sekadar ganti warna, tapi ada perubahan pada desain body work yang membuatnya tampil lebih gahar."
+          "Kali ini bukan sekadar ganti warna, tapi ada perubahan pada desain body work yang membuatnya tampil lebih gahar.",
+          "Jika dilihat dari depan hingga ke belakang, Yamaha WR155R kini memiliki siluet yang lebih “tuck-in” atau rapat.",
+          "Area Under Seat: Bagian hitam di bawah jok kini dibuat lebih menonjol untuk memperkuat citra motor off-road murni.",
+          "Belum ada perubahan pada sektor jantung pacu, namun memang secara data, motor ini masih yang paling bertenaga di kelasnya."
         ],
-        "analyzed_at": "2026-11-13T03:19:58",
-        "full": false,
+        "analyzed_at": "2026-11-15T21:27:31",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/01/21/yamaha-rilis-wr155r-2026-intip-detail-body-baru-grafis-gytr-dan-pilihan-warna-cyan-yang-edgy/?utm_source=rss&utm_medium=rss&utm_campaign=yamaha-rilis-wr155r-2026-intip-detail-body-baru-grafis-gytr-dan-pilihan-warna-cyan-yang-edgy",
+          "intro": "Awal pekan ketiga 2026 PT Yamaha Indonesia Motor Mfg. Tidak hanya memberikan sentuhan pada lini skutik premiumnya, Yamaha secara resmi memperkenalkan penyegaran yang cukup signifikan untuk sang “Real Adventure Partner”, yaitu Yamaha WR155R Model Year 2026 .",
+          "variants": [
+            {
+              "name": "WR155R Blue",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Blue",
+                  "new": null,
+                  "image": "https://cdn.tmcblog.com/2026/01/WR155R-26-2.webp"
+                }
+              ],
+              "notes": [
+                "Varian ini tetap mempertahankan warna biru kebanggaan Yamaha, namun dengan detail yang lebih “Pro”.",
+                "Highlight WR: Tulisan “WR” besar dengan aksen putih tebal dan garis biru muda tipis.",
+                "Detail Grafis: Hadirnya grafis berbentuk “Hook” , motif Speed Block legendaris, serta logo GYTR (Genuine Yamaha Technology Racing) yang mempertegas bahwa motor ini bukan main-main di jalur tanah."
+              ]
+            },
+            {
+              "name": "WR155R Black",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Black",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Cyan",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Perpaduan Warna Berani: Dominasi warna Cyan pada body samping, belakang, hingga area rangka ( frame ).",
+                "Warna Kontras: Terdapat sentuhan merah dan ungu di area depan. Yang paling unik, tulisan “WR” hadir dengan warna kuning menyala yang sangat kontras dengan angka “155” besar berwarna ungu-merah."
+              ]
+            },
+            {
+              "name": "Black",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Black",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Untuk sobat yang ingin tampil beda dan eye-catching , varian Black adalah jawabannya."
+              ]
+            },
+            {
+              "name": "Black-Cyan",
+              "price": 40275000.0,
+              "colors": [
+                {
+                  "name": "Black",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Cyan",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "PT YIMM membanderol Yamaha WR155R Model 2026 ini dengan harga Rp40.275.000 (On The Road Jakarta) . Langkah Yamaha memberikan desain body yang lebih padat dan grafis yang lebih berani (terutama varian Black-Cyan) menunjukkan bahwa mereka ingin tetap relevan dengan selera anak muda dan komunitas traba"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Cyan",
+            "Kuning",
+            "Black"
+          ],
+          "n_images": 6,
+          "image_keys": [
+            "wr155r 26 1 wr155r 26 1 696x385 webp",
+            "yamaha wr155r 2026 1 webp",
+            "yamaha wr155r 2026 2 webp",
+            "wr155r 26 1 webp",
+            "wr155r 26 2 webp",
+            "yamaha wr155r 2026 3 webp"
+          ]
+        },
         "prev_detail": {
           "url": "https://iwanbanaran.com/news/breaking-yamaha-rilis-new-wr155r-vva-2024-woooww-mesin-makin-gahar",
           "intro": "Cakkkk….perkemarin Yamaha Indonesia menggebrak pasar dengan meluncurkan New WR155R VVA 2024. Sebuah trail yang diharapkan mampu mengganggu penjualan KLX dan CRF.",
@@ -3467,60 +3794,7 @@
           "source": "Iwan Banaran"
         },
         "prev_official": null,
-        "now_official": {
-          "name": "Yamaha WR155R",
-          "url": "https://www.yamaha-motor.co.id/product/wr155r/",
-          "variants": [
-            {
-              "name": "WR155R",
-              "price": 41275000.0,
-              "colors": [
-                {
-                  "name": "Blue",
-                  "hex": "#000088",
-                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012216212099486L85017.png",
-                  "new": null
-                },
-                {
-                  "name": "Black",
-                  "hex": "#000000",
-                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012216212651507H98695.png",
-                  "new": null
-                }
-              ],
-              "notes": []
-            }
-          ],
-          "spec_table": {
-            "Tipe Mesin": "Pendingin Cairan, 4-Langkah SOHC, 4 Valve, VVA",
-            "Torsi Maksimum": "14,3 Nm/6.500 rpm",
-            "Daya Maksimum": "12,3 KW/10.000 rpm",
-            "Diameter x Langkah": "58,0 x 58,7 mm",
-            "Perbandingan Kompresi": "11,6 : 1",
-            "Sistem Starter": "Elektrik",
-            "Sistem Bahan Bakar": "Fuel Injection",
-            "Volume Silinder": "155,09 cc",
-            "Tipe Kopling": "Tipe Multi-Plate Basah",
-            "Tipe Transmisi": "Manual",
-            "Tipe Rangka": "Semi Double Cradle",
-            "Suspensi Depan": "Telescopic 41 mm",
-            "Suspensi Belakang": "Monoshock",
-            "Ban Depan": "2,75-21 45P",
-            "Ban Belakang": "4,10-18 59P",
-            "Rem Depan": "240 mm Wave disc",
-            "Rem Belakang": "220 mm Wave disc",
-            "P x L x T": "2145 x 840 x 1200 (mm)",
-            "Jarak Sumbu Roda": "1430 mm",
-            "Jarak Terendah ke Tanah": "245 mm",
-            "Tinggi Tempat Duduk": "880 mm",
-            "Berat Isi": "134 kg",
-            "Sistem Pengapian": "TCI/Transistor",
-            "Tipe Battery": "YTZ4V",
-            "Tipe Busi": "NGK/ MR8E-9"
-          },
-          "date": "2026-11-13",
-          "source": "official"
-        }
+        "now_official": null
       }
     },
     {

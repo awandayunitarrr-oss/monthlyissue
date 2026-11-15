@@ -1608,7 +1608,7 @@
         "key": "honda|c125supercub",
         "specs": {
           "price": null,
-          "engine": null,
+          "engine": "124 cc",
           "power": null,
           "torque": null
         },
@@ -1617,10 +1617,46 @@
           "price_delta": null
         },
         "compare": [
-          "Meskipun secara siluet terlihat masih sama, ternyata ada beberapa detail krusial yang bikin motor “bebek sultan” ini makin matang."
+          "Meskipun secara siluet terlihat masih sama, ternyata ada beberapa detail krusial yang bikin motor “bebek sultan” ini makin matang.",
+          "” mesinnya berubah nggak?” Secara basis, mesinnya masih mengandalkan unit 124cc, 1-silinder, SOHC, berpendingin udara dengan transmisi semi-otomatis 4-percepatan.",
+          "Apakah warna warna baru ini lebih cakep dari warna merah atau biru muda yang sebelumnya?",
+          "Perubahan ini biasanya meliputi: Penyempurnaan pada sistem katalis di dalam knalpot."
         ],
-        "analyzed_at": "2026-11-13T02:54:42",
-        "full": false,
+        "analyzed_at": "2026-11-15T21:24:23",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/01/08/update-bebek-sultan-honda-c125-super-cub-2026-hadir-dengan-kelir-baru-dan-mesin-lebih-ramah-lingkungan/?utm_source=rss&utm_medium=rss&utm_campaign=update-bebek-sultan-honda-c125-super-cub-2026-hadir-dengan-kelir-baru-dan-mesin-lebih-ramah-lingkungan",
+          "intro": "Halo Sobat TMCBlog semuanya, Kalau kita bicara soal motor yang nggak lekang oleh waktu, rasanya nggak afdol kalau nggak memasukkan nama Honda Super Cub C125 ke dalam daftar. Motor yang menjadi suksesor desain legendaris C100 ini memang punya aura magis tersendiri.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Ashy Gray",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 10,
+          "image_keys": [
+            "c125 26 4a c125 26 4a 696x385 webp",
+            "c125 26 4a webp",
+            "c125 26 9 webp",
+            "c125 26 6 webp",
+            "c125 26 7 webp",
+            "c125 26 13 webp",
+            "c125 26 12 webp",
+            "c125 26 10 webp",
+            "c125 26 11 webp",
+            "c125 26 5a webp"
+          ]
+        },
         "prev_detail": null
       }
     },
