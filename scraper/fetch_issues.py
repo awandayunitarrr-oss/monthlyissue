@@ -921,7 +921,9 @@ def main() -> None:
         only = {x.strip() for x in args.sources.split(",")} if args.sources else None
         run_range(*args.period.split("..", 1), article_fetch=not args.no_article_fetch, only=only)
         return
-    period = Period.parse(args.period) if args.period else Period.for_day(datetime.now(WIB).date())
+    # Jadwal GitHub sering terlambat beberapa jam (run 23:30 WIB bisa baru jalan lewat tengah malam).
+    # Mundur 12 jam supaya run yang terlambat tetap merekap periode yang baru saja berakhir.
+    period = Period.parse(args.period) if args.period else Period.for_day((datetime.now(WIB) - timedelta(hours=12)).date())
     print(f"Periode {period.key} ({period.label})")
     run(period, article_fetch=not args.no_article_fetch)
     try:
