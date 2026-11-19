@@ -3,10 +3,10 @@
   "label": "16 – 30 November 2026",
   "start": "2026-11-16",
   "end": "2026-11-30",
-  "generated_at": "2026-11-19T09:04:54+07:00",
+  "generated_at": "2026-11-20T06:03:35+07:00",
   "sources": {
     "Iwan Banaran": {
-      "count": 12,
+      "count": 14,
       "method": "feed"
     },
     "Pertamax7": {
@@ -19,6 +19,58 @@
     }
   },
   "articles": [
+    {
+      "id": "f62cc68f1bc0",
+      "title": "Jelang Portimao….”Kita Tidak Boleh Ubah Pendekatan!” tegas Marc Marquez !!",
+      "url": "https://iwanbanaran.com/news/jelang-portimao-kita-tidak-boleh-ubah-pendekatan-tegas-marc-marquez",
+      "source": "Iwan Banaran",
+      "published": "2026-11-19T18:33:54+07:00",
+      "summary": "Iwanbanaran. com – Cakkk… tensi perebutan gelar juara dunia MotoGP 2026 kini beralih ke Sirkuit Algarve, Portimao, Portugal! Di seri penentuan ini, Marc Marquez datang membawa status match point keduanya. Skenarionya sangat jelas: Marc berpeluang besar mengunci gelar juara dunia ke-10 sepanjang kariernya sejak sesi Sprint Race hari Sabtu! Syaratnya pun terbilang cukup ringan—ia hanya perlu meraih 2 poin lebih banyak dibanding pesaing terdekatnya, Jorge Martin.",
+      "points": [
+        "Iwanbanaran. com – Cakkk… tensi perebutan gelar juara dunia MotoGP 2026 kini beralih ke Sirkuit Algarve, Portimao, Portugal.",
+        "Di seri penentuan ini, Marc Marquez datang membawa status match point keduanya.",
+        "Waspadai Ancaman Aprilia & Rekor Kurang Mulus di Portimao Meski gelar sudah di depan mata, Marc sadar betul bahwa menaklukkan Portimao bukan perkara mudah.",
+        "Di sini kami punya peluang untuk menuntaskannya, tapi kami tidak boleh mengubah pendekatan: kami harus tetap membumi (keep our feet on the ground) dan memberikan segalanya selangkah demi selangkah sejak Jumat hingga balapan hari Minggu."
+      ],
+      "summary_by": "auto",
+      "image": "https://cdn.iwanbanaran.com/2026/11/marc-marquez-x.webp",
+      "brands": [],
+      "countries": [
+        "Portugal",
+        "Spanyol",
+        "Qatar"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "7be4588a9dd3",
+      "title": "Kepergok! David Alonso Tertangkap Basah Jalani Tes Rahasia Jajal Motor MotoGP Honda 850cc di Sepang!",
+      "url": "https://iwanbanaran.com/news/kepergok-david-alonso-tertangkap-basah-jalani-tes-rahasia-jajal-motor-motogp-honda-850cc-di-sepang",
+      "source": "Iwan Banaran",
+      "published": "2026-11-19T15:30:11+07:00",
+      "summary": "Iwanbanaran.com – Cakkk… ada berita panas yang bikin gempar paddock MotoGP! Di saat para pembalap sibuk merampungkan sisa musim balap, rookie sensasional yang musim depan bakal naik ke kelas premier bersama LCR Honda, David Alonso , dikabarkan diam-diam sudah mencicipi motor prototipe generasi baru Honda berkapasitas 850cc ! Usut punya usut, rider muda berbakat ini melakoni sesi uji coba tertutup ( private test ) di Sirkuit Internasional Sepang, Malaysia. Langkah senyap yang diambil HRC ini sontak langsung jadi pusat perhatian pengamat balap dunia.",
+      "points": [
+        "Di saat para pembalap sibuk merampungkan sisa musim balap, rookie sensasional yang musim depan bakal naik ke kelas premier bersama LCR Honda, David Alonso, dikabarkan diam-diam sudah mencicipi motor prototipe generasi baru Honda berkapasitas 850cc.",
+        "Dalam sesi privat tersebut, Alonso untuk pertama kalinya merasakan dahsyatnya performa motor prototipe 850cc Honda yang sudah dibekali ban Pirelli.",
+        "Bergabungnya Alonso ke garasi LCR Honda musim depan, dipadu dengan suntikan data telemetri dari tes rahasia Sepang ini, membuktikan bahwa proyek kebangkitan Honda di era regulasi baru benar-benar digarap secara serius dan tanpa kompromi.",
+        "Last… dengan bekal kilometer awal yang sudah dikantongi di Sepang, adaptasi Alonso di atas motor MotoGP dipastikan bakal jauh lebih cepat saat melibas tes resmi mendatang."
+      ],
+      "summary_by": "auto",
+      "image": "https://cdn.iwanbanaran.com/2024/10/david-alonso-f.jpg",
+      "brands": [
+        "Honda"
+      ],
+      "countries": [
+        "Malaysia",
+        "Spanyol",
+        "Qatar"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
     {
       "id": "9bcf5c7eb18f",
       "title": "Geger! CFMOTO V4 SR-RR Tantang Jepang-Eropa, Power Tembus 210 HP dan Top Speed 315 Km/Jam Lebih!",
@@ -148,8 +200,7 @@
       "categories": [
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "8435ec36f1fe",
@@ -203,8 +254,7 @@
       "categories": [
         "Peluncuran Produk"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "6dea122ba525",
@@ -493,6 +543,7 @@
       "categories": [
         "Peluncuran Produk"
       ],
+      "highlight": true,
       "launch": {
         "model": "Honda Turunkan 6 Teknisi Andalan",
         "key": "honda|turunkan6teknisiandalan",
@@ -510,7 +561,7 @@
           "Sebelumnya, Indonesia sempat sukses menggelar ajang serupa pada tahun 2005 di Jakarta dan 2018 di Surabaya .",
           "Standar Tinggi, Layanan Kelas Wahid Di era modern seperti sekarang, skill seorang teknisi tentu bukan cuma soal bongkar-pasang mesin konvensional, Sob."
         ],
-        "analyzed_at": "2026-11-19T02:04:54",
+        "analyzed_at": "2026-11-19T23:03:35",
         "full": true,
         "detail": {
           "url": "https://tmcblog.com/2026/11/17/indonesia-resmi-jadi-tuan-rumah-asia-oceania-technician-skill-contest-aoc-2026-ahm-turunkan-6-teknisi-andalan/?utm_source=rss&utm_medium=rss&utm_campaign=indonesia-resmi-jadi-tuan-rumah-asia-oceania-technician-skill-contest-aoc-2026-ahm-turunkan-6-teknisi-andalan",
@@ -538,9 +589,7 @@
           ]
         },
         "prev_detail": null
-      },
-      "highlight": true,
-      "highlight_by": "auto"
+      }
     },
     {
       "id": "ca4e00c5780c",
@@ -568,8 +617,7 @@
         "Peluncuran Produk",
         "Harga & Promo"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "ae746657f65f",
@@ -646,8 +694,7 @@
         "Harga & Promo",
         "Regulasi & Kebijakan"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "b5832cd92f8a",
@@ -703,8 +750,7 @@
         "Peluncuran Produk",
         "Regulasi & Kebijakan"
       ],
-      "highlight": true,
-      "highlight_by": "auto"
+      "highlight": true
     },
     {
       "id": "540d047df65d",
