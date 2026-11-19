@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-11-19T02:04:07",
+  "updated_at": "2026-11-19T02:07:01",
   "launches": [
+    {
+      "id": "38ee16a096e4",
+      "date": "2026-11-17T00:01:04+07:00",
+      "brand": "Honda",
+      "model": "Honda Turunkan 6 Teknisi Andalan",
+      "key": "honda|turunkan6teknisiandalan",
+      "specs": {
+        "price": null,
+        "engine": null,
+        "power": null,
+        "torque": null
+      },
+      "previous_from_article": {
+        "price": null,
+        "price_delta": null
+      },
+      "compare": [
+        "Sebelumnya, Indonesia sempat sukses menggelar ajang serupa pada tahun 2005 di Jakarta dan 2018 di Surabaya .",
+        "Standar Tinggi, Layanan Kelas Wahid Di era modern seperti sekarang, skill seorang teknisi tentu bukan cuma soal bongkar-pasang mesin konvensional, Sob."
+      ],
+      "articles": [
+        {
+          "title": "Indonesia Resmi Jadi Tuan Rumah Asia & Oceania Technician Skill Contest (AOC) 2026! AHM Turunkan 6 Teknisi Andalan",
+          "url": "https://tmcblog.com/2026/11/17/indonesia-resmi-jadi-tuan-rumah-asia-oceania-technician-skill-contest-aoc-2026-ahm-turunkan-6-teknisi-andalan/?utm_source=rss&utm_medium=rss&utm_campaign=indonesia-resmi-jadi-tuan-rumah-asia-oceania-technician-skill-contest-aoc-2026-ahm-turunkan-6-teknisi-andalan",
+          "source": "TMC Blog",
+          "published": "2026-11-17T00:01:04+07:00"
+        }
+      ],
+      "image": "https://tmcblog.com/wp-content/uploads/2026/11/AOC_1.avif",
+      "highlight": true,
+      "detail": {
+        "url": "https://tmcblog.com/2026/11/17/indonesia-resmi-jadi-tuan-rumah-asia-oceania-technician-skill-contest-aoc-2026-ahm-turunkan-6-teknisi-andalan/?utm_source=rss&utm_medium=rss&utm_campaign=indonesia-resmi-jadi-tuan-rumah-asia-oceania-technician-skill-contest-aoc-2026-ahm-turunkan-6-teknisi-andalan",
+        "intro": "Kabar membanggakan datang dari kancah permotoran nasional! Indonesia kembali mendapat kehormatan besar dan dipercaya menjadi tuan rumah ajang bergengsi Asia & Oceania Technician Skill Contest (AOC) 2026 .",
+        "variants": [
+          {
+            "name": "Semua tipe",
+            "price": null,
+            "colors": [
+              {
+                "name": "Saya Memakai Warna Merah",
+                "new": null,
+                "image": null
+              }
+            ],
+            "notes": []
+          }
+        ],
+        "spec_table": {},
+        "loose_colors": [],
+        "n_images": 2,
+        "image_keys": [
+          "aoc 2 aoc 2 696x385 avif",
+          "aoc 2 avif"
+        ],
+        "source": "TMC Blog"
+      },
+      "prev_detail": null,
+      "title": "Indonesia Resmi Jadi Tuan Rumah Asia & Oceania Technician Skill Contest (AOC) 2026! AHM Turunkan 6 Teknisi Andalan",
+      "previous_release": null
+    },
     {
       "id": "4a2dd382d9c3",
       "date": "2026-10-29T19:07:09+07:00",
