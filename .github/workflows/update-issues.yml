@@ -2,11 +2,9 @@ name: Update Motorcycle Issue
 
 on:
   schedule:
-    # 16:30 UTC = 23:30 WIB.
-    # Tanggal 15 → rekap periode 1–15 (H1)
-    - cron: "30 16 15 * *"
-    # Tanggal 28–31 → dicek di step "Cek akhir bulan", hanya jalan di hari terakhir (H2)
-    - cron: "30 16 28-31 * *"
+    # Setiap hari 16:17 UTC = 23:17 WIB. Tiap run memperbarui periode yang sedang berjalan (1–15 atau 16–akhir);
+    # di 2 hari pertama periode baru, periode sebelumnya ikut dirapikan agar artikel larut malam tidak terlewat.
+    - cron: "17 16 * * *"
   workflow_dispatch:
     inputs:
       period:
@@ -44,17 +42,9 @@ jobs:
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
-      - name: Cek akhir bulan
+      - name: Siapkan run
         id: gate
-        run: |
-          run=true
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" = "30 16 28-31 * *" ]; then
-            # dihitung dari 12 jam lalu, karena jadwal GitHub bisa terlambat melewati tengah malam
-            tomorrow=$(TZ=Asia/Jakarta date -d "12 hours ago + 1 day" +%d)
-            [ "$tomorrow" = "01" ] || run=false
-          fi
-          echo "run=$run" >> "$GITHUB_OUTPUT"
-          echo "Jalankan scraper: $run"
+        run: echo "run=true" >> "$GITHUB_OUTPUT"
 
       - uses: actions/checkout@v4
         if: steps.gate.outputs.run == 'true'

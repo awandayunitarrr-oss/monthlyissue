@@ -264,7 +264,7 @@ header.top select:focus,header.top button:focus-visible{outline-color:#fff}
       </div>
       <div>
         <h1>Motorcycle Issue</h1>
-        <div class="sub">Iwan Banaran · Pertamax7 · TMC Blog — rekap 2× sebulan</div>
+        <div class="sub">Iwan Banaran · Pertamax7 · TMC Blog — update harian · rekap per 1–15 &amp; 16–akhir bulan</div>
       </div>
     </div>
     <div class="controls">
@@ -330,7 +330,7 @@ header.top select:focus,header.top button:focus-visible{outline-color:#fff}
   <section class="grid" id="list"></section>
   </div>
 
-  <footer>Data di-update otomatis tiap tanggal 15 dan hari terakhir bulan (23:30 WIB) via GitHub Actions.</footer>
+  <footer>Data di-update otomatis setiap hari (sekitar 23:17 WIB, bisa mundur hingga beberapa jam) via GitHub Actions. Rekap per periode tetap 1–15 dan 16–akhir bulan.</footer>
 </div>
 <div class="tip" id="tip"></div>
 <div id="slide-wrap" hidden role="dialog" aria-modal="true" aria-label="Slide perbandingan">
@@ -385,12 +385,11 @@ async function loadPeriod(p){
   return state.cache[p.period];
 }
 function nextRun(){
-  const now = new Date(Date.now() + 7*3600e3); // WIB clock
-  const y = now.getUTCFullYear(), m = now.getUTCMonth(), d = now.getUTCDate();
-  const last = new Date(Date.UTC(y, m+1, 0)).getUTCDate();
-  const t = d < 15 ? [y,m,15] : d < last ? [y,m,last] : [y, m+1, 15];
-  const dt = new Date(Date.UTC(t[0], t[1], t[2]));
-  return `${dt.getUTCDate()} ${MONTHS[dt.getUTCMonth()]} ${dt.getUTCFullYear()}, 23:30 WIB`;
+  // update harian 23:17 WIB
+  const now = new Date(Date.now() + 7*3600e3); // jam WIB
+  const passed = now.getUTCHours() * 60 + now.getUTCMinutes() >= 23 * 60 + 17;
+  const dt = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + (passed ? 1 : 0)));
+  return `${passed ? "besok" : "hari ini"}, ${dt.getUTCDate()} ${MONTHS[dt.getUTCMonth()]} ${dt.getUTCFullYear()}, 23:17 WIB`;
 }
 function fmtDate(iso, withTime){
   const d = new Date(iso); if (isNaN(d)) return "";

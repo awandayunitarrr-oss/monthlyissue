@@ -923,9 +923,20 @@ def main() -> None:
         return
     # Jadwal GitHub sering terlambat beberapa jam (run 23:30 WIB bisa baru jalan lewat tengah malam).
     # Mundur 12 jam supaya run yang terlambat tetap merekap periode yang baru saja berakhir.
-    period = Period.parse(args.period) if args.period else Period.for_day((datetime.now(WIB) - timedelta(hours=12)).date())
-    print(f"Periode {period.key} ({period.label})")
-    run(period, article_fetch=not args.no_article_fetch)
+    if args.period:
+        period = Period.parse(args.period)
+        print(f"Periode {period.key} ({period.label})")
+        run(period, article_fetch=not args.no_article_fetch)
+    else:
+        ref = (datetime.now(WIB) - timedelta(hours=12)).date()
+        period = Period.for_day(ref)
+        if (ref - period.start).days <= 1:
+            # awal periode baru: rapikan juga periode sebelumnya (artikel yang terbit setelah run terakhirnya)
+            prev = Period.for_day(period.start - timedelta(days=1))
+            run_range(prev.key, period.key, article_fetch=not args.no_article_fetch)
+        else:
+            print(f"Periode {period.key} ({period.label})")
+            run(period, article_fetch=not args.no_article_fetch)
     try:
         print(f"Situs resmi Yamaha: {official.snapshot_yamaha(get)} produk berubah/tercatat")
     except Exception as e:  # noqa: BLE001 - jangan gagalkan update karena situs resmi

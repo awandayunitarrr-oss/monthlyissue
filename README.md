@@ -1,7 +1,7 @@
 # Motorcycle Issue Dashboard
 
 Dashboard rekap issue motor dari **Iwan Banaran**, **Pertamax7**, dan **TMC Blog**,
-di-update otomatis 2× sebulan (tanggal 15 dan hari terakhir bulan, 23:30 WIB).
+di-update otomatis setiap hari (23:17 WIB); rekap tetap per periode 1–15 dan 16–akhir bulan.
 
 ## Cara kerja
 
