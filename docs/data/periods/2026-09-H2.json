@@ -55,7 +55,7 @@
           "power": null,
           "torque": null,
           "ev": {
-            "battery": null,
+            "battery": "60V 20Ah",
             "range": null,
             "top_speed": null,
             "motor": null,
@@ -70,9 +70,39 @@
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-20T04:07:21",
-        "full": false
+        "compare": [
+          "Sementara itu, fitur Immersive Audio turut melengkapi pengalaman pengguna dengan menghadirkan sistem audio terintegrasi pada kendaraan."
+        ],
+        "analyzed_at": "2026-11-20T04:16:22",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/09/30/motu-m5b-hadir-dengan-karakter-sporty-padukan-desain-futuristis-dan-teknologi-pintar/?utm_source=rss&utm_medium=rss&utm_campaign=motu-m5b-hadir-dengan-karakter-sporty-padukan-desain-futuristis-dan-teknologi-pintar",
+          "intro": "MOTU terus memperluas lini SPORT EV dengan menghadirkan kendaraan listrik yang memiliki karakter berbeda. Salah satunya adalah MOTU M5B “Rule The Street”, model yang menggabungkan desain sporty, nuansa futuristis, serta berbagai fitur pintar untuk memberikan pengalaman berkendara yang lebih modern.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Jangkar Biru",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 4,
+          "image_keys": [
+            "motu m5 3 motu m5 3 696x385 webp",
+            "motu m5 1 webp",
+            "motu m5 3 webp",
+            "motu m5 2 webp"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {

@@ -3464,14 +3464,14 @@
         "specs": {
           "price": 76900000.0,
           "engine": null,
-          "power": null,
+          "power": "13 KW",
           "torque": null,
           "ev": {
-            "battery": null,
+            "battery": "5,38 kWh",
             "range": null,
-            "top_speed": null,
-            "motor": null,
-            "charging": null,
+            "top_speed": "113 km/jam",
+            "motor": "13 kW",
+            "charging": "6 jam",
             "swap": false,
             "removable": false,
             "subsidy": false
@@ -3485,8 +3485,101 @@
         "compare": [
           "Pengumuman krusial ini tidak dilakukan sendirian, Sob, melainkan dibarengi dengan prosesi seremoni serah terima unit perdana kepada para konsumen yang telah melakukan pre-order sebelumnya."
         ],
-        "analyzed_at": "2026-11-20T04:07:21",
-        "full": false
+        "analyzed_at": "2026-11-20T04:15:56",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/06/16/harga-resmi-omoway-omo-x-diumumkan-tipe-tertinggi-tembus-rp769-juta-bisa-berdiri-sendiri/?utm_source=rss&utm_medium=rss&utm_campaign=harga-resmi-omoway-omo-x-diumumkan-tipe-tertinggi-tembus-rp769-juta-bisa-berdiri-sendiri",
+          "intro": "Sebuah gebrakan besar kembali terjadi di jagat roda dua tanah air, khususnya di segmen kendaraan ramah lingkungan alias electric vehicle (EV). Bertempat di kawasan BSD, Tangerang Selatan pada hari kemarin (15/6/2026), Omoway secara resmi mengumumkan harga retail dari keempat Varian motor listrik premium terbaru mereka, Omoway Omo-X .",
+          "variants": [
+            {
+              "name": "Smart",
+              "price": 46900000.0,
+              "colors": [],
+              "notes": [
+                "Omoway Omo-X Tipe Smart : Dibanderol sebagai varian pembuka dengan harga Rp46,9 juta ."
+              ]
+            },
+            {
+              "name": "Smart Long",
+              "price": 51900000.0,
+              "colors": [],
+              "notes": [
+                "Omoway Omo-X Tipe Smart Long Range : Dipasarkan dengan harga Rp51,9 juta . Poin pembeda utama pada tipe ini terletak pada kapasitas sel baterainya yang lebih padat demi daya jelajah lebih jauh."
+              ]
+            },
+            {
+              "name": "Balance",
+              "price": 63900000.0,
+              "colors": [],
+              "notes": [
+                "Omoway Omo-X Tipe Balance : Dijual dengan angka Rp63,9 juta . Nah, tipe ini sudah dibekali teknologi canggih berupa gyro system yang membuat motor sanggup berdiri seimbang secara mandiri tanpa perlu standar samping!"
+              ]
+            },
+            {
+              "name": "Balance Pilot",
+              "price": 76900000.0,
+              "colors": [],
+              "notes": [
+                "Omoway Omo-X Tipe Balance Pilot : Ini dia kasta tertinggi alias flagship -nya, Sob, yang dilego seharga Rp76,9 juta . Selain sistem gyro , tipe ini dijejali teknologi mutakhir autonomous yang memungkinkannya bergerak secara otomatis."
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 7,
+          "image_keys": [
+            "omo x 2 omo x 2 696x385 avif",
+            "omo x 2 avif",
+            "omo x 4 avif",
+            "omo x 5 avif",
+            "omo x spec 1 avif",
+            "omo x 3 avif",
+            "omo x 6 avif"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/omoway-omo-x-debut-di-singapura-motor-bisa-jalan-sendiri-siap-meluncur-ke-indonesia",
+          "intro": "Cakkk…..IWB sampe ngowoh bin doweh melihat teknologi Cina yang semakin seremmm. Betul cak…diundang langsung oleh OMOWAY Indonesia, Dunia otomotif roda dua kembali dihebohkan dengan kehadiran motor listrik futuristik, OMOWAY OMO X, yang resmi melakukan debut global dalam versi produksi masalnya di Singapura pada 12 Maret 2026.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 60000000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Motor Listrik": "5 kW (setara torsi instan motor bensin 150cc)",
+            "Tipe Battery": "Lithium-ion 72V 50Ah",
+            "Jarak Tempuh": "Hingga 150 km dalam sekali pengisian penuh",
+            "Kecepatan Maksimum": "Sekitar 100 km/jam",
+            "Waktu Pengisian": "Mendukung pengisian daya nirkabel ( : wireless charging : )"
+          },
+          "loose_colors": [],
+          "n_images": 17,
+          "image_keys": [
+            "cb72 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 9 webp w 820",
+            "6acb webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 1 webp w 795",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "04e webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 12 webp w 663",
+            "7a19 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 5 webp w 700",
+            "d7c webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 3 webp w 1016",
+            "e99 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 11 webp w 629",
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 9 682x600 webp w 682",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 15 768x443 webp w 768",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 10 768x576 webp w 768",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 13 768x512 webp w 768",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomoway omo x 2 423x600 webp w 423",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 14 768x460 webp w 768",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomoway omo x 4 382x600 webp w 382",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomoway omo x 3 402x600 webp w 402",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 16 768x445 webp w 768",
+            "a6c2 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 2 webp w 732"
+          ],
+          "title": "OMOWAY OMO X Debut di Singapura: Motor “Bisa Jalan Sendiri” Siap Meluncur ke Indonesia",
+          "date": "2026-03-16T00:00:00",
+          "source": "Iwan Banaran"
+        }
       }
     },
     {

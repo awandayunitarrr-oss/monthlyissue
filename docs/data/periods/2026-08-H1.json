@@ -335,8 +335,8 @@
         "specs": {
           "price": 11500000.0,
           "engine": null,
-          "power": null,
-          "torque": null,
+          "power": "4,5 KW",
+          "torque": "125 Nm",
           "ev": {
             "battery": null,
             "range": null,
@@ -345,7 +345,7 @@
             "charging": null,
             "swap": false,
             "removable": false,
-            "subsidy": false
+            "subsidy": true
           }
         },
         "ev": true,
@@ -353,9 +353,43 @@
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-20T04:07:21",
-        "full": false
+        "compare": [
+          "Penggunaan motor listrik diperkirakan mampu memangkas biaya operasional harian hingga 50 persen sampai 70 persen dibandingkan kendaraan berbahan bakar minyak (BBM).",
+          "“Sekarang kita sudah mulai bangkit, hari ini launching .",
+          "Sisi bagusnya karena pendanaan mendapatkan banyak keringanan kini sampeyan kalau membeli Alva N3 eh…Molinas Cakra akan lebih mudah hehehe."
+        ],
+        "analyzed_at": "2026-11-20T04:16:09",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/gegerr-molinas-cakra-resmi-dirilis-presiden-prabowo-lho-kok-tampang-kayak-alva",
+          "intro": "Cakkk…. Presiden Republik Indonesia Prabowo Subianto secara resmi meluncurkan Program Motor Listrik Nasional (Molinas) beserta ekosistem pendukungnya di Cikarang, Kabupaten Bekasi, Jawa Barat, Rabu (13/8/2026).",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 11500000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Daya Maksimum": "4,5 kW (6,1 PS)",
+            "Torsi Maksimum": "125 Nm",
+            "Kecepatan Maksimum": "80 km/jam",
+            "Kapasitas Baterai": "Baterai Lithium ( : Next Gen Battery : ) 3,3 kWh / dual baterai",
+            "Jarak Tempuh": "Hingga 140 km (dengan 2 baterai)"
+          },
+          "loose_colors": [],
+          "n_images": 6,
+          "image_keys": [
+            "p url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f08 2fmolinas cakra 1 webp w 860",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f08 2fmolinas cakra 2 800x533 webp w 800",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "5 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f08 2falva n3 1 webp w 1537",
+            "1 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f08 2falva n3 2 webp w 1097",
+            "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f08 2fmolinas cakra webp w 750"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {

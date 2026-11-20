@@ -321,7 +321,7 @@
           "torque": null,
           "ev": {
             "battery": null,
-            "range": null,
+            "range": "150 km",
             "top_speed": null,
             "motor": null,
             "charging": "20 menit",
@@ -335,9 +335,46 @@
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-20T04:07:21",
-        "full": false
+        "compare": [
+          "Peningkatan paling signifikan ada pada sektor “dapur pacu” dan manajemen daya: Fast Charging Kilat : Maleo S kini mendukung fitur pengisian daya cepat ( Fast Charging ).",
+          "Fast Charging Kilat : Maleo S kini mendukung fitur pengisian daya cepat ( Fast Charging ).",
+          "Jangkauan Luar Biasa : Dengan pembaruan perangkat lunak terbaru, motor ini diklaim mampu menempuh jarak hingga 150 km dalam sekali pengisian penuh .",
+          "Kemampuan Menanjak : Bagi sobat yang tinggal di daerah perbukitan, Maleo S kini sanggup melibas tanjakan hingga sudut 25 derajat dengan tenaga yang lebih baik ."
+        ],
+        "analyzed_at": "2026-11-20T04:15:44",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/01/29/charged-indonesia-rilis-maleo-s-2026-pakai-fast-charging-isi-20-menit-langsung-gas-pol/?utm_source=rss&utm_medium=rss&utm_campaign=charged-indonesia-rilis-maleo-s-2026-pakai-fast-charging-isi-20-menit-langsung-gas-pol",
+          "intro": "Ada kabar hangat dari dunia roda dua elektrik tanah air. Charged Indonesia baru saja memberikan kejutan di awal tahun 2026 dengan merilis penyegaran total untuk model andalan mereka, yakni Charged Maleo S .",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 200000000.0,
+              "colors": [
+                {
+                  "name": "Saya Memakai Warna Merah",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 8,
+          "image_keys": [
+            "charged maleo 01 charged maleo 01 696x385 webp",
+            "charged maleo 01 webp",
+            "charged maleo 05 webp",
+            "charged maleo 02 webp",
+            "charged maleo 04 webp",
+            "charged maleo 07 webp",
+            "screenshot charged maleo 06 webp",
+            "charged maleo 03 webp"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {

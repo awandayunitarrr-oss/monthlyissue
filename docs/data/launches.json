@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T04:13:44",
+  "updated_at": "2026-11-20T04:16:32",
   "launches": [
     {
       "id": "4a2dd382d9c3",
@@ -494,7 +494,7 @@
         "power": null,
         "torque": null,
         "ev": {
-          "battery": null,
+          "battery": "60V 20Ah",
           "range": null,
           "top_speed": null,
           "motor": null,
@@ -508,7 +508,9 @@
         "price": null,
         "price_delta": null
       },
-      "compare": [],
+      "compare": [
+        "Sementara itu, fitur Immersive Audio turut melengkapi pengalaman pengguna dengan menghadirkan sistem audio terintegrasi pada kendaraan."
+      ],
       "articles": [
         {
           "title": "Motor Listrik MOTU M5B Hadir dengan Karakter Sporty, Padukan Desain Futuristis dan Teknologi Pintar",
@@ -519,7 +521,34 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/09/Motu-M5-1.webp",
       "highlight": false,
-      "detail": null,
+      "detail": {
+        "url": "https://tmcblog.com/2026/09/30/motu-m5b-hadir-dengan-karakter-sporty-padukan-desain-futuristis-dan-teknologi-pintar/?utm_source=rss&utm_medium=rss&utm_campaign=motu-m5b-hadir-dengan-karakter-sporty-padukan-desain-futuristis-dan-teknologi-pintar",
+        "intro": "MOTU terus memperluas lini SPORT EV dengan menghadirkan kendaraan listrik yang memiliki karakter berbeda. Salah satunya adalah MOTU M5B “Rule The Street”, model yang menggabungkan desain sporty, nuansa futuristis, serta berbagai fitur pintar untuk memberikan pengalaman berkendara yang lebih modern.",
+        "variants": [
+          {
+            "name": "Semua tipe",
+            "price": null,
+            "colors": [
+              {
+                "name": "Jangkar Biru",
+                "new": null,
+                "image": null
+              }
+            ],
+            "notes": []
+          }
+        ],
+        "spec_table": {},
+        "loose_colors": [],
+        "n_images": 4,
+        "image_keys": [
+          "motu m5 3 motu m5 3 696x385 webp",
+          "motu m5 1 webp",
+          "motu m5 3 webp",
+          "motu m5 2 webp"
+        ],
+        "source": "TMC Blog"
+      },
       "prev_detail": null,
       "title": "Motor Listrik MOTU M5B Hadir dengan Karakter Sporty, Padukan Desain Futuristis dan Teknologi Pintar",
       "previous_release": null
@@ -947,8 +976,8 @@
       "specs": {
         "price": 11500000.0,
         "engine": null,
-        "power": null,
-        "torque": null,
+        "power": "4,5 KW",
+        "torque": "125 Nm",
         "ev": {
           "battery": null,
           "range": null,
@@ -957,14 +986,18 @@
           "charging": null,
           "swap": false,
           "removable": false,
-          "subsidy": false
+          "subsidy": true
         }
       },
       "previous_from_article": {
         "price": null,
         "price_delta": null
       },
-      "compare": [],
+      "compare": [
+        "Penggunaan motor listrik diperkirakan mampu memangkas biaya operasional harian hingga 50 persen sampai 70 persen dibandingkan kendaraan berbahan bakar minyak (BBM).",
+        "“Sekarang kita sudah mulai bangkit, hari ini launching .",
+        "Sisi bagusnya karena pendanaan mendapatkan banyak keringanan kini sampeyan kalau membeli Alva N3 eh…Molinas Cakra akan lebih mudah hehehe."
+      ],
       "articles": [
         {
           "title": "Gegerr ! MoLinas CAKRA Resmi Dirilis Presiden Prabowo….Lho kok tampang Kayak Alva ??",
@@ -975,7 +1008,36 @@
       ],
       "image": "https://iwanbanaran.com/api/og/gegerr-molinas-cakra-resmi-dirilis-presiden-prabowo-lho-kok-tampang-kayak-alva",
       "highlight": false,
-      "detail": null,
+      "detail": {
+        "url": "https://iwanbanaran.com/news/gegerr-molinas-cakra-resmi-dirilis-presiden-prabowo-lho-kok-tampang-kayak-alva",
+        "intro": "Cakkk…. Presiden Republik Indonesia Prabowo Subianto secara resmi meluncurkan Program Motor Listrik Nasional (Molinas) beserta ekosistem pendukungnya di Cikarang, Kabupaten Bekasi, Jawa Barat, Rabu (13/8/2026).",
+        "variants": [
+          {
+            "name": "Semua tipe",
+            "price": 11500000.0,
+            "colors": [],
+            "notes": []
+          }
+        ],
+        "spec_table": {
+          "Daya Maksimum": "4,5 kW (6,1 PS)",
+          "Torsi Maksimum": "125 Nm",
+          "Kecepatan Maksimum": "80 km/jam",
+          "Kapasitas Baterai": "Baterai Lithium ( : Next Gen Battery : ) 3,3 kWh / dual baterai",
+          "Jarak Tempuh": "Hingga 140 km (dengan 2 baterai)"
+        },
+        "loose_colors": [],
+        "n_images": 6,
+        "image_keys": [
+          "p url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f08 2fmolinas cakra 1 webp w 860",
+          "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f08 2fmolinas cakra 2 800x533 webp w 800",
+          "iklan iwanbanaran 728x174p iwb webp",
+          "5 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f08 2falva n3 1 webp w 1537",
+          "1 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f08 2falva n3 2 webp w 1097",
+          "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f08 2fmolinas cakra webp w 750"
+        ],
+        "source": "Iwan Banaran"
+      },
       "prev_detail": null,
       "title": "Gegerr ! MoLinas CAKRA Resmi Dirilis Presiden Prabowo….Lho kok tampang Kayak Alva ??",
       "previous_release": null
@@ -2585,14 +2647,14 @@
       "specs": {
         "price": 76900000.0,
         "engine": null,
-        "power": null,
+        "power": "13 KW",
         "torque": null,
         "ev": {
-          "battery": null,
+          "battery": "5,38 kWh",
           "range": null,
-          "top_speed": null,
-          "motor": null,
-          "charging": null,
+          "top_speed": "113 km/jam",
+          "motor": "13 kW",
+          "charging": "6 jam",
           "swap": false,
           "removable": false,
           "subsidy": false
@@ -2615,8 +2677,100 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/06/omo-x-2.avif",
       "highlight": false,
-      "detail": null,
-      "prev_detail": null,
+      "detail": {
+        "url": "https://tmcblog.com/2026/06/16/harga-resmi-omoway-omo-x-diumumkan-tipe-tertinggi-tembus-rp769-juta-bisa-berdiri-sendiri/?utm_source=rss&utm_medium=rss&utm_campaign=harga-resmi-omoway-omo-x-diumumkan-tipe-tertinggi-tembus-rp769-juta-bisa-berdiri-sendiri",
+        "intro": "Sebuah gebrakan besar kembali terjadi di jagat roda dua tanah air, khususnya di segmen kendaraan ramah lingkungan alias electric vehicle (EV). Bertempat di kawasan BSD, Tangerang Selatan pada hari kemarin (15/6/2026), Omoway secara resmi mengumumkan harga retail dari keempat Varian motor listrik premium terbaru mereka, Omoway Omo-X .",
+        "variants": [
+          {
+            "name": "Smart",
+            "price": 46900000.0,
+            "colors": [],
+            "notes": [
+              "Omoway Omo-X Tipe Smart : Dibanderol sebagai varian pembuka dengan harga Rp46,9 juta ."
+            ]
+          },
+          {
+            "name": "Smart Long",
+            "price": 51900000.0,
+            "colors": [],
+            "notes": [
+              "Omoway Omo-X Tipe Smart Long Range : Dipasarkan dengan harga Rp51,9 juta . Poin pembeda utama pada tipe ini terletak pada kapasitas sel baterainya yang lebih padat demi daya jelajah lebih jauh."
+            ]
+          },
+          {
+            "name": "Balance",
+            "price": 63900000.0,
+            "colors": [],
+            "notes": [
+              "Omoway Omo-X Tipe Balance : Dijual dengan angka Rp63,9 juta . Nah, tipe ini sudah dibekali teknologi canggih berupa gyro system yang membuat motor sanggup berdiri seimbang secara mandiri tanpa perlu standar samping!"
+            ]
+          },
+          {
+            "name": "Balance Pilot",
+            "price": 76900000.0,
+            "colors": [],
+            "notes": [
+              "Omoway Omo-X Tipe Balance Pilot : Ini dia kasta tertinggi alias flagship -nya, Sob, yang dilego seharga Rp76,9 juta . Selain sistem gyro , tipe ini dijejali teknologi mutakhir autonomous yang memungkinkannya bergerak secara otomatis."
+            ]
+          }
+        ],
+        "spec_table": {},
+        "loose_colors": [],
+        "n_images": 7,
+        "image_keys": [
+          "omo x 2 omo x 2 696x385 avif",
+          "omo x 2 avif",
+          "omo x 4 avif",
+          "omo x 5 avif",
+          "omo x spec 1 avif",
+          "omo x 3 avif",
+          "omo x 6 avif"
+        ],
+        "source": "TMC Blog"
+      },
+      "prev_detail": {
+        "url": "https://iwanbanaran.com/news/omoway-omo-x-debut-di-singapura-motor-bisa-jalan-sendiri-siap-meluncur-ke-indonesia",
+        "intro": "Cakkk…..IWB sampe ngowoh bin doweh melihat teknologi Cina yang semakin seremmm. Betul cak…diundang langsung oleh OMOWAY Indonesia, Dunia otomotif roda dua kembali dihebohkan dengan kehadiran motor listrik futuristik, OMOWAY OMO X, yang resmi melakukan debut global dalam versi produksi masalnya di Singapura pada 12 Maret 2026.",
+        "variants": [
+          {
+            "name": "Semua tipe",
+            "price": 60000000.0,
+            "colors": [],
+            "notes": []
+          }
+        ],
+        "spec_table": {
+          "Tipe Motor Listrik": "5 kW (setara torsi instan motor bensin 150cc)",
+          "Tipe Battery": "Lithium-ion 72V 50Ah",
+          "Jarak Tempuh": "Hingga 150 km dalam sekali pengisian penuh",
+          "Kecepatan Maksimum": "Sekitar 100 km/jam",
+          "Waktu Pengisian": "Mendukung pengisian daya nirkabel ( : wireless charging : )"
+        },
+        "loose_colors": [],
+        "n_images": 17,
+        "image_keys": [
+          "cb72 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 9 webp w 820",
+          "6acb webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 1 webp w 795",
+          "iklan iwanbanaran 728x174p iwb webp",
+          "04e webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 12 webp w 663",
+          "7a19 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 5 webp w 700",
+          "d7c webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 3 webp w 1016",
+          "e99 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 11 webp w 629",
+          "p url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 9 682x600 webp w 682",
+          " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 15 768x443 webp w 768",
+          " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 10 768x576 webp w 768",
+          " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 13 768x512 webp w 768",
+          "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomoway omo x 2 423x600 webp w 423",
+          " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 14 768x460 webp w 768",
+          "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomoway omo x 4 382x600 webp w 382",
+          "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomoway omo x 3 402x600 webp w 402",
+          " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 16 768x445 webp w 768",
+          "a6c2 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f03 2fomo x 2 webp w 732"
+        ],
+        "title": "OMOWAY OMO X Debut di Singapura: Motor “Bisa Jalan Sendiri” Siap Meluncur ke Indonesia",
+        "date": "2026-03-16T00:00:00",
+        "source": "artikel"
+      },
       "title": "Harga Resmi Omoway Omo-X Diumumkan, Tipe Tertinggi Tembus Rp76,9 Juta Bisa Berdiri Sendiri!",
       "previous_release": null
     },
@@ -5087,7 +5241,7 @@
         "torque": null,
         "ev": {
           "battery": null,
-          "range": null,
+          "range": "150 km",
           "top_speed": null,
           "motor": null,
           "charging": "20 menit",
@@ -5100,7 +5254,12 @@
         "price": null,
         "price_delta": null
       },
-      "compare": [],
+      "compare": [
+        "Peningkatan paling signifikan ada pada sektor “dapur pacu” dan manajemen daya: Fast Charging Kilat : Maleo S kini mendukung fitur pengisian daya cepat ( Fast Charging ).",
+        "Fast Charging Kilat : Maleo S kini mendukung fitur pengisian daya cepat ( Fast Charging ).",
+        "Jangkauan Luar Biasa : Dengan pembaruan perangkat lunak terbaru, motor ini diklaim mampu menempuh jarak hingga 150 km dalam sekali pengisian penuh .",
+        "Kemampuan Menanjak : Bagi sobat yang tinggal di daerah perbukitan, Maleo S kini sanggup melibas tanjakan hingga sudut 25 derajat dengan tenaga yang lebih baik ."
+      ],
       "articles": [
         {
           "title": "Charged Indonesia Rilis Maleo S 2026: Pakai Fast Charging, Isi 20 Menit Langsung Gas Pol!",
@@ -5111,7 +5270,38 @@
       ],
       "image": "https://cdn.tmcblog.com/2026/01/Charged-maleo-01.webp",
       "highlight": false,
-      "detail": null,
+      "detail": {
+        "url": "https://tmcblog.com/2026/01/29/charged-indonesia-rilis-maleo-s-2026-pakai-fast-charging-isi-20-menit-langsung-gas-pol/?utm_source=rss&utm_medium=rss&utm_campaign=charged-indonesia-rilis-maleo-s-2026-pakai-fast-charging-isi-20-menit-langsung-gas-pol",
+        "intro": "Ada kabar hangat dari dunia roda dua elektrik tanah air. Charged Indonesia baru saja memberikan kejutan di awal tahun 2026 dengan merilis penyegaran total untuk model andalan mereka, yakni Charged Maleo S .",
+        "variants": [
+          {
+            "name": "Semua tipe",
+            "price": 200000000.0,
+            "colors": [
+              {
+                "name": "Saya Memakai Warna Merah",
+                "new": null,
+                "image": null
+              }
+            ],
+            "notes": []
+          }
+        ],
+        "spec_table": {},
+        "loose_colors": [],
+        "n_images": 8,
+        "image_keys": [
+          "charged maleo 01 charged maleo 01 696x385 webp",
+          "charged maleo 01 webp",
+          "charged maleo 05 webp",
+          "charged maleo 02 webp",
+          "charged maleo 04 webp",
+          "charged maleo 07 webp",
+          "screenshot charged maleo 06 webp",
+          "charged maleo 03 webp"
+        ],
+        "source": "TMC Blog"
+      },
       "prev_detail": null,
       "title": "Charged Indonesia Rilis Maleo S 2026: Pakai Fast Charging, Isi 20 Menit Langsung Gas Pol!",
       "previous_release": null
@@ -6753,12 +6943,12 @@
         "price": 12000000.0,
         "engine": null,
         "power": null,
-        "torque": null,
+        "torque": "87 Nm",
         "ev": {
-          "battery": null,
-          "range": null,
-          "top_speed": null,
-          "motor": null,
+          "battery": "60V 24Ah",
+          "range": "130 km",
+          "top_speed": "60 km/jam",
+          "motor": "1200 W",
           "charging": null,
           "swap": false,
           "removable": false,
@@ -6769,7 +6959,9 @@
         "price": null,
         "price_delta": null
       },
-      "compare": [],
+      "compare": [
+        "Dibandingkan dengan baterai lead-acid biasa, baterai lithium Ofero memiliki keunggulan: Masa Pakai Lebih Lama: Bertahan hingga 4–5 tahun dengan siklus pengisian hingga 3.000 kali."
+      ],
       "articles": [
         {
           "title": "Hanya 12 Jutaan ! Inilah Ofero Stareer 5 LIT….Gilaa Keren Robotic Banget ?",
@@ -6780,7 +6972,65 @@
       ],
       "image": "https://iwanbanaran.com/api/og/hanya-12-jutaan-inilah-ofero-stareer-5-lit-gilaa-keren-robotic-banget",
       "highlight": false,
-      "detail": null,
+      "detail": {
+        "url": "https://iwanbanaran.com/news/hanya-12-jutaan-inilah-ofero-stareer-5-lit-gilaa-keren-robotic-banget",
+        "intro": "Cakkkk…..kemarin secara resmi kita dikejutkan dengan kelahiran sebuah produk yang membuat kita tercengang. Kenapa ? karena desainnya betul-betul agresif dan robotic banget.",
+        "variants": [
+          {
+            "name": "Semua tipe",
+            "price": 12000000.0,
+            "colors": [
+              {
+                "name": "Shaphire Blue",
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Brilliant Black",
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Lightning Yellow",
+                "new": null,
+                "image": null
+              }
+            ],
+            "notes": []
+          }
+        ],
+        "spec_table": {
+          "Tipe Battery": "Lithium 60V 24Ah",
+          "Kecepatan Maksimum": "60 km/jam",
+          "Jarak Tempuh": "Up to 130 km (dengan 2 baterai)",
+          "Waktu Pengisian": "6 – 8 Jam"
+        },
+        "loose_colors": [],
+        "n_images": 26,
+        "image_keys": [
+          "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 2 webp w 860",
+          "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 24 webp w 1300",
+          "iklan iwanbanaran 728x174p iwb webp",
+          "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 9 webp w 1067",
+          "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 28 webp w 1125",
+          "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 4 webp w 1300",
+          "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 8 webp w 1300",
+          "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 29 webp w 1176",
+          "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 10 webp w 1300",
+          "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 7 webp w 1300",
+          "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 5 webp w 1300",
+          "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 25 webp w 1199",
+          "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 22 webp w 1300",
+          "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 21 webp w 1300",
+          "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 20 webp w 1300",
+          "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 3 webp w 1300",
+          "2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 19 300x185 webp w 300",
+          "2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 18 300x185 webp w 300",
+          "2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 16 300x190 webp w 300",
+          "2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 17 300x185 webp w 300"
+        ],
+        "source": "Iwan Banaran"
+      },
       "prev_detail": null,
       "title": "Hanya 12 Jutaan ! Inilah Ofero Stareer 5 LIT….Gilaa Keren Robotic Banget ?",
       "previous_release": null

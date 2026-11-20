@@ -1889,12 +1889,12 @@
           "price": 12000000.0,
           "engine": null,
           "power": null,
-          "torque": null,
+          "torque": "87 Nm",
           "ev": {
-            "battery": null,
-            "range": null,
-            "top_speed": null,
-            "motor": null,
+            "battery": "60V 24Ah",
+            "range": "130 km",
+            "top_speed": "60 km/jam",
+            "motor": "1200 W",
             "charging": null,
             "swap": false,
             "removable": false,
@@ -1906,9 +1906,70 @@
           "price": null,
           "price_delta": null
         },
-        "compare": [],
-        "analyzed_at": "2026-11-20T04:07:21",
-        "full": false
+        "compare": [
+          "Dibandingkan dengan baterai lead-acid biasa, baterai lithium Ofero memiliki keunggulan: Masa Pakai Lebih Lama: Bertahan hingga 4–5 tahun dengan siklus pengisian hingga 3.000 kali."
+        ],
+        "analyzed_at": "2026-11-20T04:14:39",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/hanya-12-jutaan-inilah-ofero-stareer-5-lit-gilaa-keren-robotic-banget",
+          "intro": "Cakkkk…..kemarin secara resmi kita dikejutkan dengan kelahiran sebuah produk yang membuat kita tercengang. Kenapa ? karena desainnya betul-betul agresif dan robotic banget.",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 12000000.0,
+              "colors": [
+                {
+                  "name": "Shaphire Blue",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Brilliant Black",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Lightning Yellow",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Battery": "Lithium 60V 24Ah",
+            "Kecepatan Maksimum": "60 km/jam",
+            "Jarak Tempuh": "Up to 130 km (dengan 2 baterai)",
+            "Waktu Pengisian": "6 – 8 Jam"
+          },
+          "loose_colors": [],
+          "n_images": 26,
+          "image_keys": [
+            "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 2 webp w 860",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 24 webp w 1300",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 9 webp w 1067",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 28 webp w 1125",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 4 webp w 1300",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 8 webp w 1300",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 29 webp w 1176",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 10 webp w 1300",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 7 webp w 1300",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 5 webp w 1300",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 25 webp w 1199",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 22 webp w 1300",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 21 webp w 1300",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 20 webp w 1300",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 3 webp w 1300",
+            "2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 19 300x185 webp w 300",
+            "2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 18 300x185 webp w 300",
+            "2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 16 300x190 webp w 300",
+            "2f 2fcdn iwanbanaran com 2f2026 2f01 2fofero stareer 5 lit 17 300x185 webp w 300"
+          ]
+        },
+        "prev_detail": null
       }
     },
     {
