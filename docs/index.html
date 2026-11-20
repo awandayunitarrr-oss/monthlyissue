@@ -183,6 +183,61 @@ footer{margin-top:30px;font-size:12px;color:var(--muted);text-align:center}
 .ev-recap .na{color:var(--muted)}
 .tblwrap{overflow-x:auto;padding:4px 6px}
 .ev-group{margin-bottom:14px}
+.spot{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);padding:0;overflow:hidden;margin-bottom:6px;border-top:4px solid var(--ev)}
+@media (max-width:900px){.spot{grid-template-columns:1fr}}
+.spot .media{display:flex;flex-direction:column;background:#0b1220;min-width:0;align-self:start;position:sticky;top:12px;border-radius:0 0 12px 0}
+@media (max-width:900px){.spot .media{position:static;border-radius:0}}
+.spot .stage{position:relative;aspect-ratio:16/10;background:#0b1220 center/cover no-repeat;cursor:zoom-in;transition:background-image .3s}
+.spot .stage .cap{position:absolute;left:0;right:0;bottom:0;padding:28px 16px 12px;background:linear-gradient(transparent,rgba(11,18,32,.88));color:#fff;font-size:13px}
+.spot .stage .tag{position:absolute;top:12px;left:12px;background:var(--ev);color:#fff;font-size:11px;font-weight:700;border-radius:999px;padding:3px 10px;letter-spacing:.04em}
+.spot .thumbs{display:flex;gap:6px;overflow-x:auto;padding:10px}
+.spot .thumbs button{flex:none;width:84px;height:52px;border-radius:8px;background:#1e293b center/cover no-repeat;border:2px solid transparent;padding:0;opacity:.7;cursor:pointer}
+.spot .thumbs button.on,.spot .thumbs button:hover{border-color:var(--ev);opacity:1}
+.spot .body{padding:18px 20px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.spot .kick{font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--ev);text-transform:uppercase}
+.spot h3{margin:2px 0 4px;font-size:26px;line-height:1.1}
+.spot .lead{margin:0;font-size:14px;color:var(--muted)}
+.ks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+@media (max-width:460px){.ks{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.ks div{background:var(--ev-soft);border-radius:10px;padding:8px 10px}
+.ks b{display:block;font-size:20px;color:var(--ev);font-variant-numeric:tabular-nums}
+.ks span{font-size:11px;color:var(--muted)}
+.avail{display:flex;flex-wrap:wrap;gap:6px;font-size:12px}
+.avail span{border:1px solid var(--border);border-radius:999px;padding:3px 10px}
+.avail span b{color:var(--text)}
+.fts{display:flex;flex-wrap:wrap;gap:6px}
+.ft{font-size:12px;border-radius:999px;padding:3px 10px;background:var(--surface-2)}
+.ft::before{content:"✓ ";color:var(--ev);font-weight:700}
+.ft.v{background:#fff4dc;color:#92400e}.ft.v::before{content:"? ";color:#b45309}
+:root[data-theme="dark"] .ft.v{background:#3a2a0c;color:#fcd38d}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .ft.v{background:#3a2a0c;color:#fcd38d}}
+.spot details{border:1px solid var(--border);border-radius:10px;padding:8px 12px}
+.spot summary{cursor:pointer;font-weight:600;font-size:13px}
+.spot details table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}
+.spot details td{padding:5px 6px;border-bottom:1px solid var(--border);vertical-align:top}
+.spot details td:first-child{color:var(--muted);width:42%}
+.spot details h5{margin:10px 0 0;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--ev)}
+.colors{display:flex;gap:10px;flex-wrap:wrap}
+.colors div{display:flex;align-items:center;gap:8px;font-size:13px}
+.colors i{width:18px;height:18px;border-radius:50%;border:2px solid var(--surface);box-shadow:0 0 0 1px var(--border)}
+.sib{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
+.sib img{width:92px;border-radius:8px;background:#fff}
+.dl{display:flex;gap:8px;flex-wrap:wrap}
+.dl a{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:7px 14px;font-weight:600;font-size:13px;text-decoration:none;background:var(--ev);color:#fff}
+.dl a.alt{background:none;color:var(--ev);border:1.5px solid var(--ev)}
+.spot .srcs2{font-size:11px;color:var(--muted)}
+.spot .srcs2 a{color:inherit}
+#lightbox{position:fixed;inset:0;z-index:30;background:rgba(5,8,15,.9);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:16px;gap:10px}
+#lightbox[hidden]{display:none}
+#lightbox img{max-width:100%;max-height:80vh;border-radius:10px}
+#lightbox p{color:#e5e7eb;margin:0;font-size:14px;text-align:center}
+#lightbox .nav{display:flex;gap:8px}
+#lightbox button{background:#1e293b;color:#fff;border:0;border-radius:999px;padding:8px 16px;font-weight:600;cursor:pointer}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.anim-in>*{animation:rise .5s ease both}
+.anim-in>*:nth-child(2){animation-delay:.08s}.anim-in>*:nth-child(3){animation-delay:.16s}.anim-in>*:nth-child(4){animation-delay:.24s}
+.anim-in>*:nth-child(5){animation-delay:.32s}.anim-in>*:nth-child(6){animation-delay:.4s}.anim-in>*:nth-child(n+7){animation-delay:.48s}
+@media (prefers-reduced-motion: reduce){.anim-in>*{animation:none}.spot .stage{transition:none}}
 .ev-group h3{font-size:13px;margin:0 0 8px;color:var(--ev);text-transform:uppercase;letter-spacing:.04em}
 .rcard .actions.noslide{font-size:12px;color:var(--muted);gap:6px;flex-wrap:wrap;justify-content:flex-start}
 .rcard .actions button{background:var(--c);border-color:var(--c);color:#fff;font-weight:600;font-size:13px}
@@ -327,6 +382,8 @@ header.top select:focus,header.top button:focus-visible{outline-color:#fff}
     <div class="card ev-hero"><h2>⚡ Special case: rilis motor listrik (EV)</h2>
       <p>Motor listrik dipisah karena pembandingnya berbeda dengan motor bensin: yang dilihat adalah baterai, jarak tempuh, daya motor listrik, kecepatan maksimum, waktu pengisian, sistem baterai (swap / bisa dilepas) dan status subsidi/TKDN — bukan cc &amp; torsi mesin.</p></div>
     <section class="kpis" id="ev-kpis"></section>
+    <h2 class="sec">Sorotan produk EV <span>detail spesifikasi, foto resmi & deck presentasi — tidak bergantung periode</span></h2>
+    <div id="ev-spot"></div>
     <h2 class="sec">Rilis motor listrik di Indonesia <span id="ev-plabel"></span></h2>
     <section class="rgrid" id="ev-list"></section>
     <h2 class="sec">Rekap rilis EV <span id="ev-ylabel"></span></h2>
@@ -366,6 +423,7 @@ header.top select:focus,header.top button:focus-visible{outline-color:#fff}
   <footer>Data di-update otomatis setiap hari (sekitar 23:17 WIB, bisa mundur hingga beberapa jam) via GitHub Actions. Rekap per periode tetap 1–15 dan 16–akhir bulan.</footer>
 </div>
 <div class="tip" id="tip"></div>
+<div id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Foto produk"><img alt=""><p></p><div class="nav"><button data-lb="-1">‹ Sebelumnya</button><button data-lb="0">Tutup ✕</button><button data-lb="1">Berikutnya ›</button></div></div>
 <div id="slide-wrap" hidden role="dialog" aria-modal="true" aria-label="Slide perbandingan">
   <div class="slide-bar"><button id="sl-print">Cetak / simpan PDF</button><button id="sl-close">Tutup ✕</button></div>
   <div class="slide" id="slide"></div>
@@ -474,6 +532,7 @@ async function init(){
   state.view = ["rilis", "ev"].includes(viewHash) ? viewHash : "issues";
   document.querySelectorAll(".tab").forEach(b => b.onclick = () => { state.view = b.dataset.view; writeHash(currentKey()); render(); });
   try { state.launches = (await loadJSON("data/launches.json")).launches; } catch(e){ state.launches = []; }
+  try { renderSpotlights((await loadJSON("data/ev_spotlight.json")).spotlights || []); } catch(e){ $("#ev-spot").innerHTML = ""; }
   $("#r-q").oninput = e => { state.rq = e.target.value.trim().toLowerCase(); render(); };
   $("#r-brand").onchange = e => { state.rbrand = e.target.value; render(); };
   $("#r-cmp").onclick = () => { state.rcmp = !state.rcmp; render(); };
@@ -894,6 +953,64 @@ const EV_GROUPS = [
   ["Rilis & pameran (global / belum resmi di Indonesia)", x => x.categories.includes("Peluncuran Produk")],
   ["Teknologi, paten & bocoran", x => x.categories.includes("Teknologi & Fitur") || x.categories.includes("Spy / Rumor")],
   ["Lainnya", () => true]];
+// ---------- sorotan produk EV (data/ev_spotlight.json, diisi manual) ----------
+const LB = { list: [], i: 0 };
+function showLB(i){
+  LB.i = (i + LB.list.length) % LB.list.length;
+  const [src, cap] = LB.list[LB.i];
+  $("#lightbox img").src = src; $("#lightbox img").alt = cap; $("#lightbox p").textContent = cap;
+  $("#lightbox").hidden = false;
+}
+$("#lightbox").addEventListener("click", e => {
+  const b = e.target.closest("[data-lb]");
+  if (b) { const d = +b.dataset.lb; d ? showLB(LB.i + d) : ($("#lightbox").hidden = true); }
+  else if (e.target.id === "lightbox") $("#lightbox").hidden = true;
+});
+document.addEventListener("keydown", e => {
+  if ($("#lightbox").hidden) return;
+  if (e.key === "Escape") $("#lightbox").hidden = true;
+  if (e.key === "ArrowRight") showLB(LB.i + 1);
+  if (e.key === "ArrowLeft") showLB(LB.i - 1);
+});
+function renderSpotlights(list){
+  $("#ev-spot").innerHTML = list.map(p => `
+    <article class="card spot" data-spot="${esc(p.id)}">
+      <div class="media">
+        <div class="stage" style="background-image:url('${esc(p.gallery[0][0])}')" data-i="0" role="button" tabindex="0" aria-label="Perbesar foto">
+          <span class="tag">⚡ EV · ${esc(p.debut_label)}</span><div class="cap">${esc(p.gallery[0][1])}</div></div>
+        <div class="thumbs">${p.gallery.map(([src, cap], i) => `<button class="${i ? "" : "on"}" style="background-image:url('${esc(src)}')" data-i="${i}" title="${esc(cap)}" aria-label="${esc(cap)}"></button>`).join("")}</div>
+      </div>
+      <div class="body anim-in">
+        <div><div class="kick">${esc(p.brand)} · ${esc(p.tagline)}</div><h3>${esc(p.model)}</h3><p class="lead">${esc(p.summary)}</p></div>
+        <div class="ks">${p.key_specs.map(([v, l]) => `<div><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join("")}</div>
+        <div class="avail">${p.availability.map(([m, v]) => `<span>${esc(m)}: <b>${esc(v)}</b></span>`).join("")}</div>
+        <div class="fts">${p.features.map(([f, st]) => `<span class="ft ${st === "resmi" ? "" : "v"}" title="${st === "resmi" ? "Tercantum di brosur resmi" : "Belum ada di brosur resmi — perlu verifikasi"}">${esc(f)}</span>`).join("")}</div>
+        <details><summary>Spesifikasi lengkap (brosur resmi)</summary>
+          ${p.spec_groups.map(([g, rows]) => `<h5>${esc(g)}</h5><table>${rows.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join("")}</table>`).join("")}</details>
+        ${p.compare ? `<details><summary>${esc(p.compare.title)}</summary><table><tr><td></td>${p.compare.cols.map(c => `<td><b>${esc(c)}</b></td>`).join("")}</tr>
+          ${p.compare.rows.map(r => `<tr>${r.map((c, j) => `<td>${j === 1 ? `<b>${esc(c)}</b>` : esc(c)}</td>`).join("")}</tr>`).join("")}</table>
+          <div class="srcs2" style="margin-top:6px">${esc(p.compare.note)}</div></details>` : ""}
+        <div class="colors">${p.colors.map(([n, hex]) => `<div><i style="background:${esc(hex)}"></i>${esc(n)}</div>`).join("")}</div>
+        ${p.sibling ? `<div class="sib"><img src="${esc(p.sibling.image)}" alt="${esc(p.sibling.model)}" loading="lazy"><div><b style="color:var(--text)">Satu platform: ${esc(p.sibling.model)}</b><br>${esc(p.sibling.text)}</div></div>` : ""}
+        <div class="dl">${p.deck.map(([l, href], i) => `<a class="${i ? "alt" : ""}" href="${esc(href)}" ${i ? "download" : 'target="_blank" rel="noopener"'}>${i ? "⬇" : "📄"} ${esc(l)}</a>`).join("")}</div>
+        <div class="srcs2">${esc(p.photo_credit)} · Sumber: ${p.sources.map(([t, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a>`).join(" · ")}</div>
+      </div>
+    </article>`).join("");
+  document.querySelectorAll(".spot").forEach(el => {
+    const p = list.find(x => x.id === el.dataset.spot), stage = el.querySelector(".stage");
+    const pick = i => {
+      stage.style.backgroundImage = `url('${p.gallery[i][0]}')`; stage.dataset.i = i;
+      stage.querySelector(".cap").textContent = p.gallery[i][1];
+      el.querySelectorAll(".thumbs button").forEach(b => b.classList.toggle("on", +b.dataset.i === i));
+    };
+    el.querySelector(".thumbs").onclick = e => { const b = e.target.closest("[data-i]"); if (b) pick(+b.dataset.i); };
+    const open = () => { LB.list = p.gallery; showLB(+stage.dataset.i); };
+    stage.onclick = open;
+    stage.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } };
+    el.querySelector(".thumbs").addEventListener("pointerenter", () => p.gallery.forEach(([src]) => { const im = new Image(); im.src = src; }), { once: true });   // pramuat saat galeri disentuh
+  });
+}
+
 function renderEV(){
   const all = launchesInPeriod().filter(g => g.ev), year = state.periodKey.slice(0, 4);
   const yearL = (state.launches || []).filter(g => g.ev && g.date.slice(0, 4) === year);

@@ -66,3 +66,12 @@ perbandingan "sebelumnya vs sekarang" per tipe (harga, warna, gambar). Sumber pe
 3. **Artikel blog** — artikel rilis versi sebelumnya yang ditemukan otomatis.
 
 Situs resmi merek lain tidak diambil otomatis karena datanya hanya tersedia lewat API internal mereka.
+
+## Special Case: Motor Listrik (EV)
+
+Tab **⚡ Special Case: Motor Listrik** memisahkan rilis EV (baterai, jarak tempuh, daya motor, waktu cas, swap/subsidi)
+dari motor bensin, plus isu EV lain per periode.
+
+**Sorotan produk EV** (bagian atas tab) diisi manual di `docs/data/ev_spotlight.json` — tidak bergantung periode:
+foto di `docs/ev/<produk>/`, deck presentasi di `docs/files/`. Fitur bertanda `"verifikasi"` tampil kuning
+(belum ada di brosur resmi). Saat ini berisi Yamaha NMAX E (brosur Yamaha Scooters 2027 + foto resmi).

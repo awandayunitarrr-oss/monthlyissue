@@ -1,0 +1,342 @@
+{
+  "updated_at": "2026-11-20",
+  "spotlights": [
+    {
+      "id": "yamaha-nmax-e",
+      "brand": "Yamaha",
+      "model": "NMAX E",
+      "tagline": "Skutik MAXi listrik · debut EICMA 2026",
+      "summary": "NMAX E membawa desain dan kualitas keluarga MAX ke tenaga listrik: unit eAxle 7,5 kW dengan torsi 33,3 Nm sejak 500 rpm, baterai 3,5 kWh untuk 104 km (WMTC), rangka backbone baru dan roda 13 inci.",
+      "debut": "2026-11-03",
+      "debut_label": "EICMA Milan · 3 Nov 2026",
+      "availability": [
+        [
+          "Eropa (Jerman)",
+          "April 2027 · €7.799"
+        ],
+        [
+          "Jepang",
+          "Rencana 2027"
+        ],
+        [
+          "Indonesia",
+          "Belum diumumkan"
+        ]
+      ],
+      "hero": "ev/nmax-e/hero.jpg",
+      "key_specs": [
+        [
+          "3,5 kWh",
+          "Baterai Li-ion 50,4 V / 70,2 Ah"
+        ],
+        [
+          "104 km",
+          "Jarak tempuh WMTC Class 1"
+        ],
+        [
+          "7,5 kW",
+          "Tenaga maks. @ 3.500 rpm"
+        ],
+        [
+          "33,3 Nm",
+          "Torsi puncak @ 500 rpm"
+        ],
+        [
+          "±5,5 jam",
+          "Pengisian 0–100%"
+        ],
+        [
+          "121 kg",
+          "Berat tanpa baterai"
+        ]
+      ],
+      "spec_groups": [
+        [
+          "Motor & baterai",
+          [
+            [
+              "Tipe motor",
+              "Excitation 3-phase synchronized motor"
+            ],
+            [
+              "Daya nominal",
+              "6,7 kW @ 3.500 rpm"
+            ],
+            [
+              "Daya maksimum",
+              "7,5 kW @ 3.500 rpm"
+            ],
+            [
+              "Torsi maksimum",
+              "33,3 Nm @ 500 rpm"
+            ],
+            [
+              "Penggerak",
+              "eAxle power unit + final drive belt"
+            ],
+            [
+              "Baterai",
+              "Lithium-ion 50,4 V / 70,2 Ah (5HR)"
+            ],
+            [
+              "Kapasitas",
+              "3,5 kWh · 1 pack, fixed / on-board"
+            ],
+            [
+              "Jarak tempuh",
+              "104 km (WMTC Class 1); mode Eco memperkuat regen"
+            ],
+            [
+              "Charger",
+              "On-board; wall charger 220 VAC / AC Type 2"
+            ],
+            [
+              "Waktu cas",
+              "±5,5 jam (0–100%); 20–80% n/a"
+            ]
+          ]
+        ],
+        [
+          "Rangka & kaki-kaki",
+          [
+            [
+              "Rangka",
+              "Backbone (baru)"
+            ],
+            [
+              "Caster / trail",
+              "26°30' / 100 mm"
+            ],
+            [
+              "Suspensi depan",
+              "Teleskopik, travel 100 mm"
+            ],
+            [
+              "Suspensi belakang",
+              "Swingarm, travel 97 mm"
+            ],
+            [
+              "Rem",
+              "Cakram hidraulik depan & belakang, regeneratif"
+            ],
+            [
+              "Ban depan",
+              "110/70-13 M/C 48P tubeless"
+            ],
+            [
+              "Ban belakang",
+              "130/70-13 M/C 63P tubeless"
+            ]
+          ]
+        ],
+        [
+          "Dimensi",
+          [
+            [
+              "P x L x T",
+              "1.980 x 795 x 1.235 mm"
+            ],
+            [
+              "Jarak sumbu roda",
+              "1.425 mm"
+            ],
+            [
+              "Tinggi jok",
+              "770 mm"
+            ],
+            [
+              "Ground clearance",
+              "135 mm"
+            ],
+            [
+              "Berat (tanpa baterai)",
+              "121 kg"
+            ],
+            [
+              "Bagasi",
+              "1 helm, kabin berlampu"
+            ]
+          ]
+        ]
+      ],
+      "features": [
+        [
+          "Tiga riding mode",
+          "resmi"
+        ],
+        [
+          "Regenerative braking",
+          "resmi"
+        ],
+        [
+          "TCS",
+          "resmi"
+        ],
+        [
+          "APSG (gas elektronik)",
+          "resmi"
+        ],
+        [
+          "TFT 5\" + Yamaha Motor On",
+          "resmi"
+        ],
+        [
+          "Navigasi turn-by-turn",
+          "resmi"
+        ],
+        [
+          "Bagasi berlampu",
+          "resmi"
+        ],
+        [
+          "YOU Charge",
+          "resmi"
+        ],
+        [
+          "ABS",
+          "verifikasi"
+        ],
+        [
+          "Reverse assist",
+          "verifikasi"
+        ],
+        [
+          "Top speed",
+          "verifikasi"
+        ]
+      ],
+      "colors": [
+        [
+          "Avio Blue",
+          "#34507A",
+          "ev/nmax-e/side-blue.jpg"
+        ],
+        [
+          "Platinum Silver",
+          "#B5BCC6",
+          "ev/nmax-e/side-silver.jpg"
+        ]
+      ],
+      "gallery": [
+        [
+          "ev/nmax-e/hero.jpg",
+          "NMAX E Avio Blue — desain MAX DNA"
+        ],
+        [
+          "ev/nmax-e/riding.jpg",
+          "Quick & quiet sport scooter untuk kota"
+        ],
+        [
+          "ev/nmax-e/studio.jpg",
+          "Desain MAX DNA"
+        ],
+        [
+          "ev/nmax-e/eaxle.jpg",
+          "Unit eAxle + belt drive di swingarm"
+        ],
+        [
+          "ev/nmax-e/tft.jpg",
+          "TFT 5\": Mode T, status baterai"
+        ],
+        [
+          "ev/nmax-e/port.jpg",
+          "Inlet pengisian AC Type 2"
+        ],
+        [
+          "ev/nmax-e/charging.jpg",
+          "Mengisi di charging station"
+        ],
+        [
+          "ev/nmax-e/headlight.jpg",
+          "Lampu depan LED ganda"
+        ],
+        [
+          "ev/nmax-e/seat.jpg",
+          "Jok lebar bertingkat"
+        ],
+        [
+          "ev/nmax-e/underseat.jpg",
+          "Bagasi bawah jok berlampu, muat 1 helm"
+        ],
+        [
+          "ev/nmax-e/charging-rear.jpg",
+          "Pengisian di rumah/kantor/publik"
+        ]
+      ],
+      "compare": {
+        "title": "vs NMAX Turbo (bensin, Indonesia)",
+        "cols": [
+          "NMAX E",
+          "NMAX Turbo"
+        ],
+        "rows": [
+          [
+            "Tenaga maks.",
+            "7,5 kW",
+            "11,3 kW"
+          ],
+          [
+            "Torsi maks.",
+            "33,3 Nm @ 500 rpm",
+            "14,2 Nm @ 6.500 rpm"
+          ],
+          [
+            "Energi",
+            "Baterai 3,5 kWh",
+            "Tangki 7,1 L"
+          ],
+          [
+            "Sumbu roda",
+            "1.425 mm",
+            "1.340 mm"
+          ],
+          [
+            "Tinggi jok",
+            "770 mm",
+            "770 mm"
+          ],
+          [
+            "Berat",
+            "121 kg (tanpa baterai)",
+            "135 kg (isi)"
+          ]
+        ],
+        "note": "Data NMAX Turbo dari yamaha-motor.co.id (dicatat 13/11/2026)."
+      },
+      "sibling": {
+        "model": "XENTER E",
+        "image": "ev/nmax-e/xenter-side.jpg",
+        "text": "Powertrain & baterai sama; roda 16\", flat floor, rangka underbone, 108 km WMTC, P 2.140 mm, jok 790 mm."
+      },
+      "deck": [
+        [
+          "Unduh deck PDF (19 slide)",
+          "files/Yamaha_NMAX_E_Detail_2026.pdf"
+        ],
+        [
+          "Unduh PPTX beranimasi",
+          "files/Yamaha_NMAX_E_Detail_2026_animasi.pptx"
+        ]
+      ],
+      "sources": [
+        [
+          "Brosur Yamaha Scooters 2027 (hlm. 17 & 31)",
+          "https://www.yamaha-motor.eu/content/dam/yme/language-masters/en/EICMA-2026/brochures/2027_DL1_SC_SHOW_EU-EN_WEB.pdf"
+        ],
+        [
+          "Yamaha Europe — NMAX E",
+          "https://www.yamaha-motor.eu/gb/en/scooters/sport/pdp/nmax-e-2027/"
+        ],
+        [
+          "TMC Blog — NMAX E resmi dirilis",
+          "https://tmcblog.com/2026/11/03/yamaha-nmax-e-resmi-dirilis-skutik-sport-elektrik-setara-125cc-dengan-torsi-instan-333-nm/"
+        ],
+        [
+          "Iwan Banaran — NMAX-E",
+          "https://iwanbanaran.com/news/yamaha-bikin-geger-rilis-nmax-versi-listrik-berlabel-nmax-e-kerenn-poll"
+        ]
+      ],
+      "photo_credit": "Foto: Yamaha Motor Europe (brosur 2027) & materi pers Yamaha"
+    }
+  ]
+}
