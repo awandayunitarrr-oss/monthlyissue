@@ -82,3 +82,8 @@ Tombol **▶ Presentasi** di header menampilkan periode terpilih sebagai 5 slide
 rilis Indonesia, special case EV) dengan animasi. Navigasi: ← → / spasi / klik, `F` layar penuh, `Esc` keluar.
 **Export PDF** di mode ini mencetak 5 halaman 16:9 (pilih "Simpan sebagai PDF" di dialog cetak).
 Deck NMAX E versi ringkas (9 slide) bisa diputar dari tab EV lewat tombol "Presentasikan deck".
+
+**Halaman khusus NMAX E** (`docs/nmax-e.html`, tombol "Halaman khusus · putar 360°" di tab EV): judul beranimasi,
+showroom putar 360° (seret/slider/otomatis, Avio Blue & Platinum Silver), angka count-up, hotspot eAxle, tab spesifikasi,
+perbandingan dengan batang animasi, galeri dan unduhan deck. Frame 360° ada di `docs/ev/nmax-e/spin/` — dibuat dari foto
+studio resmi (samping & 3/4 depan + cerminannya, sudut belakang disimulasikan); ganti dengan 36 frame turntable resmi bila ada.

@@ -1196,7 +1196,7 @@ function renderSpotlights(list){
           <div class="srcs2" style="margin-top:6px">${esc(p.compare.note)}</div></details>` : ""}
         <div class="colors">${p.colors.map(([n, hex]) => `<div><i style="background:${esc(hex)}"></i>${esc(n)}</div>`).join("")}</div>
         ${p.sibling ? `<div class="sib"><img src="${esc(p.sibling.image)}" alt="${esc(p.sibling.model)}" loading="lazy"><div><b style="color:var(--text)">Satu platform: ${esc(p.sibling.model)}</b><br>${esc(p.sibling.text)}</div></div>` : ""}
-        <div class="dl">${p.present ? `<a href="#" data-present="${esc(p.id)}">▶ ${esc(p.present.label)}</a>` : ""}${p.deck.map(([l, href]) => { const pdf = href.endsWith(".pdf"); return `<a class="alt" href="${esc(href)}" ${pdf ? 'target="_blank" rel="noopener"' : "download"}>${pdf ? "📄" : "⬇"} ${esc(l)}</a>`; }).join("")}</div>
+        <div class="dl">${p.page ? `<a href="${esc(p.page)}">⟳ Halaman khusus · putar 360°</a>` : ""}${p.present ? `<a href="#" data-present="${esc(p.id)}">▶ ${esc(p.present.label)}</a>` : ""}${p.deck.map(([l, href]) => { const pdf = href.endsWith(".pdf"); return `<a class="alt" href="${esc(href)}" ${pdf ? 'target="_blank" rel="noopener"' : "download"}>${pdf ? "📄" : "⬇"} ${esc(l)}</a>`; }).join("")}</div>
         <div class="srcs2">${esc(p.photo_credit)} · Sumber: ${p.sources.map(([t, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a>`).join(" · ")}</div>
       </div>
     </article>`).join("");

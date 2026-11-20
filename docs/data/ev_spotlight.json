@@ -360,7 +360,13 @@
           "files/nmax-e-ringkas/slide-8.jpg",
           "files/nmax-e-ringkas/slide-9.jpg"
         ]
-      }
+      },
+      "spin": {
+        "frames": 36,
+        "path": "ev/nmax-e/spin/{color}-{i}.webp",
+        "note": "Putaran disusun dari foto studio resmi (tampak samping & 3/4 depan, beserta cerminannya); sudut belakang disimulasikan. Bisa diganti foto turntable resmi bila tersedia."
+      },
+      "page": "nmax-e.html"
     }
   ]
 }

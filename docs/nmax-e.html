@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yamaha NMAX E — Showcase</title>
+<meta name="description" content="Halaman khusus Yamaha NMAX E: putar 360°, spesifikasi lengkap brosur resmi, teknologi eAxle, galeri dan deck presentasi.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#070b14">
+<style>
+:root{--ink:#070b14;--navy:#0b1220;--card:#0f1a2e;--card2:#13213a;--line:#1f2d48;--text:#e8eef8;--muted:#93a3bc;
+  --cyan:#22d3ee;--cyan2:#06b6d4;--blue:#3b82f6;--violet:#8b5cf6;--amber:#f59e0b;--green:#22c55e;--red:#f43f5e}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ink);color:var(--text);font:16px/1.55 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:hidden}
+a{color:var(--cyan)}
+img{max-width:100%;display:block}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+section{padding:88px 0;position:relative}
+.kick{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--cyan)}
+h2{font-size:clamp(28px,4.2vw,46px);line-height:1.08;margin:8px 0 12px;letter-spacing:-.02em}
+.lead{color:var(--muted);font-size:17px;max-width:720px;margin:0}
+
+/* nav */
+nav.top{position:fixed;top:0;left:0;right:0;z-index:20;display:flex;align-items:center;gap:14px;padding:10px 20px;
+  background:linear-gradient(rgba(7,11,20,.85),rgba(7,11,20,0));backdrop-filter:blur(6px);transition:background .3s}
+nav.top.solid{background:rgba(7,11,20,.92);border-bottom:1px solid var(--line)}
+nav.top .brand{font-weight:800;letter-spacing:.04em;text-decoration:none;color:var(--text);margin-right:auto;display:flex;align-items:center;gap:8px}
+nav.top .brand i{width:10px;height:10px;border-radius:50%;background:var(--cyan);box-shadow:0 0 12px var(--cyan);animation:blink 2s infinite}
+nav.top a.l{color:var(--muted);text-decoration:none;font-size:14px;font-weight:600}
+nav.top a.l:hover{color:var(--text)}
+@media (max-width:760px){nav.top a.l.opt{display:none}}
+@keyframes blink{50%{opacity:.35}}
+
+/* hero */
+.hero{position:relative;min-height:100vh;min-height:100svh;display:flex;align-items:center;padding:96px 0 120px;overflow:hidden}
+.hero .bg{position:absolute;inset:-6% -2%;background:url("ev/nmax-e/hero.jpg") 70% 40%/cover no-repeat;transform:scale(1.08);animation:kb 14s ease-out forwards;will-change:transform}
+.hero .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--ink) 18%,rgba(7,11,20,.55) 55%,rgba(7,11,20,.15)),linear-gradient(0deg,var(--ink),transparent 35%)}
+@keyframes kb{to{transform:scale(1)}}
+.hero .wrap{position:relative;width:100%}
+.hero .kick{opacity:0;animation:fadeup .7s .2s forwards}
+.title{font-size:clamp(72px,15vw,190px);line-height:.88;font-weight:900;letter-spacing:-.04em;margin:10px 0 8px;white-space:nowrap}
+.title .ch{display:inline-block;opacity:0;transform:translateY(60px) rotateX(70deg);filter:blur(8px);animation:chin .9s cubic-bezier(.2,.7,.2,1) forwards;
+  background:linear-gradient(100deg,#fff 0%,#fff 40%,var(--cyan) 50%,#fff 60%,#fff 100%);background-size:300% 100%;-webkit-background-clip:text;background-clip:text;color:transparent}
+.title.lit .ch{animation:chin .9s cubic-bezier(.2,.7,.2,1) forwards,shine 4.5s linear infinite}
+.title .ch.e{color:transparent;background:linear-gradient(100deg,var(--cyan),#60a5fa,var(--cyan));background-size:200% 100%;-webkit-background-clip:text;background-clip:text;text-shadow:none;filter:drop-shadow(0 0 22px rgba(34,211,238,.55))}
+.title.lit .ch.e{animation:chin .9s cubic-bezier(.2,.7,.2,1) forwards,shine 3s linear infinite,flick 5s 2s infinite}
+@keyframes chin{to{opacity:1;transform:none;filter:none}}
+@keyframes shine{from{background-position:150% 0}to{background-position:-150% 0}}
+@keyframes flick{0%,92%,100%{opacity:1}93%{opacity:.4}95%{opacity:1}96%{opacity:.6}}
+@keyframes fadeup{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.bolt{width:min(520px,80vw);height:40px;display:block;margin:4px 0 14px}
+.bolt path{fill:none;stroke:var(--cyan);stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:900;stroke-dashoffset:900;animation:draw 1.6s 1s cubic-bezier(.5,0,.2,1) forwards;filter:drop-shadow(0 0 6px var(--cyan))}
+.bolt circle{fill:#fff;filter:drop-shadow(0 0 8px var(--cyan));offset-path:path("M2 20 H170 L190 6 L215 34 L240 4 L262 30 L280 20 H518");animation:run 2.6s 2.4s linear infinite;opacity:0}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes run{0%{offset-distance:0;opacity:1}100%{offset-distance:100%;opacity:1}}
+.hero .sub{font-size:clamp(18px,2.3vw,24px);color:#cfe8f3;max-width:600px;margin:0 0 6px;opacity:0;animation:fadeup .8s 1.2s forwards}
+.hero .typed{font-size:15px;color:var(--muted);min-height:24px;opacity:0;animation:fadeup .6s 1.5s forwards}
+.hero .typed b{color:var(--cyan)}
+.hero .typed .cur{display:inline-block;width:2px;height:1em;background:var(--cyan);vertical-align:-2px;margin-left:2px;animation:blink 1s steps(1) infinite}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px;opacity:0;animation:fadeup .8s 1.8s forwards}
+.btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:11px 20px;font-weight:700;font-size:14px;text-decoration:none;border:1.5px solid var(--cyan);color:var(--cyan);background:none;cursor:pointer;font-family:inherit}
+.btn.fill{background:var(--cyan);color:#06222a}
+.btn:hover{box-shadow:0 0 0 4px rgba(34,211,238,.18)}
+.marquee{position:absolute;left:0;right:0;bottom:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:rgba(7,11,20,.7);overflow:hidden;padding:12px 0}
+.marquee .track{display:flex;gap:48px;width:max-content;animation:mq 32s linear infinite;font-weight:800;letter-spacing:.06em;font-size:15px;white-space:nowrap}
+.marquee .track span{color:var(--muted)}.marquee .track b{color:var(--text)}.marquee .track i{color:var(--cyan);font-style:normal}
+@keyframes mq{to{transform:translateX(-50%)}}
+.scrollhint{position:absolute;right:24px;bottom:70px;font-size:12px;color:var(--muted);writing-mode:vertical-rl;letter-spacing:.2em;opacity:.7}
+
+/* 360 */
+.spin{background:radial-gradient(900px 500px at 50% 65%,rgba(6,182,212,.14),transparent 70%),var(--navy)}
+.stage{position:relative;max-width:980px;margin:22px auto 0;aspect-ratio:16/10;user-select:none;touch-action:pan-y;cursor:grab}
+.stage:active{cursor:grabbing}
+.stage .plat{position:absolute;left:50%;bottom:4%;width:82%;aspect-ratio:1;transform:translateX(-50%) rotateX(78deg);transform-origin:50% 100%;pointer-events:none}
+.stage .plat .ring{position:absolute;inset:0;border-radius:50%;border:2px solid rgba(34,211,238,.6);box-shadow:0 0 40px rgba(34,211,238,.35),inset 0 0 60px rgba(34,211,238,.25)}
+.stage .plat .ring.r2{inset:9%;border:2px dashed rgba(34,211,238,.45);animation:rot 18s linear infinite}
+.stage .plat .ring.r3{inset:18%;border:1px solid rgba(59,130,246,.5);animation:rot 26s linear infinite reverse}
+.stage .plat .glow{position:absolute;inset:14%;border-radius:50%;background:radial-gradient(closest-side,rgba(34,211,238,.35),transparent)}
+@keyframes rot{to{transform:rotate(360deg)}}
+.stage .moto{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;pointer-events:none;filter:drop-shadow(0 24px 30px rgba(0,0,0,.55))}
+.stage .deg{position:absolute;right:2%;top:4%;font-size:42px;font-weight:900;color:var(--cyan);font-variant-numeric:tabular-nums;text-shadow:0 0 18px rgba(34,211,238,.5)}
+.stage .deg small{display:block;font-size:11px;color:var(--muted);letter-spacing:.14em;font-weight:700;text-align:right}
+.stage .hint{position:absolute;left:50%;top:6%;transform:translateX(-50%);font-size:13px;color:var(--muted);display:flex;align-items:center;gap:8px;transition:opacity .4s}
+.stage .hint svg{animation:sway 1.6s ease-in-out infinite}
+@keyframes sway{50%{transform:translateX(8px)}}
+.compass{position:absolute;left:2%;top:4%;width:78px;height:78px}
+.ctrls{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px;margin-top:10px}
+.ctrls input[type=range]{width:min(420px,70vw);accent-color:var(--cyan)}
+.sw{display:inline-flex;gap:6px}
+.sw button{display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;padding:7px 14px;font:600 13px Inter,system-ui,sans-serif;cursor:pointer}
+.sw button i{width:14px;height:14px;border-radius:50%;box-shadow:0 0 0 2px rgba(255,255,255,.15)}
+.sw button.on{border-color:var(--cyan)}
+.note{font-size:12px;color:var(--muted);text-align:center;margin-top:12px}
+
+/* angka */
+.nums{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;margin-top:28px}
+@media (max-width:900px){.nums{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:520px){.nums{grid-template-columns:repeat(2,1fr)}}
+.num{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;position:relative;overflow:hidden}
+.num::before{content:"";position:absolute;inset:0 0 auto;height:3px;background:linear-gradient(90deg,var(--cyan),transparent);transform:scaleX(0);transform-origin:left;transition:transform 1.2s .2s}
+.num.in::before{transform:none}
+.num b{display:block;white-space:nowrap;font-size:clamp(26px,2.6vw,36px);font-weight:900;color:var(--cyan);font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.num span{font-size:13px;color:var(--muted)}
+
+/* teknologi */
+.tech{display:grid;grid-template-columns:1.25fr 1fr;gap:28px;align-items:start;margin-top:26px}
+@media (max-width:900px){.tech{grid-template-columns:1fr}}
+.hot{position:relative;border-radius:18px;overflow:hidden;border:1px solid var(--line)}
+.hot img{width:100%}
+.hot .pt{position:absolute;width:34px;height:34px;margin:-17px 0 0 -17px;border-radius:50%;background:var(--cyan);color:#06222a;font-weight:900;font-size:13px;display:grid;place-items:center;cursor:pointer;border:2px solid #fff}
+.hot .pt::after{content:"";position:absolute;inset:-8px;border-radius:50%;border:2px solid var(--cyan);animation:ping 1.8s infinite}
+@keyframes ping{from{transform:scale(.6);opacity:1}to{transform:scale(1.6);opacity:0}}
+.hot .tip{position:absolute;max-width:240px;background:rgba(7,11,20,.92);border:1px solid var(--cyan);border-radius:10px;padding:8px 10px;font-size:13px;pointer-events:none;opacity:0;transition:opacity .2s}
+.tcards{display:flex;flex-direction:column;gap:12px}
+.tc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:grid;grid-template-columns:44px 1fr;gap:12px;transition:border-color .3s,transform .3s}
+.tc.on,.tc:hover{border-color:var(--cyan);transform:translateX(4px)}
+.tc .n{font-size:24px;font-weight:900;color:var(--cyan)}
+.tc h4{margin:0;font-size:17px}.tc p{margin:2px 0 0;font-size:14px;color:var(--muted)}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}
+@media (max-width:760px){.trio{grid-template-columns:1fr}}
+.fig{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.fig .im{aspect-ratio:16/9;overflow:hidden}
+.fig .im img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s}
+.fig:hover .im img{transform:scale(1.07)}
+.fig div.c{padding:12px 14px}.fig h4{margin:0;font-size:16px}.fig p{margin:2px 0 0;font-size:13px;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.chip{font-size:13px;border-radius:999px;padding:6px 12px;background:var(--card2);border:1px solid var(--line)}
+.chip::before{content:"✓ ";color:var(--green);font-weight:800}
+.chip.v{border-color:rgba(245,158,11,.5);color:#fcd38d}.chip.v::before{content:"? ";color:var(--amber)}
+
+/* spesifikasi */
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-top:22px;position:relative}
+.tabs button{background:none;border:0;color:var(--muted);font:700 15px Inter,system-ui,sans-serif;padding:10px 14px;cursor:pointer}
+.tabs button.on{color:var(--text)}
+.tabs .ul{position:absolute;bottom:0;height:3px;background:var(--cyan);border-radius:2px;transition:left .35s cubic-bezier(.2,.7,.2,1),width .35s}
+.spec{width:100%;border-collapse:collapse;margin-top:8px;font-size:15px}
+.spec tr{border-bottom:1px solid var(--line);animation:rowin .45s both}
+.spec td{padding:11px 8px}.spec td:first-child{color:var(--muted);width:40%}
+@keyframes rowin{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}
+
+/* banding */
+.cmp{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px}
+@media (max-width:760px){.cmp{grid-template-columns:1fr}}
+.cm{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px}
+.cm h4{margin:0 0 4px;font-size:15px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.bar{display:grid;grid-template-columns:96px 1fr 70px;align-items:center;gap:8px;font-size:13px;margin:8px 0}
+.bar .t{height:12px;background:var(--card2);border-radius:6px;overflow:hidden}
+.bar .t i{display:block;height:100%;border-radius:6px;width:0;transition:width 1.3s cubic-bezier(.2,.7,.2,1)}
+.bar b{text-align:right;font-variant-numeric:tabular-nums}
+.legend{display:flex;gap:14px;font-size:13px;color:var(--muted);margin-top:14px;flex-wrap:wrap}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+
+/* galeri */
+.gal{columns:3 260px;column-gap:14px;margin-top:22px}
+.gal figure{margin:0 0 14px;break-inside:avoid;border-radius:14px;overflow:hidden;position:relative;cursor:zoom-in;border:1px solid var(--line)}
+.gal img{width:100%;transition:transform .8s}
+.gal figure:hover img{transform:scale(1.05)}
+.gal figcaption{position:absolute;left:0;right:0;bottom:0;padding:22px 12px 10px;font-size:13px;background:linear-gradient(transparent,rgba(7,11,20,.9))}
+#lb{position:fixed;inset:0;z-index:50;background:rgba(3,6,12,.94);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:16px}
+#lb[hidden]{display:none}#lb img{max-height:82vh;border-radius:12px}#lb p{margin:0;color:#cbd5e1}
+
+/* penutup */
+.end{text-align:center;background:radial-gradient(700px 360px at 50% 0%,rgba(34,211,238,.14),transparent 70%)}
+.end .cta{justify-content:center;opacity:1;animation:none}
+.src{font-size:12px;color:var(--muted);margin-top:26px}
+.src a{color:var(--muted)}
+footer{padding:26px 0;border-top:1px solid var(--line);font-size:12px;color:var(--muted);text-align:center}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(28px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+.rv.d1{transition-delay:.1s}.rv.d2{transition-delay:.2s}.rv.d3{transition-delay:.3s}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto}
+  .rv{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<nav class="top" id="nav">
+  <a class="brand" href="#top"><i></i>NMAX E</a>
+  <a class="l opt" href="#putar">360°</a>
+  <a class="l opt" href="#teknologi">Teknologi</a>
+  <a class="l opt" href="#spesifikasi">Spesifikasi</a>
+  <a class="l opt" href="#banding">Banding</a>
+  <a class="l opt" href="#galeri">Galeri</a>
+  <a class="l" href="index.html#2026&amp;ev">← Dashboard</a>
+</nav>
+
+<header class="hero" id="top">
+  <div class="bg" id="herobg"></div>
+  <div class="wrap">
+    <div class="kick">Yamaha · Skutik MAXi listrik · EICMA 2026</div>
+    <h1 class="title" id="title" aria-label="NMAX E"></h1>
+    <svg class="bolt" viewBox="0 0 520 40" aria-hidden="true"><path d="M2 20 H170 L190 6 L215 34 L240 4 L262 30 L280 20 H518"/><circle r="4"/></svg>
+    <p class="sub">Keluarga MAX kini bertenaga listrik: torsi instan, senyap, dan siap untuk kota.</p>
+    <div class="typed" id="typed"></div>
+    <div class="cta">
+      <a class="btn fill" href="#putar">⟳ Putar 360°</a>
+      <a class="btn" href="files/Yamaha_NMAX_E_Ringkas_2026.pdf" target="_blank" rel="noopener">📄 Deck ringkas (9 slide)</a>
+    </div>
+  </div>
+  <div class="scrollhint">SCROLL ↓</div>
+  <div class="marquee" aria-hidden="true"><div class="track" id="mq"></div></div>
+</header>
+
+<section class="spin" id="putar">
+  <div class="wrap">
+    <div class="kick rv">Showroom</div>
+    <h2 class="rv d1">Putar 360°</h2>
+    <p class="lead rv d2">Seret motor ke kiri/kanan, geser slider, atau biarkan berputar sendiri. Ganti warna untuk melihat Platinum Silver.</p>
+    <div class="stage rv d2" id="stage" role="slider" aria-label="Sudut pandang NMAX E" aria-valuemin="0" aria-valuemax="359" aria-valuenow="0" tabindex="0">
+      <div class="plat"><div class="glow"></div><div class="ring"></div><div class="ring r2"></div><div class="ring r3"></div></div>
+      <svg class="compass" viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="34" fill="none" stroke="#1f2d48" stroke-width="6"/>
+        <circle id="arc" cx="40" cy="40" r="34" fill="none" stroke="#22d3ee" stroke-width="6" stroke-linecap="round" stroke-dasharray="0 214" transform="rotate(-90 40 40)"/>
+        <text x="40" y="45" text-anchor="middle" fill="#93a3bc" font-size="12" font-weight="700">360°</text></svg>
+      <div class="deg"><small>SUDUT</small><span id="deg">0°</span></div>
+      <div class="hint" id="hint"><svg width="34" height="14" viewBox="0 0 34 14"><path d="M2 7h30M6 2 1 7l5 5M28 2l5 5-5 5" stroke="#93a3bc" stroke-width="2" fill="none"/></svg>seret untuk memutar</div>
+      <img class="moto" id="moto" alt="Yamaha NMAX E dari berbagai sudut">
+    </div>
+    <div class="ctrls">
+      <button class="btn" id="play" aria-pressed="true">❚❚ Jeda</button>
+      <input type="range" id="ang" min="0" max="359" value="0" aria-label="Sudut">
+      <div class="sw" id="sw"><button class="on" data-c="blue"><i style="background:#34507a"></i>Avio Blue</button><button data-c="silver"><i style="background:#b5bcc6"></i>Platinum Silver</button></div>
+    </div>
+    <p class="note" id="spinnote"></p>
+  </div>
+</section>
+
+<section id="angka">
+  <div class="wrap">
+    <div class="kick rv">Angka kunci</div>
+    <h2 class="rv d1">Kecil di emisi, besar di torsi</h2>
+    <div class="nums" id="nums"></div>
+  </div>
+</section>
+
+<section id="teknologi" style="background:var(--navy)">
+  <div class="wrap">
+    <div class="kick rv">Teknologi</div>
+    <h2 class="rv d1">eAxle + belt drive, baterai di tengah</h2>
+    <p class="lead rv d2">Arahkan kursor / ketuk titik pada foto untuk melihat bagian penggerak.</p>
+    <div class="tech">
+      <div class="hot rv" id="hot"><img src="ev/nmax-e/eaxle.jpg" alt="Unit eAxle dan belt drive NMAX E" loading="lazy"><div class="tip" id="tip"></div></div>
+      <div class="tcards" id="tcards"></div>
+    </div>
+    <div class="trio">
+      <div class="fig rv"><div class="im"><img src="ev/nmax-e/tft.jpg" alt="Layar TFT 5 inci" loading="lazy"></div><div class="c"><h4>TFT 5" + Yamaha Motor On</h4><p>Navigasi turn-by-turn, telepon, pesan & audio; status baterai dan riding mode.</p></div></div>
+      <div class="fig rv d1"><div class="im"><img src="ev/nmax-e/port.jpg" alt="Inlet pengisian AC Type 2" loading="lazy"></div><div class="c"><h4>Inlet AC Type 2</h4><p>On-board charger: wall charger 220 VAC atau stasiun publik AC Type 2 · ±5,5 jam 0–100%.</p></div></div>
+      <div class="fig rv d2"><div class="im"><img src="ev/nmax-e/underseat.jpg" alt="Bagasi bawah jok berlampu" loading="lazy"></div><div class="c"><h4>Bagasi berlampu</h4><p>Muat 1 helm — kepraktisan harian khas MAX.</p></div></div>
+    </div>
+    <div class="chips rv" id="chips"></div>
+  </div>
+</section>
+
+<section id="spesifikasi">
+  <div class="wrap">
+    <div class="kick rv">Spesifikasi</div>
+    <h2 class="rv d1">Lengkap dari brosur resmi</h2>
+    <div class="tabs rv" id="tabs"><span class="ul" id="ul"></span></div>
+    <table class="spec" id="spec"></table>
+  </div>
+</section>
+
+<section id="banding" style="background:var(--navy)">
+  <div class="wrap">
+    <div class="kick rv">Perbandingan</div>
+    <h2 class="rv d1">NMAX E vs XENTER E vs NMAX Turbo</h2>
+    <p class="lead rv d2">Satu platform EV dalam dua bodi, dibandingkan dengan kakaknya yang bermesin bensin.</p>
+    <div class="cmp" id="cmp"></div>
+    <div class="legend" id="legend"></div>
+  </div>
+</section>
+
+<section id="galeri">
+  <div class="wrap">
+    <div class="kick rv">Galeri</div>
+    <h2 class="rv d1">Detail dalam foto resmi</h2>
+    <div class="gal" id="gal"></div>
+  </div>
+</section>
+
+<section class="end">
+  <div class="wrap">
+    <div class="kick rv">Deck presentasi</div>
+    <h2 class="rv d1">Bawa NMAX E ke ruang rapat</h2>
+    <div class="cta" id="deck"></div>
+    <div class="src" id="src"></div>
+  </div>
+</section>
+<footer>Data: brosur Yamaha Scooters 2027 & materi pers Yamaha · Halaman bagian dari dashboard Motorcycle Issue</footer>
+
+<div id="lb" hidden role="dialog" aria-modal="true" aria-label="Foto"><img alt=""><p></p></div>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const RM = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+// ---- judul bergerak: huruf masuk satu per satu, lalu kilau berjalan
+(() => {
+  const t = $("#title");
+  t.innerHTML = [..."NMAX E"].map((c, i) => c === " " ? "<span style='display:inline-block;width:.28em'></span>"
+    : `<span class="ch${c === "E" && i === 5 ? " e" : ""}" style="animation-delay:${0.35 + i * 0.09}s,${1.6 + i * 0.12}s,2s">${c}</span>`).join("");
+  setTimeout(() => t.classList.add("lit"), 1500);
+})();
+// ---- teks berganti seperti diketik
+(() => {
+  const lines = ["torsi <b>33,3 Nm</b> sejak 500 rpm", "baterai <b>3,5 kWh</b> · <b>104 km</b> WMTC", "eAxle <b>7,5 kW</b> + belt drive", "cas <b>±5,5 jam</b> · AC Type 2"];
+  const el = $("#typed"); let li = 0, ci = 0, del = false;
+  const plain = s => s.replace(/<[^>]+>/g, "");
+  const render = (html, n) => { let out = "", k = 0; for (const part of html.split(/(<[^>]+>)/)) { if (part.startsWith("<")) out += part; else { const take = Math.max(0, Math.min(part.length, n - k)); out += part.slice(0, take); k += part.length; } } return out; };
+  const tick = () => {
+    const L = lines[li], n = plain(L).length;
+    el.innerHTML = render(L, ci) + '<span class="cur"></span>';
+    if (!del && ci < n) ci++; else if (!del) { del = true; return setTimeout(tick, 1800); }
+    else if (ci > 0) ci--; else { del = false; li = (li + 1) % lines.length; }
+    setTimeout(tick, del ? 28 : 55);
+  };
+  if (RM) el.innerHTML = lines.map(x => x).join(" · "); else setTimeout(tick, 1700);
+})();
+// ---- marquee spesifikasi
+(() => {
+  const items = [["3,5 kWh", "baterai"], ["104 km", "WMTC"], ["7,5 kW", "tenaga"], ["33,3 Nm", "@ 500 rpm"], ["±5,5 jam", "cas 0–100%"], ["121 kg", "tanpa baterai"], ["13\"", "roda"], ["TCS", "& APSG"], ["TFT 5\"", "navigasi"], ["Type 2", "charging"]];
+  const one = items.map(([a, b]) => `<span><b>${a}</b> ${b}</span><i>⚡</i>`).join("");
+  $("#mq").innerHTML = one + one;
+})();
+// ---- nav & parallax
+addEventListener("scroll", () => {
+  $("#nav").classList.toggle("solid", scrollY > 60);
+  if (!RM && scrollY < innerHeight) $("#herobg").style.translate = `0 ${scrollY * 0.25}px`;
+}, { passive: true });
+// ---- reveal saat terlihat
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); e.target.dispatchEvent(new Event("reveal")); io.unobserve(e.target); } }), { threshold: 0.18 });
+const watch = root => (root || document).querySelectorAll(".rv,.num,.cm").forEach(el => io.observe(el));
+
+fetch("data/ev_spotlight.json").then(r => r.json()).then(({ spotlights }) => {
+  const p = spotlights.find(x => x.id === "yamaha-nmax-e");
+  initSpin(p.spin);
+  // angka count-up
+  $("#nums").innerHTML = p.key_specs.map(([v, l], i) => `<div class="num rv d${i % 3}" data-v="${esc(v)}"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join("");
+  document.querySelectorAll(".num").forEach(el => el.addEventListener("reveal", () => countUp(el.querySelector("b"), el.dataset.v), { once: true }));
+  // hotspot teknologi
+  const pts = [["01", "eAxle compact", "Motor listrik & drive ringkas pada swingarm — respons linear, operasi senyap.", 62, 52],
+    ["02", "Belt drive", "Tenaga ke roda belakang lewat sabuk: tanpa CVT, tanpa oli mesin.", 40, 40],
+    ["03", "Central battery", "Baterai 3,5 kWh (50,4 V / 70,2 Ah) di tengah rangka backbone — pusat gravitasi rendah.", null, null]];
+  const hot = $("#hot"), tip = $("#tip");
+  pts.forEach(([n, h, d, x, y]) => {
+    if (x == null) return;
+    const b = document.createElement("button"); b.className = "pt"; b.textContent = n; b.style.left = x + "%"; b.style.top = y + "%"; b.setAttribute("aria-label", h);
+    const show = () => { tip.innerHTML = `<b>${esc(h)}</b><br>${esc(d)}`; tip.style.left = Math.min(x, 55) + "%"; tip.style.top = (y + 8) + "%"; tip.style.opacity = 1; mark(n); };
+    b.onmouseenter = show; b.onfocus = show; b.onclick = show; b.onmouseleave = () => (tip.style.opacity = 0);
+    hot.appendChild(b);
+  });
+  $("#tcards").innerHTML = pts.map(([n, h, d], i) => `<div class="tc rv d${i}" data-n="${n}"><div class="n">${n}</div><div><h4>${esc(h)}</h4><p>${esc(d)}</p></div></div>`).join("");
+  const mark = n => document.querySelectorAll(".tc").forEach(c => c.classList.toggle("on", c.dataset.n === n));
+  $("#chips").innerHTML = p.features.map(([f, st]) => `<span class="chip ${st === "resmi" ? "" : "v"}" title="${st === "resmi" ? "Tercantum di brosur resmi" : "Belum ada di brosur resmi — perlu verifikasi"}">${esc(f)}</span>`).join("");
+  // tab spesifikasi
+  const tabs = $("#tabs"), ul = $("#ul");
+  p.spec_groups.forEach(([g], i) => { const b = document.createElement("button"); b.textContent = g; b.onclick = () => showTab(i); tabs.insertBefore(b, ul); });
+  const showTab = i => {
+    const bs = tabs.querySelectorAll("button"); bs.forEach((b, k) => b.classList.toggle("on", k === i));
+    ul.style.left = bs[i].offsetLeft + "px"; ul.style.width = bs[i].offsetWidth + "px";
+    $("#spec").innerHTML = p.spec_groups[i][1].map(([k, v], r) => `<tr style="animation-delay:${r * 45}ms"><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join("");
+  };
+  showTab(0); addEventListener("resize", () => showTab([...tabs.querySelectorAll("button")].findIndex(b => b.classList.contains("on"))));
+  // perbandingan dengan batang animasi
+  const M = [["NMAX E", "#22d3ee"], ["XENTER E", "#3b82f6"], ["NMAX Turbo (bensin)", "#94a3b8"]];
+  const metrics = [["Torsi maks.", "Nm", [33.3, 33.3, 14.2]], ["Tenaga maks.", "kW", [7.5, 7.5, 11.3]], ["Jarak WMTC", "km", [104, 108, null]],
+    ["Panjang", "mm", [1980, 2140, 1935]], ["Sumbu roda", "mm", [1425, 1485, 1340]], ["Tinggi jok", "mm", [770, 790, 770]]];
+  const groups = [[0, 1], [2, 3], [4, 5]];
+  $("#cmp").innerHTML = groups.map((g, gi) => `<div class="cm rv d${gi}">${g.map(mi => { const [name, unit, vals] = metrics[mi], max = Math.max(...vals.filter(v => v != null));
+    return `<h4 style="margin-top:${mi % 2 ? 14 : 0}px">${esc(name)}</h4>` + vals.map((v, k) => `<div class="bar"><span>${esc(M[k][0].split(" ")[0] + (k === 2 ? " Turbo" : " " + M[k][0].split(" ")[1]))}</span>
+      <span class="t"><i data-w="${v == null ? 0 : v / max * 100}" style="background:${M[k][1]}"></i></span><b>${v == null ? "—" : v.toLocaleString("id-ID")} ${v == null ? "" : unit}</b></div>`).join(""); }).join("")}</div>`).join("");
+  document.querySelectorAll(".cm").forEach(el => el.addEventListener("reveal", () => el.querySelectorAll(".t i").forEach((i, k) => setTimeout(() => (i.style.width = i.dataset.w + "%"), k * 90)), { once: true }));
+  $("#legend").innerHTML = M.map(([n, c]) => `<span><i style="background:${c}"></i>${esc(n)}</span>`).join("") + `<span>Sumber: brosur Yamaha 2027; NMAX Turbo dari yamaha-motor.co.id (13/11/2026)</span>`;
+  // galeri
+  $("#gal").innerHTML = p.gallery.map(([src, cap], i) => `<figure class="rv d${i % 3}" data-i="${i}"><img src="${esc(src)}" alt="${esc(cap)}" loading="lazy"><figcaption>${esc(cap)}</figcaption></figure>`).join("");
+  $("#gal").onclick = e => { const f = e.target.closest("figure"); if (!f) return; const [src, cap] = p.gallery[+f.dataset.i]; $("#lb img").src = src; $("#lb p").textContent = cap; $("#lb").hidden = false; };
+  $("#lb").onclick = () => ($("#lb").hidden = true);
+  addEventListener("keydown", e => { if (e.key === "Escape") $("#lb").hidden = true; });
+  // deck & sumber
+  $("#deck").innerHTML = p.deck.map(([l, href], i) => `<a class="btn${i ? "" : " fill"}" href="${esc(href)}" ${href.endsWith(".pdf") ? 'target="_blank" rel="noopener"' : "download"}>${href.endsWith(".pdf") ? "📄" : "⬇"} ${esc(l)}</a>`).join("");
+  $("#src").innerHTML = esc(p.photo_credit) + " · " + p.sources.map(([t, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a>`).join(" · ");
+  watch();
+}).catch(() => { $("#nums").textContent = "Gagal memuat data."; });
+
+function countUp(el, target){
+  const m = target.match(/^([^\d]*)(\d+(?:[.,]\d+)?)(.*)$/);
+  if (!m || RM) return;
+  const [, pre, num, post] = m, dec = (num.split(/[.,]/)[1] || "").length, val = parseFloat(num.replace(",", "."));
+  const t0 = performance.now(), dur = 1400;
+  const step = now => { const k = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - k, 3);
+    el.textContent = pre + (val * e).toFixed(dec).replace(".", ",") + post; if (k < 1) requestAnimationFrame(step); };
+  requestAnimationFrame(step);
+}
+
+// ---- viewer 360°: frame berurutan; seret / slider / putar otomatis
+function initSpin(cfg){
+  const N = cfg.frames, img = $("#moto"), stage = $("#stage"), ang = $("#ang"), arc = $("#arc");
+  let color = "blue", a = 0, playing = !RM, last = 0, drag = null, cache = {};
+  $("#spinnote").textContent = cfg.note;
+  const src = (c, i) => cfg.path.replace("{color}", c).replace("{i}", String(i).padStart(2, "0"));
+  const preload = c => { for (let i = 0; i < N; i++) { const k = c + i; if (!cache[k]) { cache[k] = new Image(); cache[k].src = src(c, i); } } };
+  preload("blue");
+  const draw = () => {
+    const i = Math.round(((a % 360) + 360) % 360 / (360 / N)) % N;
+    img.src = src(color, i);
+    const d = Math.round(((a % 360) + 360) % 360);
+    $("#deg").textContent = d + "°"; ang.value = d; stage.setAttribute("aria-valuenow", d);
+    arc.setAttribute("stroke-dasharray", `${(d / 360) * 213.6} 214`);
+  };
+  const loop = t => { if (playing && !drag) { a += (t - last) * 0.045; draw(); } last = t; requestAnimationFrame(loop); };
+  requestAnimationFrame(t => { last = t; requestAnimationFrame(loop); });
+  const setPlay = v => { playing = v; $("#play").textContent = v ? "❚❚ Jeda" : "▶ Putar"; $("#play").setAttribute("aria-pressed", v); };
+  setPlay(playing);
+  $("#play").onclick = () => setPlay(!playing);
+  ang.oninput = () => { setPlay(false); a = +ang.value; draw(); };
+  stage.addEventListener("pointerdown", e => { drag = { x: e.clientX, a }; stage.setPointerCapture(e.pointerId); $("#hint").style.opacity = 0; });
+  stage.addEventListener("pointermove", e => { if (!drag) return; a = drag.a - (e.clientX - drag.x) * 0.6; draw(); });
+  const up = () => { if (drag) { drag = null; setPlay(false); } };
+  stage.addEventListener("pointerup", up); stage.addEventListener("pointercancel", up);
+  stage.addEventListener("keydown", e => { if (e.key === "ArrowRight") { a += 10; setPlay(false); draw(); } if (e.key === "ArrowLeft") { a -= 10; setPlay(false); draw(); } });
+  $("#sw").onclick = e => { const b = e.target.closest("[data-c]"); if (!b) return; color = b.dataset.c; preload(color);
+    $("#sw").querySelectorAll("button").forEach(x => x.classList.toggle("on", x === b)); draw(); };
+  draw();
+}
+</script>
+</body>
+</html>
