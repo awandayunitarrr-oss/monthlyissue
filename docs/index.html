@@ -1192,7 +1192,7 @@ function renderSpotlights(list){
         <div class="fts">${p.features.map(([f, st]) => `<span class="ft ${st === "resmi" ? "" : "v"}" title="${st === "resmi" ? "Tercantum di brosur resmi" : "Belum ada di brosur resmi — perlu verifikasi"}">${esc(f)}</span>`).join("")}</div>
         <details><summary>Spesifikasi lengkap (brosur resmi)</summary>
           ${p.spec_groups.map(([g, rows]) => `<h5>${esc(g)}</h5><table>${rows.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join("")}</table>`).join("")}</details>
-        ${(p.compares || []).map(cp => `<details><summary>${esc(cp.title)}</summary><div style="overflow-x:auto"><table><tr><td></td>${cp.cols.map(c => `<td><b>${esc(c)}</b></td>`).join("")}</tr>
+        ${(p.compares || []).map(cp => `<details><summary>${esc(cp.title)}</summary>${cp.images ? `<div style="display:flex;gap:8px;margin-top:8px">${cp.images.map((im, k) => `<img src="${esc(im)}" alt="${esc(cp.cols[k])}" loading="lazy" style="width:50%;max-width:220px;background:#0b1220;border-radius:8px;padding:6px;aspect-ratio:3/2;object-fit:contain">`).join("")}</div>` : ""}<div style="overflow-x:auto"><table><tr><td></td>${cp.cols.map(c => `<td><b>${esc(c)}</b></td>`).join("")}</tr>
           ${cp.rows.map(r => `<tr>${r.map((c, j) => `<td>${j === 1 ? `<b>${esc(c)}</b>` : esc(c)}</td>`).join("")}</tr>`).join("")}</table></div>
           <div class="srcs2" style="margin-top:6px">${esc(cp.note)}</div></details>`).join("")}
         <div class="colors">${p.colors.map(([n, hex]) => `<div><i style="background:${esc(hex)}"></i>${esc(n)}</div>`).join("")}</div>

@@ -156,6 +156,16 @@ nav.top a.l:hover{color:var(--text)}
 .bar .t{height:12px;background:var(--card2);border-radius:6px;overflow:hidden}
 .bar .t i{display:block;height:100%;border-radius:6px;width:0;transition:width 1.3s cubic-bezier(.2,.7,.2,1)}
 .bar b{text-align:right;font-variant-numeric:tabular-nums}
+.fbanner{margin:22px 0 0;position:relative;border-radius:18px;overflow:hidden;border:1px solid var(--line)}
+.fbanner img{width:100%;aspect-ratio:16/6;object-fit:cover;object-position:30% 50%}
+.fbanner figcaption{position:absolute;right:12px;bottom:10px;font-size:12px;color:#cbd5e1;background:rgba(7,11,20,.6);padding:3px 10px;border-radius:999px}
+.vsph{display:grid;grid-template-columns:1fr 80px 1fr;align-items:end;gap:10px;margin-top:22px}
+.vsph>div{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center}
+.vsph img{width:100%;max-width:420px;aspect-ratio:3/2;object-fit:contain;filter:drop-shadow(0 14px 16px rgba(0,0,0,.55));transition:opacity .3s}
+.vsph b{font-size:clamp(16px,2vw,22px)}.vsph span{font-size:12px;color:var(--muted)}
+.vsph .vsx{align-self:center;font-size:clamp(28px,4vw,48px);font-weight:900;color:#fff;text-shadow:0 0 22px rgba(34,211,238,.6)}
+.vsph .sw{margin-top:4px}
+@media (max-width:620px){.vsph{grid-template-columns:1fr 36px 1fr}}
 .vs{margin-top:24px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 20px}
 .vs .hd{display:grid;grid-template-columns:1fr 150px 1fr;align-items:end;margin-bottom:10px;font-weight:900;font-size:clamp(18px,2.4vw,26px)}
 .vs .hd span:first-child{color:var(--cyan)}.vs .hd span:last-child{color:#f97316;text-align:right}.vs .hd small{display:block;font-size:12px;color:var(--muted);font-weight:600;text-align:center}
@@ -325,6 +335,13 @@ footer{padding:26px 0;border-top:1px solid var(--line);font-size:12px;color:var(
     <div class="kick rv">Head to head</div>
     <h2 class="rv d1">NMAX E vs Polytron Fox 500</h2>
     <p class="lead rv d2">Sama-sama skutik listrik besar: NMAX E dari Yamaha global, Fox 500 buatan lokal yang sudah dijual di Indonesia. Data Fox 500 dari situs resmi Polytron.</p>
+    <figure class="fbanner rv d2"><img src="ev/fox-500/banner.jpg" alt="Polytron Fox 500" loading="lazy"><figcaption>Polytron Fox 500 — foto: Polytron</figcaption></figure>
+    <div class="vsph rv">
+      <div><img src="ev/nmax-e/drive-blue.webp" alt="Yamaha NMAX E Avio Blue" loading="lazy"><b style="color:#22d3ee">Yamaha NMAX E</b><span>Avio Blue · foto: Yamaha</span></div>
+      <div class="vsx">VS</div>
+      <div><img id="foxImg" src="ev/fox-500/side-green.webp" alt="Polytron Fox 500" loading="lazy"><b style="color:#f97316">Polytron Fox 500</b>
+        <span class="sw" id="foxSw"><button class="on" data-c="green"><i style="background:#1fae5b"></i>Emerald Green</button><button data-c="white"><i style="background:#eef1f4"></i>Valiant White</button></span></div>
+    </div>
     <div class="vs rv d2" id="vs"></div>
     <div class="htab rv" style="overflow-x:auto;margin-top:22px"><table class="spec" id="ftable"></table></div>
     <p class="src" id="fnote"></p>
@@ -456,7 +473,7 @@ fetch("data/ev_spotlight.json").then(r => r.json()).then(({ spotlights }) => {
   // head to head Fox 500: batang berhadapan (kiri NMAX E, kanan Fox 500) + tabel
   const F = p.compares.find(c => c.cols[1] === "Polytron Fox 500");
   if (F) {
-    const fm = [["Baterai", "kWh", 3.5, 3.888, 1], ["Jarak tempuh*", "km", 104, 130, 1], ["Daya**", "kW", 7.5, 14.7, 1], ["Waktu cas", "jam", 5.5, 6, 0], ["Panjang", "mm", 1980, 2190, 0], ["Sumbu roda", "mm", 1425, 1600, 0]];
+    const fm = [["Baterai", "kWh", 3.5, 3.89, 1], ["Jarak tempuh*", "km", 104, 130, 1], ["Daya**", "kW", 7.5, 14.7, 1], ["Waktu cas", "jam", 5.5, 6, 0], ["Panjang", "mm", 1980, 2190, 0], ["Sumbu roda", "mm", 1425, 1600, 0]];
     $("#vs").innerHTML = `<div class="hd"><span>NMAX E</span><small>vs</small><span>Fox 500</span></div>` + fm.map(([n, u, a, b, hi]) => {
       const m = Math.max(a, b), wa = a > b === !!hi && a !== b, wb = b > a === !!hi && a !== b;
       return `<div class="rw"><b style="color:#22d3ee">${a.toLocaleString("id-ID")} ${u}</b><span class="tr L"><i data-w="${a / m * 100}" style="background:#22d3ee"></i></span>
@@ -465,6 +482,8 @@ fetch("data/ev_spotlight.json").then(r => r.json()).then(({ spotlights }) => {
     $("#ftable").innerHTML = `<tr><th></th>${F.cols.map(c => `<th>${esc(c)}</th>`).join("")}</tr>` + F.rows.map(r => `<tr>${r.map(c => `<td>${esc(c)}</td>`).join("")}</tr>`).join("");
     $("#fnote").textContent = "* NMAX E: uji WMTC; Fox 500: klaim pabrikan. ** NMAX E: daya maksimum; Fox 500: peak power. " + F.note;
   }
+  $("#foxSw").onclick = e => { const b = e.target.closest("[data-c]"); if (!b) return;
+    $("#foxSw").querySelectorAll("button").forEach(x => x.classList.toggle("on", x === b)); $("#foxImg").src = `ev/fox-500/side-${b.dataset.c}.webp`; };
   // head to head Honda: batang animasi + tabel
   const H = p.compares.find(c => c.cols[1] === "CUV e:"), HC = ["#22d3ee", "#e4002b", "#f97316", "#a855f7"];
   const hm = [["Tenaga maks.", "kW", [7.5, 6, 1.81, 1.7]], ["Jarak tempuh", "km", [104, 80.7, 53, 41]],

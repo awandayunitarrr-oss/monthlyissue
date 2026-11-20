@@ -385,7 +385,11 @@
               "Dijual"
             ]
           ],
-          "note": "Data Fox 500 dari situs resmi Polytron (polytron.co.id/ev/product-detail/fox-500, diakses 20/11/2026). *Halaman resmi juga mencantumkan top speed 70 km/jam di tabel 'Spesifikasi Lengkap' — tidak konsisten. Jarak NMAX E (WMTC) vs Fox 500 (klaim) diukur berbeda; daya puncak Fox 500 tidak sebanding langsung dengan daya maksimum NMAX E."
+          "note": "Data Fox 500 dari situs resmi Polytron (polytron.co.id/ev/product-detail/fox-500, diakses 20/11/2026). *Halaman resmi juga mencantumkan top speed 70 km/jam di tabel 'Spesifikasi Lengkap' — tidak konsisten. Jarak NMAX E (WMTC) vs Fox 500 (klaim) diukur berbeda; daya puncak Fox 500 tidak sebanding langsung dengan daya maksimum NMAX E. Foto Fox 500: Polytron.",
+          "images": [
+            "ev/nmax-e/drive-blue.webp",
+            "ev/fox-500/side-green.webp"
+          ]
         },
         {
           "title": "vs motor listrik Honda (CUV e:, ICON e:, EM1 e:)",
