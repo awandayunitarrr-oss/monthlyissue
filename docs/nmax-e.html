@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Yamaha NMAX E — Showcase</title>
-<meta name="description" content="Halaman khusus Yamaha NMAX E: putar 360°, spesifikasi lengkap brosur resmi, teknologi eAxle, galeri dan deck presentasi.">
+<meta name="description" content="Halaman khusus Yamaha NMAX E: animasi melaju, spesifikasi lengkap, head to head EV Honda brosur resmi, teknologi eAxle, galeri dan deck presentasi.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -70,25 +70,26 @@ nav.top a.l:hover{color:var(--text)}
 @keyframes mq{to{transform:translateX(-50%)}}
 .scrollhint{position:absolute;right:24px;bottom:70px;font-size:12px;color:var(--muted);writing-mode:vertical-rl;letter-spacing:.2em;opacity:.7}
 
-/* 360 */
+/* jalan kiri → kanan */
 .spin{background:radial-gradient(900px 500px at 50% 65%,rgba(6,182,212,.14),transparent 70%),var(--navy)}
-.stage{position:relative;max-width:980px;margin:22px auto 0;aspect-ratio:16/10;user-select:none;touch-action:pan-y;cursor:grab}
-.stage:active{cursor:grabbing}
-.stage .plat{position:absolute;left:50%;bottom:4%;width:82%;aspect-ratio:1;transform:translateX(-50%) rotateX(78deg);transform-origin:50% 100%;pointer-events:none}
-.stage .plat .ring{position:absolute;inset:0;border-radius:50%;border:2px solid rgba(34,211,238,.6);box-shadow:0 0 40px rgba(34,211,238,.35),inset 0 0 60px rgba(34,211,238,.25)}
-.stage .plat .ring.r2{inset:9%;border:2px dashed rgba(34,211,238,.45);animation:rot 18s linear infinite}
-.stage .plat .ring.r3{inset:18%;border:1px solid rgba(59,130,246,.5);animation:rot 26s linear infinite reverse}
-.stage .plat .glow{position:absolute;inset:14%;border-radius:50%;background:radial-gradient(closest-side,rgba(34,211,238,.35),transparent)}
-@keyframes rot{to{transform:rotate(360deg)}}
-.stage .moto{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;pointer-events:none;filter:drop-shadow(0 24px 30px rgba(0,0,0,.55))}
-.stage .deg{position:absolute;right:2%;top:4%;font-size:42px;font-weight:900;color:var(--cyan);font-variant-numeric:tabular-nums;text-shadow:0 0 18px rgba(34,211,238,.5)}
-.stage .deg small{display:block;font-size:11px;color:var(--muted);letter-spacing:.14em;font-weight:700;text-align:right}
-.stage .hint{position:absolute;left:50%;top:6%;transform:translateX(-50%);font-size:13px;color:var(--muted);display:flex;align-items:center;gap:8px;transition:opacity .4s}
-.stage .hint svg{animation:sway 1.6s ease-in-out infinite}
-@keyframes sway{50%{transform:translateX(8px)}}
-.compass{position:absolute;left:2%;top:4%;width:78px;height:78px}
-.ctrls{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px;margin-top:10px}
-.ctrls input[type=range]{width:min(420px,70vw);accent-color:var(--cyan)}
+.stage{position:relative;max-width:1080px;margin:22px auto 0;aspect-ratio:16/8;overflow:hidden;border-radius:20px;border:1px solid var(--line);
+  background:linear-gradient(180deg,#0b1424 0%,#0d1a30 62%,#111c2f 62%,#0a1220 100%)}
+.stage .sky{position:absolute;inset:0 0 38% 0;background:repeating-linear-gradient(90deg,transparent 0 140px,rgba(34,211,238,.06) 140px 142px);animation:pan 6s linear infinite}
+.stage .road{position:absolute;left:0;right:0;bottom:16%;height:6px;background:repeating-linear-gradient(90deg,rgba(255,255,255,.55) 0 60px,transparent 60px 120px);animation:pan 0.9s linear infinite}
+.stage .curb{position:absolute;left:0;right:0;bottom:38%;height:2px;background:linear-gradient(90deg,transparent,rgba(34,211,238,.5),transparent)}
+@keyframes pan{to{background-position:-240px 0}}
+.stage .moto{position:absolute;left:50%;bottom:9%;width:58%;margin-left:-29%;filter:drop-shadow(0 18px 18px rgba(0,0,0,.6));animation:drive 8s cubic-bezier(.45,0,.2,1) infinite;will-change:transform}
+.stage .lines{position:absolute;left:0;top:30%;bottom:20%;width:40%;pointer-events:none;animation:lines 8s linear infinite;
+  background:repeating-linear-gradient(0deg,transparent 0 22px,rgba(34,211,238,.55) 22px 24px,transparent 24px 46px);-webkit-mask:linear-gradient(90deg,transparent,#000);mask:linear-gradient(90deg,transparent,#000)}
+@keyframes drive{0%{transform:translateX(-160%) skewX(-4deg);filter:blur(3px) drop-shadow(0 18px 18px rgba(0,0,0,.6))}
+  30%{transform:translateX(0) skewX(0);filter:blur(0) drop-shadow(0 18px 18px rgba(0,0,0,.6))}
+  33%{transform:translateX(1.2%)}36%,72%{transform:translateX(0)}
+  100%{transform:translateX(170%) skewX(-5deg);filter:blur(3px) drop-shadow(0 18px 18px rgba(0,0,0,.6))}}
+@keyframes lines{0%{transform:translateX(-60%);opacity:.9}30%{transform:translateX(40%);opacity:0}72%{transform:translateX(60%);opacity:0}74%{transform:translateX(120%);opacity:.9}100%{transform:translateX(260%);opacity:.9}}
+.stage.paused .moto,.stage.paused .lines,.stage.paused .road,.stage.paused .sky{animation-play-state:paused}
+.stage .tagl{position:absolute;left:4%;top:7%;font-size:clamp(14px,2vw,22px);font-weight:900;letter-spacing:.06em}
+.stage .tagl span{color:var(--cyan)}
+.ctrls{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px;margin-top:14px}
 .sw{display:inline-flex;gap:6px}
 .sw button{display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;padding:7px 14px;font:600 13px Inter,system-ui,sans-serif;cursor:pointer}
 .sw button i{width:14px;height:14px;border-radius:50%;box-shadow:0 0 0 2px rgba(255,255,255,.15)}
@@ -138,7 +139,10 @@ nav.top a.l:hover{color:var(--text)}
 .tabs .ul{position:absolute;bottom:0;height:3px;background:var(--cyan);border-radius:2px;transition:left .35s cubic-bezier(.2,.7,.2,1),width .35s}
 .spec{width:100%;border-collapse:collapse;margin-top:8px;font-size:15px}
 .spec tr{border-bottom:1px solid var(--line);animation:rowin .45s both}
-.spec td{padding:11px 8px}.spec td:first-child{color:var(--muted);width:40%}
+.spec td{padding:11px 8px}
+.spec th{text-align:left;padding:10px 8px;font-size:13px;color:var(--cyan);border-bottom:2px solid var(--line)}
+#htable td:nth-child(2){color:var(--text);font-weight:700}
+#htable td{min-width:120px}.spec td:first-child{color:var(--muted);width:40%}
 @keyframes rowin{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}
 
 /* banding */
@@ -182,10 +186,11 @@ footer{padding:26px 0;border-top:1px solid var(--line);font-size:12px;color:var(
 <body>
 <nav class="top" id="nav">
   <a class="brand" href="#top"><i></i>NMAX E</a>
-  <a class="l opt" href="#putar">360°</a>
+  <a class="l opt" href="#putar">Showroom</a>
   <a class="l opt" href="#teknologi">Teknologi</a>
   <a class="l opt" href="#spesifikasi">Spesifikasi</a>
   <a class="l opt" href="#banding">Banding</a>
+  <a class="l opt" href="#honda">vs Honda</a>
   <a class="l opt" href="#galeri">Galeri</a>
   <a class="l" href="index.html#2026&amp;ev">← Dashboard</a>
 </nav>
@@ -199,7 +204,7 @@ footer{padding:26px 0;border-top:1px solid var(--line);font-size:12px;color:var(
     <p class="sub">Keluarga MAX kini bertenaga listrik: torsi instan, senyap, dan siap untuk kota.</p>
     <div class="typed" id="typed"></div>
     <div class="cta">
-      <a class="btn fill" href="#putar">⟳ Putar 360°</a>
+      <a class="btn fill" href="#putar">▶ Lihat melaju</a>
       <a class="btn" href="files/Yamaha_NMAX_E_Ringkas_2026.pdf" target="_blank" rel="noopener">📄 Deck ringkas (9 slide)</a>
     </div>
   </div>
@@ -210,23 +215,17 @@ footer{padding:26px 0;border-top:1px solid var(--line);font-size:12px;color:var(
 <section class="spin" id="putar">
   <div class="wrap">
     <div class="kick rv">Showroom</div>
-    <h2 class="rv d1">Putar 360°</h2>
-    <p class="lead rv d2">Seret motor ke kiri/kanan, geser slider, atau biarkan berputar sendiri. Ganti warna untuk melihat Platinum Silver.</p>
-    <div class="stage rv d2" id="stage" role="slider" aria-label="Sudut pandang NMAX E" aria-valuemin="0" aria-valuemax="359" aria-valuenow="0" tabindex="0">
-      <div class="plat"><div class="glow"></div><div class="ring"></div><div class="ring r2"></div><div class="ring r3"></div></div>
-      <svg class="compass" viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="34" fill="none" stroke="#1f2d48" stroke-width="6"/>
-        <circle id="arc" cx="40" cy="40" r="34" fill="none" stroke="#22d3ee" stroke-width="6" stroke-linecap="round" stroke-dasharray="0 214" transform="rotate(-90 40 40)"/>
-        <text x="40" y="45" text-anchor="middle" fill="#93a3bc" font-size="12" font-weight="700">360°</text></svg>
-      <div class="deg"><small>SUDUT</small><span id="deg">0°</span></div>
-      <div class="hint" id="hint"><svg width="34" height="14" viewBox="0 0 34 14"><path d="M2 7h30M6 2 1 7l5 5M28 2l5 5-5 5" stroke="#93a3bc" stroke-width="2" fill="none"/></svg>seret untuk memutar</div>
-      <img class="moto" id="moto" alt="Yamaha NMAX E dari berbagai sudut">
+    <h2 class="rv d1">Senyap, melaju di kota</h2>
+    <p class="lead rv d2">NMAX E melintas dari kiri ke kanan — torsi 33,3 Nm sejak 500 rpm. Ganti warna untuk melihat Platinum Silver.</p>
+    <div class="stage rv d2" id="stage">
+      <div class="sky"></div><div class="curb"></div><div class="road"></div><div class="lines"></div>
+      <div class="tagl">ZERO EMISSION · <span>ZERO NOISE</span></div>
+      <img class="moto" id="moto" alt="Yamaha NMAX E melaju dari kiri ke kanan">
     </div>
     <div class="ctrls">
       <button class="btn" id="play" aria-pressed="true">❚❚ Jeda</button>
-      <input type="range" id="ang" min="0" max="359" value="0" aria-label="Sudut">
       <div class="sw" id="sw"><button class="on" data-c="blue"><i style="background:#34507a"></i>Avio Blue</button><button data-c="silver"><i style="background:#b5bcc6"></i>Platinum Silver</button></div>
     </div>
-    <p class="note" id="spinnote"></p>
   </div>
 </section>
 
@@ -275,7 +274,18 @@ footer{padding:26px 0;border-top:1px solid var(--line);font-size:12px;color:var(
   </div>
 </section>
 
-<section id="galeri">
+<section id="honda">
+  <div class="wrap">
+    <div class="kick rv">Head to head</div>
+    <h2 class="rv d1">NMAX E vs motor listrik Honda</h2>
+    <p class="lead rv d2">Dibandingkan dengan CUV e:, ICON e: dan EM1 e: yang dijual di Indonesia.</p>
+    <div class="cmp" id="hcmp"></div>
+    <div class="htab rv" style="overflow-x:auto;margin-top:22px"><table class="spec" id="htable"></table></div>
+    <p class="src" id="hnote"></p>
+  </div>
+</section>
+
+<section id="galeri" style="background:var(--navy)">
   <div class="wrap">
     <div class="kick rv">Galeri</div>
     <h2 class="rv d1">Detail dalam foto resmi</h2>
@@ -339,7 +349,7 @@ const watch = root => (root || document).querySelectorAll(".rv,.num,.cm").forEac
 
 fetch("data/ev_spotlight.json").then(r => r.json()).then(({ spotlights }) => {
   const p = spotlights.find(x => x.id === "yamaha-nmax-e");
-  initSpin(p.spin);
+  initDrive(p.drive);
   // angka count-up
   $("#nums").innerHTML = p.key_specs.map(([v, l], i) => `<div class="num rv d${i % 3}" data-v="${esc(v)}"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join("");
   document.querySelectorAll(".num").forEach(el => el.addEventListener("reveal", () => countUp(el.querySelector("b"), el.dataset.v), { once: true }));
@@ -377,6 +387,16 @@ fetch("data/ev_spotlight.json").then(r => r.json()).then(({ spotlights }) => {
       <span class="t"><i data-w="${v == null ? 0 : v / max * 100}" style="background:${M[k][1]}"></i></span><b>${v == null ? "—" : v.toLocaleString("id-ID")} ${v == null ? "" : unit}</b></div>`).join(""); }).join("")}</div>`).join("");
   document.querySelectorAll(".cm").forEach(el => el.addEventListener("reveal", () => el.querySelectorAll(".t i").forEach((i, k) => setTimeout(() => (i.style.width = i.dataset.w + "%"), k * 90)), { once: true }));
   $("#legend").innerHTML = M.map(([n, c]) => `<span><i style="background:${c}"></i>${esc(n)}</span>`).join("") + `<span>Sumber: brosur Yamaha 2027; NMAX Turbo dari yamaha-motor.co.id (13/11/2026)</span>`;
+  // head to head Honda: batang animasi + tabel
+  const H = p.compares[0], HC = ["#22d3ee", "#e4002b", "#f97316", "#a855f7"];
+  const hm = [["Tenaga maks.", "kW", [7.5, 6, 1.81, 1.7]], ["Jarak tempuh", "km", [104, 80.7, 53, 41]],
+    ["Kapasitas baterai", "kWh", [3.5, 2.96, 1.47, 1.48]], ["Waktu cas 0–100%", "jam", [5.5, 6, 7.3, null]], ["Sumbu roda", "mm", [1425, 1310, null, 1300]], ["Berat", "kg", [121, 117, null, null]]];
+  $("#hcmp").innerHTML = [[0, 1], [2, 3], [4, 5]].map((g, gi) => `<div class="cm rv d${gi}">${g.map(mi => { const [name, unit, vals] = hm[mi], max = Math.max(...vals.filter(v => v != null));
+    return `<h4 style="margin-top:${mi % 2 ? 14 : 0}px">${esc(name)}</h4>` + vals.map((v, k) => `<div class="bar"><span>${esc(H.cols[k])}</span>
+      <span class="t"><i data-w="${v == null ? 0 : v / max * 100}" style="background:${HC[k]}"></i></span><b>${v == null ? "—" : v.toLocaleString("id-ID")} ${v == null ? "" : unit}</b></div>`).join(""); }).join("")}</div>`).join("");
+  $("#htable").innerHTML = `<tr><th></th>${H.cols.map(c => `<th>${esc(c)}</th>`).join("")}</tr>` + H.rows.map(r => `<tr>${r.map(c => `<td>${esc(c)}</td>`).join("")}</tr>`).join("");
+  $("#hnote").textContent = H.note + " Berat NMAX E belum termasuk baterai.";
+  document.querySelectorAll("#hcmp .cm").forEach(el => el.addEventListener("reveal", () => el.querySelectorAll(".t i").forEach((i, k) => setTimeout(() => (i.style.width = i.dataset.w + "%"), k * 90)), { once: true }));
   // galeri
   $("#gal").innerHTML = p.gallery.map(([src, cap], i) => `<figure class="rv d${i % 3}" data-i="${i}"><img src="${esc(src)}" alt="${esc(cap)}" loading="lazy"><figcaption>${esc(cap)}</figcaption></figure>`).join("");
   $("#gal").onclick = e => { const f = e.target.closest("figure"); if (!f) return; const [src, cap] = p.gallery[+f.dataset.i]; $("#lb img").src = src; $("#lb p").textContent = cap; $("#lb").hidden = false; };
@@ -398,35 +418,16 @@ function countUp(el, target){
   requestAnimationFrame(step);
 }
 
-// ---- viewer 360°: frame berurutan; seret / slider / putar otomatis
-function initSpin(cfg){
-  const N = cfg.frames, img = $("#moto"), stage = $("#stage"), ang = $("#ang"), arc = $("#arc");
-  let color = "blue", a = 0, playing = !RM, last = 0, drag = null, cache = {};
-  $("#spinnote").textContent = cfg.note;
-  const src = (c, i) => cfg.path.replace("{color}", c).replace("{i}", String(i).padStart(2, "0"));
-  const preload = c => { for (let i = 0; i < N; i++) { const k = c + i; if (!cache[k]) { cache[k] = new Image(); cache[k].src = src(c, i); } } };
-  preload("blue");
-  const draw = () => {
-    const i = Math.round(((a % 360) + 360) % 360 / (360 / N)) % N;
-    img.src = src(color, i);
-    const d = Math.round(((a % 360) + 360) % 360);
-    $("#deg").textContent = d + "°"; ang.value = d; stage.setAttribute("aria-valuenow", d);
-    arc.setAttribute("stroke-dasharray", `${(d / 360) * 213.6} 214`);
-  };
-  const loop = t => { if (playing && !drag) { a += (t - last) * 0.045; draw(); } last = t; requestAnimationFrame(loop); };
-  requestAnimationFrame(t => { last = t; requestAnimationFrame(loop); });
-  const setPlay = v => { playing = v; $("#play").textContent = v ? "❚❚ Jeda" : "▶ Putar"; $("#play").setAttribute("aria-pressed", v); };
-  setPlay(playing);
-  $("#play").onclick = () => setPlay(!playing);
-  ang.oninput = () => { setPlay(false); a = +ang.value; draw(); };
-  stage.addEventListener("pointerdown", e => { drag = { x: e.clientX, a }; stage.setPointerCapture(e.pointerId); $("#hint").style.opacity = 0; });
-  stage.addEventListener("pointermove", e => { if (!drag) return; a = drag.a - (e.clientX - drag.x) * 0.6; draw(); });
-  const up = () => { if (drag) { drag = null; setPlay(false); } };
-  stage.addEventListener("pointerup", up); stage.addEventListener("pointercancel", up);
-  stage.addEventListener("keydown", e => { if (e.key === "ArrowRight") { a += 10; setPlay(false); draw(); } if (e.key === "ArrowLeft") { a -= 10; setPlay(false); draw(); } });
-  $("#sw").onclick = e => { const b = e.target.closest("[data-c]"); if (!b) return; color = b.dataset.c; preload(color);
-    $("#sw").querySelectorAll("button").forEach(x => x.classList.toggle("on", x === b)); draw(); };
-  draw();
+// ---- motor melaju kiri → kanan
+function initDrive(cfg){
+  const img = $("#moto"), stage = $("#stage");
+  img.src = cfg.blue;
+  const setPlay = v => { stage.classList.toggle("paused", !v); $("#play").textContent = v ? "❚❚ Jeda" : "▶ Jalan"; $("#play").setAttribute("aria-pressed", v); };
+  let playing = !RM; setPlay(playing);
+  $("#play").onclick = () => setPlay(playing = !playing);
+  $("#sw").onclick = e => { const b = e.target.closest("[data-c]"); if (!b) return;
+    $("#sw").querySelectorAll("button").forEach(x => x.classList.toggle("on", x === b));
+    img.src = cfg[b.dataset.c]; img.style.animation = "none"; img.offsetWidth; img.style.animation = ""; };   // mulai lagi dari kiri
 }
 </script>
 </body>

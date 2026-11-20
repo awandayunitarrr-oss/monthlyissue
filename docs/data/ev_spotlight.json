@@ -177,6 +177,10 @@
           "resmi"
         ],
         [
+          "Charger on-board (AC Type 2)",
+          "resmi"
+        ],
+        [
           "TFT 5\" + Yamaha Motor On",
           "resmi"
         ],
@@ -191,18 +195,6 @@
         [
           "YOU Charge",
           "resmi"
-        ],
-        [
-          "ABS",
-          "verifikasi"
-        ],
-        [
-          "Reverse assist",
-          "verifikasi"
-        ],
-        [
-          "Top speed",
-          "verifikasi"
         ]
       ],
       "colors": [
@@ -263,46 +255,6 @@
           "Pengisian di rumah/kantor/publik"
         ]
       ],
-      "compare": {
-        "title": "vs NMAX Turbo (bensin, Indonesia)",
-        "cols": [
-          "NMAX E",
-          "NMAX Turbo"
-        ],
-        "rows": [
-          [
-            "Tenaga maks.",
-            "7,5 kW",
-            "11,3 kW"
-          ],
-          [
-            "Torsi maks.",
-            "33,3 Nm @ 500 rpm",
-            "14,2 Nm @ 6.500 rpm"
-          ],
-          [
-            "Energi",
-            "Baterai 3,5 kWh",
-            "Tangki 7,1 L"
-          ],
-          [
-            "Sumbu roda",
-            "1.425 mm",
-            "1.340 mm"
-          ],
-          [
-            "Tinggi jok",
-            "770 mm",
-            "770 mm"
-          ],
-          [
-            "Berat",
-            "121 kg (tanpa baterai)",
-            "135 kg (isi)"
-          ]
-        ],
-        "note": "Data NMAX Turbo dari yamaha-motor.co.id (dicatat 13/11/2026)."
-      },
       "sibling": {
         "model": "XENTER E",
         "image": "ev/nmax-e/xenter-side.jpg",
@@ -342,6 +294,10 @@
         [
           "Iwan Banaran — NMAX-E",
           "https://iwanbanaran.com/news/yamaha-bikin-geger-rilis-nmax-versi-listrik-berlabel-nmax-e-kerenn-poll"
+        ],
+        [
+          "Spesifikasi Honda EV — detikOto / Autofun / Zigwheels",
+          "https://oto.detik.com/motor-listrik/d-7581320/spesifikasi-honda-cuv-e-harga-tembus-rp-50-jutaan-bisa-tempuh-jarak-80-7-km"
         ]
       ],
       "photo_credit": "Foto: Yamaha Motor Europe (brosur 2027) & materi pers Yamaha",
@@ -361,12 +317,135 @@
           "files/nmax-e-ringkas/slide-9.jpg"
         ]
       },
-      "spin": {
-        "frames": 36,
-        "path": "ev/nmax-e/spin/{color}-{i}.webp",
-        "note": "Putaran disusun dari foto studio resmi (tampak samping & 3/4 depan, beserta cerminannya); sudut belakang disimulasikan. Bisa diganti foto turntable resmi bila tersedia."
+      "page": "nmax-e.html",
+      "drive": {
+        "blue": "ev/nmax-e/drive-blue.webp",
+        "silver": "ev/nmax-e/drive-silver.webp"
       },
-      "page": "nmax-e.html"
+      "compares": [
+        {
+          "title": "vs motor listrik Honda (CUV e:, ICON e:, EM1 e:)",
+          "cols": [
+            "NMAX E",
+            "CUV e:",
+            "ICON e:",
+            "EM1 e:"
+          ],
+          "rows": [
+            [
+              "Penggerak",
+              "eAxle + belt",
+              "Motor samping (side drive)",
+              "In-wheel",
+              "In-wheel"
+            ],
+            [
+              "Tenaga maks.",
+              "7,5 kW",
+              "6 kW",
+              "1,81 kW",
+              "1,7 kW"
+            ],
+            [
+              "Torsi maks.",
+              "33,3 Nm @ 500 rpm",
+              "22 Nm @ 2.300 rpm",
+              "85 Nm*",
+              "90 Nm*"
+            ],
+            [
+              "Baterai",
+              "3,5 kWh fixed",
+              "2× MPP e: (≈2,96 kWh, swap)",
+              "48 V 30,6 Ah (≈1,47 kWh)",
+              "1× MPP e: (≈1,48 kWh, swap)"
+            ],
+            [
+              "Jarak tempuh",
+              "104 km (WMTC)",
+              "80,7 km",
+              "53 km",
+              "±41 km"
+            ],
+            [
+              "Kecepatan maks.",
+              "—",
+              "83 km/jam",
+              "55 km/jam",
+              "45 km/jam"
+            ],
+            [
+              "Waktu cas 0–100%",
+              "±5,5 jam",
+              "6 jam",
+              "±7 jam 20 mnt",
+              "—"
+            ],
+            [
+              "Sumbu roda",
+              "1.425 mm",
+              "1.310 mm",
+              "—",
+              "1.300 mm"
+            ],
+            [
+              "Berat",
+              "121 kg (tanpa baterai)",
+              "117–118 kg",
+              "—",
+              "—"
+            ],
+            [
+              "Harga",
+              "€7.799 (Jerman)",
+              "Rp54,45–59,65 jt",
+              "Rp28–32 jt",
+              "±Rp33 jt"
+            ]
+          ],
+          "note": "Data Honda dari media otomotif (detikOto, Autofun, Zigwheels, Gridoto; 2023–2025), belum dicek ke AHM. *Torsi motor in-wheel diukur di roda — tidak sebanding langsung. kWh MPP e: dihitung dari 50,26 V × 29,4 Ah."
+        },
+        {
+          "title": "vs NMAX Turbo (bensin, Indonesia)",
+          "cols": [
+            "NMAX E",
+            "NMAX Turbo"
+          ],
+          "rows": [
+            [
+              "Tenaga maks.",
+              "7,5 kW",
+              "11,3 kW"
+            ],
+            [
+              "Torsi maks.",
+              "33,3 Nm @ 500 rpm",
+              "14,2 Nm @ 6.500 rpm"
+            ],
+            [
+              "Energi",
+              "Baterai 3,5 kWh",
+              "Tangki 7,1 L"
+            ],
+            [
+              "Sumbu roda",
+              "1.425 mm",
+              "1.340 mm"
+            ],
+            [
+              "Tinggi jok",
+              "770 mm",
+              "770 mm"
+            ],
+            [
+              "Berat",
+              "121 kg (tanpa baterai)",
+              "135 kg (isi)"
+            ]
+          ],
+          "note": "Data NMAX Turbo dari yamaha-motor.co.id (dicatat 13/11/2026)."
+        }
+      ]
     }
   ]
 }

@@ -83,7 +83,7 @@ rilis Indonesia, special case EV) dengan animasi. Navigasi: ← → / spasi / kl
 **Export PDF** di mode ini mencetak 5 halaman 16:9 (pilih "Simpan sebagai PDF" di dialog cetak).
 Deck NMAX E versi ringkas (9 slide) bisa diputar dari tab EV lewat tombol "Presentasikan deck".
 
-**Halaman khusus NMAX E** (`docs/nmax-e.html`, tombol "Halaman khusus · putar 360°" di tab EV): judul beranimasi,
-showroom putar 360° (seret/slider/otomatis, Avio Blue & Platinum Silver), angka count-up, hotspot eAxle, tab spesifikasi,
-perbandingan dengan batang animasi, galeri dan unduhan deck. Frame 360° ada di `docs/ev/nmax-e/spin/` — dibuat dari foto
-studio resmi (samping & 3/4 depan + cerminannya, sudut belakang disimulasikan); ganti dengan 36 frame turntable resmi bila ada.
+**Halaman khusus NMAX E** (`docs/nmax-e.html`, tombol "Halaman khusus NMAX E" di tab EV): judul beranimasi,
+showroom motor melaju dari kiri ke kanan (Avio Blue & Platinum Silver), angka count-up, hotspot eAxle, tab spesifikasi,
+perbandingan dengan NMAX Turbo/XENTER E, head to head EV Honda (CUV e:, ICON e:, EM1 e: — data dari media otomotif,
+diatur di `compares` pada `ev_spotlight.json`), galeri dan unduhan deck. Hanya fitur yang tercantum di brosur resmi yang ditampilkan.
