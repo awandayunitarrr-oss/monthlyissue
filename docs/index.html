@@ -1213,7 +1213,7 @@ function renderSpotlights(list){
     };
     el.querySelectorAll("[data-present]").forEach(pb => pb.onclick = e => { e.preventDefault();
       const dk = p.decks.find(x => x.id === pb.dataset.deck);
-      openPresent(dk.slides.map((src, i) => `<section class="ps img"><img src="${esc(src)}" alt="Slide ${i + 1}" loading="lazy"></section>`), { title: `${p.brand} ${p.model} — ${dk.name} (${dk.count} slide)`, pdf: dk.pdf }); });
+      openPresent(dk.slides.map((src, i) => `<section class="ps img"><img src="${esc(src)}" alt="Slide ${i + 1}" loading="lazy"></section>`), { title: `${p.brand} ${p.model} · presentasi ${dk.count} slide`, pdf: dk.pdf }); });
     el.querySelector(".thumbs").onclick = e => { const b = e.target.closest("[data-i]"); if (b) pick(+b.dataset.i); };
     const open = () => { LB.list = p.gallery; showLB(+stage.dataset.i); };
     stage.onclick = open;

@@ -415,9 +415,9 @@
       "decks": [
         {
           "id": "ringkas",
-          "name": "Deck ringkas",
+          "name": "Deck NMAX E",
           "count": 9,
-          "desc": "Sekilas, powertrain, rangka, teknologi, charging, desain, vs Honda EV, kesimpulan.",
+          "desc": "Sekilas, powertrain & baterai, rangka, teknologi & fitur, charging, desain, head to head EV Honda, kesimpulan.",
           "slides": [
             "files/nmax-e-ringkas/slide-1.jpg",
             "files/nmax-e-ringkas/slide-2.jpg",
@@ -431,35 +431,6 @@
           ],
           "pdf": "files/Yamaha_NMAX_E_Ringkas_2026.pdf",
           "pptx": "files/Yamaha_NMAX_E_Ringkas_2026_animasi.pptx"
-        },
-        {
-          "id": "lengkap",
-          "name": "Deck lengkap",
-          "count": 19,
-          "desc": "Semua detail: fitur, konektivitas, galeri, vs NMAX Turbo, XENTER E & Honda EV, efisiensi, sumber.",
-          "slides": [
-            "files/nmax-e-lengkap/slide-01.jpg",
-            "files/nmax-e-lengkap/slide-02.jpg",
-            "files/nmax-e-lengkap/slide-03.jpg",
-            "files/nmax-e-lengkap/slide-04.jpg",
-            "files/nmax-e-lengkap/slide-05.jpg",
-            "files/nmax-e-lengkap/slide-06.jpg",
-            "files/nmax-e-lengkap/slide-07.jpg",
-            "files/nmax-e-lengkap/slide-08.jpg",
-            "files/nmax-e-lengkap/slide-09.jpg",
-            "files/nmax-e-lengkap/slide-10.jpg",
-            "files/nmax-e-lengkap/slide-11.jpg",
-            "files/nmax-e-lengkap/slide-12.jpg",
-            "files/nmax-e-lengkap/slide-13.jpg",
-            "files/nmax-e-lengkap/slide-14.jpg",
-            "files/nmax-e-lengkap/slide-15.jpg",
-            "files/nmax-e-lengkap/slide-16.jpg",
-            "files/nmax-e-lengkap/slide-17.jpg",
-            "files/nmax-e-lengkap/slide-18.jpg",
-            "files/nmax-e-lengkap/slide-19.jpg"
-          ],
-          "pdf": "files/Yamaha_NMAX_E_Detail_2026.pdf",
-          "pptx": "files/Yamaha_NMAX_E_Detail_2026_animasi.pptx"
         }
       ]
     }

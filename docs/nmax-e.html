@@ -170,7 +170,7 @@ nav.top a.l:hover{color:var(--text)}
 .end{text-align:center;background:radial-gradient(700px 360px at 50% 0%,rgba(34,211,238,.14),transparent 70%)}
 .end .cta{justify-content:center;opacity:1;animation:none}
 .src{font-size:12px;color:var(--muted);margin-top:26px}
-.decks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:26px;text-align:left}
+.decks{display:grid;grid-template-columns:minmax(0,1fr);gap:22px;margin:26px auto 0;max-width:820px;text-align:left}
 @media (max-width:760px){.decks{grid-template-columns:1fr}}
 .dk{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column}
 .dk .cv{position:relative;aspect-ratio:16/9;background:#000 center/cover no-repeat;cursor:pointer;border:0;padding:0;display:block;width:100%}
@@ -328,7 +328,7 @@ footer{padding:26px 0;border-top:1px solid var(--line);font-size:12px;color:var(
   <div class="wrap">
     <div class="kick rv">Deck presentasi</div>
     <h2 class="rv d1">Bawa NMAX E ke ruang rapat</h2>
-    <p class="lead rv d2" style="margin:0 auto">Pilih deck, putar dalam mode presentasi 16:9 (← → / spasi, F layar penuh), atau unduh PDF & PPTX-nya.</p>
+    <p class="lead rv d2" style="margin:0 auto">Putar deck dalam mode presentasi 16:9 — tampilan sama persis dengan slide deck (← → / spasi, F layar penuh) — atau unduh PDF & PPTX-nya.</p>
     <div class="decks" id="deck"></div>
     <div class="src" id="src"></div>
   </div>
@@ -470,7 +470,7 @@ function countUp(el, target){
 const PV = { dk: null, i: 0 };
 function openDeck(dk, i){
   PV.dk = dk;
-  $("#pv-t").textContent = `Yamaha NMAX E — ${dk.name} (${dk.count} slide)`;
+  $("#pv-t").textContent = `Yamaha NMAX E · presentasi ${dk.count} slide`;
   $("#pv-pdf").href = dk.pdf; $("#pv-pptx").href = dk.pptx;
   $("#pv-f").innerHTML = dk.slides.map((src, k) => `<img src="${src}" alt="Slide ${k + 1}" ${k > 1 ? 'loading="lazy"' : ""}>`).join("");
   $("#pv-th").innerHTML = dk.slides.map((src, k) => `<button style="background-image:url('${src}')" aria-label="Slide ${k + 1}"></button>`).join("");
