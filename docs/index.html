@@ -284,13 +284,85 @@ footer{margin-top:30px;font-size:12px;color:var(--muted);text-align:center}
 .sl-src{font-size:12px;font-style:italic;margin-top:6px;word-break:break-all}
 @media print{
   @page{size:A4 landscape;margin:8mm}
-  body *{visibility:hidden}
+  body:not(.presenting) *{visibility:hidden}
   #slide,#slide *,#slide2,#slide2 *{visibility:visible}
   #slide-wrap{position:absolute;left:0;top:0;width:100%}
   #slide,#slide2{width:100%;max-width:none;box-shadow:none;aspect-ratio:auto}
   #slide2{page-break-before:always;margin-top:0}
   .slide-bar{display:none}
   #slide-wrap{position:static;background:none;padding:0}
+}
+
+/* ---------- mode presentasi 16:9 ---------- */
+#present{position:fixed;inset:0;z-index:40;background:#05080f;display:flex;flex-direction:column}
+#present[hidden]{display:none}
+.pr-bar{display:flex;align-items:center;gap:8px;padding:8px 12px;color:#cbd5e1;font-size:13px;flex-wrap:wrap}
+.pr-bar .t{font-weight:700;color:#fff;margin-right:auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pr-bar button{background:#1e293b;color:#fff;border:0;border-radius:999px;padding:6px 12px;font-weight:600;font-size:12px;cursor:pointer}
+.pr-bar button:hover{background:#334155}
+.pr-view{flex:1;display:flex;align-items:center;justify-content:center;min-height:0;overflow:hidden}
+.pr-wrap{position:relative}
+.pr-deck{position:absolute;left:0;top:0;width:1280px;height:720px;transform-origin:0 0}
+.pr-dots{display:flex;justify-content:center;gap:6px;padding:10px}
+.pr-dots button{width:9px;height:9px;border-radius:50%;border:0;padding:0;background:#334155;cursor:pointer}
+.pr-dots button.on{background:#06b6d4;width:22px;border-radius:5px}
+.ps{position:absolute;inset:0;overflow:hidden;background:#fff;color:#0b1220;font-family:Inter,system-ui,sans-serif;border-radius:6px;
+  opacity:0;visibility:hidden;transform:translateX(40px) scale(.985);transition:opacity .5s ease,transform .6s cubic-bezier(.2,.7,.2,1),visibility 0s .6s}
+.ps.on{opacity:1;visibility:visible;transform:none;transition:opacity .5s ease,transform .6s cubic-bezier(.2,.7,.2,1)}
+.ps.prev{transform:translateX(-40px) scale(.985)}
+.ps.img img{width:100%;height:100%;object-fit:contain;display:block;background:#0b1220}
+.ps .pa{opacity:0}
+.ps.on .pa{animation:pr-rise .6s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--d,0) * 80ms + 150ms)}
+.ps.on .pz{animation-name:pr-zoom}
+@keyframes pr-rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes pr-zoom{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:none}}
+.ps .bar i{display:block;height:100%;border-radius:4px;transform-origin:left;transform:scaleX(0)}
+.ps.on .bar i{animation:pr-grow .9s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--d,0) * 80ms + 300ms)}
+@keyframes pr-grow{to{transform:scaleX(1)}}
+.ps.on .kb{animation:pr-kb 7s ease-out both}
+@keyframes pr-kb{from{transform:scale(1.08)}to{transform:scale(1)}}
+@media (prefers-reduced-motion: reduce){.ps,.ps.on{transition:none}.ps.on .pa,.ps.on .bar i,.ps.on .kb{animation:none;opacity:1;transform:none}}
+/* isi slide (ukuran desain 1280x720) */
+.ps .in{position:absolute;inset:44px 56px 40px}
+.ps .kick{font-size:13px;font-weight:800;letter-spacing:.14em;color:#06b6d4;text-transform:uppercase}
+.ps h2{font-size:40px;line-height:1.1;margin:6px 0 4px;color:#13254a;letter-spacing:-.01em}
+.ps .lead{font-size:18px;color:#5b6577;margin:0}
+.ps .foot{position:absolute;left:56px;right:56px;bottom:18px;display:flex;justify-content:space-between;font-size:12px;color:#8a97ad}
+.ps .grid{display:grid;gap:16px}
+.ps .kp{background:#f4f7fc;border-radius:14px;padding:16px 18px}
+.ps .kp b{display:block;font-size:40px;line-height:1.05;color:var(--c,#13254a);font-variant-numeric:tabular-nums}
+.ps .kp span{font-size:14px;color:#5b6577}
+.ps .lbl{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#13254a;margin:0 0 10px}
+.ps .rowb{display:grid;grid-template-columns:150px 1fr 40px;align-items:center;gap:10px;font-size:15px;margin:7px 0}
+.ps .rowb .bar{height:14px;background:#eef3fa;border-radius:4px}
+.ps .rowb em{font-style:normal;font-weight:700;text-align:right;font-variant-numeric:tabular-nums}
+.ps .chip{display:inline-flex;align-items:center;gap:6px;background:#f4f7fc;border-radius:999px;padding:5px 12px;font-size:14px;margin:0 6px 8px 0}
+.ps .chip img{width:20px;height:14px;border-radius:2px}
+.ps .art{background:#f4f7fc;border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:6px;border-top:4px solid var(--c)}
+.ps .art .m{font-size:12px;color:#5b6577;display:flex;gap:8px;align-items:center}
+.ps .art h4{margin:0;font-size:17px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.ps .art p{margin:0;font-size:13.5px;color:#475063;line-height:1.4;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.ps .lc{background:#f4f7fc;border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.ps .lc .ph{height:150px;background:#dfe6f1 center/cover no-repeat}
+.ps .lc .b{padding:12px 14px;display:flex;flex-direction:column;gap:4px}
+.ps .lc .br{font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--c)}
+.ps .lc h4{margin:0;font-size:19px;line-height:1.2}
+.ps .lc .pr{font-size:17px;font-weight:700;color:#13254a}
+.ps .ev{display:inline-block;background:#0f9d58;color:#fff;font-size:11px;font-weight:800;border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+.ps .none{color:#5b6577;font-size:18px;padding:30px 0}
+.ps.dark{background:#0b1220;color:#fff}
+.ps.dark h2{color:#fff}.ps.dark .lead{color:#a9b6cc}
+.ps .cover-bg{position:absolute;inset:0;background:radial-gradient(800px 500px at 85% 20%,rgba(6,182,212,.25),transparent 60%),linear-gradient(120deg,#c8102e 0%,#e2481f 40%,#f59e0b 100%)}
+.ps .ph-kb{position:absolute;inset:0;background:center/cover no-repeat}
+@media print{
+  @page deck{size:1280px 720px;margin:0}
+  body.presenting>*:not(#present){display:none!important}
+  body.presenting #present{position:static;background:none;display:block}
+  body.presenting .pr-bar,body.presenting .pr-dots{display:none}
+  body.presenting .pr-view,body.presenting .pr-wrap{display:block;width:auto!important;height:auto!important;overflow:visible}
+  body.presenting .pr-deck{position:static;transform:none!important;width:1280px;height:auto}
+  body.presenting .ps{position:relative;opacity:1;visibility:visible;transform:none;transition:none;page:deck;break-after:page;width:1280px;height:720px;border-radius:0}
+  body.presenting .ps .pa,body.presenting .ps .bar i,body.presenting .ps .kb{animation:none!important;opacity:1;transform:none}
 }
 
 /* ---------- warna ---------- */
@@ -348,6 +420,7 @@ header.top select:focus,header.top button:focus-visible{outline-color:#fff}
         <label>Bulan<select id="f-month"></select></label>
         <label>Periode<select id="f-half"></select></label>
       </div>
+      <button id="present-btn" title="Presentasikan periode ini sebagai slide 16:9">▶ Presentasi</button>
       <button id="csv" title="Unduh CSV periode ini">Export CSV</button>
       <button id="theme" title="Ganti tema" aria-label="Ganti tema">◐</button>
     </div>
@@ -423,6 +496,13 @@ header.top select:focus,header.top button:focus-visible{outline-color:#fff}
   <footer>Data di-update otomatis setiap hari (sekitar 23:17 WIB, bisa mundur hingga beberapa jam) via GitHub Actions. Rekap per periode tetap 1–15 dan 16–akhir bulan.</footer>
 </div>
 <div class="tip" id="tip"></div>
+<div id="present" hidden role="dialog" aria-modal="true" aria-label="Mode presentasi">
+  <div class="pr-bar"><span class="t" id="pr-title"></span><span id="pr-count"></span>
+    <button id="pr-prev" aria-label="Slide sebelumnya">‹</button><button id="pr-next" aria-label="Slide berikutnya">›</button>
+    <button id="pr-full">⛶ Layar penuh</button><button id="pr-pdf">Export PDF</button><button id="pr-close">Tutup ✕</button></div>
+  <div class="pr-view" id="pr-view"><div class="pr-wrap" id="pr-wrap"><div class="pr-deck" id="pr-deck"></div></div></div>
+  <div class="pr-dots" id="pr-dots"></div>
+</div>
 <div id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Foto produk"><img alt=""><p></p><div class="nav"><button data-lb="-1">‹ Sebelumnya</button><button data-lb="0">Tutup ✕</button><button data-lb="1">Berikutnya ›</button></div></div>
 <div id="slide-wrap" hidden role="dialog" aria-modal="true" aria-label="Slide perbandingan">
   <div class="slide-bar"><button id="sl-print">Cetak / simpan PDF</button><button id="sl-close">Tutup ✕</button></div>
@@ -532,7 +612,8 @@ async function init(){
   state.view = ["rilis", "ev"].includes(viewHash) ? viewHash : "issues";
   document.querySelectorAll(".tab").forEach(b => b.onclick = () => { state.view = b.dataset.view; writeHash(currentKey()); render(); });
   try { state.launches = (await loadJSON("data/launches.json")).launches; } catch(e){ state.launches = []; }
-  try { renderSpotlights((await loadJSON("data/ev_spotlight.json")).spotlights || []); } catch(e){ $("#ev-spot").innerHTML = ""; }
+  try { state.spots = (await loadJSON("data/ev_spotlight.json")).spotlights || []; renderSpotlights(state.spots); } catch(e){ state.spots = []; $("#ev-spot").innerHTML = ""; }
+  $("#present-btn").onclick = () => openPresent(periodSlides(), { title: "Motorcycle Issue · " + (state.data?.label || ""), pdf: null });
   $("#r-q").oninput = e => { state.rq = e.target.value.trim().toLowerCase(); render(); };
   $("#r-brand").onchange = e => { state.rbrand = e.target.value; render(); };
   $("#r-cmp").onclick = () => { state.rcmp = !state.rcmp; render(); };
@@ -953,6 +1034,129 @@ const EV_GROUPS = [
   ["Rilis & pameran (global / belum resmi di Indonesia)", x => x.categories.includes("Peluncuran Produk")],
   ["Teknologi, paten & bocoran", x => x.categories.includes("Teknologi & Fitur") || x.categories.includes("Spy / Rumor")],
   ["Lainnya", () => true]];
+// ---------- mode presentasi 16:9 ----------
+const PR = { i: 0, n: 0, opt: {} };
+function fitPresent(){
+  const v = $("#pr-view"), k = Math.min(v.clientWidth / 1280, v.clientHeight / 720);
+  $("#pr-deck").style.transform = `scale(${k})`;
+  Object.assign($("#pr-wrap").style, { width: 1280 * k + "px", height: 720 * k + "px" });
+}
+function goSlide(i){
+  PR.i = Math.max(0, Math.min(PR.n - 1, i));
+  document.querySelectorAll("#pr-deck .ps").forEach((el, k) => { el.classList.toggle("on", k === PR.i); el.classList.toggle("prev", k < PR.i); });
+  document.querySelectorAll("#pr-dots button").forEach((b, k) => b.classList.toggle("on", k === PR.i));
+  $("#pr-count").textContent = `${PR.i + 1} / ${PR.n}`;
+}
+function openPresent(slides, opt){
+  PR.opt = opt; PR.n = slides.length;
+  $("#pr-deck").innerHTML = slides.join("");
+  $("#pr-dots").innerHTML = slides.map((_, k) => `<button aria-label="Slide ${k + 1}"></button>`).join("");
+  $("#pr-title").textContent = opt.title;
+  $("#pr-pdf").textContent = opt.pdf ? "Unduh PDF" : "Export PDF";
+  $("#present").hidden = false; document.body.classList.add("presenting");
+  fitPresent(); goSlide(0);
+}
+function closePresent(){
+  $("#present").hidden = true; document.body.classList.remove("presenting");
+  if (document.fullscreenElement) document.exitFullscreen();
+}
+$("#pr-prev").onclick = () => goSlide(PR.i - 1);
+$("#pr-next").onclick = () => goSlide(PR.i + 1);
+$("#pr-close").onclick = closePresent;
+$("#pr-full").onclick = () => document.fullscreenElement ? document.exitFullscreen() : $("#present").requestFullscreen?.();
+$("#pr-pdf").onclick = () => { if (PR.opt.pdf) window.open(PR.opt.pdf, "_blank"); else window.print(); };
+$("#pr-dots").onclick = e => { const b = e.target.closest("button"); if (b) goSlide([...b.parentNode.children].indexOf(b)); };
+$("#pr-view").onclick = e => { if (!e.target.closest("a,button")) goSlide(PR.i + (e.clientX < innerWidth / 3 ? -1 : 1)); };
+window.addEventListener("resize", () => { if (!$("#present").hidden) fitPresent(); });
+document.addEventListener("fullscreenchange", () => setTimeout(fitPresent, 50));
+document.addEventListener("keydown", e => {
+  if ($("#present").hidden) return;
+  if (["ArrowRight", "PageDown", " ", "Enter"].includes(e.key)) { e.preventDefault(); goSlide(PR.i + 1); }
+  else if (["ArrowLeft", "PageUp", "Backspace"].includes(e.key)) { e.preventDefault(); goSlide(PR.i - 1); }
+  else if (e.key === "Home") goSlide(0);
+  else if (e.key === "End") goSlide(PR.n - 1);
+  else if (e.key === "Escape" && !document.fullscreenElement) closePresent();
+  else if (e.key === "f" || e.key === "F") $("#pr-full").click();
+});
+
+// slide dari data periode terpilih: ringkas, maksimal 5 slide
+function periodSlides(){
+  const d = state.data, A = d.articles || [], label = d.label || state.periodKey;
+  const range = d.start ? `${fmtDate(d.start)} – ${fmtDate(d.end)}` : "";
+  const L = launchesInPeriod(), EVL = L.filter(g => g.ev), evI = evIssues();
+  const hl = A.filter(x => x.highlight).sort((a, b) => b.published.localeCompare(a.published));
+  const foot = n => `<div class="foot"><span>Motorcycle Issue · ${esc(label)}</span><span>${n} / 5</span></div>`;
+  const bars = (rows, colorOf, d0) => { const max = Math.max(...rows.map(r => r[1]), 1);
+    return rows.map(([k, n], i) => `<div class="rowb pa" style="--d:${d0 + i}"><span>${esc(k)}</span><span class="bar"><i style="width:${n / max * 100}%;background:${colorOf(k)};--d:${d0 + i}"></i></span><em>${n}</em></div>`).join(""); };
+  const slides = [];
+  // 1. cover
+  slides.push(`<section class="ps dark"><div class="cover-bg"></div><div class="in">
+    <div class="pa" style="--d:0;font-size:14px;font-weight:800;letter-spacing:.16em;color:#fff;opacity:.9">MOTORCYCLE ISSUE · IWAN BANARAN · PERTAMAX7 · TMC BLOG</div>
+    <h2 class="pa" style="--d:1;font-size:72px;margin-top:120px">${esc(label)}</h2>
+    <p class="lead pa" style="--d:2;color:#fff;font-size:22px">${esc(range)}</p>
+    <div class="grid" style="grid-template-columns:repeat(4,1fr);position:absolute;left:0;right:0;bottom:30px">
+      ${[[A.length, "artikel"], [hl.length, "★ highlight"], [L.length, "rilis di Indonesia"], [EVL.length + evI.length, "isu & rilis EV"]].map(([v, l], i) =>
+        `<div class="kp pa" style="--d:${3 + i};background:rgba(255,255,255,.14)"><b style="color:#fff">${v}</b><span style="color:#fff">${l}</span></div>`).join("")}
+    </div></div></section>`);
+  // 2. ringkasan
+  const bySrc = SOURCES.map(s => [s, A.filter(x => x.source === s).length]);
+  const brands = count(A, x => x.brands).slice(0, 6), cats = count(A, x => x.categories).slice(0, 6), ctry = count(A, x => x.countries || []).slice(0, 8);
+  slides.push(`<section class="ps"><div class="in">
+    <div class="kick pa">Ringkasan periode</div><h2 class="pa" style="--d:1">Apa yang ramai dibahas</h2>
+    <div class="grid" style="grid-template-columns:repeat(4,1fr);margin-top:18px">
+      <div class="kp pa" style="--d:2;--c:#c8102e"><b>${A.length}</b><span>total artikel</span></div>
+      ${bySrc.map(([s, n], i) => `<div class="kp pa" style="--d:${3 + i};--c:${SRC_COLORS[s]}"><b>${n}</b><span>${esc(s)}</span></div>`).join("")}
+    </div>
+    <div class="grid" style="grid-template-columns:1fr 1fr;margin-top:24px;gap:40px">
+      <div><p class="lbl pa" style="--d:6">Merek paling ramai</p>${bars(brands, brandColor, 7)}</div>
+      <div><p class="lbl pa" style="--d:6">Topik paling ramai</p>${bars(cats, catColor, 7)}</div>
+    </div>
+    <div class="pa" style="--d:13;margin-top:14px">${ctry.map(([c, n]) => `<span class="chip">${flag(c)}${esc(c)} <b>${n}</b></span>`).join("")}</div>
+  </div>${foot(2)}</section>`);
+  // 3. highlight
+  const top = (hl.length ? hl : A).slice(0, 6);
+  slides.push(`<section class="ps"><div class="in">
+    <div class="kick pa">★ Highlight</div><h2 class="pa" style="--d:1">Berita yang paling perlu diketahui</h2>
+    <div class="grid" style="grid-template-columns:repeat(3,1fr);margin-top:20px">
+      ${top.map((x, i) => `<div class="art pa" style="--d:${2 + i};--c:${SRC_COLORS[x.source] || "#5b6577"}">
+        <div class="m"><b>${esc(x.source)}</b> · ${fmtDate(x.published)} ${(x.countries || []).slice(0, 2).map(flag).join("")}</div>
+        <h4>${esc(x.title)}</h4><p>${esc((x.points && x.points[0]) || x.summary || "")}</p></div>`).join("") || `<div class="none">Belum ada artikel.</div>`}
+    </div></div>${foot(3)}</section>`);
+  // 4. rilis Indonesia
+  // tidak ada rilis di periode → tampilkan rilis terbaru sebelumnya agar slide tetap informatif
+  const pEnd = periodRange(state.periodKey)[1];
+  const LL = L.length ? [...L].sort((a, b) => b.date.localeCompare(a.date))
+    : (state.launches || []).filter(g => wibDay(g.date) <= pEnd).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
+  slides.push(`<section class="ps"><div class="in">
+    <div class="kick pa">${flag("Indonesia")} Rilis motor Indonesia</div><h2 class="pa" style="--d:1">${L.length ? `${L.length} rilis di periode ini` : "Belum ada rilis di periode ini"}</h2>
+    ${L.length ? "" : `<p class="lead pa" style="--d:2">Rilis terbaru sebelumnya:</p>`}
+    <div class="grid" style="grid-template-columns:repeat(3,1fr);margin-top:18px">
+      ${LL.slice(0, 6).map((g, i) => { const pp = g.previous_from_article?.price || g.previous_release?.specs?.price;
+        return `<div class="lc pa" style="--d:${2 + i};--c:${brandColor(g.brand)}"><div class="ph" style="background-image:url('${esc(g.image || "")}')"></div>
+        <div class="b"><span class="br">${esc(g.brand)} · ${fmtDate(g.date)}${g.ev ? `<span class="ev">⚡ EV</span>` : ""}</span><h4>${esc(g.model)}</h4>
+        <span class="pr">${g.specs?.price ? rupiah(g.specs.price) : "Harga belum disebut"}${pp && g.specs?.price ? priceDelta(pp, g.specs.price) : ""}</span></div></div>`; }).join("")
+        || `<div class="none pa" style="--d:2">Belum ada rilis motor di Indonesia yang tercatat.</div>`}
+    </div>${L.length > 6 ? `<p class="lead pa" style="--d:8;margin-top:10px">+${L.length - 6} rilis lainnya di dashboard</p>` : ""}
+  </div>${foot(4)}</section>`);
+  // 5. EV
+  const sp = (state.spots || [])[0];
+  slides.push(`<section class="ps"><div class="in" style="display:grid;grid-template-columns:1fr 1fr;gap:36px">
+    <div>
+      <div class="kick pa" style="color:#0f9d58">⚡ Special case: motor listrik</div><h2 class="pa" style="--d:1">EV di periode ini</h2>
+      <div class="grid" style="grid-template-columns:1fr 1fr;margin:16px 0">
+        <div class="kp pa" style="--d:2;--c:#0f9d58"><b>${EVL.length}</b><span>rilis EV di Indonesia</span></div>
+        <div class="kp pa" style="--d:3;--c:#0891b2"><b>${evI.length}</b><span>isu EV lainnya</span></div></div>
+      ${EVL.slice(0, 2).map((g, i) => `<div class="chip pa" style="--d:${4 + i}">⚡ <b>${esc(g.model)}</b> ${g.specs?.price ? rupiah(g.specs.price) : ""}</div>`).join("")}
+      ${evI.slice(0, 4).map((x, i) => `<div class="art pa" style="--d:${6 + i};--c:#0f9d58;margin-bottom:8px;padding:10px 14px"><div class="m">${esc(x.source)} · ${fmtDate(x.published)}</div><h4 style="font-size:15px;-webkit-line-clamp:2">${esc(x.title)}</h4></div>`).join("")
+        || `<div class="none pa" style="--d:6">Tidak ada isu EV lain.</div>`}
+    </div>
+    ${sp ? `<div class="lc pa" style="--d:3;--c:#0f9d58;align-self:start"><div class="ph" style="height:250px;background-image:url('${esc(sp.hero)}')"></div>
+      <div class="b"><span class="br">Sorotan produk EV · ${esc(sp.debut_label)}</span><h4 style="font-size:26px">${esc(sp.brand)} ${esc(sp.model)}</h4>
+      <div class="grid" style="grid-template-columns:repeat(3,1fr);gap:8px;margin-top:6px">${sp.key_specs.slice(0, 6).map(([v, l], i) => `<div class="kp pa pz" style="--d:${5 + i};padding:8px 10px;--c:#0f9d58"><b style="font-size:22px">${esc(v)}</b><span style="font-size:11px">${esc(l)}</span></div>`).join("")}</div></div></div>` : ""}
+  </div>${foot(5)}</section>`);
+  return slides;
+}
+
 // ---------- sorotan produk EV (data/ev_spotlight.json, diisi manual) ----------
 const LB = { list: [], i: 0 };
 function showLB(i){
@@ -992,7 +1196,7 @@ function renderSpotlights(list){
           <div class="srcs2" style="margin-top:6px">${esc(p.compare.note)}</div></details>` : ""}
         <div class="colors">${p.colors.map(([n, hex]) => `<div><i style="background:${esc(hex)}"></i>${esc(n)}</div>`).join("")}</div>
         ${p.sibling ? `<div class="sib"><img src="${esc(p.sibling.image)}" alt="${esc(p.sibling.model)}" loading="lazy"><div><b style="color:var(--text)">Satu platform: ${esc(p.sibling.model)}</b><br>${esc(p.sibling.text)}</div></div>` : ""}
-        <div class="dl">${p.deck.map(([l, href], i) => `<a class="${i ? "alt" : ""}" href="${esc(href)}" ${i ? "download" : 'target="_blank" rel="noopener"'}>${i ? "⬇" : "📄"} ${esc(l)}</a>`).join("")}</div>
+        <div class="dl">${p.present ? `<a href="#" data-present="${esc(p.id)}">▶ ${esc(p.present.label)}</a>` : ""}${p.deck.map(([l, href]) => { const pdf = href.endsWith(".pdf"); return `<a class="alt" href="${esc(href)}" ${pdf ? 'target="_blank" rel="noopener"' : "download"}>${pdf ? "📄" : "⬇"} ${esc(l)}</a>`; }).join("")}</div>
         <div class="srcs2">${esc(p.photo_credit)} · Sumber: ${p.sources.map(([t, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a>`).join(" · ")}</div>
       </div>
     </article>`).join("");
@@ -1003,6 +1207,8 @@ function renderSpotlights(list){
       stage.querySelector(".cap").textContent = p.gallery[i][1];
       el.querySelectorAll(".thumbs button").forEach(b => b.classList.toggle("on", +b.dataset.i === i));
     };
+    const pb = el.querySelector("[data-present]");
+    if (pb) pb.onclick = e => { e.preventDefault(); openPresent(p.present.slides.map((src, i) => `<section class="ps img"><img src="${esc(src)}" alt="Slide ${i + 1}" loading="lazy"></section>`), { title: p.present.title, pdf: p.present.pdf }); };
     el.querySelector(".thumbs").onclick = e => { const b = e.target.closest("[data-i]"); if (b) pick(+b.dataset.i); };
     const open = () => { LB.list = p.gallery; showLB(+stage.dataset.i); };
     stage.onclick = open;

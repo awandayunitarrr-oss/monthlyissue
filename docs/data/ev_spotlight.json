@@ -310,11 +310,19 @@
       },
       "deck": [
         [
-          "Unduh deck PDF (19 slide)",
+          "PDF ringkas (9 slide)",
+          "files/Yamaha_NMAX_E_Ringkas_2026.pdf"
+        ],
+        [
+          "PPTX ringkas beranimasi",
+          "files/Yamaha_NMAX_E_Ringkas_2026_animasi.pptx"
+        ],
+        [
+          "PDF lengkap (19 slide)",
           "files/Yamaha_NMAX_E_Detail_2026.pdf"
         ],
         [
-          "Unduh PPTX beranimasi",
+          "PPTX lengkap",
           "files/Yamaha_NMAX_E_Detail_2026_animasi.pptx"
         ]
       ],
@@ -336,7 +344,23 @@
           "https://iwanbanaran.com/news/yamaha-bikin-geger-rilis-nmax-versi-listrik-berlabel-nmax-e-kerenn-poll"
         ]
       ],
-      "photo_credit": "Foto: Yamaha Motor Europe (brosur 2027) & materi pers Yamaha"
+      "photo_credit": "Foto: Yamaha Motor Europe (brosur 2027) & materi pers Yamaha",
+      "present": {
+        "label": "Presentasikan deck (9 slide)",
+        "title": "Yamaha NMAX E — ringkasan produk (9 slide)",
+        "pdf": "files/Yamaha_NMAX_E_Ringkas_2026.pdf",
+        "slides": [
+          "files/nmax-e-ringkas/slide-1.jpg",
+          "files/nmax-e-ringkas/slide-2.jpg",
+          "files/nmax-e-ringkas/slide-3.jpg",
+          "files/nmax-e-ringkas/slide-4.jpg",
+          "files/nmax-e-ringkas/slide-5.jpg",
+          "files/nmax-e-ringkas/slide-6.jpg",
+          "files/nmax-e-ringkas/slide-7.jpg",
+          "files/nmax-e-ringkas/slide-8.jpg",
+          "files/nmax-e-ringkas/slide-9.jpg"
+        ]
+      }
     }
   ]
 }

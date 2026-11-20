@@ -75,3 +75,10 @@ dari motor bensin, plus isu EV lain per periode.
 **Sorotan produk EV** (bagian atas tab) diisi manual di `docs/data/ev_spotlight.json` — tidak bergantung periode:
 foto di `docs/ev/<produk>/`, deck presentasi di `docs/files/`. Fitur bertanda `"verifikasi"` tampil kuning
 (belum ada di brosur resmi). Saat ini berisi Yamaha NMAX E (brosur Yamaha Scooters 2027 + foto resmi).
+
+## Mode presentasi 16:9
+
+Tombol **▶ Presentasi** di header menampilkan periode terpilih sebagai 5 slide 16:9 (sampul, ringkasan, highlight,
+rilis Indonesia, special case EV) dengan animasi. Navigasi: ← → / spasi / klik, `F` layar penuh, `Esc` keluar.
+**Export PDF** di mode ini mencetak 5 halaman 16:9 (pilih "Simpan sebagai PDF" di dialog cetak).
+Deck NMAX E versi ringkas (9 slide) bisa diputar dari tab EV lewat tombol "Presentasikan deck".
