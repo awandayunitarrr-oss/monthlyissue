@@ -324,7 +324,7 @@ footer{padding:26px 0;border-top:1px solid var(--line);font-size:12px;color:var(
   <div class="wrap">
     <div class="kick rv">Head to head</div>
     <h2 class="rv d1">NMAX E vs Polytron Fox 500</h2>
-    <p class="lead rv d2">Sama-sama skutik listrik besar: NMAX E dari Yamaha global, Fox 500 buatan lokal yang sudah dijual di Indonesia.</p>
+    <p class="lead rv d2">Sama-sama skutik listrik besar: NMAX E dari Yamaha global, Fox 500 buatan lokal yang sudah dijual di Indonesia. Data Fox 500 dari situs resmi Polytron.</p>
     <div class="vs rv d2" id="vs"></div>
     <div class="htab rv" style="overflow-x:auto;margin-top:22px"><table class="spec" id="ftable"></table></div>
     <p class="src" id="fnote"></p>
@@ -456,14 +456,14 @@ fetch("data/ev_spotlight.json").then(r => r.json()).then(({ spotlights }) => {
   // head to head Fox 500: batang berhadapan (kiri NMAX E, kanan Fox 500) + tabel
   const F = p.compares.find(c => c.cols[1] === "Polytron Fox 500");
   if (F) {
-    const fm = [["Baterai", "kWh", 3.5, 3.89, 1], ["Jarak tempuh*", "km", 104, 130, 1], ["Daya**", "kW", 7.5, 14.7, 1], ["Waktu cas", "jam", 5.5, 4.5, 0], ["Panjang", "mm", 1980, 2190, 0], ["Lebar", "mm", 795, 770, 0]];
+    const fm = [["Baterai", "kWh", 3.5, 3.888, 1], ["Jarak tempuh*", "km", 104, 130, 1], ["Daya**", "kW", 7.5, 14.7, 1], ["Waktu cas", "jam", 5.5, 6, 0], ["Panjang", "mm", 1980, 2190, 0], ["Sumbu roda", "mm", 1425, 1600, 0]];
     $("#vs").innerHTML = `<div class="hd"><span>NMAX E</span><small>vs</small><span>Fox 500</span></div>` + fm.map(([n, u, a, b, hi]) => {
       const m = Math.max(a, b), wa = a > b === !!hi && a !== b, wb = b > a === !!hi && a !== b;
       return `<div class="rw"><b style="color:#22d3ee">${a.toLocaleString("id-ID")} ${u}</b><span class="tr L"><i data-w="${a / m * 100}" style="background:#22d3ee"></i></span>
         <span class="l">${esc(n)}</span><span class="tr"><i data-w="${b / m * 100}" style="background:#f97316"></i></span><b style="color:#f97316">${b.toLocaleString("id-ID")} ${u}</b></div>`; }).join("");
     $("#vs").addEventListener("reveal", () => $("#vs").querySelectorAll(".tr i").forEach((i, k) => setTimeout(() => (i.style.width = i.dataset.w + "%"), k * 80)), { once: true });
     $("#ftable").innerHTML = `<tr><th></th>${F.cols.map(c => `<th>${esc(c)}</th>`).join("")}</tr>` + F.rows.map(r => `<tr>${r.map(c => `<td>${esc(c)}</td>`).join("")}</tr>`).join("");
-    $("#fnote").textContent = "* NMAX E: uji WMTC; Fox 500: klaim pada rata-rata 40 km/jam. ** NMAX E: daya maksimum; Fox 500: daya puncak (klaim). " + F.note;
+    $("#fnote").textContent = "* NMAX E: uji WMTC; Fox 500: klaim pabrikan. ** NMAX E: daya maksimum; Fox 500: peak power. " + F.note;
   }
   // head to head Honda: batang animasi + tabel
   const H = p.compares.find(c => c.cols[1] === "CUV e:"), HC = ["#22d3ee", "#e4002b", "#f97316", "#a855f7"];
