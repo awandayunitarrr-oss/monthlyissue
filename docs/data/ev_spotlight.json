@@ -11,8 +11,12 @@
       "debut_label": "EICMA Milan · 3 Nov 2026",
       "availability": [
         [
-          "Eropa (Jerman)",
-          "April 2027 · €7.799"
+          "Harga Jerman",
+          "±Rp157,7 jt (€7.799)"
+        ],
+        [
+          "Eropa",
+          "April 2027"
         ],
         [
           "Jepang",
@@ -363,13 +367,13 @@
             ],
             [
               "Harga",
-              "€7.799 (Jerman)",
+              "±Rp157,7 jt (€7.799 Jerman)",
               "Rp54,45–59,65 jt",
               "Rp28–32 jt",
               "±Rp33 jt"
             ]
           ],
-          "note": "Data Honda dari media otomotif (detikOto, Autofun, Zigwheels, Gridoto; 2023–2025), belum dicek ke AHM. *Torsi motor in-wheel diukur di roda — tidak sebanding langsung. kWh MPP e: dihitung dari 50,26 V × 29,4 Ah."
+          "note": "Data Honda dari media otomotif (detikOto, Autofun, Zigwheels, Gridoto; 2023–2025), belum dicek ke AHM. *Torsi motor in-wheel diukur di roda — tidak sebanding langsung. kWh MPP e: dihitung dari 50,26 V × 29,4 Ah. Harga NMAX E = €7.799 (Jerman, termasuk PPN Jerman) × kurs tengah BI 13/11/2026 Rp20.221/€ — bukan estimasi OTR Indonesia."
         },
         {
           "title": "vs NMAX Turbo (bensin, Indonesia)",
@@ -432,7 +436,8 @@
           "pdf": "files/Yamaha_NMAX_E_Ringkas_2026.pdf",
           "pptx": "files/Yamaha_NMAX_E_Ringkas_2026_animasi.pptx"
         }
-      ]
+      ],
+      "price_note": "Harga NMAX E dalam rupiah: €7.799 (harga Jerman) × kurs tengah BI 13/11/2026 Rp20.221,04 ≈ Rp157,7 juta. Konversi langsung, bukan estimasi OTR Indonesia."
     }
   ]
 }

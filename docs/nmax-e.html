@@ -57,6 +57,8 @@ nav.top a.l:hover{color:var(--text)}
 @keyframes draw{to{stroke-dashoffset:0}}
 @keyframes run{0%{offset-distance:0;opacity:1}100%{offset-distance:100%;opacity:1}}
 .hero .sub{font-size:clamp(18px,2.3vw,24px);color:#cfe8f3;max-width:600px;margin:0 0 6px;opacity:0;animation:fadeup .8s 1.2s forwards}
+.hero .price{margin:4px 0 8px;font-size:18px;color:#cfe8f3;opacity:0;animation:fadeup .8s 1.35s forwards}
+.hero .price b{color:var(--cyan);font-size:22px}.hero .price span{font-size:13px;color:var(--muted)}
 .hero .typed{font-size:15px;color:var(--muted);min-height:24px;opacity:0;animation:fadeup .6s 1.5s forwards}
 .hero .typed b{color:var(--cyan)}
 .hero .typed .cur{display:inline-block;width:2px;height:1em;background:var(--cyan);vertical-align:-2px;margin-left:2px;animation:blink 1s steps(1) infinite}
@@ -233,6 +235,7 @@ footer{padding:26px 0;border-top:1px solid var(--line);font-size:12px;color:var(
     <h1 class="title" id="title" aria-label="NMAX E"></h1>
     <svg class="bolt" viewBox="0 0 520 40" aria-hidden="true"><path d="M2 20 H170 L190 6 L215 34 L240 4 L262 30 L280 20 H518"/><circle r="4"/></svg>
     <p class="sub">Keluarga MAX kini bertenaga listrik: torsi instan, senyap, dan siap untuk kota.</p>
+    <p class="price" id="price">Harga Jerman <b>±Rp157,7 juta</b> <span>(€7.799 × kurs BI Rp20.221 · bukan harga OTR Indonesia)</span></p>
     <div class="typed" id="typed"></div>
     <div class="cta">
       <a class="btn fill" href="#putar">▶ Lihat melaju</a>
@@ -374,7 +377,7 @@ const RM = matchMedia("(prefers-reduced-motion: reduce)").matches;
 })();
 // ---- marquee spesifikasi
 (() => {
-  const items = [["3,5 kWh", "baterai"], ["104 km", "WMTC"], ["7,5 kW", "tenaga"], ["33,3 Nm", "@ 500 rpm"], ["±5,5 jam", "cas 0–100%"], ["121 kg", "tanpa baterai"], ["13\"", "roda"], ["TCS", "& APSG"], ["TFT 5\"", "navigasi"], ["Type 2", "charging"]];
+  const items = [["3,5 kWh", "baterai"], ["104 km", "WMTC"], ["7,5 kW", "tenaga"], ["33,3 Nm", "@ 500 rpm"], ["±5,5 jam", "cas 0–100%"], ["121 kg", "tanpa baterai"], ["±Rp157,7 jt", "harga Jerman"], ["13\"", "roda"], ["TCS", "& APSG"], ["TFT 5\"", "navigasi"], ["Type 2", "charging"]];
   const one = items.map(([a, b]) => `<span><b>${a}</b> ${b}</span><i>⚡</i>`).join("");
   $("#mq").innerHTML = one + one;
 })();

@@ -1188,6 +1188,7 @@ function renderSpotlights(list){
         <div><div class="kick">${esc(p.brand)} · ${esc(p.tagline)}</div><h3>${esc(p.model)}</h3><p class="lead">${esc(p.summary)}</p></div>
         <div class="ks">${p.key_specs.map(([v, l]) => `<div><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join("")}</div>
         <div class="avail">${p.availability.map(([m, v]) => `<span>${esc(m)}: <b>${esc(v)}</b></span>`).join("")}</div>
+        ${p.price_note ? `<div class="srcs2">${esc(p.price_note)}</div>` : ""}
         <div class="fts">${p.features.map(([f, st]) => `<span class="ft ${st === "resmi" ? "" : "v"}" title="${st === "resmi" ? "Tercantum di brosur resmi" : "Belum ada di brosur resmi — perlu verifikasi"}">${esc(f)}</span>`).join("")}</div>
         <details><summary>Spesifikasi lengkap (brosur resmi)</summary>
           ${p.spec_groups.map(([g, rows]) => `<h5>${esc(g)}</h5><table>${rows.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join("")}</table>`).join("")}</details>
