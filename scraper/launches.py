@@ -24,23 +24,57 @@ LAUNCH_VERB = re.compile(
     r"dibanderol|diperkenalkan|perkenalkan|memperkenalkan|mengaspal|unjuk gigi|gebrak|menggebrak|warna baru|kelir baru)(?![a-z])", re.I)
 SPECULATIVE = re.compile(
     r"\?|(?<![a-z])(bakal|akan|apakah|kapan|mungkin|rumor|bocoran|spyshot|spy shot|paten|terawangan|prediksi|"
-    r"teaser|segera|siap-siap|jelang)(?![a-z])", re.I)
+    r"teaser|segera|siap-siap|jelang|siap (?:meluncur|rilis|dirilis|mengaspal|dijual))(?![a-z])", re.I)
 NOT_PRODUCT = re.compile(
     r"(?<![a-z])(motogp|moto2|moto3|wsbk|worldsbk|arrc|tim|team|line-?up|formasi|pembalap|rider|aplikasi|app|y-on|"
     r"mudik|pendaftaran|undangan|jadwal|event|ride the hype|kontes|festival|turnamen|lomba|touring|komunitas|"
     r"dealer|diler|bengkel|servis|layanan|promo|diskon|cashback|program|kredit|helm|apparel|jaket|oli|ban|aki|"
-    r"sparepart|suku cadang|aksesori|aksesoris|sepeda listrik|mobil|suv|mpv)(?![a-z])", re.I)
+    r"sparepart|suku cadang|aksesori|aksesoris|sepeda listrik|mobil|suv|mpv|teknisi|mekanik|kompetisi)(?![a-z])", re.I)
+
+
+# --------------------------------------------------------------------------- #
+# Special case: motor listrik (EV)
+# --------------------------------------------------------------------------- #
+EV_BRANDS = {"Alva", "Polytron", "United E-Motor", "Gesits", "Selis", "Volta", "Smoot", "Yadea", "Maka",
+             "Indomobil eMotor", "VinFast / NIU / Segway", "Charged", "Omoway", "Ofero", "MOTU", "MoLinas",
+             "Davigo", "Uwinfly", "Rakata"}
+EV_TITLE = re.compile(r"(?<![a-z])(listrik|electric|elektrik|ev|bev|e-motor|full electric)(?![a-z])", re.I)
+STRONG_VERB = re.compile(r"(?<![a-z])(resmi|rilis|merilis|dirilis|diluncurkan|meluncurkan|diumumkan|dibanderol)(?![a-z])", re.I)
+
+
+def launch_brand(d: dict) -> str:
+    """Merek utama artikel rilis. Untuk EV yang dibandingkan dengan merek lain ('MoLinas … kok mirip Alva'),
+    pakai merek yang paling awal disebut di judul."""
+    brands = d.get("brands") or [""]
+    if len(brands) > 1 and any(b in EV_BRANDS for b in brands):
+        t = d.get("title", "").lower()
+        pos = {}
+        for b in brands:
+            hits = [m.start() for tok in _brand_tokens(b) for m in re.finditer(r"(?<![a-z])" + re.escape(tok.lower()) + r"(?![a-z])", t)]
+            pos[b] = min(hits) if hits else 10_000
+        return min(brands, key=lambda b: pos[b])
+    return brands[0]
+
+
+def is_ev(d: dict) -> bool:
+    return launch_brand(d) in EV_BRANDS or bool(EV_TITLE.search(d.get("title", "")))
 
 
 def is_launch(d: dict) -> bool:
     t = d.get("title", "")
-    return ("Indonesia" in (d.get("countries") or [])
+    if not ("Indonesia" in (d.get("countries") or [])
             and "Peluncuran Produk" in (d.get("categories") or [])
             and (d.get("categories") or [""])[0] != "Racing & Motorsport"
             and bool(d.get("brands"))
-            and bool(LAUNCH_VERB.search(t))
-            and not SPECULATIVE.search(t)
-            and not NOT_PRODUCT.search(t))
+            and not NOT_PRODUCT.search(t)):
+        return False
+    if is_ev(d):
+        # judul EV sering bergaya "Resmi Dirilis….Lho kok mirip X ??" / "Hanya 12 Jutaan ! Inilah …":
+        # tanda tanya retoris diabaikan bila ada kata kerja resmi/harga; harga di judul juga dihitung rilis
+        has_price = bool(_first_price(t))
+        tt = t.replace("?", "") if (STRONG_VERB.search(t) or has_price) else t
+        return bool(LAUNCH_VERB.search(t) or has_price) and not SPECULATIVE.search(tt)
+    return bool(LAUNCH_VERB.search(t)) and not SPECULATIVE.search(t)
 
 
 # --------------------------------------------------------------------------- #
@@ -55,7 +89,7 @@ menjual penyegaran segarkan mengaspal tantang update varian siap livery era skut
 STOP = set("""terbaru baru rilis resmi dirilis meluncur hadir dengan dan untuk di ke dari versi edisi edition warna
 color colour livery special spesial varian model year tahun makin lebih jadi kini tampil mulai harga dibanderol
 seharga cuma hanya jutaan juta murah mahal pakai bawa punya dapat yang ini itu bikin intip detail resmi update
-indonesia generasi kedua debut tipe type series jelang saat musim gaya""".split())
+indonesia generasi kedua debut tipe type series jelang saat musim gaya diumumkan""".split())
 TOKEN = re.compile(r"[A-Za-z0-9][A-Za-z0-9\-+.']*")
 
 
@@ -222,9 +256,65 @@ def _money(num: str, unit: str | None) -> float | None:
     return v
 
 
+_EVN = r"(\d{1,3}(?:[.,]\d{1,3})?)"
+EV_KWH = re.compile(r"(?<![\d.,])" + _EVN + r"\s?kwh(?![a-z])", re.I)
+EV_VAH = re.compile(r"(?<![\d.,])(\d{2,3})\s?v(?:olt)?\s*(?:/|x|,|-|\s)\s*(\d{1,3}(?:[.,]\d)?)\s?ah(?![a-z])", re.I)
+EV_AH = re.compile(r"(?<![\d.,])(\d{2,3}(?:[.,]\d)?)\s?ah(?![a-z])", re.I)
+EV_RANGE = re.compile(r"(?:jarak tempuh|jangkauan|daya jelajah|range|sekali (?:cas|charge|pengisian|isi)|menempuh|mampu melaju sejauh)"
+                      r"[^.]{0,45}?(\d{2,3})\s?(?:km|kilometer)(?![/a-z])"
+                      r"|(\d{2,3})\s?(?:km|kilometer)\s?(?:dalam |untuk )?(?:sekali|per|setiap|tiap)\s?(?:cas|charge|charging|pengisian|isi)", re.I)
+EV_SPEED = re.compile(r"(?:kecepatan (?:maksimal|maksimum|tertinggi|puncak)|top ?speed|kecepatan hingga|melaju hingga|ngacir)"
+                      r"[^.]{0,35}?(\d{2,3})\s?(?:km/jam|km/j|kpj|km/h|kmh|kph)", re.I)
+EV_WATT = re.compile(r"(?<![\d.,])(\d{1,2}[.,]\d{3}|\d{3,5})\s?(?:watt|w)(?![a-z])", re.I)
+EV_KW = re.compile(r"(?<![\d.,])(\d{1,2}(?:[.,]\d{1,2})?)\s?kw(?![a-z])", re.I)
+EV_CHARGE = re.compile(r"(?:pengisian|ngecas|mengecas|dicas|di-?charge|charging|charge|isi ulang|mengisi)[^.]{0,55}?"
+                       r"(\d{1,2}(?:[.,]\d)?(?:\s?[-–]\s?\d{1,2}(?:[.,]\d)?)?)\s?(jam|menit)", re.I)
+EV_SWAP = re.compile(r"(?<![a-z])(swap|swapping|tukar baterai|battery swap|bss|spbklu)(?![a-z])", re.I)
+EV_REMOVABLE = re.compile(r"(baterai|battery)[^.]{0,40}(bisa dilepas|dapat dilepas|bisa dicopot|removable|portabel|portable|dijinjing)", re.I)
+EV_SUBSIDY = re.compile(r"(?<![a-z])(subsidi|insentif|tkdn)(?![a-z])", re.I)
+EV_MOTOR_CTX = re.compile(r"(?<![a-z])(motor|dinamo|bldc|hub ?motor|mid[- ]?drive|daya|tenaga|output|peak|puncak|nominal|rated)(?![a-z])", re.I)
+
+
+def ev_specs(sents: list[str]) -> dict:
+    """Spesifikasi khas motor listrik dari kalimat artikel: baterai, jarak tempuh, daya motor, kecepatan, waktu cas."""
+    out: dict = {}
+    body = " ".join(sents)
+
+    def first(rx, lo, hi, fmt, hay=body):
+        for m in rx.finditer(hay):
+            g = next((x for x in m.groups() if x), None)
+            try:
+                v = _to_float(g.split("-")[0].split("–")[0])
+            except (ValueError, AttributeError):
+                continue
+            if lo <= v <= hi:
+                return fmt(m, g)
+        return None
+
+    out["battery"] = (first(EV_KWH, 0.5, 30, lambda m, g: f"{g} kWh")
+                      or first(EV_VAH, 24, 160, lambda m, g: f"{m.group(1)}V {m.group(2)}Ah")
+                      or first(EV_AH, 10, 200, lambda m, g: f"{g} Ah"))
+    out["range"] = first(EV_RANGE, 20, 500, lambda m, g: f"{g} km")
+    out["top_speed"] = first(EV_SPEED, 25, 250, lambda m, g: f"{g} km/jam")
+    motor = None
+    for sn in sents:
+        if not EV_MOTOR_CTX.search(sn):
+            continue
+        motor = (first(EV_KW, 0.5, 60, lambda m, g: f"{g} kW", sn)
+                 or first(EV_WATT, 250, 30000, lambda m, g: f"{g} W", sn))
+        if motor:
+            break
+    out["motor"] = motor
+    out["charging"] = first(EV_CHARGE, 0.2, 600, lambda m, g: f"{g.replace(' ', '')} {m.group(2).lower()}")
+    out["swap"] = bool(EV_SWAP.search(body))
+    out["removable"] = bool(EV_REMOVABLE.search(body))
+    out["subsidy"] = bool(EV_SUBSIDY.search(body))
+    return out
+
+
 def analyze(d: dict, text: str, brand_hint: str | None = None) -> dict:
     title = d.get("title", "")
-    brand = brand_hint or (d.get("brands") or [""])[0]
+    brand = brand_hint or launch_brand(d)
     display, key = model_name(title, brand)
     body = f"{title}. {text or ''}"
     sents = _sentences(body)
@@ -247,6 +337,10 @@ def analyze(d: dict, text: str, brand_hint: str | None = None) -> dict:
         "power": _first(POWER, body, 3, 250),
         "torque": _first(TORQUE, body, 3, 250, "Nm"),
     }
+    ev = is_ev(d)
+    if ev:
+        specs["ev"] = ev_specs(sents)
+        specs["engine"] = None          # "setara 125cc" di artikel EV bukan isi silinder
 
     prev_price = delta = None
     for s in sents:
@@ -272,7 +366,7 @@ def analyze(d: dict, text: str, brand_hint: str | None = None) -> dict:
             compare.append(s)
         if len(compare) >= 4:
             break
-    return {"model": display, "key": key, "specs": specs,
+    return {"model": display, "key": key, "specs": specs, "ev": ev,
             "previous_from_article": {"price": prev_price, "price_delta": delta},
             "compare": compare, "analyzed_at": datetime.now().isoformat(timespec="seconds")}
 
@@ -335,8 +429,9 @@ def build(period_dir: Path, out_path: Path) -> list[dict]:
         g = next((g for g in reversed(groups)
                   if _days(g["date"], a["published"]) <= GROUP_DAYS and (_keys_match(g["key"], L["key"]) or g["model"] == L["model"])), None)
         if g is None:
-            g = {"id": a["id"], "date": a["published"], "brand": a["brands"][0], "model": L["model"], "key": L["key"],
-                 "specs": dict(L["specs"]), "previous_from_article": dict(L["previous_from_article"]),
+            g = {"id": a["id"], "date": a["published"], "brand": launch_brand(a), "model": L["model"], "key": L["key"],
+                 "ev": False,
+                 "specs": {k: (dict(v) if isinstance(v, dict) else v) for k, v in L["specs"].items()}, "previous_from_article": dict(L["previous_from_article"]),
                  "compare": [], "articles": [], "image": a.get("image"), "highlight": False,
                  "detail": None, "prev_detail": None, "title": a["title"]}
             groups.append(g)
@@ -352,8 +447,12 @@ def build(period_dir: Path, out_path: Path) -> list[dict]:
         g["image"] = g["image"] or a.get("image")
         if len(L["model"]) > len(g["model"]) and L["key"]:
             g["model"], g["key"] = L["model"], L["key"]
+        g["ev"] = g["ev"] or is_ev(a)
         for k, v in L["specs"].items():
-            g["specs"][k] = g["specs"].get(k) or v
+            if k == "ev":
+                g["specs"]["ev"] = {kk: (g["specs"].get("ev") or {}).get(kk) or vv for kk, vv in v.items()}
+            else:
+                g["specs"][k] = g["specs"].get(k) or v
         for k, v in L["previous_from_article"].items():
             g["previous_from_article"][k] = g["previous_from_article"].get(k) or v
         for s in L["compare"]:
@@ -687,6 +786,16 @@ def detail_score(d: dict | None) -> int:
 # Head to head spesifikasi
 # --------------------------------------------------------------------------- #
 SPEC_GROUPS = [
+    ("Motor Listrik & Baterai", [
+        ("Tipe Motor Listrik", r"(tipe |jenis )?(motor listrik|dinamo|motor penggerak|electric motor)"),
+        ("Daya Puncak", r"daya (puncak|maksimum motor)|peak power|tenaga puncak"),
+        ("Daya Nominal", r"daya (nominal|motor|dinamo)|rated power|nominal power"),
+        ("Kapasitas Baterai", r"kapasitas baterai|battery capacity|baterai (lithium|li-ion|lifepo4)|jenis baterai|tipe baterai utama"),
+        ("Jarak Tempuh", r"jarak tempuh|jangkauan|daya jelajah|range"),
+        ("Kecepatan Maksimum", r"kecepatan (maksimum|maksimal|tertinggi)|top speed"),
+        ("Waktu Pengisian", r"(waktu|lama|durasi) (pengisian|cas|charging)|charging time|pengisian (baterai|daya)"),
+        ("Tipe Charger", r"(tipe |jenis )?(charger|pengisi daya)|fast charging"),
+    ]),
     ("Mesin", [
         ("Tipe Mesin", r"(tipe|jenis) mesin|engine type"),
         ("Volume Silinder", r"volume silinder|isi silinder|kapasitas (mesin|silinder)|displacement|kubikasi"),

@@ -3447,7 +3447,9 @@
       ],
       "summary_by": "auto",
       "image": "https://cdn.tmcblog.com/2026/06/omo-x-2.avif",
-      "brands": [],
+      "brands": [
+        "Omoway"
+      ],
       "categories": [
         "Peluncuran Produk",
         "Motor Listrik",
@@ -3455,7 +3457,37 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Omoway Omo-X",
+        "key": "omoway|omox",
+        "specs": {
+          "price": 76900000.0,
+          "engine": null,
+          "power": null,
+          "torque": null,
+          "ev": {
+            "battery": null,
+            "range": null,
+            "top_speed": null,
+            "motor": null,
+            "charging": null,
+            "swap": false,
+            "removable": false,
+            "subsidy": false
+          }
+        },
+        "ev": true,
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Pengumuman krusial ini tidak dilakukan sendirian, Sob, melainkan dibarengi dengan prosesi seremoni serah terima unit perdana kepada para konsumen yang telah melakukan pre-order sebelumnya."
+        ],
+        "analyzed_at": "2026-11-20T04:07:21",
+        "full": false
+      }
     },
     {
       "id": "becd9c851ef3",

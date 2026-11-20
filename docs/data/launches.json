@@ -1,72 +1,13 @@
 {
-  "updated_at": "2026-11-19T02:07:02",
+  "updated_at": "2026-11-20T04:09:17",
   "launches": [
-    {
-      "id": "38ee16a096e4",
-      "date": "2026-11-17T00:01:04+07:00",
-      "brand": "Honda",
-      "model": "Honda Turunkan 6 Teknisi Andalan",
-      "key": "honda|turunkan6teknisiandalan",
-      "specs": {
-        "price": null,
-        "engine": null,
-        "power": null,
-        "torque": null
-      },
-      "previous_from_article": {
-        "price": null,
-        "price_delta": null
-      },
-      "compare": [
-        "Sebelumnya, Indonesia sempat sukses menggelar ajang serupa pada tahun 2005 di Jakarta dan 2018 di Surabaya .",
-        "Standar Tinggi, Layanan Kelas Wahid Di era modern seperti sekarang, skill seorang teknisi tentu bukan cuma soal bongkar-pasang mesin konvensional, Sob."
-      ],
-      "articles": [
-        {
-          "title": "Indonesia Resmi Jadi Tuan Rumah Asia & Oceania Technician Skill Contest (AOC) 2026! AHM Turunkan 6 Teknisi Andalan",
-          "url": "https://tmcblog.com/2026/11/17/indonesia-resmi-jadi-tuan-rumah-asia-oceania-technician-skill-contest-aoc-2026-ahm-turunkan-6-teknisi-andalan/?utm_source=rss&utm_medium=rss&utm_campaign=indonesia-resmi-jadi-tuan-rumah-asia-oceania-technician-skill-contest-aoc-2026-ahm-turunkan-6-teknisi-andalan",
-          "source": "TMC Blog",
-          "published": "2026-11-17T00:01:04+07:00"
-        }
-      ],
-      "image": "https://tmcblog.com/wp-content/uploads/2026/11/AOC_1.avif",
-      "highlight": true,
-      "detail": {
-        "url": "https://tmcblog.com/2026/11/17/indonesia-resmi-jadi-tuan-rumah-asia-oceania-technician-skill-contest-aoc-2026-ahm-turunkan-6-teknisi-andalan/?utm_source=rss&utm_medium=rss&utm_campaign=indonesia-resmi-jadi-tuan-rumah-asia-oceania-technician-skill-contest-aoc-2026-ahm-turunkan-6-teknisi-andalan",
-        "intro": "Kabar membanggakan datang dari kancah permotoran nasional! Indonesia kembali mendapat kehormatan besar dan dipercaya menjadi tuan rumah ajang bergengsi Asia & Oceania Technician Skill Contest (AOC) 2026 .",
-        "variants": [
-          {
-            "name": "Semua tipe",
-            "price": null,
-            "colors": [
-              {
-                "name": "Saya Memakai Warna Merah",
-                "new": null,
-                "image": null
-              }
-            ],
-            "notes": []
-          }
-        ],
-        "spec_table": {},
-        "loose_colors": [],
-        "n_images": 2,
-        "image_keys": [
-          "aoc 2 aoc 2 696x385 avif",
-          "aoc 2 avif"
-        ],
-        "source": "TMC Blog"
-      },
-      "prev_detail": null,
-      "title": "Indonesia Resmi Jadi Tuan Rumah Asia & Oceania Technician Skill Contest (AOC) 2026! AHM Turunkan 6 Teknisi Andalan",
-      "previous_release": null
-    },
     {
       "id": "4a2dd382d9c3",
       "date": "2026-10-29T19:07:09+07:00",
       "brand": "TVS",
       "model": "TVS Ronin Agonda",
       "key": "tvs|roninagonda",
+      "ev": false,
       "specs": {
         "price": 37080000.0,
         "engine": null,
@@ -143,6 +84,7 @@
       "brand": "Honda",
       "model": "Honda Perbarui GROM 125",
       "key": "honda|perbaruigrom125",
+      "ev": false,
       "specs": {
         "price": null,
         "engine": "125 cc",
@@ -215,6 +157,7 @@
       "brand": "Honda",
       "model": "Honda CB125R Neo Cafe",
       "key": "honda|cb125rneocafe",
+      "ev": false,
       "specs": {
         "price": 52800000.0,
         "engine": "125 cc",
@@ -336,6 +279,7 @@
       "brand": "Kawasaki",
       "model": "Kawasaki Versys 900",
       "key": "kawasaki|versys900",
+      "ev": false,
       "specs": {
         "price": 222000000.0,
         "engine": "948 cc",
@@ -408,6 +352,7 @@
       "brand": "Honda",
       "model": "Honda CRF1100L Africa Twin",
       "key": "honda|crf1100lafricatwin",
+      "ev": false,
       "specs": {
         "price": 665000000.0,
         "engine": null,
@@ -537,11 +482,55 @@
       "previous_release": null
     },
     {
+      "id": "7d327f49a3ef",
+      "date": "2026-09-30T18:15:05+07:00",
+      "brand": "MOTU",
+      "model": "MOTU M5B",
+      "key": "motu|m5b",
+      "ev": true,
+      "specs": {
+        "price": null,
+        "engine": null,
+        "power": null,
+        "torque": null,
+        "ev": {
+          "battery": null,
+          "range": null,
+          "top_speed": null,
+          "motor": null,
+          "charging": null,
+          "swap": false,
+          "removable": false,
+          "subsidy": false
+        }
+      },
+      "previous_from_article": {
+        "price": null,
+        "price_delta": null
+      },
+      "compare": [],
+      "articles": [
+        {
+          "title": "Motor Listrik MOTU M5B Hadir dengan Karakter Sporty, Padukan Desain Futuristis dan Teknologi Pintar",
+          "url": "https://tmcblog.com/2026/09/30/motu-m5b-hadir-dengan-karakter-sporty-padukan-desain-futuristis-dan-teknologi-pintar/?utm_source=rss&utm_medium=rss&utm_campaign=motu-m5b-hadir-dengan-karakter-sporty-padukan-desain-futuristis-dan-teknologi-pintar",
+          "source": "TMC Blog",
+          "published": "2026-09-30T18:15:05+07:00"
+        }
+      ],
+      "image": "https://cdn.tmcblog.com/2026/09/Motu-M5-1.webp",
+      "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Motor Listrik MOTU M5B Hadir dengan Karakter Sporty, Padukan Desain Futuristis dan Teknologi Pintar",
+      "previous_release": null
+    },
+    {
       "id": "e5fad78142e4",
       "date": "2026-09-23T12:19:09+07:00",
       "brand": "Honda",
       "model": "Honda Stylo 160 Violet",
       "key": "honda|stylo160violet",
+      "ev": false,
       "specs": {
         "price": 29695000.0,
         "engine": "160 cc",
@@ -780,6 +769,7 @@
       "brand": "Honda",
       "model": "Honda CT125",
       "key": "honda|ct125",
+      "ev": false,
       "specs": {
         "price": 83500000.0,
         "engine": "125 cc",
@@ -852,6 +842,7 @@
       "brand": "Honda",
       "model": "Honda ST125 Dax",
       "key": "honda|st125dax",
+      "ev": false,
       "specs": {
         "price": 84500000.0,
         "engine": null,
@@ -947,11 +938,55 @@
       "previous_release": null
     },
     {
+      "id": "1f75a3bd5a08",
+      "date": "2026-08-13T18:13:44+07:00",
+      "brand": "MoLinas",
+      "model": "MoLinas CAKRA",
+      "key": "molinas|cakra",
+      "ev": true,
+      "specs": {
+        "price": 11500000.0,
+        "engine": null,
+        "power": null,
+        "torque": null,
+        "ev": {
+          "battery": null,
+          "range": null,
+          "top_speed": null,
+          "motor": null,
+          "charging": null,
+          "swap": false,
+          "removable": false,
+          "subsidy": false
+        }
+      },
+      "previous_from_article": {
+        "price": null,
+        "price_delta": null
+      },
+      "compare": [],
+      "articles": [
+        {
+          "title": "Gegerr ! MoLinas CAKRA Resmi Dirilis Presiden Prabowo….Lho kok tampang Kayak Alva ??",
+          "url": "https://iwanbanaran.com/news/gegerr-molinas-cakra-resmi-dirilis-presiden-prabowo-lho-kok-tampang-kayak-alva",
+          "source": "Iwan Banaran",
+          "published": "2026-08-13T18:13:44+07:00"
+        }
+      ],
+      "image": "https://iwanbanaran.com/api/og/gegerr-molinas-cakra-resmi-dirilis-presiden-prabowo-lho-kok-tampang-kayak-alva",
+      "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Gegerr ! MoLinas CAKRA Resmi Dirilis Presiden Prabowo….Lho kok tampang Kayak Alva ??",
+      "previous_release": null
+    },
+    {
       "id": "883fe51a4bbb",
       "date": "2026-08-03T18:42:31+07:00",
       "brand": "Yamaha",
       "model": "Yamaha Fazzio SE Sunset Blue",
       "key": "yamaha|fazziosesunsetblue",
+      "ev": false,
       "specs": {
         "price": 23150000.0,
         "engine": "125 cc",
@@ -1238,6 +1273,7 @@
       "brand": "BMW Motorrad",
       "model": "BMW Motorrad F450 GS",
       "key": "bmw motorrad|f450gs",
+      "ev": false,
       "specs": {
         "price": 418900000.0,
         "engine": "450 cc",
@@ -1306,6 +1342,7 @@
       "brand": "Honda",
       "model": "Honda NX500 E-Clutch",
       "key": "honda|nx500eclutch",
+      "ev": false,
       "specs": {
         "price": 230000000.0,
         "engine": "471 cc",
@@ -1400,6 +1437,7 @@
       "brand": "Kawasaki",
       "model": "Kawasaki Ninja 250",
       "key": "kawasaki|ninja250",
+      "ev": false,
       "specs": {
         "price": null,
         "engine": "250 cc",
@@ -1502,6 +1540,7 @@
       "brand": "Yamaha",
       "model": "Yamaha MX King 150",
       "key": "yamaha|mxking150",
+      "ev": false,
       "specs": {
         "price": 32000000.0,
         "engine": "150 cc",
@@ -1606,6 +1645,7 @@
       "brand": "Honda",
       "model": "SYM Jet SL 158",
       "key": "honda|symjetsl158",
+      "ev": false,
       "specs": {
         "price": 58000000.0,
         "engine": "158 cc",
@@ -1669,6 +1709,7 @@
       "brand": "Honda",
       "model": "Honda Rebel 1100",
       "key": "honda|rebel1100",
+      "ev": false,
       "specs": {
         "price": 445250000.0,
         "engine": null,
@@ -1786,6 +1827,7 @@
       "brand": "Honda",
       "model": "Honda Monkey 125",
       "key": "honda|monkey125",
+      "ev": false,
       "specs": {
         "price": 88094000.0,
         "engine": "125 cc",
@@ -1865,6 +1907,7 @@
       "brand": "Honda",
       "model": "Honda BeAT",
       "key": "honda|beat",
+      "ev": false,
       "specs": {
         "price": 19155000.0,
         "engine": "110 cc",
@@ -2084,6 +2127,7 @@
       "brand": "Yamaha",
       "model": "Yamaha Grand Filano Hybrid Classy",
       "key": "yamaha|grandfilanohybridclassy",
+      "ev": false,
       "specs": {
         "price": null,
         "engine": null,
@@ -2301,6 +2345,7 @@
       "brand": "Benelli",
       "model": "Keeway Road Falcon 250",
       "key": "benelli|keewayroadfalcon250",
+      "ev": false,
       "specs": {
         "price": 57800000.0,
         "engine": "250 cc",
@@ -2352,6 +2397,7 @@
       "brand": "Honda",
       "model": "Honda Vario Evo 160",
       "key": "honda|varioevo160",
+      "ev": false,
       "specs": {
         "price": 26500000.0,
         "engine": "125 cc",
@@ -2530,11 +2576,57 @@
       "previous_release": null
     },
     {
+      "id": "51963faae2cc",
+      "date": "2026-06-16T20:25:12+07:00",
+      "brand": "Omoway",
+      "model": "Omoway Omo-X",
+      "key": "omoway|omox",
+      "ev": true,
+      "specs": {
+        "price": 76900000.0,
+        "engine": null,
+        "power": null,
+        "torque": null,
+        "ev": {
+          "battery": null,
+          "range": null,
+          "top_speed": null,
+          "motor": null,
+          "charging": null,
+          "swap": false,
+          "removable": false,
+          "subsidy": false
+        }
+      },
+      "previous_from_article": {
+        "price": null,
+        "price_delta": null
+      },
+      "compare": [
+        "Pengumuman krusial ini tidak dilakukan sendirian, Sob, melainkan dibarengi dengan prosesi seremoni serah terima unit perdana kepada para konsumen yang telah melakukan pre-order sebelumnya."
+      ],
+      "articles": [
+        {
+          "title": "Harga Resmi Omoway Omo-X Diumumkan, Tipe Tertinggi Tembus Rp76,9 Juta Bisa Berdiri Sendiri!",
+          "url": "https://tmcblog.com/2026/06/16/harga-resmi-omoway-omo-x-diumumkan-tipe-tertinggi-tembus-rp769-juta-bisa-berdiri-sendiri/?utm_source=rss&utm_medium=rss&utm_campaign=harga-resmi-omoway-omo-x-diumumkan-tipe-tertinggi-tembus-rp769-juta-bisa-berdiri-sendiri",
+          "source": "TMC Blog",
+          "published": "2026-06-16T20:25:12+07:00"
+        }
+      ],
+      "image": "https://cdn.tmcblog.com/2026/06/omo-x-2.avif",
+      "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Harga Resmi Omoway Omo-X Diumumkan, Tipe Tertinggi Tembus Rp76,9 Juta Bisa Berdiri Sendiri!",
+      "previous_release": null
+    },
+    {
       "id": "eba6ee9bce76",
       "date": "2026-06-12T08:01:54+07:00",
       "brand": "Kawasaki",
       "model": "Kawasaki KLX150 XPL",
       "key": "kawasaki|klx150xpl",
+      "ev": false,
       "specs": {
         "price": 44800000.0,
         "engine": null,
@@ -2591,6 +2683,7 @@
       "brand": "Yamaha",
       "model": "Yamaha MX King 150",
       "key": "yamaha|mxking150",
+      "ev": false,
       "specs": {
         "price": null,
         "engine": "150 cc",
@@ -2687,72 +2780,12 @@
       }
     },
     {
-      "id": "122f0e5979a0",
-      "date": "2026-06-09T00:01:29+07:00",
-      "brand": "Kawasaki",
-      "model": "Kawasaki Esok",
-      "key": "kawasaki|esok",
-      "specs": {
-        "price": null,
-        "engine": "500 cc",
-        "power": null,
-        "torque": null
-      },
-      "previous_from_article": {
-        "price": null,
-        "price_delta": null
-      },
-      "compare": [],
-      "articles": [
-        {
-          "title": "Geng Ijo Bikin Geger! Intip Calon Skutik Baru Kawasaki Indonesia yang Siap Rilis Esok di PRJ 2026",
-          "url": "https://tmcblog.com/2026/06/09/geng-ijo-bikin-geger-intip-calon-skutik-baru-kawasaki-indonesia-yang-siap-rilis-esok-di-prj-2026/?utm_source=rss&utm_medium=rss&utm_campaign=geng-ijo-bikin-geger-intip-calon-skutik-baru-kawasaki-indonesia-yang-siap-rilis-esok-di-prj-2026",
-          "source": "TMC Blog",
-          "published": "2026-06-09T00:01:29+07:00"
-        }
-      ],
-      "image": "https://cdn.tmcblog.com/2026/06/modenas-kawasaki-125-7.webp",
-      "highlight": true,
-      "detail": {
-        "url": "https://tmcblog.com/2026/06/09/geng-ijo-bikin-geger-intip-calon-skutik-baru-kawasaki-indonesia-yang-siap-rilis-esok-di-prj-2026/?utm_source=rss&utm_medium=rss&utm_campaign=geng-ijo-bikin-geger-intip-calon-skutik-baru-kawasaki-indonesia-yang-siap-rilis-esok-di-prj-2026",
-        "intro": "Jagat roda dua tanah air mendadak geger, Bagaimana tidak, PT Kawasaki Motor Indonesia (KMI) secara mengejutkan merilis sebuah poster teaser di akun media sosial resmi mereka yang menampilkan siluet lampu depan sebuah motor misterius.",
-        "variants": [
-          {
-            "name": "Semua tipe",
-            "price": null,
-            "colors": [
-              {
-                "name": "Benang Merah",
-                "new": null,
-                "image": null
-              }
-            ],
-            "notes": []
-          }
-        ],
-        "spec_table": {},
-        "loose_colors": [],
-        "n_images": 6,
-        "image_keys": [
-          "modenas kawasaki 125 7 webp",
-          "modenas kawasaki 125 2 webp",
-          "modenas kawasaki 125 4 scaled webp",
-          "modenas kawasaki 125 5 webp",
-          "modenas kawasaki 125 6 scaled webp",
-          "modenas kawasaki 125 3 webp"
-        ],
-        "source": "TMC Blog"
-      },
-      "prev_detail": null,
-      "title": "Geng Ijo Bikin Geger! Intip Calon Skutik Baru Kawasaki Indonesia yang Siap Rilis Esok di PRJ 2026",
-      "previous_release": null
-    },
-    {
       "id": "9507ea67e459",
       "date": "2026-06-02T16:27:17+07:00",
       "brand": "Yamaha",
       "model": "Yamaha XSR155 ABS",
       "key": "yamaha|xsr155abs",
+      "ev": false,
       "specs": {
         "price": 56000000.0,
         "engine": "125 cc",
@@ -2837,6 +2870,7 @@
       "brand": "Yamaha",
       "model": "Premium MAXi Race",
       "key": "yamaha|premiummaxirace",
+      "ev": false,
       "specs": {
         "price": null,
         "engine": null,
@@ -2869,6 +2903,7 @@
       "brand": "Suzuki",
       "model": "Suzuki Burgman 150",
       "key": "suzuki|burgman150",
+      "ev": false,
       "specs": {
         "price": null,
         "engine": "150 cc",
@@ -2906,6 +2941,7 @@
       "brand": "Yamaha",
       "model": "MAXi Race",
       "key": "yamaha|maxirace",
+      "ev": false,
       "specs": {
         "price": null,
         "engine": null,
@@ -2940,6 +2976,7 @@
       "brand": "TVS",
       "model": "TVS Callisto 125",
       "key": "tvs|callisto125",
+      "ev": false,
       "specs": {
         "price": null,
         "engine": "124,8 cc",
@@ -3007,6 +3044,7 @@
       "brand": "Honda",
       "model": "Honda NS150ES",
       "key": "honda|ns150es",
+      "ev": false,
       "specs": {
         "price": null,
         "engine": "150 cc",
@@ -3039,6 +3077,7 @@
       "brand": "TVS",
       "model": "TVS Ronin 225 Midnight Blue",
       "key": "tvs|ronin225midnightblue",
+      "ev": false,
       "specs": {
         "price": 42500000.0,
         "engine": "250 cc",
@@ -3130,6 +3169,7 @@
       "brand": "TVS",
       "model": "TVS Midnight Blue",
       "key": "tvs|midnightblue",
+      "ev": false,
       "specs": {
         "price": 42500000.0,
         "engine": "225 cc",
@@ -3200,6 +3240,7 @@
       "brand": "Honda",
       "model": "Honda CBR150R",
       "key": "honda|cbr150r",
+      "ev": false,
       "specs": {
         "price": 58000000.0,
         "engine": "150 cc",
@@ -3305,6 +3346,7 @@
       "brand": "Suzuki",
       "model": "Suzuki Burgman Street 125",
       "key": "suzuki|burgmanstreet125",
+      "ev": false,
       "specs": {
         "price": 19400000.0,
         "engine": "124 cc",
@@ -3366,6 +3408,7 @@
       "brand": "Yamaha",
       "model": "Yamaha GEAR ULTIMA Hybrid",
       "key": "yamaha|gearultimahybrid",
+      "ev": false,
       "specs": {
         "price": 22685000.0,
         "engine": "125 cc",
@@ -3574,6 +3617,7 @@
       "brand": "Honda",
       "model": "Honda Stylo",
       "key": "honda|stylo",
+      "ev": false,
       "specs": {
         "price": 33936000.0,
         "engine": "160 cc",
@@ -3809,6 +3853,7 @@
       "brand": "QJ Motor",
       "model": "QJ Motor Cuiser SRV 200 MT",
       "key": "qj motor|cuisersrv200mt",
+      "ev": false,
       "specs": {
         "price": 32000000.0,
         "engine": "197 cc",
@@ -3886,6 +3931,7 @@
       "brand": "QJ Motor",
       "model": "QJ Motor Fort 180 Adventure",
       "key": "qj motor|fort180adventure",
+      "ev": false,
       "specs": {
         "price": 33990000.0,
         "engine": "175 cc",
@@ -3952,6 +3998,7 @@
       "brand": "Yamaha",
       "model": "Yamaha FZ15 ABS Connected",
       "key": "yamaha|fz15absconnected",
+      "ev": false,
       "specs": {
         "price": 60000000.0,
         "engine": "150 cc",
@@ -4041,6 +4088,7 @@
       "brand": "Kawasaki",
       "model": "Kawasaki KLE500",
       "key": "kawasaki|kle500",
+      "ev": false,
       "specs": {
         "price": 149900000.0,
         "engine": null,
@@ -4165,6 +4213,7 @@
       "brand": "Yamaha",
       "model": "Yamaha Fazzio Hybrid",
       "key": "yamaha|fazziohybrid",
+      "ev": false,
       "specs": {
         "price": 25250000.0,
         "engine": "125 cc",
@@ -4357,6 +4406,7 @@
       "brand": "Suzuki",
       "model": "Suzuki GSX-R125",
       "key": "suzuki|gsxr125",
+      "ev": false,
       "specs": {
         "price": null,
         "engine": "125 cc",
@@ -4393,6 +4443,7 @@
       "brand": "Honda",
       "model": "Honda PCX 160",
       "key": "honda|pcx160",
+      "ev": false,
       "specs": {
         "price": 37951000.0,
         "engine": "160 cc",
@@ -4654,6 +4705,7 @@
       "brand": "Yamaha",
       "model": "Yamaha R15",
       "key": "yamaha|r15",
+      "ev": false,
       "specs": {
         "price": 72509000.0,
         "engine": "155 cc",
@@ -4757,6 +4809,7 @@
       "brand": "Benelli",
       "model": "Morbidelli",
       "key": "benelli|morbidelli",
+      "ev": false,
       "specs": {
         "price": 159000000.0,
         "engine": "494 cc",
@@ -4811,6 +4864,7 @@
       "brand": "Yamaha",
       "model": "Yamaha IIMS",
       "key": "yamaha|iims",
+      "ev": false,
       "specs": {
         "price": 29900000.0,
         "engine": null,
@@ -4930,6 +4984,7 @@
       "brand": "Yamaha",
       "model": "Yamaha Lander 250",
       "key": "yamaha|lander250",
+      "ev": false,
       "specs": {
         "price": 93000000.0,
         "engine": "249 cc",
@@ -5019,11 +5074,55 @@
       "previous_release": null
     },
     {
+      "id": "aedb566c5291",
+      "date": "2026-01-29T14:01:14+07:00",
+      "brand": "Charged",
+      "model": "Charged Maleo S",
+      "key": "charged|maleos",
+      "ev": true,
+      "specs": {
+        "price": null,
+        "engine": null,
+        "power": null,
+        "torque": null,
+        "ev": {
+          "battery": null,
+          "range": null,
+          "top_speed": null,
+          "motor": null,
+          "charging": "20 menit",
+          "swap": false,
+          "removable": false,
+          "subsidy": false
+        }
+      },
+      "previous_from_article": {
+        "price": null,
+        "price_delta": null
+      },
+      "compare": [],
+      "articles": [
+        {
+          "title": "Charged Indonesia Rilis Maleo S 2026: Pakai Fast Charging, Isi 20 Menit Langsung Gas Pol!",
+          "url": "https://tmcblog.com/2026/01/29/charged-indonesia-rilis-maleo-s-2026-pakai-fast-charging-isi-20-menit-langsung-gas-pol/?utm_source=rss&utm_medium=rss&utm_campaign=charged-indonesia-rilis-maleo-s-2026-pakai-fast-charging-isi-20-menit-langsung-gas-pol",
+          "source": "TMC Blog",
+          "published": "2026-01-29T14:01:14+07:00"
+        }
+      ],
+      "image": "https://cdn.tmcblog.com/2026/01/Charged-maleo-01.webp",
+      "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Charged Indonesia Rilis Maleo S 2026: Pakai Fast Charging, Isi 20 Menit Langsung Gas Pol!",
+      "previous_release": null
+    },
+    {
       "id": "9b211fee660b",
       "date": "2026-01-25T06:14:58+07:00",
       "brand": "Yamaha",
       "model": "Yamaha NMAX",
       "key": "yamaha|nmax",
+      "ev": false,
       "specs": {
         "price": null,
         "engine": null,
@@ -5175,6 +5274,7 @@
       "brand": "Yamaha",
       "model": "Yamaha Fazzio Hybrid",
       "key": "yamaha|fazziohybrid",
+      "ev": false,
       "specs": {
         "price": 22270000.0,
         "engine": "125 cc",
@@ -5474,6 +5574,7 @@
       "brand": "Yamaha",
       "model": "Yamaha Grand Filano Hybrid",
       "key": "yamaha|grandfilanohybrid",
+      "ev": false,
       "specs": {
         "price": null,
         "engine": "125 cc",
@@ -5662,6 +5763,7 @@
       "brand": "Yamaha",
       "model": "Yamaha MX King",
       "key": "yamaha|mxking",
+      "ev": false,
       "specs": {
         "price": 28325000.0,
         "engine": null,
@@ -5777,6 +5879,7 @@
       "brand": "Yamaha",
       "model": "Yamaha 70th Anniversary",
       "key": "yamaha|70thanniversary",
+      "ev": false,
       "specs": {
         "price": 28325000.0,
         "engine": "150 cc",
@@ -5836,6 +5939,7 @@
       "brand": "Yamaha",
       "model": "Yamaha TMAX",
       "key": "yamaha|tmax",
+      "ev": false,
       "specs": {
         "price": 455000000.0,
         "engine": "560 cc",
@@ -5982,6 +6086,7 @@
       "brand": "Yamaha",
       "model": "Yamaha WR155R",
       "key": "yamaha|wr155r",
+      "ev": false,
       "specs": {
         "price": 40275000.0,
         "engine": "155 cc",
@@ -6156,6 +6261,7 @@
       "brand": "Yamaha",
       "model": "Yamaha Lexi LX 155",
       "key": "yamaha|lexilx155",
+      "ev": false,
       "specs": {
         "price": null,
         "engine": "155 cc",
@@ -6296,6 +6402,7 @@
       "brand": "Suzuki",
       "model": "Suzuki GIXXER 250",
       "key": "suzuki|gixxer250",
+      "ev": false,
       "specs": {
         "price": 51000000.0,
         "engine": "249 cc",
@@ -6384,6 +6491,7 @@
       "brand": "Yamaha",
       "model": "Yamaha X-MAX 250",
       "key": "yamaha|xmax250",
+      "ev": false,
       "specs": {
         "price": 68215000.0,
         "engine": "250 cc",
@@ -6569,6 +6677,7 @@
       "brand": "Honda",
       "model": "Honda C125 Super Cub",
       "key": "honda|c125supercub",
+      "ev": false,
       "specs": {
         "price": null,
         "engine": "124 cc",
@@ -6631,6 +6740,49 @@
       },
       "prev_detail": null,
       "title": "Update ‘Bebek Sultan’: Honda C125 Super Cub 2026 Hadir Dengan Kelir Baru dan Mesin Lebih Ramah Lingkungan",
+      "previous_release": null
+    },
+    {
+      "id": "7a9390bd5399",
+      "date": "2026-01-06T09:27:43+07:00",
+      "brand": "Ofero",
+      "model": "Ofero Stareer 5 LIT",
+      "key": "ofero|stareer5lit",
+      "ev": true,
+      "specs": {
+        "price": 12000000.0,
+        "engine": null,
+        "power": null,
+        "torque": null,
+        "ev": {
+          "battery": null,
+          "range": null,
+          "top_speed": null,
+          "motor": null,
+          "charging": null,
+          "swap": false,
+          "removable": false,
+          "subsidy": false
+        }
+      },
+      "previous_from_article": {
+        "price": null,
+        "price_delta": null
+      },
+      "compare": [],
+      "articles": [
+        {
+          "title": "Hanya 12 Jutaan ! Inilah Ofero Stareer 5 LIT….Gilaa Keren Robotic Banget ?",
+          "url": "https://iwanbanaran.com/news/hanya-12-jutaan-inilah-ofero-stareer-5-lit-gilaa-keren-robotic-banget",
+          "source": "Iwan Banaran",
+          "published": "2026-01-06T09:27:43+07:00"
+        }
+      ],
+      "image": "https://iwanbanaran.com/api/og/hanya-12-jutaan-inilah-ofero-stareer-5-lit-gilaa-keren-robotic-banget",
+      "highlight": false,
+      "detail": null,
+      "prev_detail": null,
+      "title": "Hanya 12 Jutaan ! Inilah Ofero Stareer 5 LIT….Gilaa Keren Robotic Banget ?",
       "previous_release": null
     }
   ]

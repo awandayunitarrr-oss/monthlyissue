@@ -164,7 +164,9 @@
       ],
       "summary_by": "auto",
       "image": "https://iwanbanaran.com/api/og/presiden-wanti-wanti-pakai-motor-bensin-ngeri-kalau-beneran",
-      "brands": [],
+      "brands": [
+        "MoLinas"
+      ],
       "categories": [
         "Peluncuran Produk",
         "Motor Listrik"
@@ -317,7 +319,8 @@
       "summary_by": "auto",
       "image": "https://iwanbanaran.com/api/og/gegerr-molinas-cakra-resmi-dirilis-presiden-prabowo-lho-kok-tampang-kayak-alva",
       "brands": [
-        "Alva"
+        "Alva",
+        "MoLinas"
       ],
       "categories": [
         "Peluncuran Produk",
@@ -325,7 +328,35 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "MoLinas CAKRA",
+        "key": "molinas|cakra",
+        "specs": {
+          "price": 11500000.0,
+          "engine": null,
+          "power": null,
+          "torque": null,
+          "ev": {
+            "battery": null,
+            "range": null,
+            "top_speed": null,
+            "motor": null,
+            "charging": null,
+            "swap": false,
+            "removable": false,
+            "subsidy": false
+          }
+        },
+        "ev": true,
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-20T04:07:21",
+        "full": false
+      }
     },
     {
       "id": "cdf5cd4f77fc",

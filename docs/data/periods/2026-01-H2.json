@@ -300,7 +300,9 @@
       ],
       "summary_by": "auto",
       "image": "https://cdn.tmcblog.com/2026/01/Charged-maleo-01.webp",
-      "brands": [],
+      "brands": [
+        "Charged"
+      ],
       "categories": [
         "Peluncuran Produk",
         "Motor Listrik",
@@ -308,7 +310,35 @@
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Charged Maleo S",
+        "key": "charged|maleos",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null,
+          "ev": {
+            "battery": null,
+            "range": null,
+            "top_speed": null,
+            "motor": null,
+            "charging": "20 menit",
+            "swap": false,
+            "removable": false,
+            "subsidy": false
+          }
+        },
+        "ev": true,
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-20T04:07:21",
+        "full": false
+      }
     },
     {
       "id": "6771da49c80b",

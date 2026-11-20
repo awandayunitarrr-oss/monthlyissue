@@ -14,21 +14,21 @@
 <style>
 :root{
   --bg:#f5f6f8; --surface:#ffffff; --surface-2:#f0f2f5; --border:#e2e5ea;
-  --text:#14171c; --muted:#5d6673; --accent:#c8102e; --accent-soft:#fbe7ea;
+  --text:#14171c; --muted:#5d6673; --accent:#c8102e; --accent-soft:#fbe7ea; --ev:#0f9d58; --ev-soft:#e3f6ea;
   --s1:#c8102e; --s2:#1f6feb; --s3:#d48806; --bar:#3a4250; --bar-soft:#d9dde3;
   --shadow:0 1px 2px rgba(16,24,40,.06),0 1px 3px rgba(16,24,40,.08);
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#0f1115; --surface:#171a20; --surface-2:#1e222a; --border:#2a2f38;
-    --text:#e8eaee; --muted:#9aa3b0; --accent:#ff4d63; --accent-soft:#3a1a20;
+    --text:#e8eaee; --muted:#9aa3b0; --accent:#ff4d63; --accent-soft:#3a1a20; --ev:#3ddc84; --ev-soft:#12321f;
     --s1:#ff4d63; --s2:#5c9dff; --s3:#f0b440; --bar:#c3cad5; --bar-soft:#2c323c;
     --shadow:none;
   }
 }
 :root[data-theme="dark"]{
   --bg:#0f1115; --surface:#171a20; --surface-2:#1e222a; --border:#2a2f38;
-  --text:#e8eaee; --muted:#9aa3b0; --accent:#ff4d63; --accent-soft:#3a1a20;
+  --text:#e8eaee; --muted:#9aa3b0; --accent:#ff4d63; --accent-soft:#3a1a20; --ev:#3ddc84; --ev-soft:#12321f;
   --s1:#ff4d63; --s2:#5c9dff; --s3:#f0b440; --bar:#c3cad5; --bar-soft:#2c323c;
   --shadow:none;
 }
@@ -169,6 +169,21 @@ footer{margin-top:30px;font-size:12px;color:var(--muted);text-align:center}
 .cmp .empty{padding:0}
 
 .rcard .actions{display:flex;justify-content:flex-end}
+.ev-badges{display:flex;flex-wrap:wrap;gap:6px}
+.ev-b{font-size:11px;font-weight:700;border-radius:999px;padding:2px 9px;background:var(--ev-soft);color:var(--ev)}
+.ev-b.main{background:var(--ev);color:#fff}
+.ev-hero{border-left:5px solid var(--ev);padding:14px 16px;margin-bottom:14px;background:linear-gradient(100deg,var(--ev-soft),var(--surface) 70%)}
+.ev-hero h2{margin:0 0 4px;font-size:18px}.ev-hero p{margin:0;font-size:13px;color:var(--muted)}
+.sec{font-size:15px;margin:22px 0 10px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.sec span{font-size:12px;font-weight:400;color:var(--muted)}
+.ev-recap{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+.ev-recap th,.ev-recap td{padding:7px 10px;border-bottom:1px solid var(--border);text-align:left;vertical-align:top}
+.ev-recap th{font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.03em;white-space:nowrap}
+.ev-recap tr.cur td{background:var(--ev-soft)}
+.ev-recap .na{color:var(--muted)}
+.tblwrap{overflow-x:auto;padding:4px 6px}
+.ev-group{margin-bottom:14px}
+.ev-group h3{font-size:13px;margin:0 0 8px;color:var(--ev);text-transform:uppercase;letter-spacing:.04em}
 .rcard .actions.noslide{font-size:12px;color:var(--muted);gap:6px;flex-wrap:wrap;justify-content:flex-start}
 .rcard .actions button{background:var(--c);border-color:var(--c);color:#fff;font-weight:600;font-size:13px}
 #slide-wrap{position:fixed;inset:0;z-index:20;background:rgba(10,12,16,.72);overflow:auto;padding:16px}
@@ -287,6 +302,7 @@ header.top select:focus,header.top button:focus-visible{outline-color:#fff}
   <nav class="tabs" role="tablist" aria-label="Menu">
     <button role="tab" class="tab" data-view="issues" aria-selected="true">📰 Semua Issue <span class="cnt" id="tab-n-issues"></span></button>
     <button role="tab" class="tab" data-view="rilis" aria-selected="false"><img class="flag" src="flags/id.svg" alt=""> Rilis Motor Indonesia <span class="cnt" id="tab-n-rilis"></span></button>
+    <button role="tab" class="tab" data-view="ev" aria-selected="false">⚡ Special Case: Motor Listrik <span class="cnt" id="tab-n-ev"></span></button>
   </nav>
 
   <div id="view-rilis" hidden>
@@ -305,6 +321,18 @@ header.top select:focus,header.top button:focus-visible{outline-color:#fff}
     <p class="note">Rilis motor yang diberitakan resmi meluncur di Indonesia. Pembanding diambil dari: isian manual tim → situs resmi Yamaha (termasuk arsip web) → artikel blog. Data otomatis bisa tidak lengkap — cek sumbernya untuk angka resmi.
       <a href="https://github.com/awandayunitarrr-oss/monthlyissue/edit/main/manual/pembanding.csv" target="_blank" rel="noopener">Isi / ubah pembanding manual ↗</a></p>
     <section class="rgrid" id="r-list"></section>
+  </div>
+
+  <div id="view-ev" hidden>
+    <div class="card ev-hero"><h2>⚡ Special case: rilis motor listrik (EV)</h2>
+      <p>Motor listrik dipisah karena pembandingnya berbeda dengan motor bensin: yang dilihat adalah baterai, jarak tempuh, daya motor listrik, kecepatan maksimum, waktu pengisian, sistem baterai (swap / bisa dilepas) dan status subsidi/TKDN — bukan cc &amp; torsi mesin.</p></div>
+    <section class="kpis" id="ev-kpis"></section>
+    <h2 class="sec">Rilis motor listrik di Indonesia <span id="ev-plabel"></span></h2>
+    <section class="rgrid" id="ev-list"></section>
+    <h2 class="sec">Rekap rilis EV <span id="ev-ylabel"></span></h2>
+    <div class="card tblwrap" id="ev-recap"></div>
+    <h2 class="sec">Isu motor listrik lainnya <span>regulasi, subsidi, rilis global, teknologi — periode terpilih</span></h2>
+    <div id="ev-issues"></div>
   </div>
 
   <div id="view-issues">
@@ -443,7 +471,7 @@ async function init(){
   fh.onchange = apply;
   const [fromHash, viewHash] = decodeURIComponent(location.hash.slice(1)).split("&");
   if (!(fromHash && setKey(fromHash))) setKey(periods[0]?.period ?? "");
-  state.view = viewHash === "rilis" ? "rilis" : "issues";
+  state.view = ["rilis", "ev"].includes(viewHash) ? viewHash : "issues";
   document.querySelectorAll(".tab").forEach(b => b.onclick = () => { state.view = b.dataset.view; writeHash(currentKey()); render(); });
   try { state.launches = (await loadJSON("data/launches.json")).launches; } catch(e){ state.launches = []; }
   $("#r-q").oninput = e => { state.rq = e.target.value.trim().toLowerCase(); render(); };
@@ -461,7 +489,7 @@ async function init(){
   await selectPeriod(currentKey());
 }
 
-function writeHash(k){ history.replaceState(null, "", "#" + k + (state.view === "rilis" ? "&rilis" : "")); }
+function writeHash(k){ history.replaceState(null, "", "#" + k + (state.view !== "issues" ? "&" + state.view : "")); }
 
 async function selectPeriod(key){
   state.periodKey = key;
@@ -502,12 +530,14 @@ function count(arr, fn){ const m = new Map(); arr.forEach(x => fn(x).forEach(k =
 // ---------- render ----------
 function render(){
   const d = state.data, items = filtered();
-  const isR = state.view === "rilis";
+  const isR = state.view === "rilis", isE = state.view === "ev";
   document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", b.dataset.view === state.view));
-  $("#view-rilis").hidden = !isR; $("#view-issues").hidden = isR;
+  $("#view-rilis").hidden = !isR; $("#view-ev").hidden = !isE; $("#view-issues").hidden = isR || isE;
   $("#tab-n-issues").textContent = d.articles ? d.articles.length : "";
   $("#tab-n-rilis").textContent = launchesInPeriod().length;
+  $("#tab-n-ev").textContent = launchesInPeriod().filter(g => g.ev).length + evIssues().length;
   if (isR) renderLaunches();
+  if (isE) renderEV();
   $("#status").innerHTML = `
     <span>Periode: <b>${esc(d.label || "-")}</b></span>
     <span>Terakhir di-update: <b>${d.generated_at ? fmtDate(d.generated_at, true) + " WIB" : "-"}</b></span>
@@ -587,6 +617,13 @@ $("#list").addEventListener("click", e => {
   else if (t.dataset.cat){ state.cat = t.dataset.cat; render(); }
   else if (t.dataset.country){ state.country = t.dataset.country; render(); }
   else if (t.hasAttribute("data-more")){ const c = t.closest(".issue"); c.classList.toggle("open"); t.textContent = c.classList.contains("open") ? "Ringkas" : "Selengkapnya"; }
+});
+
+$("#ev-issues").addEventListener("click", e => {
+  const t = e.target;
+  if (t.hasAttribute("data-more")){ const c = t.closest(".issue"); c.classList.toggle("open"); t.textContent = c.classList.contains("open") ? "Ringkas" : "Selengkapnya"; return; }
+  const f = t.dataset.brand ? ["brand", t.dataset.brand] : t.dataset.cat ? ["cat", t.dataset.cat] : t.dataset.country ? ["country", t.dataset.country] : null;
+  if (f){ state[f[0]] = f[1]; state.view = "issues"; writeHash(state.periodKey); render(); }
 });
 
 function hbars(sel, rows, active, onClick, colorOf, activeSet, iconOf){
@@ -693,11 +730,12 @@ function openSlide(id){
   $("#sl-close").focus();
 }
 const SPEC_GROUPS = [
+  ["Motor Listrik & Baterai", ["Tipe Motor Listrik","Daya Puncak","Daya Nominal","Kapasitas Baterai","Jarak Tempuh","Kecepatan Maksimum","Waktu Pengisian","Tipe Charger"]],
   ["Mesin", ["Tipe Mesin","Volume Silinder","Diameter x Langkah","Perbandingan Kompresi","Daya Maksimum","Torsi Maksimum","Sistem Starter","Sistem Bahan Bakar","Tipe Transmisi","Tipe Kopling","Kapasitas Oli Mesin"]],
   ["Rangka & Kaki-kaki", ["Tipe Rangka","Suspensi Depan","Suspensi Belakang","Ban Depan","Ban Belakang","Rem Depan","Rem Belakang"]],
   ["Dimensi & Kapasitas", ["P x L x T","Jarak Sumbu Roda","Jarak Terendah ke Tanah","Tinggi Tempat Duduk","Berat Isi","Kapasitas Tangki Bensin"]],
   ["Kelistrikan", ["Sistem Pengapian","Tipe Battery","Tipe Busi"]]];
-const NUMERIC_SPECS = new Set(["Volume Silinder","Daya Maksimum","Torsi Maksimum","Jarak Sumbu Roda","Jarak Terendah ke Tanah","Tinggi Tempat Duduk","Berat Isi","Kapasitas Tangki Bensin","Kapasitas Oli Mesin"]);
+const NUMERIC_SPECS = new Set(["Daya Puncak","Daya Nominal","Jarak Tempuh","Kecepatan Maksimum","Volume Silinder","Daya Maksimum","Torsi Maksimum","Jarak Sumbu Roda","Jarak Terendah ke Tanah","Tinggi Tempat Duduk","Berat Isi","Kapasitas Tangki Bensin","Kapasitas Oli Mesin"]);
 function firstNum(v){
   const m = String(v || "").match(/(\d{1,3}(?:\.\d{3})+|\d+(?:[.,]\d+)?)\s*([a-zA-Z%]*)/);
   if (!m) return null;
@@ -743,7 +781,7 @@ function headToHead(g, now, prev){
     <div class="sl-src">${both ? `${changed} dari ${n} baris spesifikasi berbeda (ditandai kuning).` : "Spesifikasi salah satu versi belum tersedia — lengkapi lewat manual/spesifikasi.csv."}
       Nilai diambil otomatis; cek sumber resmi sebelum dipresentasikan.</div>`;
 }
-$("#r-list").addEventListener("click", e => { const b = e.target.closest("[data-slide]"); if (b) openSlide(b.dataset.slide); });
+["#r-list", "#ev-list", "#ev-recap"].forEach(sel => $(sel).addEventListener("click", e => { const b = e.target.closest("[data-slide]"); if (b) openSlide(b.dataset.slide); }));
 $("#sl-close").onclick = () => { $("#slide-wrap").hidden = true; };
 $("#slide-wrap").addEventListener("click", e => { if (e.target.id === "slide-wrap") $("#slide-wrap").hidden = true; });
 document.addEventListener("keydown", e => { if (e.key === "Escape") $("#slide-wrap").hidden = true; });
@@ -781,9 +819,12 @@ function launchCard(g){
   const prevPrice = pa.price || prevS.price || null;
   const showPrev = !!(pr || prevPrice);
   const val = v => v ? esc(v) : `<span class="na">–</span>`;
-  const rows = [
-    ["Harga", prevPrice ? rupiah(prevPrice) : null, s.price ? rupiah(s.price) + priceDelta(prevPrice, s.price) : null, true],
-    ["Mesin", prevS.engine, s.engine], ["Tenaga", prevS.power, s.power], ["Torsi", prevS.torque, s.torque]];
+  const E = s.ev || {}, pE = prevS.ev || {};
+  const priceRow = ["Harga", prevPrice ? rupiah(prevPrice) : null, s.price ? rupiah(s.price) + priceDelta(prevPrice, s.price) : null, true];
+  const rows = g.ev ? [priceRow, ["Baterai", pE.battery, E.battery], ["Jarak tempuh", pE.range, E.range],
+      ["Daya motor", pE.motor || prevS.power, E.motor || s.power], ["Kecepatan maks.", pE.top_speed, E.top_speed], ["Waktu cas", pE.charging, E.charging]]
+    : [priceRow, ["Mesin", prevS.engine, s.engine], ["Tenaga", prevS.power, s.power], ["Torsi", prevS.torque, s.torque]];
+  const evBadges = g.ev ? `<div class="ev-badges"><span class="ev-b main">⚡ Motor listrik</span>${E.swap ? `<span class="ev-b">Baterai swap</span>` : ""}${E.removable ? `<span class="ev-b">Baterai bisa dilepas</span>` : ""}${E.subsidy ? `<span class="ev-b">Disebut subsidi / TKDN</span>` : ""}</div>` : "";
   const table = `<table class="spec"><thead><tr><th>Spesifikasi</th>${showPrev ? "<th>Sebelumnya</th>" : ""}<th>${showPrev ? "Sekarang" : "Nilai"}</th></tr></thead><tbody>
     ${rows.map(([k, p, n, raw]) => `<tr><td>${k}</td>${showPrev ? `<td>${raw ? (p || `<span class="na">–</span>`) : val(p)}</td>` : ""}<td class="now">${raw ? (n || `<span class="na">–</span>`) : val(n)}</td></tr>`).join("")}
   </tbody></table>`;
@@ -800,6 +841,7 @@ function launchCard(g){
         <h3>${esc(g.model)}</h3>
       </div>
     </div>
+    ${evBadges}
     <div class="srcs">${g.articles.map(a => `<a href="${esc(a.url)}" target="_blank" rel="noopener" title="${esc(a.title)}"><span class="dot" style="background:${SRC_COLORS[a.source] || "var(--muted)"}"></span>${esc(a.source)} ↗</a>`).join("")}</div>
     ${table}
     ${cmp}
@@ -834,8 +876,59 @@ function renderLaunches(){
     `<div class="none" style="grid-column:1/-1">${all.length ? "Tidak ada rilis yang cocok dengan filter." : "Belum ada rilis motor di Indonesia pada periode ini."}</div>`;
 }
 
+// ---------- special case: motor listrik ----------
+const EV_WORD = /(^|[^a-z])(listrik|electric|elektrik|ev|bev|baterai|battery|spklu|spbklu|e-motor)([^a-z]|$)/i;
+const EV_BRANDS = new Set(["Alva","Polytron","United E-Motor","Gesits","Selis","Volta","Smoot","Yadea","Maka","Indomobil eMotor",
+  "VinFast / NIU / Segway","Charged","Omoway","Ofero","MOTU","MoLinas","Davigo","Uwinfly","Rakata"]);
+function evIssues(){
+  const ids = new Set(launchesInPeriod().filter(g => g.ev).flatMap(g => g.articles.map(a => a.url)));
+  // isu EV = judul menyebut listrik/EV, merek khusus EV, atau regulasi kendaraan listrik; bukan "electric supercharger" dsb.
+  return (state.data?.articles || []).filter(x => !ids.has(x.url) &&
+    (EV_WORD.test(x.title) || x.brands.some(b => EV_BRANDS.has(b)) ||
+     (x.categories.includes("Motor Listrik") && x.categories.includes("Regulasi & Kebijakan"))) &&
+    x.categories[0] !== "Racing & Motorsport" &&
+    !/sepeda listrik|mobil listrik|supercharger|compressor|kompresor|hybrid/i.test(x.title));
+}
+const EV_GROUPS = [
+  ["Regulasi, subsidi & pajak", x => x.categories.includes("Regulasi & Kebijakan") || /subsidi|pajak|insentif|spklu|spbklu|pemerintah|presiden/i.test(x.title)],
+  ["Rilis & pameran (global / belum resmi di Indonesia)", x => x.categories.includes("Peluncuran Produk")],
+  ["Teknologi, paten & bocoran", x => x.categories.includes("Teknologi & Fitur") || x.categories.includes("Spy / Rumor")],
+  ["Lainnya", () => true]];
+function renderEV(){
+  const all = launchesInPeriod().filter(g => g.ev), year = state.periodKey.slice(0, 4);
+  const yearL = (state.launches || []).filter(g => g.ev && g.date.slice(0, 4) === year);
+  const issues = evIssues(), P = g => g.specs?.price, R = g => parseFloat(g.specs?.ev?.range) || 0;
+  const priced = yearL.filter(P), ranged = yearL.filter(R);
+  const cheap = priced.length ? priced.reduce((a, b) => P(a) < P(b) ? a : b) : null;
+  const far = ranged.length ? ranged.reduce((a, b) => R(a) > R(b) ? a : b) : null;
+  $("#ev-kpis").innerHTML = `
+    <div class="card kpi" style="--c:var(--ev)"><div class="k">Rilis EV periode ini</div><div class="v">${all.length}</div><div class="d">dari ${launchesInPeriod().length} rilis di Indonesia</div></div>
+    <div class="card kpi" style="--c:#0891b2"><div class="k">Isu EV lainnya</div><div class="v">${issues.length}</div><div class="d">artikel periode ini</div></div>
+    <div class="card kpi" style="--c:#7c3aed"><div class="k">Rilis EV ${esc(year)}</div><div class="v">${yearL.length}</div><div class="d">${esc([...new Set(yearL.map(g => g.brand))].join(", ") || "-")}</div></div>
+    <div class="card kpi" style="--c:#16a34a"><div class="k">EV termurah ${esc(year)}</div><div class="v small">${cheap ? rupiah(P(cheap)) : "-"}</div><div class="d">${cheap ? esc(cheap.model) : ""}</div></div>
+    <div class="card kpi" style="--c:#f59e0b"><div class="k">Jarak tempuh terjauh ${esc(year)}</div><div class="v small">${far ? esc(far.specs.ev.range) : "-"}</div><div class="d">${far ? esc(far.model) : "belum terbaca dari artikel"}</div></div>`;
+  $("#ev-plabel").textContent = "· " + (state.data?.label || "");
+  $("#ev-list").innerHTML = all.length ? all.sort((a, b) => b.date.localeCompare(a.date)).map(launchCard).join("")
+    : `<div class="none" style="grid-column:1/-1">Belum ada rilis motor listrik di Indonesia pada periode ini — lihat rekap ${esc(year)} di bawah.</div>`;
+  $("#ev-ylabel").textContent = "· " + year + " (semua periode)";
+  const cur = new Set(all.map(g => g.id)), na = `<span class="na">–</span>`, v = x => x ? esc(x) : na;
+  $("#ev-recap").innerHTML = yearL.length ? `<table class="ev-recap"><thead><tr><th>Tanggal</th><th>Model</th><th>Harga</th><th>Baterai</th><th>Jarak tempuh</th><th>Daya motor</th><th>Kec. maks.</th><th>Waktu cas</th><th>Catatan</th></tr></thead><tbody>
+    ${yearL.map(g => { const E = g.specs?.ev || {};
+      return `<tr class="${cur.has(g.id) ? "cur" : ""}"><td>${fmtDate(g.date)}</td>
+        <td><b>${esc(g.model)}</b><br><a href="${esc(g.articles[0].url)}" target="_blank" rel="noopener">${esc(g.articles[0].source)} ↗</a></td>
+        <td>${P(g) ? rupiah(P(g)) : na}</td><td>${v(E.battery)}</td><td>${v(E.range)}</td><td>${v(E.motor || g.specs?.power)}</td><td>${v(E.top_speed)}</td><td>${v(E.charging)}</td>
+        <td>${[E.swap && "baterai swap", E.removable && "baterai bisa dilepas", E.subsidy && "subsidi/TKDN disebut"].filter(Boolean).join(", ") || na}</td></tr>`; }).join("")}
+    </tbody></table>` : `<div class="none">Belum ada rilis motor listrik di Indonesia yang tercatat di ${esc(year)}.</div>`;
+  const left = [...issues], groups = EV_GROUPS.map(([name, fn]) => { const xs = left.filter(fn); xs.forEach(x => left.splice(left.indexOf(x), 1)); return [name, xs]; })
+    .filter(([, xs]) => xs.length);
+  $("#ev-issues").innerHTML = groups.length ? groups.map(([name, xs]) => `<div class="ev-group"><h3>${esc(name)} · ${xs.length}</h3>
+    <section class="grid">${xs.sort((a, b) => b.published.localeCompare(a.published)).map(card).join("")}</section></div>`).join("")
+    : `<div class="none">Tidak ada isu motor listrik lain pada periode ini.</div>`;
+}
+
 function exportCSV(){
   if (state.view === "rilis") return exportLaunchesCSV();
+  if (state.view === "ev") return exportLaunchesCSV(true);
   const rows = filtered();
   const head = ["Tanggal","Sumber","Judul","Merek","Kategori","Negara","Highlight","Poin penting","URL"];
   const q = v => `"${String(v ?? "").replace(/"/g,'""')}"`;
@@ -847,16 +940,17 @@ function exportCSV(){
   setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
 
-function exportLaunchesCSV(){
+function exportLaunchesCSV(evOnly){
   const q = v => `"${String(v ?? "").replace(/"/g,'""')}"`;
-  const head = ["Tanggal","Merek","Model","Harga","Mesin","Tenaga","Torsi","Harga sebelumnya","Rilis sebelumnya","Perbandingan","Sumber"];
-  const rows = launchesInPeriod().map(g => { const pr = g.previous_release, pa = g.previous_from_article || {};
-    return [fmtDate(g.date), g.brand, g.model, g.specs?.price || "", g.specs?.engine || "", g.specs?.power || "", g.specs?.torque || "",
+  const head = ["Tanggal","Merek","Model","EV","Harga","Mesin","Tenaga","Torsi","Baterai","Jarak tempuh","Daya motor listrik","Kecepatan maks.","Waktu cas","Harga sebelumnya","Rilis sebelumnya","Perbandingan","Sumber"];
+  const rows = launchesInPeriod().filter(g => !evOnly || g.ev).map(g => { const pr = g.previous_release, pa = g.previous_from_article || {}, E = g.specs?.ev || {};
+    return [fmtDate(g.date), g.brand, g.model, g.ev ? "Ya" : "", g.specs?.price || "", g.specs?.engine || "", g.specs?.power || "", g.specs?.torque || "",
+      E.battery || "", E.range || "", E.motor || "", E.top_speed || "", E.charging || "",
       pa.price || pr?.specs?.price || "", pr ? `${pr.model} (${fmtDate(pr.date)})` : "", (g.compare || []).map(x => "• " + x).join("\n"),
       g.articles.map(a => a.url).join("\n")]; });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob(["\ufeff" + [head, ...rows].map(r => r.map(q).join(",")).join("\r\n")], { type:"text/csv;charset=utf-8" }));
-  a.download = `rilis-motor-indonesia-${state.periodKey}.csv`; a.click();
+  a.download = `${evOnly ? "rilis-motor-listrik" : "rilis-motor-indonesia"}-${state.periodKey}.csv`; a.click();
   setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
 

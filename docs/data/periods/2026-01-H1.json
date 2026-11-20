@@ -1872,14 +1872,44 @@
       ],
       "summary_by": "auto",
       "image": "https://iwanbanaran.com/api/og/hanya-12-jutaan-inilah-ofero-stareer-5-lit-gilaa-keren-robotic-banget",
-      "brands": [],
+      "brands": [
+        "Ofero"
+      ],
       "categories": [
         "Motor Listrik",
         "Peluncuran Produk"
       ],
       "countries": [
         "Indonesia"
-      ]
+      ],
+      "launch": {
+        "model": "Ofero Stareer 5 LIT",
+        "key": "ofero|stareer5lit",
+        "specs": {
+          "price": 12000000.0,
+          "engine": null,
+          "power": null,
+          "torque": null,
+          "ev": {
+            "battery": null,
+            "range": null,
+            "top_speed": null,
+            "motor": null,
+            "charging": null,
+            "swap": false,
+            "removable": false,
+            "subsidy": false
+          }
+        },
+        "ev": true,
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-20T04:07:21",
+        "full": false
+      }
     },
     {
       "id": "765dfdbbb7bf",

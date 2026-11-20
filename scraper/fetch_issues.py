@@ -393,6 +393,17 @@ def enrich(article: Article) -> None:
 # --------------------------------------------------------------------------- #
 # Tagging
 # --------------------------------------------------------------------------- #
+def _hits(keywords: list[str], hay: str) -> int:
+    return sum(1 for k in keywords if re.search(r"(?<![a-z0-9])" + re.escape(k.lower()) + r"(?![a-z0-9])", hay))
+
+
+def tag_brands(title: str, summary: str, cfg: dict) -> list[str]:
+    title = title.lower()
+    text = f"{title} {summary}".lower()
+    brands = [(b, _hits(kws, title) * 3 + _hits(kws, text)) for b, kws in cfg["brands"].items()]
+    return [b for b, s in sorted(brands, key=lambda x: -x[1]) if s > 0][:3]
+
+
 def tag(article: Article, cfg: dict) -> None:
     text = f"{article.title} {article.summary}".lower()
     title = article.title.lower()
@@ -400,8 +411,7 @@ def tag(article: Article, cfg: dict) -> None:
     def hits(keywords: list[str], hay: str) -> int:
         return sum(1 for k in keywords if re.search(r"(?<![a-z0-9])" + re.escape(k.lower()) + r"(?![a-z0-9])", hay))
 
-    brands = [(b, hits(kws, title) * 3 + hits(kws, text)) for b, kws in cfg["brands"].items()]
-    article.brands = [b for b, s in sorted(brands, key=lambda x: -x[1]) if s > 0][:3]
+    article.brands = tag_brands(article.title, article.summary, cfg)
     cats = [(c, hits(kws, title) * 2 + hits(kws, text)) for c, kws in cfg["categories"].items()]
     article.categories = [c for c, s in sorted(cats, key=lambda x: -x[1]) if s > 0][:3] or ["Lainnya"]
     article.countries = tag_countries(article.title, f"{article.summary} {article.text[:3000]}", cfg)
@@ -690,11 +700,13 @@ def auto_highlight(articles: list[dict], cfg: dict) -> None:
 
 
 def retag_countries_all() -> None:
-    """Isi ulang tag negara semua artikel tersimpan (tanpa scraping), dari judul + ringkasan + poin."""
+    """Isi ulang tag merek & negara semua artikel tersimpan (tanpa scraping), dari judul + ringkasan + poin."""
     cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     for p in sorted(PERIOD_DIR.glob("*.json")):
         d = json.loads(p.read_text(encoding="utf-8"))
         for a in d["articles"]:
+            if not a.get("locked"):
+                a["brands"] = tag_brands(a["title"], a.get("summary", ""), cfg)
             a["countries"] = tag_countries(a["title"], a.get("summary", "") + " " + " ".join(a.get("points") or []), cfg)
         p.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
         print(p.name, sum(1 for a in d["articles"] if a["countries"]), "/", len(d["articles"]), "bertag negara")
@@ -757,7 +769,7 @@ def launch_detail(a: dict, cfg: dict) -> None:
     if r is not None:
         a["launch"]["detail"] = launches.extract_detail(r.content, a["url"])
     best, best_score = None, 0
-    for cand in launches.find_previous(a["launch"]["model"], a["brands"][0], a["published"], get, cfg["sources"])[:3]:
+    for cand in launches.find_previous(a["launch"]["model"], launches.launch_brand(a), a["published"], get, cfg["sources"])[:3]:
         time.sleep(0.5)
         rr = get(cand["url"])
         if rr is None:
@@ -771,7 +783,7 @@ def launch_detail(a: dict, cfg: dict) -> None:
         if sc >= 6:
             break
     a["launch"]["prev_detail"] = best
-    if a["brands"][0] == "Yamaha":
+    if launches.launch_brand(a) == "Yamaha":
         try:
             prev, now = official.yamaha_compare(get, a["launch"]["model"], a["published"])
         except Exception as e:  # noqa: BLE001
@@ -889,7 +901,7 @@ def main() -> None:
     ap.add_argument("--snapshot-official", action="store_true", help="simpan kondisi terkini halaman produk resmi Yamaha")
     ap.add_argument("--enrich-launches", action="store_true", help="ambil spesifikasi & perbandingan untuk artikel rilis motor di Indonesia")
     ap.add_argument("--force", action="store_true", help="dengan --enrich-launches: analisis ulang semua")
-    ap.add_argument("--retag-countries", action="store_true", help="isi ulang tag negara semua periode (tanpa scraping)")
+    ap.add_argument("--retag-countries", action="store_true", help="isi ulang tag merek & negara semua periode (tanpa scraping)")
     ap.add_argument("--rehighlight", action="store_true", help="hitung ulang ★ highlight otomatis semua periode (tanpa scraping)")
     ap.add_argument("--reindex", action="store_true", help="hanya bangun ulang docs/data/index.json")
     args = ap.parse_args()

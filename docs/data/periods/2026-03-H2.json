@@ -1451,7 +1451,9 @@
       ],
       "summary_by": "auto",
       "image": "https://cdn.tmcblog.com/2026/03/OMO-X.webp",
-      "brands": [],
+      "brands": [
+        "Omoway"
+      ],
       "categories": [
         "Peluncuran Produk",
         "Motor Listrik"
@@ -2152,7 +2154,9 @@
       ],
       "summary_by": "auto",
       "image": "https://iwanbanaran.com/api/og/omoway-omo-x-debut-di-singapura-motor-bisa-jalan-sendiri-siap-meluncur-ke-indonesia",
-      "brands": [],
+      "brands": [
+        "Omoway"
+      ],
       "categories": [
         "Peluncuran Produk",
         "Motor Listrik",

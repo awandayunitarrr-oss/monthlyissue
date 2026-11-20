@@ -34,7 +34,9 @@
       ],
       "summary_by": "auto",
       "image": "https://cdn.tmcblog.com/2026/09/Motu-M5-1.webp",
-      "brands": [],
+      "brands": [
+        "MOTU"
+      ],
       "categories": [
         "Motor Listrik",
         "Teknologi & Fitur",
@@ -43,7 +45,35 @@
       "countries": [
         "Indonesia",
         "China"
-      ]
+      ],
+      "launch": {
+        "model": "MOTU M5B",
+        "key": "motu|m5b",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null,
+          "ev": {
+            "battery": null,
+            "range": null,
+            "top_speed": null,
+            "motor": null,
+            "charging": null,
+            "swap": false,
+            "removable": false,
+            "subsidy": false
+          }
+        },
+        "ev": true,
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [],
+        "analyzed_at": "2026-11-20T04:07:21",
+        "full": false
+      }
     },
     {
       "id": "fea6baa6a90a",
