@@ -1196,7 +1196,11 @@ function renderSpotlights(list){
           <div class="srcs2" style="margin-top:6px">${esc(cp.note)}</div></details>`).join("")}
         <div class="colors">${p.colors.map(([n, hex]) => `<div><i style="background:${esc(hex)}"></i>${esc(n)}</div>`).join("")}</div>
         ${p.sibling ? `<div class="sib"><img src="${esc(p.sibling.image)}" alt="${esc(p.sibling.model)}" loading="lazy"><div><b style="color:var(--text)">Satu platform: ${esc(p.sibling.model)}</b><br>${esc(p.sibling.text)}</div></div>` : ""}
-        <div class="dl">${p.page ? `<a href="${esc(p.page)}">✦ Halaman khusus NMAX E</a>` : ""}${p.present ? `<a href="#" data-present="${esc(p.id)}">▶ ${esc(p.present.label)}</a>` : ""}${p.deck.map(([l, href]) => { const pdf = href.endsWith(".pdf"); return `<a class="alt" href="${esc(href)}" ${pdf ? 'target="_blank" rel="noopener"' : "download"}>${pdf ? "📄" : "⬇"} ${esc(l)}</a>`; }).join("")}</div>
+        <div class="dl">${p.page ? `<a href="${esc(p.page)}">✦ Halaman khusus NMAX E</a>` : ""}</div>
+        ${(p.decks || []).map(dk => `<div class="dl"><b style="align-self:center;font-size:13px;min-width:150px">${esc(dk.name)} · ${dk.count} slide</b>
+          <a href="#" data-present="${esc(p.id)}" data-deck="${esc(dk.id)}">▶ Presentasi</a>
+          <a class="alt" href="${esc(dk.pdf)}" target="_blank" rel="noopener">📄 PDF</a>
+          <a class="alt" href="${esc(dk.pptx)}" download>⬇ PPTX</a></div>`).join("")}
         <div class="srcs2">${esc(p.photo_credit)} · Sumber: ${p.sources.map(([t, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a>`).join(" · ")}</div>
       </div>
     </article>`).join("");
@@ -1207,8 +1211,9 @@ function renderSpotlights(list){
       stage.querySelector(".cap").textContent = p.gallery[i][1];
       el.querySelectorAll(".thumbs button").forEach(b => b.classList.toggle("on", +b.dataset.i === i));
     };
-    const pb = el.querySelector("[data-present]");
-    if (pb) pb.onclick = e => { e.preventDefault(); openPresent(p.present.slides.map((src, i) => `<section class="ps img"><img src="${esc(src)}" alt="Slide ${i + 1}" loading="lazy"></section>`), { title: p.present.title, pdf: p.present.pdf }); };
+    el.querySelectorAll("[data-present]").forEach(pb => pb.onclick = e => { e.preventDefault();
+      const dk = p.decks.find(x => x.id === pb.dataset.deck);
+      openPresent(dk.slides.map((src, i) => `<section class="ps img"><img src="${esc(src)}" alt="Slide ${i + 1}" loading="lazy"></section>`), { title: `${p.brand} ${p.model} — ${dk.name} (${dk.count} slide)`, pdf: dk.pdf }); });
     el.querySelector(".thumbs").onclick = e => { const b = e.target.closest("[data-i]"); if (b) pick(+b.dataset.i); };
     const open = () => { LB.list = p.gallery; showLB(+stage.dataset.i); };
     stage.onclick = open;

@@ -170,6 +170,36 @@ nav.top a.l:hover{color:var(--text)}
 .end{text-align:center;background:radial-gradient(700px 360px at 50% 0%,rgba(34,211,238,.14),transparent 70%)}
 .end .cta{justify-content:center;opacity:1;animation:none}
 .src{font-size:12px;color:var(--muted);margin-top:26px}
+.decks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:26px;text-align:left}
+@media (max-width:760px){.decks{grid-template-columns:1fr}}
+.dk{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column}
+.dk .cv{position:relative;aspect-ratio:16/9;background:#000 center/cover no-repeat;cursor:pointer;border:0;padding:0;display:block;width:100%}
+.dk .cv::after{content:"▶";position:absolute;left:50%;top:50%;width:68px;height:68px;margin:-34px 0 0 -34px;border-radius:50%;background:rgba(34,211,238,.92);color:#06222a;font-size:24px;display:grid;place-items:center;box-shadow:0 0 0 8px rgba(34,211,238,.25);transition:transform .25s}
+.dk .cv:hover::after{transform:scale(1.1)}
+.dk .cv .n{position:absolute;right:10px;top:10px;background:rgba(7,11,20,.85);color:#fff;font-size:12px;font-weight:700;border-radius:999px;padding:3px 10px}
+.dk .strip{display:flex;gap:4px;padding:8px;overflow-x:auto;background:#0a1220}
+.dk .strip button{flex:none;width:72px;aspect-ratio:16/9;border:1px solid var(--line);border-radius:4px;background:#000 center/cover no-repeat;cursor:pointer;padding:0}
+.dk .strip button:hover{border-color:var(--cyan)}
+.dk .b{padding:16px 18px;display:flex;flex-direction:column;gap:10px}
+.dk h3{margin:0;font-size:22px}.dk p{margin:0;color:var(--muted);font-size:14px}
+.dk .row{display:flex;gap:8px;flex-wrap:wrap}
+.dk .btn{padding:9px 16px;font-size:13px}
+/* viewer presentasi 16:9 */
+#pv{position:fixed;inset:0;z-index:60;background:#03060c;display:flex;flex-direction:column}
+#pv[hidden]{display:none}
+#pv .bar2{display:flex;align-items:center;gap:8px;padding:8px 12px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+#pv .bar2 .t{color:#fff;font-weight:700;margin-right:auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#pv .bar2 a,#pv .bar2 button{background:#1e293b;color:#fff;border:0;border-radius:999px;padding:6px 12px;font:600 12px Inter,system-ui,sans-serif;cursor:pointer;text-decoration:none}
+#pv .view{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;padding:0 12px;cursor:pointer}
+#pv .frame{position:relative;width:min(100%,calc((100vh - 120px) * 16 / 9));aspect-ratio:16/9;overflow:hidden;border-radius:6px;background:#000}
+#pv .frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;transform:translateX(30px) scale(.985);transition:opacity .45s,transform .55s cubic-bezier(.2,.7,.2,1)}
+#pv .frame img.on{opacity:1;transform:none}
+#pv .frame img.prev{transform:translateX(-30px) scale(.985)}
+#pv .prog{height:3px;background:#1e293b}#pv .prog i{display:block;height:100%;background:var(--cyan);transition:width .4s}
+#pv .thumbs{display:flex;gap:6px;justify-content:center;padding:8px;overflow-x:auto}
+#pv .thumbs button{flex:none;width:64px;aspect-ratio:16/9;border:2px solid transparent;border-radius:4px;background:#000 center/cover no-repeat;opacity:.55;cursor:pointer;padding:0}
+#pv .thumbs button.on{border-color:var(--cyan);opacity:1}
+@media (max-width:600px){#pv .thumbs{display:none}}
 .src a{color:var(--muted)}
 footer{padding:26px 0;border-top:1px solid var(--line);font-size:12px;color:var(--muted);text-align:center}
 
@@ -192,6 +222,7 @@ footer{padding:26px 0;border-top:1px solid var(--line);font-size:12px;color:var(
   <a class="l opt" href="#banding">Banding</a>
   <a class="l opt" href="#honda">vs Honda</a>
   <a class="l opt" href="#galeri">Galeri</a>
+  <a class="l opt" href="#deckp">Presentasi</a>
   <a class="l" href="index.html#2026&amp;ev">← Dashboard</a>
 </nav>
 
@@ -205,7 +236,7 @@ footer{padding:26px 0;border-top:1px solid var(--line);font-size:12px;color:var(
     <div class="typed" id="typed"></div>
     <div class="cta">
       <a class="btn fill" href="#putar">▶ Lihat melaju</a>
-      <a class="btn" href="files/Yamaha_NMAX_E_Ringkas_2026.pdf" target="_blank" rel="noopener">📄 Deck ringkas (9 slide)</a>
+      <a class="btn" href="#deckp">▶ Mode presentasi</a>
     </div>
   </div>
   <div class="scrollhint">SCROLL ↓</div>
@@ -293,16 +324,25 @@ footer{padding:26px 0;border-top:1px solid var(--line);font-size:12px;color:var(
   </div>
 </section>
 
-<section class="end">
+<section class="end" id="deckp">
   <div class="wrap">
     <div class="kick rv">Deck presentasi</div>
     <h2 class="rv d1">Bawa NMAX E ke ruang rapat</h2>
-    <div class="cta" id="deck"></div>
+    <p class="lead rv d2" style="margin:0 auto">Pilih deck, putar dalam mode presentasi 16:9 (← → / spasi, F layar penuh), atau unduh PDF & PPTX-nya.</p>
+    <div class="decks" id="deck"></div>
     <div class="src" id="src"></div>
   </div>
 </section>
 <footer>Data: brosur Yamaha Scooters 2027 & materi pers Yamaha · Halaman bagian dari dashboard Motorcycle Issue</footer>
 
+<div id="pv" hidden role="dialog" aria-modal="true" aria-label="Mode presentasi">
+  <div class="bar2"><span class="t" id="pv-t"></span><span id="pv-c"></span>
+    <button id="pv-prev" aria-label="Sebelumnya">‹</button><button id="pv-next" aria-label="Berikutnya">›</button>
+    <button id="pv-full">⛶ Layar penuh</button><a id="pv-pdf" target="_blank" rel="noopener">📄 PDF</a><a id="pv-pptx" download>⬇ PPTX</a><button id="pv-x">Tutup ✕</button></div>
+  <div class="prog"><i id="pv-p"></i></div>
+  <div class="view" id="pv-view"><div class="frame" id="pv-f"></div></div>
+  <div class="thumbs" id="pv-th"></div>
+</div>
 <div id="lb" hidden role="dialog" aria-modal="true" aria-label="Foto"><img alt=""><p></p></div>
 
 <script>
@@ -403,9 +443,17 @@ fetch("data/ev_spotlight.json").then(r => r.json()).then(({ spotlights }) => {
   $("#lb").onclick = () => ($("#lb").hidden = true);
   addEventListener("keydown", e => { if (e.key === "Escape") $("#lb").hidden = true; });
   // deck & sumber
-  $("#deck").innerHTML = p.deck.map(([l, href], i) => `<a class="btn${i ? "" : " fill"}" href="${esc(href)}" ${href.endsWith(".pdf") ? 'target="_blank" rel="noopener"' : "download"}>${href.endsWith(".pdf") ? "📄" : "⬇"} ${esc(l)}</a>`).join("");
+  $("#deck").innerHTML = p.decks.map((dk, di) => `<div class="dk rv d${di}">
+    <button class="cv" style="background-image:url('${esc(dk.slides[0])}')" data-play="${di}" aria-label="Presentasikan ${esc(dk.name)}"><span class="n">${dk.count} slide · 16:9</span></button>
+    <div class="strip">${dk.slides.map((src, i) => `<button style="background-image:url('${esc(src)}')" data-play="${di}" data-i="${i}" aria-label="Slide ${i + 1}"></button>`).join("")}</div>
+    <div class="b"><h3>${esc(dk.name)} · ${dk.count} slide</h3><p>${esc(dk.desc)}</p>
+      <div class="row"><button class="btn fill" data-play="${di}">▶ Mode presentasi</button>
+        <a class="btn" href="${esc(dk.pdf)}" target="_blank" rel="noopener">📄 PDF</a><a class="btn" href="${esc(dk.pptx)}" download>⬇ PPTX beranimasi</a></div></div></div>`).join("");
+  $("#deck").onclick = e => { const b = e.target.closest("[data-play]"); if (b) openDeck(p.decks[+b.dataset.play], +(b.dataset.i || 0)); };
+  window.__decks = p.decks;
   $("#src").innerHTML = esc(p.photo_credit) + " · " + p.sources.map(([t, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a>`).join(" · ");
   watch();
+  if (location.hash.length > 1) { const t = document.getElementById(location.hash.slice(1)); if (t) setTimeout(() => t.scrollIntoView(), 60); }
 }).catch(() => { $("#nums").textContent = "Gagal memuat data."; });
 
 function countUp(el, target){
@@ -417,6 +465,40 @@ function countUp(el, target){
     el.textContent = pre + (val * e).toFixed(dec).replace(".", ",") + post; if (k < 1) requestAnimationFrame(step); };
   requestAnimationFrame(step);
 }
+
+// ---- mode presentasi deck (gambar slide 16:9 hasil ekspor deck)
+const PV = { dk: null, i: 0 };
+function openDeck(dk, i){
+  PV.dk = dk;
+  $("#pv-t").textContent = `Yamaha NMAX E — ${dk.name} (${dk.count} slide)`;
+  $("#pv-pdf").href = dk.pdf; $("#pv-pptx").href = dk.pptx;
+  $("#pv-f").innerHTML = dk.slides.map((src, k) => `<img src="${src}" alt="Slide ${k + 1}" ${k > 1 ? 'loading="lazy"' : ""}>`).join("");
+  $("#pv-th").innerHTML = dk.slides.map((src, k) => `<button style="background-image:url('${src}')" aria-label="Slide ${k + 1}"></button>`).join("");
+  $("#pv").hidden = false; document.body.style.overflow = "hidden"; pvGo(i);
+}
+function pvGo(i){
+  const n = PV.dk.slides.length; PV.i = Math.max(0, Math.min(n - 1, i));
+  $("#pv-f").querySelectorAll("img").forEach((im, k) => { im.classList.toggle("on", k === PV.i); im.classList.toggle("prev", k < PV.i); if (Math.abs(k - PV.i) <= 1) im.loading = "eager"; });
+  $("#pv-th").querySelectorAll("button").forEach((b, k) => b.classList.toggle("on", k === PV.i));
+  $("#pv-th").children[PV.i]?.scrollIntoView({ block: "nearest", inline: "center" });
+  $("#pv-c").textContent = `${PV.i + 1} / ${n}`; $("#pv-p").style.width = ((PV.i + 1) / n * 100) + "%";
+}
+function pvClose(){ $("#pv").hidden = true; document.body.style.overflow = ""; if (document.fullscreenElement) document.exitFullscreen(); }
+$("#pv-prev").onclick = () => pvGo(PV.i - 1); $("#pv-next").onclick = () => pvGo(PV.i + 1); $("#pv-x").onclick = pvClose;
+$("#pv-full").onclick = () => document.fullscreenElement ? document.exitFullscreen() : $("#pv").requestFullscreen?.();
+$("#pv-th").onclick = e => { const b = e.target.closest("button"); if (b) pvGo([...b.parentNode.children].indexOf(b)); };
+$("#pv-view").onclick = e => pvGo(PV.i + (e.clientX < innerWidth / 3 ? -1 : 1));
+let pvX = null;
+$("#pv-view").addEventListener("touchstart", e => (pvX = e.touches[0].clientX), { passive: true });
+$("#pv-view").addEventListener("touchend", e => { if (pvX == null) return; const dx = e.changedTouches[0].clientX - pvX; if (Math.abs(dx) > 40) pvGo(PV.i + (dx < 0 ? 1 : -1)); pvX = null; });
+addEventListener("keydown", e => {
+  if ($("#pv").hidden) return;
+  if (["ArrowRight", "PageDown", " ", "Enter"].includes(e.key)) { e.preventDefault(); pvGo(PV.i + 1); }
+  else if (["ArrowLeft", "PageUp", "Backspace"].includes(e.key)) { e.preventDefault(); pvGo(PV.i - 1); }
+  else if (e.key === "Home") pvGo(0); else if (e.key === "End") pvGo(PV.dk.slides.length - 1);
+  else if (e.key === "f" || e.key === "F") $("#pv-full").click();
+  else if (e.key === "Escape" && !document.fullscreenElement) pvClose();
+});
 
 // ---- motor melaju kiri → kanan
 function initDrive(cfg){
