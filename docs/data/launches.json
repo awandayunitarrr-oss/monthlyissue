@@ -1,6 +1,663 @@
 {
-  "updated_at": "2026-11-20T12:48:29",
+  "updated_at": "2026-11-20T22:42:44",
   "launches": [
+    {
+      "id": "a53c8a1bcb24",
+      "date": "2026-11-20T17:10:32+07:00",
+      "brand": "Honda",
+      "model": "Honda Hall 10 Hadirkan 7",
+      "key": "honda|hall10hadirkan7",
+      "ev": false,
+      "specs": {
+        "price": null,
+        "engine": null,
+        "power": null,
+        "torque": null
+      },
+      "previous_from_article": {
+        "price": null,
+        "price_delta": null
+      },
+      "compare": [],
+      "articles": [
+        {
+          "title": "IMOS 2026 : Booth Honda di Hall 10 Hadirkan 7 Zona Produk, Ada Warna Baru Super Cub C125 & Area Test Ride!",
+          "url": "https://tmcblog.com/2026/11/20/imos-2026-booth-honda-di-hall-10-hadirkan-7-zona-produk-ada-warna-baru-super-cub-c125-area-test-ride/?utm_source=rss&utm_medium=rss&utm_campaign=imos-2026-booth-honda-di-hall-10-hadirkan-7-zona-produk-ada-warna-baru-super-cub-c125-area-test-ride",
+          "source": "TMC Blog",
+          "published": "2026-11-20T17:10:32+07:00"
+        }
+      ],
+      "image": "https://cdn.tmcblog.com/2026/11/17951687591367.avif",
+      "highlight": false,
+      "detail": {
+        "url": "https://tmcblog.com/2026/11/20/imos-2026-booth-honda-di-hall-10-hadirkan-7-zona-produk-ada-warna-baru-super-cub-c125-area-test-ride/?utm_source=rss&utm_medium=rss&utm_campaign=imos-2026-booth-honda-di-hall-10-hadirkan-7-zona-produk-ada-warna-baru-super-cub-c125-area-test-ride",
+        "intro": "Gelaran pameran sepeda motor Indonesia Motorcycle Show (IMOS) 2026 di ICE BSD City, Tangerang, sudah resmi bergulir. Di ajang tahunan ini, PT Astra Honda Motor (AHM) menempati booth di Hall 10 dengan mengusung tema “Terima Kasih Selalu Satu HATI” .",
+        "variants": [
+          {
+            "name": "Premium",
+            "price": null,
+            "colors": [
+              {
+                "name": "Premium Silver Metallic",
+                "new": true,
+                "image": null
+              },
+              {
+                "name": "Matte Axis Grey Metallic",
+                "new": true,
+                "image": null
+              },
+              {
+                "name": "Pearl Smoky Grey",
+                "new": true,
+                "image": null
+              }
+            ],
+            "notes": [
+              "Zona Lifestyle Menghadirkan lini ikonik berkarakter kuat seperti CT125 , ST125 , dan Super Cub C125 . Pada momen IMOS 2026 ini, Super Cub C125 juga mendapatkan penyegaran pilihan warna baru, yakni Premium Silver Metallic , Matte Axis Grey Metallic , dan Pearl Smoky Grey ."
+            ]
+          }
+        ],
+        "spec_table": {},
+        "loose_colors": [
+          "Saya Memakai Warna Merah"
+        ],
+        "n_images": 8,
+        "image_keys": [
+          "17951687641068 17951687641068 696x385 avif",
+          "17951687591367 avif",
+          "17951687641068 avif",
+          "17951687762940 avif",
+          "17951687262142 avif",
+          "17951687854291 avif",
+          "17951687706249 avif",
+          "17951687322343 avif"
+        ],
+        "source": "TMC Blog"
+      },
+      "prev_detail": null,
+      "title": "IMOS 2026 : Booth Honda di Hall 10 Hadirkan 7 Zona Produk, Ada Warna Baru Super Cub C125 & Area Test Ride!",
+      "previous_release": null
+    },
+    {
+      "id": "793f44531267",
+      "date": "2026-11-20T16:47:53+07:00",
+      "brand": "Yamaha",
+      "model": "Yamaha NMAX TURBO",
+      "key": "yamaha|nmaxturbo",
+      "ev": false,
+      "specs": {
+        "price": null,
+        "engine": "160 cc",
+        "power": null,
+        "torque": null
+      },
+      "previous_from_article": {
+        "price": null,
+        "price_delta": null
+      },
+      "compare": [
+        "Sekilas Tentang Spesifikasi & Fitur Unggulan Sebagaimana yang sudah kita bahas tuntas pada artikel review sebelumnya, NMAX generasi ketiga ini masih mengandalkan dapur pacu Blue Core 155 cc VVA .",
+        "Yap, apalagi kalau bukan Yamaha NMAX “TURBO” dan NMAX NEO yang kini hadir dengan tiga opsi kelir baru!",
+        "Secara umum, tidak ada ubahan dari sisi teknis maupun fitur pada minor change kali ini.",
+        "Khusus pada varian “TURBO”, mesin ini dikawinkan dengan teknologi transmisi YECVT ( Yamaha Electric Continuously Variable Transmission ) yang menggantikan sistem roller konvensional."
+      ],
+      "articles": [
+        {
+          "title": "IMOS 2026 : Yamaha Resmi Rilis Warna Baru NMAX “TURBO” dan NMAX NEO, Ada Matte Green!",
+          "url": "https://tmcblog.com/2026/11/20/imos-2026-yamaha-resmi-rilis-warna-baru-nmax-turbo-dan-nmax-neo-ada-matte-green/?utm_source=rss&utm_medium=rss&utm_campaign=imos-2026-yamaha-resmi-rilis-warna-baru-nmax-turbo-dan-nmax-neo-ada-matte-green",
+          "source": "TMC Blog",
+          "published": "2026-11-20T16:47:53+07:00"
+        }
+      ],
+      "image": "https://cdn.tmcblog.com/2026/11/17951676200570.avif",
+      "highlight": false,
+      "detail": {
+        "name": "Yamaha NMAX",
+        "url": "https://www.yamaha-motor.co.id/product/nmax-turbo/",
+        "variants": [
+          {
+            "name": "TURBO TECH MAX Ultimate",
+            "price": 46945000.0,
+            "colors": [
+              {
+                "name": "Ceramic Grey",
+                "hex": "#999999",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011411065945811R98632.png",
+                "new": null
+              },
+              {
+                "name": "Elixir Dark Silver",
+                "hex": "#c9c9cd",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011411071096238K87179.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "TURBO TECH MAX Special Livery",
+            "price": 45365000.0,
+            "colors": [
+              {
+                "name": "Black MAX",
+                "hex": "#000000",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012114594317543J23731.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "TURBO TECH MAX",
+            "price": 44965000.0,
+            "colors": [
+              {
+                "name": "Ceramic Grey",
+                "hex": "#999999",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009075927087S40820.png",
+                "new": null
+              },
+              {
+                "name": "Matte Green",
+                "hex": "#263336",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009083814292U45109.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "TURBO",
+            "price": 39465000.0,
+            "colors": [
+              {
+                "name": "Ceramic Grey",
+                "hex": "#999999",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202611200910166442K3825.png",
+                "new": null
+              },
+              {
+                "name": "Matte Green",
+                "hex": "#263336",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009094651189H70694.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "Neo S MAX Special Livery",
+            "price": 35955000.0,
+            "colors": [
+              {
+                "name": "Black MAX",
+                "hex": "#000000",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020414193854411G50709.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "Neo S Version",
+            "price": 35555000.0,
+            "colors": [
+              {
+                "name": "Matte Blue",
+                "hex": "#1f3e65",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009124624407H15997.png",
+                "new": null
+              },
+              {
+                "name": "Dark Red",
+                "hex": "#910303",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009132484600X20898.png",
+                "new": null
+              },
+              {
+                "name": "White Metalic",
+                "hex": "#ffffff",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009141144941E70171.png",
+                "new": null
+              },
+              {
+                "name": "Black Metalic",
+                "hex": "#000000",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009143935115W26005.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "Neo MAX Special Livery",
+            "price": 34965000.0,
+            "colors": [
+              {
+                "name": "Black MAX",
+                "hex": "#000000",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020414194471194N62487.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "Neo Version",
+            "price": 34565000.0,
+            "colors": [
+              {
+                "name": "Matte Blue",
+                "hex": "#1f3e65",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202611200914554038H64319.png",
+                "new": null
+              },
+              {
+                "name": "Dark Red",
+                "hex": "#910303",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009151717229O34994.png",
+                "new": null
+              },
+              {
+                "name": "White Metalic",
+                "hex": "#ffffff",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009173299968I52956.png",
+                "new": null
+              },
+              {
+                "name": "Black Metalic",
+                "hex": "#000000",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009175188209I56317.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          }
+        ],
+        "spec_table": {
+          "Tipe Mesin": "155cc Blue Core, VVA, 4 Valve SOHC + YECVT",
+          "Volume Silinder": "155.09 cc",
+          "Diameter x Langkah": "58 mm x 58.7 mm",
+          "Perbandingan Kompresi": "11.6 : 1",
+          "Daya Maksimum": "11.3 kW / 8000 rpm",
+          "Torsi Maksimum": "14.2 Nm / 6500 rpm",
+          "Sistem Starter": "Electric Starter",
+          "Sistem Bahan Bakar": "Fuel Injection",
+          "Tipe Kopling": "Single Dry Clucth",
+          "Tipe Transmisi": "Automatic",
+          "Tipe Rangka": "Underbone",
+          "Suspensi Depan": "Teleskopic",
+          "Suspensi Belakang": "Unit Swing",
+          "Ban Depan": "110/70 - 13 M/C 48P",
+          "Ban Belakang": "130/70 - 13 M/C 63P",
+          "Rem Depan": "Hydraulic Single Disc Brake",
+          "Rem Belakang": "Hydraulic Single Disc Brake",
+          "P x L x T": "1.935 mm x 740 mm x 1.200 mm",
+          "Jarak Sumbu Roda": "1340 mm",
+          "Jarak Terendah ke Tanah": "125 mm",
+          "Tinggi Tempat Duduk": "770 mm",
+          "Berat Isi": "135 Kg (",
+          "Kapasitas Tangki Bensin": "7.1 L",
+          "Tipe Busi": "NGK/CPR8EA-9",
+          "Sistem Pengapian": "TCI",
+          "Tipe Battery": "YTZ6V/YTZ7V"
+        },
+        "date": "2026-11-20",
+        "source": "official",
+        "intro": "Hari ini bertepatan dengan pembukaan gelaran pameran otomotif roda dua terbesar di penghujung tahun, Indonesia Motorcycle Show (IMOS) 2026 yang bertempat di ICE BSD, Tangerang (20/11), PT Yamaha Indonesia Motor Mfg. (YIMM) langsung tancap gas memberikan penyegaran visual pada salah satu tulang punggung lini MAXI mereka."
+      },
+      "prev_detail": {
+        "name": "Yamaha NMAX",
+        "url": "https://www.yamaha-motor.co.id/product/nmax-turbo/",
+        "variants": [
+          {
+            "name": "TURBO TECH MAX Ultimate",
+            "price": 46945000.0,
+            "colors": [
+              {
+                "name": "Ceramic Grey",
+                "hex": "#999999",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011411065945811R98632.png",
+                "new": null
+              },
+              {
+                "name": "Elixir Dark Silver",
+                "hex": "#c9c9cd",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011411071096238K87179.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "TURBO TECH MAX Special Livery",
+            "price": 45365000.0,
+            "colors": [
+              {
+                "name": "Black MAX",
+                "hex": "#000000",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012114594317543J23731.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "TURBO TECH MAX",
+            "price": 44965000.0,
+            "colors": [
+              {
+                "name": "Ceramic Grey",
+                "hex": "#999999",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025111019120360785H74074.png",
+                "new": null
+              },
+              {
+                "name": "Elixir Dark Silver",
+                "hex": "#c9c9cd",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025111019182433784K7647.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "TURBO",
+            "price": 39465000.0,
+            "colors": [
+              {
+                "name": "Ceramic Grey",
+                "hex": "#999999",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/20251110191903676F5433.png",
+                "new": null
+              },
+              {
+                "name": "Elixir Dark Silver",
+                "hex": "#c9c9cd",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024081909172910918Y66823.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "Neo S MAX Special Livery",
+            "price": 35955000.0,
+            "colors": [
+              {
+                "name": "Black MAX",
+                "hex": "#000000",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020414193854411G50709.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "Neo S Version",
+            "price": 35555000.0,
+            "colors": [
+              {
+                "name": "Matte Blue",
+                "hex": "#1f3e65",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025111019194058600Y79045.png",
+                "new": null
+              },
+              {
+                "name": "Red",
+                "hex": "#ff0000",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202408190917345976S21101.png",
+                "new": null
+              },
+              {
+                "name": "White",
+                "hex": "#ffffff",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202408190917393908H14301.png",
+                "new": null
+              },
+              {
+                "name": "Black",
+                "hex": "#000000",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024081909174815666G66711.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "Neo MAX Special Livery",
+            "price": 34965000.0,
+            "colors": [
+              {
+                "name": "Black MAX",
+                "hex": "#000000",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020414194471194N62487.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "Neo Version",
+            "price": 34565000.0,
+            "colors": [
+              {
+                "name": "Matte Blue",
+                "hex": "#1f3e65",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025111019202062H52051.png",
+                "new": null
+              },
+              {
+                "name": "Red",
+                "hex": "#ff0000",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024061119274974993S52769.png",
+                "new": null
+              },
+              {
+                "name": "White",
+                "hex": "#ffffff",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024061119281348784W8996.png",
+                "new": null
+              },
+              {
+                "name": "Black",
+                "hex": "#000000",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2024061119274037676S53246.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          }
+        ],
+        "spec_table": {
+          "Tipe Mesin": "155cc Blue Core, VVA, 4 Valve SOHC + YECVT",
+          "Volume Silinder": "155.09 cc",
+          "Diameter x Langkah": "58 mm x 58.7 mm",
+          "Perbandingan Kompresi": "11.6 : 1",
+          "Daya Maksimum": "11.3 kW / 8000 rpm",
+          "Torsi Maksimum": "14.2 Nm / 6500 rpm",
+          "Sistem Starter": "Electric Starter",
+          "Sistem Bahan Bakar": "Fuel Injection",
+          "Tipe Kopling": "Single Dry Clucth",
+          "Tipe Transmisi": "Automatic",
+          "Tipe Rangka": "Underbone",
+          "Suspensi Depan": "Teleskopic",
+          "Suspensi Belakang": "Unit Swing",
+          "Ban Depan": "110/70 - 13 M/C 48P",
+          "Ban Belakang": "130/70 - 13 M/C 63P",
+          "Rem Depan": "Hydraulic Single Disc Brake",
+          "Rem Belakang": "Hydraulic Single Disc Brake",
+          "P x L x T": "1.935 mm x 740 mm x 1.200 mm",
+          "Jarak Sumbu Roda": "1340 mm",
+          "Jarak Terendah ke Tanah": "125 mm",
+          "Tinggi Tempat Duduk": "770 mm",
+          "Berat Isi": "135 Kg (",
+          "Kapasitas Tangki Bensin": "7.1 L",
+          "Tipe Busi": "NGK/CPR8EA-9",
+          "Sistem Pengapian": "TCI",
+          "Tipe Battery": "YTZ6V/YTZ7V"
+        },
+        "date": "2026-11-13",
+        "source": "official"
+      },
+      "title": "IMOS 2026 : Yamaha Resmi Rilis Warna Baru NMAX “TURBO” dan NMAX NEO, Ada Matte Green!",
+      "previous_release": {
+        "id": "9b211fee660b",
+        "date": "2026-01-25T06:14:58+07:00",
+        "model": "Yamaha NMAX",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "url": "https://iwanbanaran.com/news/yamaha-luncurkan-new-nmax-xmax-edisi-20th-max-gilaaa-ngak-ada-habisnya",
+        "title": "Yamaha Luncurkan New NMAX – XMAX Edisi 20th MAX, Gilaaa Ngak ada Habisnya"
+      }
+    },
+    {
+      "id": "c236b916431f",
+      "date": "2026-11-20T06:45:27+07:00",
+      "brand": "Suzuki",
+      "model": "Suzuki Unjuk Gigi",
+      "key": "suzuki|unjukgigi",
+      "ev": false,
+      "specs": {
+        "price": 145000000.0,
+        "engine": "645 cc",
+        "power": "73 PS",
+        "torque": "64 Nm"
+      },
+      "previous_from_article": {
+        "price": null,
+        "price_delta": null
+      },
+      "compare": [
+        "Secara kasat mata, tongkrongan SV-7S ini memang ora jauh beda dibanding SV650.",
+        "Tapi kalau dipelototi lebih detail, Suzuki ternyata sudah memberikan sentuhan pembaruan di beberapa titik: Lampu depan kini sudah mengadopsi teknologi LED , nggak lagi bohlam konvensional.",
+        "Oh iya, sebagai tambahan informasi, platform mesin V-Twin ini juga dikembangkan Suzuki ke segmen sport touring / adventure lewat sosok Suzuki SV-7GX yang turut melantai di EICMA."
+      ],
+      "articles": [
+        {
+          "title": "Suzuki Unjuk Gigi…Rilis Suzuki SV-7S versi 2027, sasis ala Ducati Monster !!",
+          "url": "https://iwanbanaran.com/news/suzuki-unjuk-gigi-rilis-suzuki-sv-7s-versi-2027-sasis-ala-ducati-monster",
+          "source": "Iwan Banaran",
+          "published": "2026-11-20T06:45:27+07:00"
+        }
+      ],
+      "image": "https://cdn.iwanbanaran.com/2026/11/suzuki-sv7s-2027-15.webp",
+      "highlight": false,
+      "detail": {
+        "url": "https://iwanbanaran.com/news/suzuki-unjuk-gigi-rilis-suzuki-sv-7s-versi-2027-sasis-ala-ducati-monster",
+        "intro": "Caaakkk… top tenan langkah pabrikan berlogo S kali ini. Kalau sampeyan pengamat roda dua lawas, pasti paham betul bagaimana aura motor naked bermesin V-Twin dipadukan rangka teralis dulu begitu identik dengan Ducati Monster.",
+        "variants": [
+          {
+            "name": "Semua tipe",
+            "price": 145000000.0,
+            "colors": [
+              {
+                "name": "Hitam",
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Silver",
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Biru",
+                "new": null,
+                "image": null
+              }
+            ],
+            "notes": []
+          }
+        ],
+        "spec_table": {},
+        "loose_colors": [],
+        "n_images": 17,
+        "image_keys": [
+          "l https 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fsuzuki sv7s 2027 15 webp w 860",
+          "rl https 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fsuzuki sv7s 2027 1 webp w 943",
+          "iklan iwanbanaran 728x174p iwb webp",
+          "rl https 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fsuzuki sv7s 2027 9 webp w 966",
+          "a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fsuzuki sv7s 2027 1 1 768x507 webp w 768",
+          " 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fsuzuki sv7s 2027 2 768x489 webp w 768",
+          " 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fsuzuki sv7s 2027 3 768x526 webp w 768",
+          " 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fsuzuki sv7s 2027 4 768x496 webp w 768",
+          " 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fsuzuki sv7s 2027 5 768x508 webp w 768",
+          " 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fsuzuki sv7s 2027 6 768x506 webp w 768",
+          "rl https 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fsuzuki sv7s 2027 7 webp w 763",
+          " 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fsuzuki sv7s 2027 8 768x516 webp w 768",
+          "3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fsuzuki sv7s 2027 11 768x511 webp w 768",
+          "3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fsuzuki sv7s 2027 12 768x510 webp w 768",
+          "3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fsuzuki sv7s 2027 13 768x525 webp w 768",
+          "3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fsuzuki sv7s 2027 14 768x584 webp w 768",
+          "3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fsuzuki sv7s 2027 10 768x512 webp w 768"
+        ],
+        "source": "Iwan Banaran"
+      },
+      "prev_detail": {
+        "url": "https://iwanbanaran.com/news/suzuki-unjuk-giginew-gsx-8s-2026-lahir-makin-gahar",
+        "intro": "Cakkk…Suzuki Motor Corporation resmi memperkenalkan penyegaran untuk lini naked sport andalannya, GSX-8S model 2026. Motor yang dikenal sebagai “Street Fighter” masa depan ini hadir dengan skema warna baru yang lebih agresif serta penyesuaian teknis untuk menjawab regulasi emisi global yang semakin ketat.",
+        "variants": [
+          {
+            "name": "Semua tipe",
+            "price": null,
+            "colors": [
+              {
+                "name": "Hitam",
+                "new": null,
+                "image": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "Glass Sparkle",
+            "price": null,
+            "colors": [
+              {
+                "name": "Glass Sparkle Black",
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Triton Blue Metallic",
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Matte Black Metallic",
+                "new": null,
+                "image": null
+              }
+            ],
+            "notes": [
+              "Selain warna merah, Suzuki tetap mempertahankan warna kebanggaannya melalui kombinasi Glass Sparkle Black / Triton Blue Metallic. Namun, bagi pecinta tampilan minimalis, hadir pula varian Glass Sparkle Black / Matte Black Metallic No.2. Berbeda dengan versi tahun lalu yang menggunakan velg merah, ve"
+            ]
+          }
+        ],
+        "spec_table": {},
+        "loose_colors": [],
+        "n_images": 6,
+        "image_keys": [
+          "15e webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f04 2fimg 7983 webp w 860",
+          "iklan iwanbanaran 728x174p iwb webp",
+          "19 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f04 2fimg 7982 webp w 1280",
+          "68 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f04 2fimg 8001 webp w 1280",
+          "00 webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f04 2fimg 7999 webp w 1280",
+          "3f webp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f04 2fimg 7998 webp w 1280"
+        ],
+        "title": "Suzuki Unjuk Gigi…New GSX-8S 2026 Lahir Makin Gahar",
+        "date": "2026-04-09T00:00:00",
+        "source": "artikel"
+      },
+      "title": "Suzuki Unjuk Gigi…Rilis Suzuki SV-7S versi 2027, sasis ala Ducati Monster !!",
+      "previous_release": null
+    },
     {
       "id": "4a2dd382d9c3",
       "date": "2026-10-29T19:07:09+07:00",
