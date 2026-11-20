@@ -284,6 +284,10 @@
         [
           "Spesifikasi Honda EV — detikOto / Autofun / Zigwheels",
           "https://oto.detik.com/motor-listrik/d-7581320/spesifikasi-honda-cuv-e-harga-tembus-rp-50-jutaan-bisa-tempuh-jarak-80-7-km"
+        ],
+        [
+          "Spesifikasi Polytron Fox 500 — Autofun / Moladin / Carmudi",
+          "https://www.autofun.co.id/berita-motor/setara-xmax-dan-forza-ini-7-daya-tarik-polytron-fox-500-81850"
         ]
       ],
       "photo_credit": "Foto: Yamaha Motor Europe (brosur 2027) & materi pers Yamaha",
@@ -293,6 +297,61 @@
         "silver": "ev/nmax-e/drive-silver.webp"
       },
       "compares": [
+        {
+          "title": "vs Polytron Fox 500 (head to head)",
+          "cols": [
+            "NMAX E",
+            "Polytron Fox 500"
+          ],
+          "rows": [
+            [
+              "Tenaga",
+              "7,5 kW maks. (6,7 kW nominal)",
+              "5 kW nominal · 14,7 kW puncak (klaim)"
+            ],
+            [
+              "Torsi",
+              "33,3 Nm @ 500 rpm",
+              "— (data media tidak konsisten)"
+            ],
+            [
+              "Baterai",
+              "3,5 kWh Li-ion 50,4 V / 70,2 Ah, fixed",
+              "3,89 kWh LiFePO4 72 V / 54 Ah, skema sewa"
+            ],
+            [
+              "Jarak tempuh",
+              "104 km (uji WMTC)",
+              "130 km (klaim @ rata-rata 40 km/jam)"
+            ],
+            [
+              "Waktu cas",
+              "±5,5 jam (0–100%)",
+              "4–5 jam"
+            ],
+            [
+              "P x L x T",
+              "1.980 x 795 x 1.235 mm",
+              "2.190 x 770 x 1.280 mm"
+            ],
+            [
+              "Ban",
+              "110/70-13 · 130/70-13",
+              "110/70-14 · 140/60-14"
+            ],
+            [
+              "Harga",
+              "±Rp157,7 jt (harga Jerman, kurs BI)",
+              "mulai ±Rp43 jt OTR + sewa baterai Rp200 rb/bln (2024)"
+            ],
+            [
+              "Status di Indonesia",
+              "Belum diumumkan",
+              "Dijual sejak 2024"
+            ]
+          ],
+          "note": "Data Fox 500 dari media otomotif (Autofun, Moladin, Carmudi, Gridoto, oto.com; 2024), belum dicek ke Polytron. Jarak NMAX E (WMTC) dan Fox 500 (klaim pada 40 km/jam) diukur dengan cara berbeda. Daya puncak Fox 500 tidak sebanding langsung dengan daya maksimum NMAX E."
+        },
         {
           "title": "vs motor listrik Honda (CUV e:, ICON e:, EM1 e:)",
           "cols": [
@@ -420,18 +479,19 @@
         {
           "id": "ringkas",
           "name": "Deck NMAX E",
-          "count": 9,
-          "desc": "Sekilas, powertrain & baterai, rangka, teknologi & fitur, charging, desain, head to head EV Honda, kesimpulan.",
+          "count": 10,
+          "desc": "Sekilas, powertrain & baterai, rangka, teknologi & fitur, charging, desain, head to head EV Honda & Polytron Fox 500, kesimpulan.",
           "slides": [
-            "files/nmax-e-ringkas/slide-1.jpg",
-            "files/nmax-e-ringkas/slide-2.jpg",
-            "files/nmax-e-ringkas/slide-3.jpg",
-            "files/nmax-e-ringkas/slide-4.jpg",
-            "files/nmax-e-ringkas/slide-5.jpg",
-            "files/nmax-e-ringkas/slide-6.jpg",
-            "files/nmax-e-ringkas/slide-7.jpg",
-            "files/nmax-e-ringkas/slide-8.jpg",
-            "files/nmax-e-ringkas/slide-9.jpg"
+            "files/nmax-e-ringkas/slide-01.jpg",
+            "files/nmax-e-ringkas/slide-02.jpg",
+            "files/nmax-e-ringkas/slide-03.jpg",
+            "files/nmax-e-ringkas/slide-04.jpg",
+            "files/nmax-e-ringkas/slide-05.jpg",
+            "files/nmax-e-ringkas/slide-06.jpg",
+            "files/nmax-e-ringkas/slide-07.jpg",
+            "files/nmax-e-ringkas/slide-08.jpg",
+            "files/nmax-e-ringkas/slide-09.jpg",
+            "files/nmax-e-ringkas/slide-10.jpg"
           ],
           "pdf": "files/Yamaha_NMAX_E_Ringkas_2026.pdf",
           "pptx": "files/Yamaha_NMAX_E_Ringkas_2026_animasi.pptx"
