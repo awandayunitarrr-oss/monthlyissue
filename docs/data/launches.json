@@ -1,6 +1,283 @@
 {
-  "updated_at": "2026-11-21T21:40:57",
+  "updated_at": "2026-11-22T21:48:36",
   "launches": [
+    {
+      "id": "ff84c4dda1bb",
+      "date": "2026-11-21T10:01:09+07:00",
+      "brand": "Yamaha",
+      "model": "Yamaha XMAX Connected TechMAX",
+      "key": "yamaha|xmaxconnectedtechmax",
+      "ev": false,
+      "specs": {
+        "price": 77400000.0,
+        "engine": null,
+        "power": null,
+        "torque": null
+      },
+      "previous_from_article": {
+        "price": null,
+        "price_delta": null
+      },
+      "compare": [
+        "Varian kasta tertinggi dari keluarga XMAX ini kini mendapatkan opsi warna teranyar bernama Avio Blue .",
+        "Ditambah momentum warna Avio Blue jadi bagian dari selera pasar internasional, memperkuat keistimewaan eksistensi XMAX Connected TechMAX ini,” jelasnya."
+      ],
+      "articles": [
+        {
+          "title": "IMOS 2026! Yamaha XMAX Connected TechMAX Hadir dengan Warna Global Avio Blue, Harga Rp 77,4 Jutaan",
+          "url": "https://tmcblog.com/2026/11/21/imos-2026-yamaha-xmax-connected-techmax-hadir-dengan-warna-global-avio-blue-harga-rp-774-jutaan/?utm_source=rss&utm_medium=rss&utm_campaign=imos-2026-yamaha-xmax-connected-techmax-hadir-dengan-warna-global-avio-blue-harga-rp-774-jutaan",
+          "source": "TMC Blog",
+          "published": "2026-11-21T10:01:09+07:00"
+        }
+      ],
+      "image": "https://cdn.tmcblog.com/2026/11/xmax-3.avif",
+      "highlight": false,
+      "detail": {
+        "url": "https://tmcblog.com/2026/11/21/imos-2026-yamaha-xmax-connected-techmax-hadir-dengan-warna-global-avio-blue-harga-rp-774-jutaan/?utm_source=rss&utm_medium=rss&utm_campaign=imos-2026-yamaha-xmax-connected-techmax-hadir-dengan-warna-global-avio-blue-harga-rp-774-jutaan",
+        "intro": "Bertepatan dengan hari pembukaan Indonesia Motorcycle Show (IMOS) 2026 di ICE BSD City, Tangerang, pada Jumat 20 November 2026 ini, PT Yamaha Indonesia Motor Manufacturing (YIMM) resmi menghadirkan penyegaran warna ( color refresh ) untuk lini skutik premium andalannya, Yamaha XMAX Connected TechMAX . Varian kasta tertinggi dari keluarga XMAX ini kini mendapatkan opsi warna teranyar bernama Avio Blue .",
+        "variants": [
+          {
+            "name": "Connected",
+            "price": 70015000.0,
+            "colors": [
+              {
+                "name": "Metallic Blue",
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Metallic Black",
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Ceramic Grey",
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Elixir Dark Silver",
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Connected TechMAX Avio Blue",
+                "new": null,
+                "image": null
+              }
+            ],
+            "notes": [
+              "Yamaha XMAX Connected (Metallic Blue, Metallic Black, Ceramic Grey, Elixir Dark Silver): Rp 70.015.000"
+            ]
+          },
+          {
+            "name": "Keyless",
+            "price": 30900000.0,
+            "colors": [],
+            "notes": []
+          }
+        ],
+        "spec_table": {},
+        "loose_colors": [
+          "Avio Blue",
+          "Detail Estetika Avio Blue",
+          "Emas",
+          "Black"
+        ],
+        "n_images": 4,
+        "image_keys": [
+          "xmax 1 xmax 1 1 696x385 avif",
+          "xmax 3 avif",
+          "xmax 1 1 avif",
+          "xmax 2 1 avif"
+        ],
+        "source": "TMC Blog"
+      },
+      "prev_detail": {
+        "name": "Yamaha XMAX 250",
+        "url": "https://www.yamaha-motor.co.id/product/xmax-connected/",
+        "variants": [
+          {
+            "name": "XMAX 250 MAX Special Livery",
+            "price": 70415000.0,
+            "colors": [
+              {
+                "name": "Black MAX",
+                "hex": "#000000",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601211337387306A11348.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "XMAX 250 TECH MAX",
+            "price": 77410000.0,
+            "colors": [
+              {
+                "name": "Avio Blue",
+                "hex": "#2d5076",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112008543591323H80907.png",
+                "new": null
+              },
+              {
+                "name": "Ceramic Grey",
+                "hex": "#999999",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025092412234469028U9058.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "XMAX 250 Connected",
+            "price": 70015000.0,
+            "colors": [
+              {
+                "name": "Metallic Blue",
+                "hex": "#000088",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410361864796E17453.png",
+                "new": null
+              },
+              {
+                "name": "Metallic Black",
+                "hex": "#000000",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410411324315K95315.png",
+                "new": null
+              },
+              {
+                "name": "Ceramic Grey",
+                "hex": "#919191",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410370912244S46425.png",
+                "new": null
+              },
+              {
+                "name": "Elixir Dark Silver",
+                "hex": "#c9c9cd",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410364512389Y58336.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          }
+        ],
+        "spec_table": {
+          "Tipe Mesin": "Liquid Cooled, 4-Stroke, SOHC, 4 Valves",
+          "Volume Silinder": "249.8 cc",
+          "Diameter x Langkah": "70.0 mm X 64.9 mm",
+          "Perbandingan Kompresi": "10.5 : 1",
+          "Daya Maksimum": "16.8kW / 7.000 rpm",
+          "Torsi Maksimum": "24.3 Nm / 5.500 rpm",
+          "Sistem Starter": "Electric Starter",
+          "Sistem Bahan Bakar": "Fuel Injection",
+          "Tipe Kopling": "Dry, Centrifugal Automatic",
+          "Tipe Transmisi": "V-belt Automatic",
+          "Ban Depan": "120/70-15M/C 56P",
+          "Ban Belakang": "140/70-14M/C 62P",
+          "Rem Depan": "Disc Brake",
+          "Rem Belakang": "Disc Brake",
+          "Tipe Rangka": "Backbone",
+          "Suspensi Depan": "Telescopic Fork",
+          "Suspensi Belakang": "Unit Swing",
+          "P x L x T": "2.180 mm x 795 mm x 1.5050 mm",
+          "Jarak Sumbu Roda": "1.540 mm",
+          "Jarak Terendah ke Tanah": "135 mm",
+          "Tinggi Tempat Duduk": "795 mm",
+          "Berat Isi": "184 kg",
+          "Kapasitas Tangki Bensin": "13 L",
+          "Tipe Battery": "GTZ8V",
+          "Tipe Busi": "NGK/ LMAR8A-9",
+          "Sistem Pengapian": "TCI"
+        },
+        "date": "2026-11-20",
+        "source": "official"
+      },
+      "title": "IMOS 2026! Yamaha XMAX Connected TechMAX Hadir dengan Warna Global Avio Blue, Harga Rp 77,4 Jutaan",
+      "previous_release": null
+    },
+    {
+      "id": "7bea3321bf21",
+      "date": "2026-11-21T08:01:25+07:00",
+      "brand": "Suzuki",
+      "model": "Suzuki Burgman Street",
+      "key": "suzuki|burgmanstreet",
+      "ev": false,
+      "specs": {
+        "price": 30900000.0,
+        "engine": "125 cc",
+        "power": "6,2 KW",
+        "torque": "10,2 Nm"
+      },
+      "previous_from_article": {
+        "price": null,
+        "price_delta": null
+      },
+      "compare": [
+        "Sementara itu, urusan jantung pacu masih mengandalkan mesin 125 cc berteknologi Suzuki Eco Performance (SEP) dengan catatan output: Tenaga maksimum: 6,2 kW Torsi puncak: 10,2 Nm Secara teknis, masuknya TFT LCD 4,2 inci, konektivitas smartphone , dan keyless pada skutik 125 cc di angka Rp 30,9 juta OTR Jakarta jelas membuat paket fiturnya terlihat lebih up-to-date dibanding generasi sebelumnya.",
+        "Fitur Konektivitas & Keyless Jadi Sorotan Dari sisi fungsionalitas harian dan teknologi, pembaruan pada Burgman Street ini jelas diarahkan untuk menjawab kebutuhan komuter urban masa kini yang menuntut kepraktisan.",
+        "Panel TFT LCD 4,2 Inci Berwarna: Menggantikan tampilan konvensional, layar ini menyajikan beragam informasi berkendara dengan visual yang lebih modern dan mudah terbaca.",
+        "Nah, kalau menurut sobat Sekalian, dengan harga Rp 30,9 juta dan tambahan TFT serta keyless , apakah Burgman Street ini sudah cukup menggoda?"
+      ],
+      "articles": [
+        {
+          "title": "Suzuki Burgman Street Meluncur di IMOS 2026: Harga Rp 30,9 Juta, Akhirnya Dapat TFT LCD & Keyless!",
+          "url": "https://tmcblog.com/2026/11/21/suzuki-burgman-street-meluncur-di-imos-2026-harga-rp-309-juta-akhirnya-dapat-tft-lcd-keyless/?utm_source=rss&utm_medium=rss&utm_campaign=suzuki-burgman-street-meluncur-di-imos-2026-harga-rp-309-juta-akhirnya-dapat-tft-lcd-keyless",
+          "source": "TMC Blog",
+          "published": "2026-11-21T08:01:25+07:00"
+        }
+      ],
+      "image": "https://cdn.tmcblog.com/2026/11/17951818487509.avif",
+      "highlight": false,
+      "detail": {
+        "url": "https://tmcblog.com/2026/11/21/suzuki-burgman-street-meluncur-di-imos-2026-harga-rp-309-juta-akhirnya-dapat-tft-lcd-keyless/?utm_source=rss&utm_medium=rss&utm_campaign=suzuki-burgman-street-meluncur-di-imos-2026-harga-rp-309-juta-akhirnya-dapat-tft-lcd-keyless",
+        "intro": "Gelaran Indonesia Motorcycle Show (IMOS) 2026 di ICE BSD City, Tangerang (20–29 November 2026) baru saja dibuka dan langsung memunculkan kejutan menarik dari pabrikan berlogo “S”. PT Suzuki Indomobil Sales (SIS) resmi memperkenalkan skutik 125 cc beraroma elegan-modern, Suzuki Burgman Street , dengan banderol Rp 30,9 juta OTR Jakarta .",
+        "variants": [
+          {
+            "name": "Semua tipe",
+            "price": 30900000.0,
+            "colors": [
+              {
+                "name": "Global Avio Blue",
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Saya Memakai Warna Merah",
+                "new": null,
+                "image": null
+              }
+            ],
+            "notes": []
+          }
+        ],
+        "spec_table": {},
+        "loose_colors": [],
+        "n_images": 5,
+        "image_keys": [
+          "17951818263276 17951818263276 696x385 avif",
+          "17951818487509 avif",
+          "17951818263276 avif",
+          "17951818310547 avif",
+          "17951818571350 avif"
+        ],
+        "source": "TMC Blog"
+      },
+      "prev_detail": null,
+      "title": "Suzuki Burgman Street Meluncur di IMOS 2026: Harga Rp 30,9 Juta, Akhirnya Dapat TFT LCD & Keyless!",
+      "previous_release": {
+        "id": "3bf7b8b80850",
+        "date": "2026-04-04T00:01:48+07:00",
+        "model": "Suzuki Burgman Street 125",
+        "specs": {
+          "price": 19400000.0,
+          "engine": "124 cc",
+          "power": "6,2 KW",
+          "torque": "10,2 Nm"
+        },
+        "url": "https://tmcblog.com/2026/04/04/hot-generasi-kedua-suzuki-burgman-street-125-resmi-rilis-pakai-layar-tft-keyless-dan-isi-bbm-nggak-perlu-buka-jok/?utm_source=rss&utm_medium=rss&utm_campaign=hot-generasi-kedua-suzuki-burgman-street-125-resmi-rilis-pakai-layar-tft-keyless-dan-isi-bbm-nggak-perlu-buka-jok",
+        "title": "[HOT] Generasi Kedua Suzuki Burgman Street 125 Resmi Rilis… Pakai Layar TFT, Keyless, Dan Isi BBM Nggak Perlu Buka Jok!"
+      }
+    },
     {
       "id": "a53c8a1bcb24",
       "date": "2026-11-20T17:10:32+07:00",
