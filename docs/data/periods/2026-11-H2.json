@@ -3,10 +3,10 @@
   "label": "16 – 30 November 2026",
   "start": "2026-11-16",
   "end": "2026-11-30",
-  "generated_at": "2026-11-23T04:45:44+07:00",
+  "generated_at": "2026-11-24T09:57:34+07:00",
   "sources": {
     "Iwan Banaran": {
-      "count": 27,
+      "count": 31,
       "method": "feed"
     },
     "Pertamax7": {
@@ -14,11 +14,842 @@
       "method": null
     },
     "TMC Blog": {
-      "count": 32,
+      "count": 38,
       "method": "feed"
     }
   },
   "articles": [
+    {
+      "id": "69af13e52ac6",
+      "title": "Sah! Harga Honda CRF250 Series Resmi Tembus Rp 100 Juta! AHM Ungkap Penyebabnya cak…",
+      "url": "https://iwanbanaran.com/news/sah-harga-honda-crf250-series-resmi-tembus-rp-100-juta-ahm-ungkap-penyebabnya-cak",
+      "source": "Iwan Banaran",
+      "published": "2026-11-24T06:01:10+07:00",
+      "summary": "Iwanbanaran.com – Kangbro… jian bikin geleng-geleng kepala sekaligus mengelus dada tenan ngelihat pergerakan harga motor hobi di Tanah Air! Gimana nggak cak, lini motor petualang andalan PT Astra Honda Motor (AHM), yakni Honda CRF250 Series (CRF250L dan CRF250 Rally), kini resmi menembus angka psikologis di atas Rp 100 juta ! Yup…PT Astra Honda Motor (AHM) resmi menaikkan harga Honda CRF250 Series per November 2026.",
+      "points": [
+        "Gimana nggak cak, lini motor petualang andalan PT Astra Honda Motor (AHM), yakni Honda CRF250 Series (CRF250L dan CRF250 Rally), kini resmi menembus angka psikologis di atas Rp 100 juta.",
+        "Yup…PT Astra Honda Motor (AHM) resmi menaikkan harga Honda CRF250 Series per November 2026.",
+        "Berdasarkan pantauan di situs resmi AHM, harga Honda CRF250 Rally sekarang dipasarkan sebesar Rp 108.080.000 (OTR Jakarta).",
+        "Dengan banderol CRF250L di angka Rp 102,25 juta dan CRF250 Rally tembus Rp 108,08 juta, apakah duo petualang 250cc Honda ini masih menggoda untuk diboyong ke garasi, atau malah bikin kaum mendang-mending langsung lirik moge bekas seken?."
+      ],
+      "summary_by": "auto",
+      "image": "https://cdn.iwanbanaran.com/2017/04/Honda-CRF250-rally_IWB-82.jpg",
+      "brands": [
+        "Honda"
+      ],
+      "countries": [
+        "Indonesia",
+        "Thailand"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Harga & Promo"
+      ],
+      "launch": {
+        "model": "Honda CRF250",
+        "key": "honda|crf250",
+        "specs": {
+          "price": 100000000.0,
+          "engine": "250 cc",
+          "power": null,
+          "torque": null
+        },
+        "ev": false,
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Angka ini melonjak signifikan dibandingkan posisi awal tahun yang masih berada di kisaran Rp 97 jutaan .",
+          "Gimana nggak cak, lini motor petualang andalan PT Astra Honda Motor (AHM), yakni Honda CRF250 Series (CRF250L dan CRF250 Rally), kini resmi menembus angka psikologis di atas Rp 100 juta !",
+          "Bukan lagi sekadar mendekati, CRF250 Rally kini benar-benar telah menembus dan melewati batas psikologis Rp 100 juta !!",
+          "Berdasarkan pantauan di situs resmi AHM, harga Honda CRF250 Rally sekarang dipasarkan sebesar Rp 108.080.000 (OTR Jakarta)."
+        ],
+        "analyzed_at": "2026-11-24T02:57:34",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/sah-harga-honda-crf250-series-resmi-tembus-rp-100-juta-ahm-ungkap-penyebabnya-cak",
+          "intro": "Kangbro… jian bikin geleng-geleng kepala sekaligus mengelus dada tenan ngelihat pergerakan harga motor hobi di Tanah Air! Gimana nggak cak, lini motor petualang andalan PT Astra Honda Motor (AHM), yakni Honda CRF250 Series (CRF250L dan CRF250 Rally), kini resmi menembus angka psikologis di atas Rp 100 juta !",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 100000000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 6,
+          "image_keys": [
+            "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2017 2f03 2fcrf250 rally 3 jpg w 860",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2017 2f04 2fhonda crf250 rally iwb 82 jpg w 1200",
+            "rl https 3a 2f 2fcdn iwanbanaran com 2f2017 2f03 2fiwb crf250 rally 2 jpg w 1100",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2017 2f04 2fhonda crf250 rally iwb 1 jpg w 1200",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2017 2f04 2fhonda crf250 rally iwb 3 jpg w 733"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/breaking-ahm-rilis-new-crf250-rally-2025-edian-makin-sangarrr",
+          "intro": "Cakkk…PT Astra Honda Motor (AHM) menghadirkan motor Adventure Tourer yakni New CRF250 RALLY dan New CRF250L dengan penyematan desain dan fitur baru. Perubahan terbaru ini memberikan sensasi kesenangan berkendara yang semakin sempurna bagi para pecinta motor petualang untuk menaklukkan berbagai kondisi jalan, on road maupun off road…",
+          "variants": [
+            {
+              "name": "Semua tipe",
+              "price": 96539000.0,
+              "colors": [
+                {
+                  "name": "Extreme Red",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 8,
+          "image_keys": [
+            "l https 3a 2f 2fcdn iwanbanaran com 2f2025 2f06 2fhonda crf250 rally3 webp w 860",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2025 2f06 2fhonda crf250 rally2 webp w 1398",
+            "iklan iwanbanaran 728x174p iwb webp",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2025 2f06 2fhonda crf250 rally1 webp w 1488",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2025 2f06 2fhonda crf250 rally5 webp w 1600",
+            "3a 2f 2fcdn iwanbanaran com 2f2025 2f06 2fhonda crf250 rally7 scaled webp w 1600",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2025 2f06 2fhonda crf250 rally4 webp w 1456",
+            " https 3a 2f 2fcdn iwanbanaran com 2f2025 2f06 2fhonda crf250 rally6 webp w 1600"
+          ],
+          "title": "Breaking ! AHM Rilis New CRF250 RALLY 2025….edian Makin Sangarrr",
+          "date": "2025-06-17T00:00:00",
+          "source": "Iwan Banaran"
+        }
+      }
+    },
+    {
+      "id": "ceac8cb0420a",
+      "title": "Sabian Fathul Ilmi Tutup Musim R3 BLU CRU Asia-Pacific 2027 di Posisi 3",
+      "url": "https://tmcblog.com/2026/11/24/sabian-fathul-ilmi-tutup-musim-r3-blu-cru-asia-pacific-2027-di-posisi-3/?utm_source=rss&utm_medium=rss&utm_campaign=sabian-fathul-ilmi-tutup-musim-r3-blu-cru-asia-pacific-2027-di-posisi-3",
+      "source": "TMC Blog",
+      "published": "2026-11-24T00:01:23+07:00",
+      "summary": "TMCBLOG.com – Bro sekalian, kabar menggembirakan kembali datang dari kancah balap internasional yang melibatkan pembalap muda tanah air. Pembalap belia binaan Yamaha Racing Indonesia (YRI) , Sabian Fathul Ilmi , baru saja menuntaskan seri pamungkas atau Putaran 6 R3 BLU CRU Asia-Pacific Championship 2026 di Chang International Circuit, Buriram, Thailand (21–22 November) dengan hasil yang sangat impresif. Tidak tanggung-tanggung, rider yang baru berusia 14 tahun ini berhasil menyapu bersih podium di dua balapan terakhir—meraih kemenangan penuh di Race 1 dan mengamankan Podium 3 di Race 2 .",
+      "points": [
+        "Pembalap belia binaan Yamaha Racing Indonesia (YRI), Sabian Fathul Ilmi, baru saja menuntaskan seri pamungkas atau Putaran 6 R3 BLU CRU Asia-Pacific Championship 2026 di Chang International Circuit, Buriram, Thailand (21–22 November) dengan hasil yang sangat impresif.",
+        "Musim ini di R3 BLU CRU Asia-Pacific Championship memberikan pengalaman berharga buat kemajuan saya di kejuaraan racing internasional,” ungkap Sabian Fathul Ilmi menanggapi hasil positifnya di Buriram.",
+        "Mengunci Peringkat 3 Klasemen Akhir Musim 2026 Tambahan poin maksimal dari seri penutup di Buriram ini otomatis mendongkrak posisi Sabian di tabel klasemen akhir ( final standing point ).",
+        "Dengan bekal mental, race craft, dan jam terbang yang makin matang di level Asia-Pasifik, menarik untuk kita tunggu bagaimana langkah jenjang karir balap Sabian Fathul Ilmi di musim 2027 mendatang."
+      ],
+      "summary_by": "auto",
+      "image": "https://cdn.tmcblog.com/2026/11/Sabian-Fathul-Ilmi-Memenangi-Race-1-Seri-6-R3-BLU-CRU-Asia-Pacific-Championship-2026-1.avif",
+      "brands": [
+        "Yamaha"
+      ],
+      "countries": [
+        "Indonesia",
+        "Thailand"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "ff4de4c4f60b",
+      "title": "Sukses Juara Dunia ke 10…Marquez sindir Rossi, Panasss !!!",
+      "url": "https://iwanbanaran.com/news/sukses-juara-dunia-ke-10-marquez-sindir-rossi-panasss",
+      "source": "Iwan Banaran",
+      "published": "2026-11-23T22:04:25+07:00",
+      "summary": "Iwanbanaran.com – Kangbro… akhirnya sejarah itu terpecahkan juga! Marc Marquez resmi mengunci gelar juara dunia MotoGP 2026 di GP Portugal (Portimao), sekaligus menggenapkan koleksi trofi juaranya menjadi 10 gelar dunia di semua kelas. Tapi yang bikin jagat maya makin panas, ada selipan komentar nyeleneh bernada sindiran halus buat rival lamanya, Valentino Rossi. Wahhh… kayak gimana tuh bunyinya? Monggo kita bedah pelan-pelan cak… Dalam keterangannya pasca memastikan mahkota juara di Portimao, Marc Marquez melontarkan pernyataan ya ng cukup nyelekit sekaligus santai.",
+      "points": [
+        "Marc Marquez resmi mengunci gelar juara dunia MotoGP 2026 di GP Portugal (Portimao), sekaligus menggenapkan koleksi trofi juaranya menjadi 10 gelar dunia di semua kelas.",
+        "Dalam keterangannya pasca memastikan mahkota juara di Portimao, Marc Marquez melontarkan pernyataan ya ng cukup nyelekit sekaligus santai.",
+        "Sejak beberapa konferensi pers sebelumnya, doi sudah menegaskan bahwa gelar juara dunia kali ini sebenarnya tidak akan me ngubah jalan hidup atau masa depannya.",
+        "Angka 10 gelar juara dunia jelas menjadi amunisi baru buat para pendukung Marquez di perdebatan klasik soal jumlah gelar dan status kehebatan lintas generasi, yang selama ini selalu dikaitkan dengan nama besar Valentino Rossi."
+      ],
+      "summary_by": "auto",
+      "image": "https://cdn.iwanbanaran.com/2026/11/marc-marquez-juara-dunia-motogp-2026-10-1200x766.webp",
+      "brands": [],
+      "countries": [
+        "Portugal",
+        "Italia"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Racing & Motorsport"
+      ]
+    },
+    {
+      "id": "07f09878d192",
+      "title": "IMOS 2026 : Yamaha New XMAX 2027 unjuk gigi….dirilis warna Avio Blue !!!",
+      "url": "https://iwanbanaran.com/news/imos-2026-yamaha-new-xmax-2027-unjuk-gigi-dirilis-warna-avio-blue",
+      "source": "Iwan Banaran",
+      "published": "2026-11-23T11:02:32+07:00",
+      "summary": "Iwanbanaran. com – Cakkkk… panggung Indonesia Motorcycle Show (IMOS) 2026 di ICE BSD City, Tangerang, kembali menjadi saksi kejutan segar dari pabrikan garputala! Selain menyegarkan jajaran NMAX, PT Yamaha Indonesia Motor Manufacturing (YIMM) juga resmi meluncurkan warna terbaru untuk kasta tertinggi skutik MAXI andalannya, yakni XMAX Connected TechMAX Avio Blue , tepat pada pembukaan pameran Jumat kemarin..!! Menariknya cak, warna Avio Blue pada XMAX Connected TechMAX ini bukan sekadar kelir baru biasa, melainkan membawa tren warna global MAXI Yamaha yang sebelumnya juga disematkan pada NMAX…",
+      "points": [
+        "Selain menyegarkan jajaran NMAX, PT Yamaha Indonesia Motor Manufacturing (YIMM) juga resmi meluncurkan warna terbaru untuk kasta tertinggi skutik MAXI andalannya, yakni XMAX Connected TechMAX Avio Blue, tepat pada pembukaan pameran Jumat kemarin.",
+        "Menariknya cak, warna Avio Blue pada XMAX Connected TechMAX ini bukan sekadar kelir baru biasa, melainkan membawa tren warna global MAXI Yamaha yang sebelumnya juga disematkan pada NMAX E Avio Blue saat debut di pameran EICMA Milan, Italia, awal November 2026 lalu.",
+        "Ditambah momentum warna Avio Blue jadi bagian dari selera pasar internasional, memperkuat keistimewaan eksistensi XMAX Connected TechMAX ini.",
+        "Urusan dapur pacu, skutik gambot ini mengandalkan mesin Blue Core 250cc liquid cooled, SOHC, 4 katup yang sanggup memuntahkan tenaga maksimal 16,8 kW pada 7.000 rpm dan torsi puncak 24,3 Nm pada 5.500 rpm."
+      ],
+      "summary_by": "auto",
+      "image": "https://cdn.iwanbanaran.com/2026/11/XMAX-Connected-TechMAX-Avio-Blue.webp",
+      "brands": [
+        "Yamaha"
+      ],
+      "countries": [
+        "Indonesia",
+        "Italia"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Event & Komunitas"
+      ],
+      "launch": {
+        "model": "Yamaha XMAX",
+        "key": "yamaha|xmax",
+        "specs": {
+          "price": null,
+          "engine": "250 cc",
+          "power": "16,8 KW",
+          "torque": "24,3 Nm"
+        },
+        "ev": false,
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Menariknya cak, warna Avio Blue pada XMAX Connected TechMAX ini bukan sekadar kelir baru biasa, melainkan membawa tren warna global MAXI Yamaha yang sebelumnya juga disematkan pada NMAX E Avio Blue saat debut di pameran EICMA Milan, Italia, awal November 2026 lalu.",
+          "Ditambah momentum warna Avio Blue jadi bagian dari selera pasar internasional, memperkuat keistimewaan eksistensi XMAX Connected TechMAX ini.",
+          "Ditemani tangki bahan bakar berkapasitas besar 13 liter serta bagasi super lega mencapai 44,9 liter dengan penerangan LED, motor ini jelas siap diajak touring jarak jauh dengan posisi berkendara yang rileks, ditambah dukungan layanan darurat Yamaha Executive Service 24 Jam (YES 24) di nomor 1-500-522."
+        ],
+        "analyzed_at": "2026-11-24T02:57:34",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/imos-2026-yamaha-new-xmax-2027-unjuk-gigi-dirilis-warna-avio-blue",
+          "intro": "Iwanbanaran. com – Cakkkk… panggung Indonesia Motorcycle Show (IMOS) 2026 di ICE BSD City, Tangerang, kembali menjadi saksi kejutan segar dari pabrikan garputala! Selain menyegarkan jajaran NMAX, PT Yamaha Indonesia Motor Manufacturing (YIMM) juga resmi meluncurkan warna terbaru untuk kasta tertinggi skutik MAXI andalannya, yakni XMAX Connected TechMAX Avio Blue , tepat pada pembukaan pameran Jumat kemarin..!!",
+          "variants": [
+            {
+              "name": "Connected",
+              "price": 70015000.0,
+              "colors": [
+                {
+                  "name": "Metallic Blue",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Metallic Black",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Ceramic Grey",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Elixir Dark Silver",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Connected TechMAX Avio Blue",
+                  "new": true,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "XMAX Connected (Metallic Blue, Metallic Black, Ceramic Grey, Elixir Dark Silver): Rp 70.015.000"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Avio Blue",
+            "Blue",
+            "Black"
+          ],
+          "n_images": 4,
+          "image_keys": [
+            " 2fcdn iwanbanaran com 2f2026 2f11 2fxmax connected techmax avio blue webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fnew nmax red 5 webp w 900",
+            "fcdn iwanbanaran com 2f2026 2f11 2fxmax connected techmax avio blue 2 webp w 900"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/penampakan-detil-yamaha-new-xmax-2026-metallic-blue-bubarrr-tenan",
+          "intro": "Cakkk….kemarin adalah sebuah moment bersejarah bagi YIMM karena mereka sukses menelurkan generasi terbaru raja matic 250-nya yakni XMAX 250 terbaru 2026. Diundang langsung ke pabrik Yamaha di Pulogadung….inilah Penampakan detil Yamaha new XMAX 2026 Metallic Blue…Bubarrr tenan !!",
+          "variants": [
+            {
+              "name": "Ultimate",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Blue",
+                  "new": null,
+                  "image": "https://iwanbanaran.com/api/proxy/image/3ec825529c413597.webp?url=https%3A%2F%2Fcdn.iwanbanaran.com%2F2026%2F01%2Fnew-xmax-2026-13.webp&w=860"
+                }
+              ],
+              "notes": [
+                "Ultimate Performance : Dibekali mesin Blue Core 250cc, 4-katup, berpendingin cairan yang mampu menghasilkan tenaga maksimal 16,8 Kw/7000rpm dan torsi 24,3 Nm/5500rpm . Motor ini juga menggunakan teknologi one-piece forged crankshaft yang ringan dan bertenaga, serta fitur Traction Control System (TCS"
+              ]
+            },
+            {
+              "name": "Connected",
+              "price": 68215000.0,
+              "colors": [],
+              "notes": [
+                "XMAX Connected : Rp 68.215.000 (OTR Jakarta) ."
+              ]
+            },
+            {
+              "name": "Tech Max",
+              "price": 75610000.0,
+              "colors": [],
+              "notes": [
+                "XMAX TechMAX : Rp 75.610.000 (OTR Jakarta) ."
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Metallic Blue",
+            "Ceramic Grey",
+            "Metallic Black",
+            "Elixir Dark Silver",
+            "Blue"
+          ],
+          "n_images": 21,
+          "image_keys": [
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 13 webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            " url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 3 webp w 1300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 12 300x172 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 10 300x186 webp w 300",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 1 300x198 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 13 300x167 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 14 300x169 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 17 300x178 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 16 300x170 webp w 300",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 5 300x168 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 15 300x183 webp w 300",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 6 300x171 webp w 300",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 2 300x169 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 19 300x183 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 18 300x189 webp w 300",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 4 300x170 webp w 300",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 7 300x170 webp w 300",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 11 300x198 webp w 300",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2026 2f01 2fnew xmax 2026 9 300x169 webp w 300"
+          ],
+          "title": "Penampakan detil Yamaha new XMAX 2026 Metallic Blue…Bubarrr tenan",
+          "date": "2026-01-16T00:00:00",
+          "source": "Iwan Banaran"
+        },
+        "prev_official": {
+          "name": "Yamaha XMAX 250",
+          "url": "https://www.yamaha-motor.co.id/product/xmax-connected/",
+          "variants": [
+            {
+              "name": "XMAX 250 MAX Special Livery",
+              "price": 70415000.0,
+              "colors": [
+                {
+                  "name": "Black MAX",
+                  "hex": "#000000",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601211337387306A11348.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "XMAX 250 TECH MAX",
+              "price": 77410000.0,
+              "colors": [
+                {
+                  "name": "Avio Blue",
+                  "hex": "#2d5076",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112008543591323H80907.png",
+                  "new": null
+                },
+                {
+                  "name": "Ceramic Grey",
+                  "hex": "#999999",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2025092412234469028U9058.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "XMAX 250 Connected",
+              "price": 70015000.0,
+              "colors": [
+                {
+                  "name": "Metallic Blue",
+                  "hex": "#000088",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410361864796E17453.png",
+                  "new": null
+                },
+                {
+                  "name": "Metallic Black",
+                  "hex": "#000000",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410411324315K95315.png",
+                  "new": null
+                },
+                {
+                  "name": "Ceramic Grey",
+                  "hex": "#919191",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410370912244S46425.png",
+                  "new": null
+                },
+                {
+                  "name": "Elixir Dark Silver",
+                  "hex": "#c9c9cd",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011410364512389Y58336.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Mesin": "Liquid Cooled, 4-Stroke, SOHC, 4 Valves",
+            "Volume Silinder": "249.8 cc",
+            "Diameter x Langkah": "70.0 mm X 64.9 mm",
+            "Perbandingan Kompresi": "10.5 : 1",
+            "Daya Maksimum": "16.8kW / 7.000 rpm",
+            "Torsi Maksimum": "24.3 Nm / 5.500 rpm",
+            "Sistem Starter": "Electric Starter",
+            "Sistem Bahan Bakar": "Fuel Injection",
+            "Tipe Kopling": "Dry, Centrifugal Automatic",
+            "Tipe Transmisi": "V-belt Automatic",
+            "Ban Depan": "120/70-15M/C 56P",
+            "Ban Belakang": "140/70-14M/C 62P",
+            "Rem Depan": "Disc Brake",
+            "Rem Belakang": "Disc Brake",
+            "Tipe Rangka": "Backbone",
+            "Suspensi Depan": "Telescopic Fork",
+            "Suspensi Belakang": "Unit Swing",
+            "P x L x T": "2.180 mm x 795 mm x 1.5050 mm",
+            "Jarak Sumbu Roda": "1.540 mm",
+            "Jarak Terendah ke Tanah": "135 mm",
+            "Tinggi Tempat Duduk": "795 mm",
+            "Berat Isi": "184 kg",
+            "Kapasitas Tangki Bensin": "13 L",
+            "Tipe Battery": "GTZ8V",
+            "Tipe Busi": "NGK/ LMAR8A-9",
+            "Sistem Pengapian": "TCI"
+          },
+          "date": "2026-11-20",
+          "source": "official"
+        },
+        "now_official": null
+      }
+    },
+    {
+      "id": "2a714d80df4a",
+      "title": "MARC MARQUEZ G.O.A.T : GREATEST OF ALL TIME",
+      "url": "https://tmcblog.com/2026/11/23/marc-marquez-g-o-a-t-greatest-of-all-time/?utm_source=rss&utm_medium=rss&utm_campaign=marc-marquez-g-o-a-t-greatest-of-all-time",
+      "source": "TMC Blog",
+      "published": "2026-11-23T06:01:52+07:00",
+      "summary": "TMCBLOG.com – Bro sekalian, sejarah baru kembali terukir di atas aspal sirkuit Autodromo Internacional do Algarve, Portimao, Portugal pada hari Ahad 22 November 2026. Pembalap tim pabrikan Ducati Lenovo Team, Marc Marquez , secara resmi mengunci gelar Juara Dunia MotoGP musim 2026! Meski dalam balapan utama ( Main Race ) Repsol Grand Prix of Portugal #93 “hanya” finis di posisi ke-8 (P8), hasil tersebut sudah lebih dari cukup secara matematis untuk memahkotai dirinya dengan gelar juara dunia kelas premier ke-8 sepanjang kariernya (atau ke-10 di semua kelas Grand Prix).",
+      "points": [
+        "Pembalap tim pabrikan Ducati Lenovo Team, Marc Marquez, secara resmi mengunci gelar Juara Dunia MotoGP musim 2026.",
+        "Dengan torehan 8 gelar kelas utama ini, Marc Marquez resmi menyamai rekor legenda hidup balap motor dunia, Giacomo Agostini.",
+        "Melihat bagaimana perjalanan comeback musim ini yang begitu dramatis, rasanya diskursus mengenai status Marc Marquez sebagai GOAT ( Greatest Of All Time ) di era modern MotoGP semakin sulit terbantahkan.",
+        "Dari titik terendah akibat cedera panjang di masa lalu, bangkit bersama Ducati, hingga membalikkan ketertinggalan 102 poin di musim 2026—rasanya sah jika kita menyematkan label GOAT GREATEST OF ALL TIME pada sosok The Ant of Cervera ini."
+      ],
+      "summary_by": "auto",
+      "image": "https://cdn.tmcblog.com/2026/11/MM93-WorldChampion26-20.avif",
+      "brands": [
+        "Ducati"
+      ],
+      "countries": [
+        "Spanyol",
+        "Portugal",
+        "Italia"
+      ],
+      "categories": [
+        "Racing & Motorsport",
+        "Peluncuran Produk"
+      ]
+    },
+    {
+      "id": "944373fbeb49",
+      "title": "IMOS 2026 : Yamaha New NMAX Turbo 2027 di Rilis…Wahh ijo dan Merahnya Cakep !!",
+      "url": "https://iwanbanaran.com/news/imos-2026-yamaha-new-nmax-turbo-2027-di-rilis-wahh-ijo-dan-merahnya-cakep",
+      "source": "Iwan Banaran",
+      "published": "2026-11-23T06:00:25+07:00",
+      "summary": "Iwanbanaran. com – Cakkkk… panggung Indonesia Motorcycle Show (IMOS) 2026 di ICE BSD, Tangerang kembali dibikin heboh oleh gebrakan pabrikan garputala! Resmi pada pembukaan pameran Jumat kemarin, PT Yamaha Indonesia Motor Mfg. (YIMM) meluncurkan penyegaran warna baru yang super menggoda untuk jajaran skutik andalannya, yakni NMAX “TURBO” dan NMAX NEO . Total ada tiga kelir anyar yang langsung mencuri perhatian mata para pencinta skutik MAXI di Tanah Air, yaitu Matte Green untuk NMAX “TURBO” Series serta Dark Red dan Light Grey untuk NMAX NEO Series.",
+      "points": [
+        "Iwanbanaran. com – Cakkkk… panggung Indonesia Motorcycle Show (IMOS) 2026 di ICE BSD, Tangerang kembali dibikin heboh oleh gebrakan pabrikan garputala.",
+        "Total ada tiga kelir anyar yang langsung mencuri perhatian mata para pencinta skutik MAXI di Tanah Air, yaitu Matte Green untuk NMAX “TURBO” Series serta Dark Red dan Light Grey untuk NMAX NEO Series.",
+        "Di IMOS 2026, kami kembali menyegarkan NMAX ‘TURBO’ dan NMAX NEO dengan menghadirkan Matte Green, Dark Red, dan Light Grey.",
+        "Secara spesifikasi dan fitur, generasi ketiga NMAX ini tetap mempertahankan taringnya sebagai standar skutik premium di kelas 150-160cc."
+      ],
+      "summary_by": "auto",
+      "image": "https://cdn.iwanbanaran.com/2026/11/new-nmax-red-2.webp",
+      "brands": [
+        "Yamaha"
+      ],
+      "countries": [
+        "Indonesia"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Event & Komunitas"
+      ],
+      "launch": {
+        "model": "Yamaha NMAX Turbo",
+        "key": "yamaha|nmaxturbo",
+        "specs": {
+          "price": null,
+          "engine": "160 cc",
+          "power": null,
+          "torque": null
+        },
+        "ev": false,
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Kehadiran trio warna segar ini melengkapi pilihan yang sudah ada sebelumnya supaya sampeyan makin leluasa mengekspresikan gaya berkendaranya di jalanan…!!",
+          "Manager Public Relations, YRA & Community PT Yamaha Indonesia Motor Mfg., Rifki Maulana , menegaskan bahwa pembaruan ini merupakan komitmen Yamaha untuk selalu mengikuti dinamika tren gaya hidup konsumen skutik premium di Indonesia."
+        ],
+        "analyzed_at": "2026-11-24T02:57:34",
+        "full": true,
+        "detail": {
+          "url": "https://iwanbanaran.com/news/imos-2026-yamaha-new-nmax-turbo-2027-di-rilis-wahh-ijo-dan-merahnya-cakep",
+          "intro": "Iwanbanaran. com – Cakkkk… panggung Indonesia Motorcycle Show (IMOS) 2026 di ICE BSD, Tangerang kembali dibikin heboh oleh gebrakan pabrikan garputala! Resmi pada pembukaan pameran Jumat kemarin, PT Yamaha Indonesia Motor Mfg.",
+          "variants": [
+            {
+              "name": "NMAX",
+              "price": null,
+              "colors": [
+                {
+                  "name": "Matte Green",
+                  "new": null,
+                  "image": null
+                },
+                {
+                  "name": "Dark Red",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Light Grey",
+                  "new": true,
+                  "image": null
+                },
+                {
+                  "name": "Matte Blue",
+                  "new": null,
+                  "image": null
+                }
+              ],
+              "notes": [
+                "Last… perpaduan warna Matte Green dengan pelek bronze di varian NMAX “TURBO” menurut IWB pribadi sukses menaikkan aura eksklusif sang skutik ke level berikutnya tanpa perlu repot modifikasi lagi. Nah, dari ketiga warna baru yang mejeng di IMOS 2026 ini, mana nih yang paling masuk selera sampeyan cak"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Matte Green",
+            "Dark Red",
+            "Light Grey",
+            "Blue",
+            "Ceramic Grey",
+            "Black",
+            "White"
+          ],
+          "n_images": 12,
+          "image_keys": [
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fnew nmax red 2 webp w 860",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fnew nmax red 4 webp w 900",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fnew nmax red 5 webp w 900",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "bp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fnew nmax red 6 webp w 900",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fnew nmax hijau 12 748x600 webp w 748",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fnew nmax hijau 11 748x600 webp w 748",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fnew nmax hijau 13 748x600 webp w 748",
+            "s 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fnew nmax hijau 10 768x509 webp w 768",
+            "ps 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fnew nmax grey 11 768x509 webp w 768",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fnew nmax red 1 768x509 webp w 768",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fnew nmax red 3 768x478 webp w 768"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/adu-ganteng-new-pcx-vs-nmax-turbo-pilihan-yang-sulit",
+          "intro": "Cakk….. Akhirnya sesuai dengan permintaan sampeyan, IWB bisa menyodorkan fot 2 skutik yang sedang berkompetisi ketat.",
+          "variants": [
+            {
+              "name": "Turbo",
+              "price": 30000000.0,
+              "colors": [],
+              "notes": [
+                "Kedua motor yang berkompetisi di kelas yang sama, namun keduanya memiliki karakteristik yang sangat berbeda.",
+                "Cakk….. Akhirnya sesuai dengan permintaan sampeyan, IWB bisa menyodorkan fot 2 skutik yang sedang berkompetisi ketat. Siapa lagi kalau bukan New PCX 160 vs Nmax Turbo. Kedua motor yang berkompetisi di kelas yang sama, namun keduanya memiliki karakteristik yang sangat berbeda. Pende",
+                "Seperti yang sampeyan semua tahu, AHM resmi meluncurkan generasi terbaru New PCX Roadsync. Sebuah generasi yang di Racik untuk mencoba menantang eksistensi NMAX Turbo. Mungkin bahasanya terlalu lebay sebab sebenarnya generasi lama pun motor 160 cc Honda ini laris manis. Tidak berlebihan karena Menur"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 25,
+          "image_keys": [
+            "https 3a 2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo2 jpg w 860",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo6 jpg w 1200",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "ttps 3a 2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo1 jpg w 1200",
+            "tps 3a 2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo15 jpg w 1200",
+            " 2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo5 696x392 jpg w 696",
+            " 2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo8 696x392 jpg w 696",
+            " 2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo7 696x392 jpg w 696",
+            " 2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo9 696x420 jpg w 696",
+            "2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo10 696x399 jpg w 696",
+            "2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo11 696x407 jpg w 696",
+            "2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo12 696x407 jpg w 696",
+            "2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo13 324x235 jpg w 324",
+            "2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo14 670x420 jpg w 670",
+            "2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo16 696x409 jpg w 696",
+            "2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo17 696x409 jpg w 696",
+            "2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo18 696x404 jpg w 696",
+            "2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo19 281x420 jpg w 281",
+            "2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo20 281x420 jpg w 281",
+            "2f 2fcdn iwanbanaran com 2f2025 2f01 2fnew pcx vs nmax turbo21 629x420 jpg w 629"
+          ],
+          "title": "Adu ganteng New PCX vs NMax Turbo….pilihan yang sulit",
+          "date": "2025-01-13T00:00:00",
+          "source": "Iwan Banaran"
+        },
+        "prev_official": {
+          "name": "Yamaha NMAX",
+          "url": "https://www.yamaha-motor.co.id/product/nmax-turbo/",
+          "variants": [
+            {
+              "name": "TURBO TECH MAX Ultimate",
+              "price": 46945000.0,
+              "colors": [
+                {
+                  "name": "Ceramic Grey",
+                  "hex": "#999999",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011411065945811R98632.png",
+                  "new": null
+                },
+                {
+                  "name": "Elixir Dark Silver",
+                  "hex": "#c9c9cd",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026011411071096238K87179.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "TURBO TECH MAX Special Livery",
+              "price": 45365000.0,
+              "colors": [
+                {
+                  "name": "Black MAX",
+                  "hex": "#000000",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012114594317543J23731.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "TURBO TECH MAX",
+              "price": 44965000.0,
+              "colors": [
+                {
+                  "name": "Ceramic Grey",
+                  "hex": "#999999",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009075927087S40820.png",
+                  "new": null
+                },
+                {
+                  "name": "Matte Green",
+                  "hex": "#263336",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009083814292U45109.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "TURBO",
+              "price": 39465000.0,
+              "colors": [
+                {
+                  "name": "Ceramic Grey",
+                  "hex": "#999999",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202611200910166442K3825.png",
+                  "new": null
+                },
+                {
+                  "name": "Matte Green",
+                  "hex": "#263336",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009094651189H70694.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Neo S MAX Special Livery",
+              "price": 35955000.0,
+              "colors": [
+                {
+                  "name": "Black MAX",
+                  "hex": "#000000",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020414193854411G50709.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Neo S Version",
+              "price": 35555000.0,
+              "colors": [
+                {
+                  "name": "Matte Blue",
+                  "hex": "#1f3e65",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009124624407H15997.png",
+                  "new": null
+                },
+                {
+                  "name": "Dark Red",
+                  "hex": "#910303",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009132484600X20898.png",
+                  "new": null
+                },
+                {
+                  "name": "White Metalic",
+                  "hex": "#ffffff",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009141144941E70171.png",
+                  "new": null
+                },
+                {
+                  "name": "Black Metalic",
+                  "hex": "#000000",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009143935115W26005.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Neo MAX Special Livery",
+              "price": 34965000.0,
+              "colors": [
+                {
+                  "name": "Black MAX",
+                  "hex": "#000000",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026020414194471194N62487.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Neo Version",
+              "price": 34565000.0,
+              "colors": [
+                {
+                  "name": "Matte Blue",
+                  "hex": "#1f3e65",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202611200914554038H64319.png",
+                  "new": null
+                },
+                {
+                  "name": "Dark Red",
+                  "hex": "#910303",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009151717229O34994.png",
+                  "new": null
+                },
+                {
+                  "name": "White Metalic",
+                  "hex": "#ffffff",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009173299968I52956.png",
+                  "new": null
+                },
+                {
+                  "name": "Black Metalic",
+                  "hex": "#000000",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026112009175188209I56317.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Mesin": "155cc Blue Core, VVA, 4 Valve SOHC + YECVT",
+            "Volume Silinder": "155.09 cc",
+            "Diameter x Langkah": "58 mm x 58.7 mm",
+            "Perbandingan Kompresi": "11.6 : 1",
+            "Daya Maksimum": "11.3 kW / 8000 rpm",
+            "Torsi Maksimum": "14.2 Nm / 6500 rpm",
+            "Sistem Starter": "Electric Starter",
+            "Sistem Bahan Bakar": "Fuel Injection",
+            "Tipe Kopling": "Single Dry Clucth",
+            "Tipe Transmisi": "Automatic",
+            "Tipe Rangka": "Underbone",
+            "Suspensi Depan": "Teleskopic",
+            "Suspensi Belakang": "Unit Swing",
+            "Ban Depan": "110/70 - 13 M/C 48P",
+            "Ban Belakang": "130/70 - 13 M/C 63P",
+            "Rem Depan": "Hydraulic Single Disc Brake",
+            "Rem Belakang": "Hydraulic Single Disc Brake",
+            "P x L x T": "1.935 mm x 740 mm x 1.200 mm",
+            "Jarak Sumbu Roda": "1340 mm",
+            "Jarak Terendah ke Tanah": "125 mm",
+            "Tinggi Tempat Duduk": "770 mm",
+            "Berat Isi": "135 Kg (",
+            "Kapasitas Tangki Bensin": "7.1 L",
+            "Tipe Busi": "NGK/CPR8EA-9",
+            "Sistem Pengapian": "TCI",
+            "Tipe Battery": "YTZ6V/YTZ7V"
+          },
+          "date": "2026-11-20",
+          "source": "official"
+        },
+        "now_official": null
+      }
+    },
+    {
+      "id": "2c4cc272e00c",
+      "title": "Bezzecchi Sapu Bersih Kemenangan di Portugal, Aprilia Sapu Bersih Podium dan pimpin Konstruktor",
+      "url": "https://tmcblog.com/2026/11/23/bezzecchi-sapu-bersih-kemenangan-di-portugal-aprilia-sapu-bersih-podium-dan-pimpin-konstruktor/?utm_source=rss&utm_medium=rss&utm_campaign=bezzecchi-sapu-bersih-kemenangan-di-portugal-aprilia-sapu-bersih-podium-dan-pimpin-konstruktor",
+      "source": "TMC Blog",
+      "published": "2026-11-23T05:23:00+07:00",
+      "summary": "TMCBLOG.com – Bro sekalian, balapan utama (Grand Prix) MotoGP Portugal 2026 di Sirkuit Algarve, Portimao akhirnya rampung digelar. Panggung utama balapan hari Ahad sejatinya menjadi milik pabrikan asal Noale, Aprilia, yang sukses melakukan podium lockout lewat kemenangan dominan Marco Bezzecchi , diikuti oleh Jorge Martin di posisi kedua, dan Raul Fernandez di posisi ketiga.",
+      "points": [
+        "Panggung utama balapan hari Ahad sejatinya menjadi milik pabrikan asal Noale, Aprilia, yang sukses melakukan podium lockout lewat kemenangan dominan Marco Bezzecchi, diikuti oleh Jorge Martin di posisi kedua, dan Raul Fernandez di posisi ketiga.",
+        "Hasil sapu bersih podium (1-2-3) di Portimao ini juga membawa dampak krusial bagi klasemen konstruktor.",
+        "Berkat kemenangan Bezzecchi dan performa solid para pembalap RS-GP, Aprilia kini resmi memimpin puncak Klasemen Konstruktor menjelang seri pamungkas di Valencia.",
+        "Di sisi lain, seri Valencia juga akan menjadi pertaruhan terakhir bagi Aprilia Racing untuk mengunci gelar Juara Dunia Konstruktor 2026, sekaligus menjadi tarian terakhir ( last dance ) bagi era mesin 1000cc di MotoGP sebelum regulasi baru diberlakukan musim depan."
+      ],
+      "summary_by": "auto",
+      "image": "https://cdn.tmcblog.com/2026/11/podium-aprilia.avif",
+      "brands": [
+        "Vespa / Piaggio"
+      ],
+      "countries": [
+        "Portugal",
+        "Italia",
+        "Spanyol"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
     {
       "id": "227f3482da34",
       "title": "Record Rossi Tumbang….Marc Marquez juara dunia MotoGP 2026 !!",
@@ -38,6 +869,34 @@
       "countries": [
         "Portugal",
         "Spanyol"
+      ],
+      "categories": [
+        "Racing & Motorsport",
+        "Peluncuran Produk"
+      ]
+    },
+    {
+      "id": "e6b71dede9e1",
+      "title": "Marc Márquez Juara Dunia MotoGP 2026! . . . Ukir Sejarah Gelar Juara Dunia Grand Prix Ke-10",
+      "url": "https://tmcblog.com/2026/11/22/marc-marquez-juara-dunia-motogp-2026-ukir-sejarah-gelar-juara-dunia-grand-prix-ke-10/?utm_source=rss&utm_medium=rss&utm_campaign=marc-marquez-juara-dunia-motogp-2026-ukir-sejarah-gelar-juara-dunia-grand-prix-ke-10",
+      "source": "TMC Blog",
+      "published": "2026-11-22T21:15:53+07:00",
+      "summary": "TMCBLOG.com – Bro sekalian, sejarah baru kembali tercipta di kelas para raja MotoGP pada hari Ahad, 22 November 2026 ini! Tepat di Sirkuit Internasional Algarve, Portimão, Portugal, Marc Márquez secara resmi mengunci gelar Juara Dunia MotoGP 2026 bersama tim pabrikan Ducati Lenovo Team . Kemenangan ini tidak hanya menjadi pembuktian luar biasa bagi pembalap asal Cervera tersebut, tetapi juga mengantar Ducati mencetak rekor historis di era MotoGP modern: lima gelar Juara Dunia Pembalap secara berturut-turut ( five consecutive Riders’ titles ) dari tiga pembalap yang berbeda! Pencapaian ini…",
+      "points": [
+        "Tepat di Sirkuit Internasional Algarve, Portimão, Portugal, Marc Márquez secara resmi mengunci gelar Juara Dunia MotoGP 2026 bersama tim pabrikan Ducati Lenovo Team.",
+        "Kemenangan ini tidak hanya menjadi pembuktian luar biasa bagi pembalap asal Cervera tersebut, tetapi juga mengantar Ducati mencetak rekor historis di era MotoGP modern: lima gelar Juara Dunia Pembalap secara berturut-turut ( five consecutive Riders’ titles ) dari tiga pembalap yang berbeda.",
+        "Ia sukses mengoleksi total 7 kemenangan Grand Prix (dari 21 seri) dan 10 kemenangan balapan Sprint, hingga akhirnya sukses membalikkan keadaan, memuncaki klasemen, dan mengunci gelar juara dunia di Portimão.",
+        "Dengan hasil ini, Marc Márquez resmi mengoleksi 10 gelar Juara Dunia di semua kelas, dengan 8 di antaranya diraih di kelas premier MotoGP —menjadikannya pembalap tersukses dalam sejarah era MotoGP modern."
+      ],
+      "summary_by": "auto",
+      "image": "https://cdn.tmcblog.com/2026/11/MM93-WorldChampion26-10.avif",
+      "brands": [
+        "Ducati"
+      ],
+      "countries": [
+        "Italia",
+        "Portugal",
+        "Prancis"
       ],
       "categories": [
         "Racing & Motorsport",
@@ -123,6 +982,30 @@
       ]
     },
     {
+      "id": "6ed600034def",
+      "title": "Permutasi Marc Marquez Kunci Gelar Juara Dunia 2026 pasca race Utama MotoGP Portimao 2026",
+      "url": "https://tmcblog.com/2026/11/22/permutasi-marc-marquez-kunci-gelar-juara-dunia-2026-pasca-race-utama-motogp-portimao-2026/?utm_source=rss&utm_medium=rss&utm_campaign=permutasi-marc-marquez-kunci-gelar-juara-dunia-2026-pasca-race-utama-motogp-portimao-2026",
+      "source": "TMC Blog",
+      "published": "2026-11-22T08:01:15+07:00",
+      "summary": "TMCBLOG.com – Sob, Pasca balapan Sprint MotoGP Portimao yang dimenangkan Oleh Bezzecchi dan Marc Crash, Marc Marquez masih memimpin klasemen MotoGP dengan 431 poin dan berjarak 55 Poin dari Jorge martin di P2 serta 62 Poin ke Marco Bezzecchi di P3. Balapan Tinggal 3 kali lagi : Balapan Utama Portimao ( Maksimum 25 Poin ) , Sprint valencia ( maksimum 12 Poin ) dan Balapan Utama Valencia ( Maksimum 25 Poin ).",
+      "points": [
+        "Pasca balapan Sprint MotoGP Portimao yang dimenangkan Oleh Bezzecchi dan Marc Crash, Marc Marquez masih memimpin klasemen MotoGP dengan 431 poin dan berjarak 55 Poin dari Jorge martin di P2 serta 62 Poin ke Marco Bezzecchi di P3.",
+        "Marc Marquez bisa kunci gelar Juara dunia pasca Balapan Utama di Portimao Jika bisa berjarak minimal 37 poin pasca balapan utama Portimao esok ke Martin atau minimal 38 poin pasca balapan utama Portimao esok ke Bezzecchi.",
+        "Sementara itu, variabel penentu utama ada pada selisih poin dengan Jorge Martin Permutasi bisa sobat lihat di tabel atas, pada dasarnya Martin Harus finish Top-2 jika mau hidupkan asa Gelar Juara dunia.",
+        "Jika Martin P2 Balapan Utama esok, Maka Marc Marquez masih bisa menjuarai MotoGP 2026 jika Marc Bisa finish Paling buruk di P14 (2 Poin )."
+      ],
+      "summary_by": "auto",
+      "image": "https://cdn.tmcblog.com/2026/11/marc-marquez5.avif",
+      "brands": [],
+      "countries": [
+        "Portugal",
+        "Spanyol"
+      ],
+      "categories": [
+        "Racing & Motorsport"
+      ]
+    },
+    {
       "id": "2a46471ff6dd",
       "title": "Blak-Blakan…Akhirnya Marquez Buka Suara Soal Crash di Portimao Sprint !!",
       "url": "https://iwanbanaran.com/news/blak-blakan-akhirnya-marquez-buka-suara-soal-crash-di-portimao-sprint",
@@ -144,6 +1027,216 @@
       "categories": [
         "Racing & Motorsport"
       ]
+    },
+    {
+      "id": "cb61c9fb8a35",
+      "title": "Yamaha Grand Filano Hybrid x Von Dutch Hadir di IMOS 2026! Usung Konsep American Hot Rod",
+      "url": "https://tmcblog.com/2026/11/22/yamaha-grand-filano-hybrid-x-von-dutch-hadir-di-imos-2026-usung-konsep-american-hot-rod/?utm_source=rss&utm_medium=rss&utm_campaign=yamaha-grand-filano-hybrid-x-von-dutch-hadir-di-imos-2026-usung-konsep-american-hot-rod",
+      "source": "TMC Blog",
+      "published": "2026-11-22T06:01:58+07:00",
+      "summary": "TMCBLOG.com – Bro sekalian, dunia skuter matik Tanah Air kembali diramaikan dengan langkah segar dari Yamaha Indonesia. Memanfaatkan momentum gelaran Indonesia Motorcycle Show (IMOS) 2026 yang berlangsung pada 20–29 November 2026, PT Yamaha Indonesia Motor Manufacturing (YIMM) resmi memperkenalkan proyek kolaborasi lintas budaya antara Yamaha Grand Filano Hybrid dengan brand lifestyle apparel legendaris asal Amerika Serikat, Von Dutch . Mengusung tajuk “The New Way of Kustom Kulture: Postcard from Every Rides” , kolaborasi ini sejatinya cukup masuk akal secara positioning .",
+      "points": [
+        "Memanfaatkan momentum gelaran Indonesia Motorcycle Show (IMOS) 2026 yang berlangsung pada 20–29 November 2026, PT Yamaha Indonesia Motor Manufacturing (YIMM) resmi memperkenalkan proyek kolaborasi lintas budaya antara Yamaha Grand Filano Hybrid dengan brand lifestyle apparel legendaris asal Amerika Serikat, Von Dutch.",
+        "Sentuhan Tangan Dingin Gashakon dengan Empat Konsep Modifikasi Untuk menerjemahkan kolaborasi ini ke dalam wujud fisik yang nyata, Yamaha dan Von Dutch tidak berjalan sendirian.",
+        "Lahirlah empat konsep modifikasi spesial dengan karakter yang berbeda-beda, namun tetap memiliki satu benang merah utama: American Hot Rod.",
+        "Buat bro sekalian yang berencana mampir ke arena IMOS 2026 hingga 29 November mendatang, unit kolaborasi Yamaha x Von Dutch ini jelas wajib masuk daftar pantauan di booth Yamaha."
+      ],
+      "summary_by": "auto",
+      "image": "https://cdn.tmcblog.com/2026/11/Grand-Filano-Hybrid-x-Von-Dutch-Collaboration_5.avif",
+      "brands": [
+        "Yamaha"
+      ],
+      "countries": [
+        "Indonesia",
+        "Amerika Serikat"
+      ],
+      "categories": [
+        "Peluncuran Produk",
+        "Teknologi & Fitur"
+      ],
+      "launch": {
+        "model": "Yamaha Grand Filano Hybrid x",
+        "key": "yamaha|grandfilanohybridx",
+        "specs": {
+          "price": null,
+          "engine": null,
+          "power": null,
+          "torque": null
+        },
+        "ev": false,
+        "previous_from_article": {
+          "price": null,
+          "price_delta": null
+        },
+        "compare": [
+          "Jika kita bedah lebih detail ubahan visual yang disematkan pada unit kolaborasi ini, beberapa poin menarik langsung mencuri perhatian: Grafis & Pinstriping Khas: Identitas Von Dutch diterjemahkan lewat permainan tipografi ikonik, tarikan garis pinstriping yang presisi, serta grafis bernuansa Retro Racing .",
+          "Sektor utilitas dan estetika juga ditambah lewat pemasangan rak depan dan belakang berwarna putih, serta penyematan lampu tambahan ( foglamp ) berkelir kuning yang membuat tampilannya makin eye-catching ."
+        ],
+        "analyzed_at": "2026-11-24T02:57:34",
+        "full": true,
+        "detail": {
+          "url": "https://tmcblog.com/2026/11/22/yamaha-grand-filano-hybrid-x-von-dutch-hadir-di-imos-2026-usung-konsep-american-hot-rod/?utm_source=rss&utm_medium=rss&utm_campaign=yamaha-grand-filano-hybrid-x-von-dutch-hadir-di-imos-2026-usung-konsep-american-hot-rod",
+          "intro": "Dunia skuter matik Tanah Air kembali diramaikan dengan langkah segar dari Yamaha Indonesia. Memanfaatkan momentum gelaran Indonesia Motorcycle Show (IMOS) 2026 yang berlangsung pada 20–29 November 2026, PT Yamaha Indonesia Motor Manufacturing (YIMM) resmi memperkenalkan proyek kolaborasi lintas budaya antara Yamaha Grand Filano Hybrid dengan brand lifestyle apparel legendaris asal Amerika Serikat, Von Dutch .",
+          "variants": [
+            {
+              "name": "Keyless",
+              "price": 30900000.0,
+              "colors": [],
+              "notes": []
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [],
+          "n_images": 3,
+          "image_keys": [
+            "tch collaboration 5 grand filano hybrid x von dutch collaboration 5 696x385 avif",
+            "grand filano hybrid x von dutch collaboration 5 avif",
+            "grand filano hybrid x von dutch collaboration 8 avif"
+          ]
+        },
+        "prev_detail": {
+          "url": "https://iwanbanaran.com/news/breaking-new-grand-filano-2026-lahir-yamaha-lakukan-attacking-mode",
+          "intro": "Cakkk….Yamaha menggilaaa cakk. Diawal 2026 pabrikan ini sudah terlihat melakukan attacking mode.",
+          "variants": [
+            {
+              "name": "Hybrid Lux",
+              "price": 28795000.0,
+              "colors": [],
+              "notes": [
+                "Penyegaran pada skutik kalcer ini semakin mempertegas identitas Grand Filano Hybrid sebagai skutik yang selalu mampu mendukung gaya para pengendaranya yang fashionable sekaligus mengikuti trend yang terus berkembang. Ditambah dengan desainnya yang ikonik melalui ciri khas Diamond Shape serta lampuny"
+              ]
+            },
+            {
+              "name": "Hybrid Neo",
+              "price": 28315000.0,
+              "colors": [
+                {
+                  "name": "Pink",
+                  "new": null,
+                  "image": "https://iwanbanaran.com/api/proxy/image/5c037d1d0449025b.webp?url=https%3A%2F%2Fcdn.iwanbanaran.com%2F2026%2F01%2FGrand-Filano-Hybrid-Neo-Pink-Mauve.webp&w=1200"
+                },
+                {
+                  "name": "Essential White",
+                  "new": null,
+                  "image": "https://iwanbanaran.com/api/proxy/image/1920170f85c60ee9.webp?url=https%3A%2F%2Fcdn.iwanbanaran.com%2F2026%2F01%2FGrand-Filano-Hybrid-Neo-Essential-White.webp&w=1200"
+                }
+              ],
+              "notes": [
+                "Kedua warna lainnya dari varian Hybrid Neo seperti Pink Mauve dan Essential White juga tidak lupa diberikan sedikit sentuhan penyegaran agar terlihat lebih selaras dan premium serta kesan timeless yang cocok untuk berbagai karakter pengendara. Sentuhan tersebut merupakan list berwarna abu-abu pada b"
+              ]
+            }
+          ],
+          "spec_table": {},
+          "loose_colors": [
+            "Prime Gray",
+            "Greenish Gray",
+            "Pink",
+            "Essential White",
+            "Blue",
+            "Mesin Blue"
+          ],
+          "n_images": 7,
+          "image_keys": [
+            "fcdn iwanbanaran com 2f2026 2f01 2fgrand filano hybrid lux royal iron webp w 860",
+            "iklan iwanbanaran 728x174p iwb webp",
+            "2f 2fcdn iwanbanaran com 2f2026 2f01 2fgrand filano hybrid new color webp w 1563",
+            "wanbanaran com 2f2026 2f01 2fgrand filano hybrid neo essential white webp w 1200",
+            "cdn iwanbanaran com 2f2026 2f01 2fgrand filano hybrid neo prime gray webp w 1200",
+            "cdn iwanbanaran com 2f2026 2f01 2fgrand filano hybrid neo pink mauve webp w 1200",
+            " iwanbanaran com 2f2026 2f01 2fgrand filano hybrid neo greenish gray webp w 1200"
+          ],
+          "title": "Breaking ! New Grand Filano 2026 Lahir…Yamaha lakukan Attacking mode",
+          "date": "2026-01-26T00:00:00",
+          "source": "Iwan Banaran"
+        },
+        "prev_official": {
+          "name": "Yamaha Grand Filano",
+          "url": "https://www.yamaha-motor.co.id/product/grand-filano/",
+          "variants": [
+            {
+              "name": "Hybrid Lux",
+              "price": 29145000.0,
+              "colors": [
+                {
+                  "name": "Royal Iron",
+                  "hex": "#bfd4f0",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601231028034876K13777.png",
+                  "new": null
+                },
+                {
+                  "name": "Magma Black",
+                  "hex": "#2c2324",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310455516358M58371.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            },
+            {
+              "name": "Hybrid Neo",
+              "price": 28665000.0,
+              "colors": [
+                {
+                  "name": "Prime Gray",
+                  "hex": "#afb7c3",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310263681335O86751.png",
+                  "new": null
+                },
+                {
+                  "name": "Greenish Gray",
+                  "hex": "#afcccf",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310255191745O23444.png",
+                  "new": null
+                },
+                {
+                  "name": "Pink Mauve",
+                  "hex": "#cba49f",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310255677911L16899.png",
+                  "new": null
+                },
+                {
+                  "name": "Essential White",
+                  "hex": "#ffffff",
+                  "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310261915448E14156.png",
+                  "new": null
+                }
+              ],
+              "notes": []
+            }
+          ],
+          "spec_table": {
+            "Tipe Mesin": "Pendingin Udara, 4-Langkah, SOHC",
+            "Diameter x Langkah": "52,4 x 57,9 mm",
+            "Perbandingan Kompresi": "11,0 : 1",
+            "Volume Silinder": "124,86 cc",
+            "Daya Maksimum": "6,1 kW / 6.500 rpm",
+            "Torsi Maksimum": "10,4 Nm / 5.000 rpm",
+            "Sistem Bahan Bakar": "Fuel Injection",
+            "Tipe Kopling": "Kopling Sentrifugal, Kering",
+            "Tipe Transmisi": "V-Belt Otomatis",
+            "Sistem Starter": "Elektrik",
+            "Tipe Rangka": "Underbone",
+            "Suspensi Depan": "Teleskopik",
+            "Suspensi Belakang": "Unit Swing",
+            "Ban Depan": "110/70-12 47L",
+            "Ban Belakang": "110/70-12 47L",
+            "Rem Depan": "Rem Cakram",
+            "Rem Belakang": "Rem Tromol",
+            "P x L x T": "1820 x 685 x 1155 mm",
+            "Jarak Sumbu Roda": "1280 mm",
+            "Jarak Terendah ke Tanah": "125 mm",
+            "Tinggi Tempat Duduk": "790 mm",
+            "Berat Isi": "100 Kg",
+            "Kapasitas Tangki Bensin": "4,4 L",
+            "Sistem Pengapian": "TCI",
+            "Tipe Battery": "YTZ6V",
+            "Tipe Busi": "CR6HSA"
+          },
+          "date": "2026-11-13",
+          "source": "official"
+        },
+        "now_official": null
+      }
     },
     {
       "id": "6bbf4617d75c",
@@ -414,7 +1507,7 @@
           "Varian kasta tertinggi dari keluarga XMAX ini kini mendapatkan opsi warna teranyar bernama Avio Blue .",
           "Ditambah momentum warna Avio Blue jadi bagian dari selera pasar internasional, memperkuat keistimewaan eksistensi XMAX Connected TechMAX ini,” jelasnya."
         ],
-        "analyzed_at": "2026-11-22T21:45:44",
+        "analyzed_at": "2026-11-24T02:57:34",
         "full": true,
         "detail": {
           "url": "https://tmcblog.com/2026/11/21/imos-2026-yamaha-xmax-connected-techmax-hadir-dengan-warna-global-avio-blue-harga-rp-774-jutaan/?utm_source=rss&utm_medium=rss&utm_campaign=imos-2026-yamaha-xmax-connected-techmax-hadir-dengan-warna-global-avio-blue-harga-rp-774-jutaan",
@@ -453,12 +1546,6 @@
               "notes": [
                 "Yamaha XMAX Connected (Metallic Blue, Metallic Black, Ceramic Grey, Elixir Dark Silver): Rp 70.015.000"
               ]
-            },
-            {
-              "name": "Keyless",
-              "price": 30900000.0,
-              "colors": [],
-              "notes": []
             }
           ],
           "spec_table": {},
@@ -466,7 +1553,8 @@
             "Avio Blue",
             "Detail Estetika Avio Blue",
             "Emas",
-            "Black"
+            "Black",
+            "Saya Memakai Warna Merah"
           ],
           "n_images": 4,
           "image_keys": [
@@ -625,7 +1713,7 @@
           "Panel TFT LCD 4,2 Inci Berwarna: Menggantikan tampilan konvensional, layar ini menyajikan beragam informasi berkendara dengan visual yang lebih modern dan mudah terbaca.",
           "Nah, kalau menurut sobat Sekalian, dengan harga Rp 30,9 juta dan tambahan TFT serta keyless , apakah Burgman Street ini sudah cukup menggoda?"
         ],
-        "analyzed_at": "2026-11-22T21:45:44",
+        "analyzed_at": "2026-11-24T02:57:34",
         "full": true,
         "detail": {
           "url": "https://tmcblog.com/2026/11/21/suzuki-burgman-street-meluncur-di-imos-2026-harga-rp-309-juta-akhirnya-dapat-tft-lcd-keyless/?utm_source=rss&utm_medium=rss&utm_campaign=suzuki-burgman-street-meluncur-di-imos-2026-harga-rp-309-juta-akhirnya-dapat-tft-lcd-keyless",
@@ -637,11 +1725,6 @@
               "colors": [
                 {
                   "name": "Global Avio Blue",
-                  "new": null,
-                  "image": null
-                },
-                {
-                  "name": "Saya Memakai Warna Merah",
                   "new": null,
                   "image": null
                 }
@@ -888,7 +1971,7 @@
           "price_delta": null
         },
         "compare": [],
-        "analyzed_at": "2026-11-22T21:45:44",
+        "analyzed_at": "2026-11-24T02:57:34",
         "full": true,
         "detail": {
           "url": "https://tmcblog.com/2026/11/20/imos-2026-booth-honda-di-hall-10-hadirkan-7-zona-produk-ada-warna-baru-super-cub-c125-area-test-ride/?utm_source=rss&utm_medium=rss&utm_campaign=imos-2026-booth-honda-di-hall-10-hadirkan-7-zona-produk-ada-warna-baru-super-cub-c125-area-test-ride",
@@ -920,9 +2003,7 @@
             }
           ],
           "spec_table": {},
-          "loose_colors": [
-            "Saya Memakai Warna Merah"
-          ],
+          "loose_colors": [],
           "n_images": 8,
           "image_keys": [
             "17951687641068 17951687641068 696x385 avif",
@@ -984,49 +2065,8 @@
           "Secara umum, tidak ada ubahan dari sisi teknis maupun fitur pada minor change kali ini.",
           "Khusus pada varian “TURBO”, mesin ini dikawinkan dengan teknologi transmisi YECVT ( Yamaha Electric Continuously Variable Transmission ) yang menggantikan sistem roller konvensional."
         ],
-        "analyzed_at": "2026-11-22T21:45:44",
+        "analyzed_at": "2026-11-24T02:57:34",
         "full": true,
-        "detail": {
-          "url": "https://tmcblog.com/2026/11/20/imos-2026-yamaha-resmi-rilis-warna-baru-nmax-turbo-dan-nmax-neo-ada-matte-green/?utm_source=rss&utm_medium=rss&utm_campaign=imos-2026-yamaha-resmi-rilis-warna-baru-nmax-turbo-dan-nmax-neo-ada-matte-green",
-          "intro": "Hari ini bertepatan dengan pembukaan gelaran pameran otomotif roda dua terbesar di penghujung tahun, Indonesia Motorcycle Show (IMOS) 2026 yang bertempat di ICE BSD, Tangerang (20/11), PT Yamaha Indonesia Motor Mfg. (YIMM) langsung tancap gas memberikan penyegaran visual pada salah satu tulang punggung lini MAXI mereka.",
-          "variants": [
-            {
-              "name": "NMAX NEO",
-              "price": null,
-              "colors": [
-                {
-                  "name": "Light Grey",
-                  "new": null,
-                  "image": null
-                }
-              ],
-              "notes": [
-                "Light Grey (Khusus NMAX NEO Series) Masih untuk varian NMAX NEO dan NMAX NEO S, opsi kedua adalah abu-abu muda yang juga menggunakan sentuhan metallic-glossy . Kelir ini menawarkan kesan modern, bersih, dan fungsional, namun tetap mempertahankan aura sporty berkat kilau metaliknya."
-              ]
-            }
-          ],
-          "spec_table": {},
-          "loose_colors": [
-            "Matte Green",
-            "Dark Red",
-            "Light Grey",
-            "Blue",
-            "Ceramic Grey",
-            "Matte Blue",
-            "Black",
-            "White"
-          ],
-          "n_images": 7,
-          "image_keys": [
-            "yamahanmax yamahanmax 696x385 avif",
-            "17951676200570 avif",
-            "17951676256211 avif",
-            "17951676414174 avif",
-            "17951676355893 avif",
-            "17951676309662 avif",
-            "yamahanmax avif"
-          ]
-        },
         "prev_detail": {
           "url": "https://iwanbanaran.com/news/adu-ganteng-new-pcx-vs-nmax-turbo-pilihan-yang-sulit",
           "intro": "Cakk….. Akhirnya sesuai dengan permintaan sampeyan, IWB bisa menyodorkan fot 2 skutik yang sedang berkompetisi ketat.",
@@ -1562,7 +2602,7 @@
           "Tapi kalau dipelototi lebih detail, Suzuki ternyata sudah memberikan sentuhan pembaruan di beberapa titik: Lampu depan kini sudah mengadopsi teknologi LED , nggak lagi bohlam konvensional.",
           "Oh iya, sebagai tambahan informasi, platform mesin V-Twin ini juga dikembangkan Suzuki ke segmen sport touring / adventure lewat sosok Suzuki SV-7GX yang turut melantai di EICMA."
         ],
-        "analyzed_at": "2026-11-22T21:45:44",
+        "analyzed_at": "2026-11-24T02:57:34",
         "full": true,
         "detail": {
           "url": "https://iwanbanaran.com/news/suzuki-unjuk-gigi-rilis-suzuki-sv-7s-versi-2027-sasis-ala-ducati-monster",

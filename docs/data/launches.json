@@ -1,15 +1,109 @@
 {
-  "updated_at": "2026-11-22T21:48:38",
+  "updated_at": "2026-11-24T03:01:21",
   "launches": [
     {
-      "id": "ff84c4dda1bb",
-      "date": "2026-11-21T10:01:09+07:00",
-      "brand": "Yamaha",
-      "model": "Yamaha XMAX Connected TechMAX",
-      "key": "yamaha|xmaxconnectedtechmax",
+      "id": "69af13e52ac6",
+      "date": "2026-11-24T06:01:10+07:00",
+      "brand": "Honda",
+      "model": "Honda CRF250",
+      "key": "honda|crf250",
       "ev": false,
       "specs": {
-        "price": 77400000.0,
+        "price": 100000000.0,
+        "engine": "250 cc",
+        "power": null,
+        "torque": null
+      },
+      "previous_from_article": {
+        "price": null,
+        "price_delta": null
+      },
+      "compare": [
+        "Angka ini melonjak signifikan dibandingkan posisi awal tahun yang masih berada di kisaran Rp 97 jutaan .",
+        "Gimana nggak cak, lini motor petualang andalan PT Astra Honda Motor (AHM), yakni Honda CRF250 Series (CRF250L dan CRF250 Rally), kini resmi menembus angka psikologis di atas Rp 100 juta !",
+        "Bukan lagi sekadar mendekati, CRF250 Rally kini benar-benar telah menembus dan melewati batas psikologis Rp 100 juta !!",
+        "Berdasarkan pantauan di situs resmi AHM, harga Honda CRF250 Rally sekarang dipasarkan sebesar Rp 108.080.000 (OTR Jakarta)."
+      ],
+      "articles": [
+        {
+          "title": "Sah! Harga Honda CRF250 Series Resmi Tembus Rp 100 Juta! AHM Ungkap Penyebabnya cak…",
+          "url": "https://iwanbanaran.com/news/sah-harga-honda-crf250-series-resmi-tembus-rp-100-juta-ahm-ungkap-penyebabnya-cak",
+          "source": "Iwan Banaran",
+          "published": "2026-11-24T06:01:10+07:00"
+        }
+      ],
+      "image": "https://cdn.iwanbanaran.com/2017/04/Honda-CRF250-rally_IWB-82.jpg",
+      "highlight": false,
+      "detail": {
+        "url": "https://iwanbanaran.com/news/sah-harga-honda-crf250-series-resmi-tembus-rp-100-juta-ahm-ungkap-penyebabnya-cak",
+        "intro": "Kangbro… jian bikin geleng-geleng kepala sekaligus mengelus dada tenan ngelihat pergerakan harga motor hobi di Tanah Air! Gimana nggak cak, lini motor petualang andalan PT Astra Honda Motor (AHM), yakni Honda CRF250 Series (CRF250L dan CRF250 Rally), kini resmi menembus angka psikologis di atas Rp 100 juta !",
+        "variants": [
+          {
+            "name": "Semua tipe",
+            "price": 100000000.0,
+            "colors": [],
+            "notes": []
+          }
+        ],
+        "spec_table": {},
+        "loose_colors": [],
+        "n_images": 6,
+        "image_keys": [
+          "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2017 2f03 2fcrf250 rally 3 jpg w 860",
+          "s 3a 2f 2fcdn iwanbanaran com 2f2017 2f04 2fhonda crf250 rally iwb 82 jpg w 1200",
+          "rl https 3a 2f 2fcdn iwanbanaran com 2f2017 2f03 2fiwb crf250 rally 2 jpg w 1100",
+          "iklan iwanbanaran 728x174p iwb webp",
+          "ps 3a 2f 2fcdn iwanbanaran com 2f2017 2f04 2fhonda crf250 rally iwb 1 jpg w 1200",
+          "tps 3a 2f 2fcdn iwanbanaran com 2f2017 2f04 2fhonda crf250 rally iwb 3 jpg w 733"
+        ],
+        "source": "Iwan Banaran"
+      },
+      "prev_detail": {
+        "url": "https://iwanbanaran.com/news/breaking-ahm-rilis-new-crf250-rally-2025-edian-makin-sangarrr",
+        "intro": "Cakkk…PT Astra Honda Motor (AHM) menghadirkan motor Adventure Tourer yakni New CRF250 RALLY dan New CRF250L dengan penyematan desain dan fitur baru. Perubahan terbaru ini memberikan sensasi kesenangan berkendara yang semakin sempurna bagi para pecinta motor petualang untuk menaklukkan berbagai kondisi jalan, on road maupun off road…",
+        "variants": [
+          {
+            "name": "Semua tipe",
+            "price": 96539000.0,
+            "colors": [
+              {
+                "name": "Extreme Red",
+                "new": true,
+                "image": null
+              }
+            ],
+            "notes": []
+          }
+        ],
+        "spec_table": {},
+        "loose_colors": [],
+        "n_images": 8,
+        "image_keys": [
+          "l https 3a 2f 2fcdn iwanbanaran com 2f2025 2f06 2fhonda crf250 rally3 webp w 860",
+          " https 3a 2f 2fcdn iwanbanaran com 2f2025 2f06 2fhonda crf250 rally2 webp w 1398",
+          "iklan iwanbanaran 728x174p iwb webp",
+          " https 3a 2f 2fcdn iwanbanaran com 2f2025 2f06 2fhonda crf250 rally1 webp w 1488",
+          " https 3a 2f 2fcdn iwanbanaran com 2f2025 2f06 2fhonda crf250 rally5 webp w 1600",
+          "3a 2f 2fcdn iwanbanaran com 2f2025 2f06 2fhonda crf250 rally7 scaled webp w 1600",
+          " https 3a 2f 2fcdn iwanbanaran com 2f2025 2f06 2fhonda crf250 rally4 webp w 1456",
+          " https 3a 2f 2fcdn iwanbanaran com 2f2025 2f06 2fhonda crf250 rally6 webp w 1600"
+        ],
+        "title": "Breaking ! AHM Rilis New CRF250 RALLY 2025….edian Makin Sangarrr",
+        "date": "2025-06-17T00:00:00",
+        "source": "artikel"
+      },
+      "title": "Sah! Harga Honda CRF250 Series Resmi Tembus Rp 100 Juta! AHM Ungkap Penyebabnya cak…",
+      "previous_release": null
+    },
+    {
+      "id": "cb61c9fb8a35",
+      "date": "2026-11-22T06:01:58+07:00",
+      "brand": "Yamaha",
+      "model": "Yamaha Grand Filano Hybrid x",
+      "key": "yamaha|grandfilanohybridx",
+      "ev": false,
+      "specs": {
+        "price": null,
         "engine": null,
         "power": null,
         "torque": null
@@ -19,8 +113,163 @@
         "price_delta": null
       },
       "compare": [
+        "Jika kita bedah lebih detail ubahan visual yang disematkan pada unit kolaborasi ini, beberapa poin menarik langsung mencuri perhatian: Grafis & Pinstriping Khas: Identitas Von Dutch diterjemahkan lewat permainan tipografi ikonik, tarikan garis pinstriping yang presisi, serta grafis bernuansa Retro Racing .",
+        "Sektor utilitas dan estetika juga ditambah lewat pemasangan rak depan dan belakang berwarna putih, serta penyematan lampu tambahan ( foglamp ) berkelir kuning yang membuat tampilannya makin eye-catching ."
+      ],
+      "articles": [
+        {
+          "title": "Yamaha Grand Filano Hybrid x Von Dutch Hadir di IMOS 2026! Usung Konsep American Hot Rod",
+          "url": "https://tmcblog.com/2026/11/22/yamaha-grand-filano-hybrid-x-von-dutch-hadir-di-imos-2026-usung-konsep-american-hot-rod/?utm_source=rss&utm_medium=rss&utm_campaign=yamaha-grand-filano-hybrid-x-von-dutch-hadir-di-imos-2026-usung-konsep-american-hot-rod",
+          "source": "TMC Blog",
+          "published": "2026-11-22T06:01:58+07:00"
+        }
+      ],
+      "image": "https://cdn.tmcblog.com/2026/11/Grand-Filano-Hybrid-x-Von-Dutch-Collaboration_5.avif",
+      "highlight": false,
+      "detail": {
+        "url": "https://tmcblog.com/2026/11/22/yamaha-grand-filano-hybrid-x-von-dutch-hadir-di-imos-2026-usung-konsep-american-hot-rod/?utm_source=rss&utm_medium=rss&utm_campaign=yamaha-grand-filano-hybrid-x-von-dutch-hadir-di-imos-2026-usung-konsep-american-hot-rod",
+        "intro": "Dunia skuter matik Tanah Air kembali diramaikan dengan langkah segar dari Yamaha Indonesia. Memanfaatkan momentum gelaran Indonesia Motorcycle Show (IMOS) 2026 yang berlangsung pada 20–29 November 2026, PT Yamaha Indonesia Motor Manufacturing (YIMM) resmi memperkenalkan proyek kolaborasi lintas budaya antara Yamaha Grand Filano Hybrid dengan brand lifestyle apparel legendaris asal Amerika Serikat, Von Dutch .",
+        "variants": [
+          {
+            "name": "Keyless",
+            "price": 30900000.0,
+            "colors": [],
+            "notes": []
+          }
+        ],
+        "spec_table": {},
+        "loose_colors": [],
+        "n_images": 3,
+        "image_keys": [
+          "tch collaboration 5 grand filano hybrid x von dutch collaboration 5 696x385 avif",
+          "grand filano hybrid x von dutch collaboration 5 avif",
+          "grand filano hybrid x von dutch collaboration 8 avif"
+        ],
+        "source": "TMC Blog"
+      },
+      "prev_detail": {
+        "name": "Yamaha Grand Filano",
+        "url": "https://www.yamaha-motor.co.id/product/grand-filano/",
+        "variants": [
+          {
+            "name": "Hybrid Lux",
+            "price": 29145000.0,
+            "colors": [
+              {
+                "name": "Royal Iron",
+                "hex": "#bfd4f0",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/202601231028034876K13777.png",
+                "new": null
+              },
+              {
+                "name": "Magma Black",
+                "hex": "#2c2324",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310455516358M58371.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          },
+          {
+            "name": "Hybrid Neo",
+            "price": 28665000.0,
+            "colors": [
+              {
+                "name": "Prime Gray",
+                "hex": "#afb7c3",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310263681335O86751.png",
+                "new": null
+              },
+              {
+                "name": "Greenish Gray",
+                "hex": "#afcccf",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310255191745O23444.png",
+                "new": null
+              },
+              {
+                "name": "Pink Mauve",
+                "hex": "#cba49f",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310255677911L16899.png",
+                "new": null
+              },
+              {
+                "name": "Essential White",
+                "hex": "#ffffff",
+                "image": "https://www.yamaha-motor.co.id/uploads/products/new_product_model_image/2026012310261915448E14156.png",
+                "new": null
+              }
+            ],
+            "notes": []
+          }
+        ],
+        "spec_table": {
+          "Tipe Mesin": "Pendingin Udara, 4-Langkah, SOHC",
+          "Diameter x Langkah": "52,4 x 57,9 mm",
+          "Perbandingan Kompresi": "11,0 : 1",
+          "Volume Silinder": "124,86 cc",
+          "Daya Maksimum": "6,1 kW / 6.500 rpm",
+          "Torsi Maksimum": "10,4 Nm / 5.000 rpm",
+          "Sistem Bahan Bakar": "Fuel Injection",
+          "Tipe Kopling": "Kopling Sentrifugal, Kering",
+          "Tipe Transmisi": "V-Belt Otomatis",
+          "Sistem Starter": "Elektrik",
+          "Tipe Rangka": "Underbone",
+          "Suspensi Depan": "Teleskopik",
+          "Suspensi Belakang": "Unit Swing",
+          "Ban Depan": "110/70-12 47L",
+          "Ban Belakang": "110/70-12 47L",
+          "Rem Depan": "Rem Cakram",
+          "Rem Belakang": "Rem Tromol",
+          "P x L x T": "1820 x 685 x 1155 mm",
+          "Jarak Sumbu Roda": "1280 mm",
+          "Jarak Terendah ke Tanah": "125 mm",
+          "Tinggi Tempat Duduk": "790 mm",
+          "Berat Isi": "100 Kg",
+          "Kapasitas Tangki Bensin": "4,4 L",
+          "Sistem Pengapian": "TCI",
+          "Tipe Battery": "YTZ6V",
+          "Tipe Busi": "CR6HSA"
+        },
+        "date": "2026-11-13",
+        "source": "official"
+      },
+      "title": "Yamaha Grand Filano Hybrid x Von Dutch Hadir di IMOS 2026! Usung Konsep American Hot Rod",
+      "previous_release": {
+        "id": "8339c72342f9",
+        "date": "2026-01-23T11:45:34+07:00",
+        "model": "Yamaha Grand Filano Hybrid",
+        "specs": {
+          "price": null,
+          "engine": "125 cc",
+          "power": null,
+          "torque": null
+        },
+        "url": "https://tmcblog.com/2026/01/23/yamaha-rilis-warna-baru-grand-filano-hybrid-2026-tampil-makin-kalcer-dengan-pilihan-warna-royal-iron-dan-prime-gray/?utm_source=rss&utm_medium=rss&utm_campaign=yamaha-rilis-warna-baru-grand-filano-hybrid-2026-tampil-makin-kalcer-dengan-pilihan-warna-royal-iron-dan-prime-gray",
+        "title": "Yamaha Rilis Warna Baru Grand Filano Hybrid 2026: Tampil Makin Kalcer dengan Pilihan Warna Royal Iron dan Prime Gray"
+      }
+    },
+    {
+      "id": "ff84c4dda1bb",
+      "date": "2026-11-21T10:01:09+07:00",
+      "brand": "Yamaha",
+      "model": "Yamaha XMAX Connected TechMAX",
+      "key": "yamaha|xmaxconnectedtechmax",
+      "ev": false,
+      "specs": {
+        "price": 77400000.0,
+        "engine": "250 cc",
+        "power": "16,8 KW",
+        "torque": "24,3 Nm"
+      },
+      "previous_from_article": {
+        "price": null,
+        "price_delta": null
+      },
+      "compare": [
         "Varian kasta tertinggi dari keluarga XMAX ini kini mendapatkan opsi warna teranyar bernama Avio Blue .",
-        "Ditambah momentum warna Avio Blue jadi bagian dari selera pasar internasional, memperkuat keistimewaan eksistensi XMAX Connected TechMAX ini,” jelasnya."
+        "Ditambah momentum warna Avio Blue jadi bagian dari selera pasar internasional, memperkuat keistimewaan eksistensi XMAX Connected TechMAX ini,” jelasnya.",
+        "Menariknya cak, warna Avio Blue pada XMAX Connected TechMAX ini bukan sekadar kelir baru biasa, melainkan membawa tren warna global MAXI Yamaha yang sebelumnya juga disematkan pada NMAX E Avio Blue saat debut di pameran EICMA Milan, Italia, awal November 2026 lalu.",
+        "Ditemani tangki bahan bakar berkapasitas besar 13 liter serta bagasi super lega mencapai 44,9 liter dengan penerangan LED, motor ini jelas siap diajak touring jarak jauh dengan posisi berkendara yang rileks, ditambah dukungan layanan darurat Yamaha Executive Service 24 Jam (YES 24) di nomor 1-500-522."
       ],
       "articles": [
         {
@@ -28,6 +277,12 @@
           "url": "https://tmcblog.com/2026/11/21/imos-2026-yamaha-xmax-connected-techmax-hadir-dengan-warna-global-avio-blue-harga-rp-774-jutaan/?utm_source=rss&utm_medium=rss&utm_campaign=imos-2026-yamaha-xmax-connected-techmax-hadir-dengan-warna-global-avio-blue-harga-rp-774-jutaan",
           "source": "TMC Blog",
           "published": "2026-11-21T10:01:09+07:00"
+        },
+        {
+          "title": "IMOS 2026 : Yamaha New XMAX 2027 unjuk gigi….dirilis warna Avio Blue !!!",
+          "url": "https://iwanbanaran.com/news/imos-2026-yamaha-new-xmax-2027-unjuk-gigi-dirilis-warna-avio-blue",
+          "source": "Iwan Banaran",
+          "published": "2026-11-23T11:02:32+07:00"
         }
       ],
       "image": "https://cdn.tmcblog.com/2026/11/xmax-3.avif",
@@ -69,12 +324,6 @@
             "notes": [
               "Yamaha XMAX Connected (Metallic Blue, Metallic Black, Ceramic Grey, Elixir Dark Silver): Rp 70.015.000"
             ]
-          },
-          {
-            "name": "Keyless",
-            "price": 30900000.0,
-            "colors": [],
-            "notes": []
           }
         ],
         "spec_table": {},
@@ -82,7 +331,8 @@
           "Avio Blue",
           "Detail Estetika Avio Blue",
           "Emas",
-          "Black"
+          "Black",
+          "Saya Memakai Warna Merah"
         ],
         "n_images": 4,
         "image_keys": [
@@ -240,11 +490,6 @@
                 "name": "Global Avio Blue",
                 "new": null,
                 "image": null
-              },
-              {
-                "name": "Saya Memakai Warna Merah",
-                "new": null,
-                "image": null
               }
             ],
             "notes": []
@@ -336,9 +581,7 @@
           }
         ],
         "spec_table": {},
-        "loose_colors": [
-          "Saya Memakai Warna Merah"
-        ],
+        "loose_colors": [],
         "n_images": 8,
         "image_keys": [
           "17951687641068 17951687641068 696x385 avif",
@@ -377,7 +620,9 @@
         "Sekilas Tentang Spesifikasi & Fitur Unggulan Sebagaimana yang sudah kita bahas tuntas pada artikel review sebelumnya, NMAX generasi ketiga ini masih mengandalkan dapur pacu Blue Core 155 cc VVA .",
         "Yap, apalagi kalau bukan Yamaha NMAX “TURBO” dan NMAX NEO yang kini hadir dengan tiga opsi kelir baru!",
         "Secara umum, tidak ada ubahan dari sisi teknis maupun fitur pada minor change kali ini.",
-        "Khusus pada varian “TURBO”, mesin ini dikawinkan dengan teknologi transmisi YECVT ( Yamaha Electric Continuously Variable Transmission ) yang menggantikan sistem roller konvensional."
+        "Khusus pada varian “TURBO”, mesin ini dikawinkan dengan teknologi transmisi YECVT ( Yamaha Electric Continuously Variable Transmission ) yang menggantikan sistem roller konvensional.",
+        "Kehadiran trio warna segar ini melengkapi pilihan yang sudah ada sebelumnya supaya sampeyan makin leluasa mengekspresikan gaya berkendaranya di jalanan…!!",
+        "Manager Public Relations, YRA & Community PT Yamaha Indonesia Motor Mfg., Rifki Maulana , menegaskan bahwa pembaruan ini merupakan komitmen Yamaha untuk selalu mengikuti dinamika tren gaya hidup konsumen skutik premium di Indonesia."
       ],
       "articles": [
         {
@@ -385,6 +630,12 @@
           "url": "https://tmcblog.com/2026/11/20/imos-2026-yamaha-resmi-rilis-warna-baru-nmax-turbo-dan-nmax-neo-ada-matte-green/?utm_source=rss&utm_medium=rss&utm_campaign=imos-2026-yamaha-resmi-rilis-warna-baru-nmax-turbo-dan-nmax-neo-ada-matte-green",
           "source": "TMC Blog",
           "published": "2026-11-20T16:47:53+07:00"
+        },
+        {
+          "title": "IMOS 2026 : Yamaha New NMAX Turbo 2027 di Rilis…Wahh ijo dan Merahnya Cakep !!",
+          "url": "https://iwanbanaran.com/news/imos-2026-yamaha-new-nmax-turbo-2027-di-rilis-wahh-ijo-dan-merahnya-cakep",
+          "source": "Iwan Banaran",
+          "published": "2026-11-23T06:00:25+07:00"
         }
       ],
       "image": "https://cdn.tmcblog.com/2026/11/17951676200570.avif",
@@ -582,7 +833,7 @@
         },
         "date": "2026-11-20",
         "source": "official",
-        "intro": "Hari ini bertepatan dengan pembukaan gelaran pameran otomotif roda dua terbesar di penghujung tahun, Indonesia Motorcycle Show (IMOS) 2026 yang bertempat di ICE BSD, Tangerang (20/11), PT Yamaha Indonesia Motor Mfg. (YIMM) langsung tancap gas memberikan penyegaran visual pada salah satu tulang punggung lini MAXI mereka."
+        "intro": "Iwanbanaran. com – Cakkkk… panggung Indonesia Motorcycle Show (IMOS) 2026 di ICE BSD, Tangerang kembali dibikin heboh oleh gebrakan pabrikan garputala! Resmi pada pembukaan pameran Jumat kemarin, PT Yamaha Indonesia Motor Mfg."
       },
       "prev_detail": {
         "name": "Yamaha NMAX",
@@ -778,7 +1029,7 @@
         "date": "2026-11-13",
         "source": "official"
       },
-      "title": "IMOS 2026 : Yamaha Resmi Rilis Warna Baru NMAX “TURBO” dan NMAX NEO, Ada Matte Green!",
+      "title": "IMOS 2026 : Yamaha New NMAX Turbo 2027 di Rilis…Wahh ijo dan Merahnya Cakep !!",
       "previous_release": {
         "id": "9b211fee660b",
         "date": "2026-01-25T06:14:58+07:00",
