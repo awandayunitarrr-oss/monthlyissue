@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T03:01:24",
+  "updated_at": "2026-11-25T00:51:45",
   "launches": [
     {
       "id": "69af13e52ac6",
@@ -449,8 +449,8 @@
       "id": "7bea3321bf21",
       "date": "2026-11-21T08:01:25+07:00",
       "brand": "Suzuki",
-      "model": "Suzuki Burgman Street",
-      "key": "suzuki|burgmanstreet",
+      "model": "Suzuki Burgman Street 125",
+      "key": "suzuki|burgmanstreet125",
       "ev": false,
       "specs": {
         "price": 30900000.0,
@@ -466,7 +466,9 @@
         "Sementara itu, urusan jantung pacu masih mengandalkan mesin 125 cc berteknologi Suzuki Eco Performance (SEP) dengan catatan output: Tenaga maksimum: 6,2 kW Torsi puncak: 10,2 Nm Secara teknis, masuknya TFT LCD 4,2 inci, konektivitas smartphone , dan keyless pada skutik 125 cc di angka Rp 30,9 juta OTR Jakarta jelas membuat paket fiturnya terlihat lebih up-to-date dibanding generasi sebelumnya.",
         "Fitur Konektivitas & Keyless Jadi Sorotan Dari sisi fungsionalitas harian dan teknologi, pembaruan pada Burgman Street ini jelas diarahkan untuk menjawab kebutuhan komuter urban masa kini yang menuntut kepraktisan.",
         "Panel TFT LCD 4,2 Inci Berwarna: Menggantikan tampilan konvensional, layar ini menyajikan beragam informasi berkendara dengan visual yang lebih modern dan mudah terbaca.",
-        "Nah, kalau menurut sobat Sekalian, dengan harga Rp 30,9 juta dan tambahan TFT serta keyless , apakah Burgman Street ini sudah cukup menggoda?"
+        "Nah, kalau menurut sobat Sekalian, dengan harga Rp 30,9 juta dan tambahan TFT serta keyless , apakah Burgman Street ini sudah cukup menggoda?",
+        "Nggak tanggung-tanggung cak, pembaruan yang dibawa kali ini bukan sekadar ganti stiker atau permainan warna saja, melainkan lompatan fitur dan sasis yang bikin sosoknya lebih rupawan.",
+        "Secara visual, aura skutik gambot khas keluarga Burgman kini dibikin lebih tajam dan modern."
       ],
       "articles": [
         {
@@ -474,41 +476,67 @@
           "url": "https://tmcblog.com/2026/11/21/suzuki-burgman-street-meluncur-di-imos-2026-harga-rp-309-juta-akhirnya-dapat-tft-lcd-keyless/?utm_source=rss&utm_medium=rss&utm_campaign=suzuki-burgman-street-meluncur-di-imos-2026-harga-rp-309-juta-akhirnya-dapat-tft-lcd-keyless",
           "source": "TMC Blog",
           "published": "2026-11-21T08:01:25+07:00"
+        },
+        {
+          "title": "IMOS 2027 : Resmi…Suzuki Burgman Street 125 Terbaru Model 2027 gebrak Indonesia !!",
+          "url": "https://iwanbanaran.com/news/imos-2027-resmi-suzuki-burgman-street-125-terbaru-model-2027-gebrak-indonesia",
+          "source": "Iwan Banaran",
+          "published": "2026-11-25T06:15:36+07:00"
         }
       ],
       "image": "https://cdn.tmcblog.com/2026/11/17951818487509.avif",
       "highlight": false,
       "detail": {
-        "url": "https://tmcblog.com/2026/11/21/suzuki-burgman-street-meluncur-di-imos-2026-harga-rp-309-juta-akhirnya-dapat-tft-lcd-keyless/?utm_source=rss&utm_medium=rss&utm_campaign=suzuki-burgman-street-meluncur-di-imos-2026-harga-rp-309-juta-akhirnya-dapat-tft-lcd-keyless",
-        "intro": "Gelaran Indonesia Motorcycle Show (IMOS) 2026 di ICE BSD City, Tangerang (20–29 November 2026) baru saja dibuka dan langsung memunculkan kejutan menarik dari pabrikan berlogo “S”. PT Suzuki Indomobil Sales (SIS) resmi memperkenalkan skutik 125 cc beraroma elegan-modern, Suzuki Burgman Street , dengan banderol Rp 30,9 juta OTR Jakarta .",
+        "url": "https://iwanbanaran.com/news/imos-2027-resmi-suzuki-burgman-street-125-terbaru-model-2027-gebrak-indonesia",
+        "intro": "Kangbro…akhirnyaaa Suzuki resmi meluncurkan generasi terbaru skutik bongsor entry-level andalannya, Suzuki Burgman Street 125 model 2027 , untuk pasar Indonesia cakkk. Nggak tanggung-tanggung cak, pembaruan yang dibawa kali ini bukan sekadar ganti stiker atau permainan warna saja, melainkan lompatan fitur dan sasis yang bikin sosoknya lebih rupawan.",
         "variants": [
           {
-            "name": "Semua tipe",
+            "name": "CBS",
             "price": 30900000.0,
             "colors": [
               {
-                "name": "Global Avio Blue",
+                "name": "Pearl Grace White",
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Metallic Mat Black",
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Metallic Mat Stellar Blue",
                 "new": null,
                 "image": null
               }
             ],
-            "notes": []
+            "notes": [
+              "Di sektor kaki-kaki, Burgman Street 125 2027 mengandalkan suspensi depan teleskopik dan sokbreker tunggal di belakang, dipadu velg 12 inci depan-belakang berbalut ban 90/90-12 serta 100/80-12 . Pengeremannya memakai cakram depan dan tromol belakang yang sudah terintegrasi sistem CBS ( Combined Brake",
+              "Last…Untuk pasar Indonesia, motor ini hadir dalam tiga pilihan kelir elegan yakni Pearl Grace White , Metallic Mat Black No.2 , dan Metallic Mat Stellar Blue , sementara harga tanah air diangka 30,9 jutaan. Nahhh…piye menurut sampeyan cak? Paket lengkap Suzuki Burgman Street 125 2027 dengan layar TF",
+              "Aktifkan JavaScript untuk membaca komentar, atau buka langsung di halaman artikel ini ."
+            ]
           }
         ],
         "spec_table": {},
         "loose_colors": [],
-        "n_images": 5,
+        "n_images": 11,
         "image_keys": [
-          "17951818263276 17951818263276 696x385 avif",
-          "17951818487509 avif",
-          "17951818263276 avif",
-          "17951818310547 avif",
-          "17951818571350 avif"
+          "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fburgman 125 3 webp w 860",
+          "iklan iwanbanaran 728x174p iwb webp",
+          "ebp url https 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fburgman 125 2 webp w 900",
+          "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fburgman 125 9 768x483 webp w 768",
+          "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fburgman 125 8 768x541 webp w 768",
+          "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fburgman 125 7 768x454 webp w 768",
+          "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fburgman 125 6 768x527 webp w 768",
+          "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fburgman 125 5 768x527 webp w 768",
+          "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fburgman 125 4 506x600 webp w 506",
+          "ttps 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fburgman 125 10 768x480 webp w 768",
+          "https 3a 2f 2fcdn iwanbanaran com 2f2026 2f11 2fburgman 125 1 768x550 webp w 768"
         ],
-        "source": "TMC Blog"
+        "source": "Iwan Banaran"
       },
       "prev_detail": null,
-      "title": "Suzuki Burgman Street Meluncur di IMOS 2026: Harga Rp 30,9 Juta, Akhirnya Dapat TFT LCD & Keyless!",
+      "title": "IMOS 2027 : Resmi…Suzuki Burgman Street 125 Terbaru Model 2027 gebrak Indonesia !!",
       "previous_release": {
         "id": "3bf7b8b80850",
         "date": "2026-04-04T00:01:48+07:00",

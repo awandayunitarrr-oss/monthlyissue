@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-24T10:01:24+07:00",
+  "updated_at": "2026-11-25T07:51:45+07:00",
   "periods": [
     {
       "period": "2026-11-H2",
       "label": "16 – 30 November 2026",
       "start": "2026-11-16",
       "end": "2026-11-30",
-      "count": 69,
-      "generated_at": "2026-11-24T09:57:34+07:00",
+      "count": 72,
+      "generated_at": "2026-11-25T07:47:11+07:00",
       "file": "data/periods/2026-11-H2.json"
     },
     {
