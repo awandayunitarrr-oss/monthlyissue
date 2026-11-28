@@ -1,6 +1,239 @@
 {
-  "updated_at": "2026-11-27T00:41:52",
+  "updated_at": "2026-11-28T00:08:54",
   "launches": [
+    {
+      "id": "955e4a46ebc8",
+      "date": "2026-11-26T18:27:33+07:00",
+      "brand": "Honda",
+      "model": "Honda Scoopy",
+      "key": "honda|scoopy",
+      "ev": false,
+      "specs": {
+        "price": 23376000.0,
+        "engine": "110 cc",
+        "power": "6,6 KW",
+        "torque": "9,2 Nm"
+      },
+      "previous_from_article": {
+        "price": null,
+        "price_delta": null
+      },
+      "compare": [
+        "Warna ini melengkapi jajaran kelir sebelumnya seperti Fashion Cream , Fashion Red , dan Fashion Black .",
+        "Secara umum, tidak ada ubahan pada sektor chassis maupun dapur pacu, namun permainan kombinasi warna dan grafis bodi kali ini terlihat cukup segar.",
+        "AHM menghadirkan dua warna baru utama yang mengisi line-up varian Fashion dan Stylish, ditambah penyegaran pada varian Prestige.",
+        "Detail Penyegaran Warna dan Grafis Striping Untuk memudahkan sobat sekalian membedakan ubahan pada masing-masing varian, berikut rincian refreshment -nya: Varian Fashion: Kedatangan warna baru Fashion White yang menonjolkan kesan modern sekaligus stylish ."
+      ],
+      "articles": [
+        {
+          "title": "Warna baru Honda Scoopy Rilis hari ini . . . Stylish Brownnya Retro Banget !",
+          "url": "https://tmcblog.com/2026/11/26/warna-baru-honda-scoopy-rilis-hari-ini-stylish-brownnya-retro-banget/?utm_source=rss&utm_medium=rss&utm_campaign=warna-baru-honda-scoopy-rilis-hari-ini-stylish-brownnya-retro-banget",
+          "source": "TMC Blog",
+          "published": "2026-11-26T18:27:33+07:00"
+        }
+      ],
+      "image": "https://cdn.tmcblog.com/2026/11/new-scoopy-1.avif",
+      "highlight": false,
+      "detail": {
+        "url": "https://tmcblog.com/2026/11/26/warna-baru-honda-scoopy-rilis-hari-ini-stylish-brownnya-retro-banget/?utm_source=rss&utm_medium=rss&utm_campaign=warna-baru-honda-scoopy-rilis-hari-ini-stylish-brownnya-retro-banget",
+        "intro": "PT Astra Honda Motor (AHM) kembali melakukan refreshment atau penyegaran minor pada salah satu line-up skutik paling laris dan ikonik mereka, yakni Honda Scoopy. Kali ini sentuhannya fokus pada sektor livery alias pilihan warna baru dan desain striping bergaya retro yang memang sengaja diracik untuk menguatkan karakter retro-unik khas Scoopy di mata konsumen muda.",
+        "variants": [
+          {
+            "name": "Fashion",
+            "price": null,
+            "colors": [
+              {
+                "name": "Fashion White",
+                "new": true,
+                "image": null
+              },
+              {
+                "name": "Fashion Cream",
+                "new": false,
+                "image": null
+              },
+              {
+                "name": "Fashion Red",
+                "new": false,
+                "image": null
+              },
+              {
+                "name": "Fashion Black",
+                "new": false,
+                "image": null
+              }
+            ],
+            "notes": [
+              "Varian Fashion: Kedatangan warna baru Fashion White yang menonjolkan kesan modern sekaligus stylish . Warna ini melengkapi jajaran kelir sebelumnya seperti Fashion Cream , Fashion Red , dan Fashion Black . Secara grafis, varian Fashion membawa desain striping logo dengan sentuhan yang lebih playful"
+            ]
+          },
+          {
+            "name": "Stylish",
+            "price": null,
+            "colors": [
+              {
+                "name": "Stylish Brown",
+                "new": true,
+                "image": "https://cdn.tmcblog.com/2026/11/stylish-brown.avif"
+              },
+              {
+                "name": "Stylish Beige",
+                "new": true,
+                "image": null
+              },
+              {
+                "name": "Stylish Grey",
+                "new": true,
+                "image": null
+              }
+            ],
+            "notes": [
+              "Varian Stylish: Mendapat tambahan opsi kelir Stylish Brown yang kental dengan nuansa retro klasik, mendampingi Stylish Beige dan Stylish Grey . Ubahan grafisnya mengusung garis minimalis dengan tambahan aksen ornamen bintang di bodi samping untuk mengejar kesan kasual."
+            ]
+          },
+          {
+            "name": "Prestige",
+            "price": null,
+            "colors": [
+              {
+                "name": "Prestige Green",
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Prestige White",
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Prestige Black",
+                "new": null,
+                "image": null
+              }
+            ],
+            "notes": [
+              "Varian Prestige: Varian tertinggi ini tetap mempertahankan ciri khas bodi polos tanpa striping yang hanya mengandalkan emblem timbul Scoopy. Untuk penyegarannya, hadir opsi warna Prestige Green mendampingi Prestige White dan Prestige Black , lengkap dengan kombinasi jok serta aksen dek berwarna coke"
+            ]
+          },
+          {
+            "name": "Smart Key",
+            "price": 24181000.0,
+            "colors": [],
+            "notes": [
+              "Scoopy Stylish | Smart Key | Rp 24.181.000"
+            ]
+          }
+        ],
+        "spec_table": {},
+        "loose_colors": [],
+        "n_images": 7,
+        "image_keys": [
+          "tmc ads 440x110p tmc jpg webp",
+          "new scoopy 1 avif",
+          "new scoopy 2 avif",
+          "stylish brown avif",
+          "prestice green avif",
+          "new scoopy 3 avif",
+          "new scoopy 4 avif"
+        ],
+        "source": "TMC Blog"
+      },
+      "prev_detail": {
+        "url": "https://iwanbanaran.com/news/breaking-honda-resmi-rilis-new-scoopy-2026-makin-juozzzz",
+        "intro": "Cakkk….PT Astra Honda Motor (AHM) menghadirkan penyegaran pada New Honda Scoopy melalui kehadiran warna-warna baru yang semakin stylish. Skutik fashionable ini semakin mengukuhkan predikatnya sebagai trendsetter baru yang mencuri perhatian para pecinta skutik bergaya unik di Tanah Air….",
+        "variants": [
+          {
+            "name": "Fashion",
+            "price": null,
+            "colors": [
+              {
+                "name": "Fashion Black",
+                "new": true,
+                "image": null
+              },
+              {
+                "name": "Fashion Red",
+                "new": true,
+                "image": null
+              },
+              {
+                "name": "Fashion Cream",
+                "new": true,
+                "image": null
+              }
+            ],
+            "notes": [
+              "AHM memberikan dua pilihan tipe yang terbagi dalam tiga varian, masing-masing mempunyai kombinasi warna baru. Pada varian Fashion, hadir empat pilihan warna yang membuat pengendaranya tampil beda. Fashion Black, Fashion Red, Fashion Cream dan Fashion Mint, memberikan nuansa lembut dan modern khas ga"
+            ]
+          },
+          {
+            "name": "Stylish",
+            "price": null,
+            "colors": [
+              {
+                "name": "Stylish Grey",
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Stylish Green",
+                "new": true,
+                "image": null
+              },
+              {
+                "name": "Stylish Beige",
+                "new": true,
+                "image": null
+              }
+            ],
+            "notes": [
+              "Adapun varian Stylish kini hadir dengan tiga pilihan warna memikat, yakni Stylish Grey sebagai warna baru yang elegan, serta Stylish Green dan Stylish Beige, memberikan kesan elegan namun tetap modis."
+            ]
+          },
+          {
+            "name": "Prestige",
+            "price": null,
+            "colors": [
+              {
+                "name": "Prestige Red",
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Prestige Black",
+                "new": null,
+                "image": null
+              },
+              {
+                "name": "Prestige White",
+                "new": null,
+                "image": null
+              }
+            ],
+            "notes": []
+          }
+        ],
+        "spec_table": {},
+        "loose_colors": [],
+        "n_images": 9,
+        "image_keys": [
+          " webp url https 3a 2f 2fcdn iwanbanaran com 2f2025 2f11 2fnew scoopy7 webp w 860",
+          "webp url https 3a 2f 2fcdn iwanbanaran com 2f2025 2f11 2fnew scoopy5 webp w 1322",
+          "iklan iwanbanaran 728x174p iwb webp",
+          "webp url https 3a 2f 2fcdn iwanbanaran com 2f2025 2f11 2fnew scoopy6 webp w 1445",
+          "webp url https 3a 2f 2fcdn iwanbanaran com 2f2025 2f11 2fnew scoopy1 webp w 1220",
+          "webp url https 3a 2f 2fcdn iwanbanaran com 2f2025 2f11 2fnew scoopy2 webp w 1445",
+          "webp url https 3a 2f 2fcdn iwanbanaran com 2f2025 2f11 2fnew scoopy8 webp w 1445",
+          "webp url https 3a 2f 2fcdn iwanbanaran com 2f2025 2f11 2fnew scoopy3 webp w 1426",
+          "webp url https 3a 2f 2fcdn iwanbanaran com 2f2025 2f11 2fnew scoopy4 webp w 1445"
+        ],
+        "title": "Breaking ! Honda Resmi rilis new Scoopy 2026… — Makin juozzzz",
+        "date": "2025-11-13T00:00:00",
+        "source": "artikel"
+      },
+      "title": "Warna baru Honda Scoopy Rilis hari ini . . . Stylish Brownnya Retro Banget !",
+      "previous_release": null
+    },
     {
       "id": "69af13e52ac6",
       "date": "2026-11-24T06:01:10+07:00",
